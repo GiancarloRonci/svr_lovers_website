@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const articoli = (await getCollection('storia')).sort(
   (a, b) => (a.data.data?.valueOf() ?? 0) - (b.data.data?.valueOf() ?? 0)
@@ -16,7 +17,7 @@ const articoli = (await getCollection('storia')).sort(
     {
       articoli.map((a) => (
         <Card
-          href={`/storia/${a.id}/`}
+          href={withBase(`storia/${a.id}/`)}
           title={a.data.title}
           description={a.data.description}
           image={a.data.immagine}

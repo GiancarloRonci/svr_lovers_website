@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import TrailMap from '../../components/TrailMap.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const percorsi = await getCollection('percorsi');
@@ -16,7 +17,7 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href="/percorsi/">&larr; Tutti i percorsi</a>
+  <a href={withBase('percorsi/')}>&larr; Tutti i percorsi</a>
   <h1>{title}</h1>
   <p class="meta">
     {tipo} · {difficolta} · {lunghezzaKm} km · {durata}

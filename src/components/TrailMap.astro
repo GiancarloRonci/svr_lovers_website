@@ -1,15 +1,18 @@
 ---
+import { withBase } from '../lib/url';
+
 interface Props {
   gpx?: string;
   partenza?: { lat: number; lng: number };
 }
 
 const { gpx, partenza } = Astro.props;
+const gpxUrl = gpx ? withBase(gpx) : '';
 ---
 
 <div
   class="trail-map"
-  data-gpx={gpx ?? ''}
+  data-gpx={gpxUrl}
   data-lat={partenza?.lat ?? ''}
   data-lng={partenza?.lng ?? ''}
 >

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const attivita = await getCollection('associazione');
 
@@ -36,7 +37,7 @@ const categorie = ['scacchi', 'bocce', 'dama', 'proiezioni', 'altro'] as const;
           <div class="card-grid">
             {items.map((a) => (
               <Card
-                href={`/associazione/${a.id}/`}
+                href={withBase(`associazione/${a.id}/`)}
                 title={a.data.title}
                 description={a.data.frequenza ?? a.data.description}
                 image={a.data.immagine}

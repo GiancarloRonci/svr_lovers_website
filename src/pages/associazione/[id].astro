@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const attivita = await getCollection('associazione');
@@ -22,7 +23,7 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href="/associazione/">&larr; Tutte le attività</a>
+  <a href={withBase('associazione/')}>&larr; Tutte le attività</a>
   <span class="tag">{etichette[categoria]}</span>
   <h1>{title}</h1>
   {frequenza && <p class="meta">{frequenza}</p>}

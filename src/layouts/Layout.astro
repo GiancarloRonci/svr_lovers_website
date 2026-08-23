@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/url';
+
 interface Props {
   title: string;
   description?: string;
@@ -13,19 +15,19 @@ const { title, description = 'Il paese: storia, percorsi, luoghi ed eventi.' } =
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={withBase('favicon.svg')} />
     <title>{title} · Il Paese</title>
   </head>
   <body>
     <header class="site-header">
       <nav class="nav">
-        <a class="brand" href="/">Il Paese</a>
+        <a class="brand" href={withBase('/')}>Il Paese</a>
         <ul>
-          <li><a href="/storia/">Storia</a></li>
-          <li><a href="/luoghi/">Luoghi</a></li>
-          <li><a href="/percorsi/">Percorsi</a></li>
-          <li><a href="/eventi/">Eventi &amp; Feste</a></li>
-          <li><a href="/associazione/">Associazione Culturale</a></li>
+          <li><a href={withBase('storia/')}>Storia</a></li>
+          <li><a href={withBase('luoghi/')}>Luoghi</a></li>
+          <li><a href={withBase('percorsi/')}>Percorsi</a></li>
+          <li><a href={withBase('eventi/')}>Eventi &amp; Feste</a></li>
+          <li><a href={withBase('associazione/')}>Associazione Culturale</a></li>
         </ul>
       </nav>
     </header>

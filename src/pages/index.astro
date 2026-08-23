@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../lib/url';
 
 const percorsi = (await getCollection('percorsi')).slice(0, 3);
 const eventi = (await getCollection('eventi'))
@@ -24,7 +25,7 @@ const eventi = (await getCollection('eventi'))
       {
         percorsi.map((p) => (
           <Card
-            href={`/percorsi/${p.id}/`}
+            href={withBase(`percorsi/${p.id}/`)}
             title={p.data.title}
             description={p.data.description}
             tag={p.data.tipo}
@@ -41,7 +42,7 @@ const eventi = (await getCollection('eventi'))
       {
         eventi.map((e) => (
           <Card
-            href={`/eventi/${e.id}/`}
+            href={withBase(`eventi/${e.id}/`)}
             title={e.data.title}
             description={e.data.description}
             image={e.data.immagine}

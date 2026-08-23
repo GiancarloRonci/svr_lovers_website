@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const percorsi = await getCollection('percorsi');
 const urbani = percorsi.filter((p) => p.data.tipo === 'urbano');
@@ -17,7 +18,7 @@ const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
     {
       naturalistici.map((p) => (
         <Card
-          href={`/percorsi/${p.id}/`}
+          href={withBase(`percorsi/${p.id}/`)}
           title={p.data.title}
           description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
           image={p.data.immagine}
@@ -31,7 +32,7 @@ const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
     {
       urbani.map((p) => (
         <Card
-          href={`/percorsi/${p.id}/`}
+          href={withBase(`percorsi/${p.id}/`)}
           title={p.data.title}
           description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
           image={p.data.immagine}

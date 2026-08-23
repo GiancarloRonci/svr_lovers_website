@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('storia');
@@ -14,7 +15,7 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href="/storia/">&larr; Tutta la storia</a>
+  <a href={withBase('storia/')}>&larr; Tutta la storia</a>
   <h1>{title}</h1>
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
   <article>

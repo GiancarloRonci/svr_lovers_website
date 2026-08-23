@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const luoghi = await getCollection('luoghi');
 ---
@@ -14,7 +15,7 @@ const luoghi = await getCollection('luoghi');
     {
       luoghi.map((l) => (
         <Card
-          href={`/luoghi/${l.id}/`}
+          href={withBase(`luoghi/${l.id}/`)}
           title={l.data.title}
           description={l.data.description}
           image={l.data.immagine}

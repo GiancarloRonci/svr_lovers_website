@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import TrailMap from '../../components/TrailMap.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const luoghi = await getCollection('luoghi');
@@ -15,7 +16,7 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href="/luoghi/">&larr; Tutti i luoghi</a>
+  <a href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
   <h1>{title}</h1>
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
   {coordinate && <TrailMap partenza={coordinate} />}
