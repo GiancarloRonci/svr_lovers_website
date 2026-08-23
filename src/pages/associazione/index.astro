@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const attivita = await getCollection('associazione');
+
+const etichette: Record<string, string> = {
+  scacchi: 'Scacchi',
+  bocce: 'Bocce',
+  dama: 'Dama',
+  proiezioni: 'Proiezione partite',
+  altro: 'Altre attività',
+};
+
+const categorie = ['scacchi', 'bocce', 'dama', 'proiezioni', 'altro'] as const;
+---
+
+<Layout
+  title="Associazione Culturale"
+  description="Le attività dell'associazione culturale del paese: scacchi, bocce, dama e serate insieme."
+>
+  <h1>Associazione Culturale</h1>
+  <p class="meta">
+    Un punto di ritrovo per la comunità: tornei, sfide e serate condivise attorno alle nostre
+    attività preferite.
+  </p>
+
+  {
+    categorie.map((cat) => {
+      const items = attivita.filter((a) => a.data.categoria === cat);
+      if (items.length === 0) return null;
+      return (
+        <section>
+          <h2>{etichette[cat]}</h2>
+          <div class="card-grid">
+            {items.map((a) => (
+              <Card
+                href={`/associazione/${a.id}/`}
+                title={a.data.title}
+                description={a.data.frequenza ?? a.data.description}
+                image={a.data.immagine}
+              />
+            ))}
+          </div>
+        </section>
+      );
+    })
+  }
+</Layout>

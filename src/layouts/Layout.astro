@@ -1,0 +1,175 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Il paese: storia, percorsi, luoghi ed eventi.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} · Il Paese</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">Il Paese</a>
+        <ul>
+          <li><a href="/storia/">Storia</a></li>
+          <li><a href="/luoghi/">Luoghi</a></li>
+          <li><a href="/percorsi/">Percorsi</a></li>
+          <li><a href="/eventi/">Eventi &amp; Feste</a></li>
+          <li><a href="/associazione/">Associazione Culturale</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {new Date().getFullYear()} Il Paese. Sito realizzato dalla comunità.</p>
+    </footer>
+
+    <style is:global>
+      :root {
+        --color-bg: #fbf9f4;
+        --color-text: #2b2b26;
+        --color-accent: #6b7f3a;
+        --color-accent-dark: #4d5c2a;
+        --color-muted: #6f6b5f;
+        --color-border: #e3ddcd;
+        --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+        --font-heading: Georgia, 'Times New Roman', serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        background: var(--color-bg);
+        color: var(--color-text);
+        line-height: 1.6;
+      }
+
+      h1, h2, h3 { font-family: var(--font-heading); line-height: 1.2; }
+
+      a { color: var(--color-accent-dark); }
+
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      .site-header {
+        border-bottom: 1px solid var(--color-border);
+        background: #fff;
+      }
+
+      .nav {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1rem 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem 1.5rem;
+      }
+
+      .brand {
+        font-family: var(--font-heading);
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--color-text);
+      }
+
+      .nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: var(--color-text);
+        font-size: 0.95rem;
+      }
+
+      .nav a:hover { color: var(--color-accent-dark); }
+
+      .site-footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: var(--color-muted);
+        font-size: 0.9rem;
+        border-top: 1px solid var(--color-border);
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .card {
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        overflow: hidden;
+        background: #fff;
+        text-decoration: none;
+        color: var(--color-text);
+        display: flex;
+        flex-direction: column;
+        transition: box-shadow 0.15s ease, transform 0.15s ease;
+      }
+
+      .card:hover {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        transform: translateY(-2px);
+      }
+
+      .card img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+      }
+
+      .card-body { padding: 1rem; }
+
+      .card-body h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+
+      .card-body p { margin: 0; color: var(--color-muted); font-size: 0.92rem; }
+
+      .tag {
+        display: inline-block;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        background: var(--color-accent);
+        color: #fff;
+        padding: 0.15rem 0.55rem;
+        border-radius: 999px;
+        margin-bottom: 0.5rem;
+      }
+
+      .meta {
+        color: var(--color-muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TrailMap from '../../components/TrailMap.astro';
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const percorsi = await getCollection('percorsi');
+  return percorsi.map((p) => ({ params: { id: p.id }, props: { entry: p } }));
+}
+
+const { entry } = Astro.props;
+const { title, description, tipo, difficolta, lunghezzaKm, durata, dislivello, immagine, gpx, partenza } =
+  entry.data;
+const { Content } = await render(entry);
+---
+
+<Layout title={title} description={description}>
+  <a href="/percorsi/">&larr; Tutti i percorsi</a>
+  <h1>{title}</h1>
+  <p class="meta">
+    {tipo} · {difficolta} · {lunghezzaKm} km · {durata}
+    {dislivello && ` · dislivello ${dislivello}`}
+  </p>
+
+  {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
+
+  {(gpx || partenza) && <TrailMap gpx={gpx} partenza={partenza} />}
+
+  <article>
+    <Content />
+  </article>
+</Layout>

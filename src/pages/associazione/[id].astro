@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const attivita = await getCollection('associazione');
+  return attivita.map((a) => ({ params: { id: a.id }, props: { entry: a } }));
+}
+
+const etichette: Record<string, string> = {
+  scacchi: 'Scacchi',
+  bocce: 'Bocce',
+  dama: 'Dama',
+  proiezioni: 'Proiezione partite',
+  altro: 'Altre attività',
+};
+
+const { entry } = Astro.props;
+const { title, description, categoria, frequenza, immagine } = entry.data;
+const { Content } = await render(entry);
+---
+
+<Layout title={title} description={description}>
+  <a href="/associazione/">&larr; Tutte le attività</a>
+  <span class="tag">{etichette[categoria]}</span>
+  <h1>{title}</h1>
+  {frequenza && <p class="meta">{frequenza}</p>}
+
+  {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
+
+  <article>
+    <Content />
+  </article>
+</Layout>

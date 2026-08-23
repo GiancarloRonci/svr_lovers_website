@@ -1,0 +1,25 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const luoghi = await getCollection('luoghi');
+---
+
+<Layout title="Luoghi" description="Le principali località e attrazioni del paese.">
+  <h1>Luoghi</h1>
+  <p class="meta">Le piazze, i monumenti e gli angoli da non perdere.</p>
+
+  <div class="card-grid">
+    {
+      luoghi.map((l) => (
+        <Card
+          href={`/luoghi/${l.id}/`}
+          title={l.data.title}
+          description={l.data.description}
+          image={l.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const percorsi = await getCollection('percorsi');
+const urbani = percorsi.filter((p) => p.data.tipo === 'urbano');
+const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
+---
+
+<Layout title="Percorsi" description="Percorsi di trekking urbano e naturalistico nel nostro paese.">
+  <h1>Percorsi</h1>
+  <p class="meta">Itinerari a piedi tra il centro storico e la natura circostante.</p>
+
+  <h2>Trekking naturalistico</h2>
+  <div class="card-grid">
+    {
+      naturalistici.map((p) => (
+        <Card
+          href={`/percorsi/${p.id}/`}
+          title={p.data.title}
+          description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
+          image={p.data.immagine}
+        />
+      ))
+    }
+  </div>
+
+  <h2>Trekking urbano</h2>
+  <div class="card-grid">
+    {
+      urbani.map((p) => (
+        <Card
+          href={`/percorsi/${p.id}/`}
+          title={p.data.title}
+          description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
+          image={p.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const articoli = (await getCollection('storia')).sort(
+  (a, b) => (a.data.data?.valueOf() ?? 0) - (b.data.data?.valueOf() ?? 0)
+);
+---
+
+<Layout title="Storia" description="La storia del nostro paese, dalle origini a oggi.">
+  <h1>Storia</h1>
+  <p class="meta">Le vicende, le tradizioni e i personaggi che hanno segnato il paese.</p>
+
+  <div class="card-grid">
+    {
+      articoli.map((a) => (
+        <Card
+          href={`/storia/${a.id}/`}
+          title={a.data.title}
+          description={a.data.description}
+          image={a.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

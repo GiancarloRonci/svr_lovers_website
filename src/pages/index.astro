@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const percorsi = (await getCollection('percorsi')).slice(0, 3);
+const eventi = (await getCollection('eventi'))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 3);
+---
+
+<Layout title="Home">
+  <section class="hero">
+    <h1>Benvenuti a [Nome del Paese]</h1>
+    <p>
+      Storia, luoghi, percorsi di trekking urbano e naturalistico, eventi e vita
+      dell'associazione culturale: tutto quello che rende speciale il nostro paese.
+    </p>
+  </section>
+
+  <section>
+    <h2>Percorsi in evidenza</h2>
+    <div class="card-grid">
+      {
+        percorsi.map((p) => (
+          <Card
+            href={`/percorsi/${p.id}/`}
+            title={p.data.title}
+            description={p.data.description}
+            tag={p.data.tipo}
+            image={p.data.immagine}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section>
+    <h2>Ultimi eventi e feste</h2>
+    <div class="card-grid">
+      {
+        eventi.map((e) => (
+          <Card
+            href={`/eventi/${e.id}/`}
+            title={e.data.title}
+            description={e.data.description}
+            image={e.data.immagine}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <style>
+    .hero {
+      padding: 2rem 0 1rem;
+    }
+    .hero p {
+      max-width: 60ch;
+      color: var(--color-muted);
+      font-size: 1.05rem;
+    }
+  </style>
+</Layout>

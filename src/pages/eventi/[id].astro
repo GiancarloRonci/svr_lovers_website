@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const eventi = await getCollection('eventi');
+  return eventi.map((e) => ({ params: { id: e.id }, props: { entry: e } }));
+}
+
+const { entry } = Astro.props;
+const { title, description, data, immagine, galleria } = entry.data;
+const { Content } = await render(entry);
+---
+
+<Layout title={title} description={description}>
+  <a href="/eventi/">&larr; Tutti gli eventi</a>
+  <h1>{title}</h1>
+  <p class="meta">{data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+
+  {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
+
+  <article>
+    <Content />
+  </article>
+
+  {
+    galleria && galleria.length > 0 && (
+      <section class="gallery">
+        {galleria.map((img) => (
+          <Image src={img} alt={title} width={400} height={300} />
+        ))}
+      </section>
+    )
+  }
+</Layout>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+</style>
