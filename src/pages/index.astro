@@ -27,11 +27,41 @@ const eventi = (await getCollection('eventi'))
         </div>
       )
     }
-    <h1>Benvenuti a [Nome del Paese]</h1>
+    <h1>🌿 SANVITOROMANO.LOVERS</h1>
+    <p class="hero-subtitle">Una community per raccontare e far conoscere San Vito Romano ❤️</p>
     <p>
-      Storia, luoghi, percorsi di trekking urbano e naturalistico, eventi e vita
-      dell'associazione culturale: tutto quello che rende speciale il nostro paese.
+      sanvitoromano.lovers nasce con un obiettivo semplice: far conoscere San Vito
+      Romano il più possibile, raccontandolo attraverso le persone che lo vivono, i
+      suoi luoghi, la sua storia e le sue tradizioni.
     </p>
+    <p>
+      🏘️ Un paese non è fatto soltanto di strade, piazze e monumenti. È fatto di
+      ricordi, tradizioni, natura, cultura, storie e persone. Ed è proprio tutto
+      questo che vogliamo raccogliere e condividere attraverso la nostra community
+      online.
+    </p>
+    <p>
+      L'idea è quella di costruire, poco alla volta, una grande vetrina digitale di
+      San Vito Romano, aperta a tutti: a chi ci vive, a chi ci è cresciuto, a chi è
+      lontano ma continua a sentirlo nel cuore e anche a chi potrebbe scoprirlo per
+      la prima volta grazie ai social.
+    </p>
+    <p>
+      👉 Più siamo, più possiamo raccontare San Vito.<br />
+      👉 Più condividiamo, più possiamo farlo conoscere.
+    </p>
+    <p class="hero-subtitle">Seguiteci e partecipate alla community! ❤️</p>
+    <ul class="social-links">
+      <li>
+        🔵 <a href="https://www.facebook.com/groups/sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </li>
+      <li>
+        📸 <a href="https://www.instagram.com/sanvitoromano.lovers/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </li>
+      <li>
+        🎵 <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </li>
+    </ul>
   </section>
 
   <section>
@@ -96,6 +126,24 @@ const eventi = (await getCollection('eventi'))
       max-width: 60ch;
       color: var(--color-muted);
       font-size: 1.05rem;
+    }
+    .hero-subtitle {
+      font-weight: 600;
+      color: var(--color-text) !important;
+      font-size: 1.15rem !important;
+    }
+    .social-links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0.5rem 0 0;
+    }
+    .social-links a {
+      color: var(--color-text);
+      font-weight: 600;
+      text-decoration: underline;
     }
   </style>
 </Layout>
