@@ -14,6 +14,7 @@ const percorsi = (await getCollection('percorsi')).slice(0, 3);
 const eventi = (await getCollection('eventi'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 3);
+const luoghi = (await getCollection('luoghi')).slice(0, 3);
 ---
 
 <Layout title="Home">
@@ -91,6 +92,22 @@ const eventi = (await getCollection('eventi'))
             title={e.data.title}
             description={e.data.description}
             image={e.data.immagine}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section>
+    <h2>Luoghi da scoprire</h2>
+    <div class="card-grid">
+      {
+        luoghi.map((l) => (
+          <Card
+            href={withBase(`luoghi/${l.id}/`)}
+            title={l.data.title}
+            description={l.data.description}
+            image={l.data.immagine}
           />
         ))
       }
