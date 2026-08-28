@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+const news = (await getCollection('news')).sort(
+  (a, b) => b.data.data.valueOf() - a.data.data.valueOf()
+);
+---
+
+<Layout title="News" description="Le ultime notizie della community.">
+  <h1>News</h1>
+  <p class="meta">Tutte le novità e gli aggiornamenti della community.</p>
+
+  <div class="card-grid">
+    {
+      news.map((n) => (
+        <Card
+          href={withBase(`news/${n.id}/`)}
+          title={n.data.title}
+          description={n.data.description}
+          image={n.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

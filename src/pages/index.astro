@@ -15,6 +15,9 @@ const eventi = (await getCollection('eventi'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 3);
 const luoghi = (await getCollection('luoghi')).slice(0, 3);
+const news = (await getCollection('news'))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 5);
 ---
 
 <Layout title="Home">
@@ -67,6 +70,27 @@ const luoghi = (await getCollection('luoghi')).slice(0, 3);
           🎵 <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">TikTok</a>
         </li>
       </ul>
+
+      <div class="home-news">
+        <h2>Ultime news</h2>
+        <ul class="news-list">
+          {
+            news.map((n) => (
+              <li>
+                <a href={withBase(`news/${n.id}/`)}>{n.data.title}</a>
+                <span class="news-date">
+                  {n.data.data.toLocaleDateString('it-IT', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                  })}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+        <a href={withBase('news/')} class="news-all">Tutte le news &rarr;</a>
+      </div>
     </div>
 
     <aside class="highlights">
@@ -174,6 +198,47 @@ const luoghi = (await getCollection('luoghi')).slice(0, 3);
       color: var(--color-text);
       font-weight: 600;
       text-decoration: underline;
+    }
+    .home-news {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--color-border);
+    }
+    .home-news h2 {
+      font-size: 1.2rem;
+      margin: 0 0 1rem;
+    }
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .news-list li {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0 0.6rem;
+    }
+    .news-list a {
+      color: var(--color-text);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .news-list a:hover {
+      text-decoration: underline;
+    }
+    .news-date {
+      color: var(--color-muted);
+      font-size: 0.85rem;
+    }
+    .news-all {
+      display: inline-block;
+      margin-top: 1.2rem;
+      font-weight: 600;
+      font-size: 0.95rem;
     }
     .highlights {
       display: flex;

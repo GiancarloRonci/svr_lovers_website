@@ -66,4 +66,15 @@ const associazione = defineCollection({
     }),
 });
 
-export const collections = { percorsi, storia, luoghi, eventi, associazione };
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      data: z.coerce.date(),
+      immagine: image().optional(),
+    }),
+});
+
+export const collections = { percorsi, storia, luoghi, eventi, associazione, news };
