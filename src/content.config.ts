@@ -50,6 +50,7 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     title: z.string(),
     description: z.string(),
     immagine: image().optional(),
+    galleria: z.array(image()).optional(),
     coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
   });
 
