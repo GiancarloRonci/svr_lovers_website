@@ -1,0 +1,32 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+
+const eventi = (await getCollection('eventiEn')).sort(
+  (a, b) => b.data.data.valueOf() - a.data.data.valueOf()
+);
+---
+
+<Layout title="Events & Festivals" description="Memories of the town's events and festivals.">
+  <h1>Events &amp; Festivals</h1>
+  <p class="meta">Memories and photos of the community's festivals and initiatives.</p>
+
+  <div class="card-grid">
+    {
+      eventi.map((e) => (
+        <Card
+          href={withBase(`en/eventi/${e.id}/`)}
+          title={e.data.title}
+          description={e.data.data.toLocaleDateString('en-GB', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric',
+          })}
+          image={e.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

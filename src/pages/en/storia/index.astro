@@ -1,0 +1,28 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+
+const articoli = (await getCollection('storiaEn')).sort(
+  (a, b) => (a.data.data?.valueOf() ?? 0) - (b.data.data?.valueOf() ?? 0)
+);
+---
+
+<Layout title="History" description="The history of our town, from its origins to today.">
+  <h1>History</h1>
+  <p class="meta">The events, traditions and figures that have shaped the town.</p>
+
+  <div class="card-grid">
+    {
+      articoli.map((a) => (
+        <Card
+          href={withBase(`en/storia/${a.id}/`)}
+          title={a.data.title}
+          description={a.data.description}
+          image={a.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

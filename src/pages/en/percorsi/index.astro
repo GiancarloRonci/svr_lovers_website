@@ -1,0 +1,49 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+
+const percorsi = await getCollection('percorsiEn');
+const naturali = percorsi.filter((p) => p.data.tipo === 'naturalistico');
+const urbani = percorsi.filter((p) => p.data.tipo === 'urbano');
+
+const difficoltaLabels: Record<string, string> = {
+  facile: 'Easy',
+  medio: 'Medium',
+  difficile: 'Hard',
+};
+---
+
+<Layout title="Trails" description="Urban and nature trekking trails around our town.">
+  <h1>Trails</h1>
+  <p class="meta">Walking routes between the old town and the surrounding countryside.</p>
+
+  <h2>Nature trails</h2>
+  <div class="card-grid">
+    {
+      naturali.map((p) => (
+        <Card
+          href={withBase(`en/percorsi/${p.id}/`)}
+          title={p.data.title}
+          description={`${difficoltaLabels[p.data.difficolta]} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
+          image={p.data.immagine}
+        />
+      ))
+    }
+  </div>
+
+  <h2>Urban trails</h2>
+  <div class="card-grid">
+    {
+      urbani.map((p) => (
+        <Card
+          href={withBase(`en/percorsi/${p.id}/`)}
+          title={p.data.title}
+          description={`${difficoltaLabels[p.data.difficolta]} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
+          image={p.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

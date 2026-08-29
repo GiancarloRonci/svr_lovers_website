@@ -1,0 +1,262 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+const heroImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/hero.*', {
+  eager: true,
+});
+const heroImage = Object.values(heroImages)[0]?.default;
+
+const percorsi = (await getCollection('percorsiEn')).slice(0, 3);
+const eventi = (await getCollection('eventiEn'))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 3);
+const luoghi = (await getCollection('luoghiEn')).slice(0, 3);
+const news = (await getCollection('newsEn'))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 5);
+---
+
+<Layout title="Home">
+  <section class="hero">
+    {
+      heroImage ? (
+        <Image class="hero-image" src={heroImage} alt="The town" width={1600} height={700} />
+      ) : (
+        <div class="hero-placeholder">
+          Add a cover photo at <code>src/assets/hero.jpg</code>
+        </div>
+      )
+    }
+  </section>
+
+  <div class="home-content">
+    <div class="intro">
+      <h1>🌿 SANVITOROMANO.LOVERS</h1>
+      <p class="hero-subtitle">A community telling the story of San Vito Romano ❤️</p>
+      <p>
+        sanvitoromano.lovers was born with a simple goal: to make San Vito Romano
+        known far and wide, telling its story through the people who live it, its
+        places, its history and its traditions.
+      </p>
+      <p>
+        🏘️ A town is not made only of streets, squares and monuments. It is made of
+        memories, traditions, nature, culture, stories and people. And that is
+        exactly what we want to gather and share through our online community.
+      </p>
+      <p>
+        The idea is to build, little by little, a great digital showcase of San
+        Vito Romano, open to everyone: to those who live there, to those who grew
+        up there, to those who are far away but still feel it in their heart, and
+        also to those who might discover it for the first time through social
+        media.
+      </p>
+      <p>
+        👉 The more of us there are, the more we can tell San Vito's story.<br />
+        👉 The more we share, the more we can make it known.
+      </p>
+      <p class="hero-subtitle">Follow us and join the community! ❤️</p>
+      <ul class="social-links">
+        <li>
+          🔵 <a href="https://www.facebook.com/groups/sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </li>
+        <li>
+          📸 <a href="https://www.instagram.com/sanvitoromano.lovers/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </li>
+        <li>
+          🎵 <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </li>
+      </ul>
+
+      <div class="home-news">
+        <h2>Latest news</h2>
+        <ul class="news-list">
+          {
+            news.map((n) => (
+              <li>
+                <a href={withBase(`en/news/${n.id}/`)}>{n.data.title}</a>
+                <span class="news-date">
+                  {n.data.data.toLocaleDateString('en-GB', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                  })}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+        <a href={withBase('en/news/')} class="news-all">All news &rarr;</a>
+      </div>
+    </div>
+
+    <aside class="highlights">
+      <section>
+        <h2>Featured trails</h2>
+        <div class="card-grid">
+          {
+            percorsi.map((p) => (
+              <Card
+                href={withBase(`en/percorsi/${p.id}/`)}
+                title={p.data.title}
+                description={p.data.description}
+                tag={p.data.tipo === 'naturalistico' ? 'nature' : 'urban'}
+                image={p.data.immagine}
+              />
+            ))
+          }
+        </div>
+      </section>
+
+      <section>
+        <h2>Latest events and festivals</h2>
+        <div class="card-grid">
+          {
+            eventi.map((e) => (
+              <Card
+                href={withBase(`en/eventi/${e.id}/`)}
+                title={e.data.title}
+                description={e.data.description}
+                image={e.data.immagine}
+              />
+            ))
+          }
+        </div>
+      </section>
+
+      <section>
+        <h2>Places to discover</h2>
+        <div class="card-grid">
+          {
+            luoghi.map((l) => (
+              <Card
+                href={withBase(`en/luoghi/${l.id}/`)}
+                title={l.data.title}
+                description={l.data.description}
+                image={l.data.immagine}
+              />
+            ))
+          }
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <style>
+    .hero {
+      padding: 2rem 0 1rem;
+    }
+    .hero-image {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-placeholder {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border: 2px dashed var(--color-border);
+      border-radius: 12px;
+      color: var(--color-muted);
+      background: #fff;
+    }
+    .home-content {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    .intro p {
+      max-width: 60ch;
+      color: var(--color-muted);
+      font-size: 1.05rem;
+    }
+    .hero-subtitle {
+      font-weight: 600;
+      color: var(--color-text) !important;
+      font-size: 1.15rem !important;
+    }
+    .social-links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0.5rem 0 0;
+    }
+    .social-links a {
+      color: var(--color-text);
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .home-news {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--color-border);
+    }
+    .home-news h2 {
+      font-size: 1.2rem;
+      margin: 0 0 1rem;
+    }
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .news-list li {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0 0.6rem;
+    }
+    .news-list a {
+      color: var(--color-text);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .news-list a:hover {
+      text-decoration: underline;
+    }
+    .news-date {
+      color: var(--color-muted);
+      font-size: 0.85rem;
+    }
+    .news-all {
+      display: inline-block;
+      margin-top: 1.2rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .highlights {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    .highlights h2 {
+      font-size: 1.2rem;
+    }
+    .highlights .card-grid {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+    }
+    @media (max-width: 800px) {
+      .home-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+  </style>
+</Layout>

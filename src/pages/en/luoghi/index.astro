@@ -1,0 +1,26 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+
+const luoghi = await getCollection('luoghiEn');
+---
+
+<Layout title="Places" description="The main places and attractions of the town.">
+  <h1>Places</h1>
+  <p class="meta">The squares, monuments and corners not to be missed.</p>
+
+  <div class="card-grid">
+    {
+      luoghi.map((l) => (
+        <Card
+          href={withBase(`en/luoghi/${l.id}/`)}
+          title={l.data.title}
+          description={l.data.description}
+          image={l.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

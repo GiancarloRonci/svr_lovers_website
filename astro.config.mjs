@@ -5,4 +5,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://www.sanvitoromanolovers.org',
   base: '/',
+  i18n: {
+    locales: ['it', 'en'],
+    defaultLocale: 'it',
+  },
 });

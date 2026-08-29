@@ -6,29 +6,76 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'Il paese: storia, percorsi, luoghi ed eventi.' } = Astro.props;
+const strings = {
+  it: {
+    brand: 'Il Paese',
+    nav: {
+      news: 'News',
+      storia: 'Storia',
+      luoghi: 'Luoghi',
+      percorsi: 'Percorsi',
+      eventi: 'Eventi & Feste',
+      associazione: 'Associazione Culturale',
+    },
+    defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
+    footer: (year: number) => `© ${year} Il Paese. Sito realizzato dalla comunità.`,
+  },
+  en: {
+    brand: 'The Village',
+    nav: {
+      news: 'News',
+      storia: 'History',
+      luoghi: 'Places',
+      percorsi: 'Trails',
+      eventi: 'Events & Festivals',
+      associazione: 'Cultural Association',
+    },
+    defaultDescription: 'The village: history, trails, places and events.',
+    footer: (year: number) => `© ${year} The Village. Website made by the community.`,
+  },
+} as const;
+
+const lang = Astro.currentLocale === 'en' ? 'en' : 'it';
+const t = strings[lang];
+
+const { title, description = t.defaultDescription } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+let relPath = Astro.url.pathname;
+if (base && relPath.startsWith(base)) relPath = relPath.slice(base.length);
+relPath = relPath.replace(/^\//, '');
+const bare = relPath === 'en' ? '' : relPath.startsWith('en/') ? relPath.slice(3) : relPath;
+
+const itHref = withBase(bare || '/');
+const enHref = withBase(`en/${bare}`);
+const switchHref = lang === 'en' ? itHref : enHref;
+const switchLabel = lang === 'en' ? 'IT' : 'EN';
 ---
 
 <!doctype html>
-<html lang="it">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href={withBase('favicon.svg')} />
-    <title>{title} · Il Paese</title>
+    <link rel="alternate" hreflang="it" href={new URL(itHref, Astro.site)} />
+    <link rel="alternate" hreflang="en" href={new URL(enHref, Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(itHref, Astro.site)} />
+    <title>{title} · {t.brand}</title>
   </head>
   <body>
     <header class="site-header">
       <nav class="nav">
-        <a class="brand" href={withBase('/')}>Il Paese</a>
+        <a class="brand" href={withBase(lang === 'en' ? 'en/' : '/')}>{t.brand}</a>
         <ul>
-          <li><a href={withBase('news/')}>News</a></li>
-          <li><a href={withBase('storia/')}>Storia</a></li>
-          <li><a href={withBase('luoghi/')}>Luoghi</a></li>
-          <li><a href={withBase('percorsi/')}>Percorsi</a></li>
-          <li><a href={withBase('eventi/')}>Eventi &amp; Feste</a></li>
-          <li><a href={withBase('associazione/')}>Associazione Culturale</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/news/' : 'news/')}>{t.nav.news}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/storia/' : 'storia/')}>{t.nav.storia}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/luoghi/' : 'luoghi/')}>{t.nav.luoghi}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/percorsi/' : 'percorsi/')}>{t.nav.percorsi}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/eventi/' : 'eventi/')}>{t.nav.eventi}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/associazione/' : 'associazione/')}>{t.nav.associazione}</a></li>
+          <li><a href={switchHref} class="lang-switch">{switchLabel}</a></li>
         </ul>
       </nav>
     </header>
@@ -38,7 +85,7 @@ const { title, description = 'Il paese: storia, percorsi, luoghi ed eventi.' } =
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {new Date().getFullYear()} Il Paese. Sito realizzato dalla comunità.</p>
+      <p>{t.footer(new Date().getFullYear())}</p>
     </footer>
 
     <style is:global>
@@ -112,6 +159,17 @@ const { title, description = 'Il paese: storia, percorsi, luoghi ed eventi.' } =
       }
 
       .nav a:hover { color: var(--color-accent-dark); }
+
+      .lang-switch {
+        font-weight: 700;
+        border: 1px solid var(--color-border);
+        border-radius: 999px;
+        padding: 0.15rem 0.6rem;
+      }
+
+      .lang-switch:hover {
+        border-color: var(--color-accent-dark);
+      }
 
       .site-footer {
         text-align: center;
