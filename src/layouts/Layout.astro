@@ -9,6 +9,7 @@ interface Props {
 const strings = {
   it: {
     brand: 'Il Paese',
+    home: 'Home Page',
     nav: {
       news: 'News',
       storia: 'Storia',
@@ -22,6 +23,7 @@ const strings = {
   },
   en: {
     brand: 'The Village',
+    home: 'The Village',
     nav: {
       news: 'News',
       storia: 'History',
@@ -67,7 +69,7 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
   <body>
     <header class="site-header">
       <nav class="nav">
-        <a class="brand" href={withBase(lang === 'en' ? 'en/' : '/')}>{t.brand}</a>
+        <a class="brand" href={withBase(lang === 'en' ? 'en/' : '/')}>{t.home}</a>
         <ul>
           <li><a href={withBase(lang === 'en' ? 'en/news/' : 'news/')}>{t.nav.news}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/storia/' : 'storia/')}>{t.nav.storia}</a></li>
