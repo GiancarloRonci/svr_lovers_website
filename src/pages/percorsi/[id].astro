@@ -42,6 +42,12 @@ const fotoResolved = foto
     <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} />
   )}
 
+  {gpx && (
+    <p>
+      <a href={withBase(gpx)} download>&darr; Scarica la traccia GPX</a>
+    </p>
+  )}
+
   <article>
     <Content />
   </article>
