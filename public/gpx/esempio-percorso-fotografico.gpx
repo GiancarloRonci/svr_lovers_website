@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="SVRLovers - percorso di esempio" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Esempio: percorso fotografico</name>
+    <trkseg>
+      <trkpt lat="41.9050" lon="12.4980"></trkpt>
+      <trkpt lat="41.9051" lon="12.4984"></trkpt>
+      <trkpt lat="41.9052" lon="12.4990"></trkpt>
+      <trkpt lat="41.9055" lon="12.4993"></trkpt>
+      <trkpt lat="41.9059" lon="12.4991"></trkpt>
+      <trkpt lat="41.9061" lon="12.4986"></trkpt>
+      <trkpt lat="41.9059" lon="12.4980"></trkpt>
+      <trkpt lat="41.9055" lon="12.4977"></trkpt>
+      <trkpt lat="41.9052" lon="12.4978"></trkpt>
+      <trkpt lat="41.9050" lon="12.4980"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

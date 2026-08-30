@@ -15,6 +15,16 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     partenza: z
       .object({ lat: z.number(), lng: z.number() })
       .optional(),
+    foto: z
+      .array(
+        z.object({
+          lat: z.number(),
+          lng: z.number(),
+          immagine: image(),
+          didascalia: z.string().optional(),
+        })
+      )
+      .optional(),
   });
 
 const percorsi = defineCollection({

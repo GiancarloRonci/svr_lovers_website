@@ -1,13 +1,22 @@
 ---
 import { withBase } from '../lib/url';
 
+interface FotoPunto {
+  lat: number;
+  lng: number;
+  src: string;
+  didascalia?: string;
+}
+
 interface Props {
   gpx?: string;
   partenza?: { lat: number; lng: number };
+  foto?: FotoPunto[];
 }
 
-const { gpx, partenza } = Astro.props;
+const { gpx, partenza, foto } = Astro.props;
 const gpxUrl = gpx ? withBase(gpx) : '';
+const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 ---
 
 <div
@@ -15,6 +24,7 @@ const gpxUrl = gpx ? withBase(gpx) : '';
   data-gpx={gpxUrl}
   data-lat={partenza?.lat ?? ''}
   data-lng={partenza?.lng ?? ''}
+  data-foto={fotoJson}
 >
 </div>
 
@@ -27,11 +37,81 @@ const gpxUrl = gpx ? withBase(gpx) : '';
     border: 1px solid var(--color-border);
     background: #eee;
   }
+
+  :global(.photo-marker-icon) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+    background: #fff;
+    border: 2px solid #6b7f3a;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  }
+
+  :global(.photo-popup) {
+    max-width: 200px;
+  }
+
+  :global(.photo-popup img) {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 0.35rem;
+  }
+
+  :global(.photo-popup .caption) {
+    font-size: 0.85rem;
+    color: #333;
+  }
 </style>
 
 <script>
   import L from 'leaflet';
   import 'leaflet/dist/leaflet.css';
+
+  interface FotoPunto {
+    lat: number;
+    lng: number;
+    src: string;
+    didascalia?: string;
+  }
+
+  function escapeHtml(value: string): string {
+    return value
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  const fotoIcon = L.divIcon({
+    html: '📷',
+    className: 'photo-marker-icon',
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+  });
+
+  function addFotoMarkers(map: L.Map, el: HTMLElement): FotoPunto[] {
+    const raw = el.dataset.foto;
+    if (!raw) return [];
+
+    try {
+      const points: FotoPunto[] = JSON.parse(raw);
+      points.forEach((p) => {
+        const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
+        const popupHtml = `<div class="photo-popup"><img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${caption}</div>`;
+        L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
+      });
+      return points;
+    } catch (err) {
+      console.error('Impossibile leggere i punti fotografici:', err);
+      return [];
+    }
+  }
 
   async function initMap(el: HTMLElement) {
     const gpxPath = el.dataset.gpx;
@@ -74,6 +154,14 @@ const gpxUrl = gpx ? withBase(gpx) : '';
     if (!hasView && !Number.isNaN(lat) && !Number.isNaN(lng)) {
       map.setView([lat, lng], 14);
       L.marker([lat, lng]).addTo(map).bindPopup('Partenza');
+      hasView = true;
+    }
+
+    const fotoPoints = addFotoMarkers(map, el);
+
+    if (!hasView && fotoPoints.length > 0) {
+      const bounds = L.latLngBounds(fotoPoints.map((p) => [p.lat, p.lng]));
+      map.fitBounds(bounds, { padding: [40, 40] });
       hasView = true;
     }
 

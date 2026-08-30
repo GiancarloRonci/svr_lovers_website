@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import TrailMap from '../../../components/TrailMap.astro';
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
 
@@ -21,9 +21,20 @@ const difficoltaLabels: Record<string, string> = {
 };
 
 const { entry } = Astro.props;
-const { title, description, tipo, difficolta, lunghezzaKm, durata, dislivello, immagine, gpx, partenza } =
+const { title, description, tipo, difficolta, lunghezzaKm, durata, dislivello, immagine, gpx, partenza, foto } =
   entry.data;
 const { Content } = await render(entry);
+
+const fotoResolved = foto
+  ? await Promise.all(
+      foto.map(async (f) => ({
+        lat: f.lat,
+        lng: f.lng,
+        src: (await getImage({ src: f.immagine, width: 400 })).src,
+        didascalia: f.didascalia,
+      }))
+    )
+  : [];
 ---
 
 <Layout title={title} description={description}>
@@ -36,7 +47,9 @@ const { Content } = await render(entry);
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
 
-  {(gpx || partenza) && <TrailMap gpx={gpx} partenza={partenza} />}
+  {(gpx || partenza || fotoResolved.length > 0) && (
+    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} />
+  )}
 
   <article>
     <Content />
