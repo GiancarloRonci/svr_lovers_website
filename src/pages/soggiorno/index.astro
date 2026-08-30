@@ -1,0 +1,26 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+const strutture = await getCollection('soggiorno');
+---
+
+<Layout title="Dove Soggiornare" description="Le strutture ricettive dove dormire a San Vito Romano e dintorni.">
+  <h1>Dove Soggiornare</h1>
+  <p class="meta">Hotel, B&amp;B e altre strutture dove pernottare in paese e nei dintorni.</p>
+
+  <div class="card-grid">
+    {
+      strutture.map((s) => (
+        <Card
+          href={withBase(`soggiorno/${s.id}/`)}
+          title={s.data.title}
+          description={s.data.description}
+          image={s.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>

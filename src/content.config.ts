@@ -112,6 +112,28 @@ const associazioneEn = defineCollection({
   schema: associazioneSchema,
 });
 
+const soggiornoSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+  z.object({
+    title: z.string(),
+    description: z.string(),
+    immagine: image().optional(),
+    galleria: z.array(image()).optional(),
+    indirizzo: z.string().optional(),
+    telefono: z.string().optional(),
+    sito: z.string().optional(),
+    coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
+  });
+
+const soggiorno = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/soggiorno' }),
+  schema: soggiornoSchema,
+});
+
+const soggiornoEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/soggiorno-en' }),
+  schema: soggiornoSchema,
+});
+
 const newsSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
@@ -143,4 +165,6 @@ export const collections = {
   associazioneEn,
   news,
   newsEn,
+  soggiorno,
+  soggiornoEn,
 };

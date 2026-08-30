@@ -16,6 +16,7 @@ const strings = {
       luoghi: 'Luoghi',
       percorsi: 'Percorsi',
       eventi: 'Eventi & Feste',
+      soggiorno: 'Dove Soggiornare',
       associazione: 'Associazione Culturale',
     },
     defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
@@ -30,6 +31,7 @@ const strings = {
       luoghi: 'Places',
       percorsi: 'Trails',
       eventi: 'Events & Festivals',
+      soggiorno: 'Where to Stay',
       associazione: 'Cultural Association',
     },
     defaultDescription: 'The village: history, trails, places and events.',
@@ -76,6 +78,7 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
           <li><a href={withBase(lang === 'en' ? 'en/luoghi/' : 'luoghi/')}>{t.nav.luoghi}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/percorsi/' : 'percorsi/')}>{t.nav.percorsi}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/eventi/' : 'eventi/')}>{t.nav.eventi}</a></li>
+          <li><a href={withBase(lang === 'en' ? 'en/soggiorno/' : 'soggiorno/')}>{t.nav.soggiorno}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/associazione/' : 'associazione/')}>{t.nav.associazione}</a></li>
           <li><a href={switchHref} class="lang-switch">{switchLabel}</a></li>
         </ul>
