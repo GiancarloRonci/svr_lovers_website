@@ -134,6 +134,35 @@ const soggiornoEn = defineCollection({
   schema: soggiornoSchema,
 });
 
+const cosaFareSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  giorniTotali: z.number(),
+  giorni: z.array(
+    z.object({
+      titolo: z.string().optional(),
+      tappe: z.array(
+        z.object({
+          oraInizio: z.string(),
+          oraFine: z.string().optional(),
+          attivita: z.string(),
+          descrizione: z.string().optional(),
+        })
+      ),
+    })
+  ),
+});
+
+const cosaFare = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/cosa-fare' }),
+  schema: cosaFareSchema,
+});
+
+const cosaFareEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/cosa-fare-en' }),
+  schema: cosaFareSchema,
+});
+
 const newsSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
@@ -167,4 +196,6 @@ export const collections = {
   newsEn,
   soggiorno,
   soggiornoEn,
+  cosaFare,
+  cosaFareEn,
 };

@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const itinerari = await getCollection('cosaFare');
+  return itinerari.map((i) => ({ params: { id: i.id }, props: { entry: i } }));
+}
+
+const { entry } = Astro.props;
+const { title, description, giorniTotali, giorni } = entry.data;
+---
+
+<Layout title={title} description={description}>
+  <a href={withBase('cosa-fare/')}>&larr; Cosa fare</a>
+  <h1>{title}</h1>
+  <p class="meta">{giorniTotali} giorni · {description}</p>
+
+  {
+    giorni.map((giorno, i) => (
+      <section class="giorno">
+        <h2>{giorno.titolo ?? `Giorno ${i + 1}`}</h2>
+        <ol class="tappe">
+          {giorno.tappe.map((tappa) => (
+            <li class="tappa">
+              <span class="orario">
+                {tappa.oraInizio}
+                {tappa.oraFine && `–${tappa.oraFine}`}
+              </span>
+              <span class="dettaglio">
+                <strong>{tappa.attivita}</strong>
+                {tappa.descrizione && <p>{tappa.descrizione}</p>}
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</Layout>
+
+<style>
+  .giorno {
+    margin-top: 2rem;
+  }
+
+  .tappe {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+
+  .tappa {
+    display: flex;
+    gap: 1rem;
+    padding: 0 0 1.25rem 1.25rem;
+    border-left: 2px solid var(--color-accent);
+  }
+
+  .orario {
+    flex: 0 0 auto;
+    min-width: 6.5rem;
+    font-weight: 700;
+    color: var(--color-accent-dark);
+  }
+
+  .dettaglio p {
+    margin: 0.25rem 0 0;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+</style>

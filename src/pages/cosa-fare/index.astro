@@ -1,0 +1,25 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+const itinerari = (await getCollection('cosaFare')).sort((a, b) => a.data.giorniTotali - b.data.giorniTotali);
+---
+
+<Layout title="Cosa fare" description="Itinerari suggeriti per organizzare un soggiorno a San Vito Romano.">
+  <h1>Cosa fare</h1>
+  <p class="meta">Itinerari con orari suggeriti per un soggiorno di 3, 5 o 7 giorni.</p>
+
+  <div class="card-grid">
+    {
+      itinerari.map((i) => (
+        <Card
+          href={withBase(`cosa-fare/${i.id}/`)}
+          title={i.data.title}
+          description={i.data.description}
+        />
+      ))
+    }
+  </div>
+</Layout>

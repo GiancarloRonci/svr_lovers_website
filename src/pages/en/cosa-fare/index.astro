@@ -1,0 +1,25 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+
+const itinerari = (await getCollection('cosaFareEn')).sort((a, b) => a.data.giorniTotali - b.data.giorniTotali);
+---
+
+<Layout title="What to Do" description="Suggested itineraries for a stay in San Vito Romano.">
+  <h1>What to Do</h1>
+  <p class="meta">Itineraries with suggested times for a 3, 5 or 7 day stay.</p>
+
+  <div class="card-grid">
+    {
+      itinerari.map((i) => (
+        <Card
+          href={withBase(`en/cosa-fare/${i.id}/`)}
+          title={i.data.title}
+          description={i.data.description}
+        />
+      ))
+    }
+  </div>
+</Layout>
