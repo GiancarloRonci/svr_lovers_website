@@ -5,6 +5,7 @@ interface FotoPunto {
   lat: number;
   lng: number;
   src: string;
+  full: string;
   didascalia?: string;
 }
 
@@ -17,15 +18,32 @@ interface Props {
 const { gpx, partenza, foto } = Astro.props;
 const gpxUrl = gpx ? withBase(gpx) : '';
 const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
+const hasFoto = Boolean(foto && foto.length > 0);
 ---
 
-<div
-  class="trail-map"
-  data-gpx={gpxUrl}
-  data-lat={partenza?.lat ?? ''}
-  data-lng={partenza?.lng ?? ''}
-  data-foto={fotoJson}
->
+<div class="trail-map-container">
+  <div
+    class="trail-map"
+    data-gpx={gpxUrl}
+    data-lat={partenza?.lat ?? ''}
+    data-lng={partenza?.lng ?? ''}
+    data-foto={fotoJson}
+  >
+  </div>
+
+  {
+    hasFoto && (
+      <div class="tm-lightbox" hidden>
+        <button type="button" class="tm-lightbox-close" aria-label="Chiudi">&times;</button>
+        <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">&larr;</button>
+        <figure class="tm-lightbox-figure">
+          <img class="tm-lightbox-img" alt="" />
+          <figcaption class="tm-lightbox-caption"></figcaption>
+        </figure>
+        <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">&rarr;</button>
+      </div>
+    )
+  }
 </div>
 
 <style>
@@ -55,17 +73,87 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
     max-width: 200px;
   }
 
-  :global(.photo-popup img) {
+  :global(.photo-popup-img) {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 0.35rem;
+    cursor: zoom-in;
   }
 
   :global(.photo-popup .caption) {
     font-size: 0.85rem;
     color: #333;
+  }
+
+  .tm-lightbox {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+  }
+  .tm-lightbox[hidden] {
+    display: none;
+  }
+  .tm-lightbox-figure {
+    margin: 0;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tm-lightbox-img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  .tm-lightbox-caption {
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .tm-lightbox-close,
+  .tm-lightbox-prev,
+  .tm-lightbox-next {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .tm-lightbox-close:hover,
+  .tm-lightbox-prev:hover,
+  .tm-lightbox-next:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .tm-lightbox-close {
+    top: 1rem;
+    right: 1rem;
+  }
+  .tm-lightbox-prev {
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .tm-lightbox-next {
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
   }
 </style>
 
@@ -77,6 +165,7 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
     lat: number;
     lng: number;
     src: string;
+    full: string;
     didascalia?: string;
   }
 
@@ -95,25 +184,68 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
     iconAnchor: [14, 14],
   });
 
-  function addFotoMarkers(map: L.Map, el: HTMLElement): FotoPunto[] {
-    const raw = el.dataset.foto;
-    if (!raw) return [];
+  function setupLightbox(container: HTMLElement, points: FotoPunto[]): ((index: number) => void) | null {
+    const lightbox = container.querySelector<HTMLElement>('.tm-lightbox');
+    if (!lightbox || points.length === 0) return null;
 
-    try {
-      const points: FotoPunto[] = JSON.parse(raw);
-      points.forEach((p) => {
-        const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
-        const popupHtml = `<div class="photo-popup"><img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${caption}</div>`;
-        L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
-      });
-      return points;
-    } catch (err) {
-      console.error('Impossibile leggere i punti fotografici:', err);
-      return [];
-    }
+    const img = lightbox.querySelector('.tm-lightbox-img') as HTMLImageElement;
+    const caption = lightbox.querySelector('.tm-lightbox-caption') as HTMLElement;
+    let current = 0;
+
+    const render = () => {
+      const p = points[current];
+      img.src = p.full || p.src;
+      img.alt = p.didascalia ?? '';
+      caption.textContent = p.didascalia ?? '';
+    };
+    const open = (index: number) => {
+      current = index;
+      render();
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    };
+    const close = () => {
+      lightbox.hidden = true;
+      document.body.style.overflow = '';
+    };
+    const move = (delta: number) => {
+      current = (current + delta + points.length) % points.length;
+      render();
+    };
+
+    lightbox.querySelector('.tm-lightbox-close')?.addEventListener('click', close);
+    lightbox.querySelector('.tm-lightbox-prev')?.addEventListener('click', () => move(-1));
+    lightbox.querySelector('.tm-lightbox-next')?.addEventListener('click', () => move(1));
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (lightbox.hidden) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') move(-1);
+      if (e.key === 'ArrowRight') move(1);
+    });
+
+    return open;
   }
 
-  async function initMap(el: HTMLElement) {
+  function addFotoMarkers(map: L.Map, points: FotoPunto[], openLightbox: ((index: number) => void) | null): void {
+    points.forEach((p, index) => {
+      const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
+      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${caption}</div>`;
+      const marker = L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
+      marker.on('popupopen', () => {
+        const popupEl = marker.getPopup()?.getElement();
+        const imgEl = popupEl?.querySelector<HTMLImageElement>('.photo-popup-img');
+        imgEl?.addEventListener('click', () => openLightbox?.(index));
+      });
+    });
+  }
+
+  async function initMap(container: HTMLElement) {
+    const el = container.querySelector<HTMLElement>('.trail-map');
+    if (!el) return;
+
     const gpxPath = el.dataset.gpx;
     const lat = parseFloat(el.dataset.lat || '');
     const lng = parseFloat(el.dataset.lng || '');
@@ -157,7 +289,18 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
       hasView = true;
     }
 
-    const fotoPoints = addFotoMarkers(map, el);
+    const rawFoto = el.dataset.foto;
+    let fotoPoints: FotoPunto[] = [];
+    if (rawFoto) {
+      try {
+        fotoPoints = JSON.parse(rawFoto);
+      } catch (err) {
+        console.error('Impossibile leggere i punti fotografici:', err);
+      }
+    }
+
+    const openLightbox = setupLightbox(container, fotoPoints);
+    addFotoMarkers(map, fotoPoints, openLightbox);
 
     if (!hasView && fotoPoints.length > 0) {
       const bounds = L.latLngBounds(fotoPoints.map((p) => [p.lat, p.lng]));
@@ -170,7 +313,7 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
     }
   }
 
-  document.querySelectorAll<HTMLElement>('.trail-map').forEach((el) => {
-    initMap(el);
+  document.querySelectorAll<HTMLElement>('.trail-map-container').forEach((container) => {
+    initMap(container);
   });
 </script>

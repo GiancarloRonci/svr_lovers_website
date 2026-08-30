@@ -30,7 +30,8 @@ const fotoResolved = foto
       foto.map(async (f) => ({
         lat: f.lat,
         lng: f.lng,
-        src: (await getImage({ src: f.immagine, width: 400 })).src,
+        src: (await getImage({ src: f.immagine, width: 300 })).src,
+        full: (await getImage({ src: f.immagine, width: 1400 })).src,
         didascalia: f.didascalia,
       }))
     )
