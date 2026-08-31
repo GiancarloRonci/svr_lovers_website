@@ -87,6 +87,41 @@ const hasFoto = Boolean(foto && foto.length > 0);
     color: #333;
   }
 
+  :global(.tm-locate-btn) {
+    width: 34px;
+    height: 34px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  :global(.tm-locate-btn:hover) {
+    background: #f4f4f4;
+  }
+  :global(.tm-locate-btn.active) {
+    color: #4285f4;
+  }
+
+  :global(.tm-locate-dot-wrapper) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  :global(.tm-locate-dot) {
+    width: 14px;
+    height: 14px;
+    background: #4285f4;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.5);
+  }
+
   .tm-lightbox {
     position: fixed;
     inset: 0;
@@ -229,6 +264,88 @@ const hasFoto = Boolean(foto && foto.length > 0);
     return open;
   }
 
+  function addLocateControl(map: L.Map): void {
+    const locateIcon = L.divIcon({
+      html: '<div class="tm-locate-dot"></div>',
+      className: 'tm-locate-dot-wrapper',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+
+    const LocateControl = L.Control.extend({
+      onAdd(): HTMLElement {
+        const btn = L.DomUtil.create('button', 'tm-locate-btn');
+        btn.type = 'button';
+        btn.setAttribute('aria-label', 'Mostra la mia posizione');
+        btn.title = 'Mostra la mia posizione';
+        btn.innerHTML = '📍';
+        L.DomEvent.disableClickPropagation(btn);
+        L.DomEvent.disableScrollPropagation(btn);
+
+        let watchId: number | null = null;
+        let marker: L.Marker | null = null;
+        let circle: L.Circle | null = null;
+        let firstFix = true;
+
+        const stop = () => {
+          if (watchId !== null) {
+            navigator.geolocation.clearWatch(watchId);
+            watchId = null;
+          }
+          btn.classList.remove('active');
+        };
+
+        btn.addEventListener('click', () => {
+          if (watchId !== null) {
+            stop();
+            return;
+          }
+          if (!navigator.geolocation) {
+            alert('Geolocalizzazione non supportata dal browser.');
+            return;
+          }
+
+          btn.classList.add('active');
+          firstFix = true;
+          watchId = navigator.geolocation.watchPosition(
+            (pos) => {
+              const { latitude, longitude, accuracy } = pos.coords;
+              const latlng: L.LatLngExpression = [latitude, longitude];
+              if (!marker) {
+                marker = L.marker(latlng, { icon: locateIcon }).addTo(map);
+                circle = L.circle(latlng, {
+                  radius: accuracy,
+                  color: '#4285f4',
+                  fillColor: '#4285f4',
+                  fillOpacity: 0.15,
+                  weight: 1,
+                }).addTo(map);
+              } else {
+                marker.setLatLng(latlng);
+                circle?.setLatLng(latlng).setRadius(accuracy);
+              }
+              if (firstFix) {
+                map.setView(latlng, Math.max(map.getZoom(), 15));
+                firstFix = false;
+              }
+            },
+            (err) => {
+              console.error('Errore di geolocalizzazione:', err);
+              alert('Impossibile ottenere la posizione.');
+              stop();
+            },
+            { enableHighAccuracy: true }
+          );
+        });
+
+        return btn;
+      },
+      onRemove(): void {},
+    });
+
+    new LocateControl({ position: 'topleft' }).addTo(map);
+  }
+
   function addFotoMarkers(map: L.Map, points: FotoPunto[], openLightbox: ((index: number) => void) | null): void {
     points.forEach((p, index) => {
       const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
@@ -255,6 +372,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
     }).addTo(map);
+
+    addLocateControl(map);
 
     let hasView = false;
 
