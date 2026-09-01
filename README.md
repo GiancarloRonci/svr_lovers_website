@@ -36,6 +36,21 @@ Aggiungi il campo `immagine: ./nome-file.jpg` nel frontmatter e metti il file
 immagine nella stessa cartella del contenuto Markdown. Astro la ottimizza
 automaticamente in fase di build.
 
+### Mappa della posizione (luoghi e soggiorno)
+
+Nel frontmatter di un luogo o di una struttura ricettiva aggiungi il campo
+`coordinate` con `lat` e `lng`:
+
+```yaml
+coordinate:
+  lat: 41.8830
+  lng: 12.9830
+```
+
+Nella pagina di dettaglio comparirà automaticamente una mappa (OpenStreetMap +
+Leaflet) con un segnaposto sulla posizione indicata. Vedi `piazza-principale.md`
+in `luoghi/` per un esempio.
+
 ### Tracciati GPX per i percorsi
 
 1. Esporta il tracciato dalla tua app di trekking in formato `.gpx`.
