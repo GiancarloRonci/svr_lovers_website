@@ -23,7 +23,14 @@ const galleriaFull = galleria
   <a href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
   <h1>{title}</h1>
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
-  {coordinate && <TrailMap partenza={coordinate} />}
+  {
+    coordinate && (
+      <>
+        <h2>Dove si trova</h2>
+        <TrailMap partenza={coordinate} />
+      </>
+    )
+  }
   <article>
     <Content />
   </article>
