@@ -4,26 +4,31 @@ import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
 
-const eventi = (await getCollection('eventi')).sort(
-  (a, b) => b.data.data.valueOf() - a.data.data.valueOf()
-);
+const oggi = new Date();
+oggi.setHours(0, 0, 0, 0);
+
+const eventi = (await getCollection('eventi'))
+  .filter((e) => e.data.data.valueOf() >= oggi.valueOf())
+  .sort((a, b) => a.data.data.valueOf() - b.data.data.valueOf());
 ---
 
 <Layout title="Eventi & Feste" description="Ricordi di feste ed eventi del paese.">
   <h1>Eventi &amp; Feste</h1>
   <p class="meta">Ricordi e fotografie delle feste e delle iniziative della comunità.</p>
 
-  <div class="card-grid">
+  <div class="card-list">
     {
       eventi.map((e) => (
         <Card
           href={withBase(`eventi/${e.id}/`)}
           title={e.data.title}
+          tag={e.data.tipologiaEvento}
           description={e.data.data.toLocaleDateString('it-IT', {
             day: 'numeric',
             month: 'long',
             year: 'numeric',
           })}
+          luogo={e.data.luogo}
           image={e.data.immagine}
         />
       ))

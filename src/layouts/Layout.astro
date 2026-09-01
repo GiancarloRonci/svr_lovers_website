@@ -194,6 +194,27 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
         margin-top: 2rem;
       }
 
+      .card-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .card-list .card {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .card-list .card img {
+        width: 180px;
+        flex-shrink: 0;
+      }
+
+      .card-list .card-body {
+        flex: 1;
+      }
+
       .card {
         border: 1px solid var(--color-border);
         border-radius: 10px;

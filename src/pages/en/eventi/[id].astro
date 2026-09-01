@@ -10,14 +10,16 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, data, immagine, galleria } = entry.data;
+const { title, description, data, luogo, tipologiaEvento, immagine, galleria } = entry.data;
 const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/eventi/')}>&larr; All events</a>
+  <p><a href={withBase('en/eventi/')}>&larr; All events</a></p>
+  {tipologiaEvento && <p><span class="tag">{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
   <p class="meta">{data.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+  {luogo && <p class="luogo">📍 {luogo}</p>}
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
 
@@ -37,6 +39,11 @@ const { Content } = await render(entry);
 </Layout>
 
 <style>
+  .luogo {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin: 0.25rem 0 1rem;
+  }
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

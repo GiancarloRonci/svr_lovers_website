@@ -7,10 +7,11 @@ interface Props {
   title: string;
   description: string;
   tag?: string;
+  luogo?: string;
   image?: ImageMetadata;
 }
 
-const { href, title, description, tag, image } = Astro.props;
+const { href, title, description, tag, luogo, image } = Astro.props;
 ---
 
 <a class="card" href={href}>
@@ -19,5 +20,13 @@ const { href, title, description, tag, image } = Astro.props;
     {tag && <span class="tag">{tag}</span>}
     <h3>{title}</h3>
     <p>{description}</p>
+    {luogo && <p class="luogo">📍 {luogo}</p>}
   </div>
 </a>
+
+<style>
+  .luogo {
+    font-weight: 600;
+    margin-top: 0.3rem;
+  }
+</style>
