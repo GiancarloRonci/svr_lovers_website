@@ -76,7 +76,10 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
     <header class="site-header">
       <nav class="nav">
         <a class="brand" href={withBase(lang === 'en' ? 'en/' : '/')}>{t.home}</a>
-        <ul>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-links">
           <li><a href={withBase(lang === 'en' ? 'en/news/' : 'news/')}>{t.nav.news}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/storia/' : 'storia/')}>{t.nav.storia}</a></li>
           <li><a href={withBase(lang === 'en' ? 'en/luoghi/' : 'luoghi/')}>{t.nav.luoghi}</a></li>
@@ -105,6 +108,21 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
       </p>
       <p>{t.footer(new Date().getFullYear())}</p>
     </footer>
+
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const links = document.getElementById('nav-links');
+      toggle?.addEventListener('click', () => {
+        const isOpen = links?.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+      links?.addEventListener('click', (e) => {
+        if ((e.target as HTMLElement).tagName === 'A') {
+          links.classList.remove('is-open');
+          toggle?.setAttribute('aria-expanded', 'false');
+        }
+      });
+    </script>
 
     <style is:global>
       :root {
@@ -187,6 +205,49 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
 
       .lang-switch:hover {
         border-color: var(--color-accent-dark);
+      }
+
+      .nav-toggle {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        margin-left: auto;
+        width: 40px;
+        height: 36px;
+        padding: 0;
+        border: 1px solid var(--color-border);
+        border-radius: 6px;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .nav-toggle span {
+        display: block;
+        width: 18px;
+        height: 2px;
+        margin: 0 auto;
+        background: var(--color-text);
+      }
+
+      @media (max-width: 1080px) {
+        .nav-toggle {
+          display: flex;
+        }
+
+        .nav ul {
+          display: none;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.9rem;
+          flex-basis: 100%;
+          order: 3;
+          padding-top: 0.5rem;
+        }
+
+        .nav ul.is-open {
+          display: flex;
+        }
       }
 
       .site-footer {
