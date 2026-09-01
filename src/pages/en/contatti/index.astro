@@ -1,0 +1,73 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+---
+
+<Layout title="Contact" description="How to get in touch with sanvitoromano.lovers and join the community.">
+  <h1>Contact</h1>
+  <p class="meta">Write to us, call us, or follow us on social media: we'd love to hear from you!</p>
+
+  <ul class="contact-list">
+    <li>
+      <span class="contact-label">✉️ Email</span>
+      <span class="contact-value"><a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a></span>
+    </li>
+    <li>
+      <span class="contact-label">📞 Phone / WhatsApp</span>
+      <span class="contact-value">
+        <a href="tel:+393318280118">+39 331 828 0118</a>
+        &nbsp;(<a href="https://wa.me/393318280118" target="_blank" rel="noopener noreferrer">message us on WhatsApp</a>)
+      </span>
+    </li>
+    <li>
+      <span class="contact-label">🔵 Facebook</span>
+      <span class="contact-value">
+        <a href="https://www.facebook.com/groups/sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">
+          sanvitoromano.lovers group
+        </a>
+      </span>
+    </li>
+    <li>
+      <span class="contact-label">📸 Instagram</span>
+      <span class="contact-value">
+        <a href="https://www.instagram.com/sanvitoromano.lovers/" target="_blank" rel="noopener noreferrer">
+          @sanvitoromano.lovers
+        </a>
+      </span>
+    </li>
+    <li>
+      <span class="contact-label">🎵 TikTok</span>
+      <span class="contact-value">
+        <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">
+          @sanvitoromano.lovers
+        </a>
+      </span>
+    </li>
+  </ul>
+
+  <style>
+    .contact-list {
+      list-style: none;
+      margin: 2rem 0 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      max-width: 480px;
+    }
+    .contact-list li {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .contact-label {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--color-muted);
+    }
+    .contact-value {
+      font-size: 1.05rem;
+    }
+  </style>
+</Layout>
