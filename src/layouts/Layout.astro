@@ -20,6 +20,8 @@ const strings = {
       soggiorno: 'Dove Soggiornare',
       associazione: 'Associazione Culturale',
       contatti: 'Contatti',
+      groupScopri: 'Scopri il Paese',
+      groupCosaFare: 'Cosa Fare',
     },
     defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
     footer: (year: number) => `© ${year} Il Paese. Sito realizzato dalla comunità.`,
@@ -37,6 +39,8 @@ const strings = {
       soggiorno: 'Where to Stay',
       associazione: 'Cultural Association',
       contatti: 'Contact',
+      groupScopri: 'Discover the Village',
+      groupCosaFare: 'What to Do',
     },
     defaultDescription: 'The village: history, trails, places and events.',
     footer: (year: number) => `© ${year} The Village. Website made by the community.`,
@@ -45,6 +49,33 @@ const strings = {
 
 const lang = Astro.currentLocale === 'en' ? 'en' : 'it';
 const t = strings[lang];
+const prefix = lang === 'en' ? 'en/' : '';
+
+type NavLink = { type: 'link'; label: string; href: string };
+type NavDropdown = { type: 'dropdown'; label: string; items: { label: string; href: string }[] };
+const navItems: (NavLink | NavDropdown)[] = [
+  { type: 'link', label: t.nav.news, href: withBase(`${prefix}news/`) },
+  {
+    type: 'dropdown',
+    label: t.nav.groupScopri,
+    items: [
+      { label: t.nav.storia, href: withBase(`${prefix}storia/`) },
+      { label: t.nav.luoghi, href: withBase(`${prefix}luoghi/`) },
+      { label: t.nav.percorsi, href: withBase(`${prefix}percorsi/`) },
+    ],
+  },
+  {
+    type: 'dropdown',
+    label: t.nav.groupCosaFare,
+    items: [
+      { label: t.nav.cosaFare, href: withBase(`${prefix}cosa-fare/`) },
+      { label: t.nav.eventi, href: withBase(`${prefix}eventi/`) },
+    ],
+  },
+  { type: 'link', label: t.nav.soggiorno, href: withBase(`${prefix}soggiorno/`) },
+  { type: 'link', label: t.nav.associazione, href: withBase(`${prefix}associazione/`) },
+  { type: 'link', label: t.nav.contatti, href: withBase(`${prefix}contatti/`) },
+];
 
 const { title, description = t.defaultDescription } = Astro.props;
 
@@ -80,15 +111,22 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
           <span></span><span></span><span></span>
         </button>
         <ul id="nav-links">
-          <li><a href={withBase(lang === 'en' ? 'en/news/' : 'news/')}>{t.nav.news}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/storia/' : 'storia/')}>{t.nav.storia}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/luoghi/' : 'luoghi/')}>{t.nav.luoghi}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/percorsi/' : 'percorsi/')}>{t.nav.percorsi}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/cosa-fare/' : 'cosa-fare/')}>{t.nav.cosaFare}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/eventi/' : 'eventi/')}>{t.nav.eventi}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/soggiorno/' : 'soggiorno/')}>{t.nav.soggiorno}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/associazione/' : 'associazione/')}>{t.nav.associazione}</a></li>
-          <li><a href={withBase(lang === 'en' ? 'en/contatti/' : 'contatti/')}>{t.nav.contatti}</a></li>
+          {navItems.map((item) =>
+            item.type === 'link' ? (
+              <li><a href={item.href}>{item.label}</a></li>
+            ) : (
+              <li class="has-dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                  {item.label} <span class="caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="dropdown-menu">
+                  {item.items.map((sub) => (
+                    <li><a href={sub.href}>{sub.label}</a></li>
+                  ))}
+                </ul>
+              </li>
+            )
+          )}
           <li><a href={switchHref} class="lang-switch">{switchLabel}</a></li>
         </ul>
       </nav>
@@ -112,14 +150,48 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
     <script>
       const toggle = document.querySelector('.nav-toggle');
       const links = document.getElementById('nav-links');
+      const dropdowns = document.querySelectorAll<HTMLLIElement>('.has-dropdown');
+
       toggle?.addEventListener('click', () => {
         const isOpen = links?.classList.toggle('is-open');
         toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        if (!isOpen) closeAllDropdowns();
       });
+
+      function closeAllDropdowns(except?: HTMLLIElement) {
+        dropdowns.forEach((li) => {
+          if (li === except) return;
+          li.classList.remove('is-open');
+          li.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+        });
+      }
+
+      dropdowns.forEach((li) => {
+        const btn = li.querySelector('.dropdown-toggle');
+        btn?.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const isOpen = li.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          closeAllDropdowns(isOpen ? li : undefined);
+        });
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!(e.target instanceof Node)) return;
+        const withinAnyDropdown = Array.from(dropdowns).some((li) => li.contains(e.target as Node));
+        if (!withinAnyDropdown) closeAllDropdowns();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeAllDropdowns();
+      });
+
       links?.addEventListener('click', (e) => {
-        if ((e.target as HTMLElement).tagName === 'A') {
+        const target = e.target as HTMLElement;
+        if (target.tagName === 'A') {
           links.classList.remove('is-open');
           toggle?.setAttribute('aria-expanded', 'false');
+          closeAllDropdowns();
         }
       });
     </script>
@@ -179,10 +251,11 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
         color: var(--color-text);
       }
 
-      .nav ul {
+      .nav > ul {
         list-style: none;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        align-items: center;
         gap: 1.25rem;
         margin: 0;
         padding: 0;
@@ -192,9 +265,46 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
         text-decoration: none;
         color: var(--color-text);
         font-size: 0.95rem;
+        white-space: nowrap;
       }
 
       .nav a:hover { color: var(--color-accent-dark); }
+
+      .has-dropdown {
+        position: relative;
+      }
+
+      .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        font-size: 0.95rem;
+        color: var(--color-text);
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .dropdown-toggle:hover { color: var(--color-accent-dark); }
+
+      .caret {
+        font-size: 0.7em;
+        transition: transform 0.15s ease;
+      }
+
+      .has-dropdown.is-open .caret {
+        transform: rotate(180deg);
+      }
+
+      .dropdown-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+      }
 
       .lang-switch {
         font-weight: 700;
@@ -230,23 +340,76 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
         background: var(--color-text);
       }
 
-      @media (max-width: 1600px) {
+      @media (min-width: 961px) {
+        .dropdown-menu {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          min-width: 190px;
+          background: #fff;
+          border: 1px solid var(--color-border);
+          border-radius: 8px;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+          padding: 0.5rem;
+          z-index: 20;
+        }
+
+        .has-dropdown:hover .dropdown-menu,
+        .has-dropdown:focus-within .dropdown-menu,
+        .has-dropdown.is-open .dropdown-menu {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .dropdown-menu li {
+          width: 100%;
+        }
+
+        .dropdown-menu a {
+          display: block;
+          padding: 0.4rem 0.5rem;
+          border-radius: 6px;
+        }
+
+        .dropdown-menu a:hover {
+          background: var(--color-bg);
+        }
+      }
+
+      @media (max-width: 960px) {
         .nav-toggle {
           display: flex;
         }
 
-        .nav ul {
+        .nav > ul {
           display: none;
           flex-direction: column;
           align-items: flex-start;
+          flex-wrap: nowrap;
           gap: 0.9rem;
           flex-basis: 100%;
           order: 3;
           padding-top: 0.5rem;
         }
 
-        .nav ul.is-open {
+        .nav > ul.is-open {
           display: flex;
+        }
+
+        .has-dropdown {
+          width: 100%;
+        }
+
+        .has-dropdown.is-open .dropdown-menu {
+          display: flex;
+        }
+
+        .dropdown-menu {
+          flex-direction: column;
+          gap: 0.6rem;
+          padding-left: 1rem;
+          padding-top: 0.6rem;
+          width: 100%;
         }
       }
 
