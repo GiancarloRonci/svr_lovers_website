@@ -3,8 +3,9 @@ import Layout from '../../../layouts/Layout.astro';
 import Card from '../../../components/Card.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/url';
+import { byInsertionDesc } from '../../../lib/insertionOrder';
 
-const luoghi = await getCollection('luoghiEn');
+const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc);
 ---
 
 <Layout title="Places" description="The main places and attractions of the town.">
