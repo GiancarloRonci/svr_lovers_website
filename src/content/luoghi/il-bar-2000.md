@@ -3,8 +3,8 @@ title: Il Bar 2000
 description: Uno storico bar di San Vito Romano, per anni punto di ritrovo del paese e oggi vivo nei ricordi della community.
 immagine: ./il-bar-2000/photo1.jpg
 coordinate:
-  lat: 41.887877
-  lng: 12.974102
+  lat: 41.884011649946274
+  lng: 12.9753270352499
 galleria:
   - ./il-bar-2000/photo2.jpg
   - ./il-bar-2000/photo3.jpg
