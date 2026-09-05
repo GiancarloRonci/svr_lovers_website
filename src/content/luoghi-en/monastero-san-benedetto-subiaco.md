@@ -14,7 +14,7 @@ The Monastery of San Benedetto, also known as the Sacro Speco ("Sacred Cave"), s
 
 From that cave, later known as the "Sacro Speco", the monastic complex that can still be visited today developed between the 9th and 13th centuries, expanded above all between the 13th and 14th centuries. The building, supported by nine tall arches - some pointed - cantilevered over the rock, houses inside a cycle of frescoes spanning from the 8th to the 16th century, the work of various schools of painting, including one of the earliest known depictions of Saint Francis of Assisi, made while the saint was still alive.
 
-For centuries the monastery was an important centre of culture: together with Montecassino, it was here that in 1465 the Benedictine monks printed the first book ever produced in Italy, a Latin grammar in three hundred copies. Not far away stands the Monastery of Santa Scolastica, built in 529 by Saint Benedict's twin sister.
+A little further down the same gorge stands the Monastery of Santa Scolastica, dedicated to Saint Benedict's twin sister: it was there, in 1465, that a group of German monks installed the first movable-type printing press in Italy.
 
 Reachable only on foot along a path that climbs through the woods, the Sacro Speco remains today a destination for pilgrims and visitors alike, one of the most spectacular rock-cut sanctuaries in Lazio.
 

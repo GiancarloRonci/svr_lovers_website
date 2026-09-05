@@ -14,7 +14,7 @@ Il Monastero di San Benedetto, noto anche come Sacro Speco, sorge letteralmente 
 
 Da quella grotta, divenuta poi il "Sacro Speco", si sviluppò tra il IX e il XIII secolo il complesso monastico che si può visitare ancora oggi, ampliato soprattutto tra Duecento e Trecento. L'edificio, sorretto da nove alti arcate - alcune ogivali - a sbalzo sulla roccia, custodisce al suo interno un ciclo di affreschi che spazia dall'VIII al XVI secolo, opera di diverse scuole pittoriche, tra cui una delle più antiche raffigurazioni note di San Francesco d'Assisi, realizzata quando il santo era ancora in vita.
 
-Il monastero fu per secoli un importante centro di cultura: insieme a quello di Montecassino, fu qui che nel 1465 i monaci benedettini stamparono il primo libro mai realizzato in Italia, una grammatica latina in trecento copie. Poco distante sorge anche il Monastero di Santa Scolastica, fatto costruire nel 529 dalla sorella gemella di San Benedetto.
+Poco più a valle, lungo la stessa gola, sorge il Monastero di Santa Scolastica, dedicato alla sorella gemella di San Benedetto: qui, nel 1465, alcuni monaci tedeschi installarono la prima tipografia a caratteri mobili d'Italia.
 
 Raggiungibile solo a piedi lungo un sentiero che si inerpica tra i boschi, il Sacro Speco resta ancora oggi meta di pellegrinaggi e visite, uno dei santuari rupestri più spettacolari del Lazio.
 
