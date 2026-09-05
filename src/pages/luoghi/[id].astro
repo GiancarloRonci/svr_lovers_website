@@ -22,7 +22,7 @@ const galleriaFull = galleria
 <Layout title={title} description={description}>
   <a href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
   <h1>{title}</h1>
-  {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
+  {immagine && <Image class="luogo-image" src={immagine} alt={title} width={900} height={500} />}
   {
     coordinate && (
       <>
@@ -56,6 +56,14 @@ const galleriaFull = galleria
 </Layout>
 
 <style>
+  .luogo-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 900 / 500;
+    object-fit: cover;
+    object-position: center 65%;
+  }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
