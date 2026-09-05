@@ -2,6 +2,13 @@
 title: Il Bar 2000
 description: Uno storico bar di San Vito Romano, per anni punto di ritrovo del paese e oggi vivo nei ricordi della community.
 immagine: ./il-bar-2000/photo1.jpg
+galleria:
+  - ./il-bar-2000/photo2.jpg
+  - ./il-bar-2000/photo3.jpg
+  - ./il-bar-2000/photo4.jpg
+  - ./il-bar-2000/photo5.jpg
+  - ./il-bar-2000/photo6.jpg
+  - ./il-bar-2000/photo7.jpg
 ---
 
 Il Bar 2000 è uno dei luoghi che vivono soprattutto nella memoria di chi lo ha frequentato: una cartolina d'epoca lo ritrae con la sua insegna rossa ben visibile, il porticato con i tavolini all'aperto e il piazzale dove si affacciava, in un'epoca in cui San Vito Romano aveva un ritmo diverso.

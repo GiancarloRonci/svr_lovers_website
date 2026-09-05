@@ -2,6 +2,13 @@
 title: Il Bar 2000
 description: A historic bar in San Vito Romano, for years the town's meeting place and still alive today in the community's memories.
 immagine: ./il-bar-2000/photo1.jpg
+galleria:
+  - ./il-bar-2000/photo2.jpg
+  - ./il-bar-2000/photo3.jpg
+  - ./il-bar-2000/photo4.jpg
+  - ./il-bar-2000/photo5.jpg
+  - ./il-bar-2000/photo6.jpg
+  - ./il-bar-2000/photo7.jpg
 ---
 
 Il Bar 2000 is one of those places that live mostly in the memory of the people who spent time there: a vintage postcard shows it with its red sign, the covered terrace with its outdoor tables, and the small square it overlooked, back when San Vito Romano moved at a different pace.
