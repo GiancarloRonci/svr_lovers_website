@@ -4,17 +4,16 @@ import Card from '../../components/Card.astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { byInsertionDesc } from '../../lib/insertionOrder';
 
 const heroImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/hero.*', {
   eager: true,
 });
 const heroImage = Object.values(heroImages)[0]?.default;
 
-const percorsi = (await getCollection('percorsiEn')).slice(0, 3);
-const eventi = (await getCollection('eventiEn'))
-  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
-  .slice(0, 3);
-const luoghi = (await getCollection('luoghiEn')).slice(0, 3);
+const percorsi = (await getCollection('percorsiEn')).sort(byInsertionDesc).slice(0, 3);
+const eventi = (await getCollection('eventiEn')).sort(byInsertionDesc).slice(0, 3);
+const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc).slice(0, 3);
 const news = (await getCollection('newsEn'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 5);
@@ -91,6 +90,22 @@ const news = (await getCollection('newsEn'))
         </ul>
         <a href={withBase('en/news/')} class="news-all">All news &rarr;</a>
       </div>
+
+      <section class="home-luoghi">
+        <h2>Places to discover</h2>
+        <div class="card-grid">
+          {
+            luoghi.map((l) => (
+              <Card
+                href={withBase(`en/luoghi/${l.id}/`)}
+                title={l.data.title}
+                description={l.data.description}
+                image={l.data.immagine}
+              />
+            ))
+          }
+        </div>
+      </section>
     </div>
 
     <aside class="highlights">
@@ -121,22 +136,6 @@ const news = (await getCollection('newsEn'))
                 title={e.data.title}
                 description={e.data.description}
                 image={e.data.immagine}
-              />
-            ))
-          }
-        </div>
-      </section>
-
-      <section>
-        <h2>Places to discover</h2>
-        <div class="card-grid">
-          {
-            luoghi.map((l) => (
-              <Card
-                href={withBase(`en/luoghi/${l.id}/`)}
-                title={l.data.title}
-                description={l.data.description}
-                image={l.data.immagine}
               />
             ))
           }
@@ -239,6 +238,15 @@ const news = (await getCollection('newsEn'))
       margin-top: 1.2rem;
       font-weight: 600;
       font-size: 0.95rem;
+    }
+    .home-luoghi {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--color-border);
+    }
+    .home-luoghi h2 {
+      font-size: 1.2rem;
+      margin: 0;
     }
     .highlights {
       display: flex;
