@@ -22,7 +22,7 @@ const galleriaFull = galleria
 <Layout title={title} description={description}>
   <a href={withBase('en/luoghi/')}>&larr; All places</a>
   <h1>{title}</h1>
-  {immagine && <Image class="luogo-image" src={immagine} alt={title} width={900} height={500} />}
+  {immagine && <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />}
   {
     coordinate && (
       <>
@@ -62,6 +62,10 @@ const galleriaFull = galleria
     aspect-ratio: 900 / 500;
     object-fit: cover;
     object-position: center 65%;
+  }
+
+  .il-bar-2000 {
+    object-position: center 30%;
   }
 
   .gallery {
