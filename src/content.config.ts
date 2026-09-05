@@ -55,6 +55,24 @@ const storiaEn = defineCollection({
   schema: storiaSchema,
 });
 
+const leggendeSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+  z.object({
+    title: z.string(),
+    description: z.string(),
+    data: z.coerce.date().optional(),
+    immagine: image().optional(),
+  });
+
+const leggende = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/leggende' }),
+  schema: leggendeSchema,
+});
+
+const leggendeEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/leggende-en' }),
+  schema: leggendeSchema,
+});
+
 const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
@@ -188,6 +206,8 @@ export const collections = {
   percorsiEn,
   storia,
   storiaEn,
+  leggende,
+  leggendeEn,
   luoghi,
   luoghiEn,
   eventi,

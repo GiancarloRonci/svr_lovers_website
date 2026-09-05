@@ -13,6 +13,7 @@ const strings = {
     nav: {
       news: 'News',
       storia: 'Storia',
+      leggende: 'Leggende',
       luoghi: 'Luoghi',
       percorsi: 'Percorsi',
       cosaFare: 'Cosa fare',
@@ -32,6 +33,7 @@ const strings = {
     nav: {
       news: 'News',
       storia: 'History',
+      leggende: 'Legends',
       luoghi: 'Places',
       percorsi: 'Trails',
       cosaFare: 'What to Do',
@@ -60,6 +62,7 @@ const navItems: (NavLink | NavDropdown)[] = [
     label: t.nav.groupScopri,
     items: [
       { label: t.nav.storia, href: withBase(`${prefix}storia/`) },
+      { label: t.nav.leggende, href: withBase(`${prefix}leggende/`) },
       { label: t.nav.luoghi, href: withBase(`${prefix}luoghi/`) },
       { label: t.nav.percorsi, href: withBase(`${prefix}percorsi/`) },
     ],

@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const leggende = await getCollection('leggende');
+  return leggende.map((l) => ({ params: { id: l.id }, props: { entry: l } }));
+}
+
+const { entry } = Astro.props;
+const { title, description, immagine } = entry.data;
+const { Content } = await render(entry);
+---
+
+<Layout title={title} description={description}>
+  <a href={withBase('leggende/')}>&larr; Tutte le leggende</a>
+  <h1>{title}</h1>
+  {immagine && <Image class="luogo-image" src={immagine} alt={title} width={900} height={500} />}
+  <article>
+    <Content />
+  </article>
+</Layout>
+
+<style>
+  .luogo-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 900 / 500;
+    object-fit: cover;
+  }
+</style>

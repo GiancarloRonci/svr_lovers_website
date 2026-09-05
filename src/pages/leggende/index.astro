@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
+import { byInsertionDesc } from '../../lib/insertionOrder';
+
+const leggende = (await getCollection('leggende')).sort(byInsertionDesc);
+---
+
+<Layout title="Leggende" description="Le leggende e i racconti popolari tramandati a San Vito Romano.">
+  <h1>Leggende</h1>
+  <p class="meta">Storie, misteri e racconti popolari tramandati di generazione in generazione.</p>
+
+  <div class="card-grid">
+    {
+      leggende.map((l) => (
+        <Card
+          href={withBase(`leggende/${l.id}/`)}
+          title={l.data.title}
+          description={l.data.description}
+          image={l.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>
