@@ -21,33 +21,48 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 const hasFoto = Boolean(foto && foto.length > 0);
 ---
 
-<div class="trail-map-container">
-  <div
-    class="trail-map"
-    data-gpx={gpxUrl}
-    data-lat={partenza?.lat ?? ''}
-    data-lng={partenza?.lng ?? ''}
-    data-foto={fotoJson}
-  >
-  </div>
-  <div class="tm-coords" hidden></div>
+<div class="trail-map-bleed">
+  <div class="trail-map-container">
+    <div
+      class="trail-map"
+      data-gpx={gpxUrl}
+      data-lat={partenza?.lat ?? ''}
+      data-lng={partenza?.lng ?? ''}
+      data-foto={fotoJson}
+    >
+    </div>
+    <div class="tm-coords" hidden></div>
 
-  {
-    hasFoto && (
-      <div class="tm-lightbox" hidden>
-        <button type="button" class="tm-lightbox-close" aria-label="Chiudi">&times;</button>
-        <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">&larr;</button>
-        <figure class="tm-lightbox-figure">
-          <img class="tm-lightbox-img" alt="" />
-          <figcaption class="tm-lightbox-caption"></figcaption>
-        </figure>
-        <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">&rarr;</button>
-      </div>
-    )
-  }
+    {
+      hasFoto && (
+        <div class="tm-lightbox" hidden>
+          <button type="button" class="tm-lightbox-close" aria-label="Chiudi">&times;</button>
+          <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">&larr;</button>
+          <figure class="tm-lightbox-figure">
+            <img class="tm-lightbox-img" alt="" />
+            <figcaption class="tm-lightbox-caption"></figcaption>
+          </figure>
+          <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">&rarr;</button>
+        </div>
+      )
+    }
+  </div>
 </div>
 
 <style>
+  .trail-map-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+  }
+
+  .trail-map-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  }
+
   .trail-map {
     width: 100%;
     height: 400px;
