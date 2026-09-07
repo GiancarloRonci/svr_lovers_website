@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1" creator="svrlovers" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Percorso A (San Biagio)</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="41.882632" lon="12.983085"></trkpt>
+      <trkpt lat="41.882748" lon="12.984008"></trkpt>
+      <trkpt lat="41.882940" lon="12.984225"></trkpt>
+      <trkpt lat="41.883022" lon="12.984314"></trkpt>
+      <trkpt lat="41.882988" lon="12.984493"></trkpt>
+      <trkpt lat="41.883024" lon="12.984550"></trkpt>
+      <trkpt lat="41.883012" lon="12.984627"></trkpt>
+      <trkpt lat="41.883205" lon="12.984724"></trkpt>
+      <trkpt lat="41.883493" lon="12.984483"></trkpt>
+      <trkpt lat="41.883591" lon="12.984201"></trkpt>
+      <trkpt lat="41.883491" lon="12.984048"></trkpt>
+      <trkpt lat="41.883209" lon="12.984153"></trkpt>
+      <trkpt lat="41.883113" lon="12.983984"></trkpt>
+      <trkpt lat="41.883169" lon="12.983748"></trkpt>
+      <trkpt lat="41.882942" lon="12.983364"></trkpt>
+      <trkpt lat="41.882758" lon="12.983144"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

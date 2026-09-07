@@ -30,6 +30,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     data-foto={fotoJson}
   >
   </div>
+  <div class="tm-coords" hidden></div>
 
   {
     hasFoto && (
@@ -54,6 +55,22 @@ const hasFoto = Boolean(foto && foto.length > 0);
     margin: 1.5rem 0;
     border: 1px solid var(--color-border);
     background: #eee;
+  }
+
+  .tm-coords {
+    margin-top: -1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #444;
+    background: #f4f4f4;
+    border-radius: 6px;
+    padding: 0.3rem 0.6rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .tm-coords[hidden] {
+    display: none;
   }
 
   :global(.photo-marker-icon) {
@@ -274,6 +291,33 @@ const hasFoto = Boolean(foto && foto.length > 0);
     return open;
   }
 
+  function addCoordsReadout(map: L.Map, container: HTMLElement): void {
+    const coordsEl = container.querySelector<HTMLElement>('.tm-coords');
+    if (!coordsEl) return;
+
+    let resetTimeout: ReturnType<typeof setTimeout> | null = null;
+
+    map.on('mousemove', (e: L.LeafletMouseEvent) => {
+      coordsEl.hidden = false;
+      coordsEl.textContent = `${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)} (clicca per copiare)`;
+    });
+
+    map.on('mouseout', () => {
+      coordsEl.hidden = true;
+    });
+
+    map.on('click', (e: L.LeafletMouseEvent) => {
+      const text = `${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)}`;
+      navigator.clipboard?.writeText(text).then(() => {
+        coordsEl.textContent = `${text} — copiato!`;
+        if (resetTimeout) clearTimeout(resetTimeout);
+        resetTimeout = setTimeout(() => {
+          coordsEl.textContent = `${text} (clicca per copiare)`;
+        }, 1200);
+      });
+    });
+  }
+
   function addLocateControl(map: L.Map): void {
     const locateIcon = L.divIcon({
       html: '<div class="tm-locate-dot"></div>',
@@ -384,6 +428,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     }).addTo(map);
 
     addLocateControl(map);
+    addCoordsReadout(map, container);
 
     let hasView = false;
 

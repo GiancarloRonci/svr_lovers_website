@@ -11,6 +11,7 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     durata: z.string(),
     dislivello: z.string().optional(),
     immagine: image().optional(),
+    galleria: z.array(image()).optional(),
     gpx: z.string().optional(),
     partenza: z
       .object({ lat: z.number(), lng: z.number() })
