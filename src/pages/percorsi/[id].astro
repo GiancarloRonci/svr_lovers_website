@@ -55,6 +55,10 @@ const galleryItems = [
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
 
+  <article>
+    <Content />
+  </article>
+
   {(gpx || partenza || fotoResolved.length > 0) && (
     <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} />
   )}
@@ -64,10 +68,6 @@ const galleryItems = [
       <a href={withBase(gpx)} download>&darr; Scarica la traccia GPX</a>
     </p>
   )}
-
-  <article>
-    <Content />
-  </article>
 
   {
     galleryItems.length > 0 && (

@@ -11,12 +11,9 @@ partenza:
   lng: 12.4964
 ---
 
-Describe the trail here: starting point, path surface, points of interest
-(fountains, wayside crosses, resting areas) and the views along the way.
+*Example text, to be replaced with the real description of the trail.*
 
-To add the GPS track, export the `.gpx` file from your trekking app, place it in
-`public/gpx/anello-del-monte.gpx` and add to the frontmatter:
-
-```
-gpx: /gpx/anello-del-monte.gpx
-```
+A loop trail through the woods, about 8.5 km long, with an elevation gain of
+350 m and a walking time of roughly 3 hours. The path alternates wooded
+stretches with panoramic views over the valley below, and is best suited to
+those with some experience walking in nature.

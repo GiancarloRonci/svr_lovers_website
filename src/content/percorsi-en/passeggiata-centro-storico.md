@@ -10,8 +10,7 @@ partenza:
   lng: 12.4950
 ---
 
+*Example text, to be replaced with the real description of the trail.*
+
 A route suitable for everyone, taking in the main landmarks and views of the old
 town. Great to do in the evening, when the streets come alive.
-
-List the main stops here (square, church, historic palace, etc.) with a short
-paragraph for each.

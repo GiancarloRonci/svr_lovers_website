@@ -11,12 +11,9 @@ partenza:
   lng: 12.4964
 ---
 
-Descrivi qui il percorso: punto di partenza, fondo del sentiero, punti di interesse
-(fontane, croci, aree di sosta) e il panorama che si incontra lungo il cammino.
+*Testo di esempio, da sostituire con la descrizione reale del percorso.*
 
-Per aggiungere il tracciato GPS, esporta il file `.gpx` dalla tua app di trekking,
-mettilo in `public/gpx/anello-del-monte.gpx` e aggiungi nel frontmatter:
-
-```
-gpx: /gpx/anello-del-monte.gpx
-```
+Un anello immerso nel verde che si sviluppa per circa 8,5 km, con un dislivello
+di 350 m e un tempo di percorrenza di circa 3 ore. Il sentiero alterna tratti
+nel bosco a scorci panoramici sulla valle sottostante, ed è adatto a chi ha già
+un minimo di allenamento al cammino in natura.
