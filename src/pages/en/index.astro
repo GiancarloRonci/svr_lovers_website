@@ -11,7 +11,7 @@ const heroImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/he
 });
 const heroImage = Object.values(heroImages)[0]?.default;
 
-const percorsi = (await getCollection('percorsiEn')).sort(byInsertionDesc).slice(0, 3);
+const percorsi = (await getCollection('percorsiEn')).sort(byInsertionDesc).slice(0, 4);
 const eventi = (await getCollection('eventiEn')).sort(byInsertionDesc).slice(0, 3);
 const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc).slice(0, 3);
 const news = (await getCollection('newsEn'))
