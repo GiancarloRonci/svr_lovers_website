@@ -13,7 +13,7 @@ const heroImage = Object.values(heroImages)[0]?.default;
 
 const percorsi = (await getCollection('percorsi')).sort(byInsertionDesc).slice(0, 4);
 const eventi = (await getCollection('eventi')).sort(byInsertionDesc).slice(0, 3);
-const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc).slice(0, 3);
+const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc).slice(0, 4);
 const news = (await getCollection('news'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 5);
