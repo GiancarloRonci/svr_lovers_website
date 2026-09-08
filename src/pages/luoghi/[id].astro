@@ -1,9 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import TrailMap from '../../components/TrailMap.astro';
-import { Image, getImage } from 'astro:assets';
+import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { resolveGalleria } from '../../lib/gallery';
 
 export async function getStaticPaths() {
   const luoghi = await getCollection('luoghi');
@@ -14,9 +15,7 @@ const { entry } = Astro.props;
 const { title, description, immagine, galleria, coordinate } = entry.data;
 const { Content } = await render(entry);
 
-const galleriaFull = galleria
-  ? await Promise.all(galleria.map((img) => getImage({ src: img, width: 1400 })))
-  : [];
+const galleryItems = await resolveGalleria(galleria, title);
 ---
 
 <Layout title={title} description={description}>
@@ -36,11 +35,11 @@ const galleriaFull = galleria
   </article>
 
   {
-    galleria && galleria.length > 0 && (
+    galleryItems.length > 0 && (
       <section class="gallery">
-        {galleria.map((img, i) => (
-          <button type="button" class="gallery-item" data-full={galleriaFull[i].src}>
-            <Image src={img} alt={`${title} - foto ${i + 1}`} width={400} height={300} />
+        {galleryItems.map((item) => (
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption}>
+            <Image src={item.immagine} alt={item.alt} width={400} height={300} />
           </button>
         ))}
       </section>
@@ -50,7 +49,10 @@ const galleriaFull = galleria
   <div class="lightbox" id="lightbox" hidden>
     <button type="button" class="lightbox-close" aria-label="Chiudi">&times;</button>
     <button type="button" class="lightbox-prev" aria-label="Foto precedente">&larr;</button>
-    <img class="lightbox-img" alt="" />
+    <figure class="lightbox-figure">
+      <img class="lightbox-img" alt="" />
+      <figcaption class="lightbox-caption"></figcaption>
+    </figure>
     <button type="button" class="lightbox-next" aria-label="Foto successiva">&rarr;</button>
   </div>
 </Layout>
@@ -100,11 +102,25 @@ const galleriaFull = galleria
   .lightbox[hidden] {
     display: none;
   }
-  .lightbox-img {
+  .lightbox-figure {
+    margin: 0;
     max-width: 90vw;
     max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lightbox-img {
+    max-width: 90vw;
+    max-height: 80vh;
     object-fit: contain;
     border-radius: 4px;
+  }
+  .lightbox-caption {
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
   }
   .lightbox-close,
   .lightbox-prev,
@@ -151,11 +167,16 @@ const galleriaFull = galleria
   if (gallery && lightbox) {
     const items = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.gallery-item'));
     const img = lightbox.querySelector('.lightbox-img') as HTMLImageElement;
+    const caption = lightbox.querySelector('.lightbox-caption') as HTMLElement;
     let current = 0;
 
+    const render = () => {
+      img.src = items[current].dataset.full ?? '';
+      caption.textContent = items[current].dataset.caption ?? '';
+    };
     const open = (i: number) => {
       current = i;
-      img.src = items[i].dataset.full ?? '';
+      render();
       lightbox.hidden = false;
       document.body.style.overflow = 'hidden';
     };
@@ -165,7 +186,7 @@ const galleriaFull = galleria
     };
     const move = (delta: number) => {
       current = (current + delta + items.length) % items.length;
-      img.src = items[current].dataset.full ?? '';
+      render();
     };
 
     items.forEach((item, i) => item.addEventListener('click', () => open(i)));

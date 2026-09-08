@@ -11,7 +11,9 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     durata: z.string(),
     dislivello: z.string().optional(),
     immagine: image().optional(),
-    galleria: z.array(image()).optional(),
+    galleria: z
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .optional(),
     gpx: z.string().optional(),
     partenza: z
       .object({ lat: z.number(), lng: z.number() })
@@ -79,7 +81,9 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     title: z.string(),
     description: z.string(),
     immagine: image().optional(),
-    galleria: z.array(image()).optional(),
+    galleria: z
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .optional(),
     coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
   });
 
@@ -138,7 +142,9 @@ const soggiornoSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =
     title: z.string(),
     description: z.string(),
     immagine: image().optional(),
-    galleria: z.array(image()).optional(),
+    galleria: z
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .optional(),
     indirizzo: z.string().optional(),
     telefono: z.string().optional(),
     sito: z.string().optional(),
