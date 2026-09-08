@@ -6,12 +6,18 @@ coordinate:
   lat: 41.884011649946274
   lng: 12.9753270352499
 galleria:
-  - ./il-bar-2000/photo2.jpg
-  - ./il-bar-2000/photo3.jpg
-  - ./il-bar-2000/photo4.jpg
-  - ./il-bar-2000/photo5.jpg
-  - ./il-bar-2000/photo6.jpg
-  - ./il-bar-2000/photo7.jpg
+  - immagine: ./il-bar-2000/photo2.jpg
+    didascalia: "Two men at the bar counter, one of them preparing a drink."
+  - immagine: ./il-bar-2000/photo3.jpg
+    didascalia: "The counter and shelves of the bar, with the red-seated tables in the foreground."
+  - immagine: ./il-bar-2000/photo4.jpg
+    didascalia: "The \"Bar 2000\" sign amid the greenery, next to the petrol station."
+  - immagine: ./il-bar-2000/photo5.jpg
+    didascalia: "The counter with the pastry display case and, in the background, the room with the tables."
+  - immagine: ./il-bar-2000/photo6.jpg
+    didascalia: "The indoor seating area with its tables and, in the background, the newspaper and general goods counter."
+  - immagine: ./il-bar-2000/photo7.jpg
+    didascalia: "The bar's main room, with customers at the counter and the large lamp at its center."
 ---
 
 Il Bar 2000 is one of those places that live mostly in the memory of the people who spent time there: a vintage postcard shows it with its red sign, the covered terrace with its outdoor tables, and the small square it overlooked, halfway between Piazza Roma and "la Terrazza", next to the petrol station - right where the bank stands today - back when San Vito Romano moved at a different pace. For generations of sanvitesi it was simply "il bar 2000" — or, as some remember it, "the legendary bar 2000".

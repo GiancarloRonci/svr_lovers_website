@@ -15,7 +15,10 @@ const { entry } = Astro.props;
 const { title, description, immagine, galleria, coordinate } = entry.data;
 const { Content } = await render(entry);
 
-const galleryItems = await resolveGalleria(galleria, title, 0, 'photo');
+const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((item, i) => ({
+  ...item,
+  name: `Photo ${i + 1}`,
+}));
 ---
 
 <Layout title={title} description={description}>
@@ -38,7 +41,7 @@ const galleryItems = await resolveGalleria(galleria, title, 0, 'photo');
     galleryItems.length > 0 && (
       <section class="gallery">
         {galleryItems.map((item) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption}>
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
           </button>
         ))}
@@ -172,7 +175,9 @@ const galleryItems = await resolveGalleria(galleria, title, 0, 'photo');
 
     const render = () => {
       img.src = items[current].dataset.full ?? '';
-      caption.textContent = items[current].dataset.caption ?? '';
+      const name = items[current].dataset.name ?? '';
+      const desc = items[current].dataset.caption ?? '';
+      caption.textContent = desc ? `${name}: ${desc}` : name;
     };
     const open = (i: number) => {
       current = i;

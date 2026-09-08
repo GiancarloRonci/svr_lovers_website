@@ -6,12 +6,18 @@ coordinate:
   lat: 41.884011649946274
   lng: 12.9753270352499
 galleria:
-  - ./il-bar-2000/photo2.jpg
-  - ./il-bar-2000/photo3.jpg
-  - ./il-bar-2000/photo4.jpg
-  - ./il-bar-2000/photo5.jpg
-  - ./il-bar-2000/photo6.jpg
-  - ./il-bar-2000/photo7.jpg
+  - immagine: ./il-bar-2000/photo2.jpg
+    didascalia: "Due uomini al bancone del bar, mentre uno dei due prepara qualcosa da bere."
+  - immagine: ./il-bar-2000/photo3.jpg
+    didascalia: "Il bancone e gli scaffali del bar, con i tavolini dalle sedute rosse in primo piano."
+  - immagine: ./il-bar-2000/photo4.jpg
+    didascalia: "L'insegna \"Bar 2000\" tra il verde, accanto al distributore di benzina."
+  - immagine: ./il-bar-2000/photo5.jpg
+    didascalia: "Il bancone con la vetrina dei dolciumi e, sullo sfondo, la sala con i tavolini."
+  - immagine: ./il-bar-2000/photo6.jpg
+    didascalia: "La sala interna con i tavolini e, sullo sfondo, il banco vendita giornali e articoli vari."
+  - immagine: ./il-bar-2000/photo7.jpg
+    didascalia: "Il salone principale del bar, con i clienti al bancone e il grande lampadario al centro."
 ---
 
 Il Bar 2000 è uno dei luoghi che vivono soprattutto nella memoria di chi lo ha frequentato: una cartolina d'epoca lo ritrae con la sua insegna rossa ben visibile, il porticato con i tavolini all'aperto e il piazzale dove si affacciava, a metà strada tra Piazza Roma e la Terrazza, accanto al distributore di benzina - proprio dove oggi sorge la banca - in un'epoca in cui San Vito Romano aveva un ritmo diverso. Per generazioni di sanvitesi è stato semplicemente "il bar 2000", o come lo ricorda qualcuno, "il mitico bar 2000".
