@@ -44,8 +44,12 @@ const galleryItems = [
     full: f.full,
     alt: f.didascalia || `${title} - photo ${i + 1}`,
     caption: f.didascalia ?? '',
+    name: `Photo ${i + 1}`,
   })),
-  ...(await resolveGalleria(galleria, title, fotoResolved.length, 'photo')),
+  ...(await resolveGalleria(galleria, title, fotoResolved.length, 'photo')).map((item, i) => ({
+    ...item,
+    name: `Photo ${fotoResolved.length + i + 1}`,
+  })),
 ];
 ---
 
@@ -74,10 +78,26 @@ const galleryItems = [
   )}
 
   {
+    fotoResolved.length > 0 && (
+      <section class="foto-elenco">
+        <h2>Photos along the trail</h2>
+        <ul>
+          {fotoResolved.map((f, i) => (
+            <li>
+              <strong>Photo {i + 1}</strong>
+              {f.didascalia && `: ${f.didascalia}`}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
     galleryItems.length > 0 && (
       <section class="gallery">
         {galleryItems.map((item) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption}>
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
           </button>
         ))}
@@ -199,7 +219,9 @@ const galleryItems = [
 
     const render = () => {
       img.src = items[current].dataset.full ?? '';
-      caption.textContent = items[current].dataset.caption ?? '';
+      const name = items[current].dataset.name ?? '';
+      const desc = items[current].dataset.caption ?? '';
+      caption.textContent = desc ? `${name}: ${desc}` : name;
     };
     const open = (i: number) => {
       current = i;
