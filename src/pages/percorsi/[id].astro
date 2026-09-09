@@ -18,12 +18,13 @@ const { Content } = await render(entry);
 
 const fotoResolved = foto
   ? await Promise.all(
-      foto.map(async (f) => ({
+      foto.map(async (f, i) => ({
         lat: f.lat,
         lng: f.lng,
         src: (await getImage({ src: f.immagine, width: 300 })).src,
         full: (await getImage({ src: f.immagine, width: 1400 })).src,
         didascalia: f.didascalia,
+        name: `Foto ${i + 1}`,
       }))
     )
   : [];

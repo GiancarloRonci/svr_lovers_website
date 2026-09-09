@@ -7,6 +7,7 @@ interface FotoPunto {
   src: string;
   full: string;
   didascalia?: string;
+  name?: string;
 }
 
 interface Props {
@@ -102,6 +103,14 @@ const hasFoto = Boolean(foto && foto.length > 0);
   :global(.photo-popup .caption) {
     font-size: 0.85rem;
     color: #333;
+  }
+
+  :global(.photo-popup .photo-name) {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #6b7f3a;
+    margin-bottom: 0.2rem;
   }
 
   :global(.tm-locate-btn) {
@@ -229,6 +238,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     src: string;
     full: string;
     didascalia?: string;
+    name?: string;
   }
 
   function escapeHtml(value: string): string {
@@ -256,9 +266,10 @@ const hasFoto = Boolean(foto && foto.length > 0);
 
     const render = () => {
       const p = points[current];
+      const name = p.name ?? `Foto ${current + 1}`;
       img.src = p.full || p.src;
-      img.alt = p.didascalia ?? '';
-      caption.textContent = p.didascalia ?? '';
+      img.alt = p.didascalia ?? name;
+      caption.textContent = p.didascalia ? `${name}: ${p.didascalia}` : name;
     };
     const open = (index: number) => {
       current = index;
@@ -402,8 +413,10 @@ const hasFoto = Boolean(foto && foto.length > 0);
 
   function addFotoMarkers(map: L.Map, points: FotoPunto[], openLightbox: ((index: number) => void) | null): void {
     points.forEach((p, index) => {
+      const name = p.name ?? `Foto ${index + 1}`;
+      const nameHtml = `<span class="photo-name">${escapeHtml(name)}</span>`;
       const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
-      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${caption}</div>`;
+      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}</div>`;
       const marker = L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
       marker.on('popupopen', () => {
         const popupEl = marker.getPopup()?.getElement();
