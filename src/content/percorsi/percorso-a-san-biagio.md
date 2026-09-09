@@ -5,7 +5,7 @@ tipo: urbano
 difficolta: facile
 lunghezzaKm: 0.39
 durata: "5min"
-immagine: ./percorso-a-san-biagio/foto1.jpg
+immagine: ./percorso-a-san-biagio/foto9.jpg
 gpx: /gpx/percorso-a-san-biagio.gpx
 partenza:
   lat: 41.882632
@@ -51,6 +51,48 @@ foto:
     lng: 12.984707
     immagine: ./percorso-a-san-biagio/foto10.jpg
     didascalia: "Scalinata che sale tra le case colorate del centro storico."
+  - lat: 41.883343
+    lng: 12.984640
+    immagine: ./percorso-a-san-biagio/foto11.jpg
+    didascalia: "Si sale sulla Stretta."
+  - lat: 41.883373
+    lng: 12.984627
+    immagine: ./percorso-a-san-biagio/foto12.jpg
+    didascalia: "Si sale sulla stretta, voltandosi."
+  - lat: 41.883507
+    lng: 12.984428
+    immagine: ./percorso-a-san-biagio/foto13.jpg
+    didascalia: "Un bellissimo portone."
+  - lat: 41.883589
+    lng: 12.984208
+    immagine: ./percorso-a-san-biagio/foto14.jpg
+  - lat: 41.883555
+    lng: 12.984139
+    immagine: ./percorso-a-san-biagio/foto15.jpg
+  - lat: 41.883479
+    lng: 12.984069
+    immagine: ./percorso-a-san-biagio/foto16.jpg
+  - lat: 41.883255
+    lng: 12.984176
+    immagine: ./percorso-a-san-biagio/foto17.jpg
+  - lat: 41.883197
+    lng: 12.984128
+    immagine: ./percorso-a-san-biagio/foto18.jpg
+  - lat: 41.883081
+    lng: 12.983999
+    immagine: ./percorso-a-san-biagio/foto19.jpg
+  - lat: 41.883171
+    lng: 12.983801
+    immagine: ./percorso-a-san-biagio/foto20.jpg
+  - lat: 41.883131
+    lng: 12.983672
+    immagine: ./percorso-a-san-biagio/foto21.jpg
+  - lat: 41.883131
+    lng: 12.983672
+    immagine: ./percorso-a-san-biagio/foto22.jpg
+  - lat: 41.882626
+    lng: 12.983065
+    immagine: ./percorso-a-san-biagio/foto23.jpg
 ---
 
 Con questo percorso, partiamo dalle 3 Fontane, arriviamo fino a Piazza San Biagio e poi percorriamo la famosa Stretta (Via San Biagio). All'apice della salita con Scale della Stretta, torniamo a Via delle Logge e poi si passa davanti alla Chiesa di S.Maria, per tornare poi alle 3 Fontane.
