@@ -3,6 +3,7 @@ title: "Trail A (San Biagio)"
 description: Short trail through the historic center around Piazza San Biagio.
 tipo: urbano
 difficolta: facile
+difficoltaNota: "but many stairs to climb"
 lunghezzaKm: 0.39
 durata: "5min"
 immagine: ./percorso-a-san-biagio/foto9.jpg

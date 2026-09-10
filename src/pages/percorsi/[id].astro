@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, tipo, difficolta, lunghezzaKm, durata, dislivello, immagine, galleria, gpx, partenza, foto } =
+const { title, description, tipo, difficolta, difficoltaNota, lunghezzaKm, durata, dislivello, immagine, galleria, gpx, partenza, foto } =
   entry.data;
 const { Content } = await render(entry);
 
@@ -48,7 +48,7 @@ const galleryItems = [
   <a href={withBase('percorsi/')}>&larr; Tutti i percorsi</a>
   <h1>{title}</h1>
   <p class="meta">
-    {tipo} · {difficolta} · {lunghezzaKm} km · {durata}
+    {tipo} · {difficolta}{difficoltaNota && ` ${difficoltaNota}`} · {lunghezzaKm} km · {durata}
     {dislivello && ` · dislivello ${dislivello}`}
   </p>
 

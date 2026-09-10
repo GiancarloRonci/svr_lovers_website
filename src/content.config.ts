@@ -7,6 +7,7 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     description: z.string(),
     tipo: z.enum(['urbano', 'naturalistico']),
     difficolta: z.enum(['facile', 'medio', 'difficile']),
+    difficoltaNota: z.string().optional(),
     lunghezzaKm: z.number(),
     durata: z.string(),
     dislivello: z.string().optional(),

@@ -3,6 +3,7 @@ title: "Percorso A (San Biagio)"
 description: Breve percorso nel centro storico attorno a Piazza San Biagio.
 tipo: urbano
 difficolta: facile
+difficoltaNota: "ma molte scale da fare"
 lunghezzaKm: 0.39
 durata: "5min"
 immagine: ./percorso-a-san-biagio/foto9.jpg
