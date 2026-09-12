@@ -1,6 +1,7 @@
 ---
 title: Grotte dell'Arco
 description: L'unica cavità carsica della provincia di Roma, vicino a Bellegra, con quasi 1000 metri di gallerie, stalattiti, stalagmiti e pitture rupestri preistoriche.
+immagine: ./grotte-dell-arco/photo1.jpg
 coordinate:
   lat: 41.8892
   lng: 13.0492
@@ -27,3 +28,5 @@ Nei pressi si trova anche il Pertuso di Roiate, una galleria naturale lunga 240 
 - [Grotte dell'Arco - Bellegra - TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g2370896-d10644060-Reviews-Grotte_Dell_Arco-Bellegra_Province_of_Rome_Lazio.html)
 - [Alla scoperta delle grotte dell'Arco di Bellegra](https://www.vignaclarablog.it/2018071479318/alla-scoperta-grotte-arco-bellegra/)
 - [Grotte dell'Arco - Wikipedia](https://it.wikipedia.org/wiki/Grotte_dell%27Arco)
+
+*Foto: rilievo topografico della grotta, Giovanni Mecchia, Marco Mecchia, Maria Piro, Maurizio Barbati (2003), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grotta_dell%27Arco_di_Bellegra.jpg), CC BY 4.0.*

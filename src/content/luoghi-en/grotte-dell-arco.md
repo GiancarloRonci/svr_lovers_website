@@ -1,6 +1,7 @@
 ---
 title: Grotte dell'Arco (Arch Caves)
 description: The only karst cave in the province of Rome, near Bellegra, with nearly 1,000 metres of galleries, stalactites, stalagmites and prehistoric rock paintings.
+immagine: ./grotte-dell-arco/photo1.jpg
 coordinate:
   lat: 41.8892
   lng: 13.0492
@@ -27,3 +28,5 @@ Nearby is also the Pertuso di Roiate, a 240-metre natural tunnel running through
 - [Grotte dell'Arco - Bellegra - TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g2370896-d10644060-Reviews-Grotte_Dell_Arco-Bellegra_Province_of_Rome_Lazio.html)
 - [Alla scoperta delle grotte dell'Arco di Bellegra (Italian)](https://www.vignaclarablog.it/2018071479318/alla-scoperta-grotte-arco-bellegra/)
 - [Grotta dell'Arco - Wikipedia](https://en.wikipedia.org/wiki/Grotta_dell%27Arco)
+
+*Photo: topographic survey of the cave, Giovanni Mecchia, Marco Mecchia, Maria Piro, Maurizio Barbati (2003), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grotta_dell%27Arco_di_Bellegra.jpg), CC BY 4.0.*
