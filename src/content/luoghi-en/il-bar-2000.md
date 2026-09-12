@@ -18,6 +18,14 @@ galleria:
     didascalia: "The indoor seating area with its tables and, in the background, the newspaper and general goods counter."
   - immagine: ./il-bar-2000/photo7.jpg
     didascalia: "The bar's main room, with customers at the counter and the large lamp at its center."
+  - immagine: ./il-bar-2000/photo8.jpg
+    didascalia: "The bar's forecourt with the Chevron petrol pump and the \"Bar 2000\" sign visible amid the greenery."
+  - immagine: ./il-bar-2000/photo9.jpg
+    didascalia: "The white tables set out in the shade of the pine trees, in the forecourt next to the petrol station."
+  - immagine: ./il-bar-2000/photo10.jpg
+    didascalia: "The bar's forecourt at sunset, among the colourful tables and the hedge running along the building."
+  - immagine: ./il-bar-2000/photo11.jpg
+    didascalia: "A customer reading the newspaper at a table, among the orange curtains of the covered terrace."
 ---
 
 Il Bar 2000 is one of those places that live mostly in the memory of the people who spent time there: a vintage postcard shows it with its red sign, the covered terrace with its outdoor tables, and the small square it overlooked, halfway between Piazza Roma and "la Terrazza", next to the petrol station - right where the bank stands today - back when San Vito Romano moved at a different pace. For generations of sanvitesi it was simply "il bar 2000" — or, as some remember it, "the legendary bar 2000".

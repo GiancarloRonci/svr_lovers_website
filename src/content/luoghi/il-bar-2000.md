@@ -18,6 +18,14 @@ galleria:
     didascalia: "La sala interna con i tavolini e, sullo sfondo, il banco vendita giornali e articoli vari."
   - immagine: ./il-bar-2000/photo7.jpg
     didascalia: "Il salone principale del bar, con i clienti al bancone e il grande lampadario al centro."
+  - immagine: ./il-bar-2000/photo8.jpg
+    didascalia: "Il piazzale del bar con il distributore di benzina Chevron e l'insegna \"Bar 2000\" visibile tra il verde."
+  - immagine: ./il-bar-2000/photo9.jpg
+    didascalia: "I tavolini bianchi disposti all'ombra dei pini, nel piazzale accanto al distributore di benzina."
+  - immagine: ./il-bar-2000/photo10.jpg
+    didascalia: "Il piazzale del bar al tramonto, tra i tavolini colorati e la siepe che costeggiava il locale."
+  - immagine: ./il-bar-2000/photo11.jpg
+    didascalia: "Un cliente legge il giornale a un tavolino, tra le tende arancioni del porticato."
 ---
 
 Il Bar 2000 è uno dei luoghi che vivono soprattutto nella memoria di chi lo ha frequentato: una cartolina d'epoca lo ritrae con la sua insegna rossa ben visibile, il porticato con i tavolini all'aperto e il piazzale dove si affacciava, a metà strada tra Piazza Roma e la Terrazza, accanto al distributore di benzina - proprio dove oggi sorge la banca - in un'epoca in cui San Vito Romano aveva un ritmo diverso. Per generazioni di sanvitesi è stato semplicemente "il bar 2000", o come lo ricorda qualcuno, "il mitico bar 2000".
