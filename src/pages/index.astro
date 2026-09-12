@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import { withBase } from '../lib/url';
 import { byInsertionDesc } from '../lib/insertionOrder';
+import { formatEventDate } from '../lib/eventDate';
 
 const heroImages = import.meta.glob<{ default: ImageMetadata }>('../assets/hero.*', {
   eager: true,
@@ -134,7 +135,7 @@ const news = (await getCollection('news'))
       </section>
 
       <section>
-        <h2>Ultimi eventi e feste</h2>
+        <h2>Prossimi eventi e feste</h2>
         <div class="card-grid">
           {
             eventi.map((e) => (
@@ -142,6 +143,7 @@ const news = (await getCollection('news'))
                 href={withBase(`eventi/${e.id}/`)}
                 title={e.data.title}
                 description={e.data.description}
+                meta={formatEventDate(e.data.dataInizio, e.data.dataFine, 'it-IT')}
                 image={e.data.immagine}
               />
             ))
