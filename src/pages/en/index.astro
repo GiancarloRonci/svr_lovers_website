@@ -12,7 +12,14 @@ const heroImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/he
 const heroImage = Object.values(heroImages)[0]?.default;
 
 const percorsi = (await getCollection('percorsiEn')).sort(byInsertionDesc).slice(0, 4);
-const eventi = (await getCollection('eventiEn')).sort(byInsertionDesc).slice(0, 3);
+
+const oggi = new Date();
+oggi.setHours(0, 0, 0, 0);
+const eventi = (await getCollection('eventiEn'))
+  .filter((e) => (e.data.dataFine ?? e.data.dataInizio).valueOf() >= oggi.valueOf())
+  .sort((a, b) => a.data.dataInizio.valueOf() - b.data.dataInizio.valueOf())
+  .slice(0, 3);
+
 const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc).slice(0, 4);
 const news = (await getCollection('newsEn'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
