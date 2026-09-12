@@ -1,7 +1,7 @@
 ---
 title: "Paolo Borsellino - The Guardian of Courage"
 description: A theatrical performance about Paolo Borsellino at Teatro Narzio in Subiaco.
-data: 2026-10-16
+dataInizio: 2026-10-16
 luogo: Teatro Narzio – Subiaco (Rome)
 tipologiaEvento: Theatrical Performance
 ---

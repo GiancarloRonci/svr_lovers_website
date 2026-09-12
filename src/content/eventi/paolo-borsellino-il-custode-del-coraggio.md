@@ -1,7 +1,7 @@
 ---
 title: "Paolo Borsellino - Il custode del coraggio"
 description: Spettacolo teatrale su Paolo Borsellino al Teatro Narzio di Subiaco.
-data: 2026-10-16
+dataInizio: 2026-10-16
 luogo: Teatro Narzio – Subiaco (Roma)
 tipologiaEvento: Spettacolo Teatrale
 ---

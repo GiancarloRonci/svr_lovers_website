@@ -1,7 +1,7 @@
 ---
 title: "Papa Leone XIV torna a Genazzano"
 description: Il Pontefice celebra la Santa Messa al Santuario della Madre del Buon Consiglio.
-data: 2026-09-07
+dataInizio: 2026-09-07
 luogo: Santuario della Madre del Buon Consiglio, Genazzano
 tipologiaEvento: Evento Religioso
 ---

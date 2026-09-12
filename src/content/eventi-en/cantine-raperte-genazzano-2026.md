@@ -1,7 +1,8 @@
 ---
 title: "Cantine Raperte in Genazzano 2026"
 description: Three days of tastings in the ancient tuff-carved cellars, craft markets, folk music and shows in the historic centre.
-data: 2026-09-11
+dataInizio: 2026-09-11
+dataFine: 2026-09-13
 luogo: Historic centre, Genazzano
 tipologiaEvento: Food and Wine Festival
 ---

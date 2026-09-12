@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
+import { formatEventDate } from '../../../lib/eventDate';
 
 export async function getStaticPaths() {
   const eventi = await getCollection('eventiEn');
@@ -10,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, data, luogo, tipologiaEvento, immagine, galleria } = entry.data;
+const { title, description, dataInizio, dataFine, luogo, tipologiaEvento, immagine, galleria } = entry.data;
 const { Content } = await render(entry);
 ---
 
@@ -18,7 +19,7 @@ const { Content } = await render(entry);
   <p><a href={withBase('en/eventi/')}>&larr; All events</a></p>
   {tipologiaEvento && <p><span class="tag">{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
-  <p class="meta">{data.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+  <p class="meta">{formatEventDate(dataInizio, dataFine, 'en-GB')}</p>
   {luogo && <p class="luogo">📍 {luogo}</p>}
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}

@@ -3,13 +3,14 @@ import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { formatEventDate } from '../../lib/eventDate';
 
 const oggi = new Date();
 oggi.setHours(0, 0, 0, 0);
 
 const eventi = (await getCollection('eventi'))
-  .filter((e) => e.data.data.valueOf() >= oggi.valueOf())
-  .sort((a, b) => a.data.data.valueOf() - b.data.data.valueOf());
+  .filter((e) => (e.data.dataFine ?? e.data.dataInizio).valueOf() >= oggi.valueOf())
+  .sort((a, b) => a.data.dataInizio.valueOf() - b.data.dataInizio.valueOf());
 ---
 
 <Layout title="Eventi & Feste" description="Ricordi di feste ed eventi del paese.">
@@ -23,11 +24,7 @@ const eventi = (await getCollection('eventi'))
           href={withBase(`eventi/${e.id}/`)}
           title={e.data.title}
           tag={e.data.tipologiaEvento}
-          description={e.data.data.toLocaleDateString('it-IT', {
-            day: 'numeric',
-            month: 'long',
-            year: 'numeric',
-          })}
+          description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'it-IT')}
           luogo={e.data.luogo}
           image={e.data.immagine}
         />

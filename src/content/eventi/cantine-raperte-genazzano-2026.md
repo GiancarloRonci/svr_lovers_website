@@ -1,7 +1,8 @@
 ---
 title: "Cantine Raperte a Genazzano 2026"
 description: Tre giorni di degustazioni nelle antiche cantine scavate nel tufo, mercatini, musica popolare e spettacoli nel centro storico.
-data: 2026-09-11
+dataInizio: 2026-09-11
+dataFine: 2026-09-13
 luogo: Centro storico, Genazzano
 tipologiaEvento: Sagra Enogastronomica
 ---

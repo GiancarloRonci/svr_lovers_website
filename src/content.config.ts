@@ -102,7 +102,8 @@ const eventiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
     description: z.string(),
-    data: z.coerce.date(),
+    dataInizio: z.coerce.date(),
+    dataFine: z.coerce.date().optional(),
     luogo: z.string().optional(),
     tipologiaEvento: z.string().optional(),
     immagine: image().optional(),

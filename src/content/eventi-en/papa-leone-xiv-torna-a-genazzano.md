@@ -1,7 +1,7 @@
 ---
 title: "Pope Leo XIV returns to Genazzano"
 description: The Pontiff celebrates Holy Mass at the Sanctuary of Our Lady of Good Counsel.
-data: 2026-09-07
+dataInizio: 2026-09-07
 luogo: Sanctuary of Our Lady of Good Counsel, Genazzano
 tipologiaEvento: Religious Event
 ---
