@@ -78,7 +78,7 @@ const news = (await getCollection('newsEn'))
         </li>
       </ul>
 
-      <div class="home-news">
+      <div class="home-news home-section">
         <h2>Latest news</h2>
         <ul class="news-list">
           {
@@ -99,7 +99,7 @@ const news = (await getCollection('newsEn'))
         <a href={withBase('en/news/')} class="news-all">All news &rarr;</a>
       </div>
 
-      <section class="home-luoghi">
+      <section class="home-luoghi home-section">
         <h2>Places to discover</h2>
         <div class="card-grid">
           {
@@ -117,7 +117,7 @@ const news = (await getCollection('newsEn'))
     </div>
 
     <aside class="highlights">
-      <section>
+      <section class="home-section">
         <h2>Featured trails</h2>
         <div class="card-grid">
           {
@@ -134,7 +134,7 @@ const news = (await getCollection('newsEn'))
         </div>
       </section>
 
-      <section>
+      <section class="home-section">
         <h2>Upcoming events and festivals</h2>
         <div class="card-grid">
           {
@@ -208,10 +208,16 @@ const news = (await getCollection('newsEn'))
       font-weight: 600;
       text-decoration: underline;
     }
-    .home-news {
-      margin-top: 2.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--color-border);
+    .home-section {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+    }
+    .highlights .home-section {
+      margin-top: 0;
     }
     .home-news h2 {
       font-size: 1.2rem;
@@ -249,11 +255,6 @@ const news = (await getCollection('newsEn'))
       font-weight: 600;
       font-size: 0.95rem;
     }
-    .home-luoghi {
-      margin-top: 2.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--color-border);
-    }
     .home-luoghi h2 {
       font-size: 1.2rem;
       margin: 0;
@@ -265,6 +266,7 @@ const news = (await getCollection('newsEn'))
     }
     .highlights h2 {
       font-size: 1.2rem;
+      margin: 0;
     }
     .highlights .card-grid {
       grid-template-columns: 1fr;
