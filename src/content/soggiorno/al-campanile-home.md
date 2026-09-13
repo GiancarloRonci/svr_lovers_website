@@ -1,9 +1,12 @@
 ---
 title: "Al Campanile Home"
 description: Appartamento vacanze rinnovato nel cuore del centro storico, sotto il campanile e vicino al Castello, con vista sul borgo e sulle colline.
-indirizzo: "Centro storico, San Vito Romano (RM)"
+indirizzo: "Via Santa Maria 15, San Vito Romano (RM)"
 telefono: "+39 348 7205434"
 sito: "https://www.alcampanilehome.it/it/alcampanilehome-it-italiano/"
+coordinate:
+  lat: 41.8830784
+  lng: 12.9835750
 ---
 
 Un accogliente appartamento vacanze situato nel centro storico di San Vito Romano, proprio

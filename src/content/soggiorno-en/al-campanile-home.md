@@ -1,9 +1,12 @@
 ---
 title: "Al Campanile Home"
 description: A renovated holiday apartment in the heart of the historic centre, right under the bell tower and near the Castle, with views over the village and the hills.
-indirizzo: "Historic centre, San Vito Romano (RM), Italy"
+indirizzo: "Via Santa Maria 15, San Vito Romano (RM), Italy"
 telefono: "+39 348 7205434"
 sito: "https://www.alcampanilehome.it/it/alcampanilehome-it-italiano/"
+coordinate:
+  lat: 41.8830784
+  lng: 12.9835750
 ---
 
 A cosy holiday apartment located in the historic centre of San Vito Romano, right under
