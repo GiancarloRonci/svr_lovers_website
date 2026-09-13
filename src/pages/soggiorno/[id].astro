@@ -32,7 +32,12 @@ const galleryItems = await resolveGalleria(galleria, title);
     </ul>
   )}
 
-  {coordinate && <TrailMap partenza={coordinate} />}
+  {coordinate && (
+    <>
+      <h2>Dove si trova</h2>
+      <TrailMap partenza={coordinate} />
+    </>
+  )}
 
   <article>
     <Content />

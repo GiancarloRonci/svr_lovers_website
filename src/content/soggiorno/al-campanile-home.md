@@ -5,8 +5,8 @@ indirizzo: "Via Santa Maria 15, San Vito Romano (RM)"
 telefono: "+39 348 7205434"
 sito: "https://www.alcampanilehome.it/it/alcampanilehome-it-italiano/"
 coordinate:
-  lat: 41.8830784
-  lng: 12.9835750
+  lat: 41.883171
+  lng: 12.983748
 ---
 
 Un accogliente appartamento vacanze situato nel centro storico di San Vito Romano, proprio
