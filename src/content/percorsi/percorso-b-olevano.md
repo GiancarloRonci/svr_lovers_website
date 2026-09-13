@@ -103,8 +103,8 @@ foto:
     lng: 12.985034
     immagine: ./percorso-b-olevano/foto23.jpg
     didascalia: "Via della Mola"
-  - lat: 41.883348
-    lng: 12.985053
+  - lat: 41.883272
+    lng: 12.985026
     immagine: ./percorso-b-olevano/foto24.jpg
     didascalia: "Via della Mola"
   - lat: 41.882996
@@ -115,8 +115,8 @@ foto:
     lng: 12.984860
     immagine: ./percorso-b-olevano/foto26.jpg
     didascalia: "Via dell'Arringo"
-  - lat: 41.883018
-    lng: 12.984747
+  - lat: 41.882960
+    lng: 12.984755
     immagine: ./percorso-b-olevano/foto27.jpg
     didascalia: "Via San Biagio"
   - lat: 41.883088
