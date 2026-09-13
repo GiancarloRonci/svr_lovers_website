@@ -8,20 +8,21 @@ const attivita = await getCollection('associazione');
 
 const etichette: Record<string, string> = {
   scacchi: 'Scacchi',
-  bocce: 'Bocce',
   dama: 'Dama',
-  proiezioni: 'Proiezione partite',
+  bocce: 'Bocce',
+  'proiezione-film': 'Proiezione Film',
+  'proiezione-partite': 'Proiezione Partite',
   altro: 'Altre attività',
 };
 
-const categorie = ['scacchi', 'bocce', 'dama', 'proiezioni', 'altro'] as const;
+const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-partite', 'altro'] as const;
 ---
 
 <Layout
-  title="Associazione Culturale"
-  description="Le attività dell'associazione culturale del paese: scacchi, bocce, dama e serate insieme."
+  title="Circolo Culturale"
+  description="Le attività del circolo culturale del paese: scacchi, dama, bocce e proiezioni insieme."
 >
-  <h1>Associazione Culturale</h1>
+  <h1>Circolo Culturale</h1>
   <p class="meta">
     Un punto di ritrovo per la comunità: tornei, sfide e serate condivise attorno alle nostre
     attività preferite.
@@ -32,7 +33,7 @@ const categorie = ['scacchi', 'bocce', 'dama', 'proiezioni', 'altro'] as const;
       const items = attivita.filter((a) => a.data.categoria === cat);
       if (items.length === 0) return null;
       return (
-        <section>
+        <section id={cat}>
           <h2>{etichette[cat]}</h2>
           <div class="card-grid">
             {items.map((a) => (

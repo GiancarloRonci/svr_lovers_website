@@ -1,6 +1,6 @@
 ---
 title: Partite insieme al circolo
-categoria: proiezioni
+categoria: proiezione-partite
 description: Ci si ritrova al circolo per vedere insieme le partite più importanti.
 frequenza: "In occasione delle partite principali"
 ---

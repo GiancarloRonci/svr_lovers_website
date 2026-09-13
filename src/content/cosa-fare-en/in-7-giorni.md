@@ -40,7 +40,7 @@ giorni:
         descrizione: "A look at the History section to discover the town's origins and past."
       - oraInizio: "16:00"
         oraFine: "18:00"
-        attivita: "Cultural Association"
+        attivita: "Cultural Club"
         descrizione: "Chess, checkers, bocce or a film screening, depending on the activities calendar."
   - titolo: "Day 4: excursion to the surroundings"
     tappe:

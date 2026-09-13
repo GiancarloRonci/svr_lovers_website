@@ -1,6 +1,6 @@
 ---
 title: Match screenings at the club
-categoria: proiezioni
+categoria: proiezione-partite
 description: We gather at the club to watch the most important matches together.
 frequenza: "On the occasion of major matches"
 ---

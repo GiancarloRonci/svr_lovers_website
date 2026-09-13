@@ -40,7 +40,7 @@ giorni:
         descrizione: "Un'occhiata alla sezione Storia per scoprire le origini e le vicende del paese."
       - oraInizio: "16:00"
         oraFine: "18:00"
-        attivita: "Associazione Culturale"
+        attivita: "Circolo Culturale"
         descrizione: "Scacchi, dama, bocce o una proiezione, a seconda del calendario delle attività."
 ---
 
