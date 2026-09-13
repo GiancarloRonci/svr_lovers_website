@@ -5,14 +5,14 @@ tipo: urbano
 difficolta: facile
 lunghezzaKm: 0.79
 durata: "15min"
-immagine: ./percorso-b-olevano/foto4.jpg
+immagine: ./percorso-b-olevano/foto8.jpg
 gpx: /gpx/percorso-b-olevano.gpx
 partenza:
   lat: 41.882917
   lng: 12.983999
 foto:
-  - lat: 41.882917
-    lng: 12.983999
+  - lat: 41.882652
+    lng: 12.983069
     immagine: ./percorso-b-olevano/foto1.jpg
     didascalia: "Come al solito si parte dalle Tre Fontane"
   - lat: 41.882675
