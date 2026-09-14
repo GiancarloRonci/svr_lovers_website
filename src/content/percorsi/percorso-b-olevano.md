@@ -3,8 +3,8 @@ title: "Percorso B (Olevano)"
 description: Percorso nel centro storico che attraversa Via Olevano, Via dell'Arringo e Piazza San Biagio.
 tipo: urbano
 difficolta: facile
-lunghezzaKm: 0.79
-durata: "15min"
+lunghezzaKm: 0.98
+durata: "20min"
 immagine: ./percorso-b-olevano/foto8.jpg
 gpx: /gpx/percorso-b-olevano.gpx
 partenza:
@@ -143,8 +143,52 @@ foto:
     lng: 12.984680
     immagine: ./percorso-b-olevano/foto33.jpg
     didascalia: "Alla stretta"
+  - lat: 41.883507
+    lng: 12.984428
+    immagine: ./percorso-b-olevano/foto34.jpg
+    didascalia: "Un bellissimo portone, chiuso da tantissimo tempo"
+  - lat: 41.883589
+    lng: 12.984208
+    immagine: ./percorso-b-olevano/foto35.jpg
+    didascalia: "Ancora Via San Biagio"
+  - lat: 41.883555
+    lng: 12.984139
+    immagine: ./percorso-b-olevano/foto36.jpg
+    didascalia: "Salendo...."
+  - lat: 41.883479
+    lng: 12.984069
+    immagine: ./percorso-b-olevano/foto37.jpg
+    didascalia: "Siamo quasi tornati al livello di via delle Logge"
+  - lat: 41.883255
+    lng: 12.984176
+    immagine: ./percorso-b-olevano/foto38.jpg
+    didascalia: "Via delle Logge"
+  - lat: 41.883197
+    lng: 12.984128
+    immagine: ./percorso-b-olevano/foto39.jpg
+    didascalia: "Sulla destra, da Via delle Logge si va attraverso un affascinante passaggio, verso la chiesa di Santa Maria"
+  - lat: 41.883081
+    lng: 12.983999
+    immagine: ./percorso-b-olevano/foto40.jpg
+    didascalia: "Chiese di Santa Maria"
+  - lat: 41.883171
+    lng: 12.983801
+    immagine: ./percorso-b-olevano/foto41.jpg
+    didascalia: "Uno scorcio della piazza Santa Maria"
+  - lat: 41.883131
+    lng: 12.983672
+    immagine: ./percorso-b-olevano/foto42.jpg
+    didascalia: "Passaggio tra Piazza Santa Maria e le 3 Fontane, il castello Theodoli sovrasta tutto"
+  - lat: 41.883131
+    lng: 12.983672
+    immagine: ./percorso-b-olevano/foto43.jpg
+    didascalia: "Tre Fontane!!!!"
+  - lat: 41.882626
+    lng: 12.983065
+    immagine: ./percorso-b-olevano/foto44.jpg
+    didascalia: "Il luogo dove molti si incontrano, 3 Fontane"
 ---
 
-Il Percorso B parte dalle Tre Fontane e attraversa il Borgo Mario Theodoli, passando per Piazza Governo Vecchio. Si prosegue lungo Via Olevano fino a Via dell'Arringo e Via Porta Olevano, dove si incontra la Croce senza tempo e il vaschettone. Il percorso risale poi verso Via Romana e Via della Mola, per concludersi in Piazza San Biagio, tra la Fontana Ciocia e la Stretta.
+Il Percorso B parte dalle Tre Fontane e attraversa il Borgo Mario Theodoli, passando per Piazza Governo Vecchio. Si prosegue lungo Via Olevano fino a Via dell'Arringo e Via Porta Olevano, dove si incontra la Croce senza tempo e il vaschettone. Il percorso risale poi verso Via Romana e Via della Mola, raggiungendo Piazza San Biagio, tra la Fontana Ciocia e la Stretta. Da qui si risale alla Stretta, si torna in Via delle Logge, si passa davanti alla Chiesa di Santa Maria e si chiude l'anello tornando alle Tre Fontane.
 
 Lungo il tracciato sono segnalati con l'icona 📷 i punti esatti in cui sono state scattate le foto: cliccaci sopra per vederle.
