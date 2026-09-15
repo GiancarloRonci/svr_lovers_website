@@ -20,6 +20,7 @@ const news = (await getCollection('newsEn')).sort(
           href={withBase(`en/news/${n.id}/`)}
           title={n.data.title}
           description={n.data.description}
+          meta={n.data.data.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
           image={n.data.immagine}
         />
       ))
