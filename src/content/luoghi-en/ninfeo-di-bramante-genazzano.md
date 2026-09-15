@@ -1,9 +1,19 @@
 ---
 title: Bramante's Nymphaeum
 description: A fascinating Renaissance nymphaeum in Genazzano, never completed, attributed to the celebrated architect Donato Bramante.
+immagine: ./ninfeo-di-bramante-genazzano/photo1.jpg
 coordinate:
   lat: 41.828474
   lng: 12.973389
+galleria:
+  - immagine: ./ninfeo-di-bramante-genazzano/photo2.jpg
+    didascalia: "The crossing arches and columns of the nymphaeum, seen from below among the ruins."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo3.jpg
+    didascalia: "The loggia seen from a side angle, with its capitals and decorated niches."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo4.jpg
+    didascalia: "The interior of the nymphaeum, its apsidal niches overtaken by vegetation."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo5.jpg
+    didascalia: "A visitor among the columns of the loggia, giving a sense of the nymphaeum's monumental scale."
 ---
 
 Just outside the town of Genazzano, set in the greenery of the valley below the Colonna castle, stands Bramante's Nymphaeum, one of the lesser-known architectural treasures of the Prenestini hills. It was commissioned at the beginning of the 16th century by the Colonna family, lords of Genazzano, to Donato Bramante, one of the leading figures of the Roman Renaissance.

@@ -1,9 +1,19 @@
 ---
 title: Ninfeo di Bramante
 description: Un affascinante ninfeo rinascimentale a Genazzano, mai portato a termine, attribuito al celebre architetto Donato Bramante.
+immagine: ./ninfeo-di-bramante-genazzano/photo1.jpg
 coordinate:
   lat: 41.828474
   lng: 12.973389
+galleria:
+  - immagine: ./ninfeo-di-bramante-genazzano/photo2.jpg
+    didascalia: "Gli archi incrociati e le colonne del ninfeo, viste dal basso tra le rovine."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo3.jpg
+    didascalia: "Il loggiato visto da un'angolazione laterale, con i capitelli e le nicchie decorate."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo4.jpg
+    didascalia: "L'interno del ninfeo, con le nicchie absidate invase dalla vegetazione."
+  - immagine: ./ninfeo-di-bramante-genazzano/photo5.jpg
+    didascalia: "Una visitatrice tra le colonne del loggiato, che restituisce la scala monumentale del ninfeo."
 ---
 
 Poco fuori dal centro abitato di Genazzano, immerso nel verde della valle sottostante il castello Colonna, sorge il Ninfeo di Bramante, uno dei tesori architettonici meno conosciuti dei Prenestini. Fu commissionato all'inizio del Cinquecento dalla famiglia Colonna, signori di Genazzano, all'architetto Donato Bramante, tra i massimi protagonisti del Rinascimento romano.
