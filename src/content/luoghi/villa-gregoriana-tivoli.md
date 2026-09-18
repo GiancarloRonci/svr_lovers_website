@@ -1,6 +1,7 @@
 ---
 title: Villa Gregoriana
 description: Uno spettacolare parco naturale nel cuore di Tivoli, scavato nella gola dell'Aniene, con la sua celebre Grande Cascata.
+comune: Tivoli
 immagine: ./villa-gregoriana-tivoli/photo1.jpg
 coordinate:
   lat: 41.9664728

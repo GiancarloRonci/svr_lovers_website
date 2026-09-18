@@ -1,6 +1,7 @@
 ---
 title: Santuario della Fortuna Primigenia e Museo Archeologico Prenestino
 description: Il grandioso santuario a terrazze di Palestrina, oggi Museo Archeologico Prenestino, che custodisce il celebre Mosaico del Nilo.
+comune: Palestrina
 immagine: ./santuario-fortuna-primigenia-palestrina/photo1.jpg
 coordinate:
   lat: 41.840451

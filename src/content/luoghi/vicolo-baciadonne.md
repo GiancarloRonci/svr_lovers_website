@@ -1,6 +1,7 @@
 ---
 title: Vicolo Baciadonne
 description: Uno stretto e suggestivo vicolo nel cuore del centro storico di San Vito Romano, tra scalette, archi e vecchie mura di pietra.
+comune: San Vito Romano
 immagine: ./vicolo-baciadonne/photo1.jpg
 coordinate:
   lat: 41.882762

@@ -1,6 +1,7 @@
 ---
 title: Convento di San Francesco (Sacro Ritiro) a Bellegra
 description: Il convento francescano immerso nel bosco sopra Bellegra, fondato nel luogo dove San Francesco si fermò nel 1223, non lontano da San Vito Romano.
+comune: Bellegra
 immagine: ./convento-san-francesco-bellegra/photo1.jpg
 coordinate:
   lat: 41.899098

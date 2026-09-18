@@ -1,6 +1,7 @@
 ---
 title: Sanctuary of Our Lady of Good Counsel
 description: One of the most venerated Marian sanctuaries in Lazio, in Genazzano, home to the fresco that "miraculously" appeared in 1467.
+comune: Genazzano
 immagine: ./santuario-madonna-buon-consiglio-genazzano/photo1.jpg
 coordinate:
   lat: 41.8334857

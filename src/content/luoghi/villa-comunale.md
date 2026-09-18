@@ -1,6 +1,7 @@
 ---
 title: Villa Comunale
 description: Il cuore verde e sociale di San Vito Romano, da sempre punto d'incontro, di passeggio e di condivisione per tante generazioni di sanvitesi.
+comune: San Vito Romano
 immagine: ./villa-comunale/photo1.jpg
 coordinate:
   lat: 41.883

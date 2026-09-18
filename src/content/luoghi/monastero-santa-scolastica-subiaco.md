@@ -1,6 +1,7 @@
 ---
 title: Monastero di Santa Scolastica
 description: Il monastero benedettino di Subiaco, il più antico d'Italia, con i suoi tre chiostri e la culla della stampa a caratteri mobili nel nostro paese.
+comune: Subiaco
 immagine: ./monastero-santa-scolastica-subiaco/photo1.jpg
 coordinate:
   lat: 41.9186478

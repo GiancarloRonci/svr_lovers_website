@@ -1,6 +1,7 @@
 ---
 title: Santuario della Madonna di Compigliano
 description: Il santuario mariano sul colle di Compigliano, legato al miracolo del giovane pastore sordomuto e meta di pellegrinaggio dal Cinquecento.
+comune: San Vito Romano
 immagine: ./santuario-madonna-di-compigliano/photo1.jpg
 coordinate:
   lat: 41.878748

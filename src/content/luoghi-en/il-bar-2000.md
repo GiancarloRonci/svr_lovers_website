@@ -1,6 +1,7 @@
 ---
 title: Il Bar 2000
 description: A historic bar in San Vito Romano, for years the town's meeting place and still alive today in the community's memories.
+comune: San Vito Romano
 immagine: ./il-bar-2000/photo1.jpg
 coordinate:
   lat: 41.884011649946274

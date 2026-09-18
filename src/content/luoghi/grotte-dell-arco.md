@@ -1,6 +1,7 @@
 ---
 title: Grotte dell'Arco
 description: L'unica cavità carsica della provincia di Roma, vicino a Bellegra, con quasi 1000 metri di gallerie, stalattiti, stalagmiti e pitture rupestri preistoriche.
+comune: Bellegra
 immagine: ./grotte-dell-arco/photo1.jpg
 coordinate:
   lat: 41.8892

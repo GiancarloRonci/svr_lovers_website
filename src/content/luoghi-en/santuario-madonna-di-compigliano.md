@@ -1,6 +1,7 @@
 ---
 title: Sanctuary of the Madonna di Compigliano
 description: The Marian sanctuary on the Compigliano hill, linked to the miracle of a deaf-mute shepherd boy and a place of pilgrimage since the 16th century.
+comune: San Vito Romano
 immagine: ./santuario-madonna-di-compigliano/photo1.jpg
 coordinate:
   lat: 41.878748

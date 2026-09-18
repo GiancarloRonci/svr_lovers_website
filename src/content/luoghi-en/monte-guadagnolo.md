@@ -1,6 +1,7 @@
 ---
 title: Monte Guadagnolo
 description: The highest inhabited place in Lazio (1218 m), with some of the most spectacular panoramic trails in the Prenestini Mountains.
+comune: Capranica Prenestina
 immagine: ./monte-guadagnolo/photo1.jpg
 coordinate:
   lat: 41.913682

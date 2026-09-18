@@ -1,6 +1,7 @@
 ---
 title: Piazza San Biagio
 description: The living room of San Vito Romano's historic centre, overlooked by the church of San Biagio Vescovo e Martire.
+comune: San Vito Romano
 immagine: ./piazza-san-biagio/photo1.jpg
 coordinate:
   lat: 41.8833

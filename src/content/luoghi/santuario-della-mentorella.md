@@ -1,6 +1,7 @@
 ---
 title: Santuario della Mentorella
 description: Il più antico santuario mariano d'Italia, arroccato su uno sperone dei Monti Prenestini nei pressi di San Vito Romano, legato alla leggenda di Sant'Eustachio.
+comune: Capranica Prenestina
 immagine: ./santuario-della-mentorella/photo1.jpg
 coordinate:
   lat: 41.9212919

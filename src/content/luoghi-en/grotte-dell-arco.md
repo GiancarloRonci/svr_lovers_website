@@ -1,6 +1,7 @@
 ---
 title: Grotte dell'Arco (Arch Caves)
 description: The only karst cave in the province of Rome, near Bellegra, with nearly 1,000 metres of galleries, stalactites, stalagmites and prehistoric rock paintings.
+comune: Bellegra
 immagine: ./grotte-dell-arco/photo1.jpg
 coordinate:
   lat: 41.8892

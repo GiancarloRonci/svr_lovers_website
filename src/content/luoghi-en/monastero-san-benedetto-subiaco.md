@@ -1,6 +1,7 @@
 ---
 title: Monastery of San Benedetto (Sacro Speco)
 description: The monastery-sanctuary carved into the cliffs of Subiaco, built around the cave where Saint Benedict lived as a hermit.
+comune: Subiaco
 immagine: ./monastero-san-benedetto-subiaco/photo1.jpg
 coordinate:
   lat: 41.9170248

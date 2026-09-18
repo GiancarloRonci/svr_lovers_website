@@ -1,6 +1,7 @@
 ---
 title: Olevano Romano - Castello Colonna-Barberini e Riserva della Serpentara
 description: Il borgo storico con il castello Colonna-Barberini e il bosco della Serpentara, reso celebre nell'Ottocento dai pittori "Nazareni".
+comune: Olevano Romano
 immagine: ./olevano-romano/photo1.jpg
 coordinate:
   lat: 41.860325

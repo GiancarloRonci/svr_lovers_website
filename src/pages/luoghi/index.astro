@@ -20,6 +20,7 @@ const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc);
           title={l.data.title}
           description={l.data.description}
           image={l.data.immagine}
+          luogo={l.data.comune}
         />
       ))
     }

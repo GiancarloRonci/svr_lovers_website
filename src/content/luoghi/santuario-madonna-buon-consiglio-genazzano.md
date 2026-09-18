@@ -1,6 +1,7 @@
 ---
 title: Santuario della Madonna del Buon Consiglio
 description: Uno dei santuari mariani più venerati del Lazio, a Genazzano, custode dell'affresco "prodigiosamente" apparso nel 1467.
+comune: Genazzano
 immagine: ./santuario-madonna-buon-consiglio-genazzano/photo1.jpg
 coordinate:
   lat: 41.8334857

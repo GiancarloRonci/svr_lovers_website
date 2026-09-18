@@ -1,6 +1,7 @@
 ---
 title: Piazza San Biagio
 description: Il salotto del centro storico di San Vito Romano, dominato dalla chiesa di San Biagio Vescovo e Martire.
+comune: San Vito Romano
 immagine: ./piazza-san-biagio/photo1.jpg
 coordinate:
   lat: 41.8833

@@ -1,6 +1,7 @@
 ---
 title: Villa Adriana
 description: La più grande e sontuosa residenza imperiale romana, fatta costruire dall'imperatore Adriano a Tivoli, Patrimonio dell'Umanità UNESCO.
+comune: Tivoli
 immagine: ./villa-adriana-tivoli/photo1.jpg
 coordinate:
   lat: 41.9407843

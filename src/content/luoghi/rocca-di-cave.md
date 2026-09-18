@@ -1,6 +1,7 @@
 ---
 title: Rocca di Cave
 description: Piccolo borgo panoramico con castello diroccato, uno dei punti di vista più belli sui Monti Prenestini.
+comune: Rocca di Cave
 immagine: ./rocca-di-cave/photo1.jpg
 coordinate:
   lat: 41.84642

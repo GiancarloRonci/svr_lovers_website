@@ -1,6 +1,7 @@
 ---
 title: Monastero di San Benedetto (Sacro Speco)
 description: Il monastero-santuario incastonato nella roccia di Subiaco, costruito attorno alla grotta dove San Benedetto visse da eremita.
+comune: Subiaco
 immagine: ./monastero-san-benedetto-subiaco/photo1.jpg
 coordinate:
   lat: 41.9170248

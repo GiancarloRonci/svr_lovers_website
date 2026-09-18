@@ -1,6 +1,7 @@
 ---
 title: Convent of San Francesco (Sacro Ritiro) in Bellegra
 description: The Franciscan convent set in the woods above Bellegra, founded where Saint Francis stopped in 1223, not far from San Vito Romano.
+comune: Bellegra
 immagine: ./convento-san-francesco-bellegra/photo1.jpg
 coordinate:
   lat: 41.899098

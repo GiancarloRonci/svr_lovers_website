@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, immagine, galleria, coordinate } = entry.data;
+const { title, description, comune, immagine, galleria, coordinate } = entry.data;
 const { Content } = await render(entry);
 
 const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((item, i) => ({
@@ -24,6 +24,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 <Layout title={title} description={description}>
   <a href={withBase('en/luoghi/')}>&larr; All places</a>
   <h1>{title}</h1>
+  <p class="comune">📍 {comune}</p>
   {immagine && <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />}
   {
     coordinate && (
@@ -61,6 +62,12 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 </Layout>
 
 <style>
+  .comune {
+    font-weight: 600;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+
   .luogo-image {
     width: 100%;
     height: auto;

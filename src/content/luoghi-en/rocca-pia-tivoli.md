@@ -1,6 +1,7 @@
 ---
 title: Rocca Pia
 description: The imposing 15th-century fortress built by Pope Pius II in the heart of Tivoli, for centuries a symbol of papal authority over the town.
+comune: Tivoli
 immagine: ./rocca-pia-tivoli/photo1.jpg
 coordinate:
   lat: 41.9599731

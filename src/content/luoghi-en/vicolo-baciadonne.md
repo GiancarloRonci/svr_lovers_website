@@ -1,6 +1,7 @@
 ---
 title: Vicolo Baciadonne
 description: A narrow, evocative alley in the heart of San Vito Romano's historic centre, among steps, archways and old stone walls.
+comune: San Vito Romano
 immagine: ./vicolo-baciadonne/photo1.jpg
 coordinate:
   lat: 41.882762

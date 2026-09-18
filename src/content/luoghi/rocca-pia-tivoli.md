@@ -1,6 +1,7 @@
 ---
 title: Rocca Pia
 description: L'imponente fortezza quattrocentesca fatta erigere da papa Pio II nel cuore di Tivoli, per secoli simbolo del potere pontificio sulla città.
+comune: Tivoli
 immagine: ./rocca-pia-tivoli/photo1.jpg
 coordinate:
   lat: 41.9599731

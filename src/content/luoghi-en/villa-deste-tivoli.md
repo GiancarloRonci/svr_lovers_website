@@ -1,6 +1,7 @@
 ---
 title: Villa d'Este
 description: A masterpiece of the Renaissance garden in Tivoli, a UNESCO World Heritage Site, famous for its monumental fountains and water features.
+comune: Tivoli
 immagine: ./villa-deste-tivoli/photo1.jpg
 coordinate:
   lat: 41.9629665

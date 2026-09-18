@@ -1,6 +1,7 @@
 ---
 title: Piazza Principale
 description: Il cuore della vita sociale del paese, teatro di mercati, feste e incontri.
+comune: San Vito Romano
 coordinate:
   lat: 41.9010
   lng: 12.4950

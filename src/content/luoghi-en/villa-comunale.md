@@ -1,6 +1,7 @@
 ---
 title: Villa Comunale (Public Park)
 description: The green, social heart of San Vito Romano — a meeting point and gathering place for generations of locals.
+comune: San Vito Romano
 immagine: ./villa-comunale/photo1.jpg
 coordinate:
   lat: 41.883

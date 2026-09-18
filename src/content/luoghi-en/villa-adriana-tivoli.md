@@ -1,6 +1,7 @@
 ---
 title: Hadrian's Villa
 description: The largest and most sumptuous Roman imperial residence, built by Emperor Hadrian in Tivoli, a UNESCO World Heritage Site.
+comune: Tivoli
 immagine: ./villa-adriana-tivoli/photo1.jpg
 coordinate:
   lat: 41.9407843

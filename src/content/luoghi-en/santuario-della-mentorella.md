@@ -1,6 +1,7 @@
 ---
 title: Sanctuary of the Mentorella
 description: The oldest Marian sanctuary in Italy, perched on a rocky spur of the Prenestini mountains near San Vito Romano, tied to the legend of Saint Eustace.
+comune: Capranica Prenestina
 immagine: ./santuario-della-mentorella/photo1.jpg
 coordinate:
   lat: 41.9212919
