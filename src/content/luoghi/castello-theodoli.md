@@ -8,6 +8,7 @@ coordinate:
   lng: 12.9836
 galleria:
   - ./castello-theodoli/photo2.jpg
+  - ./castello-theodoli/photo3.jpg
 ---
 
 Il sito su cui sorge il castello era probabilmente occupato fin dall'alto medioevo: un documento del 1085, conservato nel Regesto Sublacense, attesta la donazione di alcune terre al Monastero di Subiaco, segno del controllo esercitato dai monaci benedettini sul "castrum Sancti Viti". Verso la fine del XII secolo il feudo passò alla potente famiglia Colonna, che ritenendo insufficienti le strutture esistenti ampliò le difese con nuove mura perimetrali. Secondo alcuni storici e la tradizione locale, proprio tra queste mura sarebbe nato papa Martino V, sebbene la notizia resti oggetto di dibattito.
