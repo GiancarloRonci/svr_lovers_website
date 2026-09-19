@@ -2,9 +2,12 @@
 title: Chiesa di Santa Maria de Arce
 description: La chiesa principale di San Vito Romano, addossata al Castello Theodoli, il cui nome ricorda la sua posizione in cima alla rocca.
 comune: San Vito Romano
+immagine: ./santa-maria-de-arce/photo1.jpg
 coordinate:
   lat: 41.8830
   lng: 12.9836
+galleria:
+  - ./santa-maria-de-arce/photo2.jpg
 ---
 
 La Chiesa di Santa Maria de Arce sorge accanto al Castello Theodoli, nel punto più alto del centro storico: il nome "de Arce" deriva dal latino "arx", che significa rocca o altura, a ricordo della sua collocazione. La prima fase costruttiva risale al XV secolo, come testimonia l'iscrizione del 1489 incisa su una campana, quando la chiesa serviva quasi esclusivamente i soldati di guarnigione presso la Rocca.
