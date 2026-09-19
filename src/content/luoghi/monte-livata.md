@@ -11,7 +11,7 @@ galleria:
   - ./monte-livata/photo3.jpg
 ---
 
-Monte Livata è una montagna di media altitudine (1429 m) dei Monti Simbruini, nel territorio del comune di Subiaco, a una quindicina di chilometri dal centro cittadino. È conosciuta come "la montagna di Roma": con i suoi 78 chilometri dalla capitale, ospita infatti l'unica stazione sciistica della provincia. L'area, di circa 3000 ettari, ricade interamente nel Parco Naturale Regionale dei Monti Simbruini ed è circondata da estese faggete, con un territorio dal caratteristico paesaggio carsico dove pascolano bufali, cavalli e bovini.
+Monte Livata è una montagna di media altitudine (1429 m) dei Monti Simbruini, nel territorio del comune di Subiaco, a una quindicina di chilometri dal centro cittadino. È conosciuta come "la montagna di Roma": con i suoi 78 chilometri dalla capitale, ospita infatti l'unica stazione sciistica della provincia. Da San Vito Romano dista circa 33 km, percorribili in auto in poco meno di un'ora. L'area, di circa 3000 ettari, ricade interamente nel Parco Naturale Regionale dei Monti Simbruini ed è circondata da estese faggete, con un territorio dal caratteristico paesaggio carsico dove pascolano bufali, cavalli e bovini.
 
 La zona si articola in tre nuclei principali: La Bandita (1350-1425 m), il polo più attrezzato con ristoranti, alberghi, impianti sportivi, un bike park e una pista di slittino su rotaia; Campo dell'Osso (1560 m), area intermedia con abitazioni private, punto di partenza per i sentieri verso i santuari di montagna e per gli anelli di sci di fondo in direzione di Vallepietra; e Monna dell'Orso (1618-1758 m), la zona di quota più alta, raggiungibile con la seggiovia quadriposto inaugurata nel 2013, dove si trovano le piste da discesa, la scuola sci e i noleggi.
 
