@@ -66,14 +66,14 @@ const prefix = lang === 'en' ? 'en/' : '';
 type NavLink = { type: 'link'; label: string; href: string };
 type NavDropdown = { type: 'dropdown'; label: string; items: { label: string; href: string }[] };
 const navItems: (NavLink | NavDropdown)[] = [
-  { type: 'link', label: t.nav.news, href: withBase(`${prefix}news/`) },
+  { type: 'link', label: t.nav.luoghi, href: withBase(`${prefix}luoghi/`) },
   {
     type: 'dropdown',
     label: t.nav.groupScopri,
     items: [
+      { label: t.nav.news, href: withBase(`${prefix}news/`) },
       { label: t.nav.storia, href: withBase(`${prefix}storia/`) },
       { label: t.nav.leggende, href: withBase(`${prefix}leggende/`) },
-      { label: t.nav.luoghi, href: withBase(`${prefix}luoghi/`) },
       { label: t.nav.percorsi, href: withBase(`${prefix}percorsi/`) },
     ],
   },
