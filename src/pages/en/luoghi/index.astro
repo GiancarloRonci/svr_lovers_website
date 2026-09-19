@@ -6,23 +6,33 @@ import { withBase } from '../../../lib/url';
 import { byInsertionDesc } from '../../../lib/insertionOrder';
 
 const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc);
+const isSanVito = (l: (typeof luoghi)[number]) => l.data.comune === 'San Vito Romano';
+const sections = [
+  { id: 'a-san-vito', title: 'In San Vito', items: luoghi.filter(isSanVito) },
+  { id: 'dintorni', title: 'Surroundings', items: luoghi.filter((l) => !isSanVito(l)) },
+].filter((s) => s.items.length > 0);
 ---
 
 <Layout title="Places" description="The main places and attractions of the town.">
   <h1>Places</h1>
   <p class="meta">The squares, monuments and corners not to be missed.</p>
 
-  <div class="card-grid">
-    {
-      luoghi.map((l) => (
-        <Card
-          href={withBase(`en/luoghi/${l.id}/`)}
-          title={l.data.title}
-          description={l.data.description}
-          image={l.data.immagine}
-          luogo={l.data.comune}
-        />
-      ))
-    }
-  </div>
+  {
+    sections.map((section) => (
+      <section id={section.id}>
+        <h2>{section.title}</h2>
+        <div class="card-grid">
+          {section.items.map((l) => (
+            <Card
+              href={withBase(`en/luoghi/${l.id}/`)}
+              title={l.data.title}
+              description={l.data.description}
+              image={l.data.immagine}
+              luogo={l.data.comune}
+            />
+          ))}
+        </div>
+      </section>
+    ))
+  }
 </Layout>

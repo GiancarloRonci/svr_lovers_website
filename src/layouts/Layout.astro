@@ -15,6 +15,8 @@ const strings = {
       storia: 'Storia',
       leggende: 'Leggende',
       luoghi: 'Luoghi',
+      luoghiSanVito: 'A San Vito',
+      luoghiDintorni: 'Dintorni',
       percorsi: 'Percorsi',
       cosaFare: 'Cosa fare',
       eventi: 'Eventi & Feste',
@@ -40,6 +42,8 @@ const strings = {
       storia: 'History',
       leggende: 'Legends',
       luoghi: 'Places',
+      luoghiSanVito: 'In San Vito',
+      luoghiDintorni: 'Surroundings',
       percorsi: 'Trails',
       cosaFare: 'What to Do',
       eventi: 'Events & Festivals',
@@ -66,7 +70,14 @@ const prefix = lang === 'en' ? 'en/' : '';
 type NavLink = { type: 'link'; label: string; href: string };
 type NavDropdown = { type: 'dropdown'; label: string; items: { label: string; href: string }[] };
 const navItems: (NavLink | NavDropdown)[] = [
-  { type: 'link', label: t.nav.luoghi, href: withBase(`${prefix}luoghi/`) },
+  {
+    type: 'dropdown',
+    label: t.nav.luoghi,
+    items: [
+      { label: t.nav.luoghiSanVito, href: withBase(`${prefix}luoghi/#a-san-vito`) },
+      { label: t.nav.luoghiDintorni, href: withBase(`${prefix}luoghi/#dintorni`) },
+    ],
+  },
   {
     type: 'dropdown',
     label: t.nav.groupScopri,
