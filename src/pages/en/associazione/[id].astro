@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
+import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 
 export async function getStaticPaths() {
   const attivita = await getCollection('associazioneEn');
@@ -21,6 +22,7 @@ const etichette: Record<string, string> = {
 const { entry } = Astro.props;
 const { title, description, categoria, frequenza, immagine } = entry.data;
 const { Content } = await render(entry);
+const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description}>
@@ -28,6 +30,7 @@ const { Content } = await render(entry);
   <span class="tag">{etichette[categoria]}</span>
   <h1>{title}</h1>
   {frequenza && <p class="meta">{frequenza}</p>}
+  {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
 
@@ -35,3 +38,11 @@ const { Content } = await render(entry);
     <Content />
   </article>
 </Layout>
+
+<style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+</style>
