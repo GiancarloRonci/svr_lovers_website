@@ -22,4 +22,6 @@ La Fonte Canale è uno dei luoghi più sottovalutati di San Vito Romano, ma anch
 
 Per generazioni è stata un punto di riferimento per la vita quotidiana: negli anni '30, '40 e '50, quando non esistevano lavatrici né asciugatrici, era qui che si veniva a lavare i panni. Qui era presente un lavatoio; oggi, nello stesso luogo, si trova l'Intruglio Lab.
 
+Negli anni '80 e '90 la Fonte Canale è stata anche un luogo di ritrovo per i giovani del paese, che venivano qui a mangiare l'anguria e a raccontarsi barzellette fino a tarda notte.
+
 Se hai ricordi di questo luogo, o magari qualche foto dell'ex lavatoio, condividili con la community di [San Vito Romano Lovers su Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1406573845006372).

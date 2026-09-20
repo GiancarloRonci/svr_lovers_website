@@ -22,4 +22,6 @@ La Fonte Canale is one of the most underrated places in San Vito Romano, yet als
 
 For generations it was a fixture of daily life: in the 1930s, '40s and '50s, when there were no washing machines or tumble dryers, this is where people came to wash their clothes. A public wash house once stood here; today the same spot is home to Intruglio Lab.
 
+In the '80s and '90s, La Fonte Canale was also a hangout for the village's young people, who came here to eat watermelon and swap jokes until late at night.
+
 If you have memories of this place, or perhaps some photos of the former wash house, share them with the [San Vito Romano Lovers community on Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1406573845006372).
