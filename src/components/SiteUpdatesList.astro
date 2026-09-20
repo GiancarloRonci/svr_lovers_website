@@ -1,0 +1,96 @@
+---
+import { getSiteUpdates } from '../lib/siteUpdates';
+import { withBase } from '../lib/url';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const updates = await getSiteUpdates(lang);
+
+const locale = lang === 'en' ? 'en-GB' : 'it-IT';
+const labels =
+  lang === 'en'
+    ? { page: 'Page', change: 'Change', when: 'Date and time', empty: 'No updates yet.' }
+    : { page: 'Pagina', change: 'Oggetto della modifica', when: 'Data e ora', empty: 'Nessun aggiornamento.' };
+
+const formatWhen = (d: Date) =>
+  d.toLocaleString(locale, {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'Europe/Rome',
+  });
+---
+
+{
+  updates.length === 0 ? (
+    <p class="meta">{labels.empty}</p>
+  ) : (
+    <ul class="updates">
+      <li class="updates-head" aria-hidden="true">
+        <span>{labels.page}</span>
+        <span>{labels.change}</span>
+        <span>{labels.when}</span>
+      </li>
+      {updates.map((u) => (
+        <li class="update">
+          <span class="update-page">
+            <a href={withBase(u.href)}>{u.title}</a>
+            <small>{u.section}</small>
+          </span>
+          <span class="update-subject">{u.subject}</span>
+          <time class="update-when" datetime={u.date.toISOString()}>{formatWhen(u.date)}</time>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+<style>
+  .updates {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    border-top: 1px solid var(--color-border);
+  }
+  .updates li {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr) minmax(0, 1fr);
+    gap: 0.5rem 1.25rem;
+    padding: 0.75rem 0.25rem;
+    border-bottom: 1px solid var(--color-border);
+    align-items: baseline;
+  }
+  .updates-head {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-muted);
+    font-weight: 600;
+  }
+  .update-page a {
+    font-weight: 600;
+  }
+  .update-page small {
+    display: block;
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+  .update-when {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+  @media (max-width: 700px) {
+    .updates-head {
+      display: none;
+    }
+    .updates li {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+  }
+</style>
