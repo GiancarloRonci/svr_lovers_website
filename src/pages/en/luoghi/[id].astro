@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
 import { resolveGalleria } from '../../../lib/gallery';
+import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 
 export async function getStaticPaths() {
   const luoghi = await getCollection('luoghiEn');
@@ -14,6 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { title, description, comune, immagine, galleria, coordinate } = entry.data;
 const { Content } = await render(entry);
+const lastModified = getLastModified(entry.filePath);
 
 const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((item, i) => ({
   ...item,
@@ -25,6 +27,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   <a href={withBase('en/luoghi/')}>&larr; All places</a>
   <h1>{title}</h1>
   <p class="comune">📍 {comune}</p>
+  {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
   {immagine && <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />}
   {
     coordinate && (
@@ -62,6 +65,12 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 </Layout>
 
 <style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.75rem;
+  }
+
   .comune {
     font-weight: 600;
     color: var(--color-muted);
