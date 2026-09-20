@@ -35,3 +35,20 @@ export function getLastModified(filePath: string | undefined): Date | undefined 
 export function formatLastModified(date: Date, locale: string): string {
   return date.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
 }
+
+/** Data dell'ultimo commit che ha toccato un contenuto del sito (src/content). */
+export function getSiteLastModified(): Date | undefined {
+  return getLastModified('src/content');
+}
+
+export function formatLastModifiedFull(date: Date, locale: string): string {
+  return date.toLocaleString(locale, {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZone: 'Europe/Rome',
+  });
+}

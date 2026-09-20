@@ -6,7 +6,9 @@ import { getCollection } from 'astro:content';
 import { withBase } from '../lib/url';
 import { byInsertionDesc } from '../lib/insertionOrder';
 import { formatEventDate } from '../lib/eventDate';
+import { getSiteLastModified, formatLastModifiedFull } from '../lib/lastModified';
 
+const siteLastModified = getSiteLastModified();
 const heroImages = import.meta.glob<{ default: ImageMetadata }>('../assets/hero.*', {
   eager: true,
 });
@@ -44,6 +46,7 @@ const news = (await getCollection('news'))
     <div class="intro">
       <h1>🌿 SanVitoRomano.Lovers</h1>
       <p class="hero-subtitle">Una community per raccontare e far conoscere San Vito Romano ❤️</p>
+      {siteLastModified && <p class="aggiornato-sito">Ultimo aggiornamento del sito: {formatLastModifiedFull(siteLastModified, 'it-IT')}</p>}
       <p>
         sanvitoromano.lovers nasce con un obiettivo semplice: far conoscere San Vito
         Romano il più possibile, raccontandolo attraverso le persone che lo vivono, i
@@ -192,6 +195,11 @@ const news = (await getCollection('news'))
       max-width: 60ch;
       color: var(--color-muted);
       font-size: 1.05rem;
+    }
+    .aggiornato-sito {
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      margin-top: -0.5rem;
     }
     .hero-subtitle {
       font-weight: 600;
