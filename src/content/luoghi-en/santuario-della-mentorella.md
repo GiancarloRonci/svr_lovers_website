@@ -9,6 +9,20 @@ coordinate:
 galleria:
   - ./santuario-della-mentorella/photo2.jpg
   - ./santuario-della-mentorella/photo3.jpg
+  - ./santuario-della-mentorella/photo4.jpg
+  - ./santuario-della-mentorella/photo5.jpg
+  - ./santuario-della-mentorella/photo6.jpg
+  - ./santuario-della-mentorella/photo7.jpg
+  - ./santuario-della-mentorella/photo8.jpg
+  - ./santuario-della-mentorella/photo9.jpg
+  - ./santuario-della-mentorella/photo10.jpg
+  - ./santuario-della-mentorella/photo11.jpg
+  - ./santuario-della-mentorella/photo12.jpg
+  - ./santuario-della-mentorella/photo13.jpg
+  - ./santuario-della-mentorella/photo14.jpg
+  - ./santuario-della-mentorella/photo15.jpg
+  - ./santuario-della-mentorella/photo16.jpg
+  - ./santuario-della-mentorella/photo17.jpg
 ---
 
 The Sanctuary of the Mentorella stands at over 1,000 metres above sea level on a rocky spur of the Prenestini mountains, in the territory of Capranica Prenestina, not far from San Vito Romano. It is considered the oldest Marian sanctuary in Italy: tradition holds it was founded by Constantine in the 4th century, on the very spot where the Roman tribune Placidus is said to have converted.

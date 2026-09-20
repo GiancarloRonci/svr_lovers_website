@@ -9,6 +9,20 @@ coordinate:
 galleria:
   - ./santuario-della-mentorella/photo2.jpg
   - ./santuario-della-mentorella/photo3.jpg
+  - ./santuario-della-mentorella/photo4.jpg
+  - ./santuario-della-mentorella/photo5.jpg
+  - ./santuario-della-mentorella/photo6.jpg
+  - ./santuario-della-mentorella/photo7.jpg
+  - ./santuario-della-mentorella/photo8.jpg
+  - ./santuario-della-mentorella/photo9.jpg
+  - ./santuario-della-mentorella/photo10.jpg
+  - ./santuario-della-mentorella/photo11.jpg
+  - ./santuario-della-mentorella/photo12.jpg
+  - ./santuario-della-mentorella/photo13.jpg
+  - ./santuario-della-mentorella/photo14.jpg
+  - ./santuario-della-mentorella/photo15.jpg
+  - ./santuario-della-mentorella/photo16.jpg
+  - ./santuario-della-mentorella/photo17.jpg
 ---
 
 Il Santuario della Mentorella sorge a oltre 1000 metri di quota su uno sperone roccioso dei Monti Prenestini, nel territorio di Capranica Prenestina, non lontano da San Vito Romano. È considerato il più antico santuario mariano d'Italia: la tradizione lo vuole fondato per volontà di Costantino nel IV secolo, proprio nel luogo dove sarebbe avvenuta la conversione del tribuno romano Placido.
