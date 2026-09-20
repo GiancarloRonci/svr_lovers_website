@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { resolveGalleria } from '../../lib/gallery';
+import { getLastModified, formatLastModified } from '../../lib/lastModified';
 
 export async function getStaticPaths() {
   const strutture = await getCollection('soggiorno');
@@ -14,6 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { title, description, immagine, galleria, indirizzo, telefono, sito, coordinate } = entry.data;
 const { Content } = await render(entry);
+const lastModified = getLastModified(entry.filePath);
 
 const galleryItems = await resolveGalleria(galleria, title);
 ---
@@ -21,6 +23,7 @@ const galleryItems = await resolveGalleria(galleria, title);
 <Layout title={title} description={description}>
   <a href={withBase('soggiorno/')}>&larr; Dove Soggiornare</a>
   <h1>{title}</h1>
+  {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
 
@@ -67,6 +70,12 @@ const galleryItems = await resolveGalleria(galleria, title);
 </Layout>
 
 <style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+
   .contatti {
     list-style: none;
     padding: 0;
