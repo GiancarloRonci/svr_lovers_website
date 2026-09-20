@@ -1,6 +1,6 @@
 ---
 title: Chiesa S.Rocco
-description: The church of Saints Sebastian and Roch, in Borgo Mario Theodoli: a 17th-century building rich in Baroque decoration.
+description: "The church of Saints Sebastian and Roch, in Borgo Mario Theodoli: a 17th-century building rich in Baroque decoration."
 comune: San Vito Romano
 immagine: ./chiesa-san-rocco/photo1.jpg
 coordinate:

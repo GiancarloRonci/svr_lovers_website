@@ -1,6 +1,6 @@
 ---
 title: Chiesa S.Rocco
-description: La chiesa dei Santi Sebastiano e Rocco, nel Borgo Mario Theodoli: un edificio del Seicento ricco di decorazioni barocche.
+description: "La chiesa dei Santi Sebastiano e Rocco, nel Borgo Mario Theodoli: un edificio del Seicento ricco di decorazioni barocche."
 comune: San Vito Romano
 immagine: ./chiesa-san-rocco/photo1.jpg
 coordinate:
