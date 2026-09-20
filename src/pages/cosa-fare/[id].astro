@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { getLastModified, formatLastModified } from '../../lib/lastModified';
 
 export async function getStaticPaths() {
   const itinerari = await getCollection('cosaFare');
@@ -10,12 +11,14 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { title, description, giorniTotali, giorni } = entry.data;
+const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description}>
   <a href={withBase('cosa-fare/')}>&larr; Cosa fare</a>
   <h1>{title}</h1>
   <p class="meta">{giorniTotali} giorni · {description}</p>
+  {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 
   {
     giorni.map((giorno, i) => (
@@ -41,6 +44,12 @@ const { title, description, giorniTotali, giorni } = entry.data;
 </Layout>
 
 <style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+
   .giorno {
     margin-top: 2rem;
   }
