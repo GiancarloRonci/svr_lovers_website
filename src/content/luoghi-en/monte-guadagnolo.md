@@ -9,6 +9,22 @@ coordinate:
 galleria:
   - ./monte-guadagnolo/photo2.jpg
   - ./monte-guadagnolo/photo3.jpg
+  - ./monte-guadagnolo/photo4.jpg
+  - ./monte-guadagnolo/photo5.jpg
+  - ./monte-guadagnolo/photo6.jpg
+  - ./monte-guadagnolo/photo7.jpg
+  - ./monte-guadagnolo/photo8.jpg
+  - ./monte-guadagnolo/photo9.jpg
+  - ./monte-guadagnolo/photo10.jpg
+  - ./monte-guadagnolo/photo11.jpg
+  - ./monte-guadagnolo/photo12.jpg
+  - ./monte-guadagnolo/photo13.jpg
+  - ./monte-guadagnolo/photo14.jpg
+  - ./monte-guadagnolo/photo15.jpg
+  - ./monte-guadagnolo/photo16.jpg
+  - ./monte-guadagnolo/photo17.jpg
+  - ./monte-guadagnolo/photo18.jpg
+  - ./monte-guadagnolo/photo19.jpg
 ---
 
 Guadagnolo, a hamlet of the municipality of Capranica Prenestina not far from San Vito Romano, sits atop the mountain of the same name at 1218 metres above sea level: it is the highest inhabited place in Lazio, perched on the tallest peak of the Prenestini Mountains. Despite having just 56 residents, this tiny mountain village offers one of the most extraordinary panoramas in the region.

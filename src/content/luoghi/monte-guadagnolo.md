@@ -9,6 +9,22 @@ coordinate:
 galleria:
   - ./monte-guadagnolo/photo2.jpg
   - ./monte-guadagnolo/photo3.jpg
+  - ./monte-guadagnolo/photo4.jpg
+  - ./monte-guadagnolo/photo5.jpg
+  - ./monte-guadagnolo/photo6.jpg
+  - ./monte-guadagnolo/photo7.jpg
+  - ./monte-guadagnolo/photo8.jpg
+  - ./monte-guadagnolo/photo9.jpg
+  - ./monte-guadagnolo/photo10.jpg
+  - ./monte-guadagnolo/photo11.jpg
+  - ./monte-guadagnolo/photo12.jpg
+  - ./monte-guadagnolo/photo13.jpg
+  - ./monte-guadagnolo/photo14.jpg
+  - ./monte-guadagnolo/photo15.jpg
+  - ./monte-guadagnolo/photo16.jpg
+  - ./monte-guadagnolo/photo17.jpg
+  - ./monte-guadagnolo/photo18.jpg
+  - ./monte-guadagnolo/photo19.jpg
 ---
 
 Guadagnolo, frazione del comune di Capranica Prenestina non lontano da San Vito Romano, sorge in cima all'omonimo Monte Guadagnolo a 1218 metri di altitudine: è il centro abitato più alto del Lazio, arroccato sulla vetta più elevata dei Monti Prenestini. Nonostante i soli 56 abitanti, questo minuscolo borgo di montagna offre uno dei panorami più straordinari della regione.
