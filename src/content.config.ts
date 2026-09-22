@@ -193,6 +193,25 @@ const cosaFareEn = defineCollection({
   schema: cosaFareSchema,
 });
 
+const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+  z.object({
+    title: z.string(),
+    description: z.string(),
+    data: z.coerce.date().optional(),
+    autore: z.string().optional(),
+    immagine: image().optional(),
+  });
+
+const articoli = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/articoli' }),
+  schema: articoliSchema,
+});
+
+const articoliEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/articoli-en' }),
+  schema: articoliSchema,
+});
+
 const newsSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
@@ -230,4 +249,6 @@ export const collections = {
   soggiornoEn,
   cosaFare,
   cosaFareEn,
+  articoli,
+  articoliEn,
 };

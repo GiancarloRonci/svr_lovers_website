@@ -1,0 +1,28 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+import { byInsertionDesc } from '../../../lib/insertionOrder';
+
+const articoli = (await getCollection('articoliEn')).sort(byInsertionDesc);
+---
+
+<Layout title="Articles" description="Community articles about San Vito Romano.">
+  <h1>Articles</h1>
+  <p class="meta">Stories, insights and curiosities about San Vito Romano written by the community.</p>
+
+  <div class="card-grid">
+    {
+      articoli.map((a) => (
+        <Card
+          href={withBase(`en/articoli/${a.id}/`)}
+          title={a.data.title}
+          description={a.data.description}
+          meta={a.data.data?.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+          image={a.data.immagine}
+        />
+      ))
+    }
+  </div>
+</Layout>
