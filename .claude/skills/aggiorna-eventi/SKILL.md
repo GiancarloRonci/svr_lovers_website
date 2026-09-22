@@ -11,7 +11,7 @@ Ha due modalità, spesso richieste insieme: **aggiungere eventi nuovi** e **rimu
 
 ## Contesto geografico
 
-Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come riferimento per la ricerca: Palestrina, Zagarolo, Cave, Genazzano, Olevano Romano, Capranica Prenestina, Castel San Pietro Romano, Rocca di Cave, Guadagnolo, Bellegra, Roiate, San Cesareo, Colonna, Gallicano nel Lazio, Colleferro, Paliano, Subiaco, Canterano, Affile, Piglio, Serrone. Verifica sempre che il comune trovato sia plausibilmente entro un'ora (evita Roma centro, Frosinone, Latina o comuni oltre i Monti Ernici/Lepini a meno che l'utente non lo chieda).
+Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come riferimento per la ricerca: Palestrina, Zagarolo, Cave, Genazzano, Olevano Romano, Capranica Prenestina, Castel San Pietro Romano, Rocca di Cave, Guadagnolo, Bellegra, Roiate, San Cesareo, Colonna, Gallicano nel Lazio, Colleferro, Paliano, Subiaco, Monte Livata (frazione montana di Subiaco: eventi escursionistici, sciistici e sportivi legati all'altopiano), Canterano, Affile, Piglio, Serrone. Verifica sempre che il comune trovato sia plausibilmente entro un'ora (evita Roma centro, Frosinone, Latina o comuni oltre i Monti Ernici/Lepini a meno che l'utente non lo chieda).
 
 ## Modalità A — Cercare e aggiungere eventi nuovi
 
