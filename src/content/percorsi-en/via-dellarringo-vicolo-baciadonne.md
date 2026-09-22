@@ -4,7 +4,7 @@ description: A short walk between two of the most evocative alleys of the histor
 tipo: urbano
 difficolta: facile
 difficoltaNota: "some stretches of steps"
-lunghezzaKm: 0.2
+lunghezzaKm: 0.27
 durata: "10min"
 immagine: ./via-dellarringo-vicolo-baciadonne/foto1.jpg
 galleria:
@@ -13,9 +13,10 @@ galleria:
     didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "The stone steps of the alley, between ancient walls and an old wooden door."
+gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
-  lat: 41.884251
-  lng: 12.98336
+  lat: 41.882629
+  lng: 12.983095
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.

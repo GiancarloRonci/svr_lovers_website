@@ -4,7 +4,7 @@ description: Breve passeggiata tra due dei vicoli più suggestivi del centro sto
 tipo: urbano
 difficolta: facile
 difficoltaNota: "alcuni tratti in scalinata"
-lunghezzaKm: 0.2
+lunghezzaKm: 0.27
 durata: "10min"
 immagine: ./via-dellarringo-vicolo-baciadonne/foto1.jpg
 galleria:
@@ -13,9 +13,10 @@ galleria:
     didascalia: "Un arco di pietra incornicia la scaletta che scende tra le case, con la vista che si apre sulla vallata."
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "La scaletta di pietra del vicolo, tra i muri antichi e un vecchio portone di legno."
+gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
-  lat: 41.884251
-  lng: 12.98336
+  lat: 41.882629
+  lng: 12.983095
 ---
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1" creator="svrlovers" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Via dell'Arringo e Vicolo Baciadonne</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="41.882629" lon="12.983095"></trkpt>
+      <trkpt lat="41.882749" lon="12.984018"></trkpt>
+      <trkpt lat="41.882893" lon="12.984198"></trkpt>
+      <trkpt lat="41.883022" lon="12.984251"></trkpt>
+      <trkpt lat="41.883030" lon="12.984259"></trkpt>
+      <trkpt lat="41.882995" lon="12.984495"></trkpt>
+      <trkpt lat="41.883038" lon="12.984530"></trkpt>
+      <trkpt lat="41.883033" lon="12.984646"></trkpt>
+      <trkpt lat="41.883022" lon="12.984828"></trkpt>
+      <trkpt lat="41.882998" lon="12.984906"></trkpt>
+      <trkpt lat="41.882753" lon="12.984798"></trkpt>
+      <trkpt lat="41.882767" lon="12.984635"></trkpt>
+      <trkpt lat="41.882771" lon="12.984401"></trkpt>
+      <trkpt lat="41.883002" lon="12.984332"></trkpt>
+      <trkpt lat="41.883024" lon="12.984241"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
