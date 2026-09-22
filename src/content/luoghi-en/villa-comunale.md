@@ -12,6 +12,7 @@ galleria:
   - ./villa-comunale/photo4.jpg
   - ./villa-comunale/photo5.jpg
   - ./villa-comunale/photo6.jpg
+  - ./villa-comunale/photo7.jpg
 ---
 
 The Villa Comunale is one of the places that best represents the soul of our town: a true green, social heart, always a meeting point, a place to stroll and to share time together for generations of San Vito residents.
