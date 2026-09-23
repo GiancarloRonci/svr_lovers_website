@@ -13,12 +13,15 @@ galleria:
     didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "The stone steps of the alley, between ancient walls and an old wooden door."
-  - immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
-    didascalia: "The small square with the fountain, the starting point of the walk, in the shade of Theodoli Castle's walls."
 gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
   lat: 41.882629
   lng: 12.983095
+foto:
+  - lat: 41.882627
+    lng: 12.983017
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
+    didascalia: "The small square with the fountain, the starting point of the walk, in the shade of Theodoli Castle's walls."
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.

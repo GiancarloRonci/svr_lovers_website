@@ -13,12 +13,15 @@ galleria:
     didascalia: "Un arco di pietra incornicia la scaletta che scende tra le case, con la vista che si apre sulla vallata."
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "La scaletta di pietra del vicolo, tra i muri antichi e un vecchio portone di legno."
-  - immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
-    didascalia: "La piccola piazza con la fontana, punto di partenza della passeggiata, all'ombra delle mura del Castello Theodoli."
 gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
   lat: 41.882629
   lng: 12.983095
+foto:
+  - lat: 41.882627
+    lng: 12.983017
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
+    didascalia: "La piccola piazza con la fontana, punto di partenza della passeggiata, all'ombra delle mura del Castello Theodoli."
 ---
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.
