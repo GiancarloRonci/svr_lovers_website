@@ -9,6 +9,7 @@ coordinate:
 galleria:
   - ./castello-theodoli/photo2.jpg
   - ./castello-theodoli/photo3.jpg
+  - ./castello-theodoli/photo4.jpg
 ---
 
 The site on which the castle stands was probably occupied as early as the high Middle Ages: a document from 1085, preserved in the Regesto Sublacense, records the donation of some lands to the Monastery of Subiaco, evidence of the control exercised by the Benedictine monks over the "castrum Sancti Viti". Towards the end of the 12th century the fief passed to the powerful Colonna family, who, considering the existing structures insufficient, strengthened the defences with new perimeter walls. According to some historians and local tradition, Pope Martin V was born within these very walls, although the claim remains a matter of historical debate.
