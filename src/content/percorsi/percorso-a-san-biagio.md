@@ -84,6 +84,10 @@ foto:
     lng: 12.984128
     immagine: ./percorso-a-san-biagio/foto18.jpg
     didascalia: "Sulla destra, da Via delle Logge si va attraverso un affascinante passaggio, verso la chiesa di Santa Maria"
+  - lat: 41.883157
+    lng: 12.984026
+    immagine: ./percorso-a-san-biagio/foto24.jpg
+    didascalia: "Scorcio del passaggio verso la Chiesa di Santa Maria"
   - lat: 41.883081
     lng: 12.983999
     immagine: ./percorso-a-san-biagio/foto19.jpg
