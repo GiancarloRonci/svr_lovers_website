@@ -13,6 +13,8 @@ galleria:
     didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "The stone steps of the alley, between ancient walls and an old wooden door."
+  - immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
+    didascalia: "The small square with the fountain, the starting point of the walk, in the shade of Theodoli Castle's walls."
 gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
   lat: 41.882629
