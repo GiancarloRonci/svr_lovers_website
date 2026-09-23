@@ -1,5 +1,5 @@
 ---
-title: The Baccelli family and Guido Baccelli
+title: The Baccelli family and Guido Baccelli (1648-1931)
 description: From Florentine bankers in Peretola to the minister who made San Vito Romano known across a newly unified Italy.
 data: 1830-11-25
 ---

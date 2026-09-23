@@ -1,5 +1,5 @@
 ---
-title: The municipal coat of arms and banner
+title: The municipal coat of arms and banner (1956)
 description: The warrior with the palm of martyrdom and the silver column that tell the village's history through images.
 data: 1956-03-16
 ---

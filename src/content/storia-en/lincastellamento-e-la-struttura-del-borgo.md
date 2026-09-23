@@ -1,5 +1,5 @@
 ---
-title: The hilltop settlement and the shape of the village
+title: The hilltop settlement and the shape of the village (17th century)
 description: A village that grew across several hills, between the medieval core beneath the castle and the 17th-century quarter of Mario Theodoli.
 data: 1649-01-01
 ---

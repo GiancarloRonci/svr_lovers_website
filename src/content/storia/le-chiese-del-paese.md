@@ -1,5 +1,5 @@
 ---
-title: Le chiese di San Vito Romano
+title: Le chiese di San Vito Romano (XVII-XVIII secolo)
 description: Dalla Chiesa di San Biagio al Santuario di Compigliano, gli edifici religiosi che scandiscono la vita del paese.
 data: 1609-01-01
 ---

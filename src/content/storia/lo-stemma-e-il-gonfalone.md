@@ -1,5 +1,5 @@
 ---
-title: Lo stemma e il gonfalone comunale
+title: Lo stemma e il gonfalone comunale (1956)
 description: Il guerriero con la palma del martirio e la colonna d'argento che raccontano per immagini la storia del paese.
 data: 1956-03-16
 ---

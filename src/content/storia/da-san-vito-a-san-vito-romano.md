@@ -1,5 +1,5 @@
 ---
-title: Da San Vito a San Vito Romano
+title: Da San Vito a San Vito Romano (1872-1944)
 description: L'unità d'Italia, il nuovo nome del 1872 e il Novecento tra memoria civile e guerra.
 data: 1872-05-16
 ---

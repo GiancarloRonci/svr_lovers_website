@@ -1,5 +1,5 @@
 ---
-title: La famiglia Baccelli e Guido Baccelli
+title: La famiglia Baccelli e Guido Baccelli (1648-1931)
 description: Dai banchieri fiorentini di Peretola al ministro che rese celebre San Vito Romano nell'Italia unita.
 data: 1830-11-25
 ---

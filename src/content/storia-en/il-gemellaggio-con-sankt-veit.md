@@ -1,5 +1,5 @@
 ---
-title: The twinning with Sankt Veit im Mühlkreis
+title: The twinning with Sankt Veit im Mühlkreis (since 2008)
 description: Since 2008, a bond linking San Vito Romano to a like-named municipality in Austria.
 data: 2008-01-01
 ---

@@ -1,5 +1,5 @@
 ---
-title: From San Vito to San Vito Romano
+title: From San Vito to San Vito Romano (1872-1944)
 description: The Unification of Italy, the new name of 1872, and the 20th century between civic memory and war.
 data: 1872-05-16
 ---

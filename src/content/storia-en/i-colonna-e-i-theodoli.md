@@ -1,5 +1,5 @@
 ---
-title: The Colonna and the Theodoli
+title: The Colonna and the Theodoli (1180-1575)
 description: The town as a feudal holding, from the Colonna to the Massimo and finally to the Theodoli, who shaped its present-day appearance.
 data: 1180-01-01
 ---

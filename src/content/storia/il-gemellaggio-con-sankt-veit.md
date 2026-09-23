@@ -1,5 +1,5 @@
 ---
-title: Il gemellaggio con Sankt Veit im Mühlkreis
+title: Il gemellaggio con Sankt Veit im Mühlkreis (dal 2008)
 description: Dal 2008 un legame che unisce San Vito Romano a un comune omonimo dell'Austria.
 data: 2008-01-01
 ---

@@ -1,5 +1,5 @@
 ---
-title: I Colonna e i Theodoli
+title: I Colonna e i Theodoli (1180-1575)
 description: Il paese come feudo, dai Colonna ai Massimo fino ai Theodoli che ne plasmarono l'aspetto attuale.
 data: 1180-01-01
 ---

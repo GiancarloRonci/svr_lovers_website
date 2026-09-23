@@ -1,5 +1,5 @@
 ---
-title: Le origini del paese
+title: Le origini del paese (X secolo a.C. - età romana)
 description: Dagli Equi alla Vitellia romana, le radici antiche del territorio di San Vito Romano.
 data: 0100-01-01
 ---

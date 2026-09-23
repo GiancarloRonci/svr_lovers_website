@@ -1,5 +1,5 @@
 ---
-title: The churches of San Vito Romano
+title: The churches of San Vito Romano (17th-18th century)
 description: From the Church of San Biagio to the Sanctuary of Compigliano, the religious buildings that mark the life of the village.
 data: 1609-01-01
 ---

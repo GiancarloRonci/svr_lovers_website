@@ -1,5 +1,5 @@
 ---
-title: The origins of the town
+title: The origins of the town (10th century BC - Roman era)
 description: From the Aequi to Roman Vitellia, the ancient roots of the San Vito Romano area.
 data: 0100-01-01
 ---

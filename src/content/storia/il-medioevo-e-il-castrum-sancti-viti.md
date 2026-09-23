@@ -1,5 +1,5 @@
 ---
-title: Il Medioevo e il Castrum Sancti Viti
+title: Il Medioevo e il Castrum Sancti Viti (VI-IX secolo)
 description: Dalle incursioni saracene alla nascita del borgo fortificato dedicato a San Vito.
 data: 0850-01-01
 ---

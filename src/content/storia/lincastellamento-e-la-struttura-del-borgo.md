@@ -1,5 +1,5 @@
 ---
-title: L'incastellamento e la struttura del borgo
+title: L'incastellamento e la struttura del borgo (XVII secolo)
 description: Un paese cresciuto su più colli, tra il nucleo medievale sotto il castello e il borgo secentesco di Mario Theodoli.
 data: 1649-01-01
 ---

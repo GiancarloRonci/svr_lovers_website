@@ -1,5 +1,5 @@
 ---
-title: The Middle Ages and the Castrum Sancti Viti
+title: The Middle Ages and the Castrum Sancti Viti (6th-9th century)
 description: From Saracen raids to the birth of the fortified village dedicated to Saint Vitus.
 data: 0850-01-01
 ---
