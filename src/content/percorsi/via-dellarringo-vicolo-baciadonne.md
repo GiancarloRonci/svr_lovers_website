@@ -22,6 +22,10 @@ foto:
     lng: 12.983017
     immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
     didascalia: "La piccola piazza con la fontana, punto di partenza della passeggiata, all'ombra delle mura del Castello Theodoli."
+  - lat: 41.882742
+    lng: 12.983962
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto6.jpg
+    didascalia: "L'arco d'ingresso al quartiere medievale, tra le case in pietra, sulla strada verso Piazza San Biagio."
 ---
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.

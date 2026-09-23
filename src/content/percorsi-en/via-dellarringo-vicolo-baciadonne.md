@@ -22,6 +22,10 @@ foto:
     lng: 12.983017
     immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
     didascalia: "The small square with the fountain, the starting point of the walk, in the shade of Theodoli Castle's walls."
+  - lat: 41.882742
+    lng: 12.983962
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto6.jpg
+    didascalia: "The archway leading into the medieval quarter, between the stone houses, on the way to Piazza San Biagio."
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.
