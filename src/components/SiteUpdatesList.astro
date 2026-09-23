@@ -12,8 +12,26 @@ const updates = await getSiteUpdates(lang);
 const locale = lang === 'en' ? 'en-GB' : 'it-IT';
 const labels =
   lang === 'en'
-    ? { page: 'Page', change: 'Change', when: 'Date and time', empty: 'No updates yet.' }
-    : { page: 'Pagina', change: 'Oggetto della modifica', when: 'Data e ora', empty: 'Nessun aggiornamento.' };
+    ? {
+        page: 'Page',
+        change: 'Change',
+        when: 'Date and time',
+        empty: 'No updates yet.',
+        emptyFiltered: 'No updates in this period.',
+        filterLabel: 'Show',
+        last30: 'Last 30 days',
+        last6m: 'Last 6 months',
+      }
+    : {
+        page: 'Pagina',
+        change: 'Oggetto della modifica',
+        when: 'Data e ora',
+        empty: 'Nessun aggiornamento.',
+        emptyFiltered: 'Nessun aggiornamento in questo periodo.',
+        filterLabel: 'Mostra',
+        last30: 'Ultimi 30 giorni',
+        last6m: 'Ultimi 6 mesi',
+      };
 
 const formatWhen = (d: Date) =>
   d.toLocaleString(locale, {
@@ -30,27 +48,57 @@ const formatWhen = (d: Date) =>
   updates.length === 0 ? (
     <p class="meta">{labels.empty}</p>
   ) : (
-    <ul class="updates">
-      <li class="updates-head" aria-hidden="true">
-        <span>{labels.page}</span>
-        <span>{labels.change}</span>
-        <span>{labels.when}</span>
-      </li>
-      {updates.map((u) => (
-        <li class="update">
-          <span class="update-page">
-            <a href={withBase(u.href)}>{u.title}</a>
-            <small>{u.section}</small>
-          </span>
-          <span class="update-subject">{u.subject}</span>
-          <time class="update-when" datetime={u.date.toISOString()}>{formatWhen(u.date)}</time>
+    <>
+      <div class="updates-filter">
+        <label for="updates-range">{labels.filterLabel}</label>
+        <select id="updates-range">
+          <option value="30d" selected>{labels.last30}</option>
+          <option value="6m">{labels.last6m}</option>
+        </select>
+      </div>
+      <ul class="updates">
+        <li class="updates-head" aria-hidden="true">
+          <span>{labels.page}</span>
+          <span>{labels.change}</span>
+          <span>{labels.when}</span>
         </li>
-      ))}
-    </ul>
+        {updates.map((u) => (
+          <li class="update">
+            <span class="update-page">
+              <a href={withBase(u.href)}>{u.title}</a>
+              <small>{u.section}</small>
+            </span>
+            <span class="update-subject">{u.subject}</span>
+            <time class="update-when" datetime={u.date.toISOString()}>{formatWhen(u.date)}</time>
+          </li>
+        ))}
+      </ul>
+      <p class="meta updates-empty" hidden>{labels.emptyFiltered}</p>
+    </>
   )
 }
 
 <style>
+  .updates-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .updates-filter select {
+    font: inherit;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .updates-empty {
+    margin-top: 1rem;
+  }
+  .update[hidden] {
+    display: none;
+  }
   .updates {
     list-style: none;
     padding: 0;
@@ -94,3 +142,38 @@ const formatWhen = (d: Date) =>
     }
   }
 </style>
+
+<script is:inline>
+  (function () {
+    var select = document.getElementById('updates-range');
+    if (!select) return;
+    var items = document.querySelectorAll('.update');
+    var emptyMsg = document.querySelector('.updates-empty');
+
+    function cutoff(value) {
+      var d = new Date();
+      if (value === '6m') {
+        d.setMonth(d.getMonth() - 6);
+      } else {
+        d.setDate(d.getDate() - 30);
+      }
+      return d.getTime();
+    }
+
+    function apply() {
+      var min = cutoff(select.value);
+      var visible = 0;
+      items.forEach(function (li) {
+        var time = li.querySelector('time');
+        var ts = time ? new Date(time.getAttribute('datetime')).getTime() : 0;
+        var show = ts >= min;
+        li.hidden = !show;
+        if (show) visible++;
+      });
+      if (emptyMsg) emptyMsg.hidden = visible > 0;
+    }
+
+    select.addEventListener('change', apply);
+    apply();
+  })();
+</script>
