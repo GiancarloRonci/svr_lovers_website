@@ -115,6 +115,10 @@ foto:
     lng: 12.984860
     immagine: ./percorso-b-olevano/foto26.jpg
     didascalia: "Via dell'Arringo"
+  - lat: 41.882599
+    lng: 12.984673
+    immagine: ./percorso-b-olevano/foto45.jpg
+    didascalia: "Scorcio di Via dell'Arringo"
   - lat: 41.882960
     lng: 12.984755
     immagine: ./percorso-b-olevano/foto27.jpg
