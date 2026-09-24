@@ -179,6 +179,10 @@ foto:
     lng: 12.983801
     immagine: ./percorso-b-olevano/foto41.jpg
     didascalia: "Uno scorcio della piazza Santa Maria"
+  - lat: 41.883169
+    lng: 12.983728
+    immagine: ./percorso-b-olevano/foto46.jpg
+    didascalia: "La chiesa di Santa Maria al calar della sera"
   - lat: 41.883131
     lng: 12.983672
     immagine: ./percorso-b-olevano/foto42.jpg
