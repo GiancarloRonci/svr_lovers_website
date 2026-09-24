@@ -10,11 +10,15 @@ Il Bar 2000 è uno dei luoghi che vivono soprattutto nella memoria di chi lo ha 
 
 ![L'insegna "Bar 2000" tra il verde, accanto al distributore di benzina.](./il-bar-2000/photo4.jpg)
 
+## Il locale
+
 Chi lo ricorda descrive un locale accogliente e curato nei minimi dettagli, dentro e fuori: i tavolini erano disposti su un pavimento di ghiaia bianca, all'ombra della chioma degli alberi, mentre una porticina secondaria si affacciava discretamente sulla parete del bar, incorniciata da un'edera rampicante che ne rivestiva i muri con colori diversi a seconda della stagione. Sedersi lì con la famiglia per un gelato o un latte e menta, tra il dolce del momento e le bellezze del paesaggio circostante, restituiva l'immagine di un dipinto firmato.
 
 ![I tavolini bianchi disposti all'ombra dei pini, nel piazzale accanto al distributore di benzina.](./il-bar-2000/photo9.jpg)
 
 ![Il piazzale del bar al tramonto, tra i tavolini colorati e la siepe che costeggiava il locale.](./il-bar-2000/photo10.jpg)
+
+## Gli anni d'oro
 
 Il bar era stato costruito e aperto nel 1968, e per tutta la sua storia fu un'attività di famiglia. Dai ricordi condivisi dalla community emerge che era un punto di ritrovo molto sentito già dai primi anni '70: tra il 1972 e il 1978, nelle estati in cui San Vito Romano si riempiva di giovani, ci si alternava tra il Bar 2000 e la Terrazza da Faroni. Un gruppo di una trentina di persone, tra cui il gruppo teatrale del paese, si riuniva abitualmente qui, accolto da Vincenzo, dalla moglie e da Battista. Il jukebox si trovava al piano di sopra, verso l'uscita secondaria, mentre al piano di sotto c'era la sala del biliardo: intere generazioni hanno passato pomeriggi interi tra partite a ping pong, carte, biliardo e flipper - c'è chi ricorda ancora con orgoglio il record personale segnato lì, intorno al 1986 - mettendo le 100 lire nel jukebox per ballare stretti sulle note dei dischi, tra amori platonici, qualche litigio e pomeriggi da sogno; il bar aveva anche una cabina telefonica a scatti, punto di riferimento in un'epoca senza cellulari. Negli ultimi anni arrivarono anche i videogiochi, che tenevano incollati i più piccoli.
 
@@ -26,15 +30,21 @@ Il bar era stato costruito e aperto nel 1968, e per tutta la sua storia fu un'at
 
 ![Due uomini al bancone del bar, mentre uno dei due prepara qualcosa da bere.](./il-bar-2000/photo2.jpg)
 
+## Primi appuntamenti e serate d'estate
+
 Per molti è stato anche il luogo dei primi appuntamenti: c'è chi racconta di essersi conosciuto proprio lì, chi arrivava apposta da Bellegra o da Roma per incontrare amici e cugini, chi veniva a trovare i parenti in villeggiatura a San Vito, chi ci ha anche lavorato per un'estate, chi ci andava da bambino con il nonno, e chi ricorda le tante serate spensierate trascorse insieme, magari dopo aver preso in prestito un ombrellone per andare al mare.
 
 ![Un cliente legge il giornale a un tavolino, tra le tende arancioni del porticato.](./il-bar-2000/photo11.jpg)
+
+## L'inverno e la chiusura
 
 Anche l'inverno aveva il suo fascino: ogni fine settimana, tra una cioccolata calda con la panna per i bambini e un bicchiere di vino rosso con le caldarroste per i grandi, sui tavoli restava accesa una candela rossa, e c'è chi ricorda persino una nevicata che colse tutti lì dentro. Il bar chiuse nel 1998, dopo trent'anni di attività e quasi in contrasto con il suo stesso nome - non arrivò infatti a vedere l'anno Duemila - ma per chi lo ha vissuto resta un luogo senza tempo.
 
 ![Il bancone e gli scaffali del bar, con i tavolini dalle sedute rosse in primo piano.](./il-bar-2000/photo3.jpg)
 
 ![Il piazzale del bar con il distributore di benzina Chevron e l'insegna "Bar 2000" visibile tra il verde.](./il-bar-2000/photo8.jpg)
+
+## I ricordi della community
 
 Condividendo questa foto sul gruppo Facebook della community, in tanti hanno ritrovato un pezzo della propria giovinezza: c'è chi lo definisce "i migliori anni della nostra vita", chi conserva ricordi legati alle estati di ritorno al paese, e chi, semplicemente, scrive "il tempo passa, le cose cambiano, i bei ricordi restano". C'è anche chi è nato e cresciuto proprio lì, con un'intera vita familiare - gioie e dolori - legata a quel luogo, e chi vede in quella trasformazione l'inizio di un declino più ampio per il paese, chiedendosi, guardando queste foto, se quei muri potessero parlare. Tra i commenti non poteva mancare quello della stessa famiglia proprietaria, Battista, Lucina, Margherita, Vincenzo e Luisa, che ricorda: "questo era il Bar 2000, ogni età aveva il suo punto di riferimento, era l'epoca delle comitive ed erano tanti e vari i gruppi che lo frequentavano, grazie". Anche oggi, per chi è cresciuto a San Vito Romano, quell'angolo resta "il bar 2000", banca o non banca: un piccolo grande simbolo della San Vito Romano di ieri.
 
