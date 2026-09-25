@@ -3,6 +3,9 @@ title: La Macchiarella
 description: Il castagneto secolare nel cuore di San Vito Romano, un parco pubblico attrezzato di oltre 4 ettari che ospita il Sentiero della Coscienza.
 comune: San Vito Romano
 immagine: ./la-macchiarella/photo1.jpg
+coordinate:
+  lat: 41.882993
+  lng: 12.976330
 galleria:
   - ./la-macchiarella/photo2.jpg
   - ./la-macchiarella/photo3.jpg

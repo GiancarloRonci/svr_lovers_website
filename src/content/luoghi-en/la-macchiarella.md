@@ -3,6 +3,9 @@ title: La Macchiarella
 description: The centuries-old chestnut wood in the heart of San Vito Romano, a public park of over 4 hectares that is home to the Path of Conscience.
 comune: San Vito Romano
 immagine: ./la-macchiarella/photo1.jpg
+coordinate:
+  lat: 41.882993
+  lng: 12.976330
 galleria:
   - ./la-macchiarella/photo2.jpg
   - ./la-macchiarella/photo3.jpg
