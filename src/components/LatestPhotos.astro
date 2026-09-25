@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const photos = await getLatestPhotos(lang, 5);
+const photos = await getLatestPhotos(lang, 8);
 const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
 ---
 
