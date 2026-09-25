@@ -14,7 +14,7 @@ const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
 
 {
   photos.length > 0 && (
-    <section class="latest-photos home-section">
+    <section class="latest-photos">
       <h2>{heading}</h2>
       <ul class="photo-grid">
         {photos.map((p) => (
@@ -30,6 +30,14 @@ const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
 }
 
 <style>
+  .latest-photos {
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+  }
   .latest-photos h2 {
     font-size: 1.2rem;
     margin: 0 0 1rem;
