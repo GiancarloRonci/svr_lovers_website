@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import LatestPhotos from '../components/LatestPhotos.astro';
 import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -118,6 +119,8 @@ const news = (await getCollection('news'))
         </div>
         <a href={withBase('luoghi/')} class="news-all">Tutti i luoghi &rarr;</a>
       </section>
+
+      <LatestPhotos lang="it" />
     </div>
 
     <aside class="highlights">

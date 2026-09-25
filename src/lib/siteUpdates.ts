@@ -106,3 +106,72 @@ export async function getSiteUpdates(lang: Lang, limit = 100): Promise<SiteUpdat
   }
   return updates;
 }
+
+export interface LatestPhoto {
+  title: string;
+  href: string;
+  image: ImageMetadata;
+}
+
+const imageLoaders = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/content/**/*.{jpg,jpeg,png,webp}'
+);
+const imagePattern = /^src\/content\/([a-z-]+)\/([^/]+)\/.+\.(?:jpe?g|png|webp)$/i;
+/** Massimo di foto mostrate per la stessa pagina, per non far dominare una sola pagina. */
+const MAX_PHOTOS_PER_PAGE = 2;
+
+/**
+ * Ultime foto aggiunte alle pagine di contenuto, dalla più recente, ricavate dalla cronologia git.
+ * Conta solo i file aggiunti (non modificati/rinominati) e usa le foto della versione italiana.
+ */
+export async function getLatestPhotos(lang: Lang, limit = 5): Promise<LatestPhoto[]> {
+  let out = '';
+  try {
+    out = execFileSync(
+      'git',
+      [
+        '-c', 'core.quotepath=false',
+        'log', '--name-only', '--diff-filter=A',
+        `--format=${RECORD}%B${FIELD}`,
+        '--', 'src/content',
+      ],
+      { cwd: process.cwd(), stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 64 * 1024 * 1024 }
+    ).toString();
+  } catch {
+    return [];
+  }
+
+  const titles = new Map<string, string>();
+  for (const [dir, s] of Object.entries(sections)) {
+    const name = lang === 'en' ? `${s.collection}En` : s.collection;
+    const entries = await getCollection(name as any);
+    for (const e of entries as { id: string; data: { title: string } }[]) {
+      titles.set(`${dir}/${e.id}`, e.data.title);
+    }
+  }
+
+  const photos: LatestPhoto[] = [];
+  const perPage = new Map<string, number>();
+  for (const record of out.split(RECORD).filter((r) => r.trim())) {
+    const [message, fileList] = record.split(FIELD);
+    if (HIDDEN_MARKER.test(message)) continue;
+    for (const file of (fileList ?? '').split('\n').map((f) => f.trim())) {
+      const m = imagePattern.exec(file);
+      if (!m || !(m[1] in sections)) continue;
+      const key = `${m[1]}/${m[2]}`;
+      const title = titles.get(key);
+      const load = imageLoaders[`/${file}`];
+      if (!title || !load) continue;
+      const count = perPage.get(key) ?? 0;
+      if (count >= MAX_PHOTOS_PER_PAGE) continue;
+      perPage.set(key, count + 1);
+      photos.push({
+        title,
+        href: `${lang === 'en' ? 'en/' : ''}${sections[m[1] as SectionKey].url}/${m[2]}/`,
+        image: (await load()).default,
+      });
+      if (photos.length >= limit) return photos;
+    }
+  }
+  return photos;
+}
