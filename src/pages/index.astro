@@ -22,7 +22,7 @@ oggi.setHours(0, 0, 0, 0);
 const eventi = (await getCollection('eventi'))
   .filter((e) => (e.data.dataFine ?? e.data.dataInizio).valueOf() >= oggi.valueOf())
   .sort((a, b) => a.data.dataInizio.valueOf() - b.data.dataInizio.valueOf())
-  .slice(0, 6);
+  .slice(0, 9);
 
 const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc).slice(0, 4);
 const news = (await getCollection('news'))
