@@ -15,6 +15,16 @@ const labels =
   lang === 'en'
     ? {
         empty: 'No photos yet.',
+        emptyFiltered: 'No photos match the selected filters.',
+        periodLabel: 'Added in the',
+        last30: 'Last 30 days',
+        last60: 'Last 60 days',
+        last6m: 'Last 6 months',
+        areaLabel: 'Location',
+        areaAll: 'All',
+        areaSanVito: 'In San Vito',
+        areaOutside: 'Outside San Vito',
+        areaNone: 'Not geolocated',
         addedAt: 'Added at',
         shownIn: 'Shown in',
         exact: 'Where the photo was taken',
@@ -24,6 +34,16 @@ const labels =
       }
     : {
         empty: 'Nessuna foto.',
+        emptyFiltered: 'Nessuna foto corrisponde ai filtri scelti.',
+        periodLabel: 'Inserite negli',
+        last30: 'Ultimi 30 giorni',
+        last60: 'Ultimi 60 giorni',
+        last6m: 'Ultimi 6 mesi',
+        areaLabel: 'Posizione',
+        areaAll: 'Tutte',
+        areaSanVito: 'A San Vito',
+        areaOutside: 'Fuori San Vito',
+        areaNone: 'Non geolocalizzate',
         addedAt: 'Inserita alle',
         shownIn: 'Presente in',
         exact: 'Punto in cui è stata scattata',
@@ -39,6 +59,26 @@ const formatTime = (d: Date) => d.toLocaleTimeString(locale, { hour: '2-digit', 
 const mapUrl = ({ lat, lng }: { lat: number; lng: number }) =>
   `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=18/${lat}/${lng}`;
 
+/** Centro di San Vito Romano e raggio entro cui una foto è considerata "a San Vito". */
+const SAN_VITO = { lat: 41.8826, lng: 12.98 };
+const SAN_VITO_RADIUS_KM = 2;
+const distanceKm = (a: { lat: number; lng: number }, b: { lat: number; lng: number }) => {
+  const rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLng = (b.lng - a.lng) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+};
+const area = (p: (typeof photos)[number]) =>
+  !p.location ? 'none' : distanceKm(SAN_VITO, p.location) <= SAN_VITO_RADIUS_KM ? 'san-vito' : 'outside';
+
+const areas = [
+  { value: 'all', label: labels.areaAll },
+  { value: 'san-vito', label: labels.areaSanVito },
+  { value: 'outside', label: labels.areaOutside },
+  { value: 'none', label: labels.areaNone },
+];
+
 // Raggruppa per giorno di inserimento, mantenendo l'ordine dal più recente.
 const days: { label: string; photos: typeof photos }[] = [];
 for (const p of photos) {
@@ -52,12 +92,33 @@ for (const p of photos) {
   photos.length === 0 ? (
     <p class="meta">{labels.empty}</p>
   ) : (
-    days.map((day) => (
+    <>
+    <div class="photo-filters">
+      <div class="photo-filter">
+        <label for="photos-range">{labels.periodLabel}</label>
+        <select id="photos-range">
+          <option value="30" selected>{labels.last30}</option>
+          <option value="60">{labels.last60}</option>
+          <option value="6m">{labels.last6m}</option>
+        </select>
+      </div>
+      <fieldset class="photo-filter">
+        <legend>{labels.areaLabel}</legend>
+        {areas.map((a) => (
+          <label>
+            <input type="radio" name="photos-area" value={a.value} checked={a.value === 'all'} />
+            {a.label}
+          </label>
+        ))}
+      </fieldset>
+    </div>
+    <p class="meta photos-empty" hidden>{labels.emptyFiltered}</p>
+    {days.map((day) => (
       <section class="photo-day">
         <h2>{day.label}</h2>
         <ul class="photo-list">
           {day.photos.map((p) => (
-            <li class="photo-item">
+            <li class="photo-item" data-area={area(p)} data-time={p.date.toISOString()}>
               <a class="photo-thumb" href={withBase(p.pages[0].href)}>
                 <Image
                   src={p.image}
@@ -100,11 +161,57 @@ for (const p of photos) {
           ))}
         </ul>
       </section>
-    ))
+    ))}
+    </>
   )
 }
 
 <style>
+  .photo-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 2rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .photo-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.9rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .photo-filter legend {
+    float: left;
+    margin-right: 0.1rem;
+    padding: 0;
+  }
+  .photo-filter select {
+    font: inherit;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .photo-filter input {
+    accent-color: var(--color-accent);
+    margin: 0 0.25rem 0 0;
+  }
+  .photo-filter label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .photos-empty {
+    margin-top: 1.5rem;
+  }
+  .photo-day[hidden],
+  .photo-item[hidden] {
+    display: none;
+  }
   .photo-day h2 {
     font-size: 1.15rem;
     margin: 2rem 0 0.75rem;
@@ -178,3 +285,49 @@ for (const p of photos) {
     }
   }
 </style>
+
+<script is:inline>
+  (function () {
+    var select = document.getElementById('photos-range');
+    if (!select) return;
+    var radios = document.querySelectorAll('input[name="photos-area"]');
+    var days = document.querySelectorAll('.photo-day');
+    var emptyMsg = document.querySelector('.photos-empty');
+
+    function cutoff(value) {
+      var d = new Date();
+      if (value === '6m') {
+        d.setMonth(d.getMonth() - 6);
+      } else {
+        d.setDate(d.getDate() - Number(value));
+      }
+      return d.getTime();
+    }
+
+    function apply() {
+      var min = cutoff(select.value);
+      var checked = document.querySelector('input[name="photos-area"]:checked');
+      var area = checked ? checked.value : 'all';
+      var visible = 0;
+      days.forEach(function (day) {
+        var dayVisible = 0;
+        day.querySelectorAll('.photo-item').forEach(function (li) {
+          var show =
+            new Date(li.getAttribute('data-time')).getTime() >= min &&
+            (area === 'all' || li.getAttribute('data-area') === area);
+          li.hidden = !show;
+          if (show) dayVisible++;
+        });
+        day.hidden = dayVisible === 0;
+        visible += dayVisible;
+      });
+      if (emptyMsg) emptyMsg.hidden = visible > 0;
+    }
+
+    select.addEventListener('change', apply);
+    radios.forEach(function (r) {
+      r.addEventListener('change', apply);
+    });
+    apply();
+  })();
+</script>
