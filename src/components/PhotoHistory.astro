@@ -1,0 +1,180 @@
+---
+import { Image } from 'astro:assets';
+import { getPhotoHistory } from '../lib/siteUpdates';
+import { withBase } from '../lib/url';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const photos = await getPhotoHistory(lang);
+
+const locale = lang === 'en' ? 'en-GB' : 'it-IT';
+const labels =
+  lang === 'en'
+    ? {
+        empty: 'No photos yet.',
+        addedAt: 'Added at',
+        shownIn: 'Shown in',
+        exact: 'Where the photo was taken',
+        place: 'Location of the place',
+        noLocation: 'Location not available',
+        openMap: 'Open map',
+      }
+    : {
+        empty: 'Nessuna foto.',
+        addedAt: 'Inserita alle',
+        shownIn: 'Presente in',
+        exact: 'Punto in cui è stata scattata',
+        place: 'Posizione del luogo',
+        noLocation: 'Posizione non disponibile',
+        openMap: 'Apri la mappa',
+      };
+
+const tz = 'Europe/Rome';
+const formatDay = (d: Date) =>
+  d.toLocaleDateString(locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: tz });
+const formatTime = (d: Date) => d.toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit', timeZone: tz });
+const mapUrl = ({ lat, lng }: { lat: number; lng: number }) =>
+  `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=18/${lat}/${lng}`;
+
+// Raggruppa per giorno di inserimento, mantenendo l'ordine dal più recente.
+const days: { label: string; photos: typeof photos }[] = [];
+for (const p of photos) {
+  const label = formatDay(p.date);
+  if (days.at(-1)?.label !== label) days.push({ label, photos: [] });
+  days.at(-1)!.photos.push(p);
+}
+---
+
+{
+  photos.length === 0 ? (
+    <p class="meta">{labels.empty}</p>
+  ) : (
+    days.map((day) => (
+      <section class="photo-day">
+        <h2>{day.label}</h2>
+        <ul class="photo-list">
+          {day.photos.map((p) => (
+            <li class="photo-item">
+              <a class="photo-thumb" href={withBase(p.pages[0].href)}>
+                <Image
+                  src={p.image}
+                  alt={p.caption ?? p.pages[0].title}
+                  width={320}
+                  height={240}
+                  loading="lazy"
+                />
+              </a>
+              <div class="photo-info">
+                {p.caption && <p class="photo-caption">{p.caption}</p>}
+                <p class="photo-when">
+                  {labels.addedAt} <time datetime={p.date.toISOString()}>{formatTime(p.date)}</time>
+                </p>
+                <p class="photo-pages">
+                  <span class="photo-label">{labels.shownIn}:</span>
+                  {p.pages.map((page, i) => (
+                    <>
+                      {i > 0 && ', '}
+                      <a href={withBase(page.href)}>{page.title}</a> <small>({page.section})</small>
+                    </>
+                  ))}
+                </p>
+                <p class="photo-location">
+                  {p.location ? (
+                    <>
+                      <span aria-hidden="true">📍</span>
+                      <span class="photo-label">{p.location.kind === 'exact' ? labels.exact : labels.place}:</span>
+                      <a href={mapUrl(p.location)} target="_blank" rel="noopener">
+                        {p.location.lat.toFixed(5)}, {p.location.lng.toFixed(5)}
+                      </a>
+                      <span class="sr-only">({labels.openMap})</span>
+                    </>
+                  ) : (
+                    <span class="photo-muted">{labels.noLocation}</span>
+                  )}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  )
+}
+
+<style>
+  .photo-day h2 {
+    font-size: 1.15rem;
+    margin: 2rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .photo-day h2::first-letter {
+    text-transform: uppercase;
+  }
+  .photo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  .photo-item {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+  .photo-thumb {
+    display: block;
+    aspect-ratio: 4 / 3;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #eee;
+  }
+  .photo-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s;
+  }
+  .photo-thumb:hover img {
+    transform: scale(1.05);
+  }
+  .photo-info p {
+    margin: 0 0 0.3rem;
+    font-size: 0.92rem;
+  }
+  .photo-info .photo-caption {
+    font-size: 1rem;
+    color: var(--color-text);
+  }
+  .photo-when,
+  .photo-pages small,
+  .photo-muted {
+    color: var(--color-muted);
+  }
+  .photo-label {
+    font-weight: 600;
+    margin-right: 0.3rem;
+  }
+  .photo-location span[aria-hidden] {
+    margin-right: 0.25rem;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  @media (max-width: 560px) {
+    .photo-item {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,10 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import PhotoHistory from '../../../components/PhotoHistory.astro';
+---
+
+<Layout title="Latest Photos" description="Photos added to the site, newest first, with the pages they appear in and their location.">
+  <h1>Latest Photos</h1>
+  <p class="meta">Photos added to the site, newest first, with the date and time they were added, the pages they appear in and, when known, their location.</p>
+  <PhotoHistory lang="en" />
+</Layout>

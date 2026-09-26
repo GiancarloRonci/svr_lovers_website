@@ -10,6 +10,8 @@ interface Props {
 const { lang } = Astro.props;
 const photos = await getLatestPhotos(lang, 8);
 const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
+const allLabel = lang === 'en' ? 'See all photos' : 'Vedi tutte le foto';
+const allHref = withBase(`${lang === 'en' ? 'en/' : ''}ultime-foto/`);
 ---
 
 {
@@ -25,6 +27,9 @@ const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
           </li>
         ))}
       </ul>
+      <p class="all-photos">
+        <a href={allHref}>{allLabel} &rarr;</a>
+      </p>
     </section>
   )
 }
@@ -62,6 +67,10 @@ const heading = lang === 'en' ? 'Latest photos' : 'Ultime foto';
     object-fit: cover;
     display: block;
     transition: transform 0.2s;
+  }
+  .all-photos {
+    margin: 1rem 0 0;
+    font-size: 0.95rem;
   }
   .photo-grid a:hover img {
     transform: scale(1.05);
