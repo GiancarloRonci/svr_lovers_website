@@ -1,13 +1,13 @@
 ---
 name: aggiorna-eventi
-description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane (incluse le partite in casa della Sanvitese Calcio a 5), propone quelli nuovi da aggiungere alle collection eventi/eventi-en, e rimuove gli eventi ormai passati. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "aggiungere le partite della Sanvitese", "eliminare gli eventi passati" o simili.
+description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane (incluse le partite in casa della Sanvitese Calcio a 5), propone quelli nuovi da aggiungere alle collection eventi/eventi-en, verifica se gli eventi già inseriti delle prossime due settimane hanno aggiornamenti importanti (rinvii, annullamenti, orari, programma), e rimuove gli eventi ormai passati. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "aggiungere le partite della Sanvitese", "eliminare gli eventi passati" o simili.
 ---
 
 # Aggiorna eventi nei dintorni di San Vito Romano
 
 Questa skill mantiene aggiornata la collection Astro `src/content/eventi` (e il suo gemello `src/content/eventi-en`) con gli eventi in programma entro circa un'ora di macchina da San Vito Romano.
 
-Ha due modalità, spesso richieste insieme: **aggiungere eventi nuovi** e **rimuovere eventi passati**. Se l'utente non specifica, chiedi (o deduci dal contesto) quale delle due vuole, oppure fai entrambe.
+Ha tre modalità, spesso richieste insieme: **aggiungere eventi nuovi** (A), **rimuovere eventi passati** (B) e **verificare aggiornamenti agli eventi già inseriti nelle prossime due settimane** (C). Se l'utente chiede genericamente di "aggiornare gli eventi", esegui tutte e tre; altrimenti fai quella richiesta.
 
 ## Contesto geografico
 
@@ -62,6 +62,22 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
 3. Segnala anche eventuali file anomali (es. senza `dataFine`, con date dell'anno sbagliato, o con contenuto placeholder/non compilato) invece di cancellarli automaticamente senza avviso.
 4. Rimuovi con `git rm` sia il file in `src/content/eventi/` sia il corrispondente in `src/content/eventi-en/`.
 5. Riepiloga all'utente cosa è stato rimosso e perché.
+
+## Modalità C — Verificare aggiornamenti agli eventi già inseriti
+
+Da eseguire ogni volta che la skill gira (insieme alle modalità A e B), limitatamente agli eventi delle **prossime due settimane**.
+
+1. Seleziona i file in `src/content/eventi/*.md` non ancora passati la cui `dataInizio` cade entro 14 giorni da oggi (includi anche gli eventi già in corso, cioè con `dataFine` successiva a oggi).
+2. Per ciascuno, ricontrolla la fonte citata nella riga `*Fonte: ...*` e, se serve, cerca l'evento per nome (WebSearch) per trovare notizie più recenti dal Comune, dalla Pro Loco o dall'organizzatore. Per le partite della Sanvitese Calcio a 5 controlla il calendario LND Lazio e la pagina Facebook della squadra.
+3. Cerca solo **integrazioni importanti**, in ordine di priorità:
+   - rinvio, cambio di data o annullamento;
+   - cambio di luogo;
+   - orari prima non noti (es. calcio d'inizio, orario di partenza di un'escursione);
+   - programma dettagliato pubblicato, ospiti o concerti annunciati, apertura delle prenotazioni, costi.
+   Ignora differenze irrilevanti (formulazioni diverse, dettagli minori già coperti dal testo).
+4. **Non modificare nulla in automatico.** Nel riepilogo finale elenca, in una sezione separata da eventi nuovi e rimossi, ogni evento da aggiornare con: modifica proposta, testo attuale → testo nuovo (in sintesi) e fonte. Applica le modifiche solo dopo la conferma dell'utente.
+5. Quando applichi una modifica, aggiorna sempre insieme il file IT e quello EN con lo stesso slug (frontmatter e corpo), aggiorna la riga `*Fonte: ...*` se la notizia viene da una fonte diversa e, in caso di annullamento, rimuovi entrambi i file con `git rm` segnalandolo nel riepilogo.
+6. Se non trovi aggiornamenti rilevanti, dillo esplicitamente in una riga.
 
 ## Regole comuni
 
