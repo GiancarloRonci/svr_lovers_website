@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1" creator="svrlovers" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Camminata Circolare</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="41.882617" lon="12.982982"></trkpt>
+      <trkpt lat="41.882115" lon="12.980037"></trkpt>
+      <trkpt lat="41.882021" lon="12.979691"></trkpt>
+      <trkpt lat="41.882019" lon="12.979364"></trkpt>
+      <trkpt lat="41.883226" lon="12.976097"></trkpt>
+      <trkpt lat="41.883699" lon="12.975177"></trkpt>
+      <trkpt lat="41.884230" lon="12.974764"></trkpt>
+      <trkpt lat="41.884146" lon="12.975657"></trkpt>
+      <trkpt lat="41.883887" lon="12.976553"></trkpt>
+      <trkpt lat="41.883413" lon="12.977585"></trkpt>
+      <trkpt lat="41.883295" lon="12.977929"></trkpt>
+      <trkpt lat="41.883212" lon="12.978749"></trkpt>
+      <trkpt lat="41.882952" lon="12.979538"></trkpt>
+      <trkpt lat="41.882902" lon="12.980192"></trkpt>
+      <trkpt lat="41.882906" lon="12.980842"></trkpt>
+      <trkpt lat="41.882718" lon="12.981201"></trkpt>
+      <trkpt lat="41.882792" lon="12.981555"></trkpt>
+      <trkpt lat="41.882900" lon="12.981845"></trkpt>
+      <trkpt lat="41.882786" lon="12.982381"></trkpt>
+      <trkpt lat="41.882800" lon="12.982778"></trkpt>
+      <trkpt lat="41.882728" lon="12.982918"></trkpt>
+      <trkpt lat="41.882617" lon="12.982982"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
