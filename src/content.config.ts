@@ -124,7 +124,7 @@ const eventiEn = defineCollection({
 const associazioneSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
-    categoria: z.enum(['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-partite', 'altro']),
+    categoria: z.enum(['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-partite', 'orientamento-turistico', 'altro']),
     description: z.string(),
     frequenza: z.string().optional(),
     immagine: image().optional(),
