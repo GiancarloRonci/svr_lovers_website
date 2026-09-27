@@ -11,24 +11,38 @@ oggi.setHours(0, 0, 0, 0);
 const eventi = (await getCollection('eventiEn'))
   .filter((e) => (e.data.dataFine ?? e.data.dataInizio).valueOf() >= oggi.valueOf())
   .sort((a, b) => a.data.dataInizio.valueOf() - b.data.dataInizio.valueOf());
+
+const aSanVito = (e: (typeof eventi)[number]) => e.data.luogo?.includes('San Vito Romano') ?? false;
+const sezioni = [
+  { titolo: 'In San Vito Romano', eventi: eventi.filter(aSanVito) },
+  { titolo: 'In the surrounding area', eventi: eventi.filter((e) => !aSanVito(e)) },
+].filter((s) => s.eventi.length > 0);
 ---
 
-<Layout title="Events & Festivals" description="Memories of the town's events and festivals.">
+<Layout
+  title="Events & Festivals"
+  description="Festivals, food fairs and events in San Vito Romano and the surrounding area."
+>
   <h1>Events &amp; Festivals</h1>
-  <p class="meta">Memories and photos of the community's festivals and initiatives.</p>
+  <p class="meta">Festivals, food fairs and events in San Vito Romano and the surrounding area.</p>
 
-  <div class="card-list">
-    {
-      eventi.map((e) => (
-        <Card
-          href={withBase(`en/eventi/${e.id}/`)}
-          title={e.data.title}
-          tag={e.data.tipologiaEvento}
-          description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'en-GB')}
-          luogo={e.data.luogo}
-          image={e.data.immagine}
-        />
-      ))
-    }
-  </div>
+  {
+    sezioni.map((s) => (
+      <section>
+        {sezioni.length > 1 && <h2>{s.titolo}</h2>}
+        <div class="card-list">
+          {s.eventi.map((e) => (
+            <Card
+              href={withBase(`en/eventi/${e.id}/`)}
+              title={e.data.title}
+              tag={e.data.tipologiaEvento}
+              description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'en-GB')}
+              luogo={e.data.luogo}
+              image={e.data.immagine}
+            />
+          ))}
+        </div>
+      </section>
+    ))
+  }
 </Layout>
