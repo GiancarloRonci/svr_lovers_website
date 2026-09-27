@@ -31,6 +31,22 @@ galleria:
     didascalia: "Il lungo viale a gradoni tra cipressi e siepi."
   - immagine: ./villa-castellini/photo13.jpg
     didascalia: "Il Castello Theodoli visto dal parco della villa."
+  - immagine: ./villa-castellini/photo14.jpg
+    didascalia: "Il portico interno con il soffitto a travi, i pavimenti in cotto e l'angolo bar in maioliche."
+  - immagine: ./villa-castellini/photo15.jpg
+    didascalia: "Il paese e le montagne visti attraverso una grata del portico."
+  - immagine: ./villa-castellini/photo16.jpg
+    didascalia: "La piccola cappella con gli archi a sesto acuto e il soffitto a capriate."
+  - immagine: ./villa-castellini/photo17.jpg
+    didascalia: "Il salotto con il camino d'angolo, lo stemma e il lampadario in ferro battuto."
+  - immagine: ./villa-castellini/photo18.jpg
+    didascalia: "Una parete di stampe antiche e la maiolica con il motto: «Chi ama sparlare degli assenti sappia che questa mensa non fa per lui»."
+  - immagine: ./villa-castellini/photo19.jpg
+    didascalia: "Una vecchia fotografia in bianco e nero appesa alle pareti della villa."
+  - immagine: ./villa-castellini/photo20.jpg
+    didascalia: "Una finestra ad arco affacciata sul cortile."
+  - immagine: ./villa-castellini/photo21.jpg
+    didascalia: "Il loggiato con i portoni ad arco e i pannelli in maiolica dipinta."
 ---
 
 Villa Castellini è una delle storiche e prestigiose dimore padronali di San Vito Romano. Fa parte del ricco patrimonio di ville del paese, legato alla presenza di famiglie nobili e illustri, come i Baccelli, che scelsero questa zona come luogo di villeggiatura.

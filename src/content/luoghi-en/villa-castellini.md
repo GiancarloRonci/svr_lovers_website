@@ -31,6 +31,22 @@ galleria:
     didascalia: "The long terraced avenue between cypresses and hedges."
   - immagine: ./villa-castellini/photo13.jpg
     didascalia: "Theodoli Castle seen from the villa's park."
+  - immagine: ./villa-castellini/photo14.jpg
+    didascalia: "The inner portico with its beamed ceiling, terracotta floor and majolica-tiled bar corner."
+  - immagine: ./villa-castellini/photo15.jpg
+    didascalia: "The town and the mountains seen through a grille of the portico."
+  - immagine: ./villa-castellini/photo16.jpg
+    didascalia: "The small chapel with pointed arches and a timber-truss ceiling."
+  - immagine: ./villa-castellini/photo17.jpg
+    didascalia: "The living room with its corner fireplace, coat of arms and wrought-iron chandelier."
+  - immagine: ./villa-castellini/photo18.jpg
+    didascalia: "A wall of antique prints and the majolica plaque with the motto: \"Whoever loves to slander the absent should know this table is not for them\"."
+  - immagine: ./villa-castellini/photo19.jpg
+    didascalia: "An old black-and-white photograph hanging on the villa's walls."
+  - immagine: ./villa-castellini/photo20.jpg
+    didascalia: "An arched window overlooking the courtyard."
+  - immagine: ./villa-castellini/photo21.jpg
+    didascalia: "The loggia with its arched doors and painted majolica panels."
 ---
 
 Villa Castellini is one of the historic and prestigious manor houses of San Vito Romano. It is part of the town's rich heritage of villas, linked to the noble and distinguished families, such as the Baccelli, who chose this area as a summer retreat.
