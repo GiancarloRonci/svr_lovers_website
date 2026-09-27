@@ -15,8 +15,14 @@ più volte la carica di ministro della Pubblica Istruzione e quella di ministro
 dell'Agricoltura, Industria e Commercio. A lui si devono, tra l'altro, la tutela
 della zona monumentale di Roma e l'apertura della passeggiata archeologica,
 l'istituzione della prima "Festa Nazionale degli Alberi" italiana (celebrata per la
-prima volta il 21 novembre 1898), importanti studi sulla malaria e sulle patologie
-pleuriche, proposte per la bonifica della campagna romana, la fondazione della
+prima volta il 21 novembre 1898), importanti studi sulla malaria, contro la quale
+mise a punto un efficace antidoto noto come "mistura Baccelli", e sulle patologie
+pleuriche, l'introduzione per primo delle iniezioni endovenose, proposte per la bonifica della campagna romana, la fondazione della
 Galleria Nazionale d'Arte Moderna e la costruzione del Policlinico Umberto I di
 Roma. Nel 1931, a cento anni dalla nascita, la città di Roma gli dedicò un
 monumento bronzeo dietro il Policlinico, inaugurato il 21 aprile di quell'anno.
+
+A San Vito la presenza della famiglia è ancora testimoniata dalle ville dei
+Baccelli, che insieme a Villa Castellini, con il suo parco ornato da statue e
+fontane, al villino Ivella e al villino Pacini fanno parte del patrimonio di
+dimore storiche del paese.

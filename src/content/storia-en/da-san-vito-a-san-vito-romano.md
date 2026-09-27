@@ -16,4 +16,5 @@ Tree Festival", celebrated for the first time on 21 November of that year.
 The 20th century also brought painful pages: during the Second World War the
 town suffered reprisals by German troops, with civilian victims on 1 May and 5
 June 1944, episodes that remain part of the community's collective memory to
-this day.
+this day. During those years the Villino Pacini, near the Sanctuary of the
+Madonna di Compigliano, was chosen by General Kesselring as a military base.

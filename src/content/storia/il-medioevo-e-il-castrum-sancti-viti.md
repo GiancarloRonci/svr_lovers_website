@@ -11,8 +11,7 @@ longobardo *curtis*.
 
 Nel IX secolo le incursioni saracene lungo la valle spinsero gli abitanti a
 rifugiarsi in quota, dove ricostruirono l'insediamento attorno a una fortezza posta
-sulla sommità della rupe. Furono i monaci benedettini a dedicare il nuovo borgo a
-San Vito, dando origine al toponimo **Castrum Sancti Viti**, il "Castello di San
-Vito", da cui deriva il nome del paese. Di questo periodo medievale si conservano
-ancora oggi alcune porte di accesso al borgo, costruite ad arco a sesto acuto con
-blocchi di pietra legati da malta di calce bianca.
+sulla sommità della rupe, con l'aiuto dei monaci benedettini. Furono proprio i
+benedettini a dedicare il nuovo borgo a San Vito, dando origine al toponimo
+**Castrum Sancti Viti**, il "Castello di San Vito", da cui deriva il nome del
+paese. Il borgo rimase feudo benedettino fino al 1180.

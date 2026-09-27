@@ -16,4 +16,6 @@ degli Alberi" italiana, celebrata per la prima volta il 21 novembre di quell'ann
 Il Novecento portò anche pagine dolorose: durante la Seconda Guerra Mondiale il
 paese subì rappresaglie da parte delle truppe tedesche, con vittime civili il 1°
 maggio e il 5 giugno 1944, episodi che restano ancora oggi parte della memoria
-collettiva della comunità.
+collettiva della comunità. In quegli anni il villino Pacini, vicino al Santuario
+della Madonna di Compigliano, fu scelto dal generale Kesselring come base
+militare.

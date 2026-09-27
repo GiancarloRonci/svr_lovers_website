@@ -15,8 +15,15 @@ parliament from 1874, who repeatedly held the post of Minister of Public
 Instruction as well as Minister of Agriculture, Industry and Commerce. He is
 credited, among other things, with protecting Rome's monumental area and opening
 the archaeological walk, establishing Italy's first "National Tree Festival"
-(celebrated for the first time on 21 November 1898), important studies on malaria
-and pleural diseases, proposals for reclaiming the Roman countryside, founding the
+(celebrated for the first time on 21 November 1898), important studies on malaria,
+against which he developed an effective remedy known as the "Baccelli mixture",
+and on pleural diseases, being the first to introduce intravenous injections,
+proposals for reclaiming the Roman countryside, founding the
 National Gallery of Modern Art, and building Rome's Policlinico Umberto I
 hospital. In 1931, on the centenary of his birth, the city of Rome dedicated a
 bronze monument to him behind the Policlinico, unveiled on 21 April of that year.
+
+In San Vito, the family's presence is still visible in the Baccelli villas, which,
+together with Villa Castellini and its park adorned with statues and fountains,
+the Villino Ivella and the Villino Pacini, are part of the town's heritage of
+historic residences.

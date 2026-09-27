@@ -10,8 +10,7 @@ such as the area known as "La Corte", which recalls the Lombard term *curtis*.
 
 In the 9th century, Saracen raids along the valley pushed the inhabitants to take
 refuge higher up, where they rebuilt the settlement around a fortress perched on
-the top of the cliff. It was Benedictine monks who dedicated the new village to
-Saint Vitus, giving rise to the name **Castrum Sancti Viti**, the "Castle of
-Saint Vitus", from which the town's name derives. Some access gates from this
-medieval period still survive today, built with pointed stone arches held
-together with white lime mortar.
+the top of the cliff, with the help of Benedictine monks. It was the Benedictines
+who dedicated the new village to Saint Vitus, giving rise to the name **Castrum
+Sancti Viti**, the "Castle of Saint Vitus", from which the town's name derives.
+The village remained a Benedictine fiefdom until 1180.
