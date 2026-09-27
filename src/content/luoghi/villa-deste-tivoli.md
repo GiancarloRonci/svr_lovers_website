@@ -15,28 +15,50 @@ galleria:
     didascalia: "Il cortile interno della villa, un tempo convento benedettino."
   - immagine: ./villa-deste-tivoli/photo5.jpg
     didascalia: "Fontane e vasche disposte tra le terrazze del giardino."
-  - ./villa-deste-tivoli/photo6.jpg
-  - ./villa-deste-tivoli/photo7.jpg
-  - ./villa-deste-tivoli/photo8.jpg
-  - ./villa-deste-tivoli/photo9.jpg
-  - ./villa-deste-tivoli/photo10.jpg
-  - ./villa-deste-tivoli/photo11.jpg
-  - ./villa-deste-tivoli/photo12.jpg
-  - ./villa-deste-tivoli/photo13.jpg
-  - ./villa-deste-tivoli/photo14.jpg
-  - ./villa-deste-tivoli/photo15.jpg
-  - ./villa-deste-tivoli/photo16.jpg
-  - ./villa-deste-tivoli/photo17.jpg
-  - ./villa-deste-tivoli/photo18.jpg
-  - ./villa-deste-tivoli/photo19.jpg
-  - ./villa-deste-tivoli/photo20.jpg
-  - ./villa-deste-tivoli/photo21.jpg
-  - ./villa-deste-tivoli/photo22.jpg
-  - ./villa-deste-tivoli/photo23.jpg
-  - ./villa-deste-tivoli/photo24.jpg
-  - ./villa-deste-tivoli/photo25.jpg
-  - ./villa-deste-tivoli/photo26.jpg
-  - ./villa-deste-tivoli/photo27.jpg
+  - immagine: ./villa-deste-tivoli/photo6.jpg
+    didascalia: "La vista notturna dalla villa sulla valle e sulle luci dei paesi vicini."
+  - immagine: ./villa-deste-tivoli/photo7.jpg
+    didascalia: "Una sala affrescata, con scene mitologiche sulla volta e sulle pareti."
+  - immagine: ./villa-deste-tivoli/photo8.jpg
+    didascalia: "Il soffitto a cassettoni dorati con lo stemma del cardinale Ippolito d'Este."
+  - immagine: ./villa-deste-tivoli/photo9.jpg
+    didascalia: "Una sala con soffitto a cassettoni in legno e un fregio di figure affrescate."
+  - immagine: ./villa-deste-tivoli/photo10.jpg
+    didascalia: "Una scala interna che scende verso una nicchia con un vaso antico."
+  - immagine: ./villa-deste-tivoli/photo11.jpg
+    didascalia: "La Fontana di Venere nel cortile, illuminata di sera."
+  - immagine: ./villa-deste-tivoli/photo12.jpg
+    didascalia: "Un mascherone di pietra da cui sgorga l'acqua, tra felci e muschio."
+  - immagine: ./villa-deste-tivoli/photo13.jpg
+    didascalia: "Visitatori che fotografano la Fontana dell'Organo dalle Peschiere, di sera."
+  - immagine: ./villa-deste-tivoli/photo14.jpg
+    didascalia: "Un getto d'acqua a ventaglio tra la vegetazione, illuminato di notte."
+  - immagine: ./villa-deste-tivoli/photo15.jpg
+    didascalia: "Un affresco con una figura femminile e un bambino in un paesaggio."
+  - immagine: ./villa-deste-tivoli/photo16.jpg
+    didascalia: "La Fontana dell'Organo illuminata, riflessa nelle Peschiere."
+  - immagine: ./villa-deste-tivoli/photo17.jpg
+    didascalia: "Il belvedere di notte, affacciato sulla pianura verso Roma."
+  - immagine: ./villa-deste-tivoli/photo18.jpg
+    didascalia: "Piazza Trento e la chiesa di Santa Maria Maggiore, accanto all'ingresso della villa."
+  - immagine: ./villa-deste-tivoli/photo19.jpg
+    didascalia: "Una cascata vista dall'interno di una grotta del giardino."
+  - immagine: ./villa-deste-tivoli/photo20.jpg
+    didascalia: "Le allegorie dell'Abbondanza e della Pietà, affrescate tra putti e festoni."
+  - immagine: ./villa-deste-tivoli/photo21.jpg
+    didascalia: "La Fontana dell'Organo e le Peschiere nella visita serale."
+  - immagine: ./villa-deste-tivoli/photo22.jpg
+    didascalia: "La Fontana dell'Organo vista tra i rami di un agrumeto."
+  - immagine: ./villa-deste-tivoli/photo23.jpg
+    didascalia: "Una volta decorata con stucchi e affreschi."
+  - immagine: ./villa-deste-tivoli/photo24.jpg
+    didascalia: "Un getto d'acqua a ventaglio illuminato nella notte."
+  - immagine: ./villa-deste-tivoli/photo25.jpg
+    didascalia: "La statua della Diana Efesina, simbolo della Madre Natura."
+  - immagine: ./villa-deste-tivoli/photo26.jpg
+    didascalia: "Una scalinata del giardino illuminata di sera."
+  - immagine: ./villa-deste-tivoli/photo27.jpg
+    didascalia: "Un ninfeo in grotta con felci e una vasca d'acqua."
 ---
 
 A Tivoli, a circa un'ora di macchina da San Vito Romano, sorge Villa d'Este, uno dei giardini rinascimentali più celebri al mondo e dal 2001 Patrimonio dell'Umanità UNESCO. Fu il cardinale Ippolito II d'Este, figlio di Lucrezia Borgia, a volerla a metà del Cinquecento, trasformando un antico convento benedettino sulla collina tiburtina in una residenza sfarzosa degna del suo rango.
