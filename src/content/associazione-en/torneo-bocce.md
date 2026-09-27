@@ -1,8 +1,8 @@
 ---
 title: Summer bocce tournament
 categoria: bocce
-description: The bocce tournament that livens up summer evenings at the club.
-frequenza: "June - August, every Thursday"
+description: A bocce tournament to liven up summer evenings at the club.
 ---
 
-Teams of two or four players compete on the club's court. Open to all members.
+Teams of two or four players will compete on the club's court. Registration,
+open to all members, will start once the tournament has been planned.

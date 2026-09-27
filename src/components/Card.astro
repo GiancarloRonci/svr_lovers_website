@@ -9,10 +9,11 @@ interface Props {
   tag?: string;
   meta?: string;
   luogo?: string;
+  nota?: string;
   image?: ImageMetadata;
 }
 
-const { href, title, description, tag, meta, luogo, image } = Astro.props;
+const { href, title, description, tag, meta, luogo, nota, image } = Astro.props;
 ---
 
 <a class="card" href={href}>
@@ -23,6 +24,7 @@ const { href, title, description, tag, meta, luogo, image } = Astro.props;
     {meta && <p class="card-meta">📅 {meta}</p>}
     <p>{description}</p>
     {luogo && <p class="luogo">📍 {luogo}</p>}
+    {nota && <p class="nota">⏳ {nota}</p>}
   </div>
 </a>
 
@@ -36,5 +38,11 @@ const { href, title, description, tag, meta, luogo, image } = Astro.props;
   .luogo {
     font-weight: 600;
     margin-top: 0.3rem;
+  }
+  .nota {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 0.4rem;
   }
 </style>

@@ -1,9 +1,8 @@
 ---
 title: Partite insieme al circolo
 categoria: proiezione-partite
-description: Ci si ritrova al circolo per vedere insieme le partite più importanti.
-frequenza: "In occasione delle partite principali"
+description: Ci si ritroverà al circolo per vedere insieme le partite più importanti.
 ---
 
-Maxischermo, sedie in cerchio e un po' di sano tifo condiviso: un modo semplice per
-stare insieme.
+Maxischermo, sedie in cerchio e un po' di sano tifo condiviso: sarà un modo
+semplice per stare insieme.

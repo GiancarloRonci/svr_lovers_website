@@ -1,9 +1,9 @@
 ---
 title: Torneo di bocce estivo
 categoria: bocce
-description: Il torneo di bocce che anima le sere d'estate al circolo.
-frequenza: "Giugno - Agosto, ogni giovedì"
+description: Un torneo di bocce per animare le sere d'estate al circolo.
 ---
 
-Squadre da due o quattro giocatori si sfidano sul campo del circolo. Iscrizioni
-aperte a tutti i soci.
+Squadre da due o quattro giocatori si sfideranno sul campo del circolo. Le
+iscrizioni saranno aperte a tutti i soci e partiranno quando il torneo sarà
+definito.
