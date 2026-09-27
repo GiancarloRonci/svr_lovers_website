@@ -1,7 +1,7 @@
 ---
 title: "CAI Youth Mountaineering: Monte Cerella from the Mentorella Sanctuary"
 description: A hike organized by the Youth Mountaineering group of the CAI Palestrina section in the Prenestini Mountains, from the Mentorella Sanctuary to Monte Cerella.
-dataInizio: 2026-11-15
+dataInizio: 2026-12-12
 luogo: "Mentorella Sanctuary, Prenestini Mountains (Rome)"
 tipologiaEvento: Hike
 ---
