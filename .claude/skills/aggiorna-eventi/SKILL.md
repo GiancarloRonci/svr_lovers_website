@@ -1,6 +1,6 @@
 ---
 name: aggiorna-eventi
-description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane, propone quelli nuovi da aggiungere alle collection eventi/eventi-en, e rimuove gli eventi ormai passati. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "eliminare gli eventi passati" o simili.
+description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane (incluse le partite in casa della Sanvitese Calcio a 5), propone quelli nuovi da aggiungere alle collection eventi/eventi-en, e rimuove gli eventi ormai passati. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "aggiungere le partite della Sanvitese", "eliminare gli eventi passati" o simili.
 ---
 
 # Aggiorna eventi nei dintorni di San Vito Romano
@@ -45,7 +45,14 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
 
 5. **Crea sempre anche la versione inglese** in `src/content/eventi-en/<stesso-slug>.md`, stessa struttura e stesse date, con titolo/descrizione/corpo tradotti (vedi memoria "Keep English content aligned").
 
-6. **Alla fine, riepiloga all'utente** gli eventi trovati (titolo, date, luogo, fonte) e proponili prima di scrivere i file, a meno che l'utente non abbia già chiesto esplicitamente di procedere senza conferma.
+6. **Partite in casa della Sanvitese Calcio a 5.** Oltre a sagre e feste, cerca sempre le partite **casalinghe** (non le trasferte) della ASD Sanvitese Calcio a 5, la squadra di futsal di San Vito Romano, che rientrano nel periodo richiesto.
+   - **Fonti:** calendario della squadra su tuttocampo.it (pagina `Lazio/CalcioA5SerieC1/Girone<X>/Squadra/SanviteseCalcioa5/1105941/Calendario`; verifica stagione e girone correnti, perché cambiano di anno in anno), pagina Facebook ufficiale [facebook.com/Sanvitesecalcioa5](https://www.facebook.com/Sanvitesecalcioa5) e scheda sul sito del [Comune](https://comune.sanvitoromano.rm.it/luoghi/2453724/sanvitese-calcio-a5). tuttocampo.it risponde 403 a WebFetch: usa gli snippet di WebSearch (es. `Sanvitese Calcio a 5 calendario <stagione> tuttocampo`), oppure, se disponibile, il browser (Claude in Chrome) per leggere la pagina; se non riesci a ottenere il calendario, chiedi all'utente invece di inventare date.
+   - **Un file per partita**, solo con data (e orario, se noto) confermati. Slug: `sanvitese-calcio-a5-<avversario>-<YYYY-MM-DD>`.
+   - **Frontmatter:** `title: "Sanvitese Calcio a 5 - <Avversario>"`, `tipologiaEvento: Evento Sportivo`, solo `dataInizio` (niente `dataFine`), `luogo` = impianto delle gare interne indicato dal calendario o dalla squadra, seguito da `, San Vito Romano (Roma)`. Se l'impianto non è indicato da nessuna fonte, chiedi all'utente anziché indovinarlo.
+   - **Corpo:** 1-2 frasi con campionato e girone, giornata, orario del calcio d'inizio e invito a tifare la squadra del paese; chiudi con la riga `*Fonte: ...*` come per gli altri eventi.
+   - Anche per le partite crea la versione inglese in `eventi-en` (title: `"Sanvitese Calcio a 5 vs <Opponent>"`) e, se una partita viene rinviata, aggiorna o rimuovi il file corrispondente.
+
+7. **Alla fine, riepiloga all'utente** gli eventi trovati (titolo, date, luogo, fonte) e proponili prima di scrivere i file, a meno che l'utente non abbia già chiesto esplicitamente di procedere senza conferma.
 
 ## Modalità B — Rimuovere eventi passati
 
