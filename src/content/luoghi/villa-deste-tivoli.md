@@ -4,8 +4,8 @@ description: Capolavoro del giardino rinascimentale a Tivoli, Patrimonio UNESCO,
 comune: Tivoli
 immagine: ./villa-deste-tivoli/photo1.jpg
 coordinate:
-  lat: 41.9629665
-  lng: 12.7959903
+  lat: 41.962378
+  lng: 12.796873
 galleria:
   - immagine: ./villa-deste-tivoli/photo2.jpg
     didascalia: "Uno degli specchi d'acqua ornamentali nei giardini di Villa d'Este."
@@ -15,6 +15,28 @@ galleria:
     didascalia: "Il cortile interno della villa, un tempo convento benedettino."
   - immagine: ./villa-deste-tivoli/photo5.jpg
     didascalia: "Fontane e vasche disposte tra le terrazze del giardino."
+  - ./villa-deste-tivoli/photo6.jpg
+  - ./villa-deste-tivoli/photo7.jpg
+  - ./villa-deste-tivoli/photo8.jpg
+  - ./villa-deste-tivoli/photo9.jpg
+  - ./villa-deste-tivoli/photo10.jpg
+  - ./villa-deste-tivoli/photo11.jpg
+  - ./villa-deste-tivoli/photo12.jpg
+  - ./villa-deste-tivoli/photo13.jpg
+  - ./villa-deste-tivoli/photo14.jpg
+  - ./villa-deste-tivoli/photo15.jpg
+  - ./villa-deste-tivoli/photo16.jpg
+  - ./villa-deste-tivoli/photo17.jpg
+  - ./villa-deste-tivoli/photo18.jpg
+  - ./villa-deste-tivoli/photo19.jpg
+  - ./villa-deste-tivoli/photo20.jpg
+  - ./villa-deste-tivoli/photo21.jpg
+  - ./villa-deste-tivoli/photo22.jpg
+  - ./villa-deste-tivoli/photo23.jpg
+  - ./villa-deste-tivoli/photo24.jpg
+  - ./villa-deste-tivoli/photo25.jpg
+  - ./villa-deste-tivoli/photo26.jpg
+  - ./villa-deste-tivoli/photo27.jpg
 ---
 
 A Tivoli, a circa un'ora di macchina da San Vito Romano, sorge Villa d'Este, uno dei giardini rinascimentali più celebri al mondo e dal 2001 Patrimonio dell'Umanità UNESCO. Fu il cardinale Ippolito II d'Este, figlio di Lucrezia Borgia, a volerla a metà del Cinquecento, trasformando un antico convento benedettino sulla collina tiburtina in una residenza sfarzosa degna del suo rango.
