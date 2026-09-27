@@ -59,6 +59,32 @@ galleria:
     didascalia: "Una scalinata del giardino illuminata di sera."
   - immagine: ./villa-deste-tivoli/photo27.jpg
     didascalia: "Un ninfeo in grotta con felci e una vasca d'acqua."
+  - immagine: ./villa-deste-tivoli/photo28.jpg
+    didascalia: "Un lungo corridoio voltato, illuminato da lanterne, all'interno della villa."
+  - immagine: ./villa-deste-tivoli/photo29.jpg
+    didascalia: "La Fontana della Rometta, con la barca di pietra e l'obelisco."
+  - immagine: ./villa-deste-tivoli/photo30.jpg
+    didascalia: "La Fontana di Nettuno con i suoi alti getti d'acqua, sotto la Fontana dell'Organo."
+  - immagine: ./villa-deste-tivoli/photo31.jpg
+    didascalia: "Le Peschiere e il giardino basso visti dall'alto, tra gli spruzzi della Fontana di Nettuno."
+  - immagine: ./villa-deste-tivoli/photo32.jpg
+    didascalia: "Visitatori lungo le Peschiere, le grandi vasche rettangolari del giardino."
+  - immagine: ./villa-deste-tivoli/photo33.jpg
+    didascalia: "Il viale che sale verso la Fontana dei Draghi e il palazzo."
+  - immagine: ./villa-deste-tivoli/photo34.jpg
+    didascalia: "Una sala con paesaggi affrescati alle pareti e grottesche sulla volta."
+  - immagine: ./villa-deste-tivoli/photo35.jpg
+    didascalia: "Lo stemma estense sorretto da due angeli, in mosaico e stucco colorato."
+  - immagine: ./villa-deste-tivoli/photo36.jpg
+    didascalia: "Una delle Peschiere, con alti cipressi e un'antica torre sullo sfondo."
+  - immagine: ./villa-deste-tivoli/photo37.jpg
+    didascalia: "Il Viale delle Cento Fontane, con i getti d'acqua lungo il muro ricoperto di verde."
+  - immagine: ./villa-deste-tivoli/photo38.jpg
+    didascalia: "La Fontana dei Draghi vista dall'alto, con il suo getto centrale."
+  - immagine: ./villa-deste-tivoli/photo39.jpg
+    didascalia: "Decorazioni in mosaico con statue e gigli estensi, affacciate sulla campagna romana."
+  - immagine: ./villa-deste-tivoli/photo40.jpg
+    didascalia: "Una sala dalle pareti rosse, con la volta dipinta a finti cassettoni."
 ---
 
 A Tivoli, a circa un'ora di macchina da San Vito Romano, sorge Villa d'Este, uno dei giardini rinascimentali più celebri al mondo e dal 2001 Patrimonio dell'Umanità UNESCO. Fu il cardinale Ippolito II d'Este, figlio di Lucrezia Borgia, a volerla a metà del Cinquecento, trasformando un antico convento benedettino sulla collina tiburtina in una residenza sfarzosa degna del suo rango.

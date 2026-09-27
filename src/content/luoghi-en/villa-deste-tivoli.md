@@ -59,6 +59,32 @@ galleria:
     didascalia: "A garden staircase lit up in the evening."
   - immagine: ./villa-deste-tivoli/photo27.jpg
     didascalia: "A grotto nymphaeum with ferns and a pool of water."
+  - immagine: ./villa-deste-tivoli/photo28.jpg
+    didascalia: "A long vaulted corridor lit by lanterns inside the villa."
+  - immagine: ./villa-deste-tivoli/photo29.jpg
+    didascalia: "The Rometta Fountain, with its stone boat and obelisk."
+  - immagine: ./villa-deste-tivoli/photo30.jpg
+    didascalia: "The Fountain of Neptune with its tall water jets, below the Water Organ Fountain."
+  - immagine: ./villa-deste-tivoli/photo31.jpg
+    didascalia: "The Fishponds and the lower garden seen from above, through the spray of the Fountain of Neptune."
+  - immagine: ./villa-deste-tivoli/photo32.jpg
+    didascalia: "Visitors along the Fishponds, the garden's large rectangular pools."
+  - immagine: ./villa-deste-tivoli/photo33.jpg
+    didascalia: "The avenue climbing towards the Fountain of the Dragons and the palace."
+  - immagine: ./villa-deste-tivoli/photo34.jpg
+    didascalia: "A hall with frescoed landscapes on the walls and grotesques on the vault."
+  - immagine: ./villa-deste-tivoli/photo35.jpg
+    didascalia: "The Este coat of arms held by two angels, in mosaic and coloured stucco."
+  - immagine: ./villa-deste-tivoli/photo36.jpg
+    didascalia: "One of the Fishponds, with tall cypresses and an old tower in the background."
+  - immagine: ./villa-deste-tivoli/photo37.jpg
+    didascalia: "The Avenue of a Hundred Fountains, with water jets along the greenery-covered wall."
+  - immagine: ./villa-deste-tivoli/photo38.jpg
+    didascalia: "The Fountain of the Dragons seen from above, with its central jet."
+  - immagine: ./villa-deste-tivoli/photo39.jpg
+    didascalia: "Mosaic decorations with statues and Este lilies, overlooking the Roman countryside."
+  - immagine: ./villa-deste-tivoli/photo40.jpg
+    didascalia: "A red-walled hall with a vault painted in faux coffers."
 ---
 
 In Tivoli, about an hour's drive from San Vito Romano, stands Villa d'Este, one of the most celebrated Renaissance gardens in the world and a UNESCO World Heritage Site since 2001. It was Cardinal Ippolito II d'Este, son of Lucrezia Borgia, who commissioned it in the mid-16th century, transforming a former Benedictine convent on the hillside of Tivoli into a lavish residence worthy of his rank.
