@@ -3,8 +3,8 @@ title: Main Square
 description: The heart of the town's social life, home to markets, festivals and gatherings.
 comune: San Vito Romano
 coordinate:
-  lat: 41.9010
-  lng: 12.4950
+  lat: 41.882012
+  lng: 12.979444
 ---
 
 Describe the history of the square, the buildings that surround it and the events

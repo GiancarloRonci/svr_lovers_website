@@ -7,8 +7,8 @@ giorni:
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:30"
-        attivita: "Walk through the old town"
-        descrizione: "The walking route through the oldest streets and squares of the town (Trails section)."
+        attivita: "Alleys and squares of the old town"
+        descrizione: "Piazza San Biagio, Via Olevano, Via dell'Arringo and Vicolo Baciadonne, following the walking routes Trail A (San Biagio), Trail B (Olevano) and \"Via dell'Arringo and Vicolo Baciadonne\" (Trails section)."
       - oraInizio: "10:30"
         oraFine: "12:00"
         attivita: "Piazza Principale"
@@ -24,8 +24,8 @@ giorni:
     tappe:
       - oraInizio: "09:00"
         oraFine: "12:00"
-        attivita: "Monte Loop Trail"
-        descrizione: "A circular nature trail with panoramic views over the valley (Trails section)."
+        attivita: "Monte Guadagnolo and the Sanctuary of the Mentorella"
+        descrizione: "A drive up to the highest inhabited village in Lazio for a walk along the scenic trails of the Monti Prenestini, and to the nearby Sanctuary of the Mentorella, reached on foot for the last stretch (Places section)."
       - oraInizio: "13:00"
         oraFine: "14:30"
         attivita: "Local lunch"

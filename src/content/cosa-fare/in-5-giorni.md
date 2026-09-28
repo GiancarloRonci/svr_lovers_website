@@ -7,8 +7,8 @@ giorni:
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:30"
-        attivita: "Passeggiata nel centro storico"
-        descrizione: "L'itinerario a piedi tra le vie e le piazze più antiche del paese (sezione Percorsi)."
+        attivita: "Vicoli e piazze del centro storico"
+        descrizione: "Piazza San Biagio, Via Olevano, Via dell'Arringo e Vicolo Baciadonne, seguendo i percorsi a piedi Percorso A (San Biagio), Percorso B (Olevano) e \"Via dell'Arringo e Vicolo Baciadonne\" (sezione Percorsi)."
       - oraInizio: "10:30"
         oraFine: "12:00"
         attivita: "Piazza Principale"
@@ -24,8 +24,8 @@ giorni:
     tappe:
       - oraInizio: "09:00"
         oraFine: "12:00"
-        attivita: "Anello del Monte"
-        descrizione: "Percorso naturalistico ad anello con vista panoramica sulla valle (sezione Percorsi)."
+        attivita: "Monte Guadagnolo e Santuario della Mentorella"
+        descrizione: "In auto fino al centro abitato più alto del Lazio, per una passeggiata tra i sentieri panoramici dei Monti Prenestini, e al vicino Santuario della Mentorella, raggiungibile a piedi per l'ultimo tratto (sezione Luoghi)."
       - oraInizio: "13:00"
         oraFine: "14:30"
         attivita: "Pranzo tipico"
