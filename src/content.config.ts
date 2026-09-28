@@ -200,6 +200,9 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     data: z.coerce.date().optional(),
     autore: z.string().optional(),
     immagine: image().optional(),
+    galleria: z
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .optional(),
   });
 
 const articoli = defineCollection({
