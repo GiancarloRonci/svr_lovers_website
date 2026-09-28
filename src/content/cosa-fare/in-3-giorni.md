@@ -7,8 +7,8 @@ giorni:
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
-        attivita: "Piazza Principale"
-        descrizione: "Un caffè nel cuore della vita sociale del paese, per cominciare la giornata (sezione Luoghi)."
+        attivita: "Piazza Roma"
+        descrizione: "Un caffè nella piazza su cui si affaccia la Villa Comunale, per cominciare la giornata (sezione Luoghi)."
       - oraInizio: "10:00"
         oraFine: "10:45"
         attivita: "Castello Theodoli e Chiesa di Santa Maria de Arce"

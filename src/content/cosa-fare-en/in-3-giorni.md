@@ -7,8 +7,8 @@ giorni:
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
-        attivita: "Main Square"
-        descrizione: "A coffee in the heart of the town's social life to start the day (Places section)."
+        attivita: "Piazza Roma"
+        descrizione: "A coffee in the square overlooked by the Villa Comunale to start the day (Places section)."
       - oraInizio: "10:00"
         oraFine: "10:45"
         attivita: "Theodoli Castle and the Church of Santa Maria de Arce"
