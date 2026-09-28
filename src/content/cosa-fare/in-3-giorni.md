@@ -1,9 +1,9 @@
 ---
 title: "In 3 giorni"
-description: Un itinerario breve tra il centro storico, un trekking panoramico e un'escursione ai dintorni più suggestivi.
+description: Un soggiorno ipotizzato dal giovedì al sabato, tra il centro storico, un trekking panoramico e un'escursione ai dintorni più suggestivi.
 giorniTotali: 3
 giorni:
-  - titolo: "Giorno 1: il centro storico"
+  - titolo: "Giorno 1 (giovedì): il centro storico"
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -32,7 +32,7 @@ giorni:
         oraFine: "19:30"
         attivita: "Circolo Culturale"
         descrizione: "Scacchi, dama, bocce o una proiezione, a seconda del calendario delle attività."
-  - titolo: "Giorno 2: trekking naturalistico"
+  - titolo: "Giorno 2 (venerdì): trekking naturalistico"
     tappe:
       - oraInizio: "09:00"
         oraFine: "12:00"
@@ -48,7 +48,7 @@ giorni:
       - oraInizio: "18:00"
         oraFine: "19:30"
         attivita: "Tempo libero in paese"
-  - titolo: "Giorno 3: escursione ai dintorni"
+  - titolo: "Giorno 3 (sabato): escursione ai dintorni"
     tappe:
       - oraInizio: "09:00"
         oraFine: "13:00"
@@ -63,7 +63,8 @@ giorni:
         descrizione: "Un'ultima passeggiata in centro prima di ripartire."
 ---
 
-Un itinerario pensato per chi si ferma tre giorni: il primo dedicato al centro
+Un itinerario pensato per chi si ferma tre giorni, ipotizzando un soggiorno
+dal giovedì al sabato: il primo dedicato al centro
 storico, alla sua storia e al Circolo Culturale, il secondo alla natura e ai
 percorsi di trekking, il terzo a un'escursione verso due dei luoghi più
 suggestivi nei dintorni, Guadagnolo e il Santuario della Mentorella. Gli

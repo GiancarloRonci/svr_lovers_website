@@ -1,9 +1,9 @@
 ---
 title: "In 3 Days"
-description: A short itinerary through the old town, a scenic hike and a half-day trip to two of the most striking spots nearby.
+description: A stay assumed to run from Thursday to Saturday, through the old town, a scenic hike and a half-day trip to two of the most striking spots nearby.
 giorniTotali: 3
 giorni:
-  - titolo: "Day 1: the old town"
+  - titolo: "Day 1 (Thursday): the old town"
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -32,7 +32,7 @@ giorni:
         oraFine: "19:30"
         attivita: "Cultural Club"
         descrizione: "Chess, checkers, bocce or a film screening, depending on the activities calendar."
-  - titolo: "Day 2: nature trekking"
+  - titolo: "Day 2 (Friday): nature trekking"
     tappe:
       - oraInizio: "09:00"
         oraFine: "12:00"
@@ -48,7 +48,7 @@ giorni:
       - oraInizio: "18:00"
         oraFine: "19:30"
         attivita: "Free time in town"
-  - titolo: "Day 3: a trip to the surrounding area"
+  - titolo: "Day 3 (Saturday): a trip to the surrounding area"
     tappe:
       - oraInizio: "09:00"
         oraFine: "13:00"
@@ -63,7 +63,8 @@ giorni:
         descrizione: "One last stroll through town before heading off."
 ---
 
-An itinerary for a three-day stay: the first day devoted to the old town, its
+An itinerary for a three-day stay, assuming you visit from Thursday to
+Saturday: the first day devoted to the old town, its
 history and the Cultural Club, the second to nature and hiking trails, the
 third to a half-day trip to two of the most striking spots nearby, Guadagnolo
 and the Mentorella Sanctuary. The times are indicative — adjust them to the
