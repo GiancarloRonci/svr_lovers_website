@@ -95,6 +95,10 @@ foto:
     lng: 12.985343
     immagine: ./percorso-b-olevano/foto21.jpg
     didascalia: "Via Romana (Via della Libertà)"
+  - lat: 41.883441
+    lng: 12.985292
+    immagine: ./percorso-b-olevano/foto47.jpg
+    didascalia: "The moon lights up the valley, with the lights of the villages on the horizon"
   - lat: 41.883472
     lng: 12.985198
     immagine: ./percorso-b-olevano/foto22.jpg
