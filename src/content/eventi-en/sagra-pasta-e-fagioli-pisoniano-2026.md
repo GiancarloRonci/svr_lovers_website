@@ -1,14 +1,15 @@
 ---
-title: "31st Pasta and Beans Festival in Pisoniano"
-description: Two days in Pisoniano's historic centre with pasta and beans with pork rinds, live music and fireworks.
+title: "31st Pasta, Beans and Pork Rinds Festival in Pisoniano"
+description: A day in Pisoniano with the free "Pisoniano da scoprire" walking tour in the afternoon and, in the evening, the pasta and beans with pork rinds festival, with music, folk dancing and fireworks.
 dataInizio: 2026-10-03
-dataFine: 2026-10-04
 luogo: Historic centre of Pisoniano (Rome)
 tipologiaEvento: Food & Wine Festival
 ---
 
-On 3 and 4 October 2026 the streets of Pisoniano's historic centre host the 31st Pasta and Beans Festival ("Sagra della Pasta e Fagioli"), organised by the Confraternita del Santo Rosario. The star of the show is pasta and beans with pork rinds, slow-cooked according to the home recipe, served alongside porchetta and sausage sandwiches, fried potatoes, homemade desserts and local wine.
+On Saturday 3 October 2026 Pisoniano devotes a whole day to the town's history, culture and traditions, combining the "Pisoniano da scoprire" (Discovering Pisoniano) walking tour with the 31st Sagra Pasta, Fagioli e Cotiche (Pasta, Beans and Pork Rinds Festival).
 
-On Saturday 3 October things start at 7:30 PM, with live music and a fireworks show at 10:30 PM. Sunday is aimed at families. Entry to the festival area is free: you only pay for what you eat and drink at the stands.
+At 5:00 PM "Pisoniano da scoprire. A journey through history, poetry and traditions" sets off from the Church of San Paolo Apostolo, dedicated to the town's patron saint. This free walking tour visits the town's landmarks: the Rione Africa district and the Church of Santa Maria ad Nives, Piazza Tito Cerroni with its panoramic view over the valley, the Castelluccio, an old defensive tower of the Theodoli family, with the "Passi e Poesie" literary trail, and finally the Museo Civico della Canapa (Hemp Museum), devoted to local crafts and traditional weaving techniques. Information: passiepoesie@gmail.com, 393 128 7800.
 
-*Source: [Viaggiando Italia](https://www.viaggiando-italia.it/31a-sagra-della-pasta-e-fagioli-a-pisoniano-weekend-goloso-nei-monti-prenestini/)*
+At 7:30 PM the Confraternita del Santo Rosario opens the festival in the historic centre: the star is pasta and beans with pork rinds, served alongside porchetta and sausage sandwiches, chips, drinks, wine and desserts, with live music and folk dancing. The evening ends at 10:30 PM with a fireworks show.
+
+*Source: [Comune di Pisoniano (Facebook)](https://www.facebook.com/ComunediPisoniano/posts/pfbid0i8SwB7ZJsbHbQnCixSGQQhWrs6JkM5HnZ2tbXEZZXECx6vim36VKTJ4ehR7JdPrMl)*
