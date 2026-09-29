@@ -19,6 +19,10 @@ const sezioni = [
   { titolo: 'In San Vito Romano', eventi: eventi.filter(aSanVito) },
   { titolo: 'In the surrounding area', eventi: eventi.filter((e) => !aSanVito(e)) },
 ].filter((s) => s.eventi.length > 0);
+
+const tipologie = [...new Set(eventi.map((e) => e.data.tipologiaEvento).filter((t) => t !== undefined))].sort(
+  (a, b) => a.localeCompare(b, 'en'),
+);
 ---
 
 <Layout
@@ -28,7 +32,7 @@ const sezioni = [
   <h1>Events &amp; Festivals</h1>
   <p class="meta">Festivals, food fairs and events in San Vito Romano and the surrounding area.</p>
 
-  <EventsFilter lang="en" />
+  <EventsFilter lang="en" tipologie={tipologie} />
 
   {
     sezioni.map((s) => (

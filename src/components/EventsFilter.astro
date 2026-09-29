@@ -1,9 +1,10 @@
 ---
 interface Props {
   lang: 'it' | 'en';
+  tipologie: string[];
 }
 
-const { lang } = Astro.props;
+const { lang, tipologie } = Astro.props;
 const labels =
   lang === 'en'
     ? {
@@ -12,7 +13,9 @@ const labels =
         d7: 'Within 7 days',
         d15: 'Within 15 days',
         m2: 'Within 2 months',
-        empty: 'No events in this period.',
+        typeLabel: 'Type',
+        allTypes: 'All types',
+        empty: 'No events match the selected filters.',
       }
     : {
         filterLabel: 'Mostra',
@@ -20,7 +23,9 @@ const labels =
         d7: 'Entro 7 giorni',
         d15: 'Entro 15 giorni',
         m2: 'Entro 2 mesi',
-        empty: 'Nessun evento in questo periodo.',
+        typeLabel: 'Tipo',
+        allTypes: 'Tutti i tipi',
+        empty: 'Nessun evento corrisponde ai filtri scelti.',
       };
 ---
 
@@ -32,12 +37,18 @@ const labels =
     <option value="15d">{labels.d15}</option>
     <option value="2m">{labels.m2}</option>
   </select>
+  <label for="events-type">{labels.typeLabel}</label>
+  <select id="events-type">
+    <option value="" selected>{labels.allTypes}</option>
+    {tipologie.map((t) => <option value={t}>{t}</option>)}
+  </select>
 </div>
 <p class="meta events-empty" hidden>{labels.empty}</p>
 
 <style>
   .events-filter {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
     margin-top: 1rem;
@@ -81,16 +92,20 @@ const labels =
     // The filter sits above the event list, so wait for the cards to be in the DOM.
     function init() {
       var select = document.getElementById('events-range');
-      if (!select) return;
+      var typeSelect = document.getElementById('events-type');
+      if (!select || !typeSelect) return;
       var cards = document.querySelectorAll('.card[data-inizio]');
       var sections = document.querySelectorAll('.events-section');
       var emptyMsg = document.querySelector('.events-empty');
 
       function apply() {
         var max = limit(select.value);
+        var tipo = typeSelect.value;
         var visible = 0;
         cards.forEach(function (card) {
-          var show = max === null || card.getAttribute('data-inizio') <= max;
+          var show =
+            (max === null || card.getAttribute('data-inizio') <= max) &&
+            (tipo === '' || card.getAttribute('data-tipo') === tipo);
           card.hidden = !show;
           if (show) visible++;
         });
@@ -101,6 +116,7 @@ const labels =
       }
 
       select.addEventListener('change', apply);
+      typeSelect.addEventListener('change', apply);
       apply();
     }
 
