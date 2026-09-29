@@ -4,7 +4,7 @@ description: Three days of celebration in the center of Piglio with Cesanese win
 dataInizio: 2026-10-02
 dataFine: 2026-10-04
 luogo: "Piglio (Frosinone)"
-tipologiaEvento: Sagra Enogastronomica
+tipologiaEvento: Food & Wine Festival
 ---
 
 From October 2 to 4, 2026, the center of Piglio turns into a large gathering space for the 52nd edition of the Cesanese Grape Festival, a long-standing event dedicated to the grape harvest and Piglio's Cesanese wine.

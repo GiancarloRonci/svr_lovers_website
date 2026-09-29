@@ -4,7 +4,7 @@ description: Three days devoted to chestnuts in the historic center of Rocca di 
 dataInizio: 2026-10-16
 dataFine: 2026-10-18
 luogo: "Historic center of Rocca di Papa (Rome)"
-tipologiaEvento: Sagra Enogastronomica
+tipologiaEvento: Food & Wine Festival
 ---
 
 From October 16 to 18, 2026, Rocca di Papa, in the Castelli Romani, hosts the 46th edition of the Chestnut Festival. The dates and guidelines of the event were approved by the town council on September 18; the full program will be set out in a later resolution.

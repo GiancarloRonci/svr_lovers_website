@@ -4,6 +4,7 @@ import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
 import { formatEventDate } from '../../../lib/eventDate';
+import { tagClass } from '../../../lib/eventCategory';
 import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 
 export async function getStaticPaths() {
@@ -19,7 +20,7 @@ const lastModified = getLastModified(entry.filePath);
 
 <Layout title={title} description={description}>
   <p><a href={withBase('en/eventi/')}>&larr; All events</a></p>
-  {tipologiaEvento && <p><span class="tag">{tipologiaEvento}</span></p>}
+  {tipologiaEvento && <p><span class={tagClass(tipologiaEvento)}>{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
   <p class="meta">{formatEventDate(dataInizio, dataFine, 'en-GB')}</p>
   {luogo && <p class="luogo">📍 {luogo}</p>}

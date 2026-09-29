@@ -4,7 +4,7 @@ description: Three days of tradition, flavors and music in the historic center o
 dataInizio: 2026-10-23
 dataFine: 2026-10-25
 luogo: "Historic center of Cave (Rome)"
-tipologiaEvento: Sagra Enogastronomica
+tipologiaEvento: Food & Wine Festival
 ---
 
 From October 23 to 25, 2026, Cave hosts the 92nd edition of the Chestnut and Local Products Festival, a long-standing event celebrating the town's chestnut-growing tradition and its surrounding woods.

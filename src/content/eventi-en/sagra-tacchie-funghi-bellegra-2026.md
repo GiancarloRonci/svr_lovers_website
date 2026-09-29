@@ -4,7 +4,7 @@ description: Two autumn weekends dedicated to tacchie, handmade pasta from local
 dataInizio: 2026-10-02
 dataFine: 2026-10-11
 luogo: "Piazza del Municipio, Bellegra (Rome)"
-tipologiaEvento: Food and Wine Festival
+tipologiaEvento: Food & Wine Festival
 ---
 
 Bellegra, a village in the Monti Prenestini mountains, once again hosts the **Tacchie and Porcini Mushroom Festival** ("Sagra delle Tacchie ai Funghi Porcini"), a traditional autumn event organised by the local Pro Loco that celebrates two excellences of local cuisine: tacchie, handmade pasta made following an old peasant recipe and cut into irregular shapes, and porcini mushrooms harvested from the surrounding woods.

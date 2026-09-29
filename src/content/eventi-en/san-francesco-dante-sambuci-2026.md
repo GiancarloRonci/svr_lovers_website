@@ -3,7 +3,7 @@ title: "\"Serafico in ardore\": Saint Francis in Canto XI of Dante's Paradise in
 description: Readings from Dante, commentary by Prof. Rino Caputo and music for soprano and organ to mark 800 years since the death of Saint Francis of Assisi.
 dataInizio: 2026-10-04
 luogo: "Church of S. Pietro Apostolo, Sambuci (Rome)"
-tipologiaEvento: Evento Culturale
+tipologiaEvento: Cultural Event
 ---
 
 On Sunday, October 4, 2026, at 4 PM, the church of S. Pietro Apostolo in Sambuci hosts "Serafico in ardore", an event dedicated to Saint Francis of Assisi on the eighth centenary of his death, which took place at the Porziuncola on the evening of October 3, 1226. The initiative is promoted by the Associazione Culturale Terzo Millennio and falls on the saint's liturgical feast day.
