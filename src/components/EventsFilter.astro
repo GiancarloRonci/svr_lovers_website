@@ -1,0 +1,113 @@
+---
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const labels =
+  lang === 'en'
+    ? {
+        filterLabel: 'Show',
+        all: 'All events',
+        d7: 'Within 7 days',
+        d15: 'Within 15 days',
+        m2: 'Within 2 months',
+        empty: 'No events in this period.',
+      }
+    : {
+        filterLabel: 'Mostra',
+        all: 'Tutti gli eventi',
+        d7: 'Entro 7 giorni',
+        d15: 'Entro 15 giorni',
+        m2: 'Entro 2 mesi',
+        empty: 'Nessun evento in questo periodo.',
+      };
+---
+
+<div class="events-filter">
+  <label for="events-range">{labels.filterLabel}</label>
+  <select id="events-range">
+    <option value="all" selected>{labels.all}</option>
+    <option value="7d">{labels.d7}</option>
+    <option value="15d">{labels.d15}</option>
+    <option value="2m">{labels.m2}</option>
+  </select>
+</div>
+<p class="meta events-empty" hidden>{labels.empty}</p>
+
+<style>
+  .events-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .events-filter select {
+    font: inherit;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .events-empty {
+    margin-top: 1.5rem;
+  }
+  :global(.card[hidden]),
+  :global(.events-section[hidden]) {
+    display: none;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    function isoDate(d) {
+      var m = String(d.getMonth() + 1).padStart(2, '0');
+      var g = String(d.getDate()).padStart(2, '0');
+      return d.getFullYear() + '-' + m + '-' + g;
+    }
+
+    function limit(value) {
+      if (value === 'all') return null;
+      var d = new Date();
+      if (value === '2m') {
+        d.setMonth(d.getMonth() + 2);
+      } else {
+        d.setDate(d.getDate() + (value === '7d' ? 7 : 15));
+      }
+      return isoDate(d);
+    }
+
+    // The filter sits above the event list, so wait for the cards to be in the DOM.
+    function init() {
+      var select = document.getElementById('events-range');
+      if (!select) return;
+      var cards = document.querySelectorAll('.card[data-inizio]');
+      var sections = document.querySelectorAll('.events-section');
+      var emptyMsg = document.querySelector('.events-empty');
+
+      function apply() {
+        var max = limit(select.value);
+        var visible = 0;
+        cards.forEach(function (card) {
+          var show = max === null || card.getAttribute('data-inizio') <= max;
+          card.hidden = !show;
+          if (show) visible++;
+        });
+        sections.forEach(function (s) {
+          s.hidden = !s.querySelector('.card[data-inizio]:not([hidden])');
+        });
+        if (emptyMsg) emptyMsg.hidden = visible > 0;
+      }
+
+      select.addEventListener('change', apply);
+      apply();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>

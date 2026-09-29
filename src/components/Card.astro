@@ -12,12 +12,13 @@ interface Props {
   luogo?: string;
   nota?: string;
   image?: ImageMetadata;
+  dataInizio?: Date;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, nota, image } = Astro.props;
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, nota, image, dataInizio } = Astro.props;
 ---
 
-<a class="card" href={href}>
+<a class="card" href={href} data-inizio={dataInizio?.toISOString().slice(0, 10)}>
   {image && <Image src={image} alt={title} width={480} height={360} />}
   <div class="card-body">
     {tag && <span class={tagClass}>{tag}</span>}

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
+import EventsFilter from '../../components/EventsFilter.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { formatEventDate } from '../../lib/eventDate';
@@ -27,9 +28,11 @@ const sezioni = [
   <h1>Eventi &amp; Feste</h1>
   <p class="meta">Feste, sagre e appuntamenti a San Vito Romano e nei dintorni.</p>
 
+  <EventsFilter lang="it" />
+
   {
     sezioni.map((s) => (
-      <section>
+      <section class="events-section">
         {sezioni.length > 1 && <h2>{s.titolo}</h2>}
         <div class="card-list">
           {s.eventi.map((e) => (
@@ -38,6 +41,7 @@ const sezioni = [
               title={e.data.title}
               tag={e.data.tipologiaEvento}
               tagClass={tagClass(e.data.tipologiaEvento)}
+              dataInizio={e.data.dataInizio}
               description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'it-IT')}
               luogo={e.data.luogo}
               image={e.data.immagine}
