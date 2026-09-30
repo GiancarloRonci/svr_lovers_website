@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1" creator="svrlovers" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Alla Madonnina</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="41.882656" lon="12.983050"></trkpt>
+      <trkpt lat="41.882463" lon="12.982168"></trkpt>
+      <trkpt lat="41.882067" lon="12.982297"></trkpt>
+      <trkpt lat="41.881967" lon="12.982020"></trkpt>
+      <trkpt lat="41.881406" lon="12.981532"></trkpt>
+      <trkpt lat="41.881344" lon="12.981406"></trkpt>
+      <trkpt lat="41.881167" lon="12.980365"></trkpt>
+      <trkpt lat="41.880991" lon="12.980073"></trkpt>
+      <trkpt lat="41.879955" lon="12.979311"></trkpt>
+      <trkpt lat="41.878566" lon="12.979478"></trkpt>
+      <trkpt lat="41.877663" lon="12.980508"></trkpt>
+      <trkpt lat="41.878725" lon="12.983598"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
