@@ -42,8 +42,8 @@ giorni:
         descrizione: "The old spring where laundry was once washed, with a view of the town, and the centuries-old chestnut grove of the Macchiarella with the Path of Conscience (Places section)."
       - oraInizio: "19:00"
         oraFine: "20:00"
-        attivita: "Villa Comunale and the Cultural Club"
-        descrizione: "An evening stroll in the town's green heart and, if one is scheduled, an activity at the Cultural Club (Cultural Club section)."
+        attivita: "Villa Comunale and Culture&Tourism"
+        descrizione: "An evening stroll in the town's green heart and, if one is scheduled, a Culture&Tourism activity (Culture&Tourism section)."
   - titolo: "Day 2 (Tuesday): sanctuaries and villages of the Monti Prenestini"
     tappe:
       - oraInizio: "09:00"
@@ -293,7 +293,7 @@ giorni:
       - oraInizio: "18:00"
         oraFine: "19:30"
         attivita: "Evening in town"
-        descrizione: "The last Sunday evening in the Villa Comunale and, if one is scheduled, an activity at the Cultural Club (Cultural Club section)."
+        descrizione: "The last Sunday evening in the Villa Comunale and, if one is scheduled, a Culture&Tourism activity (Culture&Tourism section)."
   - titolo: "Day 15 (Monday): San Vito's old town, third time round, and farewell"
     tappe:
       - oraInizio: "09:30"

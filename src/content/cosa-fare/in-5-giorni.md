@@ -42,8 +42,8 @@ giorni:
         descrizione: "L'antica fonte dove si lavavano i panni, con vista sul paese, e il castagneto secolare della Macchiarella con il Sentiero della Coscienza (sezione Luoghi)."
       - oraInizio: "19:00"
         oraFine: "20:00"
-        attivita: "Villa Comunale e Circolo Culturale"
-        descrizione: "Il passeggio serale nel cuore verde del paese e, se in programma, un'attività al Circolo Culturale (sezione Circolo Culturale)."
+        attivita: "Villa Comunale e Cultura&Turismo"
+        descrizione: "Il passeggio serale nel cuore verde del paese e, se in programma, un'attività di Cultura&Turismo (sezione Cultura&Turismo)."
   - titolo: "Giorno 2 (mercoledì): santuari e borghi dei Monti Prenestini"
     tappe:
       - oraInizio: "09:00"

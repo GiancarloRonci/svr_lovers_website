@@ -15,7 +15,7 @@ const sections = {
   'cosa-fare': { collection: 'cosaFare', url: 'cosa-fare', label: { it: 'Cosa fare', en: 'What to Do' } },
   eventi: { collection: 'eventi', url: 'eventi', label: { it: 'Eventi & Feste', en: 'Events & Festivals' } },
   soggiorno: { collection: 'soggiorno', url: 'soggiorno', label: { it: 'Dove Soggiornare', en: 'Where to Stay' } },
-  associazione: { collection: 'associazione', url: 'associazione', label: { it: 'Circolo Culturale', en: 'Cultural Club' } },
+  associazione: { collection: 'associazione', url: 'associazione', label: { it: 'Cultura&Turismo', en: 'Culture&Tourism' } },
   articoli: { collection: 'articoli', url: 'articoli', label: { it: 'Articoli', en: 'Articles' } },
 } as const;
 

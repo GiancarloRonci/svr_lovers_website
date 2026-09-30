@@ -20,7 +20,7 @@ Proprio nel centro del paese, a due passi dalla Villa, si trova anche la Macchia
 
 ## Una comunità viva
 
-San Vito Romano non è solo pietre e paesaggio: è soprattutto le persone che lo abitano e lo animano. Tra sagre, feste patronali, iniziative del Circolo Culturale e i piccoli gesti quotidiani di chi si prende cura del paese, la vita di comunità qui resta un valore concreto, non solo un ricordo da raccontare.
+San Vito Romano non è solo pietre e paesaggio: è soprattutto le persone che lo abitano e lo animano. Tra sagre, feste patronali, iniziative di Cultura&Turismo e i piccoli gesti quotidiani di chi si prende cura del paese, la vita di comunità qui resta un valore concreto, non solo un ricordo da raccontare.
 
 Questo articolo è il primo di una serie che vuole raccontare San Vito Romano da più punti di vista: la sua storia, i suoi luoghi, le persone che lo vivono ogni giorno. Se vuoi contribuire con un tuo articolo, raccontaci la tua idea nel gruppo Facebook della community.
 

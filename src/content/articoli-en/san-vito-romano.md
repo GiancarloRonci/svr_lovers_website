@@ -20,7 +20,7 @@ Right in the centre of the village, just steps from the park, there's also the M
 
 ## A living community
 
-San Vito Romano isn't just stone and landscape: above all, it's the people who live in it and keep it alive. Between local festivals, patron saint celebrations, initiatives from the Cultural Club and the small daily gestures of those who care for the village, community life here remains something real, not just a memory to tell.
+San Vito Romano isn't just stone and landscape: above all, it's the people who live in it and keep it alive. Between local festivals, patron saint celebrations, initiatives from Culture&Tourism and the small daily gestures of those who care for the village, community life here remains something real, not just a memory to tell.
 
 This article is the first in a series that aims to tell the story of San Vito Romano from several angles: its history, its places, the people who live it every day. If you'd like to contribute an article of your own, share your idea in the community's Facebook group.
 
