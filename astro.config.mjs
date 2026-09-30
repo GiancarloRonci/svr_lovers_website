@@ -9,4 +9,11 @@ export default defineConfig({
     locales: ['it', 'en'],
     defaultLocale: 'it',
   },
+  // Vecchi indirizzi della sezione Cultura&Turismo (ex Circolo Culturale)
+  redirects: {
+    '/associazione': '/culturaturismo',
+    '/associazione/[id]': '/culturaturismo/[id]',
+    '/en/associazione': '/en/culturaturismo',
+    '/en/associazione/[id]': '/en/culturaturismo/[id]',
+  },
 });

@@ -44,7 +44,7 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
           <div class="card-grid">
             {items.map((a) => (
               <Card
-                href={withBase(`associazione/${a.id}/`)}
+                href={withBase(`culturaturismo/${a.id}/`)}
                 title={a.data.title}
                 description={a.data.frequenza ?? a.data.description}
                 image={a.data.immagine}
