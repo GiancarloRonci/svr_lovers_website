@@ -218,7 +218,7 @@ giorni:
       - oraInizio: "10:00"
         oraFine: "12:30"
         attivita: "Cattedrale di Santa Maria e Palazzo di Bonifacio VIII"
-        descrizione: "La cattedrale romanica con la cripta interamente affrescata e il palazzo dei papi legato allo \"schiaffo di Anagni\" del 1303. Verifica orari e visite guidate prima di partire."
+        descrizione: "La cattedrale romanica con la cripta interamente affrescata e il palazzo dei papi legato allo \"schiaffo di Anagni\" del 1303. Verifica orari e visite guidate prima di partire (sezione Luoghi)."
       - oraInizio: "12:45"
         oraFine: "14:15"
         attivita: "Pranzo ad Anagni"

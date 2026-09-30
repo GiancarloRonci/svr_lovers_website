@@ -218,7 +218,7 @@ giorni:
       - oraInizio: "10:00"
         oraFine: "12:30"
         attivita: "Cathedral of Santa Maria and the Palace of Boniface VIII"
-        descrizione: "The Romanesque cathedral with its fully frescoed crypt, and the papal palace linked to the \"slap of Anagni\" of 1303. Check opening hours and guided tours before setting off."
+        descrizione: "The Romanesque cathedral with its fully frescoed crypt, and the papal palace linked to the \"slap of Anagni\" of 1303. Check opening hours and guided tours before setting off (Places section)."
       - oraInizio: "12:45"
         oraFine: "14:15"
         attivita: "Lunch in Anagni"
