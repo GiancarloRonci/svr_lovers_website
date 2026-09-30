@@ -13,7 +13,7 @@ galleria:
   - ./piazza-san-biagio/photo5.jpg
   - ./piazza-san-biagio/photo6.jpg
   - ./piazza-san-biagio/photo7.jpg
-  - ./piazza-san-biagio/photo8.jpg
+  - ./piazza-san-biagio/photo9.jpg
 ---
 
 Piazza San Biagio is one of the hearts of San Vito Romano's old town: a small square paved in cobblestones, overlooked by the church of San Biagio Vescovo e Martire, built on the site of a 12th-century oratory and rebuilt between 1607 and 1609 to a design by the architect Giovanni Theodoli. The square itself was redeveloped in 1646, and the church was formally consecrated on 13 October 1777.
