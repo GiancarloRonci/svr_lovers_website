@@ -12,6 +12,11 @@ gpx: /gpx/alla-madonnina.gpx
 partenza:
   lat: 41.882656
   lng: 12.98305
+foto:
+  - lat: 41.879545
+    lng: 12.97918
+    immagine: ./alla-madonnina/foto2.jpg
+    didascalia: "La Fontana Nova lungo Viale Trento Trieste: un fontanile in pietra con la nicchia ad arco e la vasca."
 ---
 
 Una passeggiata che porta dal centro del paese alla "Madonnina", come i sanvitesi chiamano affettuosamente il Santuario della Madonna di Compigliano.
@@ -20,4 +25,6 @@ Si parte da Piazza Augusto Baccelli, davanti alle Tre Fontane, e si percorre Via
 
 Il percorso è su strade asfaltate, lungo poco più di un chilometro solo andata, con una leggera salita di circa 30 metri seguita da una discesa di pari dislivello fino al santuario: adatto a tutti. Una volta arrivati, vale la pena fare il giro delle quindici edicole in ceramica con i misteri del rosario che circondano la chiesa (sezione Luoghi).
 
-*Foto: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), pubblico dominio.*
+Lungo il tracciato sono segnalati con l'icona 📷 i punti esatti in cui sono state scattate le foto: cliccaci sopra per vederle.
+
+*Foto dell'immagine principale: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), pubblico dominio.*
