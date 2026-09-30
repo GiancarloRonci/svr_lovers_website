@@ -10,7 +10,7 @@ galleria:
   - ./santuario-madonna-di-compigliano/photo2.jpg
 ---
 
-Il Santuario della Madonna di Compigliano sorge sul colle omonimo alla periferia di San Vito Romano, lungo l'antica Strada di Campigliano. La tradizione narra che intorno al 1500 la Vergine apparve tra i rami di un ciliegio a un giovane pastore sordomuto, il quale, alla vista dell'immagine della Madonna con il Bambino, riacquistò all'istante la parola e l'udito. Sul luogo del prodigio fu innalzata una prima edicola, poi ampliata fino a diventare, tra la fine del Cinquecento e i primi del Seicento, una vera e propria chiesa.
+Il Santuario della Madonna di Compigliano, che i sanvitesi chiamano affettuosamente "la Madonnina", sorge sul colle omonimo alla periferia di San Vito Romano, lungo l'antica Strada di Campigliano. La tradizione narra che intorno al 1500 la Vergine apparve tra i rami di un ciliegio a un giovane pastore sordomuto, il quale, alla vista dell'immagine della Madonna con il Bambino, riacquistò all'istante la parola e l'udito. Sul luogo del prodigio fu innalzata una prima edicola, poi ampliata fino a diventare, tra la fine del Cinquecento e i primi del Seicento, una vera e propria chiesa.
 
 L'immagine miracolosa, dipinta su una tavola di legno di ciliegio, è conservata sull'altare maggiore. Tra la fine del Settecento e la metà dell'Ottocento l'edificio, originariamente a navata unica, fu ampliato con due navate laterali dotate ciascuna di quattro altari; nel 1790 il notabile Sisto Sallustj fece costruire la sacrestia e abbellire il presbiterio con eleganti stucchi. Alla Madonna di Compigliano sono attribuiti numerosi miracoli, tra cui la protezione della popolazione durante le epidemie di peste e colera dell'Ottocento.
 
