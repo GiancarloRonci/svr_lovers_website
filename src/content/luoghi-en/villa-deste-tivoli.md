@@ -95,4 +95,31 @@ Conceived as a symbolic journey through mythology, allegory and references to cl
 
 Today Villa d'Este is a state museum open to visitors year-round, drawing hundreds of thousands of visitors each year who are captivated by the dialogue between architecture, nature and water that has made it a timeless model of garden art.
 
+## Tips for your visit
+
+Rather than trying to "see everything", plan the visit as a slow walk through the relationship between palace, water, perspective and landscape: it is this combination that makes the complex unique. Villa d'Este is not a museum to "tick off" but a place to walk through and observe at leisure: the water, the sound of the fountains, the perspective of the avenues and the view are all part of the work.
+
+- **Arrive early.** A weekday is best, going in at around 9:00-9:15: in the first hours you can stop in front of the fountains without constantly having people in the way and enjoy the garden in greater peace. In October admission is from 8:30 to 17:30, with exit by 18:30; opening hours change with the season, so check them on the official website.
+- **Don't rush to the most famous fountains.** Go into the palace first, look at the apartments and the frescoes, then make your way gradually to the garden. Pirro Ligorio's design is one great piece of stagecraft: the villa is at the top and the garden runs down the slope, constantly opening up new perspectives.
+- **Walk the garden from top to bottom.** A good order is: Grand Loggia, Fountain of Pegasus, Fountain of the Bicchierone, Oval Fountain, Hundred Fountains, Rometta Fountain. The official route also takes in the grottoes and the smaller fountains. Don't just look at the fountains head-on: every so often stop and look down the valley, because they were also designed to create sightlines and scenic effects.
+- **Take your time at the Hundred Fountains.** Walk slowly along the whole length of the avenue rather than stopping only at the start: it is one of the places where the Renaissance idea of the garden is clearest, with water becoming an architectural element.
+- **Listen to the Water Organ Fountain.** The water organ is switched on every day from 10:30 and then every two hours: going in at 9:00, you can plan to be near the fountain at 10:30. It is far more interesting to listen to it than just to photograph it.
+- **Stop at the viewpoints.** From several spots you can take in the fountains, the garden, Tivoli and the valley landscape all at once: it is worth pausing for a few minutes.
+- **Look first, photograph later.** Every twenty metres there is something to photograph: better a few panoramic shots, some fountain details, a few perspectives and some pictures of the relationship between villa and landscape.
+- **Comfortable shoes.** The route is outdoors, with steps, changes in level and uneven surfaces.
+- **Allow at least three hours**, even three and a half if you like taking photographs and reading the information panels. Inside there are drinking-water fountains, toilets and a small refreshment point.
+
+In autumn the light makes both the walk and the photographs especially pleasant, and the weather is much more agreeable than in summer.
+
+## A morning itinerary
+
+- **9:00** – entrance
+- **9:00-9:40** – palace and apartments
+- **9:40-10:20** – first gardens and terraces
+- **10:20** – head for the Water Organ Fountain
+- **10:30** – the water organ playing
+- **10:45-11:30** – Oval Fountain and Hundred Fountains
+- **11:30-12:15** – lower part of the garden, Rometta Fountain and other fountains
+- **12:15-12:45** – an unhurried walk back, stopping at the viewpoints
+
 *Source: [UNESCO World Heritage Centre](https://whc.unesco.org/en/list/1025/), [Villa d'Este - official website](https://www.villadestetivoli.info/).*
