@@ -9,15 +9,15 @@ tipologiaEvento: Sagra Enogastronomica
 
 Bellegra, borgo dei Monti Prenestini, torna a ospitare la **Sagra delle Tacchie ai Funghi Porcini**, tradizionale appuntamento autunnale organizzato dalla Pro Loco che celebra due eccellenze della cucina locale: le tacchie, pasta fatta a mano secondo un'antica ricetta contadina, tagliata in maniera irregolare, e i funghi porcini raccolti nei boschi circostanti.
 
-La XVIII edizione si svolge su due weekend, **2-3-4 e 9-10-11 ottobre 2026**, in Piazza del Municipio, con spazi sia all'aperto sia al coperto. Gli stand gastronomici sono aperti a pranzo e a cena.
+La XVIII edizione si svolge su due weekend, **2-3-4 e 9-10-11 ottobre 2026**, in Piazza del Municipio, con spazi sia all'aperto sia al coperto. Gli stand gastronomici aprono alle 12:00 per il pranzo e alle 19:30 per la cena.
 
 **Il programma**
 
-- **Venerdì 2 ottobre:** serata con lo chef stellato Marco Bottega e lo show musicale "90 Mania"
-- **Sabato 3 ottobre:** musica, canti e balli popolari con "I Brigallè"
+- **Venerdì 2 ottobre:** inaugurazione alle 18:00, serata con lo chef stellato Marco Bottega e, alle 21:30, lo show musicale "90 Mania"
+- **Sabato 3 ottobre:** alle 21:00 musica, canti e balli popolari con "I Brigallè"
 - **Venerdì 9 ottobre:** serata "Indie Power"
 - **Sabato 10 ottobre:** tributo agli 883
-- **Domenica 11 ottobre:** corteo storico "Gens Vitellia", con dame e cavalieri in costume
+- **Domenica 11 ottobre:** rievocazione storica del gruppo "Civiltà Romana", 12ª edizione del corteo storico "Gens Vitellia", con dame e cavalieri in costume, ed esibizione degli sbandieratori
 
 **Il menu**
 
@@ -33,4 +33,4 @@ Completano la festa il mercatino artigianale, gli spettacoli musicali e folclori
 
 Pro Loco di Bellegra - Via San Tommaso da Cori, 00030 Bellegra (RM). Tel. 334 5719720, 392 0233947, 331 3272575, email prolocobellegra@tiscali.it, sito [bellegra.eu](https://www.bellegra.eu).
 
-*Fonte: [Pro Loco di Bellegra su Lazio in Festa](https://www.lazioinfesta.com/evento/71594/sagra-delle-tacchie-ai-funghi-porcini.html), [RomaToday](https://www.romatoday.it/eventi/sagra-tacchie-funghi-porcini-bellegra-2-11-ottobre-2026.html)*
+*Fonte: [Pro Loco di Bellegra su Lazio in Festa](https://www.lazioinfesta.com/evento/71594/sagra-delle-tacchie-ai-funghi-porcini.html), [RomaToday](https://www.romatoday.it/eventi/sagra-tacchie-funghi-porcini-bellegra-2-11-ottobre-2026.html), [Canale Dieci](https://canaledieci.it/2026/09/29/sagra-delle-tacchie-ai-funghi-porcini-a-bellegra-cosa-mangiare-ed-eventi-in-programma/)*
