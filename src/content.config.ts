@@ -177,6 +177,7 @@ const cosaFareSchema = z.object({
           oraFine: z.string().optional(),
           attivita: z.string(),
           descrizione: z.string().optional(),
+          link: z.object({ href: z.string(), testo: z.string() }).optional(),
         })
       ),
     })

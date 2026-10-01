@@ -75,6 +75,9 @@ giorni:
         oraFine: "12:00"
         attivita: "Visit to Villa d'Este"
         descrizione: "The palace and its apartments, the Avenue of the Hundred Fountains, the Oval Fountain, the Neptune Fountain, the Grand Loggia and views over Tivoli (Places section). The garden deserves an unhurried visit: check the opening hours on the official website. Wednesday is a good choice: as a weekday it usually has fewer visitors than Saturday and Sunday, so you can take your time in the apartments and above all in the gardens and among the fountains. Aim to arrive between 9:00 and 9:30, which leaves plenty of time to see the villa, walk down into the gardens and stop on the terraces without rushing. The Organ Fountain is switched on every day from 10:30 and then every two hours. Until 18 October 2026 the exhibition \"Cosmogonie dell'acqua. Claudia Müller\" is also on."
+        link:
+          href: "en/luoghi/villa-deste-tivoli/"
+          testo: "The Villa d'Este page has plenty of tips for your visit"
       - oraInizio: "12:15"
         oraFine: "13:30"
         attivita: "Lunch in Tivoli"

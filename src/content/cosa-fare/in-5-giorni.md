@@ -75,6 +75,9 @@ giorni:
         oraFine: "12:00"
         attivita: "Visita a Villa d'Este"
         descrizione: "Palazzo e appartamenti, Viale delle Cento Fontane, Fontana dell'Ovato, Fontana di Nettuno, Gran Loggia e panorami su Tivoli (sezione Luoghi). Il giardino merita una visita senza fretta: verifica gli orari sul sito ufficiale. Il giovedì è una buona scelta: essendo un giorno feriale ci sono in genere meno visitatori che il sabato e la domenica, e si visitano con più calma gli appartamenti e soprattutto i giardini e le fontane. Conviene arrivare tra le 9:00 e le 9:30, così c'è tutto il tempo per vedere la villa, scendere nei giardini e fermarsi sulle terrazze senza correre. La Fontana dell'Organo viene attivata ogni giorno dalle 10:30 e poi ogni due ore. Fino al 18 ottobre 2026 è in corso anche la mostra \"Cosmogonie dell'acqua. Claudia Müller\"."
+        link:
+          href: "luoghi/villa-deste-tivoli/"
+          testo: "Nella scheda di Villa d'Este trovi molti consigli per la visita"
       - oraInizio: "12:15"
         oraFine: "13:30"
         attivita: "Pranzo a Tivoli"
