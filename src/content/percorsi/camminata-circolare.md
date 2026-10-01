@@ -17,6 +17,10 @@ foto:
     lng: 12.9816
     immagine: ./camminata-circolare/foto1.jpg
     didascalia: "Via Borgo Mario Theodoli con la Chiesa dei Santi Sebastiano e Rocco, il palazzo comunale e, sullo sfondo, la torre del Castello Theodoli."
+  - lat: 41.882191
+    lng: 12.980289
+    immagine: ./camminata-circolare/foto2.jpg
+    didascalia: "Via Borgo Mario Theodoli: il selciato in sampietrini e le facciate colorate dei palazzi che si allineano lungo la strada."
 ---
 
 Una passeggiata ad anello nel cuore di San Vito Romano, comoda da fare a ogni ora del giorno e ideale per sgranchirsi le gambe senza allontanarsi dal paese.

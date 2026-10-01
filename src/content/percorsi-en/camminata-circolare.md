@@ -17,6 +17,10 @@ foto:
     lng: 12.9816
     immagine: ./camminata-circolare/foto1.jpg
     didascalia: "Via Borgo Mario Theodoli with the Church of Santi Sebastiano e Rocco, the town hall and, in the background, the tower of Theodoli Castle."
+  - lat: 41.882191
+    lng: 12.980289
+    immagine: ./camminata-circolare/foto2.jpg
+    didascalia: "Via Borgo Mario Theodoli: the cobbled paving and the colourful façades of the buildings lined up along the street."
 ---
 
 A loop walk in the heart of San Vito Romano, easy to do at any time of day and ideal for stretching your legs without leaving town.
