@@ -10,6 +10,32 @@ galleria:
   - ./castello-theodoli/photo2.jpg
   - ./castello-theodoli/photo3.jpg
   - ./castello-theodoli/photo4.jpg
+  - immagine: ./castello-theodoli/photo10.jpg
+    didascalia: "Fotografia d'archivio in bianco e nero di un affresco degli interni: un paesaggio con cacciatori e cani, incorniciato da putti, festoni e telamoni dipinti."
+  - immagine: ./castello-theodoli/photo11.jpg
+    didascalia: "Sala della caccia: scena di caccia affrescata tra due finestre, in una fotografia d'archivio in bianco e nero."
+  - immagine: ./castello-theodoli/photo8.jpg
+    didascalia: "Volta decorata a stucco con l'affresco di un santo in gloria tra gli angeli."
+  - immagine: ./castello-theodoli/photo9.jpg
+    didascalia: "Particolare della volta: i girali in stucco bianco tra i riquadri affrescati."
+  - immagine: ./castello-theodoli/photo7.jpg
+    didascalia: "Cassapanca dipinta, con uno stemma sormontato da corona sullo schienale e una conchiglia sul fronte."
+  - immagine: ./castello-theodoli/photo5.jpg
+    didascalia: "Una portafinestra degli interni, con il pavimento in cotto."
+  - immagine: ./castello-theodoli/photo6.jpg
+    didascalia: "Una scala interna in pietra, con la corda che fa da corrimano."
+  - immagine: ./castello-theodoli/photo12.jpg
+    didascalia: "Il lato dell'ingresso principale con la torre e il muro coperto di rampicanti, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo13.jpg
+    didascalia: "Il portale ad arco dell'ingresso principale con il balcone soprastante, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo14.jpg
+    didascalia: "Le siepi del giardino davanti all'ingresso, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo15.jpg
+    didascalia: "Una sala interna con le pareti affrescate a paesaggi, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo16.jpg
+    didascalia: "Sala affrescata con due finestre: i paesaggi dipinti proseguono sulla volta, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo17.jpg
+    didascalia: "Le finestre della sala affrescata e il cielo dipinto sulla volta, in un fotogramma di una ripresa televisiva."
 ---
 
 Il sito su cui sorge il castello era probabilmente occupato fin dall'alto medioevo: secondo la tradizione, fu nel IX secolo, in seguito alle incursioni saracene, che gli abitanti delle zone circostanti si rifugiarono sulla rupe, dando origine al nuovo insediamento fortificato attorno al quale si sviluppò il paese. Un documento del 1085, conservato nel Regesto Sublacense, attesta la donazione di alcune terre al Monastero di Subiaco: è la prima attestazione certa del "castrum Sancti Viti" e un segno del controllo esercitato dai monaci benedettini sull'area. Verso il 1180 il feudo passò alla potente famiglia Colonna, che ampliò la rocca e ne rafforzò le difese, facendone il centro del potere feudale sul territorio; il dominio colonnese proseguì fino al XVI secolo, quando le difficoltà economiche della famiglia ne resero necessaria la cessione. Secondo alcuni storici e la tradizione locale, proprio tra queste mura sarebbe nato papa Martino V, al secolo Oddone Colonna, eletto pontefice nel 1417: la notizia, che si inserisce nel periodo del dominio colonnese, resta tuttavia oggetto di dibattito e va considerata una tradizione storica più che un fatto accertato.

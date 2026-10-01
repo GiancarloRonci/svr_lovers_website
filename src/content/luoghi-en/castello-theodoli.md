@@ -10,6 +10,32 @@ galleria:
   - ./castello-theodoli/photo2.jpg
   - ./castello-theodoli/photo3.jpg
   - ./castello-theodoli/photo4.jpg
+  - immagine: ./castello-theodoli/photo10.jpg
+    didascalia: "Black-and-white archive photograph of a fresco in the interiors: a landscape with hunters and dogs, framed by painted putti, garlands and telamons."
+  - immagine: ./castello-theodoli/photo11.jpg
+    didascalia: "The Hunting Room (\"Sala della caccia\"): a frescoed hunting scene between two windows, in a black-and-white archive photograph."
+  - immagine: ./castello-theodoli/photo8.jpg
+    didascalia: "Stucco-decorated vault with the fresco of a saint in glory among angels."
+  - immagine: ./castello-theodoli/photo9.jpg
+    didascalia: "Detail of the vault: white stucco scrollwork between the frescoed panels."
+  - immagine: ./castello-theodoli/photo7.jpg
+    didascalia: "Painted bench-chest, with a crowned coat of arms on the backrest and a shell on the front."
+  - immagine: ./castello-theodoli/photo5.jpg
+    didascalia: "A French window in the interiors, with the terracotta floor."
+  - immagine: ./castello-theodoli/photo6.jpg
+    didascalia: "An internal stone staircase, with a rope serving as a handrail."
+  - immagine: ./castello-theodoli/photo12.jpg
+    didascalia: "The main entrance side with the tower and the creeper-covered wall, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo13.jpg
+    didascalia: "The arched doorway of the main entrance with the balcony above, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo14.jpg
+    didascalia: "The garden hedges in front of the entrance, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo15.jpg
+    didascalia: "An interior room with walls frescoed with landscapes, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo16.jpg
+    didascalia: "Frescoed room with two windows: the painted landscapes continue onto the vault, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo17.jpg
+    didascalia: "The windows of the frescoed room and the sky painted on the vault, in a still from a television broadcast."
 ---
 
 The site on which the castle stands was probably occupied as early as the high Middle Ages: according to tradition, it was in the 9th century, following Saracen raids, that the inhabitants of the surrounding areas took refuge on the rocky outcrop, giving rise to the new fortified settlement around which the village developed. A document from 1085, preserved in the Regesto Sublacense, records the donation of some lands to the Monastery of Subiaco — the earliest certain attestation of the "castrum Sancti Viti" and evidence of the control exercised by the Benedictine monks over the area. Around 1180 the fief passed to the powerful Colonna family, who enlarged the stronghold and strengthened its defences, making it the centre of feudal power over the territory; Colonna rule continued until the 16th century, when the family's financial difficulties made the sale of the fief necessary. According to some historians and local tradition, Pope Martin V — born Oddone Colonna, elected pontiff in 1417 — was born within these very walls: the claim, which fits within the period of Colonna rule, nonetheless remains a matter of debate and should be regarded as a historical tradition rather than an established fact.
