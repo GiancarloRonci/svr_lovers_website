@@ -7,10 +7,14 @@ immagine: ./foto-dal-passato/foto1.jpg
 galleria:
   - immagine: ./foto-dal-passato/foto1.jpg
     didascalia: "Cartolina d'epoca: \"S. Vito Romano - Chiesa di S. Vito\", con il viale alberato e il selciato che portano alla chiesa."
+  - immagine: ./foto-dal-passato/foto2.jpg
+    didascalia: "Cartolina d'epoca: \"S. Vito Romano - Castello Theodoli\", con il campanile in primo piano e la torre cilindrica del castello."
 ---
 
 Vecchie cartoline, fotografie di famiglia, scatti ingialliti ritrovati in un cassetto: sono piccoli frammenti di memoria che raccontano com'era San Vito Romano prima che il tempo ne cambiasse strade, piazze e abitudini. In questa pagina raccogliamo le immagini d'epoca del paese, per guardarle insieme e riscoprire luoghi che conosciamo bene con gli occhi di chi li ha vissuti prima di noi.
 
 Apriamo la galleria con una cartolina dedicata alla Chiesa di San Vito: la facciata con la cupola, il portale d'ingresso, gli alberi spogli ai lati del viale e il selciato che sale verso la chiesa, con una piccola figura ferma davanti alla scalinata.
+
+La seconda cartolina, in bianco e nero, è intitolata al Castello Theodoli: in primo piano si alza un campanile in mattoni con le campane a vista e la cuspide sormontata dalla croce, mentre in fondo al vicolo, tra i muri in pietra, compaiono la torre cilindrica e la facciata del castello con le sue finestre ad arco.
 
 La galleria crescerà nel tempo: se hai vecchie foto o cartoline di San Vito Romano e vuoi condividerle, pubblicale nel gruppo [San Vito Romano Lovers su Facebook](https://www.facebook.com/groups/sanvitoromano.lovers).
