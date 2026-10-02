@@ -13,6 +13,10 @@ partenza:
   lat: 41.882656
   lng: 12.98305
 foto:
+  - lat: 41.882661
+    lng: 12.983263
+    immagine: ./alla-madonnina/foto3.jpg
+    didascalia: "Via Borgo Mario Theodoli di sera: i sampietrini illuminati dai lampioni, le facciate dei palazzi e gli alberi sul lato della strada."
   - lat: 41.879545
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg

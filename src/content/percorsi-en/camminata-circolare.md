@@ -13,6 +13,10 @@ partenza:
   lat: 41.882617
   lng: 12.982982
 foto:
+  - lat: 41.882661
+    lng: 12.983263
+    immagine: ./camminata-circolare/foto3.jpg
+    didascalia: "Via Borgo Mario Theodoli in the evening: the cobblestones lit by the street lamps, the building fronts and the trees along the side of the street."
   - lat: 41.88238
     lng: 12.9816
     immagine: ./camminata-circolare/foto1.jpg

@@ -13,6 +13,10 @@ partenza:
   lat: 41.882656
   lng: 12.98305
 foto:
+  - lat: 41.882661
+    lng: 12.983263
+    immagine: ./alla-madonnina/foto3.jpg
+    didascalia: "Via Borgo Mario Theodoli in the evening: the cobblestones lit by the street lamps, the building fronts and the trees along the side of the street."
   - lat: 41.879545
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg

@@ -12,6 +12,10 @@ partenza:
   lat: 41.882632
   lng: 12.983085
 foto:
+  - lat: 41.882661
+    lng: 12.983263
+    immagine: ./percorso-a-san-biagio/foto25.jpg
+    didascalia: "Via Borgo Mario Theodoli di sera: i sampietrini illuminati dai lampioni, le facciate dei palazzi e gli alberi sul lato della strada."
   - lat: 41.882678
     lng: 12.983418
     immagine: ./percorso-a-san-biagio/foto2.jpg
