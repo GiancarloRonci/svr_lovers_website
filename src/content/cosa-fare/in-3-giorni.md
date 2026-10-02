@@ -9,6 +9,9 @@ giorni:
         oraFine: "10:00"
         attivita: "Piazza Roma"
         descrizione: "Un caffè nella piazza su cui si affaccia la Villa Comunale, per cominciare la giornata (sezione Luoghi)."
+        link:
+          href: "luoghi/piazza-roma/"
+          testo: "Vai alla scheda di Piazza Roma"
       - oraInizio: "10:00"
         oraFine: "10:30"
         attivita: "Castello Theodoli e Chiesa di Santa Maria de Arce"

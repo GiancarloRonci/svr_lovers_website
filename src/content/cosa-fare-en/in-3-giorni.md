@@ -9,6 +9,9 @@ giorni:
         oraFine: "10:00"
         attivita: "Piazza Roma"
         descrizione: "A coffee in the square overlooked by the Villa Comunale to start the day (Places section)."
+        link:
+          href: "en/luoghi/piazza-roma/"
+          testo: "Go to the Piazza Roma page"
       - oraInizio: "10:00"
         oraFine: "10:30"
         attivita: "Theodoli Castle and the Church of Santa Maria de Arce"
