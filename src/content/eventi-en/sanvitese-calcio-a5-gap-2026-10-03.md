@@ -6,6 +6,6 @@ luogo: "Campetto di Calcio a 5, San Vito Romano (Rome)"
 tipologiaEvento: Sports Event
 ---
 
-On Saturday 3 October, for the 3rd matchday of group A of the Lazio Serie C1 futsal league, Sanvitese Calcio a 5 plays at home against GAP SSD ARL. The kick-off time has not been announced yet: follow the team's Facebook page for updates and come and cheer on the town's team!
+On Saturday 3 October, for the 3rd matchday of group A of the Lazio Serie C1 futsal league, Sanvitese Calcio a 5 plays at home against GAP SSD ARL. Kick-off is at 4:00 PM: come and cheer on the town's team!
 
-*Source: [Serie C1 2026/2027 fixtures - LND Lazio](https://lazio.lnd.it/wp-content/uploads/2026/09/Calendario-completo-C1_CFemminile_U19.pdf)*
+*Source: [Sport Pontino](https://www.sportpontino.com/%E2%9A%BD-%F0%9F%94%A5-serie-c1-girone-a-3a-giornata-laundromat-gaeta-e-sporting-fondi-pronte-alla-battaglia-in-casa-%F0%9F%93%B2/)*

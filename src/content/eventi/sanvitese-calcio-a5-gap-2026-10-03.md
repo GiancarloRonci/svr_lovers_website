@@ -6,6 +6,6 @@ luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
 tipologiaEvento: Evento Sportivo
 ---
 
-Per la 3ª giornata del girone A della Serie C1 laziale di calcio a 5, sabato 3 ottobre la Sanvitese Calcio a 5 gioca in casa contro GAP SSD ARL. L'orario del calcio d'inizio non è ancora stato comunicato: seguite la pagina Facebook della squadra per gli aggiornamenti e venite a tifare i colori del paese!
+Per la 3ª giornata del girone A della Serie C1 laziale di calcio a 5, sabato 3 ottobre la Sanvitese Calcio a 5 gioca in casa contro GAP SSD ARL. Il calcio d'inizio è alle 16:00: venite a tifare i colori del paese!
 
-*Fonte: [Calendario Serie C1 2026/2027 - LND Lazio](https://lazio.lnd.it/wp-content/uploads/2026/09/Calendario-completo-C1_CFemminile_U19.pdf)*
+*Fonte: [Sport Pontino](https://www.sportpontino.com/%E2%9A%BD-%F0%9F%94%A5-serie-c1-girone-a-3a-giornata-laundromat-gaeta-e-sporting-fondi-pronte-alla-battaglia-in-casa-%F0%9F%93%B2/)*
