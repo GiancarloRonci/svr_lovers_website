@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
+import NewsFilter from '../../components/NewsFilter.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
 
@@ -13,16 +14,20 @@ const news = (await getCollection('news')).sort(
   <h1>News</h1>
   <p class="meta">Tutte le novità e gli aggiornamenti della community.</p>
 
+  <NewsFilter lang="it" />
+
   <div class="card-grid">
     {
       news.map((n) => (
-        <Card
-          href={withBase(`news/${n.id}/`)}
-          title={n.data.title}
-          description={n.data.description}
-          meta={n.data.data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
-          image={n.data.immagine}
-        />
+        <div class="news-item" data-date={n.data.data.toISOString().slice(0, 10)}>
+          <Card
+            href={withBase(`news/${n.id}/`)}
+            title={n.data.title}
+            description={n.data.description}
+            meta={n.data.data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+            image={n.data.immagine}
+          />
+        </div>
       ))
     }
   </div>

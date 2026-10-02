@@ -1,0 +1,102 @@
+---
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+
+const labels =
+  lang === 'en'
+    ? {
+        filterLabel: 'Show',
+        last7: 'Last 7 days',
+        last15: 'Last 15 days',
+        last2m: 'Last 2 months',
+        all: 'All',
+        emptyFiltered: 'No news in this period.',
+      }
+    : {
+        filterLabel: 'Mostra',
+        last7: 'Ultimi 7 giorni',
+        last15: 'Ultimi 15 giorni',
+        last2m: 'Ultimi 2 mesi',
+        all: 'Tutte',
+        emptyFiltered: 'Nessuna news in questo periodo.',
+      };
+---
+
+<div class="news-filter">
+  <label for="news-range">{labels.filterLabel}</label>
+  <select id="news-range">
+    <option value="7d">{labels.last7}</option>
+    <option value="15d">{labels.last15}</option>
+    <option value="2m">{labels.last2m}</option>
+    <option value="all" selected>{labels.all}</option>
+  </select>
+</div>
+<p class="meta news-empty" hidden>{labels.emptyFiltered}</p>
+
+<style is:global>
+  .news-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .news-filter select {
+    font: inherit;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .news-empty {
+    margin-top: 1rem;
+  }
+  /* Each news card sits in a wrapper carrying its date: the wrapper is transparent to the grid. */
+  .news-item {
+    display: contents;
+  }
+  .news-item[hidden] {
+    display: none;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var select = document.getElementById('news-range');
+    if (!select) return;
+    var items = document.querySelectorAll('.news-item');
+    var emptyMsg = document.querySelector('.news-empty');
+
+    // Returns the earliest date to show as YYYY-MM-DD, or '' for no limit.
+    function cutoff(value) {
+      if (value === 'all') return '';
+      var d = new Date();
+      if (value === '2m') {
+        d.setMonth(d.getMonth() - 2);
+      } else {
+        d.setDate(d.getDate() - (value === '15d' ? 15 : 7));
+      }
+      var pad = function (n) {
+        return n < 10 ? '0' + n : '' + n;
+      };
+      return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+    }
+
+    function apply() {
+      var min = cutoff(select.value);
+      var visible = 0;
+      items.forEach(function (el) {
+        var show = !min || (el.getAttribute('data-date') || '') >= min;
+        el.hidden = !show;
+        if (show) visible++;
+      });
+      if (emptyMsg) emptyMsg.hidden = visible > 0;
+    }
+
+    select.addEventListener('change', apply);
+    apply();
+  })();
+</script>
