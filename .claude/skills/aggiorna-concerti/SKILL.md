@@ -21,7 +21,7 @@ Se un evento è ambiguo (es. "concerto" senza genere chiaro), verifica il genere
 
 ## Contesto geografico
 
-Stesso raggio di `aggiorna-eventi`: comuni entro circa un'ora di macchina da San Vito Romano — Palestrina, Zagarolo, Cave, Genazzano, Olevano Romano, Capranica Prenestina, Castel San Pietro Romano, Rocca di Cave, Guadagnolo, Bellegra, Roiate, San Cesareo, Colonna, Gallicano nel Lazio, Colleferro, Paliano, Subiaco, Monte Livata, Canterano, Affile, Jenne, Piglio, Serrone.
+Stesso raggio di `aggiorna-eventi`: comuni entro circa un'ora di macchina da San Vito Romano — Palestrina, Zagarolo, Cave, Genazzano, Olevano Romano, Capranica Prenestina, Castel San Pietro Romano, Rocca di Cave, Guadagnolo, Bellegra, Roiate, Gerano, San Cesareo, Colonna, Gallicano nel Lazio, Colleferro, Paliano, Subiaco, Monte Livata, Canterano, Affile, Jenne, Piglio, Serrone.
 
 I concerti pop/rock/dance in questi comuni sono rari e perlopiù legati a sagre estive o eventi patronali: è normale che la ricerca non trovi nulla per lunghi periodi. Non ampliare il raggio a Roma città o a grandi venue/stadi/arene salvo esplicita richiesta dell'utente per quella ricerca specifica: mantieniti sullo stesso perimetro delle altre skill di eventi, per coerenza con l'ambito "dintorni di San Vito Romano" del sito.
 
