@@ -16,11 +16,31 @@ galleria:
   - ./la-macchiarella/photo8.jpg
   - ./la-macchiarella/photo9.jpg
   - ./la-macchiarella/photo10.jpg
+  - immagine: ./la-macchiarella/photo11.jpg
+    didascalia: Un ponticello in legno collega il sentiero al viale lastricato con staccionata e lampioni
+  - immagine: ./la-macchiarella/photo12.jpg
+    didascalia: Uno dei ponticelli in legno lungo i sentieri del bosco
+  - immagine: ./la-macchiarella/photo13.jpg
+    didascalia: Gradini di tronchi e pietra tra le foglie cadute
+  - immagine: ./la-macchiarella/photo14.jpg
+    didascalia: Una gradinata con corrimano in pali di legno
+  - immagine: ./la-macchiarella/photo15.jpg
+    didascalia: Il sentiero coperto di foglie, protetto da una staccionata sul lato a valle
+  - immagine: ./la-macchiarella/photo16.jpg
+    didascalia: Il sentiero a mezza costa tra i grandi tronchi, con i ricci delle castagne a terra
+  - immagine: ./la-macchiarella/photo17.jpg
+    didascalia: Tronchi rivestiti d'edera lungo il sentiero in terra battuta
+  - immagine: ./la-macchiarella/photo18.jpg
+    didascalia: Un tavolo con panche all'ombra dei castagni
+  - immagine: ./la-macchiarella/photo19.jpg
+    didascalia: Tavolo e panche in una radura del parco
 ---
 
 La Macchiarella è un parco pubblico attrezzato e un castagneto secolare di proprietà comunale che si trova all'interno del centro abitato di San Vito Romano. Si estende per oltre 4 ettari ed è composta principalmente da un bosco di castagni secolari, che offrono ombra e riparo durante i mesi estivi.
 
-L'area è curata: staccionate delimitano i sentieri interni e tavoli e panchine permettono di fermarsi a riposare. Un apposito stradone collega la Macchiarella direttamente al parco della [Villa Comunale](/luoghi/villa-comunale). Nel periodo giusto è possibile recarsi nel castagneto per la raccolta di castagne e funghi.
+L'area è attrezzata. I sentieri interni, in terra battuta e in autunno coperti di foglie, salgono e scendono lungo il pendio tra tronchi rivestiti d'edera; tra i castagni cresce anche qualche conifera. Staccionate e corrimano in pali di legno accompagnano i tratti a mezza costa, gradini di tronchi e pietra aiutano a superare i punti più ripidi e piccoli ponticelli in legno scavalcano gli avvallamenti. Nelle radure, tavoli con panche permettono di fermarsi a riposare o di fare un picnic all'ombra. Il fondo è naturale e in più punti in pendenza: meglio indossare scarpe comode.
+
+Un apposito stradone collega la Macchiarella direttamente al parco della [Villa Comunale](/luoghi/villa-comunale). Nel periodo giusto è possibile recarsi nel castagneto per la raccolta di castagne e funghi.
 
 All'interno del parco si trova il Sentiero della Coscienza, un percorso dedicato alla memoria delle vittime dell'Olocausto, dei totalitarismi e delle foibe.
 
