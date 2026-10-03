@@ -38,7 +38,7 @@ galleria:
 
 La Macchiarella is a public park and a centuries-old chestnut wood owned by the municipality, located right inside the town of San Vito Romano. It covers more than 4 hectares and is made up mainly of old chestnut trees, which offer shade and shelter during the summer months.
 
-The area is equipped for visitors. The paths inside the wood, bare earth and covered with leaves in autumn, climb and descend the slope among ivy-clad trunks; a few conifers grow among the chestnuts too. Fences and handrails made of wooden poles run along the hillside stretches, steps of logs and stone help with the steeper points, and small wooden footbridges cross the dips in the ground. In the clearings, tables with benches invite you to stop and rest or have a picnic in the shade. The ground is natural and sloping in several places, so comfortable shoes are a good idea.
+You walk through the wood on bare-earth paths, covered with leaves in autumn, that climb and descend the slope among ivy-clad trunks; a few conifers grow among the chestnuts too. The facilities are few and basic, and not all in good condition: some stretches of fence and handrail made of wooden poles, steps of logs and stone at the steeper points, a few wooden footbridges and some tables with benches in the clearings, where you can stop and rest or have a picnic in the shade. The ground is natural and sloping in several places, so comfortable shoes are a good idea.
 
 A dedicated wide path links the Macchiarella directly to the [Villa Comunale](/en/luoghi/villa-comunale) park. In the right season, you can head into the chestnut wood to gather chestnuts and mushrooms.
 
