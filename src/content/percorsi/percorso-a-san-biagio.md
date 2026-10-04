@@ -80,6 +80,10 @@ foto:
     lng: 12.984069
     immagine: ./percorso-a-san-biagio/foto16.jpg
     didascalia: "Siamo quasi tornati al livello di via delle Logge"
+  - lat: 41.883427
+    lng: 12.983932
+    immagine: ./percorso-a-san-biagio/foto26.jpg
+    didascalia: "Una scalinata di sampietrini scende tra le case verso un passaggio coperto."
   - lat: 41.883255
     lng: 12.984176
     immagine: ./percorso-a-san-biagio/foto17.jpg

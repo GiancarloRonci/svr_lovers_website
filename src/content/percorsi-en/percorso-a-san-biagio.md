@@ -80,6 +80,10 @@ foto:
     lng: 12.984069
     immagine: ./percorso-a-san-biagio/foto16.jpg
     didascalia: "We're almost back at the level of Via delle Logge"
+  - lat: 41.883427
+    lng: 12.983932
+    immagine: ./percorso-a-san-biagio/foto26.jpg
+    didascalia: "A cobbled stairway runs down between the houses towards a covered passage."
   - lat: 41.883255
     lng: 12.984176
     immagine: ./percorso-a-san-biagio/foto17.jpg
