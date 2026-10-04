@@ -16,6 +16,11 @@ giorni:
         oraFine: "10:30"
         attivita: "Theodoli Castle and the Church of Santa Maria de Arce"
         descrizione: "The ship-shaped fortress that dominates the town, visible only from outside as it is still lived in, and the town's main church, built against the castle. For background, read \"The Colonna and the Theodoli\" in the History section."
+        link:
+          - href: "en/luoghi/castello-theodoli/"
+            testo: "Go to the Theodoli Castle page"
+          - href: "en/luoghi/santa-maria-de-arce/"
+            testo: "Go to the Church of Santa Maria de Arce page"
       - oraInizio: "10:30"
         oraFine: "11:15"
         attivita: "Piazza San Biagio"

@@ -34,11 +34,11 @@ const lastModified = getLastModified(entry.filePath);
               <span class="dettaglio">
                 <strong>{tappa.attivita}</strong>
                 {tappa.descrizione && <p>{tappa.descrizione}</p>}
-                {tappa.link && (
+                {[tappa.link ?? []].flat().map((link) => (
                   <p>
-                    <a href={withBase(tappa.link.href)}>{tappa.link.testo}</a>
+                    <a href={withBase(link.href)}>{link.testo}</a>
                   </p>
-                )}
+                ))}
               </span>
             </li>
           ))}

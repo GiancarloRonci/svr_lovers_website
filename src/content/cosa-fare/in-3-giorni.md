@@ -16,6 +16,11 @@ giorni:
         oraFine: "10:30"
         attivita: "Castello Theodoli e Chiesa di Santa Maria de Arce"
         descrizione: "La fortezza a forma di nave che domina il borgo, visibile solo dall'esterno perché ancora abitata, e la chiesa principale del paese addossata al castello. Per il contesto, leggi \"I Colonna e i Theodoli\" nella sezione Storia."
+        link:
+          - href: "luoghi/castello-theodoli/"
+            testo: "Vai alla scheda del Castello Theodoli"
+          - href: "luoghi/santa-maria-de-arce/"
+            testo: "Vai alla scheda della Chiesa di Santa Maria de Arce"
       - oraInizio: "10:30"
         oraFine: "11:15"
         attivita: "Piazza San Biagio"

@@ -164,6 +164,8 @@ const soggiornoEn = defineCollection({
   schema: soggiornoSchema,
 });
 
+const cosaFareLinkSchema = z.object({ href: z.string(), testo: z.string() });
+
 const cosaFareSchema = z.object({
   title: z.string(),
   description: z.string(),
@@ -177,7 +179,9 @@ const cosaFareSchema = z.object({
           oraFine: z.string().optional(),
           attivita: z.string(),
           descrizione: z.string().optional(),
-          link: z.object({ href: z.string(), testo: z.string() }).optional(),
+          link: z
+            .union([cosaFareLinkSchema, z.array(cosaFareLinkSchema)])
+            .optional(),
         })
       ),
     })
