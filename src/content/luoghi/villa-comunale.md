@@ -13,6 +13,8 @@ galleria:
   - ./villa-comunale/photo5.jpg
   - ./villa-comunale/photo6.jpg
   - ./villa-comunale/photo7.jpg
+  - immagine: ./villa-comunale/photo8.jpg
+    didascalia: "Le gradinate in pietra a semicerchio, all'ombra degli alberi."
 ---
 
 La Villa Comunale è uno dei luoghi che rappresentano meglio l'anima del nostro paese: un vero e proprio cuore verde e sociale, da sempre punto d'incontro, di passeggio e di condivisione per tante generazioni di sanvitesi.
