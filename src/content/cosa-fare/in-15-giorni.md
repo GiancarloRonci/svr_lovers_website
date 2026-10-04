@@ -251,6 +251,9 @@ giorni:
         oraFine: "16:30"
         attivita: "Passeggiata nel centro di Palestrina"
         descrizione: "Le vie del centro storico che salgono lungo le terrazze dell'antico santuario, senza fretta."
+        link:
+          - href: "luoghi/palestrina/"
+            testo: "Vai alla scheda di Palestrina"
       - oraInizio: "18:00"
         oraFine: "19:30"
         attivita: "Serata in paese"

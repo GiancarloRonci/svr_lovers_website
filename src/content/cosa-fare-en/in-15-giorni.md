@@ -251,6 +251,9 @@ giorni:
         oraFine: "16:30"
         attivita: "A stroll through Palestrina"
         descrizione: "The streets of the old town climbing along the terraces of the ancient sanctuary, at an easy pace."
+        link:
+          - href: "en/luoghi/palestrina/"
+            testo: "Go to the Palestrina page"
       - oraInizio: "18:00"
         oraFine: "19:30"
         attivita: "Evening in town"
