@@ -10,6 +10,13 @@ const itinerari = (await getCollection('cosaFare')).sort((a, b) => a.data.giorni
 <Layout title="Cosa fare" description="Itinerari suggeriti per organizzare un soggiorno a San Vito Romano.">
   <h1>Cosa fare</h1>
   <p class="meta">Itinerari con orari suggeriti per un soggiorno di 3, 5, 7 o 15 giorni.</p>
+  <p class="avviso">
+    <strong>Prima di partire, verifica sempre di persona.</strong> Gli itinerari sono solo dei
+    suggerimenti: ognuno deve controllare personalmente, con un doppio controllo presso le fonti
+    ufficiali, che ogni luogo sia effettivamente visitabile nel giorno e nell'orario scelti. Il sito
+    SVR Lovers non si assume alcuna responsabilità per eventuali disagi dovuti a informazioni non
+    precise o a variazioni di orari e aperture.
+  </p>
 
   <div class="card-grid">
     {
@@ -23,3 +30,13 @@ const itinerari = (await getCollection('cosaFare')).sort((a, b) => a.data.giorni
     }
   </div>
 </Layout>
+
+<style>
+  .avviso {
+    margin: 1rem 0 1.5rem;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--color-accent);
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+</style>
