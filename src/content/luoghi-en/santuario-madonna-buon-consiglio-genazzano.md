@@ -10,7 +10,7 @@ galleria:
   - ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
 ---
 
-The Sanctuary of Our Lady of Good Counsel stands in the heart of Genazzano, not far from San Vito Romano, and is one of the most venerated Marian shrines in Lazio. Its story begins in 1467, when the Augustinian tertiary Petruccia di Ienco, having spent everything she owned to restore an ancient 14th-century church that lay in ruins, was mocked by fellow townspeople for failing to complete the work: she replied that the Virgin and Saint Augustine would finish the building before her death.
+The Sanctuary of Our Lady of Good Counsel stands in the heart of [Genazzano](/en/luoghi/genazzano), not far from San Vito Romano, and is one of the most venerated Marian shrines in Lazio. Its story begins in 1467, when the Augustinian tertiary Petruccia di Ienco, having spent everything she owned to restore an ancient 14th-century church that lay in ruins, was mocked by fellow townspeople for failing to complete the work: she replied that the Virgin and Saint Augustine would finish the building before her death.
 
 On 25 April of that same year, tradition holds, a small image of the Madonna and Child - a thin layer of plaster that had detached from the wall of a church in Scutari, Albania - crossed the Adriatic borne on a luminous cloud and came to rest on the wall of the church under construction, amid the sound of celestial music. In the following months 161 miracles were recorded, and Pope Paul II sent two bishops to verify the authenticity of the events.
 

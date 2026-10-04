@@ -186,6 +186,8 @@ giorni:
         link:
           - href: "luoghi/santuario-madonna-buon-consiglio-genazzano/"
             testo: "Vai alla scheda del Santuario della Madonna del Buon Consiglio"
+          - href: "luoghi/genazzano/"
+            testo: "Vai alla scheda di Genazzano"
       - oraInizio: "11:00"
         oraFine: "12:15"
         attivita: "Ninfeo di Bramante"

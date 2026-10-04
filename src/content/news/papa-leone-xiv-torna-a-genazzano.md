@@ -5,7 +5,7 @@ data: 2026-08-29
 immagine: ./genazzano-santuario.jpg
 ---
 
-Papa Leone XIV farà ritorno a Genazzano il prossimo 7 settembre 2026, alle ore 18:00, per celebrare la Santa Messa nel Santuario della Madre del Buon Consiglio, alla vigilia della festa della Natività della Beata Vergine Maria. La notizia, riportata da Laura Ferri su montiprenestini.info, riguarda da vicino tutto il territorio dei Monti Prenestini, di cui fa parte anche San Vito Romano.
+Papa Leone XIV farà ritorno a [Genazzano](/luoghi/genazzano) il prossimo 7 settembre 2026, alle ore 18:00, per celebrare la Santa Messa nel Santuario della Madre del Buon Consiglio, alla vigilia della festa della Natività della Beata Vergine Maria. La notizia, riportata da Laura Ferri su montiprenestini.info, riguarda da vicino tutto il territorio dei Monti Prenestini, di cui fa parte anche San Vito Romano.
 
 Non si tratta della prima visita del Pontefice al santuario: Papa Leone XIV vi si era già recato il 10 maggio 2025, appena due giorni dopo la sua elezione, a testimonianza del legame profondo che lo unisce alla comunità agostiniana. Gli Agostiniani custodiscono infatti il Santuario di Genazzano, luogo di culto mariano tra i più venerati del Lazio, e rappresentano una realtà a cui il Papa è personalmente legato fin dal suo percorso religioso.
 

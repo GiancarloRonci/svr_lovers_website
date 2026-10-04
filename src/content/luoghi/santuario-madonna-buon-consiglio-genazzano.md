@@ -10,7 +10,7 @@ galleria:
   - ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
 ---
 
-Il Santuario della Madonna del Buon Consiglio sorge nel cuore di Genazzano, non lontano da San Vito Romano, ed è uno dei luoghi di culto mariano più venerati del Lazio. La sua storia comincia nel 1467, quando la terziaria agostiniana Petruccia di Ienco, dopo aver speso ogni suo avere per restaurare un'antica chiesa trecentesca ormai in rovina, si vide beffeggiata dai compaesani per non essere riuscita a completare i lavori: rispose che sarebbero stati la Vergine e Sant'Agostino a terminare l'opera prima della sua morte.
+Il Santuario della Madonna del Buon Consiglio sorge nel cuore di [Genazzano](/luoghi/genazzano), non lontano da San Vito Romano, ed è uno dei luoghi di culto mariano più venerati del Lazio. La sua storia comincia nel 1467, quando la terziaria agostiniana Petruccia di Ienco, dopo aver speso ogni suo avere per restaurare un'antica chiesa trecentesca ormai in rovina, si vide beffeggiata dai compaesani per non essere riuscita a completare i lavori: rispose che sarebbero stati la Vergine e Sant'Agostino a terminare l'opera prima della sua morte.
 
 Il 25 aprile di quello stesso anno, secondo la tradizione, una piccola immagine della Madonna con il Bambino - un sottile strato di intonaco staccatosi dal muro della chiesa di Scutari, in Albania - attraversò l'Adriatico sospesa in una nuvola luminosa e si posò sulla parete della chiesa in costruzione, tra il suono di una musica celeste. Nei mesi successivi furono registrati 161 miracoli, e papa Paolo II inviò due vescovi a verificare l'autenticità degli eventi.
 

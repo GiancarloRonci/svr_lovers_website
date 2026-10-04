@@ -186,6 +186,8 @@ giorni:
         link:
           - href: "en/luoghi/santuario-madonna-buon-consiglio-genazzano/"
             testo: "Go to the Sanctuary of Our Lady of Good Counsel page"
+          - href: "en/luoghi/genazzano/"
+            testo: "Go to the Genazzano page"
       - oraInizio: "11:00"
         oraFine: "12:15"
         attivita: "Bramante's Nymphaeum"

@@ -17,7 +17,7 @@ galleria:
     didascalia: "Una visitatrice tra le colonne del loggiato, che restituisce la scala monumentale del ninfeo."
 ---
 
-Poco fuori dal centro abitato di Genazzano, immerso nel verde della valle sottostante il castello Colonna, sorge il Ninfeo di Bramante, uno dei tesori architettonici meno conosciuti dei Prenestini. Fu commissionato all'inizio del Cinquecento dalla famiglia Colonna, signori di Genazzano, all'architetto Donato Bramante, tra i massimi protagonisti del Rinascimento romano.
+Poco fuori dal centro abitato di [Genazzano](/luoghi/genazzano), immerso nel verde della valle sottostante il castello Colonna, sorge il Ninfeo di Bramante, uno dei tesori architettonici meno conosciuti dei Prenestini. Fu commissionato all'inizio del Cinquecento dalla famiglia Colonna, signori di Genazzano, all'architetto Donato Bramante, tra i massimi protagonisti del Rinascimento romano.
 
 Concepito come un padiglione estivo dove ritrovarsi al fresco e assistere a spettacoli teatrali, il ninfeo unisce echi della classicità romana - la Basilica di Massenzio e i frigidari delle terme imperiali furono tra i suoi modelli - alle aspirazioni del classicismo rinascimentale. La facciata, scandita da tre arcate rivolte verso la valle, introduce a un ambiente coperto da volte a crociera, le cui pareti sono arricchite da nicchie circolari e rettangolari.
 

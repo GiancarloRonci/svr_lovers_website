@@ -6,7 +6,7 @@ luogo: Church of San Giovanni, Genazzano (Rome)
 tipologiaEvento: Religious Event
 ---
 
-On the first Sunday of October, Genazzano celebrates the Madonna del Rosario, a tradition renewed for over a hundred years in the church of San Giovanni, home to the fresco depicting the Madonna. The celebrations are organized by the Confraternity of the Rosary, founded in 1575.
+On the first Sunday of October, [Genazzano](/en/luoghi/genazzano) celebrates the Madonna del Rosario, a tradition renewed for over a hundred years in the church of San Giovanni, home to the fresco depicting the Madonna. The celebrations are organized by the Confraternity of the Rosary, founded in 1575.
 
 The highlight is the solemn procession through the village streets with the statue of the Madonna del Rosario, followed by the community of the faithful.
 

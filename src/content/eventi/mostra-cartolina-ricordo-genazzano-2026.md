@@ -7,7 +7,7 @@ luogo: "Castello Colonna, Genazzano (Roma)"
 tipologiaEvento: Evento Culturale
 ---
 
-Fino all'11 ottobre 2026 il Castello Colonna di Genazzano ospita "Una cartolina ricordo da... Immagini dal mondo", la mostra con cui il concorso fotografico organizzato da Dino's Photo e dal Circolo Fotografico Aperture festeggia i suoi dieci anni. In esposizione fotografie di luoghi, culture e paesaggi da ogni parte del mondo.
+Fino all'11 ottobre 2026 il Castello Colonna di [Genazzano](/luoghi/genazzano) ospita "Una cartolina ricordo da... Immagini dal mondo", la mostra con cui il concorso fotografico organizzato da Dino's Photo e dal Circolo Fotografico Aperture festeggia i suoi dieci anni. In esposizione fotografie di luoghi, culture e paesaggi da ogni parte del mondo.
 
 La mostra è aperta il venerdì, il sabato e la domenica, dalle 9:30 alle 13:00 e dalle 15:30 alle 19:00, con ingresso gratuito. Il programma prevede anche esposizioni collaterali e incontri dedicati alla cultura fotografica. L'iniziativa ha il patrocinio del Comune di Genazzano.
 

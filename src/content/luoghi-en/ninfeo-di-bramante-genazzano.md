@@ -17,7 +17,7 @@ galleria:
     didascalia: "A visitor among the columns of the loggia, giving a sense of the nymphaeum's monumental scale."
 ---
 
-Just outside the town of Genazzano, set in the greenery of the valley below the Colonna castle, stands Bramante's Nymphaeum, one of the lesser-known architectural treasures of the Prenestini hills. It was commissioned at the beginning of the 16th century by the Colonna family, lords of Genazzano, to Donato Bramante, one of the leading figures of the Roman Renaissance.
+Just outside the town of [Genazzano](/en/luoghi/genazzano), set in the greenery of the valley below the Colonna castle, stands Bramante's Nymphaeum, one of the lesser-known architectural treasures of the Prenestini hills. It was commissioned at the beginning of the 16th century by the Colonna family, lords of Genazzano, to Donato Bramante, one of the leading figures of the Roman Renaissance.
 
 Conceived as a summer pavilion where one could gather in the cool air and enjoy theatrical performances, the nymphaeum blends echoes of Roman classicism - the Basilica of Maxentius and the frigidaria of the imperial baths were among its models - with the aspirations of Renaissance classicism. The façade, marked by three arches facing the valley, opens onto a hall covered by cross vaults, its walls enriched with circular and rectangular niches.
 

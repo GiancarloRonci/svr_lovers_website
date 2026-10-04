@@ -5,7 +5,7 @@ data: 2026-08-29
 immagine: ./genazzano-santuario.jpg
 ---
 
-Pope Leo XIV will return to Genazzano on 7 September 2026, at 6:00 pm, to celebrate
+Pope Leo XIV will return to [Genazzano](/en/luoghi/genazzano) on 7 September 2026, at 6:00 pm, to celebrate
 Mass at the Sanctuary of the Mother of Good Counsel, on the eve of the feast of the
 Nativity of the Blessed Virgin Mary. The news, reported by Laura Ferri on
 montiprenestini.info, closely concerns the whole Monti Prenestini area, which San

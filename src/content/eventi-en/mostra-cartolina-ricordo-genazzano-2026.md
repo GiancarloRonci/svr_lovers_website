@@ -7,7 +7,7 @@ luogo: "Castello Colonna, Genazzano (Rome)"
 tipologiaEvento: Cultural Event
 ---
 
-Until 11 October 2026 Castello Colonna in Genazzano hosts "Una cartolina ricordo da... Immagini dal mondo" (A souvenir postcard from... Images from the world), the exhibition celebrating the tenth anniversary of the photography competition organised by Dino's Photo and the Circolo Fotografico Aperture. On display are photographs of places, cultures and landscapes from every part of the world.
+Until 11 October 2026 Castello Colonna in [Genazzano](/en/luoghi/genazzano) hosts "Una cartolina ricordo da... Immagini dal mondo" (A souvenir postcard from... Images from the world), the exhibition celebrating the tenth anniversary of the photography competition organised by Dino's Photo and the Circolo Fotografico Aperture. On display are photographs of places, cultures and landscapes from every part of the world.
 
 The exhibition is open on Fridays, Saturdays and Sundays, from 9:30 AM to 1:00 PM and from 3:30 to 7:00 PM, with free admission. The programme also includes side exhibitions and talks on photography. The initiative is supported by the Municipality of Genazzano.
 
