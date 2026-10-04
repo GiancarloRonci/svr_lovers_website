@@ -275,6 +275,9 @@ giorni:
         oraFine: "12:30"
         attivita: "The Stretta and Via delle Logge"
         descrizione: "From the Fontana Ciocia in Piazza San Biagio, climb the Stretta up to Via delle Logge and, through the passage leading to the Church of Santa Maria, to the highest point of the old town (Trails section)."
+        link:
+          - href: "en/percorsi/percorso-a-san-biagio/"
+            testo: "Go to the Trail A (San Biagio) page"
       - oraInizio: "13:00"
         oraFine: "14:30"
         attivita: "Lunch in town"

@@ -275,6 +275,9 @@ giorni:
         oraFine: "12:30"
         attivita: "La Stretta e Via delle Logge"
         descrizione: "Dalla Fontana Ciocia di Piazza San Biagio si sale per la Stretta fino a Via delle Logge e, attraverso il passaggio che porta alla Chiesa di Santa Maria, al punto più alto del borgo (sezione Percorsi)."
+        link:
+          - href: "percorsi/percorso-a-san-biagio/"
+            testo: "Vai alla scheda del Percorso A (San Biagio)"
       - oraInizio: "13:00"
         oraFine: "14:30"
         attivita: "Pranzo in centro"
