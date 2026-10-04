@@ -1,5 +1,6 @@
 ---
 import { withBase } from '../lib/url';
+import { GA_MEASUREMENT_ID } from '../lib/analytics';
 
 interface Props {
   title: string;
@@ -39,6 +40,15 @@ const strings = {
     },
     defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
     footer: (year: number) => `© ${year} Il Paese. Sito realizzato dalla comunità.`,
+    privacy: 'Privacy e cookie',
+    cookie: {
+      label: 'Consenso ai cookie',
+      text: 'Questo sito usa Google Analytics per contare le visite e capire quali pagine vengono lette. I cookie di Analytics vengono installati solo se accetti.',
+      more: 'Maggiori informazioni',
+      accept: 'Accetta',
+      reject: 'Rifiuta',
+      prefs: 'Preferenze cookie',
+    },
   },
   en: {
     brand: 'SanVitoRomano Lovers',
@@ -72,6 +82,15 @@ const strings = {
     },
     defaultDescription: 'The village: history, trails, places and events.',
     footer: (year: number) => `© ${year} The Village. Website made by the community.`,
+    privacy: 'Privacy and cookies',
+    cookie: {
+      label: 'Cookie consent',
+      text: 'This site uses Google Analytics to count visits and understand which pages are read. Analytics cookies are set only if you accept.',
+      more: 'More information',
+      accept: 'Accept',
+      reject: 'Reject',
+      prefs: 'Cookie preferences',
+    },
   },
 } as const;
 
@@ -141,6 +160,8 @@ const itHref = withBase(bare || '/');
 const enHref = withBase(`en/${bare}`);
 const switchHref = lang === 'en' ? itHref : enHref;
 const switchLabel = lang === 'en' ? 'IT' : 'EN';
+const gaId = GA_MEASUREMENT_ID;
+const privacyHref = withBase(`${prefix}privacy/`);
 ---
 
 <!doctype html>
@@ -154,6 +175,29 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
     <link rel="alternate" hreflang="en" href={new URL(enHref, Astro.site)} />
     <link rel="alternate" hreflang="x-default" href={new URL(itHref, Astro.site)} />
     <title>{title} · {t.brand}</title>
+    {
+      gaId && (
+        <script is:inline define:vars={{ gaId }}>
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.svrLoadAnalytics = function () {
+            if (window.svrAnalyticsLoaded) return;
+            window.svrAnalyticsLoaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+            document.head.appendChild(s);
+            window.gtag('js', new Date());
+            window.gtag('config', gaId);
+          };
+          try {
+            if (localStorage.getItem('svr-cookie-consent') === 'granted') window.svrLoadAnalytics();
+          } catch (e) {}
+        </script>
+      )
+    }
   </head>
   <body>
     <header class="site-header">
@@ -197,7 +241,73 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
         <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
       </p>
       <p>{t.footer(new Date().getFullYear())}</p>
+      <p class="footer-legal">
+        <a href={privacyHref}>{t.privacy}</a>
+        {gaId && <button type="button" id="cookie-prefs">{t.cookie.prefs}</button>}
+      </p>
     </footer>
+
+    {
+      gaId && (
+        <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label={t.cookie.label} hidden>
+          <p>
+            {t.cookie.text} <a href={privacyHref}>{t.cookie.more}</a>
+          </p>
+          <div class="cookie-actions">
+            <button type="button" id="cookie-reject">{t.cookie.reject}</button>
+            <button type="button" id="cookie-accept">{t.cookie.accept}</button>
+          </div>
+        </div>
+      )
+    }
+    {
+      gaId && (
+        <script is:inline>
+          (function () {
+            var KEY = 'svr-cookie-consent';
+            var banner = document.getElementById('cookie-banner');
+            if (!banner) return;
+            var stored = null;
+            try {
+              stored = localStorage.getItem(KEY);
+            } catch (e) {}
+            if (!stored) banner.hidden = false;
+            function save(value) {
+              try {
+                localStorage.setItem(KEY, value);
+              } catch (e) {}
+              banner.hidden = true;
+            }
+            function clearAnalyticsCookies() {
+              var host = location.hostname;
+              var domains = ['', host, '.' + host, '.' + host.replace(/^www\./, '')];
+              document.cookie.split(';').forEach(function (c) {
+                var name = c.split('=')[0].trim();
+                if (name.indexOf('_ga') !== 0) return;
+                domains.forEach(function (d) {
+                  document.cookie =
+                    name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + (d ? '; domain=' + d : '');
+                });
+              });
+            }
+            document.getElementById('cookie-accept').addEventListener('click', function () {
+              save('granted');
+              if (window.svrLoadAnalytics) window.svrLoadAnalytics();
+            });
+            document.getElementById('cookie-reject').addEventListener('click', function () {
+              save('denied');
+              clearAnalyticsCookies();
+              if (window.svrAnalyticsLoaded) location.reload();
+            });
+            var prefs = document.getElementById('cookie-prefs');
+            if (prefs)
+              prefs.addEventListener('click', function () {
+                banner.hidden = false;
+              });
+          })();
+        </script>
+      )
+    }
 
     <script>
       const toggle = document.querySelector('.nav-toggle');
@@ -495,6 +605,70 @@ const switchLabel = lang === 'en' ? 'IT' : 'EN';
 
       .footer-contacts a:hover {
         color: var(--color-accent-dark);
+      }
+
+      .footer-legal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem 1.5rem;
+        font-size: 0.85rem;
+      }
+
+      .footer-legal a,
+      .footer-legal button {
+        color: var(--color-muted);
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .cookie-banner {
+        position: fixed;
+        left: 1rem;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 50;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 1rem 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem 1.5rem;
+        background: #fff;
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        font-size: 0.92rem;
+      }
+
+      .cookie-banner[hidden] {
+        display: none;
+      }
+
+      .cookie-banner p {
+        margin: 0;
+        flex: 1 1 320px;
+      }
+
+      .cookie-actions {
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .cookie-actions button {
+        font: inherit;
+        font-weight: 700;
+        padding: 0.45rem 1.1rem;
+        border-radius: 999px;
+        border: 1px solid var(--color-accent-dark);
+        background: var(--color-accent-dark);
+        color: #fff;
+        cursor: pointer;
       }
 
       .card-grid {

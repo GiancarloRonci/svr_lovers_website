@@ -1,0 +1,73 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { GA_MEASUREMENT_ID } from '../../../lib/analytics';
+
+const analyticsAttivo = Boolean(GA_MEASUREMENT_ID);
+---
+
+<Layout title="Privacy and cookies" description="How the SanVitoRomano Lovers site handles visitors' data and which cookies it uses.">
+  <h1>Privacy and cookies</h1>
+  <p class="meta">What data this site collects, why, and how you can decide.</p>
+
+  <h2>Who runs the site</h2>
+  <p>
+    The site is run by the SanVitoRomano Lovers community. For any question about your data you can
+    write to <a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a>.
+  </p>
+
+  <h2>What we do not do</h2>
+  <p>
+    The site requires no registration, has no forms to fill in and does not collect names, email
+    addresses or other personal data. We do not use advertising or profiling cookies.
+  </p>
+
+  {
+    analyticsAttivo ? (
+      <>
+        <h2>Visit statistics (Google Analytics 4)</h2>
+        <p>
+          To understand how many people visit the site and which pages are read we use Google Analytics
+          4, a Google service. Analytics is switched on <strong>only if you accept</strong> in the
+          banner shown on your first visit: until you accept, or if you reject, it is not loaded and
+          sets no cookies.
+        </p>
+        <p>
+          If you accept, Analytics sets a few cookies in your browser (with names starting with
+          <code>_ga</code>, lasting up to two years) and collects aggregated data such as the pages
+          visited, the type of device and browser, the language, the approximate geographical area and
+          the referring site. The data is processed by Google, which may also store it on servers
+          outside the European Union. For details see
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's
+          privacy policy</a>.
+        </p>
+
+        <h2>How to change your mind</h2>
+        <p>
+          You can change your choice at any time with the "Cookie preferences" link at the bottom of
+          every page. If you reject after accepting, the Analytics cookies are deleted from your
+          browser. Your choice is stored only in your browser, not on our servers.
+        </p>
+      </>
+    ) : (
+      <>
+        <h2>Cookies and statistics</h2>
+        <p>At present the site uses no tracking cookies and no visit statistics tools.</p>
+      </>
+    )
+  }
+
+  <h2>Links to other sites</h2>
+  <p>
+    The site contains links to external sites (for example Facebook, Instagram, TikTok, WhatsApp,
+    OpenStreetMap and the sources of the news). When you follow them, those sites' privacy rules
+    apply.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    Under the European General Data Protection Regulation (GDPR) you can ask for information about
+    the data concerning you, object to its processing and contact the
+    <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">Italian Data Protection
+    Authority</a>.
+  </p>
+</Layout>

@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { GA_MEASUREMENT_ID } from '../../lib/analytics';
+
+const analyticsAttivo = Boolean(GA_MEASUREMENT_ID);
+---
+
+<Layout title="Privacy e cookie" description="Come il sito SanVitoRomano Lovers tratta i dati dei visitatori e quali cookie utilizza.">
+  <h1>Privacy e cookie</h1>
+  <p class="meta">Quali dati raccoglie questo sito, perché e come puoi decidere tu.</p>
+
+  <h2>Chi gestisce il sito</h2>
+  <p>
+    Il sito è gestito dalla community SanVitoRomano Lovers. Per qualsiasi domanda sui tuoi dati puoi
+    scrivere a <a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a>.
+  </p>
+
+  <h2>Cosa non facciamo</h2>
+  <p>
+    Il sito non richiede registrazione, non ha moduli da compilare e non raccoglie nomi, indirizzi
+    email o altri dati personali. Non usiamo cookie pubblicitari né di profilazione.
+  </p>
+
+  {
+    analyticsAttivo ? (
+      <>
+        <h2>Statistiche di visita (Google Analytics 4)</h2>
+        <p>
+          Per capire quante persone visitano il sito e quali pagine vengono lette usiamo Google
+          Analytics 4, un servizio di Google. Analytics viene attivato <strong>solo se accetti</strong>
+          dal banner che compare alla prima visita: finché non accetti, o se rifiuti, non viene caricato
+          e non installa alcun cookie.
+        </p>
+        <p>
+          Se accetti, Analytics installa nel tuo browser alcuni cookie (con nomi che iniziano per
+          <code>_ga</code>, della durata massima di due anni) e raccoglie in forma aggregata dati come
+          le pagine visitate, il tipo di dispositivo e di browser, la lingua, la zona geografica
+          approssimativa e il sito di provenienza. I dati sono trattati da Google, che può conservarli
+          anche su server fuori dall'Unione Europea. Per i dettagli puoi consultare
+          l'<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">informativa
+          sulla privacy di Google</a>.
+        </p>
+
+        <h2>Come cambiare idea</h2>
+        <p>
+          Puoi modificare la tua scelta in qualsiasi momento con il link «Preferenze cookie» in fondo
+          a ogni pagina. Se rifiuti dopo aver accettato, i cookie di Analytics vengono cancellati dal
+          tuo browser. La scelta è memorizzata solo nel tuo browser, non sui nostri server.
+        </p>
+      </>
+    ) : (
+      <>
+        <h2>Cookie e statistiche</h2>
+        <p>Al momento il sito non usa cookie di tracciamento né strumenti di statistica delle visite.</p>
+      </>
+    )
+  }
+
+  <h2>Collegamenti ad altri siti</h2>
+  <p>
+    Il sito contiene link a siti esterni (per esempio Facebook, Instagram, TikTok, WhatsApp,
+    OpenStreetMap e le fonti delle notizie). Quando li segui, valgono le regole sulla privacy di
+    quei siti.
+  </p>
+
+  <h2>I tuoi diritti</h2>
+  <p>
+    In base al Regolamento europeo sulla protezione dei dati (GDPR) puoi chiedere informazioni sui
+    dati che ti riguardano, opporti al loro trattamento e rivolgerti al
+    <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">Garante per la protezione
+    dei dati personali</a>.
+  </p>
+</Layout>
