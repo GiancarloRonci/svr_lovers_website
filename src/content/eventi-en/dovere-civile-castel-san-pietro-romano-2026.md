@@ -6,7 +6,7 @@ luogo: "MuDi - Museo Diffuso, Castel San Pietro Romano (Rome)"
 tipologiaEvento: Cultural Event
 ---
 
-On Sunday 25 October 2026, at 5:00 PM, the MuDi, the Museo Diffuso of Castel San Pietro Romano, hosts "Dovere Civile" (Civic Duty): a commemoration of the massacre averted on 25 October 1943 and a screening of the short film that tells its story.
+On Sunday 25 October 2026, at 5:00 PM, the MuDi, the Museo Diffuso of [Castel San Pietro Romano](/en/luoghi/castel-san-pietro-romano), hosts "Dovere Civile" (Civic Duty): a commemoration of the massacre averted on 25 October 1943 and a screening of the short film that tells its story.
 
 The film centres on Adolfo Porry Pastorel, the photojournalist who had taken refuge in the village and put his civic sense at the service of the community, helping to save the whole population from a Nazi massacre. The short film was made by the Libera Università del Cinema thanks to a Lazio Region call for the eightieth anniversary of the Liberation, and was also presented at the Rome Film Fest.
 

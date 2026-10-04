@@ -6,7 +6,7 @@ luogo: "Capranica Prenestina and Castel San Pietro Romano (Rome)"
 tipologiaEvento: Cultural Event
 ---
 
-On 4 October 2026, the "Itinerari del Museumgrandtour" stop in Capranica Prenestina and Castel San Pietro Romano with the itinerary "Landscapes of memory, between nature, photography and rebirth".
+On 4 October 2026, the "Itinerari del Museumgrandtour" stop in Capranica Prenestina and [Castel San Pietro Romano](/en/luoghi/castel-san-pietro-romano) with the itinerary "Landscapes of memory, between nature, photography and rebirth".
 
 The itinerary, curated together with the directors of the museums involved, explores the relationship between the landscape of the Monti Prenestini, photography, and the natural and cultural rebirth of the two villages.
 

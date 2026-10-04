@@ -21,6 +21,6 @@ The heart of the town is Piazza Regina Margherita, which occupies the area of th
 
 A fief of the Colonna for much of the Middle Ages, Palestrina paid dearly for the family's rivalry with the popes: it was razed to the ground at the end of the 13th century on the orders of Boniface VIII, and again in 1437 by Cardinal Vitelleschi. In the 17th century it passed to the Barberini, who rebuilt the palace at the top of the sanctuary and added the church of Santa Rosalia beside it.
 
-From the square you climb towards the palace and the museum along alleys and stepped stairways, such as that of Via Orazio Marucchi, among stone doorways, arches and sudden views over the Sacco valley and the Alban Hills. With the sanctuary, the museum and the old town, Palestrina makes a perfect half-day or full-day trip from San Vito.
+From the square you climb towards the palace and the museum along alleys and stepped stairways, such as that of Via Orazio Marucchi, among stone doorways, arches and sudden views over the Sacco valley and the Alban Hills. Higher still, on top of the mountain, on the ancient acropolis, is the village of [Castel San Pietro Romano](/en/luoghi/castel-san-pietro-romano). With the sanctuary, the museum and the old town, Palestrina makes a perfect half-day or full-day trip from San Vito.
 
 *Photo: rgiannotti1, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palestrina), CC BY-SA 3.0; Frederick Sporchia, CC BY-SA 4.0.*

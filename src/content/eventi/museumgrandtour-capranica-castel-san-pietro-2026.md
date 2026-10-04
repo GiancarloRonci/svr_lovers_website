@@ -6,7 +6,7 @@ luogo: "Capranica Prenestina e Castel San Pietro Romano (Roma)"
 tipologiaEvento: Evento Culturale
 ---
 
-Il 4 ottobre 2026 gli "Itinerari del Museumgrandtour" fanno tappa a Capranica Prenestina e Castel San Pietro Romano con l'itinerario "Paesaggi della memoria, tra natura, fotografia e rinascita".
+Il 4 ottobre 2026 gli "Itinerari del Museumgrandtour" fanno tappa a Capranica Prenestina e [Castel San Pietro Romano](/luoghi/castel-san-pietro-romano) con l'itinerario "Paesaggi della memoria, tra natura, fotografia e rinascita".
 
 L'itinerario, curato insieme ai direttori dei musei coinvolti, esplora il legame tra il paesaggio dei Monti Prenestini, la fotografia e la rinascita naturale e culturale dei due borghi.
 

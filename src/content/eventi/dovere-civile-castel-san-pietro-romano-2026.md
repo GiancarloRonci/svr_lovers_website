@@ -6,7 +6,7 @@ luogo: "MuDi - Museo Diffuso, Castel San Pietro Romano (Roma)"
 tipologiaEvento: Evento Culturale
 ---
 
-Domenica 25 ottobre 2026, alle 17:00, il MuDi, il Museo Diffuso di Castel San Pietro Romano, ospita "Dovere Civile": la commemorazione dell'eccidio scampato del 25 ottobre 1943 e la proiezione del cortometraggio che ne racconta la storia.
+Domenica 25 ottobre 2026, alle 17:00, il MuDi, il Museo Diffuso di [Castel San Pietro Romano](/luoghi/castel-san-pietro-romano), ospita "Dovere Civile": la commemorazione dell'eccidio scampato del 25 ottobre 1943 e la proiezione del cortometraggio che ne racconta la storia.
 
 Protagonista del film è Adolfo Porry Pastorel, il fotoreporter che si era rifugiato in paese e che mise il proprio senso civico al servizio della comunità, contribuendo a salvare l'intera popolazione da una strage nazista. Il cortometraggio è stato realizzato dalla Libera Università del Cinema grazie a un bando della Regione Lazio per gli ottant'anni della Liberazione ed è stato presentato anche alla Festa del Cinema di Roma.
 

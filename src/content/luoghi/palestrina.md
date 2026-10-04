@@ -21,6 +21,6 @@ Il cuore della città è Piazza Regina Margherita, che occupa l'area dell'antico
 
 Feudo dei Colonna per gran parte del Medioevo, Palestrina pagò cara la rivalità della famiglia con i papi: fu rasa al suolo alla fine del Duecento per ordine di Bonifacio VIII e di nuovo nel 1437 dal cardinale Vitelleschi. Nel Seicento passò ai Barberini, che ricostruirono il palazzo in cima al santuario e vi affiancarono la chiesa di Santa Rosalia.
 
-Dalla piazza si sale verso il palazzo e il museo lungo vicoli e scalinate a gradoni, come quella di via Orazio Marucchi, tra portali in pietra, archi e scorci improvvisi sulla valle del Sacco e sui Colli Albani. Con il santuario, il museo e il centro storico, Palestrina è una meta perfetta per mezza giornata o per una giornata intera partendo da San Vito.
+Dalla piazza si sale verso il palazzo e il museo lungo vicoli e scalinate a gradoni, come quella di via Orazio Marucchi, tra portali in pietra, archi e scorci improvvisi sulla valle del Sacco e sui Colli Albani. Ancora più in alto, in cima al monte, sull'antica acropoli, c'è il borgo di [Castel San Pietro Romano](/luoghi/castel-san-pietro-romano). Con il santuario, il museo e il centro storico, Palestrina è una meta perfetta per mezza giornata o per una giornata intera partendo da San Vito.
 
 *Foto: rgiannotti1, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palestrina), CC BY-SA 3.0; Frederick Sporchia, CC BY-SA 4.0.*
