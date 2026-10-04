@@ -7,7 +7,7 @@ luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Roma)
 tipologiaEvento: Spettacolo Teatrale
 ---
 
-Sabato 21 e domenica 22 novembre 2026 l'Auditorium Pierluigi di Palestrina ospita "Sogno di una notte di mezz'estate", secondo appuntamento dell'anteprima di stagione dopo "La guerra di Martin".
+Sabato 21 e domenica 22 novembre 2026 l'Auditorium Pierluigi di [Palestrina](/luoghi/palestrina) ospita "Sogno di una notte di mezz'estate", secondo appuntamento dell'anteprima di stagione dopo "La guerra di Martin".
 
 In scena ci sono gli allievi del corso Adulti dell'Associazione Culturale APS "Arte Madre": lo spettacolo conclude il loro anno accademico ed è il punto d'arrivo di un percorso fatto di studio, prove e passione per il teatro.
 

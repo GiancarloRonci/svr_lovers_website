@@ -6,7 +6,7 @@ luogo: Palazzo Barberini, Palestrina (Rome)
 tipologiaEvento: Cultural Event
 ---
 
-On Sunday 18 October 2026, at 11:00 AM, Palazzo Barberini in Palestrina hosts a new guided tour devoted to the history, art and story of the great Barberini family and its ties to the town. For the occasion, the private wing of the palace will also be exceptionally open to the public.
+On Sunday 18 October 2026, at 11:00 AM, Palazzo Barberini in [Palestrina](/en/luoghi/palestrina) hosts a new guided tour devoted to the history, art and story of the great Barberini family and its ties to the town. For the occasion, the private wing of the palace will also be exceptionally open to the public.
 
 Participation is by mandatory reservation only, to be made through the [online form](https://forms.gle/rpQ7vTfwHj5NMQ84A).
 

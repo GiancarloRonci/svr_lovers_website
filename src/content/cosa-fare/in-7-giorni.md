@@ -244,6 +244,8 @@ giorni:
         link:
           - href: "luoghi/santuario-fortuna-primigenia-palestrina/"
             testo: "Vai alla scheda del Santuario della Fortuna Primigenia"
+          - href: "luoghi/palestrina/"
+            testo: "Vai alla scheda di Palestrina"
       - oraInizio: "13:00"
         oraFine: "14:30"
         attivita: "Pranzo a Palestrina"

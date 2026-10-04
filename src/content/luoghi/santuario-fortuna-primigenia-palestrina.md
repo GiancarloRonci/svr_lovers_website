@@ -11,7 +11,7 @@ galleria:
   - ./santuario-fortuna-primigenia-palestrina/photo3.jpg
 ---
 
-A Palestrina, l'antica Praeneste, non lontano da San Vito Romano, sorge uno dei più grandiosi complessi dell'architettura romana repubblicana: il Santuario della Fortuna Primigenia. Costruito nel II secolo a.C., il santuario si sviluppa su sei enormi terrazze artificiali scavate nel fianco del Monte Ginestro, collegate da rampe e scalinate e sorrette da imponenti sostruzioni in opera poligonale e opera incerta, una vera e propria sfida ingegneristica per l'epoca.
+A [Palestrina](/luoghi/palestrina), l'antica Praeneste, non lontano da San Vito Romano, sorge uno dei più grandiosi complessi dell'architettura romana repubblicana: il Santuario della Fortuna Primigenia. Costruito nel II secolo a.C., il santuario si sviluppa su sei enormi terrazze artificiali scavate nel fianco del Monte Ginestro, collegate da rampe e scalinate e sorrette da imponenti sostruzioni in opera poligonale e opera incerta, una vera e propria sfida ingegneristica per l'epoca.
 
 Il complesso era dedicato al culto della Fortuna Primigenia, la dea "primigenia", figlia primordiale di Giove, il cui oracolo era tra i più consultati dell'Italia antica: i fedeli interrogavano il destino attraverso le sortes, tavolette di legno estratte da un bambino, simbolo di Giove fanciullo, custodite in uno scrigno d'ulivo. Sulla quarta terrazza si trovava il pozzo sacro con la statua della dea che allatta Giove e Giunone; sulla sesta, quella più alta, un teatro semicircolare e un piccolo tempio circolare.
 

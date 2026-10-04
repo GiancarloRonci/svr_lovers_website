@@ -7,7 +7,7 @@ luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Roma)
 tipologiaEvento: Spettacolo Teatrale
 ---
 
-Sabato 12, domenica 13, sabato 19 e domenica 20 dicembre 2026 l'Auditorium Pierluigi di Palestrina ospita "Rapunzel – Il Musical", la grande produzione per tutta la famiglia dell'Associazione Culturale APS "Arte Madre", che torna in scena a grande richiesta.
+Sabato 12, domenica 13, sabato 19 e domenica 20 dicembre 2026 l'Auditorium Pierluigi di [Palestrina](/luoghi/palestrina) ospita "Rapunzel – Il Musical", la grande produzione per tutta la famiglia dell'Associazione Culturale APS "Arte Madre", che torna in scena a grande richiesta.
 
 Musica, scenografie, costumi, coreografie e personaggi da fiaba danno vita a uno spettacolo pensato per emozionare spettatori di ogni età. È il terzo titolo dell'anteprima di stagione dell'Auditorium, dopo "La guerra di Martin" e "Sogno di una notte di mezz'estate".
 

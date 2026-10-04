@@ -11,7 +11,7 @@ galleria:
   - ./santuario-fortuna-primigenia-palestrina/photo3.jpg
 ---
 
-In Palestrina, the ancient Praeneste, not far from San Vito Romano, stands one of the grandest complexes of Roman republican architecture: the Sanctuary of Fortuna Primigenia. Built in the 2nd century BC, the sanctuary unfolds across six enormous artificial terraces carved into the slope of Monte Ginestro, connected by ramps and staircases and supported by imposing substructures in polygonal masonry and opus incertum - a genuine engineering feat for its time.
+In [Palestrina](/en/luoghi/palestrina), the ancient Praeneste, not far from San Vito Romano, stands one of the grandest complexes of Roman republican architecture: the Sanctuary of Fortuna Primigenia. Built in the 2nd century BC, the sanctuary unfolds across six enormous artificial terraces carved into the slope of Monte Ginestro, connected by ramps and staircases and supported by imposing substructures in polygonal masonry and opus incertum - a genuine engineering feat for its time.
 
 The complex was dedicated to the cult of Fortuna Primigenia, the "first-born" goddess, primordial daughter of Jupiter, whose oracle was among the most consulted in ancient Italy: worshippers questioned their fate through the sortes, wooden lots drawn by a child symbolizing Jupiter as a boy, kept in an olive-wood chest. On the fourth terrace stood the sacred well with the statue of the goddess nursing Jupiter and Juno; on the sixth and highest terrace, a semicircular theatre and a small circular temple.
 

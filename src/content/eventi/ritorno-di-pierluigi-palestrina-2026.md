@@ -7,7 +7,7 @@ luogo: "Casa natale del Pierluigi, Basilica cattedrale e Chiesa di S. Francesco,
 tipologiaEvento: Evento Culturale
 ---
 
-Sabato 10 e domenica 11 ottobre 2026 la Fondazione Giovanni Pierluigi da Palestrina propone un doppio appuntamento nella città del "Principe della Musica".
+Sabato 10 e domenica 11 ottobre 2026 la Fondazione Giovanni Pierluigi da Palestrina propone un doppio appuntamento nella [città del "Principe della Musica"](/luoghi/palestrina).
 
 Sabato alle 17:30, nella Casa natale del Pierluigi, "Il ritorno di Pierluigi": viene presentato un ritratto del compositore datato 1566, considerato il primo e uno dei pochi esistenti. Intervengono Marco Angelini, presidente della Fondazione, e la storica dell'arte Stefania Macioce, già professoressa ordinaria alla Sapienza. Alle 19:30, nella Basilica cattedrale, il concerto "Due Maestri, una Luce" del Lux Verbi Ensemble, con musiche di Palestrina e Victoria.
 
