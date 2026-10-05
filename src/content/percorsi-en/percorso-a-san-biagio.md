@@ -92,6 +92,10 @@ foto:
     lng: 12.984128
     immagine: ./percorso-a-san-biagio/foto18.jpg
     didascalia: "On the right, from Via delle Logge you go through a charming passage towards the Santa Maria church"
+  - lat: 41.883143
+    lng: 12.984168
+    immagine: ./percorso-a-san-biagio/foto27.jpg
+    didascalia: "The covered passage in the evening: the wooden-beam ceiling, the lamps lit and a wall shrine with flowers above the arch."
   - lat: 41.883157
     lng: 12.984026
     immagine: ./percorso-a-san-biagio/foto24.jpg
