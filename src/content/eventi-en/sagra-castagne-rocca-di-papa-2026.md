@@ -7,8 +7,10 @@ luogo: "Historic center of Rocca di Papa (Rome)"
 tipologiaEvento: Food & Wine Festival
 ---
 
-From October 16 to 18, 2026, Rocca di Papa, in the Castelli Romani, hosts the 46th edition of the Chestnut Festival. The dates and guidelines of the event were approved by the town council on September 18; the full program will be set out in a later resolution.
+From October 16 to 18, 2026, Rocca di Papa, in the Castelli Romani, hosts the 46th edition of the Chestnut Festival. The full program, with times and guests, will be announced in the days before the festival.
 
 The star of the festival is the local chestnut, the "Rocchicianella", roasted over embers according to tradition. The streets and squares of the historic center will host stalls with local products, craft markets, live music and parades in historical costume with flag-wavers. The 2026 edition focuses in particular on promoting quality agricultural products and local artisans.
 
-*Source: [Il Mamilio](https://www.ilmamilio.it/wp/2026/09/rocca-di-papa-approvate-le-linee-guida-per-la-46a-sagra-delle-castagne/)*
+Local artists, comedians and nationally known singers are expected on stage, and there are rides and attractions for families. The Historical Parade in costume takes place on the afternoon of Sunday, October 18, the final day of the festival, which closes with a fireworks display from the Medieval Fortress.
+
+*Source: [Il Mamilio](https://www.ilmamilio.it/wp/2026/10/rocca-di-papa-torna-la-sagra-delle-castagne-tre-giorni-tra-tradizione-gusto-e-spettacolo/), [Castelli Notizie](https://www.castellinotizie.it/2026/10/05/rocca-di-papa-ritrova-il-suo-corteo-storico-la-tradizione-torna-a-sfilare-per-la-46esima-sagra-delle-castagne/)*

@@ -6,8 +6,8 @@ luogo: "Piazza del Municipio, Bellegra (Rome)"
 tipologiaEvento: Concert
 ---
 
-On Friday 9 October 2026 the second weekend of the 18th Sagra delle Tacchie ai Funghi Porcini in Bellegra opens with "Indie Power", an evening devoted to indie music. The start time has not been announced yet: follow the Pro Loco di Bellegra for updates.
+On Friday 9 October 2026 the second weekend of the 18th Sagra delle Tacchie ai Funghi Porcini in Bellegra opens with "Indie Power", an evening devoted to indie music. The concert starts at 9:30 PM in Piazza del Municipio.
 
-The festival's food stands stay open during the evening, serving tacchie pasta with porcini mushrooms and other traditional dishes.
+The market opens at 5:00 PM and the festival's food stands open at 7:30 PM, serving tacchie pasta with porcini mushrooms and other traditional dishes.
 
-*Source: [Canale Dieci](https://canaledieci.it/2026/09/29/sagra-delle-tacchie-ai-funghi-porcini-a-bellegra-cosa-mangiare-ed-eventi-in-programma/)*
+*Source: [Castelli Notizie](https://www.castellinotizie.it/2026/10/02/torna-la-sagra-delle-tacchie-ai-funghi-porcini-bellegra-celebra-i-sapori-dautunno/)*
