@@ -13,8 +13,6 @@ It is also the ideal starting point for exploring the town on foot. From here, f
 
 Near Piazza Roma, coming down from the hill of the church of San Vito towards the Via Empolitana, you come across the precious shrine of the Madonna delle Grazie. The Municipality describes it as a 16th-century work, restored in 1719 after earthquake damage, and it is still one of the Marian images most dear to the people of San Vito.
 
-The square also lives on in the community's memories: the historic Bar 2000, for years the town's meeting place, stood halfway between Piazza Roma and "la Terrazza" (Articles section).
-
 If you have photos, memories or stories linked to Piazza Roma, share them with the [San Vito Romano Lovers community on Facebook](https://www.facebook.com/groups/sanvitoromano.lovers).
 
 *Sources: [Municipality of San Vito Romano](https://comune.sanvitoromano.rm.it/luoghi/2455040/comune-san-vito-romano); [Lazio Nascosto](https://www.lazionascosto.it/borghi-piu-belli-del-lazio/san-vito-romano/).*

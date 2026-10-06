@@ -13,8 +13,6 @@ Piazza Roma è uno dei punti di riferimento della vita quotidiana di San Vito Ro
 
 In prossimità di Piazza Roma, scendendo dall'altura della chiesa di San Vito verso la via Empolitana, si incontra la preziosa edicola della Madonna delle Grazie. Il Comune la ricorda come un'opera del Cinquecento, restaurata nel 1719 dopo i danni di un terremoto, e ancora oggi è una delle immagini mariane più care ai sanvitesi.
 
-La piazza vive anche nei ricordi della community: lo storico Bar 2000, per anni punto di ritrovo del paese, sorgeva a metà strada tra Piazza Roma e la Terrazza (sezione Articoli).
-
 Se hai foto, ricordi o storie legate a Piazza Roma, condividili con la community di [San Vito Romano Lovers su Facebook](https://www.facebook.com/groups/sanvitoromano.lovers).
 
 *Fonti: [Comune di San Vito Romano](https://comune.sanvitoromano.rm.it/luoghi/2455040/comune-san-vito-romano); [Lazio Nascosto](https://www.lazionascosto.it/borghi-piu-belli-del-lazio/san-vito-romano/).*
