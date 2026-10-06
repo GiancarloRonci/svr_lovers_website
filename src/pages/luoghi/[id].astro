@@ -40,6 +40,11 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
   <article>
     <Content />
   </article>
+  <p class="segnalazioni">
+    Hai trovato un'inesattezza in questo testo, o vuoi aggiungere qualche dettaglio? Scrivici a
+    <a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a>: è anche grazie alle vostre
+    segnalazioni che il sito può migliorare sempre di più.
+  </p>
 
   {
     galleryItems.length > 0 && (
@@ -75,6 +80,12 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     font-weight: 600;
     color: var(--color-muted);
     margin-top: -0.5rem;
+  }
+
+  .segnalazioni {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    font-style: italic;
   }
 
   .luogo-image {

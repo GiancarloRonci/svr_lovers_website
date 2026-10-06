@@ -39,6 +39,4 @@ Da qui partono anche due dei percorsi a piedi del sito, il Percorso A (San Biagi
 
 Se hai foto, ricordi o storie legate a Piazza Augusto Baccelli, condividili con la community di [San Vito Romano Lovers su Facebook](https://www.facebook.com/groups/sanvitoromano.lovers).
 
-Hai trovato un'inesattezza in questo testo, o vuoi aggiungere qualche dettaglio? Scrivici a [info@sanvitoromanolovers.org](mailto:info@sanvitoromanolovers.org): è anche grazie alle vostre segnalazioni che il sito può migliorare sempre di più.
-
 *Fonti: [Comune di San Vito Romano](https://comune.sanvitoromano.rm.it/luoghi/2455040/comune-san-vito-romano); [Augusto Baccelli - Wikipedia](https://it.wikipedia.org/wiki/Augusto_Baccelli).*
