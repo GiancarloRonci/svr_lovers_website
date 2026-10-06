@@ -17,7 +17,7 @@ Piazza Augusto Baccelli is the square that the Municipality itself describes as 
 
 ## The fountain
 
-At the centre of the fountain rises a stone statue: a female figure wrapped in drapery, resting on a large fish whose mouth pours water into the basin below, while in her hand she holds another fish. All around, the benches in the shade of the trees invite you to stop for a while.
+At the centre of the fountain rises a stone statue: a female figure resting on a large fish whose mouth pours water into the basin below. All around, the benches in the shade of the trees invite you to stop for a while.
 
 ## Cardinal Theodoli's inscription
 

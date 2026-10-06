@@ -17,7 +17,7 @@ Piazza Augusto Baccelli è la piazza che il Comune stesso descrive come il "cuor
 
 ## La fontana
 
-Al centro della fontana si innalza una statua in pietra: una figura femminile, avvolta in un panneggio, che poggia su un grande pesce dalla cui bocca sgorga l'acqua raccolta nella vasca sottostante, mentre con la mano regge un altro pesce. Tutt'intorno, le panchine all'ombra degli alberi invitano a fermarsi.
+Al centro della fontana si innalza una statua in pietra: una figura femminile, che poggia su un grande pesce dalla cui bocca sgorga l'acqua raccolta nella vasca sottostante. Tutt'intorno, le panchine all'ombra degli alberi invitano a fermarsi.
 
 ## L'iscrizione del cardinale Theodoli
 
