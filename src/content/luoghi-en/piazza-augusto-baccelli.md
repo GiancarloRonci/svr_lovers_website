@@ -39,4 +39,6 @@ Two of the site's walking routes also start here, Trail A (San Biagio) and Trail
 
 If you have photos, memories or stories linked to Piazza Augusto Baccelli, share them with the [San Vito Romano Lovers community on Facebook](https://www.facebook.com/groups/sanvitoromano.lovers).
 
+Have you spotted an inaccuracy in this text, or would you like to add more details? Write to us at [info@sanvitoromanolovers.org](mailto:info@sanvitoromanolovers.org): your feedback is also what helps the site keep getting better.
+
 *Sources: [Municipality of San Vito Romano](https://comune.sanvitoromano.rm.it/luoghi/2455040/comune-san-vito-romano); [Augusto Baccelli - Wikipedia](https://it.wikipedia.org/wiki/Augusto_Baccelli).*
