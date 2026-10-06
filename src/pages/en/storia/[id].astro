@@ -24,6 +24,11 @@ const lastModified = getLastModified(entry.filePath);
   <article>
     <Content />
   </article>
+  <p class="segnalazioni">
+    Have you spotted an inaccuracy in this text, or would you like to add more details? Write to us at
+    <a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a>: your feedback is also what helps
+    the site keep getting better.
+  </p>
 </Layout>
 
 <style>
@@ -31,5 +36,11 @@ const lastModified = getLastModified(entry.filePath);
     font-size: 0.8rem;
     color: var(--color-muted);
     margin-top: -0.5rem;
+  }
+
+  .segnalazioni {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    font-style: italic;
   }
 </style>
