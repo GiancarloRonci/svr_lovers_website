@@ -7,7 +7,7 @@ coordinate:
   lng: 12.979444
 ---
 
-Piazza Roma è uno dei punti di riferimento della vita quotidiana di San Vito Romano. Sulla piazza si affaccia la Villa Comunale, il cuore verde del paese, e intorno si trovano bar e locali dove fermarsi per un caffè: per molti sanvitesi è il luogo dove ci si incontra, si fanno due chiacchiere e si comincia o si chiude la giornata.
+Piazza Roma è uno dei punti di riferimento della vita quotidiana di San Vito Romano. Sulla piazza si affaccia la Villa Comunale, il cuore verde del paese, e intorno si trova un Bar storico dove fermarsi per un caffè: per molti sanvitesi è il luogo dove ci si incontra, si fanno due chiacchiere e si comincia o si chiude la giornata.
 
 È anche il punto di partenza ideale per scoprire il paese a piedi. Da qui, percorrendo Via Borgo Mario Theodoli, si scende verso il borgo tra botteghe e antichi palazzi, incontrando la Chiesa dei Santi Sebastiano e Rocco e, su un colle panoramico, la Chiesa di San Vito. A breve distanza dalla piazza si trova inoltre la Macchiarella, il castagneto secolare nel cuore del paese.
 

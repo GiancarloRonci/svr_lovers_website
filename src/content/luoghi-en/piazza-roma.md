@@ -7,7 +7,7 @@ coordinate:
   lng: 12.979444
 ---
 
-Piazza Roma is one of the landmarks of everyday life in San Vito Romano. The Villa Comunale, the town's green heart, looks onto the square, and around it there are bars and cafés where you can stop for a coffee: for many locals it is the place to meet, have a chat and start or end the day.
+Piazza Roma is one of the landmarks of everyday life in San Vito Romano. The Villa Comunale, the town's green heart, looks onto the square, and around it there is a historic bar where you can stop for a coffee: for many locals it is the place to meet, have a chat and start or end the day.
 
 It is also the ideal starting point for exploring the town on foot. From here, following Via Borgo Mario Theodoli, you walk down towards the old town among shops and old palazzi, passing the Church of Saints Sebastian and Roch and, on a panoramic hill, the Church of San Vito. The Macchiarella, the centuries-old chestnut grove in the heart of the town, is also a short distance from the square.
 
