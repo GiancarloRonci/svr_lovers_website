@@ -29,7 +29,7 @@ Il "tempio" è la chiesa dei Santi Sebastiano e Rocco, che si incontra proprio s
 
 ## La festa di San Vito
 
-La piazza è il cuore anche delle feste del paese. Durante i festeggiamenti per San Vito, il santo patrono celebrato a metà giugno, al termine della processione si torna in piazza Augusto Baccelli per le degustazioni enogastronomiche, la musica, la tradizionale tombolata in piazza e lo spettacolo pirotecnico.
+La piazza è il cuore anche delle feste del paese. Durante i festeggiamenti per San Vito, il santo patrono celebrato a metà giugno, al termine della processione si torna in piazza Augusto Baccelli per le degustazioni enogastronomiche e la musica. Nei decenni passati ad animare la piazza erano soprattutto la tradizionale tombolata e lo spettacolo pirotecnico.
 
 ## Il nome
 

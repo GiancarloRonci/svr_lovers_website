@@ -29,7 +29,7 @@ The "temple" is the church of Saints Sebastian and Roch, which you come to as yo
 
 ## The feast of San Vito
 
-The square is also the heart of the town's festivals. During the celebrations for San Vito, the patron saint celebrated in mid-June, at the end of the procession everyone returns to Piazza Augusto Baccelli for food and wine tastings, music, the traditional tombola in the square and the fireworks display.
+The square is also the heart of the town's festivals. During the celebrations for San Vito, the patron saint celebrated in mid-June, at the end of the procession everyone returns to Piazza Augusto Baccelli for food and wine tastings and music. In past decades, it was above all the traditional tombola and the fireworks display that brought the square to life.
 
 ## The name
 
