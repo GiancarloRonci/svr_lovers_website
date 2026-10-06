@@ -70,6 +70,11 @@ const galleryItems = [
   <article>
     <Content />
   </article>
+  <p class="segnalazioni">
+    Have you spotted an inaccuracy in this text, or would you like to add more details? Write to us at
+    <a href="mailto:info@sanvitoromanolovers.org">info@sanvitoromanolovers.org</a>: your feedback is also what helps
+    the site keep getting better.
+  </p>
 
   {(gpx || partenza || fotoResolved.length > 0) && (
     <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} />
@@ -125,6 +130,12 @@ const galleryItems = [
     font-size: 0.8rem;
     color: var(--color-muted);
     margin-top: -0.5rem;
+  }
+
+  .segnalazioni {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    font-style: italic;
   }
 
   .gallery {
