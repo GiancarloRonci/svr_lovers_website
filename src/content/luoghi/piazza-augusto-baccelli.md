@@ -23,7 +23,7 @@ Al centro della fontana si innalza una statua in pietra: una figura femminile, a
 
 All'angolo della piazza si trova un'iscrizione, sormontata dallo stemma dei Theodoli, che ricorda l'opera con cui il cardinale Mario Theodoli trasformò il paese nel Seicento, aprendo il rettilineo di Borgo Mario Theodoli che da qui risale l'abitato:
 
-> "Il Cardinale Mario Theodoli uguagliò l'asprezza dei monti, aprì le vie, abbattuti i colli li trasformò in case, vi eresse un tempio al divino dissipatore della peste. Anno del Signore 1649."
+> "Il cardinale Marius Theodulus rese pianeggianti le asperità dei monti, aprì le strade, trasformò i colli demoliti in edifici e innalzò un tempio al Santo debellatore della peste, nell'anno del Signore 1649."
 
 Il "tempio" è la chiesa dei Santi Sebastiano e Rocco, che si incontra proprio salendo lungo il Borgo. Per saperne di più, leggi "L'incastellamento e la struttura del borgo" nella sezione Storia.
 

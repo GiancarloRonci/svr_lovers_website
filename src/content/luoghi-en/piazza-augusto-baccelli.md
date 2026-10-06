@@ -23,7 +23,7 @@ At the centre of the fountain rises a stone statue: a female figure wrapped in d
 
 At the corner of the square there is an inscription, topped by the Theodoli coat of arms, recalling the work with which Cardinal Mario Theodoli transformed the town in the 17th century, opening the straight road of Borgo Mario Theodoli that climbs through the town from here:
 
-> "Cardinal Mario Theodoli levelled the harshness of the mountains, opened the streets, flattened the hills and turned them into houses, and erected there a temple to the divine dispeller of the plague. Year of Our Lord 1649."
+> "Cardinal Marius Theodulus levelled the ruggedness of the mountains, opened the roads, turned the demolished hills into buildings and raised a temple to the Saint who vanquished the plague, in the year of Our Lord 1649."
 
 The "temple" is the church of Saints Sebastian and Roch, which you come to as you walk up the Borgo. To find out more, read "The hilltop settlement and the shape of the village" in the History section.
 
