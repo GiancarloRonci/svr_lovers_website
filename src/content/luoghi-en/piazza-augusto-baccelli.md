@@ -25,7 +25,7 @@ At the corner of the square there is an inscription, topped by the Theodoli coat
 
 > "Cardinal Marius Theodulus levelled the ruggedness of the mountains, opened the roads, turned the demolished hills into buildings and raised a temple to the Saint who vanquished the plague, in the year of Our Lord 1649."
 
-The "temple" is the church of Saints Sebastian and Roch, which you come to as you walk up the Borgo. To find out more, read "The hilltop settlement and the shape of the village" in the History section.
+The "temple" is the church of Saints Sebastian and Roch, which you come to as you walk up the Borgo. To find out more, read ["The hilltop settlement and the shape of the village"](/en/storia/lincastellamento-e-la-struttura-del-borgo) in the History section.
 
 ## The feast of San Vito
 

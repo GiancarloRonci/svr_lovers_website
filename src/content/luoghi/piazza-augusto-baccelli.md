@@ -25,7 +25,7 @@ All'angolo della piazza si trova un'iscrizione, sormontata dallo stemma dei Theo
 
 > "Il cardinale Marius Theodulus rese pianeggianti le asperità dei monti, aprì le strade, trasformò i colli demoliti in edifici e innalzò un tempio al Santo debellatore della peste, nell'anno del Signore 1649."
 
-Il "tempio" è la chiesa dei Santi Sebastiano e Rocco, che si incontra proprio salendo lungo il Borgo. Per saperne di più, leggi "L'incastellamento e la struttura del borgo" nella sezione Storia.
+Il "tempio" è la chiesa dei Santi Sebastiano e Rocco, che si incontra proprio salendo lungo il Borgo. Per saperne di più, leggi ["L'incastellamento e la struttura del borgo"](/storia/lincastellamento-e-la-struttura-del-borgo) nella sezione Storia.
 
 ## La festa di San Vito
 
