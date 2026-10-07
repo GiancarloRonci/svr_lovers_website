@@ -17,6 +17,10 @@ foto:
     lng: 12.983263
     immagine: ./alla-madonnina/foto3.jpg
     didascalia: "Via Borgo Mario Theodoli in the evening: the cobblestones lit by the street lamps, the building fronts and the trees along the side of the street."
+  - lat: 41.882410
+    lng: 12.982190
+    immagine: ./alla-madonnina/foto4.jpg
+    didascalia: "The façade of the church of Saints Sebastian and Roch in the evening, with the town hall on the right."
   - lat: 41.879545
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
