@@ -11,6 +11,8 @@ galleria:
     didascalia: "La piazza all'ombra dei grandi alberi, con la pavimentazione in sampietrini."
   - immagine: ./piazza-augusto-baccelli/photo3.jpg
     didascalia: "La statua della fontana: una figura femminile che poggia su un grande pesce, tra i rami degli alberi della piazza."
+  - immagine: ./piazza-augusto-baccelli/photo4.jpg
+    didascalia: "L'iscrizione del cardinale Mario Theodoli all'angolo della piazza, sormontata dallo stemma."
 ---
 
 Piazza Augusto Baccelli è la piazza che il Comune stesso descrive come il "cuore di San Vito Romano". Ombreggiata da grandi alberi e lastricata in sampietrini, ruota attorno alla sua fontana, che i sanvitesi chiamano semplicemente le "Tre Fontane": per tutti è il punto di ritrovo per eccellenza, il posto dove ci si dà appuntamento e dove, come ricorda la community, "molti si incontrano".

@@ -11,6 +11,8 @@ galleria:
     didascalia: "The square in the shade of its large trees, with its cobblestone paving."
   - immagine: ./piazza-augusto-baccelli/photo3.jpg
     didascalia: "The fountain's statue: a female figure resting on a large fish, among the branches of the square's trees."
+  - immagine: ./piazza-augusto-baccelli/photo4.jpg
+    didascalia: "Cardinal Mario Theodoli's inscription at the corner of the square, topped by the coat of arms."
 ---
 
 Piazza Augusto Baccelli is the square that the Municipality itself describes as the "heart of San Vito Romano". Shaded by large trees and paved with cobblestones, it revolves around its fountain, which the locals simply call the "Tre Fontane" (Three Fountains): for everyone it is the meeting place par excellence, where people arrange to meet and where, as the community puts it, "many people run into each other".
