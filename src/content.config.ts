@@ -142,7 +142,23 @@ const associazioneEn = defineCollection({
   schema: associazioneSchema,
 });
 
-const soggiornoSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+// Regolamenti delle attività di Cultura&Turismo: stesso slug della scheda in `associazione`
+const regolamentiSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+});
+
+const regolamenti = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/regolamenti' }),
+  schema: regolamentiSchema,
+});
+
+const regolamentiEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/regolamenti-en' }),
+  schema: regolamentiSchema,
+});
+
+const soggiornoSchema =({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
     description: z.string(),
@@ -253,6 +269,8 @@ export const collections = {
   eventiEn,
   associazione,
   associazioneEn,
+  regolamenti,
+  regolamentiEn,
   news,
   newsEn,
   soggiorno,

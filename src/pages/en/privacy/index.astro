@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { GA_MEASUREMENT_ID } from '../../../lib/analytics';
+import { withBase } from '../../../lib/url';
 
 const analyticsAttivo = Boolean(GA_MEASUREMENT_ID);
 ---
@@ -33,6 +34,11 @@ const analyticsAttivo = Boolean(GA_MEASUREMENT_ID);
     description. We use this data only to
     manage your entry in the contest and to send you emails about it. We do not pass it on to third
     parties and do not use it for advertising or newsletters.
+  </p>
+  <p>
+    The photos you submit may be published and exhibited as set out in the
+    <a href={withBase('en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/regolamento/')}>contest
+    rules</a>.
   </p>
   <p>
     The form is provided by Tally, an external service embedded in the page: the data you submit is

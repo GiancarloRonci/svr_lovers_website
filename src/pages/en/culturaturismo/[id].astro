@@ -26,6 +26,7 @@ const { entry } = Astro.props;
 const { title, description, categoria, frequenza, immagine, moduloTally } = entry.data;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
+const haRegolamento = (await getCollection('regolamentiEn')).some((r) => r.id === entry.id);
 const grazieUrl = withBase(`en/culturaturismo/${entry.id}/grazie/`);
 ---
 
@@ -41,6 +42,14 @@ const grazieUrl = withBase(`en/culturaturismo/${entry.id}/grazie/`);
   <article>
     <Content />
   </article>
+
+  {
+    haRegolamento && (
+      <p>
+        <a href={withBase(`en/culturaturismo/${entry.id}/regolamento/`)}>Read the contest rules &rarr;</a>
+      </p>
+    )
+  }
 
   {
     moduloTally && (

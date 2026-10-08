@@ -1,0 +1,38 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import { withBase } from '../../../../lib/url';
+import { getLastModified, formatLastModified } from '../../../../lib/lastModified';
+
+// Pagina del regolamento: una per ogni attività che ha un regolamento con lo stesso slug
+export async function getStaticPaths() {
+  const attivita = await getCollection('associazioneEn');
+  const regolamenti = await getCollection('regolamentiEn');
+  return regolamenti
+    .filter((r) => attivita.some((a) => a.id === r.id))
+    .map((r) => ({ params: { id: r.id }, props: { entry: r } }));
+}
+
+const { entry } = Astro.props;
+const { title, description } = entry.data;
+const { Content } = await render(entry);
+const lastModified = getLastModified(entry.filePath);
+---
+
+<Layout title={title} description={description}>
+  <a href={withBase(`en/culturaturismo/${entry.id}/`)}>&larr; Back to the contest</a>
+  <h1>{title}</h1>
+  {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
+
+  <article>
+    <Content />
+  </article>
+</Layout>
+
+<style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+</style>

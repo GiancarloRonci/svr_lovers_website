@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { title } = entry.data;
 const paginaContest = withBase(`culturaturismo/${entry.id}/`);
+const haRegolamento = (await getCollection('regolamenti')).some((r) => r.id === entry.id);
 ---
 
 <Layout title="Grazie per la tua foto" description={`Grazie per aver partecipato: ${title}`} noindex>
@@ -32,7 +33,7 @@ const paginaContest = withBase(`culturaturismo/${entry.id}/`);
       <a href={`${paginaContest}#partecipa`}>Carica un'altra foto per il contest</a>
     </li>
     <li>
-      <a href={paginaContest}>Leggi il regolamento</a>
+      <a href={haRegolamento ? `${paginaContest}regolamento/` : paginaContest}>Leggi il regolamento</a>
     </li>
   </ul>
 
