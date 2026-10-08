@@ -1,7 +1,7 @@
 ---
 title: "Contest Fotografico - San Vito Romano: il sole ridisegna i contorni - Edizione 1"
 categoria: concorsi-fotografici
-moduloTally: b50Qr6
+moduloTally: WOvL1P
 description: Prima edizione del contest fotografico dedicato a San Vito Romano, sul tema della luce del sole che ridisegna i contorni del paese.
 ---
 

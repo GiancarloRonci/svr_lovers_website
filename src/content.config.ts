@@ -128,7 +128,7 @@ const associazioneSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }
     description: z.string(),
     frequenza: z.string().optional(),
     immagine: image().optional(),
-    // ID del modulo Tally da incorporare nella pagina (es. "b50Qr6")
+    // ID del modulo Tally da incorporare nella pagina (es. "WOvL1P")
     moduloTally: z.string().optional(),
   });
 
