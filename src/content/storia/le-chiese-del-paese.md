@@ -27,7 +27,8 @@ Nel programma di rinnovamento urbano voluto dal cardinale Mario Theodoli rientr√
 anche la costruzione della Chiesa dei **Santi Sebastiano e Rocco**, a pianta
 ottagonale con decorazioni barocche e festeggiata il 16 agosto, insieme
 all'adiacente convento dei Carmelitani: questo, dopo l'annessione al Regno
-d'Italia, divenne nel 1872 sede del municipio.
+d'Italia, divenne nel 1872 sede del municipio e
+oggi ospita anche l'archivio storico comunale.
 
 Sul Colle di Compigliano sorge infine il **Santuario della Madonna di
 Compigliano**, iniziato nel XVI secolo e completato ai primi del Seicento. La

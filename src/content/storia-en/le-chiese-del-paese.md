@@ -27,7 +27,8 @@ The renewal programme promoted by Cardinal Mario Theodoli also included the
 construction of the Church of **Santi Sebastiano e Rocco**, octagonal in plan with
 Baroque decoration and celebrated on 16 August, together with the adjoining
 Carmelite convent: after the annexation to the Kingdom of Italy, this became the
-seat of the town hall in 1872.
+seat of the town hall in 1872 and today also houses the municipal historical
+archive.
 
 Finally, on the Colle di Compigliano stands the **Sanctuary of the Madonna di
 Compigliano**, begun in the 16th century and completed in the early 1600s.

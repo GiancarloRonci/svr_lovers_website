@@ -20,14 +20,17 @@ Nel 1565 Marcantonio Colonna, oppresso dai debiti, cedette San Vito alla famigli
 scudi romani.
 
 Fu proprio la famiglia Theodoli a dare al paese gran parte dell'aspetto che ancora
-oggi lo caratterizza. Giovanni Theodoli fece costruire, tra il 1607 e il 1609, la
-Chiesa di San Biagio. Alfonso e Mario Theodoli ridisegnarono poi l'impianto
-urbano: nel 1646 fu sistemata piazza San Biagio e nel 1649 nacque **Borgo
+oggi lo caratterizza. A Giovanni Theodoli, fratello di Teodolo, primo marchese di
+San Vito e Pisciano e conte di Ciciliano, si deve la progettazione della Chiesa di
+San Biagio, costruita tra il 1607 e il 1609. I suoi figli Alfonso e Mario
+ridisegnarono poi l'impianto urbano: nel 1646 fu sistemata piazza San Biagio,
+sulla quale si affacciava l'antica sede comunale, e nel 1649 nacque **Borgo
 Mario**, una lunga e ampia strada fiancheggiata da edifici, costruita su una
 piattaforma artificiale livellando il terreno roccioso, che ampliò il borgo
 attorno al palazzo baronale.
 
-Carlo Theodoli, "accademico d'onore" dell'Accademia di San Luca, ampliò il
+Carlo Theodoli, figlio di Alfonso e "accademico d'onore" dell'Accademia di San
+Luca, ampliò il
 castello con il caratteristico muro a scarpa e ne fece affrescare le sale. Suo
 figlio **Girolamo Theodoli**, architetto e "accademico di merito" della stessa
 Accademia, firmò importanti opere a Roma, tra cui il Teatro Argentina (1731), la

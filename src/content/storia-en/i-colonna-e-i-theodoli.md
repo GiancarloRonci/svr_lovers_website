@@ -19,13 +19,16 @@ In 1565, weighed down by debts, Marcantonio Colonna sold San Vito to the
 20,000 Roman scudi.
 
 It was the Theodoli family that gave the town much of the appearance it still
-has today. Between 1607 and 1609, Giovanni Theodoli had the Church of San Biagio
-built. Alfonso and Mario Theodoli then redesigned the town plan: Piazza San Biagio
-was laid out in 1646, and in 1649 **Borgo Mario** was created, a long, wide street
+has today. Giovanni Theodoli, brother of Teodolo, the first Marquis of San Vito
+and Pisciano and Count of Ciciliano, designed the Church of San Biagio, built
+between 1607 and 1609. His sons Alfonso and Mario then redesigned the town plan:
+Piazza San Biagio, onto which the old town hall faced, was laid out in 1646, and
+in 1649 **Borgo Mario** was created, a long, wide street
 lined with buildings, built on an artificial platform by levelling the rocky
 ground, which expanded the village around the baronial palace.
 
-Carlo Theodoli, an "honorary academician" of the Accademia di San Luca, enlarged
+Carlo Theodoli, son of Alfonso and an "honorary academician" of the Accademia di
+San Luca, enlarged
 the castle with its distinctive sloping wall and had its halls frescoed. His son
 **Girolamo Theodoli**, an architect and "academician of merit" of the same
 Academy, designed important works in Rome, including the Teatro Argentina (1731),
