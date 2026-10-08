@@ -4,37 +4,18 @@ description: Il paese come feudo, dai Colonna ai Massimo fino ai Theodoli che ne
 data: 1180-01-01
 ---
 
-Nel 1180 il Castrum Sancti Viti passò dai monaci benedettini alla famiglia
-**Colonna**, che ne rafforzò le difese e lo tenne come feudo per quasi quattro
-secoli. I Colonna fortificarono il castello con "La Difesa", una strada
-circondariale con funzioni difensive. Di quel periodo si conservano ancora due
-porte di accesso al borgo, la **Porta dell'Ospedale** e la **Porta del Ponte**,
-che prende il nome dall'antico ponte levatoio: entrambe hanno archi a sesto acuto,
-fatti di blocchi di pietra legati da malta di calce bianca. Al dominio dei Colonna
-si lega anche la devozione verso papa Martino V, al secolo Oddone Colonna, di cui
-resta testimonianza nelle edicole votive del territorio come la "Cona di San
-Martino".
+Intorno al 1180, il Castrum Sancti Viti passò dalla tutela dei monaci sublacensi alla famiglia Colonna, che mantenne il feudo per quasi quattro secoli. I Colonna ampliarono e rafforzarono il castello, circondandolo con una strada detta “La Difesa”, destinata anche a funzioni di controllo e difesa del borgo.
 
-Nel 1565 Marcantonio Colonna, oppresso dai debiti, cedette San Vito alla famiglia
-**Massimo**, che a sua volta lo trasferì nel 1575 ai **Theodoli** per 20.000
-scudi romani.
+Di questa fase medievale restano ancora alcune importanti testimonianze, tra cui la Porta dell’Ospedale e la Porta del Ponte, quest’ultima legata all’antico ponte levatoio che permetteva l’accesso al borgo. Le due porte conservano archi a sesto acuto e strutture realizzate con blocchi di pietra legati da malta di calce.
 
-Fu proprio la famiglia Theodoli a dare al paese gran parte dell'aspetto che ancora
-oggi lo caratterizza. A Giovanni Theodoli, fratello di Teodolo, primo marchese di
-San Vito e Pisciano e conte di Ciciliano, si deve la progettazione della Chiesa di
-San Biagio, costruita tra il 1607 e il 1609. I suoi figli Alfonso e Mario
-ridisegnarono poi l'impianto urbano: nel 1646 fu sistemata piazza San Biagio,
-sulla quale si affacciava l'antica sede comunale, e nel 1649 nacque **Borgo
-Mario**, una lunga e ampia strada fiancheggiata da edifici, costruita su una
-piattaforma artificiale livellando il terreno roccioso, che ampliò il borgo
-attorno al palazzo baronale.
+Al periodo della signoria dei Colonna si collega anche la diffusione della devozione verso papa Martino V, al secolo Oddone Colonna, eletto pontefice nel 1417. Di questa devozione rimangono testimonianze nel territorio, tra cui la “Cona di San Martino”.
 
-Carlo Theodoli, figlio di Alfonso e "accademico d'onore" dell'Accademia di San
-Luca, ampliò il
-castello con il caratteristico muro a scarpa e ne fece affrescare le sale. Suo
-figlio **Girolamo Theodoli**, architetto e "accademico di merito" della stessa
-Accademia, firmò importanti opere a Roma, tra cui il Teatro Argentina (1731), la
-chiesa dei Santi Marcellino e Pietro in via Merulana (1750) e il campanile di
-Santa Maria in Montesanto. A San Vito realizzò il campanile della Chiesa di San
-Biagio (1715), la Chiesa di San Vito (1735) e la facciata della Chiesa di Santa
-Maria de Arce.
+Tra il 1563 e il 1565, Marcantonio Colonna, gravato dai debiti, cedette San Vito alla famiglia Massimo. Quest'ultima, intorno al 1575, trasferì il feudo ai Theodoli, famiglia originaria di Forlì e già inserita nel patriziato romano. Fu Gerolamo Theodoli, vescovo di Cadice, ad acquisire il feudo, assumendo il titolo di Conte di Ciciliano e Signore di San Vito e Pisoniano. Nel 1592 Teodolo Theodoli assunse il titolo di primo Marchese di San Vito.
+
+La famiglia Theodoli avrebbe impresso al paese una trasformazione profonda, destinata a modificarne sia l'aspetto urbano sia quello architettonico. A Giovanni Theodoli, fratello di Teodolo, è attribuito il progetto della Chiesa di San Biagio, costruita tra il 1607 e il 1609.
+
+Nel Seicento la famiglia promosse un importante programma di ampliamento dell'abitato. Il cardinale Mario Theodoli, a partire dagli anni Quaranta del secolo, avviò l'apertura di un nuovo asse urbano destinato ad ampliare il borgo medievale. Nel 1646 fu sistemata Piazza San Biagio, mentre nel 1649 venne realizzato il Borgo Mario, una lunga strada fiancheggiata da edifici e costruita su un piano artificiale ottenuto livellando il terreno roccioso e colmando i dislivelli della rupe. Il nuovo borgo ampliò l'abitato oltre il nucleo medievale e ne modificò profondamente l'assetto.
+
+A Carlo Theodoli, nipote di Mario, si deve un'importante trasformazione del castello, che assunse la caratteristica forma a nave, evidenziata dal grande muro a scarpa che ne circonda la struttura. A lui sono inoltre attribuiti interventi decorativi e la realizzazione di ambienti affrescati.
+
+Suo figlio Girolamo Theodoli, architetto e accademico di merito dell'Accademia di San Luca, fu una figura significativa dell'architettura romana del Settecento. A lui sono attribuiti il progetto del Teatro Argentina (1731), interventi alla chiesa dei Santi Marcellino e Pietro e il campanile di Santa Maria in Montesanto. A San Vito Romano realizzò il campanile della Chiesa di San Biagio (1715), la Chiesa di San Vito (1735) e la facciata della Chiesa di Santa Maria de Arce.

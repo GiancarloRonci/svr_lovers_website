@@ -4,35 +4,18 @@ description: The town as a feudal holding, from the Colonna to the Massimo and f
 data: 1180-01-01
 ---
 
-In 1180 the Castrum Sancti Viti passed from the Benedictine monks to the
-**Colonna** family, who strengthened its defences and held it as a fiefdom for
-nearly four centuries. The Colonna fortified the castle with "La Difesa", a ring
-road with a defensive function. Two access gates from that period still survive:
-the **Porta dell'Ospedale** and the **Porta del Ponte**, named after the old
-drawbridge; both have pointed arches made of stone blocks held together with white
-lime mortar. Colonna rule is also linked to the local devotion to Pope Martin V,
-born Oddone Colonna, still remembered in wayside shrines such as the "Cona di San
-Martino".
+Around 1180, the Castrum Sancti Viti passed from the protection of the monks of Subiaco to the Colonna family, who held the fiefdom for nearly four centuries. The Colonna enlarged and strengthened the castle, surrounding it with a road known as “La Difesa”, which also served to control and defend the village.
 
-In 1565, weighed down by debts, Marcantonio Colonna sold San Vito to the
-**Massimo** family, who in turn transferred it in 1575 to the **Theodoli** for
-20,000 Roman scudi.
+Some important traces of this medieval phase still survive, including the Porta dell’Ospedale and the Porta del Ponte, the latter linked to the old drawbridge that gave access to the village. The two gates preserve pointed arches and structures made of stone blocks bound with lime mortar.
 
-It was the Theodoli family that gave the town much of the appearance it still
-has today. Giovanni Theodoli, brother of Teodolo, the first Marquis of San Vito
-and Pisciano and Count of Ciciliano, designed the Church of San Biagio, built
-between 1607 and 1609. His sons Alfonso and Mario then redesigned the town plan:
-Piazza San Biagio, onto which the old town hall faced, was laid out in 1646, and
-in 1649 **Borgo Mario** was created, a long, wide street
-lined with buildings, built on an artificial platform by levelling the rocky
-ground, which expanded the village around the baronial palace.
+The period of Colonna lordship is also connected with the spread of devotion to Pope Martin V, born Oddone Colonna, elected pope in 1417. Traces of this devotion remain in the area, including the “Cona di San Martino”.
 
-Carlo Theodoli, son of Alfonso and an "honorary academician" of the Accademia di
-San Luca, enlarged
-the castle with its distinctive sloping wall and had its halls frescoed. His son
-**Girolamo Theodoli**, an architect and "academician of merit" of the same
-Academy, designed important works in Rome, including the Teatro Argentina (1731),
-the Church of Santi Marcellino e Pietro on Via Merulana (1750) and the bell tower
-of Santa Maria in Montesanto. In San Vito he built the bell tower of the Church
-of San Biagio (1715), the Church of San Vito (1735) and the façade of the Church
-of Santa Maria de Arce.
+Between 1563 and 1565, Marcantonio Colonna, burdened by debts, ceded San Vito to the Massimo family. Around 1575 the Massimo transferred the fiefdom to the Theodoli, a family originally from Forlì and already part of the Roman patriciate. It was Gerolamo Theodoli, Bishop of Cádiz, who acquired the fiefdom, taking the title of Count of Ciciliano and Lord of San Vito and Pisoniano. In 1592 Teodolo Theodoli took the title of first Marquis of San Vito.
+
+The Theodoli family was to bring about a profound transformation of the town, one that would change both its urban and its architectural appearance. Giovanni Theodoli, brother of Teodolo, is credited with the design of the Church of San Biagio, built between 1607 and 1609.
+
+In the 17th century the family promoted a major programme to expand the town. From the 1640s, Cardinal Mario Theodoli began opening a new urban axis intended to extend the medieval village. Piazza San Biagio was laid out in 1646, while in 1649 the Borgo Mario was built: a long street lined with buildings, constructed on an artificial level obtained by levelling the rocky ground and filling in the differences in height of the cliff. The new quarter extended the town beyond its medieval core and profoundly altered its layout.
+
+Carlo Theodoli, nephew of Mario, was responsible for a major transformation of the castle, which took on its characteristic ship-like shape, emphasised by the great sloping wall that surrounds the structure. He is also credited with decorative works and the creation of frescoed rooms.
+
+His son Girolamo Theodoli, an architect and academician of merit of the Accademia di San Luca, was a significant figure in 18th-century Roman architecture. He is credited with the design of the Teatro Argentina (1731), works on the church of Santi Marcellino e Pietro and the bell tower of Santa Maria in Montesanto. In San Vito Romano he built the bell tower of the Church of San Biagio (1715), the Church of San Vito (1735) and the façade of the Church of Santa Maria de Arce.
