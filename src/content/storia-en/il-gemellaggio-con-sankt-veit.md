@@ -4,8 +4,6 @@ description: Since 2008, a bond linking San Vito Romano to a like-named municipa
 data: 2008-01-01
 ---
 
-Since 2008 San Vito Romano has been twinned with Sankt Veit im Mühlkreis, an
-Austrian municipality that shares with the Lazio village its dedication to Saint
-Vitus. The twinning celebrates a bond that, beyond the geographical distance,
-unites two communities linked by the same patron saint and the same origin of
-their name.
+Since 2008 San Vito Romano has been twinned with Sankt Veit im Mühlkreis, an Austrian municipality in Upper Austria. The bond between the two communities stems from their shared devotion to Saint Vitus, patron saint of both towns.
+
+The twinning thus unites two communities that are geographically distant but share the name and the figure of their patron saint, turning a curious affinity between the two towns into an opportunity for meeting and getting to know one another.

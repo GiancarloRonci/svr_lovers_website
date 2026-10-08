@@ -4,7 +4,6 @@ description: Dal 2008 un legame che unisce San Vito Romano a un comune omonimo d
 data: 2008-01-01
 ---
 
-Dal 2008 San Vito Romano è gemellato con Sankt Veit im Mühlkreis, un comune
-austriaco che condivide con il paese laziale la dedicazione a San Vito. Il
-gemellaggio celebra un legame che, al di là della distanza geografica, unisce due
-comunità legate dallo stesso santo patrono e dalla stessa origine del nome.
+Dal 2008 San Vito Romano è gemellato con Sankt Veit im Mühlkreis, comune austriaco dell'Alta Austria. Il legame tra le due comunità nasce dalla comune devozione a San Vito, patrono di entrambi i paesi.
+
+Il gemellaggio unisce così due comunità lontane geograficamente, ma accomunate dal nome e dalla figura del santo patrono, trasformando una curiosa affinità tra i due paesi in un'occasione di incontro e di reciproca conoscenza.
