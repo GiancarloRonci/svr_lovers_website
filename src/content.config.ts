@@ -128,9 +128,11 @@ const associazioneSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }
     description: z.string(),
     frequenza: z.string().optional(),
     immagine: image().optional(),
+    // ID del modulo Tally da incorporare nella pagina (es. "b50Qr6")
+    moduloTally: z.string().optional(),
   });
 
-const associazione = defineCollection({
+const associazione =defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/associazione' }),
   schema: associazioneSchema,
 });

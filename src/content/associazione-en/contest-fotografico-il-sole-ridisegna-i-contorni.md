@@ -1,6 +1,7 @@
 ---
 title: "Photo Contest - San Vito Romano: the sun redraws the outlines - 1st Edition"
 categoria: concorsi-fotografici
+moduloTally: b50Qr6
 description: First edition of the photo contest dedicated to San Vito Romano, on the theme of sunlight redrawing the outlines of the town.
 ---
 
