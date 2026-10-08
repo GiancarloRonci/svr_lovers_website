@@ -15,10 +15,10 @@ const articoli = (await getCollection('storiaEn')).sort(
 
   <div class="card-grid">
     {
-      articoli.map((a) => (
+      articoli.map((a, i) => (
         <Card
           href={withBase(`en/storia/${a.id}/`)}
-          title={a.data.title}
+          title={`${i + 1}. ${a.data.title}`}
           description={a.data.description}
           image={a.data.immagine}
         />
