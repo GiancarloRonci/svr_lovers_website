@@ -12,6 +12,20 @@ const leggende = (await getCollection('leggende')).sort(byInsertionDesc);
   <h1>Leggende</h1>
   <p class="meta">Storie, misteri e racconti popolari tramandati di generazione in generazione.</p>
 
+  <p>
+    Ogni paese ha una storia scritta e una storia raccontata. La seconda non sta nei libri: vive
+    nella voce dei nonni, nelle sere davanti al camino, nei nomi dati a un vicolo, a una fontana, a
+    un masso lungo la strada. Le leggende di San Vito Romano sono fatte così: streghe che di notte
+    diventano gatte, creature che fanno dispetti a chi va a prendere l'acqua, briganti, sempliciotti
+    fortunati e figure che sembrano uscite da una fiaba.
+  </p>
+  <p>
+    Non importa quanto ci sia di vero. La loro bellezza sta nel modo in cui un'intera comunità ha
+    saputo guardare i propri luoghi con meraviglia, e nel filo che ancora oggi lega chi le ascolta a
+    chi le raccontava. Leggerle è un modo per conoscere il paese da dentro, e per continuare a
+    tramandarle.
+  </p>
+
   <div class="card-grid">
     {
       leggende.map((l) => (

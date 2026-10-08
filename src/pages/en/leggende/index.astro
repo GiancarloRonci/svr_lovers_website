@@ -12,6 +12,20 @@ const leggende = (await getCollection('leggendeEn')).sort(byInsertionDesc);
   <h1>Legends</h1>
   <p class="meta">Stories, mysteries and folk tales passed down from generation to generation.</p>
 
+  <p>
+    Every town has a written history and a told one. The second is not found in books: it lives in
+    grandparents' voices, in evenings by the fireplace, in the names given to an alley, a fountain,
+    a boulder by the road. The legends of San Vito Romano are made this way: witches who turn into
+    cats at night, creatures that play tricks on those fetching water, brigands, lucky simpletons
+    and figures that seem to have stepped out of a fairy tale.
+  </p>
+  <p>
+    It does not matter how much of it is true. Their beauty lies in the way a whole community has
+    been able to look at its own places with wonder, and in the thread that still ties those who
+    listen to those who used to tell them. Reading them is a way to know the town from the inside,
+    and to keep passing them on.
+  </p>
+
   <div class="card-grid">
     {
       leggende.map((l) => (
