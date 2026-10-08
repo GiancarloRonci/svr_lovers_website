@@ -1,0 +1,52 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../../lib/url';
+
+// Pagina di ringraziamento: una per ogni attività che ha un modulo Tally
+export async function getStaticPaths() {
+  const attivita = await getCollection('associazioneEn');
+  return attivita
+    .filter((a) => a.data.moduloTally)
+    .map((a) => ({ params: { id: a.id }, props: { entry: a } }));
+}
+
+const { entry } = Astro.props;
+const { title } = entry.data;
+const paginaContest = withBase(`en/culturaturismo/${entry.id}/`);
+---
+
+<Layout title="Thank you for your photo" description={`Thank you for taking part: ${title}`} noindex>
+  <a href={paginaContest}>&larr; Back to the contest</a>
+  <h1>Thank you<span id="grazie-nome"></span>!</h1>
+  <p class="meta">{title}</p>
+
+  <p>
+    We have received your photo. Thank you for sharing your view of San Vito Romano and for
+    choosing to take part in the contest.
+  </p>
+
+  <h2>What now?</h2>
+  <ul>
+    <li>
+      <a href={`${paginaContest}#partecipa`}>Upload another photo for the contest</a>
+    </li>
+    <li>
+      <a href={paginaContest}>Read the rules</a>
+    </li>
+  </ul>
+
+  <h2>Next steps</h2>
+  <p>
+    There is nothing else you need to do for now: wait for further updates by email, at the address
+    you entered in the form.
+  </p>
+</Layout>
+
+<script is:inline>
+  // Il nome arriva dalla pagina del modulo tramite sessionStorage (mai nell'indirizzo)
+  try {
+    var nome = sessionStorage.getItem('svr-contest-nome');
+    if (nome) document.getElementById('grazie-nome').textContent = ', ' + nome;
+  } catch (e) {}
+</script>

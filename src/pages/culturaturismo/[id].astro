@@ -26,6 +26,7 @@ const { entry } = Astro.props;
 const { title, description, categoria, frequenza, immagine, moduloTally } = entry.data;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
+const grazieUrl = withBase(`culturaturismo/${entry.id}/grazie/`);
 ---
 
 <Layout title={title} description={description}>
@@ -44,6 +45,7 @@ const lastModified = getLastModified(entry.filePath);
   {
     moduloTally && (
       <iframe
+        id="partecipa"
         data-tally-src={`https://tally.so/embed/${moduloTally}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`}
         loading="lazy"
         width="100%"
@@ -59,6 +61,29 @@ const lastModified = getLastModified(entry.filePath);
     moduloTally && (
       <script is:inline>
         var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+      </script>
+    )
+  }
+  {
+    moduloTally && (
+      <script is:inline define:vars={{ grazieUrl }}>
+        // A invio completato Tally avvisa la pagina: si passa alla pagina di ringraziamento
+        window.addEventListener('message', function (e) {
+          if (e.origin !== 'https://tally.so') return;
+          if (typeof e.data !== 'string' || e.data.indexOf('Tally.FormSubmitted') === -1) return;
+          try {
+            sessionStorage.removeItem('svr-contest-nome');
+            var campi = JSON.parse(e.data).payload.fields || [];
+            for (var i = 0; i < campi.length; i++) {
+              var valore = campi[i].answer && campi[i].answer.value;
+              if (/^(nome e cognome|nome|full name|name)$/i.test((campi[i].title || '').trim()) && typeof valore === 'string' && valore.trim()) {
+                sessionStorage.setItem('svr-contest-nome', valore.trim());
+                break;
+              }
+            }
+          } catch (err) {}
+          window.location.href = grazieUrl;
+        });
       </script>
     )
   }
