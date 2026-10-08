@@ -2,6 +2,7 @@
 title: Piazza Roma
 description: La piazza su cui si affaccia la Villa Comunale, punto di partenza per salire al borgo e vicina all'antica edicola della Madonna delle Grazie.
 comune: San Vito Romano
+immagine: ./piazza-roma/photo1.jpg
 coordinate:
   lat: 41.882012
   lng: 12.979444

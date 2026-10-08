@@ -2,6 +2,7 @@
 title: Piazza Roma
 description: The square overlooked by the Villa Comunale, the starting point for walking up to the old town and close to the old shrine of the Madonna delle Grazie.
 comune: San Vito Romano
+immagine: ./piazza-roma/photo1.jpg
 coordinate:
   lat: 41.882012
   lng: 12.979444
