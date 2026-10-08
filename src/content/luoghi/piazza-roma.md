@@ -5,6 +5,9 @@ comune: San Vito Romano
 coordinate:
   lat: 41.882012
   lng: 12.979444
+galleria:
+  - immagine: ./piazza-roma/photo1.jpg
+    didascalia: "Piazza Roma in una cartolina d'epoca in bianco e nero: i palazzi con i balconi fioriti, l'aiuola con un alberello al centro e, sulla destra, i tavolini all'aperto del bar."
 ---
 
 Piazza Roma è uno dei punti di riferimento della vita quotidiana di San Vito Romano. Sulla piazza si affaccia la Villa Comunale, il cuore verde del paese, e intorno si trova un Bar storico dove fermarsi per un caffè: per molti sanvitesi è il luogo dove ci si incontra, si fanno due chiacchiere e si comincia o si chiude la giornata.

@@ -5,6 +5,9 @@ comune: San Vito Romano
 coordinate:
   lat: 41.882012
   lng: 12.979444
+galleria:
+  - immagine: ./piazza-roma/photo1.jpg
+    didascalia: "Piazza Roma in a vintage black-and-white postcard: the buildings with their flower-filled balconies, the flower bed with a young tree in the middle and, on the right, the outdoor tables of the bar."
 ---
 
 Piazza Roma is one of the landmarks of everyday life in San Vito Romano. The Villa Comunale, the town's green heart, looks onto the square, and around it there is a historic bar where you can stop for a coffee: for many locals it is the place to meet, have a chat and start or end the day.
