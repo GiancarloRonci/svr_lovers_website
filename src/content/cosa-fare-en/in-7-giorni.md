@@ -55,11 +55,11 @@ giorni:
         attivita: "Lunch in town"
       - oraInizio: "15:30"
         oraFine: "16:15"
-        attivita: "Church of San Rocco and the Circular Walk"
+        attivita: "Church of San Sebastiano and San Rocco and the Circular Walk"
         descrizione: "The 17th-century church in Borgo Mario Theodoli and, from there, the one-and-a-half-kilometre loop through the town's streets (Places and Trails sections)."
         link:
           - href: "en/luoghi/chiesa-san-rocco/"
-            testo: "Go to the Church of San Rocco page"
+            testo: "Go to the Church of San Sebastiano and San Rocco page"
           - href: "en/percorsi/camminata-circolare/"
             testo: "Go to the Circular Walk page"
       - oraInizio: "16:15"

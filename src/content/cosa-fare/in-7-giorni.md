@@ -55,11 +55,11 @@ giorni:
         attivita: "Pranzo in centro"
       - oraInizio: "15:30"
         oraFine: "16:15"
-        attivita: "Chiesa di San Rocco e Camminata Circolare"
+        attivita: "Chiesa S.Sebastiano e S.Rocco e Camminata Circolare"
         descrizione: "La chiesa seicentesca del Borgo Mario Theodoli e, da lì, l'anello di un chilometro e mezzo tra le vie del paese (sezioni Luoghi e Percorsi)."
         link:
           - href: "luoghi/chiesa-san-rocco/"
-            testo: "Vai alla scheda della Chiesa di San Rocco"
+            testo: "Vai alla scheda della Chiesa S.Sebastiano e S.Rocco"
           - href: "percorsi/camminata-circolare/"
             testo: "Vai alla scheda della Camminata Circolare"
       - oraInizio: "16:15"
