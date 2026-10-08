@@ -5,6 +5,7 @@ tipo: urbano
 difficolta: facile
 lunghezzaKm: 0.56
 durata: "10min"
+immagine: ./lattaceca/foto1.jpg
 gpx: /gpx/lattaceca.gpx
 partenza:
   lat: 41.882611
