@@ -36,6 +36,8 @@ galleria:
     didascalia: "Frescoed room with two windows: the painted landscapes continue onto the vault, in a still from a television broadcast."
   - immagine: ./castello-theodoli/photo17.jpg
     didascalia: "The windows of the frescoed room and the sky painted on the vault, in a still from a television broadcast."
+  - immagine: ./castello-theodoli/photo18.jpg
+    didascalia: "The castle at night, seen from the cobbled stairway near the Church of Santa Maria de Arce: the round tower and the arched windows in the light of the street lamps."
 ---
 
 The site on which the castle stands was probably occupied as early as the high Middle Ages: according to tradition, it was in the 9th century, following Saracen raids, that the inhabitants of the surrounding areas took refuge on the rocky outcrop, giving rise to the new fortified settlement around which the village developed. A document from 1085, preserved in the Regesto Sublacense, records the donation of some lands to the Monastery of Subiaco — the earliest certain attestation of the "castrum Sancti Viti" and evidence of the control exercised by the Benedictine monks over the area. Around 1180 the fief passed to the powerful Colonna family, who enlarged the stronghold and strengthened its defences, making it the centre of feudal power over the territory; Colonna rule continued until the 16th century, when the family's financial difficulties made the sale of the fief necessary. According to some historians and local tradition, Pope Martin V — born Oddone Colonna, elected pontiff in 1417 — was born within these very walls: the claim, which fits within the period of Colonna rule, nonetheless remains a matter of debate and should be regarded as a historical tradition rather than an established fact.

@@ -36,6 +36,8 @@ galleria:
     didascalia: "Sala affrescata con due finestre: i paesaggi dipinti proseguono sulla volta, in un fotogramma di una ripresa televisiva."
   - immagine: ./castello-theodoli/photo17.jpg
     didascalia: "Le finestre della sala affrescata e il cielo dipinto sulla volta, in un fotogramma di una ripresa televisiva."
+  - immagine: ./castello-theodoli/photo18.jpg
+    didascalia: "Il castello di notte, visto dalla scalinata in selciato nei pressi della Chiesa di Santa Maria de Arce: la torre rotonda e le finestre ad arco alla luce dei lampioni."
 ---
 
 Il sito su cui sorge il castello era probabilmente occupato fin dall'alto medioevo: secondo la tradizione, fu nel IX secolo, in seguito alle incursioni saracene, che gli abitanti delle zone circostanti si rifugiarono sulla rupe, dando origine al nuovo insediamento fortificato attorno al quale si sviluppò il paese. Un documento del 1085, conservato nel Regesto Sublacense, attesta la donazione di alcune terre al Monastero di Subiaco: è la prima attestazione certa del "castrum Sancti Viti" e un segno del controllo esercitato dai monaci benedettini sull'area. Verso il 1180 il feudo passò alla potente famiglia Colonna, che ampliò la rocca e ne rafforzò le difese, facendone il centro del potere feudale sul territorio; il dominio colonnese proseguì fino al XVI secolo, quando le difficoltà economiche della famiglia ne resero necessaria la cessione. Secondo alcuni storici e la tradizione locale, proprio tra queste mura sarebbe nato papa Martino V, al secolo Oddone Colonna, eletto pontefice nel 1417: la notizia, che si inserisce nel periodo del dominio colonnese, resta tuttavia oggetto di dibattito e va considerata una tradizione storica più che un fatto accertato.
