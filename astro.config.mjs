@@ -15,5 +15,8 @@ export default defineConfig({
     '/associazione/[id]': '/culturaturismo/[id]',
     '/en/associazione': '/en/culturaturismo',
     '/en/associazione/[id]': '/en/culturaturismo/[id]',
+    // Vecchio indirizzo della scheda generica "Concorsi fotografici"
+    '/culturaturismo/concorsi-fotografici': '/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni',
+    '/en/culturaturismo/concorsi-fotografici': '/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni',
   },
 });
