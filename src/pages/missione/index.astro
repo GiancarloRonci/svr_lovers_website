@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { withBase } from '../../lib/url';
+---
+
+<Layout title="Missione" description="Gli scopi di SanVitoRomano Lovers: far conoscere online il territorio di San Vito Romano e favorire la comunicazione per la riuscita delle attività turistiche e culturali.">
+  <h1>Missione</h1>
+  <p class="meta">Perché esiste SanVitoRomano Lovers e a cosa lavoriamo.</p>
+
+  <p>
+    SanVitoRomano Lovers è una community di persone legate a San Vito Romano, che vuole farlo
+    conoscere e sostenere chi lo rende vivo. Il nostro impegno ha due scopi.
+  </p>
+
+  <ol class="mission-list">
+    <li>
+      <h2>Far conoscere il territorio online</h2>
+      <p>
+        Raccontiamo in rete ciò che rende unico San Vito Romano: la storia e le leggende, i luoghi,
+        i percorsi, le tradizioni e gli eventi. Vogliamo che chi ci vive lo riscopra e che chi non
+        lo conosce abbia voglia di venirlo a visitare.
+      </p>
+    </li>
+    <li>
+      <h2>Favorire la comunicazione per la riuscita delle attività turistiche e culturali</h2>
+      <p>
+        Promuoviamo e facilitiamo la comunicazione tra cittadini, associazioni, operatori e
+        visitatori, perché le iniziative turistiche e culturali del paese siano conosciute,
+        partecipate e abbiano successo.
+      </p>
+    </li>
+  </ol>
+
+  <p>
+    Vuoi collaborare o segnalarci un'iniziativa? <a href={withBase('contatti/')}>Scrivici</a>.
+  </p>
+
+  <style>
+    .mission-list {
+      margin: 2rem 0;
+      padding-left: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 720px;
+    }
+    .mission-list li::marker {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: var(--color-accent-dark);
+    }
+    .mission-list h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.3rem;
+    }
+    .mission-list p {
+      margin: 0;
+    }
+  </style>
+</Layout>

@@ -1,0 +1,61 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { withBase } from '../../../lib/url';
+---
+
+<Layout title="Mission" description="The aims of SanVitoRomano Lovers: promoting the San Vito Romano area online and fostering communication so that tourism and cultural activities succeed.">
+  <h1>Mission</h1>
+  <p class="meta">Why SanVitoRomano Lovers exists and what we work on.</p>
+
+  <p>
+    SanVitoRomano Lovers is a community of people with a bond to San Vito Romano, who want to make
+    it better known and to support those who keep it alive. Our work has two aims.
+  </p>
+
+  <ol class="mission-list">
+    <li>
+      <h2>Promoting the area online</h2>
+      <p>
+        We tell the web what makes San Vito Romano unique: its history and legends, its places,
+        trails, traditions and events. We want those who live here to rediscover it, and those who
+        don't know it yet to feel like coming to visit.
+      </p>
+    </li>
+    <li>
+      <h2>Fostering communication so that tourism and cultural activities succeed</h2>
+      <p>
+        We promote and ease communication between residents, associations, local businesses and
+        visitors, so that the village's tourism and cultural initiatives are known, well attended
+        and successful.
+      </p>
+    </li>
+  </ol>
+
+  <p>
+    Would you like to get involved or tell us about an initiative? <a href={withBase('en/contatti/')}>Get in touch</a>.
+  </p>
+
+  <style>
+    .mission-list {
+      margin: 2rem 0;
+      padding-left: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 720px;
+    }
+    .mission-list li::marker {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: var(--color-accent-dark);
+    }
+    .mission-list h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.3rem;
+    }
+    .mission-list p {
+      margin: 0;
+    }
+  </style>
+</Layout>
