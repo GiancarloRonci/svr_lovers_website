@@ -3,8 +3,12 @@ import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { byInsertionDesc } from '../../lib/insertionOrder';
 
 const attivita = await getCollection('associazione');
+const viaggiNelTempo = (await getCollection('articoli'))
+  .filter((a) => a.data.categoria === 'viaggi-nel-tempo')
+  .sort(byInsertionDesc);
 
 const etichette: Record<string, string> = {
   scacchi: 'Scacchi',
@@ -57,5 +61,28 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
         </section>
       );
     })
+  }
+
+  {
+    viaggiNelTempo.length > 0 && (
+      <section id="viaggi-nel-tempo">
+        <h2>Viaggi nel tempo</h2>
+        <p>
+          Articoli che ci riportano nella San Vito di una volta: un'immagine del passato ricreata
+          con l'intelligenza artificiale e un testo che la racconta.
+        </p>
+        <div class="card-grid">
+          {viaggiNelTempo.map((a) => (
+            <Card
+              href={withBase(`articoli/${a.id}/`)}
+              title={a.data.title}
+              description={a.data.description}
+              meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+              image={a.data.immagine}
+            />
+          ))}
+        </div>
+      </section>
+    )
   }
 </Layout>

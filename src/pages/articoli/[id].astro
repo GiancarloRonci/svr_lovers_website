@@ -12,7 +12,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, data, autore, immagine, galleria } = entry.data;
+const { title, description, data, autore, categoria, immagine, galleria } = entry.data;
+// Nei "Viaggi nel tempo" l'immagine è il cuore dell'articolo: si mostra intera, senza ritaglio
+const immagineIntera = categoria === 'viaggi-nel-tempo';
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 
@@ -31,7 +33,8 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     {autore && <>{autore}</>}
   </p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
-  {immagine && <Image class="articolo-image" src={immagine} alt={title} width={900} height={500} />}
+  {immagine && !immagineIntera && <Image class="articolo-image" src={immagine} alt={title} width={900} height={500} />}
+  {immagine && immagineIntera && <Image class="articolo-image-intera" src={immagine} alt={title} />}
   <article>
     <Content />
   </article>
@@ -71,6 +74,13 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     height: auto;
     aspect-ratio: 900 / 500;
     object-fit: cover;
+  }
+  .articolo-image-intera {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
   }
 
   .gallery {
