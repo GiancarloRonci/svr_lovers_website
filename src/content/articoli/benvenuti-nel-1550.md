@@ -2,6 +2,7 @@
 title: Benvenuti nel 1550
 description: "Un viaggio nel tempo in Piazza Governo Vecchio, quando San Vito era il \"Castrum Sancti Viti\": la fucina del fabbro, il maniscalco e la porta nascosta del borgo."
 data: 2026-10-09
+autore: Vito Rossi
 categoria: viaggi-nel-tempo
 immagine: ./benvenuti-nel-1550/piazza-governo-vecchio-1550.jpg
 ---

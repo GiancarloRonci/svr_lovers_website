@@ -2,6 +2,7 @@
 title: Welcome to 1550
 description: "A journey through time in Piazza Governo Vecchio, when San Vito was the \"Castrum Sancti Viti\": the blacksmith's forge, the farrier and the hidden gate of the village."
 data: 2026-10-09
+autore: Vito Rossi
 categoria: viaggi-nel-tempo
 immagine: ./benvenuti-nel-1550/piazza-governo-vecchio-1550.jpg
 ---
