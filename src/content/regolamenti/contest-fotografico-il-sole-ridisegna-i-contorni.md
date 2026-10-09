@@ -59,8 +59,7 @@ Con la partecipazione al concorso, l'autore **mantiene la titolarità dei diritt
 Le fotografie potranno essere utilizzate, senza alcun compenso per l'autore, per:
 
 - il concorso e le relative votazioni;
-- mostre ed esposizioni;
-- siti web e social network;
+- mostre ed esposizioni anche online;
 - locandine, brochure e altri materiali di comunicazione;
 - attività culturali e iniziative di promozione e valorizzazione di San Vito Romano.
 
@@ -72,11 +71,11 @@ L'autore accetta che la fotografia possa essere resa pubblicamente disponibile n
 
 ## 6. Invio delle fotografie
 
-Le fotografie dovranno essere inviate entro il **[DATA]**, secondo le modalità indicate dagli organizzatori:
+Le fotografie dovranno essere inviate entro il **30 novembre 2026**, secondo le modalità indicate dagli organizzatori:
 
-**[E-MAIL / MODULO ONLINE / ALTRO]**
+Apposito modulo disponibile online: [www.sanvitoromanolovers.org/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/](https://www.sanvitoromanolovers.org/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/)
 
-Per ogni partecipante dovranno essere indicati almeno nome e cognome e un recapito.
+Per ogni partecipante dovranno essere indicati almeno nome, cognome e un recapito.
 
 Per ogni fotografia potrà essere indicato un titolo e, se ritenuto utile, il luogo in cui è stata realizzata.
 
@@ -112,6 +111,6 @@ L'invio della fotografia costituisce **accettazione integrale del presente regol
 
 **San Vito Romano: il sole ridisegna i contorni**
 
-Per informazioni: **[E-MAIL / CONTATTO]**
+Per informazioni: [info@sanvitoromanolovers.org](mailto:info@sanvitoromanolovers.org)
 
-**Scadenza per l'invio delle fotografie: [DATA]**
+**Scadenza per l'invio delle fotografie: 30 novembre 2026**

@@ -61,8 +61,7 @@ By taking part in the contest, the author **retains ownership of the copyright**
 The photographs may be used, without any payment to the author, for:
 
 - the contest and the related voting;
-- shows and exhibitions;
-- websites and social networks;
+- shows and exhibitions, including online;
 - posters, brochures and other communication materials;
 - cultural activities and initiatives to promote and enhance San Vito Romano.
 
@@ -74,11 +73,11 @@ The author accepts that the photograph may be made publicly available as part of
 
 ## 6. Submitting the photographs
 
-The photographs must be submitted by **[DATE]**, in the manner indicated by the organisers:
+The photographs must be submitted by **30 November 2026**, in the manner indicated by the organisers:
 
-**[E-MAIL / ONLINE FORM / OTHER]**
+Dedicated form available online: [www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/](https://www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/)
 
-For each participant, at least a full name and a contact detail must be given.
+For each participant, at least a first name, surname and a contact detail must be given.
 
 For each photograph, a title may be given and, if considered useful, the place where it was taken.
 
@@ -114,6 +113,6 @@ Submitting a photograph constitutes **full acceptance of these rules** and of th
 
 **San Vito Romano: il sole ridisegna i contorni**
 
-For information: **[E-MAIL / CONTACT]**
+For information: [info@sanvitoromanolovers.org](mailto:info@sanvitoromanolovers.org)
 
-**Deadline for submitting photographs: [DATE]**
+**Deadline for submitting photographs: 30 November 2026**
