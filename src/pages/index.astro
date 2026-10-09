@@ -28,6 +28,7 @@ const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc).slice(0, 4)
 const news = (await getCollection('news'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 5);
+const articoli = (await getCollection('articoli')).sort(byInsertionDesc).slice(0, 3);
 ---
 
 <Layout title="Home">
@@ -121,6 +122,24 @@ const news = (await getCollection('news'))
       </section>
 
       <LatestPhotos lang="it" />
+
+      <section class="home-luoghi home-section">
+        <h2>Ultimi articoli</h2>
+        <div class="card-grid">
+          {
+            articoli.map((a) => (
+              <Card
+                href={withBase(`articoli/${a.id}/`)}
+                title={a.data.title}
+                description={a.data.description}
+                meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+                image={a.data.immagine}
+              />
+            ))
+          }
+        </div>
+        <a href={withBase('articoli/')} class="news-all">Tutti gli articoli &rarr;</a>
+      </section>
     </div>
 
     <aside class="highlights">
