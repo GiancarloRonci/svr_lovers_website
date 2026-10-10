@@ -21,6 +21,10 @@ foto:
     lng: 12.982190
     immagine: ./alla-madonnina/foto4.jpg
     didascalia: "The façade of the church of Saints Sebastian and Roch in the evening, with the town hall on the right."
+  - lat: 41.881230
+    lng: 12.980686
+    immagine: ./alla-madonnina/foto6.jpg
+    didascalia: "A bronze statue of a nun holding a cross, on a small terrace with a memorial stone at her feet, among the trees and with the mountains in the background."
   - lat: 41.879545
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg

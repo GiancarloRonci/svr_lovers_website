@@ -21,6 +21,10 @@ foto:
     lng: 12.982190
     immagine: ./alla-madonnina/foto4.jpg
     didascalia: "La facciata della chiesa dei Santi Sebastiano e Rocco di sera, con il palazzo comunale sulla destra."
+  - lat: 41.881230
+    lng: 12.980686
+    immagine: ./alla-madonnina/foto6.jpg
+    didascalia: "Una statua in bronzo di una religiosa con la croce in mano, su un terrazzino con una lapide ai suoi piedi, tra gli alberi e con i monti sullo sfondo."
   - lat: 41.879545
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
