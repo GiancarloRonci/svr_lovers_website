@@ -56,9 +56,9 @@ Any dispute concerning copyright, image rights or privacy will be the sole respo
 
 ## 5. Use of the photographs
 
-By taking part in the contest, the author **retains ownership of the copyright** in their photograph and grants the organisers, free of charge, a **non-exclusive** permission to use the image.
+By taking part in the contest, **the copyright in the photograph remains with its owner**; the participant grants the organisers, free of charge, a **non-exclusive** permission to use the image.
 
-The photographs may be used, without any payment to the author, for:
+The photographs may be used, without any payment to the participant or to the author, for:
 
 - the contest and the related voting;
 - shows and exhibitions, including online;
@@ -67,9 +67,9 @@ The photographs may be used, without any payment to the author, for:
 
 The permission is granted without territorial limits and for the time necessary for the purposes listed above.
 
-The photographs will not be passed on to third parties for commercial purposes nor used to sell the image without the author's specific permission.
+The photographs will not be passed on to third parties for commercial purposes nor used to sell the image without the specific permission of the rights holder.
 
-The author accepts that the photograph may be made publicly available as part of the activities promoting the contest and the area, without being able to claim payment, compensation or any other consideration for such uses.
+The participant accepts that the photograph may be made publicly available as part of the activities promoting the contest and the area, without being able to claim payment, compensation or any other consideration for such uses.
 
 ## 6. Submitting the photographs
 

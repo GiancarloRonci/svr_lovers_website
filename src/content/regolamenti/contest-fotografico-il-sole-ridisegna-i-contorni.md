@@ -54,9 +54,9 @@ Eventuali contestazioni relative ai diritti d'autore, al diritto all'immagine o 
 
 ## 5. Utilizzo delle fotografie
 
-Con la partecipazione al concorso, l'autore **mantiene la titolarità dei diritti d'autore** sulla propria fotografia e concede gratuitamente agli organizzatori un'autorizzazione **non esclusiva** all'utilizzo dell'immagine.
+Con la partecipazione al concorso, **i diritti d'autore sulla fotografia restano a chi ne è titolare**; il partecipante concede gratuitamente agli organizzatori un'autorizzazione **non esclusiva** all'utilizzo dell'immagine.
 
-Le fotografie potranno essere utilizzate, senza alcun compenso per l'autore, per:
+Le fotografie potranno essere utilizzate, senza alcun compenso per il partecipante o per l'autore, per:
 
 - il concorso e le relative votazioni;
 - mostre ed esposizioni anche online;
@@ -65,9 +65,9 @@ Le fotografie potranno essere utilizzate, senza alcun compenso per l'autore, per
 
 L'autorizzazione è concessa senza limiti territoriali e per il tempo necessario alle finalità sopra indicate.
 
-Le fotografie non saranno cedute a terzi per finalità commerciali né utilizzate per la vendita dell'immagine senza una specifica autorizzazione dell'autore.
+Le fotografie non saranno cedute a terzi per finalità commerciali né utilizzate per la vendita dell'immagine senza una specifica autorizzazione di chi ne detiene i diritti.
 
-L'autore accetta che la fotografia possa essere resa pubblicamente disponibile nell'ambito delle attività di promozione del concorso e del territorio, senza poter avanzare richieste di compenso, indennizzo o altro corrispettivo per tali utilizzi.
+Il partecipante accetta che la fotografia possa essere resa pubblicamente disponibile nell'ambito delle attività di promozione del concorso e del territorio, senza poter avanzare richieste di compenso, indennizzo o altro corrispettivo per tali utilizzi.
 
 ## 6. Invio delle fotografie
 
