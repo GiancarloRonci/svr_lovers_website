@@ -50,7 +50,7 @@ const articoli = (await getCollection('articoliEn')).sort(byInsertionDesc).slice
       <p class="hero-subtitle">An online community telling the story of San Vito Romano and its surroundings ❤️</p>
       {siteLastModified && <p class="aggiornato-sito">Site last updated: {formatLastModifiedFull(siteLastModified, 'en-GB')}</p>}
       <p>
-        sanvitoromano.lovers was born with a simple goal: to make San Vito Romano
+        SanVitoRomano.lovers was born with a simple goal: to make San Vito Romano
         known far and wide, telling its story through the people who live it, its
         places, its history and its traditions.
       </p>
@@ -64,7 +64,8 @@ const articoli = (await getCollection('articoliEn')).sort(byInsertionDesc).slice
         Vito Romano, open to everyone: to those who live there, to those who grew
         up there, to those who are far away but still feel it in their heart, and
         also to those who might discover it for the first time through social
-        media.
+        media.<br />
+        <a href={withBase('en/missione/')}>Discover the organisation's mission</a>
       </p>
       <p>
         👉 The more of us there are, the more we can tell San Vito's story.<br />

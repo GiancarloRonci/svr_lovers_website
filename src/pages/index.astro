@@ -50,7 +50,7 @@ const articoli = (await getCollection('articoli')).sort(byInsertionDesc).slice(0
       <p class="hero-subtitle">Una community on-line per raccontare e far conoscere San Vito Romano e dintorni ❤️</p>
       {siteLastModified && <p class="aggiornato-sito">Ultimo aggiornamento del sito: {formatLastModifiedFull(siteLastModified, 'it-IT')}</p>}
       <p>
-        sanvitoromano.lovers nasce con un obiettivo semplice: far conoscere San Vito
+        SanVitoRomano.lovers nasce con un obiettivo semplice: far conoscere San Vito
         Romano il più possibile, raccontandolo attraverso le persone che lo vivono, i
         suoi luoghi, la sua storia e le sue tradizioni.
       </p>
@@ -64,7 +64,8 @@ const articoli = (await getCollection('articoli')).sort(byInsertionDesc).slice(0
         L'idea è quella di costruire, poco alla volta, una grande vetrina digitale di
         San Vito Romano, aperta a tutti: a chi ci vive, a chi ci è cresciuto, a chi è
         lontano ma continua a sentirlo nel cuore e anche a chi potrebbe scoprirlo per
-        la prima volta grazie ai social.
+        la prima volta grazie ai social.<br />
+        <a href={withBase('missione/')}>Scopri la mission dell'organizzazione</a>
       </p>
       <p>
         👉 Più siamo, più possiamo raccontare San Vito.<br />
