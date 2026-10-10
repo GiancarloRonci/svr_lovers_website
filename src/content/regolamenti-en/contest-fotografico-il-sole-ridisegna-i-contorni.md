@@ -67,6 +67,8 @@ The photographs may be used, without any payment to the participant or to the au
 
 The permission is granted without territorial limits and for the time necessary for the purposes listed above.
 
+In particular, the photographs may be displayed online on the website [sanvitoromanolovers.org](https://www.sanvitoromanolovers.org/en/) for an indefinite period.
+
 The photographs will not be passed on to third parties for commercial purposes nor used to sell the image without the specific permission of the rights holder.
 
 The participant accepts that the photograph may be made publicly available as part of the activities promoting the contest and the area, without being able to claim payment, compensation or any other consideration for such uses.

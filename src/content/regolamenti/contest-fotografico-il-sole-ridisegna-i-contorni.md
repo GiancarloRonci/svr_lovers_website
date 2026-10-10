@@ -65,6 +65,8 @@ Le fotografie potranno essere utilizzate, senza alcun compenso per il partecipan
 
 L'autorizzazione è concessa senza limiti territoriali e per il tempo necessario alle finalità sopra indicate.
 
+In particolare, le fotografie potranno essere esposte online sul sito [sanvitoromanolovers.org](https://www.sanvitoromanolovers.org/) a tempo indeterminato.
+
 Le fotografie non saranno cedute a terzi per finalità commerciali né utilizzate per la vendita dell'immagine senza una specifica autorizzazione di chi ne detiene i diritti.
 
 Il partecipante accetta che la fotografia possa essere resa pubblicamente disponibile nell'ambito delle attività di promozione del concorso e del territorio, senza poter avanzare richieste di compenso, indennizzo o altro corrispettivo per tali utilizzi.
