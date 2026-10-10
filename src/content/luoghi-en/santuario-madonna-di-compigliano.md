@@ -10,6 +10,8 @@ galleria:
   - ./santuario-madonna-di-compigliano/photo2.jpg
   - immagine: ./santuario-madonna-di-compigliano/photo3.jpg
     didascalia: "The sanctuary among the pines, on top of the wooded hill, with a hill town in the background."
+  - immagine: ./santuario-madonna-di-compigliano/photo4.jpg
+    didascalia: "The sanctuary seen from a distance, beneath three tall umbrella pines, with low clouds over the mountains behind."
 ---
 
 The Sanctuary of the Madonna di Compigliano, affectionately known to the people of San Vito as "la Madonnina", stands on the hill of the same name on the outskirts of San Vito Romano, along the old Strada di Campigliano. Local tradition holds that around 1500 the Virgin Mary appeared among the branches of a cherry tree to a young deaf-mute shepherd, who, upon seeing the image of the Madonna and Child, instantly regained his speech and hearing. A small shrine was first raised on the site of the miracle and later enlarged, becoming a proper church between the late 16th and early 17th centuries.

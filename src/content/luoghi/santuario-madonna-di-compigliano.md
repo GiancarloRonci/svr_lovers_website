@@ -10,6 +10,8 @@ galleria:
   - ./santuario-madonna-di-compigliano/photo2.jpg
   - immagine: ./santuario-madonna-di-compigliano/photo3.jpg
     didascalia: "Il santuario tra i pini, in cima al colle coperto di boschi, con un borgo sullo sfondo."
+  - immagine: ./santuario-madonna-di-compigliano/photo4.jpg
+    didascalia: "Il santuario visto da lontano, sotto tre grandi pini a ombrello, con le nuvole basse sui monti alle spalle."
 ---
 
 Il Santuario della Madonna di Compigliano, che i sanvitesi chiamano affettuosamente "la Madonnina", sorge sul colle omonimo alla periferia di San Vito Romano, lungo l'antica Strada di Campigliano. La tradizione narra che intorno al 1500 la Vergine apparve tra i rami di un ciliegio a un giovane pastore sordomuto, il quale, alla vista dell'immagine della Madonna con il Bambino, riacquistò all'istante la parola e l'udito. Sul luogo del prodigio fu innalzata una prima edicola, poi ampliata fino a diventare, tra la fine del Cinquecento e i primi del Seicento, una vera e propria chiesa.

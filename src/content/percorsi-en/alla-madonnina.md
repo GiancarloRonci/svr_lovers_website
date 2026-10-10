@@ -25,6 +25,10 @@ foto:
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
     didascalia: "The Fontana Nova along Viale Trento Trieste: a stone drinking fountain with an arched niche and a basin."
+  - lat: 41.878723
+    lng: 12.983615
+    immagine: ./alla-madonnina/foto5.jpg
+    didascalia: "The Sanctuary of the Madonna di Compigliano seen from a distance, beneath three tall umbrella pines, with low clouds over the mountains behind."
 ---
 
 A walk from the centre of the village to the "Madonnina", as the people of San Vito affectionately call the Sanctuary of Our Lady of Compigliano.

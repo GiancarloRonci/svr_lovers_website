@@ -25,6 +25,10 @@ foto:
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
     didascalia: "La Fontana Nova lungo Viale Trento Trieste: un fontanile in pietra con la nicchia ad arco e la vasca."
+  - lat: 41.878723
+    lng: 12.983615
+    immagine: ./alla-madonnina/foto5.jpg
+    didascalia: "Il Santuario della Madonna di Compigliano visto da lontano, sotto tre grandi pini a ombrello, con le nuvole basse sui monti alle spalle."
 ---
 
 Una passeggiata che porta dal centro del paese alla "Madonnina", come i sanvitesi chiamano affettuosamente il Santuario della Madonna di Compigliano.
