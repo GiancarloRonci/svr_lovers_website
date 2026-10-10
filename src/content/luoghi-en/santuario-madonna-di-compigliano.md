@@ -20,4 +20,4 @@ The miraculous image, painted on a panel of cherry wood, is kept above the main 
 
 On 22 August 1948 the image was solemnly crowned, following its official recognition granted on 23 May of the same year, and the church was raised to the rank of sanctuary. Around the building stand fifteen ceramic aedicules depicting the mysteries of the rosary, erected in memory of the 1984 Holy Missions and the 1987-88 Marian Year: a path that still makes the sanctuary, to this day a destination for pilgrims, one of the most evocative and cherished places in San Vito Romano.
 
-*Photo: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), public domain; Comune di San Vito Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Compigliano.jpg), CC BY 4.0.*
+*Photo: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), public domain; Comune di San Vito Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Compigliano.jpg), CC BY 4.0; SVR Lovers.*

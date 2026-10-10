@@ -20,4 +20,4 @@ L'immagine miracolosa, dipinta su una tavola di legno di ciliegio, è conservata
 
 Il 22 agosto 1948 l'immagine venne solennemente incoronata, dopo il riconoscimento ufficiale concesso il 23 maggio dello stesso anno, e la chiesa assunse il titolo di santuario. Attorno all'edificio si trovano quindici edicole in ceramica che raffigurano i misteri del rosario, erette a ricordo delle Sante Missioni del 1984 e dell'Anno Mariano 1987-88: un percorso che rende il santuario, ancora oggi meta di pellegrinaggi, uno dei luoghi più suggestivi e sentiti di San Vito Romano.
 
-*Foto: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), pubblico dominio; Comune di San Vito Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Compigliano.jpg), CC BY 4.0.*
+*Foto: Nicolò Fiorenza, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Compiglianosanvitoromano.png), pubblico dominio; Comune di San Vito Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Compigliano.jpg), CC BY 4.0; SVR Lovers.*
