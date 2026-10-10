@@ -52,6 +52,8 @@ The participant is responsible for the content of the photographs submitted and 
 
 Where recognisable people appear, the participant declares that they have obtained, where necessary, the relevant permissions to photograph them and to publish the image.
 
+Where minors appear in the photograph, the participant declares that they have obtained permission to distribute the image from the parents or from whoever holds parental responsibility.
+
 Any dispute concerning copyright, image rights or privacy will be the sole responsibility of the participant who submitted the photograph.
 
 ## 5. Use of the photographs

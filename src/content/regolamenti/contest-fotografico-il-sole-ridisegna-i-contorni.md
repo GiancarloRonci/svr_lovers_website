@@ -50,6 +50,8 @@ Il partecipante è responsabile del contenuto delle fotografie inviate e garanti
 
 Qualora siano presenti persone riconoscibili, il partecipante dichiara di aver acquisito, ove necessario, le relative autorizzazioni alla ripresa e alla pubblicazione.
 
+Qualora nella fotografia siano presenti minori, il partecipante dichiara di aver ottenuto l'autorizzazione alla diffusione dell'immagine da parte dei genitori o di chi esercita la responsabilità genitoriale.
+
 Eventuali contestazioni relative ai diritti d'autore, al diritto all'immagine o alla privacy saranno di esclusiva responsabilità del partecipante che ha inviato la fotografia.
 
 ## 5. Utilizzo delle fotografie
