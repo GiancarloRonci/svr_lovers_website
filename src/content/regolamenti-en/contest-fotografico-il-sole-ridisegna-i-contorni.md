@@ -46,7 +46,7 @@ The organisers reserve the right to exclude photographs that do not comply with 
 
 ## 4. Copyright and liability
 
-The participant declares that they are the author of the photograph and that they hold all the rights necessary for its publication and distribution.
+The participant declares that they are the author of the photograph or that they hold all the rights necessary for its publication and distribution.
 
 The participant is responsible for the content of the photographs submitted and guarantees that their publication does not infringe the rights of third parties.
 

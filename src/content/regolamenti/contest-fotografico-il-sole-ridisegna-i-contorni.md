@@ -44,7 +44,7 @@ Gli organizzatori si riservano il diritto di escludere le fotografie non conform
 
 ## 4. Diritti d'autore e responsabilità
 
-Il partecipante dichiara di essere l'autore della fotografia e di disporre di tutti i diritti necessari per la sua pubblicazione e diffusione.
+Il partecipante dichiara di essere l'autore della fotografia oppure di disporre di tutti i diritti necessari per la sua pubblicazione e diffusione.
 
 Il partecipante è responsabile del contenuto delle fotografie inviate e garantisce che la loro pubblicazione non violi diritti di terzi.
 
