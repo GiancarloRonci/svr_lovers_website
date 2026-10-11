@@ -2,6 +2,7 @@
 title: Bramante's Nymphaeum
 description: A fascinating Renaissance nymphaeum in Genazzano, never completed, attributed to the celebrated architect Donato Bramante.
 comune: Genazzano
+minutiAuto: 15
 immagine: ./ninfeo-di-bramante-genazzano/photo1.jpg
 coordinate:
   lat: 41.828474

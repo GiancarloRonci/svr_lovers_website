@@ -2,6 +2,7 @@
 title: Genazzano - The Town and Colonna Castle
 description: "The town stretched along a tuff spur a few kilometres from San Vito, dominated by Colonna Castle: the birthplace of Pope Martin V and home of the July Infiorata."
 comune: Genazzano
+minutiAuto: 10
 immagine: ./genazzano/photo1.jpg
 coordinate:
   lat: 41.8350193

@@ -2,6 +2,7 @@
 title: Palestrina - Il centro storico e la Cattedrale di Sant'Agapito
 description: L'antica Praeneste, adagiata a terrazze sul Monte Ginestro, con la Cattedrale di Sant'Agapito, la piazza dedicata a Giovanni Pierluigi da Palestrina e i vicoli a gradoni del centro storico.
 comune: Palestrina
+minutiAuto: 30
 immagine: ./palestrina/photo1.jpg
 coordinate:
   lat: 41.839047

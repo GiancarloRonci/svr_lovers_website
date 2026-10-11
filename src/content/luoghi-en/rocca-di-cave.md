@@ -2,6 +2,7 @@
 title: Rocca di Cave
 description: A small panoramic village with a ruined castle, one of the finest viewpoints over the Prenestini Mountains.
 comune: Rocca di Cave
+minutiAuto: 20
 immagine: ./rocca-di-cave/photo1.jpg
 coordinate:
   lat: 41.84642

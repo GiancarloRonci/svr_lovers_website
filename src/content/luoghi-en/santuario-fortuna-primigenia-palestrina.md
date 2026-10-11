@@ -2,6 +2,7 @@
 title: Sanctuary of Fortuna Primigenia and the Prenestine Archaeological Museum
 description: The grand terraced sanctuary of Palestrina, today the Prenestine Archaeological Museum, home to the famous Nile Mosaic.
 comune: Palestrina
+minutiAuto: 30
 immagine: ./santuario-fortuna-primigenia-palestrina/photo1.jpg
 coordinate:
   lat: 41.840451

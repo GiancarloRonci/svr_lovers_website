@@ -2,6 +2,7 @@
 title: Olevano Romano - Colonna-Barberini Castle and the Serpentara Reserve
 description: The historic village with the Colonna-Barberini castle and the Serpentara woodland, made famous in the 19th century by the "Nazarene" painters.
 comune: Olevano Romano
+minutiAuto: 25
 immagine: ./olevano-romano/photo1.jpg
 coordinate:
   lat: 41.860325

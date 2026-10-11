@@ -2,6 +2,7 @@
 title: Monte Livata
 description: Known as "Rome's mountain", part of the Monti Simbruini and its regional park, with ski slopes, trails and beech woods.
 comune: Subiaco
+minutiAuto: 50
 immagine: ./monte-livata/photo1.jpg
 coordinate:
   lat: 41.9398

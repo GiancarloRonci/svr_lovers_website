@@ -2,6 +2,7 @@
 title: Ninfeo di Bramante
 description: Un affascinante ninfeo rinascimentale a Genazzano, mai portato a termine, attribuito al celebre architetto Donato Bramante.
 comune: Genazzano
+minutiAuto: 15
 immagine: ./ninfeo-di-bramante-genazzano/photo1.jpg
 coordinate:
   lat: 41.828474

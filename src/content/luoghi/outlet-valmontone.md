@@ -2,6 +2,7 @@
 title: L'Outlet di Valmontone
 description: Il grande outlet di moda a circa mezz'ora da San Vito Romano, con più di 180 negozi di marchi italiani e internazionali.
 comune: Valmontone
+minutiAuto: 35
 immagine: ./outlet-valmontone/photo1.jpg
 coordinate:
   lat: 41.7908

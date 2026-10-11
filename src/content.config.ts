@@ -82,6 +82,7 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     title: z.string(),
     description: z.string(),
     comune: z.string(),
+    minutiAuto: z.number().int().positive().optional(),
     immagine: image().optional(),
     galleria: z
       .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))

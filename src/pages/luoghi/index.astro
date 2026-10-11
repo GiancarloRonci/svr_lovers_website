@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { formatDriveTime } from '../../lib/driveTime';
 import { byInsertionDesc } from '../../lib/insertionOrder';
 
 const luoghi = (await getCollection('luoghi')).sort(byInsertionDesc);
@@ -29,6 +30,7 @@ const sections = [
               description={l.data.description}
               image={l.data.immagine}
               luogo={l.data.comune}
+              distanza={formatDriveTime(l.data.minutiAuto, 'it')}
             />
           ))}
         </div>

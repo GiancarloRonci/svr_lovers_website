@@ -2,6 +2,7 @@
 title: Villa Gregoriana
 description: A spectacular natural park in the heart of Tivoli, carved into the gorge of the Aniene river, home to the famous Great Waterfall.
 comune: Tivoli
+minutiAuto: 60
 immagine: ./villa-gregoriana-tivoli/photo1.jpg
 coordinate:
   lat: 41.9664728

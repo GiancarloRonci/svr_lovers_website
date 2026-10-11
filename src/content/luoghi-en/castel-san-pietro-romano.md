@@ -2,6 +2,7 @@
 title: Castel San Pietro Romano
 description: The tiny village on top of Monte Ginestro, on the ancient acropolis of Praeneste, with the Rocca dei Colonna, the polygonal walls and the alleys that were the set of "Bread, Love and Dreams".
 comune: Castel San Pietro Romano
+minutiAuto: 40
 immagine: ./castel-san-pietro-romano/photo1.jpg
 coordinate:
   lat: 41.8458

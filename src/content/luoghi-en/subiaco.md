@@ -2,6 +2,7 @@
 title: Subiaco - The Town and the Rocca Abbaziale
 description: The town in the upper Aniene Valley dominated by the Rocca Abbaziale, cradle of Benedictine monasticism and gateway to the Monti Simbruini.
 comune: Subiaco
+minutiAuto: 35
 immagine: ./subiaco/photo1.jpg
 coordinate:
   lat: 41.9260904

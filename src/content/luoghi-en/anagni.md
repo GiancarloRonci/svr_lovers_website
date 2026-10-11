@@ -2,6 +2,7 @@
 title: Anagni - Cathedral of Santa Maria and Palace of Boniface VIII
 description: The "city of the popes", with its Romanesque cathedral, the frescoed crypt of Saint Magnus and the palace linked to the 1303 "slap of Anagni".
 comune: Anagni
+minutiAuto: 45
 immagine: ./anagni/photo1.jpg
 coordinate:
   lat: 41.742883

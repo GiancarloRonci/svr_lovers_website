@@ -2,6 +2,7 @@
 title: Capranica Prenestina
 description: Il borgo medievale arroccato sui Monti Prenestini, tra i Borghi più belli d'Italia, con il suo caratteristico "cupolino" di scuola bramantesca.
 comune: Capranica Prenestina
+minutiAuto: 15
 immagine: ./capranica-prenestina/photo1.jpg
 coordinate:
   lat: 41.8620926

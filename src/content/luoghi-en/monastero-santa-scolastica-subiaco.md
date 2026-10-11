@@ -2,6 +2,7 @@
 title: Monastery of Santa Scolastica
 description: The Benedictine monastery of Subiaco, the oldest in Italy, with its three cloisters and the birthplace of movable-type printing in the country.
 comune: Subiaco
+minutiAuto: 35
 immagine: ./monastero-santa-scolastica-subiaco/photo1.jpg
 coordinate:
   lat: 41.9186478

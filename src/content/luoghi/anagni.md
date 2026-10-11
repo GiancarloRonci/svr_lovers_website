@@ -2,6 +2,7 @@
 title: Anagni - Cattedrale di Santa Maria e Palazzo di Bonifacio VIII
 description: La "città dei papi", con la cattedrale romanica, la cripta affrescata di San Magno e il palazzo legato allo "schiaffo di Anagni" del 1303.
 comune: Anagni
+minutiAuto: 45
 immagine: ./anagni/photo1.jpg
 coordinate:
   lat: 41.742883

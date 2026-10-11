@@ -2,6 +2,7 @@
 title: Castel San Pietro Romano
 description: Il piccolo borgo in cima al Monte Ginestro, sull'antica acropoli di Praeneste, con la Rocca dei Colonna, le mura poligonali e i vicoli che furono il set di "Pane, amore e fantasia".
 comune: Castel San Pietro Romano
+minutiAuto: 40
 immagine: ./castel-san-pietro-romano/photo1.jpg
 coordinate:
   lat: 41.8458

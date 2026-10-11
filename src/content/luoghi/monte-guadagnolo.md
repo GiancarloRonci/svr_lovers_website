@@ -2,6 +2,7 @@
 title: Monte Guadagnolo
 description: Il centro abitato più alto del Lazio (1218 m), con sentieri panoramici tra i più spettacolari dei Monti Prenestini.
 comune: Capranica Prenestina
+minutiAuto: 30
 immagine: ./monte-guadagnolo/photo1.jpg
 coordinate:
   lat: 41.913682

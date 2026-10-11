@@ -2,6 +2,7 @@
 title: Genazzano - Il borgo e il Castello Colonna
 description: "Il borgo allungato su uno sperone di tufo a pochi chilometri da San Vito, dominato dal Castello Colonna: la città natale di papa Martino V e dell'Infiorata di luglio."
 comune: Genazzano
+minutiAuto: 10
 immagine: ./genazzano/photo1.jpg
 coordinate:
   lat: 41.8350193

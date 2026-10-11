@@ -2,6 +2,7 @@
 title: Villa d'Este
 description: Capolavoro del giardino rinascimentale a Tivoli, Patrimonio UNESCO, celebre per le sue fontane monumentali e i giochi d'acqua.
 comune: Tivoli
+minutiAuto: 60
 immagine: ./villa-deste-tivoli/photo1.jpg
 coordinate:
   lat: 41.962378

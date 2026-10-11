@@ -2,6 +2,7 @@
 title: Subiaco - Il borgo e la Rocca Abbaziale
 description: Il borgo dell'alta Valle dell'Aniene dominato dalla Rocca Abbaziale, culla del monachesimo benedettino e porta d'accesso ai Monti Simbruini.
 comune: Subiaco
+minutiAuto: 35
 immagine: ./subiaco/photo1.jpg
 coordinate:
   lat: 41.9260904

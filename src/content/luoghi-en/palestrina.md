@@ -2,6 +2,7 @@
 title: Palestrina - The Old Town and the Cathedral of Sant'Agapito
 description: Ancient Praeneste, terraced on the slopes of Monte Ginestro, with the Cathedral of Sant'Agapito, the square dedicated to Giovanni Pierluigi da Palestrina and the stepped alleys of the old town.
 comune: Palestrina
+minutiAuto: 30
 immagine: ./palestrina/photo1.jpg
 coordinate:
   lat: 41.839047

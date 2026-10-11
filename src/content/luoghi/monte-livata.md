@@ -2,6 +2,7 @@
 title: Monte Livata
 description: La montagna di Roma, tra Monti Simbruini e Parco Naturale Regionale, con piste da sci, sentieri e boschi di faggio.
 comune: Subiaco
+minutiAuto: 50
 immagine: ./monte-livata/photo1.jpg
 coordinate:
   lat: 41.9398

@@ -4,6 +4,7 @@ import TrailMap from '../../components/TrailMap.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
+import { formatDriveTime } from '../../lib/driveTime';
 import { resolveGalleria } from '../../lib/gallery';
 import { getLastModified, formatLastModified } from '../../lib/lastModified';
 
@@ -13,7 +14,8 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, comune, immagine, galleria, coordinate } = entry.data;
+const { title, description, comune, minutiAuto, immagine, galleria, coordinate } = entry.data;
+const distanza = formatDriveTime(minutiAuto, 'it');
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 
@@ -26,7 +28,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
 <Layout title={title} description={description}>
   <a href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
   <h1>{title}</h1>
-  <p class="comune">📍 {comune}</p>
+  <p class="comune">📍 {comune}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
   {immagine && <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />}
   {
@@ -80,6 +82,10 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     font-weight: 600;
     color: var(--color-muted);
     margin-top: -0.5rem;
+  }
+
+  .distanza {
+    font-weight: 400;
   }
 
   .segnalazioni {

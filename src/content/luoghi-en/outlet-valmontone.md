@@ -2,6 +2,7 @@
 title: The Valmontone Outlet
 description: The large fashion outlet about half an hour from San Vito Romano, with more than 180 stores of Italian and international brands.
 comune: Valmontone
+minutiAuto: 35
 immagine: ./outlet-valmontone/photo1.jpg
 coordinate:
   lat: 41.7908

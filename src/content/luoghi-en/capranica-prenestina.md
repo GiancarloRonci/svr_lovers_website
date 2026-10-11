@@ -2,6 +2,7 @@
 title: Capranica Prenestina
 description: The medieval hilltop village on the Prenestini mountains, listed among Italy's most beautiful villages, known for its distinctive Bramante-school dome.
 comune: Capranica Prenestina
+minutiAuto: 15
 immagine: ./capranica-prenestina/photo1.jpg
 coordinate:
   lat: 41.8620926
