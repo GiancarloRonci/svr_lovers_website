@@ -4,6 +4,7 @@ description: Il musical per tutta la famiglia dell'Associazione "Arte Madre" tor
 dataInizio: 2026-12-12
 dataFine: 2026-12-20
 luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Roma)"
+minutiAuto: 25
 tipologiaEvento: Spettacolo Teatrale
 ---
 

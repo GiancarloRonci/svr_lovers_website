@@ -3,6 +3,7 @@ title: "Forest Bathing: incontriamo gli alberi del 672/C"
 description: Una nuova giornata di forest bathing guidato lungo un breve anello nei boschi di Monte Livata, nel Parco dei Monti Simbruini.
 dataInizio: 2026-11-08
 luogo: "Viale dei Ciclamini, davanti alla chiesa della Santissima Trinità, Monte Livata, Subiaco (Roma)"
+minutiAuto: 50
 tipologiaEvento: Escursione
 ---
 

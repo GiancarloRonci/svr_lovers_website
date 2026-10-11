@@ -3,6 +3,7 @@ title: "Step by step to the Roof of the Simbruini: from Campo dell'Osso to Monte
 description: A family-friendly guided hike from Campo dell'Osso to Monte Autore, the "roof" of the Monti Simbruini.
 dataInizio: 2026-10-25
 luogo: "Taverna di Stuzzikò, Via dei Boschi, Monte Livata, Subiaco (Rome)"
+minutiAuto: 50
 tipologiaEvento: Hike
 ---
 

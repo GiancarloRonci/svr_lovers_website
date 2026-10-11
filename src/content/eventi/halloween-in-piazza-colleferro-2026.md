@@ -3,6 +3,7 @@ title: "Halloween in piazza a Colleferro"
 description: Nel pomeriggio del 31 ottobre Piazza Italia, a Colleferro, ospita "Halloween in piazza", l'appuntamento della Pro Loco.
 dataInizio: 2026-10-31
 luogo: "Piazza Italia, Colleferro (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Cittadino
 ---
 

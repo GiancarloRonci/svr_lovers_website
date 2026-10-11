@@ -3,6 +3,7 @@ title: "Visita guidata a Palazzo Barberini di Palestrina"
 description: Visita guidata alla storia e ai segreti della famiglia Barberini, con l'apertura straordinaria dell'ala privata del palazzo.
 dataInizio: 2026-10-18
 luogo: Palazzo Barberini, Palestrina (Roma)
+minutiAuto: 25
 tipologiaEvento: Evento Culturale
 ---
 

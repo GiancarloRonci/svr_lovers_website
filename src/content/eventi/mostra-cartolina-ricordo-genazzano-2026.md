@@ -4,6 +4,7 @@ description: Al Castello Colonna di Genazzano la mostra del decimo anniversario 
 dataInizio: 2026-09-26
 dataFine: 2026-10-11
 luogo: "Castello Colonna, Genazzano (Roma)"
+minutiAuto: 10
 tipologiaEvento: Evento Culturale
 ---
 

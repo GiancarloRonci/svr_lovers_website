@@ -3,6 +3,7 @@ title: "\"The place - esprimi un desiderio\" at the Auditorium Fabbrica della Mu
 description: On Saturday 17 October the Auditorium Fabbrica della Musica in Colleferro hosts the play "The place - esprimi un desiderio".
 dataInizio: 2026-10-17
 luogo: "Auditorium Fabbrica della Musica, Piazza Occupazione di Fabbrica, Colleferro (Rome)"
+minutiAuto: 35
 tipologiaEvento: Theatrical Performance
 ---
 

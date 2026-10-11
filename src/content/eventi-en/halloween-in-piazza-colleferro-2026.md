@@ -3,6 +3,7 @@ title: "Halloween in the Square in Colleferro"
 description: On the afternoon of 31 October Piazza Italia, in Colleferro, hosts "Halloween in piazza", the event organised by the Pro Loco.
 dataInizio: 2026-10-31
 luogo: "Piazza Italia, Colleferro (Rome)"
+minutiAuto: 35
 tipologiaEvento: Civic Event
 ---
 

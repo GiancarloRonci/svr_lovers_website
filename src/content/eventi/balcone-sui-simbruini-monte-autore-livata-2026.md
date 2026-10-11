@@ -3,6 +3,7 @@ title: "Il balcone sui Simbruini: escursione al Monte Autore"
 description: Escursione guidata da Campo dell'Osso al belvedere del Monte Autore, tra faggete secolari e panorami sulla valle del Simbrivio.
 dataInizio: 2026-10-18
 luogo: "Campo dell'Osso, Monte Livata, Subiaco (Roma)"
+minutiAuto: 55
 tipologiaEvento: Escursione
 ---
 

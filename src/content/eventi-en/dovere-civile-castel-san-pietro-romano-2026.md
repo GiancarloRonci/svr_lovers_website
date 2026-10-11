@@ -3,6 +3,7 @@ title: "\"Dovere Civile\": commemoration and short film in Castel San Pietro Rom
 description: The MuDi in Castel San Pietro Romano remembers the massacre averted on 25 October 1943 with a commemoration and a screening of the short film "Dovere Civile".
 dataInizio: 2026-10-25
 luogo: "MuDi - Museo Diffuso, Castel San Pietro Romano (Rome)"
+minutiAuto: 30
 tipologiaEvento: Cultural Event
 ---
 

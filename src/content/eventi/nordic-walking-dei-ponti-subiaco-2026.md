@@ -3,6 +3,7 @@ title: "Nordic Walking dei Ponti a Subiaco"
 description: Camminata di nordic walking dal Ponte di San Francesco al Ponte di Minnone, per l'ottobre in rosa a sostegno di Komen Italia.
 dataInizio: 2026-10-24
 luogo: "Ponte di San Francesco, Via della Pila, Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Sportivo
 ---
 

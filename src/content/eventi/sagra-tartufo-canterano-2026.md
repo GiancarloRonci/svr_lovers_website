@@ -4,6 +4,7 @@ description: Due weekend tra stand gastronomici a base di tartufo nero, cantine 
 dataInizio: 2026-10-10
 dataFine: 2026-10-18
 luogo: "Centro storico di Canterano (Roma)"
+minutiAuto: 25
 tipologiaEvento: Sagra Enogastronomica
 ---
 

@@ -3,6 +3,7 @@ title: "Making Jenne's traditional biscuits: the Tortiglioni"
 description: A workshop for families and children at the Antico Forno di Jenne to learn how to make Tortiglioni, the village's traditional biscuit.
 dataInizio: 2026-11-01
 luogo: "Antico Forno di Jenne, Jenne (Rome)"
+minutiAuto: 50
 tipologiaEvento: Cultural Event
 ---
 

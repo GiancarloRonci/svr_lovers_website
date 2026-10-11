@@ -3,6 +3,7 @@ title: "Lunch in the Village at Castel San Pietro Romano"
 description: Sixth edition of the village festival day, with a medieval reenactment at the Rocca dei Colonna, a traditional lunch, grape harvest and workshops.
 dataInizio: 2026-10-11
 luogo: "Rocca dei Colonna and historic centre, Castel San Pietro Romano (Rome)"
+minutiAuto: 30
 tipologiaEvento: Food & Wine Festival
 ---
 

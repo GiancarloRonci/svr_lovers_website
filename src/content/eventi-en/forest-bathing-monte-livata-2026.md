@@ -3,6 +3,7 @@ title: "Forest Bathing: meeting the trees of trail 672/C"
 description: A day of guided forest bathing along a short loop through the woods of Monte Livata, in the Monti Simbruini Park.
 dataInizio: 2026-10-25
 luogo: "Viale dei Ciclamini, in front of the Santissima Trinità church, Monte Livata, Subiaco (Rome)"
+minutiAuto: 50
 tipologiaEvento: Hike
 ---
 

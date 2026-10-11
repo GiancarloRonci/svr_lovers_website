@@ -3,6 +3,7 @@ title: "\"La Valigia di Riccardo\": stories, games and a snack in Colleferro"
 description: An afternoon of stories, games and a shared snack for children and families at the Parco dei Donatori in Colleferro, organised by the Pro Loco.
 dataInizio: 2026-10-14
 luogo: "Parco dei Donatori, Via Giotto 90, Colleferro (Rome)"
+minutiAuto: 35
 tipologiaEvento: Civic Event
 ---
 

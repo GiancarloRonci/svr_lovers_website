@@ -3,6 +3,7 @@ title: "Trail on the Saints' Paths in Subiaco"
 description: A 13 km trail running race between the Sacro Speco and the Monastery of Santa Scolastica, with a dedicated kids' route.
 dataInizio: 2026-11-08
 luogo: "Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Sports Event
 ---
 

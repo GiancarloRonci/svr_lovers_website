@@ -3,6 +3,7 @@ title: "Old crafts: bread-making course in Jenne"
 description: A workshop for families and children at the Antico Forno di Jenne, discovering the basic techniques of bread-making.
 dataInizio: 2026-10-11
 luogo: "Antico Forno di Jenne, Jenne (Rome)"
+minutiAuto: 50
 tipologiaEvento: Cultural Event
 ---
 

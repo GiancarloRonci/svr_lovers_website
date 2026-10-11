@@ -4,6 +4,7 @@ description: A musical comedy for all ages, based on the play by Francesco Silve
 dataInizio: 2026-10-17
 dataFine: 2026-10-18
 luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Rome)"
+minutiAuto: 25
 tipologiaEvento: Theatrical Performance
 ---
 

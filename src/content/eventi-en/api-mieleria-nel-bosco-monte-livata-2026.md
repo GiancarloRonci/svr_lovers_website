@@ -4,6 +4,7 @@ description: Three Sundays in October at La Mieleria nel Bosco on Monte Livata, 
 dataInizio: 2026-10-11
 dataFine: 2026-10-25
 luogo: "La Mieleria nel Bosco, Monte Livata, Subiaco (Rome)"
+minutiAuto: 50
 tipologiaEvento: Cultural Event
 ---
 

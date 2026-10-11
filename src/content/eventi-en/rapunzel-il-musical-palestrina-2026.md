@@ -4,6 +4,7 @@ description: The family musical by the "Arte Madre" association returns by popul
 dataInizio: 2026-12-12
 dataFine: 2026-12-20
 luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Rome)"
+minutiAuto: 25
 tipologiaEvento: Theatrical Performance
 ---
 

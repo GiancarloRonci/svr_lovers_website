@@ -4,6 +4,7 @@ description: Three days of tradition, flavors and music in the historic center o
 dataInizio: 2026-10-23
 dataFine: 2026-10-25
 luogo: "Historic center of Cave (Rome)"
+minutiAuto: 15
 tipologiaEvento: Food & Wine Festival
 ---
 

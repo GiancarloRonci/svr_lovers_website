@@ -4,6 +4,7 @@ description: At Castello Colonna in Genazzano, the tenth-anniversary exhibition 
 dataInizio: 2026-09-26
 dataFine: 2026-10-11
 luogo: "Castello Colonna, Genazzano (Rome)"
+minutiAuto: 10
 tipologiaEvento: Cultural Event
 ---
 

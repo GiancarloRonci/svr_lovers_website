@@ -4,6 +4,7 @@ description: Two autumn weekends dedicated to tacchie, handmade pasta from local
 dataInizio: 2026-10-02
 dataFine: 2026-10-11
 luogo: "Piazza del Municipio, Bellegra (Rome)"
+minutiAuto: 15
 tipologiaEvento: Food & Wine Festival
 ---
 

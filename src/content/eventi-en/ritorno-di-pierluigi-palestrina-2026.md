@@ -4,6 +4,7 @@ description: Two days with the Fondazione Giovanni Pierluigi da Palestrina, with
 dataInizio: 2026-10-10
 dataFine: 2026-10-11
 luogo: "Birthplace of Pierluigi, Cathedral Basilica and Church of S. Francesco, Palestrina (Rome)"
+minutiAuto: 25
 tipologiaEvento: Cultural Event
 ---
 

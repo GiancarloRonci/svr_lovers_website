@@ -3,6 +3,7 @@ title: "Passo dopo passo verso il Tetto dei Simbruini: da Campo dell'Osso al Mon
 description: Escursione guidata adatta alle famiglie da Campo dell'Osso al Monte Autore, il "tetto" dei Monti Simbruini.
 dataInizio: 2026-10-25
 luogo: "Taverna di Stuzzikò, Via dei Boschi, Monte Livata, Subiaco (Roma)"
+minutiAuto: 50
 tipologiaEvento: Escursione
 ---
 

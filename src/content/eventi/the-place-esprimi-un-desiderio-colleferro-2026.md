@@ -3,6 +3,7 @@ title: "\"The place - esprimi un desiderio\" all'Auditorium Fabbrica della Music
 description: Sabato 17 ottobre l'Auditorium Fabbrica della Musica di Colleferro ospita lo spettacolo teatrale "The place - esprimi un desiderio".
 dataInizio: 2026-10-17
 luogo: "Auditorium Fabbrica della Musica, Piazza Occupazione di Fabbrica, Colleferro (Roma)"
+minutiAuto: 35
 tipologiaEvento: Spettacolo Teatrale
 ---
 

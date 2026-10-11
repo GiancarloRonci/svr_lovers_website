@@ -4,6 +4,7 @@ description: Four days devoted to the Marrone Segnino chestnut in the historic c
 dataInizio: 2026-10-22
 dataFine: 2026-10-25
 luogo: "Historic center of Segni (Rome)"
+minutiAuto: 45
 tipologiaEvento: Food & Wine Festival
 ---
 

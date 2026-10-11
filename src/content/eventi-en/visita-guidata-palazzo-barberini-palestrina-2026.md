@@ -3,6 +3,7 @@ title: "Guided Tour of Palazzo Barberini in Palestrina"
 description: A guided tour of the history and secrets of the Barberini family, with the exceptional opening of the palace's private wing.
 dataInizio: 2026-10-18
 luogo: Palazzo Barberini, Palestrina (Rome)
+minutiAuto: 25
 tipologiaEvento: Cultural Event
 ---
 

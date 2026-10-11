@@ -3,6 +3,7 @@ title: "Nordic Walking of the Bridges in Subiaco"
 description: A Nordic walking outing from the Bridge of San Francesco to the Minnone Bridge, for Pink October in support of Komen Italia.
 dataInizio: 2026-10-24
 luogo: "Ponte di San Francesco, Via della Pila, Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Sports Event
 ---
 

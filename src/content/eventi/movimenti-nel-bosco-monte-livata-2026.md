@@ -4,6 +4,7 @@ description: Tre giorni di trekking, forest bathing e danza in foresta tra le fa
 dataInizio: 2026-11-06
 dataFine: 2026-11-08
 luogo: "Villa Attiani, Monte Livata, Subiaco (Roma)"
+minutiAuto: 50
 tipologiaEvento: Escursione
 ---
 

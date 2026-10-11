@@ -3,6 +3,7 @@ title: "\"Tracciati\" in Capranica Prenestina: the paths of staying"
 description: Free talk at the Civic Natural History Museum on paths, communities and cultural landscapes of the Monti Prenestini.
 dataInizio: 2026-10-18
 luogo: "Civic Natural History Museum of the Monti Prenestini, Piazza Aristide Frezza 6, Capranica Prenestina (Rome)"
+minutiAuto: 15
 tipologiaEvento: Cultural Event
 ---
 

@@ -3,6 +3,7 @@ title: "Autumn on Monte Autore"
 description: A guided hike through autumn beech forests from Campo dell'Osso to the summit of Monte Autore, the highest in the province of Rome.
 dataInizio: 2026-10-18
 luogo: "Campo dell'Osso, Monte Livata, Subiaco (Rome)"
+minutiAuto: 55
 tipologiaEvento: Hike
 ---
 

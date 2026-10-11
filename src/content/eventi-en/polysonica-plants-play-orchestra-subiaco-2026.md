@@ -3,6 +3,7 @@ title: "Polysonica in Subiaco: sound walk and Plants Play Orchestra concert"
 description: A headphone walk through the medieval lanes of Subiaco and a concert in which plants become music, at the Rocca Abbaziale. Free, booking required.
 dataInizio: 2026-10-18
 luogo: "Piazza Sant'Andrea and Rocca Abbaziale, Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Concert
 ---
 

@@ -3,6 +3,7 @@ title: "Walking from Capranica Prenestina to Monte Guadagnolo"
 description: A promotional hike in the Monti Prenestini, starting from Piazza Baccelli in Capranica Prenestina and ending at Monte Guadagnolo.
 dataInizio: 2026-10-18
 luogo: "Piazza Pietro Baccelli, Capranica Prenestina (Rome)"
+minutiAuto: 15
 tipologiaEvento: Hike
 ---
 

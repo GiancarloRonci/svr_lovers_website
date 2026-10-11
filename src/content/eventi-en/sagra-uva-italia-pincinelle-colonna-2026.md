@@ -4,6 +4,7 @@ description: Three days of celebration in Colonna with Italia grapes, pincinelle
 dataInizio: 2026-10-09
 dataFine: 2026-10-11
 luogo: "Town centre of Colonna (Rome)"
+minutiAuto: 45
 tipologiaEvento: Food & Wine Festival
 ---
 

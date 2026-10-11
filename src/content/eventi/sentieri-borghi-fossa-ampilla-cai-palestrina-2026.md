@@ -3,6 +3,7 @@ title: "Sentieri dei Borghi CAI: Anello di Fossa Ampilla da Genazzano a Rocca di
 description: Escursione sociale della sezione CAI di Palestrina lungo l'anello di Fossa Ampilla, tra Genazzano e Rocca di Cave, con la Scogliera Cretacica Fossile.
 dataInizio: 2026-11-29
 luogo: "Da Genazzano a Rocca di Cave (Roma)"
+minutiAuto: 10
 tipologiaEvento: Escursione
 ---
 

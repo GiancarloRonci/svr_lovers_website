@@ -4,6 +4,7 @@ description: At Castello Colonna in Genazzano, 183 Italian and international art
 dataInizio: 2026-10-17
 dataFine: 2026-10-25
 luogo: "Castello Colonna, Genazzano (Rome)"
+minutiAuto: 10
 tipologiaEvento: Cultural Event
 ---
 

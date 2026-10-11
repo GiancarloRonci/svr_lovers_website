@@ -4,6 +4,7 @@ description: Tre giorni dedicati alle castagne nel centro storico di Rocca di Pa
 dataInizio: 2026-10-16
 dataFine: 2026-10-18
 luogo: "Centro storico di Rocca di Papa (Roma)"
+minutiAuto: 60
 tipologiaEvento: Sagra Enogastronomica
 ---
 

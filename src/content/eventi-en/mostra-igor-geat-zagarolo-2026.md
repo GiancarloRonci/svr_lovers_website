@@ -4,6 +4,7 @@ description: At Palazzo Rospigliosi, a solo show tracing thirty years of Igor Ge
 dataInizio: 2026-10-09
 dataFine: 2026-10-11
 luogo: "Palazzo Rospigliosi, Zagarolo (Rome)"
+minutiAuto: 35
 tipologiaEvento: Cultural Event
 ---
 

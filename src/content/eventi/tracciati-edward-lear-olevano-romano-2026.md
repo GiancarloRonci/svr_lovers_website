@@ -3,6 +3,7 @@ title: "\"Tracciati\" a Olevano Romano: Edward Lear e il Grand Tour"
 description: Incontro gratuito a SpaziOlevano sul viaggio negli itinerari del Grand Tour attraverso l'opera di Edward Lear.
 dataInizio: 2026-10-17
 luogo: "SpaziOlevano, Via Roma 12, Olevano Romano (Roma)"
+minutiAuto: 20
 tipologiaEvento: Evento Culturale
 ---
 

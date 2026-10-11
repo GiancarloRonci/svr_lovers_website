@@ -4,6 +4,7 @@ description: La commedia di Shakespeare portata in scena dagli allievi del corso
 dataInizio: 2026-11-21
 dataFine: 2026-11-22
 luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Roma)"
+minutiAuto: 25
 tipologiaEvento: Spettacolo Teatrale
 ---
 

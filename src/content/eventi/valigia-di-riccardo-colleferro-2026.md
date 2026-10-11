@@ -3,6 +3,7 @@ title: "\"La Valigia di Riccardo\": storie, giochi e merenda a Colleferro"
 description: Un pomeriggio di storie, giochi e merenda per bambini e famiglie al Parco dei Donatori di Colleferro, organizzato dalla Pro Loco.
 dataInizio: 2026-10-14
 luogo: "Parco dei Donatori, Via Giotto 90, Colleferro (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Cittadino
 ---
 

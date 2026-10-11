@@ -3,6 +3,7 @@ title: "Presentazione del libro \"Mare Nero\" di Marco Ansaldo a Castel San Piet
 description: Il MuDi, Museo Diffuso di Castel San Pietro Romano, ospita la presentazione del libro "Mare Nero" di Marco Ansaldo.
 dataInizio: 2026-10-24
 luogo: "MuDi - Museo Diffuso, Castel San Pietro Romano (Roma)"
+minutiAuto: 30
 tipologiaEvento: Evento Culturale
 ---
 

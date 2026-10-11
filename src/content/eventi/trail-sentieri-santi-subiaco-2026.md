@@ -3,6 +3,7 @@ title: "Trail sui Sentieri dei Santi a Subiaco"
 description: Gara di trail running di 13 km tra il Sacro Speco e il Monastero di Santa Scolastica, con percorso per bambini dedicato.
 dataInizio: 2026-11-08
 luogo: "Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Sportivo
 ---
 

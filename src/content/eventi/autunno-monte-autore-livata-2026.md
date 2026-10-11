@@ -3,6 +3,7 @@ title: "Autunno sul Monte Autore"
 description: Escursione guidata tra le faggete d'autunno da Campo dell'Osso alla vetta del Monte Autore, la più alta della provincia di Roma.
 dataInizio: 2026-10-18
 luogo: "Campo dell'Osso, Monte Livata, Subiaco (Roma)"
+minutiAuto: 55
 tipologiaEvento: Escursione
 ---
 

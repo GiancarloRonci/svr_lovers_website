@@ -3,6 +3,7 @@ title: "\"Dovere Civile\": commemorazione e cortometraggio a Castel San Pietro R
 description: Il MuDi di Castel San Pietro Romano ricorda l'eccidio scampato del 25 ottobre 1943 con una commemorazione e la proiezione del cortometraggio "Dovere Civile".
 dataInizio: 2026-10-25
 luogo: "MuDi - Museo Diffuso, Castel San Pietro Romano (Roma)"
+minutiAuto: 30
 tipologiaEvento: Evento Culturale
 ---
 

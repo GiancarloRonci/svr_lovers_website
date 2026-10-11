@@ -4,6 +4,7 @@ description: A SpaziOlevano la mostra finale del laboratorio integrato di pittur
 dataInizio: 2026-10-12
 dataFine: 2026-10-17
 luogo: "SpaziOlevano, Via Roma 12, Olevano Romano (Roma)"
+minutiAuto: 20
 tipologiaEvento: Evento Culturale
 ---
 

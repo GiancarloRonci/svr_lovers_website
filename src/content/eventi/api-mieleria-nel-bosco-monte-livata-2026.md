@@ -4,6 +4,7 @@ description: Tre domeniche di ottobre alla Mieleria nel Bosco di Monte Livata, t
 dataInizio: 2026-10-11
 dataFine: 2026-10-25
 luogo: "La Mieleria nel Bosco, Monte Livata, Subiaco (Roma)"
+minutiAuto: 50
 tipologiaEvento: Evento Culturale
 ---
 

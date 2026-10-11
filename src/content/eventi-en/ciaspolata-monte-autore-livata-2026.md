@@ -4,6 +4,7 @@ description: Two Saturdays in December to climb to the summit of Monte Autore on
 dataInizio: 2026-12-19
 dataFine: 2026-12-26
 luogo: "Monna dell'Orso car park, Monte Livata, Subiaco (Rome)"
+minutiAuto: 60
 tipologiaEvento: Hike
 ---
 

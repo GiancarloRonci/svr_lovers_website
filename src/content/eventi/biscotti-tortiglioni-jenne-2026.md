@@ -3,6 +3,7 @@ title: "Realizziamo i biscotti tipici di Jenne: i Tortiglioni"
 description: Laboratorio per famiglie e bambini all'Antico Forno di Jenne per imparare a preparare i Tortiglioni, il biscotto tipico del paese.
 dataInizio: 2026-11-01
 luogo: "Antico Forno di Jenne, Jenne (Roma)"
+minutiAuto: 50
 tipologiaEvento: Evento Culturale
 ---
 

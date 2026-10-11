@@ -4,6 +4,7 @@ description: At SpaziOlevano, the final exhibition of the integrated landscape p
 dataInizio: 2026-10-12
 dataFine: 2026-10-17
 luogo: "SpaziOlevano, Via Roma 12, Olevano Romano (Rome)"
+minutiAuto: 20
 tipologiaEvento: Cultural Event
 ---
 

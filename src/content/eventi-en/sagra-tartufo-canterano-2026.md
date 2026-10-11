@@ -4,6 +4,7 @@ description: Two weekends of black truffle food stalls, open cellars and music i
 dataInizio: 2026-10-10
 dataFine: 2026-10-18
 luogo: "Historic centre of Canterano (Rome)"
+minutiAuto: 25
 tipologiaEvento: Food & Wine Festival
 ---
 

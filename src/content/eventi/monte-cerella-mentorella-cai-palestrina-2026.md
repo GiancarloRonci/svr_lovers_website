@@ -3,6 +3,7 @@ title: "Alpinismo Giovanile CAI: Monte Cerella dal Santuario della Mentorella"
 description: Escursione del gruppo di Alpinismo Giovanile della sezione CAI di Palestrina sui Monti Prenestini, dal Santuario della Mentorella al Monte Cerella.
 dataInizio: 2026-12-12
 luogo: "Santuario della Mentorella, Monti Prenestini (Roma)"
+minutiAuto: 30
 tipologiaEvento: Escursione
 ---
 

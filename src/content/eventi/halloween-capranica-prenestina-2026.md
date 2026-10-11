@@ -3,6 +3,7 @@ title: "Festa di Halloween a Capranica Prenestina"
 description: La sera del 31 ottobre il Parco Comunale di Capranica Prenestina ospita la Festa di Halloween.
 dataInizio: 2026-10-31
 luogo: "Parco Comunale, Capranica Prenestina (Roma)"
+minutiAuto: 15
 tipologiaEvento: Evento Cittadino
 ---
 

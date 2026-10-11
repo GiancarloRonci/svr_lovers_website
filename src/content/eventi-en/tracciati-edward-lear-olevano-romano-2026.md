@@ -3,6 +3,7 @@ title: "\"Tracciati\" in Olevano Romano: Edward Lear and the Grand Tour"
 description: Free talk at SpaziOlevano on travelling the Grand Tour routes through the work of Edward Lear.
 dataInizio: 2026-10-17
 luogo: "SpaziOlevano, Via Roma 12, Olevano Romano (Rome)"
+minutiAuto: 20
 tipologiaEvento: Cultural Event
 ---
 

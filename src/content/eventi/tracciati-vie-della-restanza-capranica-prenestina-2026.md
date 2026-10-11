@@ -3,6 +3,7 @@ title: "\"Tracciati\" a Capranica Prenestina: le vie della restanza"
 description: Incontro gratuito al Museo Civico Naturalistico su cammini, comunità e paesaggi culturali dei Monti Prenestini.
 dataInizio: 2026-10-18
 luogo: "Museo Civico Naturalistico dei Monti Prenestini, Piazza Aristide Frezza 6, Capranica Prenestina (Roma)"
+minutiAuto: 15
 tipologiaEvento: Evento Culturale
 ---
 

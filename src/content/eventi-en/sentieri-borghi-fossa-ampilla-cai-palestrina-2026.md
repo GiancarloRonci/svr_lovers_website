@@ -3,6 +3,7 @@ title: "CAI Village Trails: Fossa Ampilla Loop from Genazzano to Rocca di Cave"
 description: A CAI Palestrina club hike along the Fossa Ampilla loop, between Genazzano and Rocca di Cave, including the Cretaceous Fossil Reef.
 dataInizio: 2026-11-29
 luogo: "From Genazzano to Rocca di Cave (Rome)"
+minutiAuto: 10
 tipologiaEvento: Hike
 ---
 

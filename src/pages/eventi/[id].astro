@@ -5,6 +5,7 @@ import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { formatEventDate } from '../../lib/eventDate';
 import { tagClass } from '../../lib/eventCategory';
+import { formatDriveTime } from '../../lib/driveTime';
 import { getLastModified, formatLastModified } from '../../lib/lastModified';
 
 export async function getStaticPaths() {
@@ -13,7 +14,8 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, dataInizio, dataFine, luogo, tipologiaEvento, immagine, galleria } = entry.data;
+const { title, description, dataInizio, dataFine, luogo, minutiAuto, tipologiaEvento, immagine, galleria } = entry.data;
+const distanza = formatDriveTime(minutiAuto, 'it');
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 ---
@@ -23,7 +25,7 @@ const lastModified = getLastModified(entry.filePath);
   {tipologiaEvento && <p><span class={tagClass(tipologiaEvento)}>{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
   <p class="meta">{formatEventDate(dataInizio, dataFine, 'it-IT')}</p>
-  {luogo && <p class="luogo">📍 {luogo}</p>}
+  {luogo && <p class="luogo">📍 {luogo}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>}
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 
   {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
@@ -53,6 +55,10 @@ const lastModified = getLastModified(entry.filePath);
     font-weight: 600;
     font-size: 1.05rem;
     margin: 0.25rem 0 1rem;
+  }
+  .distanza {
+    font-weight: 400;
+    color: var(--color-muted);
   }
   .gallery {
     display: grid;

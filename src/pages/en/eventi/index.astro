@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/url';
 import { formatEventDate } from '../../../lib/eventDate';
 import { tagClass } from '../../../lib/eventCategory';
+import { formatDriveTime } from '../../../lib/driveTime';
 
 const oggi = new Date();
 oggi.setHours(0, 0, 0, 0);
@@ -48,6 +49,7 @@ const tipologie = [...new Set(eventi.map((e) => e.data.tipologiaEvento).filter((
               dataInizio={e.data.dataInizio}
               description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'en-GB')}
               luogo={e.data.luogo}
+              distanza={formatDriveTime(e.data.minutiAuto, 'en')}
               image={e.data.immagine}
             />
           ))}

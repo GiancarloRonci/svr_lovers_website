@@ -4,6 +4,7 @@ description: Three days of trekking, forest bathing and forest dance in the autu
 dataInizio: 2026-11-06
 dataFine: 2026-11-08
 luogo: "Villa Attiani, Monte Livata, Subiaco (Rome)"
+minutiAuto: 50
 tipologiaEvento: Hike
 ---
 

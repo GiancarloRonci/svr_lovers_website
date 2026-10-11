@@ -3,6 +3,7 @@ title: "\"Ricordando Giovanna e Manuela\" walk in Subiaco"
 description: A walk of about 5 km along trails and through the historic centre of Subiaco, collecting donations for Komen Italia.
 dataInizio: 2026-10-11
 luogo: "Piazza del Campo, Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Sports Event
 ---
 

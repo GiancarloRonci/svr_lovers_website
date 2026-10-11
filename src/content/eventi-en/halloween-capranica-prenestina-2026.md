@@ -3,6 +3,7 @@ title: "Halloween Party in Capranica Prenestina"
 description: On the evening of 31 October the municipal park of Capranica Prenestina hosts the Halloween Party.
 dataInizio: 2026-10-31
 luogo: "Parco Comunale, Capranica Prenestina (Rome)"
+minutiAuto: 15
 tipologiaEvento: Civic Event
 ---
 

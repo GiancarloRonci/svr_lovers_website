@@ -4,6 +4,7 @@ description: Al Castello Colonna di Genazzano 183 artisti italiani e internazion
 dataInizio: 2026-10-17
 dataFine: 2026-10-25
 luogo: "Castello Colonna, Genazzano (Roma)"
+minutiAuto: 10
 tipologiaEvento: Evento Culturale
 ---
 

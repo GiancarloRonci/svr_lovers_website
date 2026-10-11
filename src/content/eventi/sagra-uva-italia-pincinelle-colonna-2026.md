@@ -4,6 +4,7 @@ description: Tre giorni di festa a Colonna tra uva Italia, pincinelle, cantine l
 dataInizio: 2026-10-09
 dataFine: 2026-10-11
 luogo: "Centro di Colonna (Roma)"
+minutiAuto: 45
 tipologiaEvento: Sagra Enogastronomica
 ---
 

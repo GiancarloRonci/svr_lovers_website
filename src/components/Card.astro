@@ -10,12 +10,13 @@ interface Props {
   tagClass?: string;
   meta?: string;
   luogo?: string;
+  distanza?: string;
   nota?: string;
   image?: ImageMetadata;
   dataInizio?: Date;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, nota, image, dataInizio } = Astro.props;
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, distanza, nota, image, dataInizio } = Astro.props;
 // Event cards expose their start date and type to the filters on the events page.
 const eventAttrs = dataInizio ? { 'data-inizio': dataInizio.toISOString().slice(0, 10), 'data-tipo': tag ?? '' } : {};
 ---
@@ -28,6 +29,7 @@ const eventAttrs = dataInizio ? { 'data-inizio': dataInizio.toISOString().slice(
     {meta && <p class="card-meta">📅 {meta}</p>}
     <p>{description}</p>
     {luogo && <p class="luogo">📍 {luogo}</p>}
+    {distanza && <p class="distanza">🚗 {distanza}</p>}
     {nota && <p class="nota">⏳ {nota}</p>}
   </div>
 </a>
@@ -42,6 +44,11 @@ const eventAttrs = dataInizio ? { 'data-inizio': dataInizio.toISOString().slice(
   .luogo {
     font-weight: 600;
     margin-top: 0.3rem;
+  }
+  .distanza {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
   }
   .nota {
     color: var(--color-muted);

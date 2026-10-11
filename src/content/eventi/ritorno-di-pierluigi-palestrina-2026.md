@@ -4,6 +4,7 @@ description: Due giorni con la Fondazione Giovanni Pierluigi da Palestrina, tra 
 dataInizio: 2026-10-10
 dataFine: 2026-10-11
 luogo: "Casa natale del Pierluigi, Basilica cattedrale e Chiesa di S. Francesco, Palestrina (Roma)"
+minutiAuto: 25
 tipologiaEvento: Evento Culturale
 ---
 

@@ -3,6 +3,7 @@ title: "Polysonica a Subiaco: percorso sonoro e concerto della Plants Play Orche
 description: Una passeggiata in cuffia tra i vicoli medievali di Subiaco e un concerto in cui le piante diventano musica, alla Rocca Abbaziale. Gratuito su prenotazione.
 dataInizio: 2026-10-18
 luogo: "Piazza Sant'Andrea e Rocca Abbaziale, Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Concerto
 ---
 

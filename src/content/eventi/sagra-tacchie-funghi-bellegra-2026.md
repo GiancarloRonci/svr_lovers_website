@@ -4,6 +4,7 @@ description: Due weekend di autunno dedicati alle tacchie, pasta fatta a mano de
 dataInizio: 2026-10-02
 dataFine: 2026-10-11
 luogo: "Piazza del Municipio, Bellegra (Roma)"
+minutiAuto: 15
 tipologiaEvento: Sagra Enogastronomica
 ---
 

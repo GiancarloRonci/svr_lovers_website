@@ -4,6 +4,7 @@ description: Quattro giorni dedicati al marrone segnino nel centro storico di Se
 dataInizio: 2026-10-22
 dataFine: 2026-10-25
 luogo: "Centro storico di Segni (Roma)"
+minutiAuto: 45
 tipologiaEvento: Sagra Enogastronomica
 ---
 

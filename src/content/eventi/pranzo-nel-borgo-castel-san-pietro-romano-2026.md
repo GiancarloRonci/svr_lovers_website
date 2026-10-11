@@ -3,6 +3,7 @@ title: "Pranzo nel Borgo a Castel San Pietro Romano"
 description: Sesta edizione della giornata di festa nel borgo, con rievocazione medievale alla Rocca dei Colonna, pranzo tipico, vendemmia e laboratori.
 dataInizio: 2026-10-11
 luogo: "Rocca dei Colonna e centro storico, Castel San Pietro Romano (Roma)"
+minutiAuto: 30
 tipologiaEvento: Sagra Enogastronomica
 ---
 

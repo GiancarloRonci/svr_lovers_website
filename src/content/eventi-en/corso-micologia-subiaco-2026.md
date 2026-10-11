@@ -4,6 +4,7 @@ description: Five afternoons with the Park's mycologists to learn how to identif
 dataInizio: 2026-11-09
 dataFine: 2026-11-13
 luogo: "Porta del Parco, Corso Cesare Battisti 71, Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Cultural Event
 ---
 

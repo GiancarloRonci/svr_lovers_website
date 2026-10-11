@@ -3,6 +3,7 @@ title: "The balcony over the Simbruini: hike to Monte Autore"
 description: A guided hike from Campo dell'Osso to the Monte Autore viewpoint, through centuries-old beech forests with views over the Simbrivio valley.
 dataInizio: 2026-10-18
 luogo: "Campo dell'Osso, Monte Livata, Subiaco (Rome)"
+minutiAuto: 55
 tipologiaEvento: Hike
 ---
 

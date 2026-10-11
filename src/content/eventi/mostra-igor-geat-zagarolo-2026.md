@@ -4,6 +4,7 @@ description: A Palazzo Rospigliosi una personale che ripercorre trent'anni di ri
 dataInizio: 2026-10-09
 dataFine: 2026-10-11
 luogo: "Palazzo Rospigliosi, Zagarolo (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Culturale
 ---
 

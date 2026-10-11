@@ -3,6 +3,7 @@ title: "Custodire e raccontare il territorio: walk towards the Coleman Trail"
 description: A free hike by the Monti Simbruini Park from Subiaco towards the Coleman Trail, with a tasting of local products in Jenne.
 dataInizio: 2026-10-18
 luogo: "Ruins of Nero's Villa, Subiaco (Rome)"
+minutiAuto: 35
 tipologiaEvento: Hike
 ---
 

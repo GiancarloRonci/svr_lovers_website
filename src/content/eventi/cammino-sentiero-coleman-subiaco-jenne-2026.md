@@ -3,6 +3,7 @@ title: "Custodire e raccontare il territorio: cammino verso il Sentiero Coleman"
 description: Un'escursione gratuita del Parco dei Monti Simbruini da Subiaco verso il Sentiero Coleman, con degustazione di prodotti tipici a Jenne.
 dataInizio: 2026-10-18
 luogo: "Ruderi della Villa di Nerone, Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Escursione
 ---
 

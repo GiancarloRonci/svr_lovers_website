@@ -3,6 +3,7 @@ title: "Camminata \"Ricordando Giovanna e Manuela\" a Subiaco"
 description: Camminata di circa 5 km tra sentieri e centro storico di Subiaco, con raccolta di offerte per Komen Italia.
 dataInizio: 2026-10-11
 luogo: "Piazza del Campo, Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Sportivo
 ---
 

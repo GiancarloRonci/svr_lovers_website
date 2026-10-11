@@ -4,6 +4,7 @@ description: Three days devoted to chestnuts in the historic center of Rocca di 
 dataInizio: 2026-10-16
 dataFine: 2026-10-18
 luogo: "Historic center of Rocca di Papa (Rome)"
+minutiAuto: 60
 tipologiaEvento: Food & Wine Festival
 ---
 

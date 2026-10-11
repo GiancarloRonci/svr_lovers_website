@@ -4,6 +4,7 @@ description: Tre giorni tra tradizioni, sapori e musica nel centro storico di Ca
 dataInizio: 2026-10-23
 dataFine: 2026-10-25
 luogo: "Centro storico di Cave (Roma)"
+minutiAuto: 15
 tipologiaEvento: Sagra Enogastronomica
 ---
 

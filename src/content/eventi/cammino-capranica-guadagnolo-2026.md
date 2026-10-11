@@ -3,6 +3,7 @@ title: "In cammino da Capranica Prenestina a Monte Guadagnolo"
 description: Escursione promozionale sui Monti Prenestini, con partenza da Piazza Baccelli a Capranica Prenestina e arrivo a Monte Guadagnolo.
 dataInizio: 2026-10-18
 luogo: "Piazza Pietro Baccelli, Capranica Prenestina (Roma)"
+minutiAuto: 15
 tipologiaEvento: Escursione
 ---
 

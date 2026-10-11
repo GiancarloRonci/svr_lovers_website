@@ -4,6 +4,7 @@ description: Shakespeare's comedy staged by the students of the adult course of 
 dataInizio: 2026-11-21
 dataFine: 2026-11-22
 luogo: "Auditorium Pierluigi, Piazza Santa Maria degli Angeli, Palestrina (Rome)"
+minutiAuto: 25
 tipologiaEvento: Theatrical Performance
 ---
 

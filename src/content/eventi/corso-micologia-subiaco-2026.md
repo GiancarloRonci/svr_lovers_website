@@ -4,6 +4,7 @@ description: Cinque pomeriggi con i micologi del Parco per imparare a riconoscer
 dataInizio: 2026-11-09
 dataFine: 2026-11-13
 luogo: "Porta del Parco, Corso Cesare Battisti 71, Subiaco (Roma)"
+minutiAuto: 35
 tipologiaEvento: Evento Culturale
 ---
 

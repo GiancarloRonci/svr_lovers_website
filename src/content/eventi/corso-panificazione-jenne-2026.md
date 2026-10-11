@@ -3,6 +3,7 @@ title: "Gli antichi mestieri: corso di panificazione a Jenne"
 description: Laboratorio per famiglie e bambini all'Antico Forno di Jenne, alla scoperta delle tecniche di base della panificazione.
 dataInizio: 2026-10-11
 luogo: "Antico Forno di Jenne, Jenne (Roma)"
+minutiAuto: 50
 tipologiaEvento: Evento Culturale
 ---
 
