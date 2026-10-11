@@ -45,6 +45,7 @@ I concerti pop/rock/dance in questi comuni sono rari e perlopiù legati a sagre 
    dataInizio: YYYY-MM-DD
    dataFine: YYYY-MM-DD   # opzionale, solo se il festival dura più giorni
    luogo: "<piazza/palco, Comune (Roma)>"
+   minutiAuto: <minuti>   # minuti di auto da San Vito Romano, vedi `aggiorna-eventi` (script `drive-time.mjs`); da omettere per i concerti a San Vito
    tipologiaEvento: Concerto
    ---
 

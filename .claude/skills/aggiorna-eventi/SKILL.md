@@ -35,6 +35,7 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
    dataInizio: YYYY-MM-DD
    dataFine: YYYY-MM-DD   # opzionale, solo se l'evento dura più giorni
    luogo: "<luogo/piazza, Comune (Roma)>"   # opzionale ma quasi sempre presente
+   minutiAuto: <minuti>   # minuti di auto da San Vito Romano; da omettere per gli eventi a San Vito
    tipologiaEvento: <categoria>   # opzionale
    ---
 
@@ -43,6 +44,8 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
    *Fonte: [Nome fonte](URL)*
    ```
    Valori tipici già usati per `tipologiaEvento`: Concerto, Evento Cittadino, Evento Culturale, Evento Religioso, Evento Scientifico, Evento Sportivo, Sagra Enogastronomica, Spettacolo Teatrale. Riusa uno di questi se pertinente, altrimenti conia una nuova categoria breve e coerente.
+
+   **`minutiAuto`** è il tempo di percorrenza in auto da San Vito Romano, mostrato accanto al luogo ("circa 20 min in auto da San Vito"). Riusa il valore di un evento già presente nello stesso luogo o comune; per un luogo nuovo calcolalo con `node .claude/skills/aggiorna-eventi/drive-time.mjs "<Comune>, Roma, Italia"` (per un punto di ritrovo fuori paese indica il punto, es. `"Campo dell'Osso, Subiaco, Italia"`) e controlla che il luogo trovato sia quello giusto. Non inventare il valore: se il calcolo non riesce, ometti il campo e segnalalo. Per gli eventi a San Vito Romano (partite della Sanvitese comprese) il campo non va messo. Il valore è identico nel file IT e in quello EN.
 
 5. **Crea sempre anche la versione inglese** in `src/content/eventi-en/<stesso-slug>.md`, stessa struttura e stesse date, con titolo/descrizione/corpo tradotti (vedi memoria "Keep English content aligned").
 
