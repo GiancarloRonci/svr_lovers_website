@@ -377,7 +377,7 @@ giorni:
       - oraInizio: "14:30"
         oraFine: "18:00"
         attivita: "Valmontone Outlet"
-        descrizione: "An afternoon of shopping among the more than 200 shops of the Fashion District, just over half an hour from San Vito: also a good option on rainy days (Places section)."
+        descrizione: "An afternoon of shopping among the more than 180 shops of the Valmontone Outlet, just over half an hour from San Vito: also a good option on rainy days (Places section)."
         link:
           - href: "en/luoghi/outlet-valmontone/"
             testo: "Go to the Valmontone Outlet page"
