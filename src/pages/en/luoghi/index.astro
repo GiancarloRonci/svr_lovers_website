@@ -5,8 +5,9 @@ import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/url';
 import { formatDriveTime } from '../../../lib/driveTime';
 import { byInsertionDesc } from '../../../lib/insertionOrder';
+import { byLastChangeDesc } from '../../../lib/siteUpdates';
 
-const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc);
+const luoghi = (await getCollection('luoghiEn')).sort(byInsertionDesc).sort(byLastChangeDesc('luoghi'));
 const isSanVito = (l: (typeof luoghi)[number]) => l.data.comune === 'San Vito Romano';
 const sections = [
   { id: 'a-san-vito', title: 'In San Vito', items: luoghi.filter(isSanVito) },

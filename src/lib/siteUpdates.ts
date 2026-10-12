@@ -79,6 +79,21 @@ function readChanges(): RawChange[] {
 
 const changes = readChanges();
 
+const lastChange = new Map<string, number>();
+for (const c of changes) {
+  const key = `${c.section}/${c.id}`;
+  lastChange.set(key, Math.max(lastChange.get(key) ?? 0, c.date.getTime()));
+}
+
+/**
+ * Ordina le voci di una sezione per data dell'ultima modifica (testo o foto, IT o EN), dalla più
+ * recente, ricavata dalla cronologia git. Come per le news del sito, i commit con [no-log] non contano.
+ */
+export function byLastChangeDesc(section: SectionKey) {
+  const time = (e: { id: string }) => lastChange.get(`${section}/${e.id}`) ?? 0;
+  return <T extends { id: string }>(a: T, b: T): number => time(b) - time(a);
+}
+
 /**
  * Ultimi aggiornamenti delle pagine di contenuto, dal più recente, ricavati dalla cronologia git.
  * Le pagine che non esistono più (contenuti rimossi) vengono escluse.
