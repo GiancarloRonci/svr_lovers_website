@@ -35,7 +35,10 @@ const luoghi = (await getCollection('luoghi'))
 const news = (await getCollection('news'))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 5);
-const articoli = (await getCollection('articoli')).sort(byInsertionDesc).slice(0, 3);
+const articoli = (await getCollection('articoli'))
+  .sort(byInsertionDesc)
+  .sort(byLastChangeDesc('articoli'))
+  .slice(0, 3);
 ---
 
 <Layout title="Home">
