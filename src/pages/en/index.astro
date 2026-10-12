@@ -6,6 +6,7 @@ import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { byInsertionDesc } from '../../lib/insertionOrder';
+import { byLastChangeDesc } from '../../lib/siteUpdates';
 import { formatEventDate } from '../../lib/eventDate';
 import { getSiteLastModified, formatLastModifiedFull } from '../../lib/lastModified';
 
@@ -15,7 +16,10 @@ const heroImages = import.meta.glob<{ default: ImageMetadata }>('../../assets/he
 });
 const heroImage = Object.values(heroImages)[0]?.default;
 
-const percorsi = (await getCollection('percorsiEn')).sort(byInsertionDesc).slice(0, 4);
+const percorsi = (await getCollection('percorsiEn'))
+  .sort(byInsertionDesc)
+  .sort(byLastChangeDesc('percorsi'))
+  .slice(0, 4);
 
 const oggi = new Date();
 oggi.setHours(0, 0, 0, 0);
