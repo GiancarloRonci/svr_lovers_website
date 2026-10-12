@@ -4,6 +4,7 @@ description: Un soggiorno ipotizzato dal lunedì alla domenica, tra il borgo di 
 giorniTotali: 7
 giorni:
   - titolo: "Giorno 1 (lunedì): San Vito Romano a piedi"
+    sintesi: "Una giornata tutta a piedi nel paese: al mattino le Tre Fontane di Piazza Augusto Baccelli, il Castello Theodoli, Piazza San Biagio e i vicoli del centro storico; nel pomeriggio le chiese, il santuario di Compigliano, la Fonte Canale e il castagneto della Macchiarella, per chiudere con il passeggio serale in Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -90,6 +91,7 @@ giorni:
           - href: "luoghi/villa-comunale/"
             testo: "Vai alla scheda della Villa Comunale"
   - titolo: "Giorno 2 (martedì): santuari e borghi dei Monti Prenestini"
+    sintesi: "Una giornata in auto sui Monti Prenestini: al mattino il Santuario della Mentorella e Monte Guadagnolo, dove ci si ferma a pranzo; nel pomeriggio il borgo di Capranica Prenestina e il tramonto da Rocca di Cave, prima di rientrare a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -123,6 +125,7 @@ giorni:
           - href: "luoghi/rocca-di-cave/"
             testo: "Vai alla scheda di Rocca di Cave"
   - titolo: "Giorno 3 (mercoledì): le ville di Tivoli"
+    sintesi: "Una giornata a Tivoli, a circa 40 minuti di auto da San Vito: al mattino Villa d'Este, con il palazzo e il giardino delle fontane; dopo il pranzo in centro, Villa Gregoriana, il parco del FAI nella gola dell'Aniene con la Grande Cascata."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -150,6 +153,7 @@ giorni:
         oraFine: "18:00"
         attivita: "Rientro a San Vito Romano"
   - titolo: "Giorno 4 (giovedì): i monasteri di Subiaco e Bellegra"
+    sintesi: "Una giornata in auto verso Subiaco: al mattino i monasteri di San Benedetto (Sacro Speco) e di Santa Scolastica, poi il pranzo a Subiaco; nel pomeriggio, sulla via del ritorno, il Convento di San Francesco a Bellegra."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"
@@ -178,6 +182,7 @@ giorni:
           - href: "luoghi/grotte-dell-arco/"
             testo: "Vai alla scheda delle Grotte dell'Arco"
   - titolo: "Giorno 5 (venerdì): Monte Livata"
+    sintesi: "Una giornata in montagna a Monte Livata, a poco meno di un'ora di auto, nel Parco dei Monti Simbruini: al mattino un trekking tra le faggete, poi il pranzo a La Bandita e un pomeriggio in quota tra prati e attività di stagione, prima della serata a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -206,6 +211,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "Rientro a San Vito e passeggiata serale fino alle Tre Fontane di Piazza Augusto Baccelli."
   - titolo: "Giorno 6 (sabato): Genazzano e Olevano Romano"
+    sintesi: "Una giornata tra due borghi vicini: al mattino Genazzano, con il Santuario della Madonna del Buon Consiglio e il Ninfeo di Bramante; dopo il pranzo, Olevano Romano e il bosco della Serpentara, prima del passeggio serale in Villa Comunale a San Vito."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:45"
@@ -238,6 +244,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "Rientro a San Vito e passeggio serale in Villa Comunale."
   - titolo: "Giorno 7 (domenica): Palestrina e saluti"
+    sintesi: "L'ultima giornata, a Palestrina: il Santuario della Fortuna Primigenia e il Museo Archeologico Prenestino con il Mosaico del Nilo, poi il pranzo e il rientro a San Vito per un'ultima passeggiata prima di ripartire."
     tappe:
       - oraInizio: "09:30"
         oraFine: "12:30"

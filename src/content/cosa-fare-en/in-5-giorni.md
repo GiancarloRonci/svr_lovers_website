@@ -4,6 +4,7 @@ description: A stay assumed to run from Tuesday to Saturday, through the town of
 giorniTotali: 5
 giorni:
   - titolo: "Day 1 (Tuesday): San Vito Romano on foot"
+    sintesi: "A day spent entirely on foot in the town: in the morning the Tre Fontane in Piazza Augusto Baccelli, Theodoli Castle, Piazza San Biagio and the alleys of the old town; in the afternoon the churches, the Sanctuary of Compigliano, Fonte Canale and the chestnut grove of the Macchiarella, ending with an evening stroll in the Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -90,6 +91,7 @@ giorni:
           - href: "en/luoghi/villa-comunale/"
             testo: "Go to the Villa Comunale page"
   - titolo: "Day 2 (Wednesday): sanctuaries and villages of the Monti Prenestini"
+    sintesi: "A day by car in the Monti Prenestini: in the morning the Sanctuary of the Mentorella and Monte Guadagnolo, where you stop for lunch; in the afternoon the village of Capranica Prenestina and sunset from Rocca di Cave, before heading back to San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -123,6 +125,7 @@ giorni:
           - href: "en/luoghi/rocca-di-cave/"
             testo: "Go to the Rocca di Cave page"
   - titolo: "Day 3 (Thursday): the villas of Tivoli"
+    sintesi: "A day in Tivoli, about 40 minutes by car from San Vito: in the morning Villa d'Este, with its palace and garden of fountains; after lunch in the centre, Villa Gregoriana, the FAI park in the Aniene gorge with the Great Waterfall."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -150,6 +153,7 @@ giorni:
         oraFine: "18:00"
         attivita: "Back to San Vito Romano"
   - titolo: "Day 4 (Friday): the monasteries of Subiaco and Bellegra"
+    sintesi: "A day by car to Subiaco: in the morning the monasteries of San Benedetto (Sacro Speco) and Santa Scolastica, then lunch in Subiaco; in the afternoon, on the way back, the Convent of San Francesco in Bellegra."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"
@@ -178,6 +182,7 @@ giorni:
           - href: "en/luoghi/grotte-dell-arco/"
             testo: "Go to the Arch Caves page"
   - titolo: "Day 5 (Saturday): Genazzano, Olevano Romano and farewell"
+    sintesi: "The last day, between two nearby villages: in the morning Genazzano, with the Sanctuary of Our Lady of Good Counsel and Bramante's Nymphaeum; after lunch, Olevano Romano and the Serpentara wood, then back to San Vito for a last stroll before leaving."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:45"

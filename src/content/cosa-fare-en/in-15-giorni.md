@@ -4,6 +4,7 @@ description: Two weeks, from Monday to the following Monday, with three days in 
 giorniTotali: 15
 giorni:
   - titolo: "Day 1 (Monday): San Vito Romano on foot"
+    sintesi: "A day spent entirely on foot in the town: in the morning the Tre Fontane in Piazza Augusto Baccelli, Theodoli Castle, Piazza San Biagio and the alleys of the old town; in the afternoon the churches, the Sanctuary of Compigliano, Fonte Canale and the chestnut grove of the Macchiarella, ending with an evening stroll in the Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -90,6 +91,7 @@ giorni:
           - href: "en/luoghi/villa-comunale/"
             testo: "Go to the Villa Comunale page"
   - titolo: "Day 2 (Tuesday): sanctuaries and villages of the Monti Prenestini"
+    sintesi: "A day by car in the Monti Prenestini: in the morning the Sanctuary of the Mentorella and Monte Guadagnolo, where you stop for lunch; in the afternoon the village of Capranica Prenestina and sunset from Rocca di Cave, before heading back to San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -123,6 +125,7 @@ giorni:
           - href: "en/luoghi/rocca-di-cave/"
             testo: "Go to the Rocca di Cave page"
   - titolo: "Day 3 (Wednesday): the villas of Tivoli"
+    sintesi: "A day in Tivoli, about 40 minutes by car from San Vito: in the morning Villa d'Este, with its palace and garden of fountains; after lunch in the centre, Villa Gregoriana, the FAI park in the Aniene gorge with the Great Waterfall."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -150,6 +153,7 @@ giorni:
         oraFine: "18:00"
         attivita: "Back to San Vito Romano"
   - titolo: "Day 4 (Thursday): the monasteries of Subiaco and Bellegra"
+    sintesi: "A day by car to Subiaco: in the morning the monasteries of San Benedetto (Sacro Speco) and Santa Scolastica, then lunch in Subiaco; in the afternoon, on the way back, the Convent of San Francesco in Bellegra."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"
@@ -178,6 +182,7 @@ giorni:
           - href: "en/luoghi/grotte-dell-arco/"
             testo: "Go to the Arch Caves page"
   - titolo: "Day 5 (Friday): Monte Livata"
+    sintesi: "A day in the mountains at Monte Livata, just under an hour's drive away, in the Monti Simbruini Park: in the morning a hike through the beech woods, then lunch at La Bandita and an afternoon on the mountain among meadows and seasonal activities, before the evening in San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -206,6 +211,7 @@ giorni:
         attivita: "Evening in town"
         descrizione: "Back in San Vito for an evening stroll to the Tre Fontane in Piazza Augusto Baccelli."
   - titolo: "Day 6 (Saturday): Genazzano and Olevano Romano"
+    sintesi: "A day between two nearby villages: in the morning Genazzano, with the Sanctuary of Our Lady of Good Counsel and Bramante's Nymphaeum; after lunch, Olevano Romano and the Serpentara wood, before an evening stroll in the Villa Comunale in San Vito."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:45"
@@ -238,6 +244,7 @@ giorni:
         attivita: "Evening in town"
         descrizione: "Back in San Vito for an evening stroll in the Villa Comunale."
   - titolo: "Day 7 (Sunday): Palestrina"
+    sintesi: "A day in Palestrina: the Sanctuary of Fortuna Primigenia and the Prenestine Archaeological Museum with the Nile Mosaic; after lunch, an unhurried stroll through the old town and, once back, Sunday evening in San Vito."
     tappe:
       - oraInizio: "09:30"
         oraFine: "12:30"
@@ -261,6 +268,7 @@ giorni:
         attivita: "Evening in town"
         descrizione: "Back in San Vito for the Sunday evening stroll between Piazza Roma and the Villa Comunale."
   - titolo: "Day 8 (Monday): San Vito's old town, second time round"
+    sintesi: "A day on foot in San Vito, at a slower pace: in the morning Trail B (Olevano) and the climb up the Stretta to Via delle Logge; in the afternoon reading about history and legends in the Villa Comunale and a second walk among the town's details, ending in Piazza San Biagio lit up at night."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -305,6 +313,7 @@ giorni:
           - href: "en/luoghi/piazza-san-biagio/"
             testo: "Go to the Piazza San Biagio page"
   - titolo: "Day 9 (Tuesday): Hadrian's Villa"
+    sintesi: "A morning at Hadrian's Villa, about an hour's drive away: the largest residence ever built by a Roman emperor, a UNESCO World Heritage Site, with the Maritime Theatre and the Canopus; after lunch in Tivoli, back to San Vito for a restful afternoon."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -325,6 +334,7 @@ giorni:
         attivita: "Back to town and a free afternoon"
         descrizione: "After such a long morning, an afternoon of rest in San Vito."
   - titolo: "Day 10 (Wednesday): Anagni, the city of the popes"
+    sintesi: "A day in Anagni, about 45 minutes by car: the Cathedral of Santa Maria with its frescoed crypt and the Palace of Boniface VIII; after lunch, a stroll through the medieval streets of the centre, before heading back to San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -345,6 +355,7 @@ giorni:
         attivita: "A stroll through the old town"
         descrizione: "The medieval streets of the centre, before heading back to San Vito."
   - titolo: "Day 11 (Thursday): the Castelli Romani"
+    sintesi: "A day in the Castelli Romani, about an hour's drive away: in the morning Frascati and Castel Gandolfo, overlooking Lake Albano; after lunch, the little village of Nemi, perched above its lake."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -366,6 +377,7 @@ giorni:
         attivita: "Nemi"
         descrizione: "The little village perched above Lake Nemi, famous for its wild strawberries."
   - titolo: "Day 12 (Friday): Zagarolo and Valmontone"
+    sintesi: "An easy day: in the morning the old town of Zagarolo and the Toy Museum; after lunch, an afternoon of shopping at the Valmontone Outlet, a good alternative on rainy days too."
     tappe:
       - oraInizio: "09:30"
         oraFine: "12:00"
@@ -382,6 +394,7 @@ giorni:
           - href: "en/luoghi/outlet-valmontone/"
             testo: "Go to the Valmontone Outlet page"
   - titolo: "Day 13 (Saturday): a day in Rome"
+    sintesi: "A day in Rome, leaving the car at a metro terminus: in the morning the Colosseum and the Imperial Fora; after lunch in the centre, a walk between the Trevi Fountain, the Pantheon and Piazza Navona, before heading back to San Vito."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:45"
@@ -399,6 +412,7 @@ giorni:
         attivita: "Trevi Fountain, the Pantheon and Piazza Navona"
         descrizione: "A walk among the squares and monuments of the historic centre, before taking the metro back and returning to San Vito."
   - titolo: "Day 14 (Sunday): the Arch Caves and Bellegra"
+    sintesi: "A day just a few kilometres from San Vito: the Arch Caves, which can be visited by booking only; after lunch in Bellegra, a stroll through the village and, once back, the last Sunday evening in the Villa Comunale."
     tappe:
       - oraInizio: "10:00"
         oraFine: "12:00"
@@ -419,6 +433,7 @@ giorni:
         attivita: "Evening in town"
         descrizione: "The last Sunday evening in the Villa Comunale and, if one is scheduled, a Culture&Tourism activity (Culture&Tourism section)."
   - titolo: "Day 15 (Monday): San Vito's old town, third time round, and farewell"
+    sintesi: "The last day, on foot in San Vito once more: from Piazza Roma along Trail A (San Biagio), the Church of Santa Maria de Arce with Theodoli Castle and the alleys of Via dell'Arringo and Vicolo Baciadonne; after a farewell lunch, Fonte Canale and the Tre Fontane before leaving."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"

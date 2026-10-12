@@ -4,6 +4,7 @@ description: Due settimane, dal lunedì al lunedì successivo, con tre giornate 
 giorniTotali: 15
 giorni:
   - titolo: "Giorno 1 (lunedì): San Vito Romano a piedi"
+    sintesi: "Una giornata tutta a piedi nel paese: al mattino le Tre Fontane di Piazza Augusto Baccelli, il Castello Theodoli, Piazza San Biagio e i vicoli del centro storico; nel pomeriggio le chiese, il santuario di Compigliano, la Fonte Canale e il castagneto della Macchiarella, per chiudere con il passeggio serale in Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -90,6 +91,7 @@ giorni:
           - href: "luoghi/villa-comunale/"
             testo: "Vai alla scheda della Villa Comunale"
   - titolo: "Giorno 2 (martedì): santuari e borghi dei Monti Prenestini"
+    sintesi: "Una giornata in auto sui Monti Prenestini: al mattino il Santuario della Mentorella e Monte Guadagnolo, dove ci si ferma a pranzo; nel pomeriggio il borgo di Capranica Prenestina e il tramonto da Rocca di Cave, prima di rientrare a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -123,6 +125,7 @@ giorni:
           - href: "luoghi/rocca-di-cave/"
             testo: "Vai alla scheda di Rocca di Cave"
   - titolo: "Giorno 3 (mercoledì): le ville di Tivoli"
+    sintesi: "Una giornata a Tivoli, a circa 40 minuti di auto da San Vito: al mattino Villa d'Este, con il palazzo e il giardino delle fontane; dopo il pranzo in centro, Villa Gregoriana, il parco del FAI nella gola dell'Aniene con la Grande Cascata."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -150,6 +153,7 @@ giorni:
         oraFine: "18:00"
         attivita: "Rientro a San Vito Romano"
   - titolo: "Giorno 4 (giovedì): i monasteri di Subiaco e Bellegra"
+    sintesi: "Una giornata in auto verso Subiaco: al mattino i monasteri di San Benedetto (Sacro Speco) e di Santa Scolastica, poi il pranzo a Subiaco; nel pomeriggio, sulla via del ritorno, il Convento di San Francesco a Bellegra."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"
@@ -178,6 +182,7 @@ giorni:
           - href: "luoghi/grotte-dell-arco/"
             testo: "Vai alla scheda delle Grotte dell'Arco"
   - titolo: "Giorno 5 (venerdì): Monte Livata"
+    sintesi: "Una giornata in montagna a Monte Livata, a poco meno di un'ora di auto, nel Parco dei Monti Simbruini: al mattino un trekking tra le faggete, poi il pranzo a La Bandita e un pomeriggio in quota tra prati e attività di stagione, prima della serata a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -206,6 +211,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "Rientro a San Vito e passeggiata serale fino alle Tre Fontane di Piazza Augusto Baccelli."
   - titolo: "Giorno 6 (sabato): Genazzano e Olevano Romano"
+    sintesi: "Una giornata tra due borghi vicini: al mattino Genazzano, con il Santuario della Madonna del Buon Consiglio e il Ninfeo di Bramante; dopo il pranzo, Olevano Romano e il bosco della Serpentara, prima del passeggio serale in Villa Comunale a San Vito."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:45"
@@ -238,6 +244,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "Rientro a San Vito e passeggio serale in Villa Comunale."
   - titolo: "Giorno 7 (domenica): Palestrina"
+    sintesi: "Una giornata a Palestrina: il Santuario della Fortuna Primigenia e il Museo Archeologico Prenestino con il Mosaico del Nilo; dopo il pranzo, una passeggiata senza fretta nel centro storico e, al rientro, la serata della domenica a San Vito."
     tappe:
       - oraInizio: "09:30"
         oraFine: "12:30"
@@ -261,6 +268,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "Rientro a San Vito per la passeggiata della domenica sera tra Piazza Roma e la Villa Comunale."
   - titolo: "Giorno 8 (lunedì): il centro storico di San Vito, seconda volta"
+    sintesi: "Una giornata a piedi a San Vito, con più calma: al mattino il Percorso B (Olevano) e la salita per la Stretta fino a Via delle Logge; nel pomeriggio le letture di storia e leggende in Villa Comunale e un secondo giro tra i dettagli del borgo, fino a Piazza San Biagio illuminata di sera."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -305,6 +313,7 @@ giorni:
           - href: "luoghi/piazza-san-biagio/"
             testo: "Vai alla scheda di Piazza San Biagio"
   - titolo: "Giorno 9 (martedì): Villa Adriana"
+    sintesi: "Una mattinata a Villa Adriana, a circa un'ora di auto: la più grande residenza mai costruita da un imperatore romano, Patrimonio dell'Umanità UNESCO, con il Teatro Marittimo e il Canopo; dopo il pranzo a Tivoli, rientro e pomeriggio di riposo a San Vito."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:30"
@@ -325,6 +334,7 @@ giorni:
         attivita: "Rientro e pomeriggio libero"
         descrizione: "Dopo una mattinata così lunga, un pomeriggio di riposo a San Vito."
   - titolo: "Giorno 10 (mercoledì): Anagni, la città dei papi"
+    sintesi: "Una giornata ad Anagni, a circa 45 minuti di auto: la Cattedrale di Santa Maria con la cripta affrescata e il Palazzo di Bonifacio VIII; dopo il pranzo, una passeggiata tra le vie medievali del centro, prima di rientrare a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -345,6 +355,7 @@ giorni:
         attivita: "Passeggiata nel centro storico"
         descrizione: "Le vie medievali del centro, prima di rientrare a San Vito."
   - titolo: "Giorno 11 (giovedì): i Castelli Romani"
+    sintesi: "Una giornata ai Castelli Romani, a circa un'ora di auto: al mattino Frascati e Castel Gandolfo, affacciato sul Lago Albano; dopo il pranzo, il piccolo borgo di Nemi, sospeso sul suo lago."
     tappe:
       - oraInizio: "09:00"
         oraFine: "10:00"
@@ -366,6 +377,7 @@ giorni:
         attivita: "Nemi"
         descrizione: "Il piccolo borgo sospeso sul lago di Nemi, famoso per le fragoline di bosco."
   - titolo: "Giorno 12 (venerdì): Zagarolo e Valmontone"
+    sintesi: "Una giornata leggera: al mattino il centro storico di Zagarolo e il Museo del Giocattolo; dopo il pranzo, un pomeriggio di shopping all'Outlet di Valmontone, buona alternativa anche nelle giornate di pioggia."
     tappe:
       - oraInizio: "09:30"
         oraFine: "12:00"
@@ -382,6 +394,7 @@ giorni:
           - href: "luoghi/outlet-valmontone/"
             testo: "Vai alla scheda dell'Outlet di Valmontone"
   - titolo: "Giorno 13 (sabato): una giornata a Roma"
+    sintesi: "Una giornata a Roma, lasciando l'auto a un capolinea della metropolitana: al mattino il Colosseo e i Fori Imperiali; dopo il pranzo in centro, una passeggiata tra Fontana di Trevi, Pantheon e Piazza Navona, prima di rientrare a San Vito."
     tappe:
       - oraInizio: "08:30"
         oraFine: "09:45"
@@ -399,6 +412,7 @@ giorni:
         attivita: "Fontana di Trevi, Pantheon e Piazza Navona"
         descrizione: "Una passeggiata tra le piazze e i monumenti del centro storico, prima di riprendere la metro e rientrare a San Vito."
   - titolo: "Giorno 14 (domenica): le Grotte dell'Arco e Bellegra"
+    sintesi: "Una giornata a pochi chilometri da San Vito: le Grotte dell'Arco, da visitare solo su prenotazione; dopo il pranzo a Bellegra, una passeggiata nel borgo e, al rientro, l'ultima domenica sera in Villa Comunale."
     tappe:
       - oraInizio: "10:00"
         oraFine: "12:00"
@@ -419,6 +433,7 @@ giorni:
         attivita: "Serata in paese"
         descrizione: "L'ultima domenica sera in Villa Comunale e, se in programma, un'attività di Cultura&Turismo (sezione Cultura&Turismo)."
   - titolo: "Giorno 15 (lunedì): il centro storico di San Vito, terza volta e saluti"
+    sintesi: "L'ultima giornata, di nuovo a piedi a San Vito: da Piazza Roma il Percorso A (San Biagio), la Chiesa di Santa Maria de Arce con il Castello Theodoli e i vicoli di Via dell'Arringo e Vicolo Baciadonne; dopo il pranzo di saluto, la Fonte Canale e le Tre Fontane prima di ripartire."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
