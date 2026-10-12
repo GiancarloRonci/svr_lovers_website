@@ -3,6 +3,7 @@ import Layout from '../../../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../../lib/url';
 import { getLastModified, formatLastModified } from '../../../../lib/lastModified';
+import { isProtetta } from '../../../../lib/protezione';
 
 // Pagina del regolamento: una per ogni attività che ha un regolamento con lo stesso slug
 export async function getStaticPaths() {
@@ -19,7 +20,7 @@ const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} protetto={isProtetta(entry.id)}>
   <a href={withBase(`en/culturaturismo/${entry.id}/`)}>&larr; Back to the contest</a>
   <h1>{title}</h1>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}

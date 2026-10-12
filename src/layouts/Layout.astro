@@ -1,12 +1,15 @@
 ---
 import { withBase } from '../lib/url';
 import { GA_MEASUREMENT_ID } from '../lib/analytics';
+import { HASH_PASSWORD } from '../lib/protezione';
 
 interface Props {
   title: string;
   description?: string;
   // Pagine di servizio (es. ringraziamenti) da tenere fuori dai motori di ricerca
   noindex?: boolean;
+  // Pagine in lavorazione: il contenuto si vede solo dopo aver inserito la password
+  protetto?: boolean;
 }
 
 const strings = {
@@ -54,6 +57,13 @@ const strings = {
       reject: 'Rifiuta',
       prefs: 'Preferenze cookie',
     },
+    accesso: {
+      title: 'Pagina riservata',
+      text: 'Questa pagina è ancora in preparazione. Per vederla inserisci la password che ti è stata comunicata.',
+      label: 'Password',
+      submit: 'Entra',
+      error: 'Password non corretta.',
+    },
   },
   en: {
     brand: 'SanVitoRomano Lovers',
@@ -98,6 +108,13 @@ const strings = {
       accept: 'Accept',
       reject: 'Reject',
       prefs: 'Cookie preferences',
+    },
+    accesso: {
+      title: 'Restricted page',
+      text: 'This page is still being prepared. To view it, enter the password you were given.',
+      label: 'Password',
+      submit: 'Enter',
+      error: 'Incorrect password.',
     },
   },
 } as const;
@@ -159,7 +176,8 @@ const navItems: (NavLink | NavDropdown)[] = [
   { type: 'link', label: t.nav.contatti, href: withBase(`${prefix}contatti/`) },
 ];
 
-const { title, description = t.defaultDescription, noindex = false } = Astro.props;
+const { title, description = t.defaultDescription, noindex = false, protetto = false } = Astro.props;
+const hashAccesso = HASH_PASSWORD;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 let relPath = Astro.url.pathname;
@@ -181,7 +199,7 @@ const privacyHref = withBase(`${prefix}privacy/`);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {(noindex || protetto) && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href={withBase('favicon.svg')} />
     <link rel="alternate" hreflang="it" href={new URL(itHref, Astro.site)} />
     <link rel="alternate" hreflang="en" href={new URL(enHref, Astro.site)} />
@@ -206,6 +224,16 @@ const privacyHref = withBase(`${prefix}privacy/`);
           };
           try {
             if (localStorage.getItem('svr-cookie-consent') === 'granted') window.svrLoadAnalytics();
+          } catch (e) {}
+        </script>
+      )
+    }
+    {
+      protetto && (
+        <script is:inline define:vars={{ hashAccesso }}>
+          // Chi ha già inserito la password su questo dispositivo vede subito il contenuto
+          try {
+            if (localStorage.getItem('svr-accesso') === hashAccesso) document.documentElement.classList.add('accesso-ok');
           } catch (e) {}
         </script>
       )
@@ -240,7 +268,56 @@ const privacyHref = withBase(`${prefix}privacy/`);
       </nav>
     </header>
 
-    <main>
+    {
+      protetto && (
+        <section class="accesso">
+          <h1>{t.accesso.title}</h1>
+          <p>{t.accesso.text}</p>
+          <form id="accesso-form">
+            <label for="accesso-password">{t.accesso.label}</label>
+            <input type="password" id="accesso-password" autocomplete="off" autocapitalize="off" required />
+            <button type="submit">{t.accesso.submit}</button>
+          </form>
+          <p id="accesso-errore" class="accesso-errore" role="alert" hidden>{t.accesso.error}</p>
+        </section>
+      )
+    }
+    {
+      protetto && (
+        <script is:inline define:vars={{ hashAccesso }}>
+          document.getElementById('accesso-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var errore = document.getElementById('accesso-errore');
+            var valore = document.getElementById('accesso-password').value.trim().toLowerCase();
+            crypto.subtle
+              .digest('SHA-256', new TextEncoder().encode(valore))
+              .then(function (buf) {
+                var hash = Array.prototype.map
+                  .call(new Uint8Array(buf), function (b) {
+                    return ('0' + b.toString(16)).slice(-2);
+                  })
+                  .join('');
+                if (hash !== hashAccesso) {
+                  errore.hidden = false;
+                  return;
+                }
+                try {
+                  localStorage.setItem('svr-accesso', hash);
+                  // Si ricarica la pagina, così il modulo incorporato si dimensiona a contenuto visibile
+                  location.reload();
+                } catch (err) {
+                  document.documentElement.classList.add('accesso-ok');
+                }
+              })
+              .catch(function () {
+                errore.hidden = false;
+              });
+          });
+        </script>
+      )
+    }
+
+    <main class:list={[{ protetto }]}>
       <slot />
     </main>
 
@@ -681,6 +758,53 @@ const privacyHref = withBase(`${prefix}privacy/`);
         background: var(--color-accent-dark);
         color: #fff;
         cursor: pointer;
+      }
+
+      html:not(.accesso-ok) main.protetto,
+      html.accesso-ok .accesso {
+        display: none;
+      }
+
+      .accesso {
+        max-width: 460px;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+      }
+
+      .accesso form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
+      }
+
+      .accesso label {
+        flex-basis: 100%;
+        font-weight: 700;
+      }
+
+      .accesso input {
+        flex: 1 1 200px;
+        font: inherit;
+        padding: 0.45rem 0.75rem;
+        border: 1px solid var(--color-border);
+        border-radius: 6px;
+      }
+
+      .accesso button {
+        font: inherit;
+        font-weight: 700;
+        padding: 0.45rem 1.1rem;
+        border-radius: 999px;
+        border: 1px solid var(--color-accent-dark);
+        background: var(--color-accent-dark);
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .accesso-errore {
+        color: #a3303a;
       }
 
       .card-grid {

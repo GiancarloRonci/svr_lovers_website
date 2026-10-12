@@ -4,6 +4,7 @@ import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { getLastModified, formatLastModified } from '../../lib/lastModified';
+import { isProtetta } from '../../lib/protezione';
 
 export async function getStaticPaths() {
   const attivita = await getCollection('associazione');
@@ -29,7 +30,7 @@ const lastModified = getLastModified(entry.filePath);
 const grazieUrl = withBase(`culturaturismo/${entry.id}/grazie/`);
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} protetto={isProtetta(entry.id)}>
   <a href={withBase('culturaturismo/')}>&larr; Tutte le attività</a>
   <span class="tag">{etichette[categoria]}</span>
   <h1>{title}</h1>

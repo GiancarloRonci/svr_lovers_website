@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/url';
+import { isProtetta } from '../../../lib/protezione';
 
 // Pagina di ringraziamento: una per ogni attività che ha un modulo Tally
 export async function getStaticPaths() {
@@ -17,7 +18,7 @@ const paginaContest = withBase(`culturaturismo/${entry.id}/`);
 const haRegolamento = (await getCollection('regolamenti')).some((r) => r.id === entry.id);
 ---
 
-<Layout title="Grazie per la tua foto" description={`Grazie per aver partecipato: ${title}`} noindex>
+<Layout title="Grazie per la tua foto" description={`Grazie per aver partecipato: ${title}`} noindex protetto={isProtetta(entry.id)}>
   <a href={paginaContest}>&larr; Torna al contest</a>
   <h1>Grazie<span id="grazie-nome"></span>!</h1>
   <p class="meta">{title}</p>
