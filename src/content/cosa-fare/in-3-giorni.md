@@ -4,6 +4,7 @@ description: Un soggiorno ipotizzato dal giovedì al sabato, tra il borgo di San
 giorniTotali: 3
 giorni:
   - titolo: "Giorno 1 (giovedì): San Vito Romano a piedi"
+    sintesi: "Una giornata tutta a piedi nel paese: al mattino il Castello Theodoli, Piazza San Biagio e i vicoli del centro storico; nel pomeriggio le chiese, il santuario di Compigliano, la Fonte Canale e il castagneto della Macchiarella, per chiudere con il passeggio serale in Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -83,6 +84,7 @@ giorni:
           - href: "luoghi/villa-comunale/"
             testo: "Vai alla scheda della Villa Comunale"
   - titolo: "Giorno 2 (venerdì): santuari e borghi dei Monti Prenestini"
+    sintesi: "Una giornata in auto sui Monti Prenestini: al mattino il Santuario della Mentorella e Monte Guadagnolo, dove ci si ferma a pranzo; nel pomeriggio il borgo di Capranica Prenestina e il tramonto da Rocca di Cave, prima di rientrare a San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -116,6 +118,7 @@ giorni:
           - href: "luoghi/rocca-di-cave/"
             testo: "Vai alla scheda di Rocca di Cave"
   - titolo: "Giorno 3 (sabato): i monasteri di Subiaco e Bellegra"
+    sintesi: "Una giornata in auto verso Subiaco: al mattino i monasteri di San Benedetto (Sacro Speco) e di Santa Scolastica, poi il pranzo in paese; nel pomeriggio, sulla via del ritorno, il Convento di San Francesco a Bellegra e un'ultima passeggiata a San Vito prima di ripartire."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"

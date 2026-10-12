@@ -4,6 +4,7 @@ description: A stay assumed to run from Thursday to Saturday, through the town o
 giorniTotali: 3
 giorni:
   - titolo: "Day 1 (Thursday): San Vito Romano on foot"
+    sintesi: "A day spent entirely on foot in the town: in the morning Theodoli Castle, Piazza San Biagio and the alleys of the old town; in the afternoon the churches, the Sanctuary of Compigliano, Fonte Canale and the chestnut grove of the Macchiarella, ending with an evening stroll in the Villa Comunale."
     tappe:
       - oraInizio: "09:30"
         oraFine: "10:00"
@@ -83,6 +84,7 @@ giorni:
           - href: "en/luoghi/villa-comunale/"
             testo: "Go to the Villa Comunale page"
   - titolo: "Day 2 (Friday): sanctuaries and villages of the Monti Prenestini"
+    sintesi: "A day by car in the Monti Prenestini: in the morning the Sanctuary of the Mentorella and Monte Guadagnolo, where you stop for lunch; in the afternoon the village of Capranica Prenestina and sunset from Rocca di Cave, before heading back to San Vito."
     tappe:
       - oraInizio: "09:00"
         oraFine: "11:00"
@@ -116,6 +118,7 @@ giorni:
           - href: "en/luoghi/rocca-di-cave/"
             testo: "Go to the Rocca di Cave page"
   - titolo: "Day 3 (Saturday): the monasteries of Subiaco and Bellegra"
+    sintesi: "A day by car to Subiaco: in the morning the monasteries of San Benedetto (Sacro Speco) and Santa Scolastica, then lunch in town; in the afternoon, on the way back, the Convent of San Francesco in Bellegra and a last stroll in San Vito before leaving."
     tappe:
       - oraInizio: "09:30"
         oraFine: "11:00"

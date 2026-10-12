@@ -193,6 +193,7 @@ const cosaFareSchema = z.object({
   giorni: z.array(
     z.object({
       titolo: z.string().optional(),
+      sintesi: z.string().optional(),
       tappe: z.array(
         z.object({
           oraInizio: z.string(),

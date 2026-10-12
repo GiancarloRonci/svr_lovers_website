@@ -36,6 +36,7 @@ const lastModified = getLastModified(entry.filePath);
     giorni.map((giorno, i) => (
       <section class="giorno">
         <h2>{giorno.titolo ?? `Giorno ${i + 1}`}</h2>
+        {giorno.sintesi && <p class="sintesi">{giorno.sintesi}</p>}
         <ol class="tappe">
           {giorno.tappe.map((tappa) => (
             <li class="tappa">
@@ -77,6 +78,11 @@ const lastModified = getLastModified(entry.filePath);
 
   .giorno {
     margin-top: 2rem;
+  }
+
+  .sintesi {
+    margin: 0.5rem 0 0;
+    color: var(--color-muted);
   }
 
   .tappe {
