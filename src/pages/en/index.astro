@@ -173,7 +173,7 @@ const articoli = (await getCollection('articoliEn'))
       </section>
 
       <section class="home-section">
-        <h2>Upcoming events and festivals</h2>
+        <h2>Upcoming events and festivals <span class="h2-nota">(San Vito and its surroundings)</span></h2>
         <div class="card-grid">
           {
             eventi.map((e) => (
@@ -311,6 +311,10 @@ const articoli = (await getCollection('articoliEn'))
     .highlights h2 {
       font-size: 1.2rem;
       margin: 0;
+    }
+    .highlights h2 .h2-nota {
+      font-size: 0.8em;
+      font-weight: normal;
     }
     .highlights .card-grid {
       grid-template-columns: 1fr;
