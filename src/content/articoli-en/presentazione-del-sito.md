@@ -3,6 +3,7 @@ title: "The SanVitoRomano Lovers website is online"
 description: "The post introducing the community's website: what is in it, who it is for and how to take part."
 data: 2026-10-12
 autore: Redazione SVRLovers
+immagine: ./presentazione-del-sito/copertina.png
 ---
 
 🌿 **San Vito Romano has a new address: [www.sanvitoromanolovers.org](https://www.sanvitoromanolovers.org/en/)** ❤️
