@@ -19,6 +19,10 @@ foto:
     lng: 12.983247
     immagine: ./lattaceca/foto2.jpg
     didascalia: "Theodoli Castle seen from below, from Via Santa Maria, above the bank of yellow flowers."
+  - lat: 41.883513
+    lng: 12.984069
+    immagine: ./lattaceca/foto3.jpg
+    didascalia: "A covered passage in the old town in the evening: the stone arch, the wooden-beam ceiling lit by small lamps and the cobbled paving."
 ---
 
 A short loop walk in the centre of San Vito Romano, starting and ending in [Piazza Augusto Baccelli](/en/luoghi/piazza-augusto-baccelli).

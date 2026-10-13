@@ -19,6 +19,10 @@ foto:
     lng: 12.983247
     immagine: ./lattaceca/foto2.jpg
     didascalia: "Il Castello Theodoli visto dal basso, da Via Santa Maria, sopra la scarpata fiorita di giallo."
+  - lat: 41.883513
+    lng: 12.984069
+    immagine: ./lattaceca/foto3.jpg
+    didascalia: "Un passaggio coperto del centro storico di sera: l'arco in pietra, il soffitto di travi in legno illuminato da piccole lampade e il selciato di sampietrini."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).
