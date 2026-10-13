@@ -17,4 +17,14 @@ In the 18th century, friar Tommaso da Cori, having become superior of the commun
 
 Still today the convent, reachable along a path through the woods, keeps this spirit of quiet and simplicity, and remains a destination for visits and spiritual retreats for those seeking the peace of the Prenestini-Simbruini mountains.
 
+## Opening hours and contacts
+
+The convent does not publish visiting hours: before setting off, it is best to phone the friars to find out when it can be visited.
+
+**Phone:** [+39 06 9565291](tel:+39069565291)
+
+**Address:** Via Nido dei Santi (S.P. 10a) 1, Bellegra (Rome)
+
+*Source: [Diocese of Tivoli and Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/) (checked in October 2026).*
+
 *Photo: Claudius Ziehr, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:(Claudius_Ziehr)_Bellegra_001.jpg), CC BY-SA 3.0 (view of Bellegra).*

@@ -17,4 +17,14 @@ Nel Settecento fra Tommaso da Cori, divenuto superiore della comunità, fondò p
 
 Ancora oggi il convento, raggiungibile lungo un sentiero nel bosco, conserva questo spirito di raccoglimento e semplicità, ed è meta di visite e momenti di ritiro spirituale per chi cerca la quiete dei Monti Prenestini-Simbruini.
 
+## Orari e contatti
+
+Il convento non pubblica un orario di visita: prima di partire conviene telefonare ai frati per sapere quando è possibile visitarlo.
+
+**Telefono:** [06 9565291](tel:+39069565291)
+
+**Indirizzo:** Via Nido dei Santi (S.P. 10a) 1, Bellegra (Roma)
+
+*Fonte: [Diocesi di Tivoli e di Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/) (consultato a ottobre 2026).*
+
 *Foto: Claudius Ziehr, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:(Claudius_Ziehr)_Bellegra_001.jpg), CC BY-SA 3.0 (veduta di Bellegra).*
