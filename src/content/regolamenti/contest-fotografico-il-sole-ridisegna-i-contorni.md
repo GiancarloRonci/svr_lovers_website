@@ -93,7 +93,7 @@ Il vincitore sarà determinato in base alla **somma del numero dei like** ricevu
 
 I like che determineranno la fotografia vincitrice saranno contati il giorno **7 gennaio 2027**.
 
-In caso di parità, gli organizzatori potranno procedere a una votazione di spareggio o applicare il criterio che sarà comunicato prima della conclusione delle votazioni.
+In caso di parità, si procederà con una nuova votazione online, fino a determinare il vincitore.
 
 La decisione degli organizzatori in merito alla validità dei voti e all'applicazione del presente regolamento sarà definitiva.
 

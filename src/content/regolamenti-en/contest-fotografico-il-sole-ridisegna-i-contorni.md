@@ -95,7 +95,7 @@ The winner will be determined by the **sum of the number of likes** each photogr
 
 The likes that determine the winning photograph will be counted on **7 January 2027**.
 
-In the event of a tie, the organisers may hold a run-off vote or apply the criterion that will be announced before voting closes.
+In the event of a tie, a new online vote will be held, until the winner is determined.
 
 The organisers' decision on the validity of the votes and on the application of these rules will be final.
 
