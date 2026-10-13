@@ -20,4 +20,27 @@ When in the 1870s the wood risked being cleared and commercially exploited, the 
 
 Still today the castle dominates Olevano's historic centre, while the Serpentara, with its namesake villa, remains a destination for walks and for the same wild charm that captivated Romantic painters two centuries ago.
 
+## Opening hours and contacts
+
+### Civic Art Museum (Villa De Pisa)
+
+The civic museum, in Villa De Pisa, holds works by the painters who portrayed Olevano and its landscape:
+
+- **Wednesday, Thursday and Friday:** 9:00 am – 1:00 pm;
+- **Saturday and Sunday:** 9:00 am – 1:00 pm and 3:30 – 7:00 pm.
+
+Booking is recommended at weekends.
+
+**Email:** [museo_civico@comune.olevanoromano.rm.it](mailto:museo_civico@comune.olevanoromano.rm.it)
+
+**Address:** Viale Vittorio Veneto 25, Olevano Romano (Rome)
+
+### Colonna Castle and the Serpentara
+
+We have not found published visiting hours for the castle or for the Serpentara wood: the old town can be explored freely on foot, while for visits it is best to ask the museum for information.
+
+Opening hours may change: it is best to check them before setting off.
+
+*Source for the museum's opening hours and contacts: [AMO - Associazione Amici del Museo di Olevano Romano](https://www.amolevano.it/) (checked in October 2026).*
+
 *Photo: Pietro Scerrato, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Olevano_Romano), CC BY 3.0; Paul Weber, public domain; Kaethe17, CC BY 4.0.*
