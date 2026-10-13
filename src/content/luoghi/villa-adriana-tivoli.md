@@ -26,4 +26,29 @@ Dopo la morte di Adriano la villa continuò a essere utilizzata dai suoi success
 
 Dal 1999 Villa Adriana è iscritta nella Lista del Patrimonio Mondiale dell'UNESCO come testimonianza unica delle culture del mondo antico che l'imperatore volle riunire in un solo luogo, ed è oggi uno dei siti archeologici più visitati del Lazio.
 
+## Orari e contatti
+
+L'area archeologica è aperta tutti i giorni dalle 8:30. L'orario dell'ultimo ingresso e quello di uscita cambiano con la stagione:
+
+- **gennaio, novembre e dicembre:** ultimo ingresso alle 15:30, uscita entro le 17:00;
+- **febbraio:** ultimo ingresso alle 16:00, uscita entro le 17:30;
+- **marzo (ora solare):** ultimo ingresso alle 17:00, uscita entro le 18:30;
+- **da marzo (ora legale) a settembre:** ultimo ingresso alle 18:00, uscita entro le 19:30;
+- **ottobre (ora legale):** ultimo ingresso alle 17:00, uscita entro le 18:30;
+- **ottobre (ora solare):** ultimo ingresso alle 16:00, uscita entro le 17:30.
+
+**Da sapere:**
+
+- **Mouseia e Plastico:** aprono alle 9:00 e chiudono mezz'ora prima dell'orario di uscita.
+- **Chiusure:** 1° gennaio e 25 dicembre, salvo aperture straordinarie.
+- **Ingresso gratuito:** la prima domenica del mese, il 25 aprile, il 2 giugno e il 4 novembre.
+
+**Telefono:** [0774 19804](tel:+39077419804)
+
+**Email:** [va-ve@cultura.gov.it](mailto:va-ve@cultura.gov.it); per la biglietteria [villaadriana@rearonline.it](mailto:villaadriana@rearonline.it)
+
+**Indirizzo:** Largo Marguerite Yourcenar 1, Villa Adriana, Tivoli (Roma)
+
+*Fonti per orari e contatti: [Istituto Villa Adriana e Villa d'Este - sito ufficiale](https://villae.cultura.gov.it/i-luoghi/villa-adriana/) e [Ministero della Cultura](https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-area-archeologica-di-villa-adriana-1) (consultati a ottobre 2026).*
+
 *Fonte: [UNESCO World Heritage Centre](https://whc.unesco.org/en/list/907/), [Parco Archeologico di Villa Adriana - sito ufficiale](https://www.levillae.com/).*

@@ -26,4 +26,29 @@ After Hadrian's death the villa continued to be used by his successors, but with
 
 Since 1999 Hadrian's Villa has been inscribed on the UNESCO World Heritage List as a unique testimony to the cultures of the ancient world that the emperor sought to bring together in a single place, and it is today one of the most visited archaeological sites in Lazio.
 
+## Opening hours and contacts
+
+The archaeological area is open every day from 8:30 am. Last entry and closing time change with the season:
+
+- **January, November and December:** last entry at 3:30 pm, exit by 5:00 pm;
+- **February:** last entry at 4:00 pm, exit by 5:30 pm;
+- **March (winter time):** last entry at 5:00 pm, exit by 6:30 pm;
+- **March (summer time) to September:** last entry at 6:00 pm, exit by 7:30 pm;
+- **October (summer time):** last entry at 5:00 pm, exit by 6:30 pm;
+- **October (winter time):** last entry at 4:00 pm, exit by 5:30 pm.
+
+**Good to know:**
+
+- **Mouseia and the Plastico (scale model):** they open at 9:00 am and close half an hour before the exit time.
+- **Closed:** 1 January and 25 December, unless special openings are announced.
+- **Free admission:** the first Sunday of the month, 25 April, 2 June and 4 November.
+
+**Phone:** [+39 0774 19804](tel:+39077419804)
+
+**Email:** [va-ve@cultura.gov.it](mailto:va-ve@cultura.gov.it); for the ticket office [villaadriana@rearonline.it](mailto:villaadriana@rearonline.it)
+
+**Address:** Largo Marguerite Yourcenar 1, Villa Adriana, Tivoli (Rome)
+
+*Sources for opening hours and contacts: [Istituto Villa Adriana e Villa d'Este - official website](https://villae.cultura.gov.it/i-luoghi/villa-adriana/) and the [Italian Ministry of Culture](https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-area-archeologica-di-villa-adriana-1) (checked in October 2026).*
+
 *Source: [UNESCO World Heritage Centre](https://whc.unesco.org/en/list/907/), [Villa Adriana Archaeological Park - official website](https://www.levillae.com/).*
