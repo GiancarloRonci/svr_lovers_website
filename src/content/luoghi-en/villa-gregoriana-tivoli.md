@@ -26,4 +26,29 @@ The visitor route winds along the gorge past the Grotto of Neptune and the Grott
 
 After decades of neglect and decay, the park was restored and reopened to the public in 2005 thanks to the FAI, which now manages it, giving visitors back one of the most striking natural landscapes in Lazio, suspended between 19th-century hydraulic engineering and the ruins of Roman antiquity.
 
+## Opening hours and contacts
+
+The park is open from mid-February to December. Last entry is one hour before closing. Opening hours for 2026:
+
+- **14 February to 20 March:** 9:30 am – 5:00 pm;
+- **21 March to 28 June:** 9:30 am – 6:30 pm;
+- **29 June to 30 August:** 9:00 am – 7:00 pm;
+- **31 August to 11 October:** 9:30 am – 6:30 pm;
+- **12 to 24 October:** 9:30 am – 6:00 pm;
+- **25 October to 1 November:** 9:30 am – 5:00 pm;
+- **2 to 29 November:** 9:30 am – 4:30 pm;
+- **30 November to 20 December:** 9:30 am – 4:00 pm.
+
+For the period from 21 December to 13 February, FAI does not list any opening hours.
+
+**Phone:** [+39 0774 332650](tel:+390774332650)
+
+**Email:** [faigregoriana@fondoambiente.it](mailto:faigregoriana@fondoambiente.it)
+
+**Entrance:** Largo Sant'Angelo 1, Tivoli (Rome); the exit is by the Temple of Vesta.
+
+Opening hours may change, especially on public holidays and in bad weather: it is best to check them before setting off.
+
+*Source for opening hours and contacts: [FAI - Parco Villa Gregoriana, "Visita" page](https://fondoambiente.it/luoghi/parco-villa-gregoriana/visita) (checked in October 2026).*
+
 *Source: [FAI - Villa Gregoriana](https://fondoambiente.it/luoghi/parco-villa-gregoriana), [VisitLazio](https://www.visitlazio.com/).*

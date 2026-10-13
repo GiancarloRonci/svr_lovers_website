@@ -26,4 +26,14 @@ Nel corso dei secoli la Rocca perse progressivamente la sua funzione militare pe
 
 Oggi la Rocca Pia, non visitabile all'interno se non in occasione di mostre ed eventi, resta uno dei monumenti più riconoscibili dello skyline di Tivoli, e fa da suggestiva cornice a manifestazioni cittadine come la rassegna florovivaistica "Tivoli in Fiore".
 
+## Orari e contatti
+
+Per la Rocca Pia non abbiamo trovato un orario ufficiale aggiornato. La rocca apre di norma nei fine settimana e in alcuni giorni festivi, con ingressi a numero limitato, ma giorni e orari sono cambiati più volte negli ultimi anni: prima di partire conviene chiedere conferma al Comune di Tivoli.
+
+**Telefono:** [0774 4531](tel:+3907744531) (Comune di Tivoli)
+
+**Indirizzo:** Vicolo Barchetto, Tivoli (Roma)
+
+*Fonte per i contatti: [Lazio Nascosto - Rocca Pia](https://www.lazionascosto.it/castelli-fortezze-rocche-da-visitare-nel-lazio/rocca-pia/) (consultato a ottobre 2026).*
+
 *Fonte: [Comune di Tivoli](https://www.comune.tivoli.rm.it/), [Sistema Museale Civico di Tivoli](https://www.tivolimusei.it/).*

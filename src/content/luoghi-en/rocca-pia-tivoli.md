@@ -26,4 +26,14 @@ Over the centuries the fortress gradually lost its military role, becoming the s
 
 Today Rocca Pia, not open to visitors inside except during exhibitions and events, remains one of the most recognizable landmarks on Tivoli's skyline, and provides a striking backdrop for town events such as the "Tivoli in Fiore" flower show.
 
+## Opening hours and contacts
+
+We have not found up-to-date official opening hours for the Rocca Pia. The fortress normally opens at weekends and on some public holidays, with limited numbers per visit, but days and times have changed several times in recent years: before setting off, it is best to ask the Municipality of Tivoli for confirmation.
+
+**Phone:** [+39 0774 4531](tel:+3907744531) (Municipality of Tivoli)
+
+**Address:** Vicolo Barchetto, Tivoli (Rome)
+
+*Source for contacts: [Lazio Nascosto - Rocca Pia](https://www.lazionascosto.it/castelli-fortezze-rocche-da-visitare-nel-lazio/rocca-pia/) (checked in October 2026).*
+
 *Source: [Comune di Tivoli](https://www.comune.tivoli.rm.it/), [Tivoli Civic Museum System](https://www.tivolimusei.it/).*
