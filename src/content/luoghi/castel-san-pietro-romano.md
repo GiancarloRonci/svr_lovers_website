@@ -26,4 +26,30 @@ Il borgo si raccoglie attorno alla piazzetta della chiesa di San Pietro Apostolo
 
 Quei vicoli sono stati anche un set cinematografico: qui Luigi Comencini girò nel 1953 "Pane, amore e fantasia", con Vittorio De Sica e Gina Lollobrigida, e negli anni seguenti vi furono ambientati altri film, da "Pane, amore e gelosia" a "Il federale". A portare il cinema in paese fu il fotoreporter Adolfo Porry Pastorel, che di Castel San Pietro fu sindaco. Questa storia è raccontata dal MuDi, il Museo Diffuso, che ha sede nel borgo.
 
+## Orari e contatti
+
+### MuDi - Museo Diffuso
+
+Il museo, con il Centro Visitatori a Palazzo Mocci, è aperto dal martedì alla domenica; il lunedì è chiuso.
+
+- **dal 1° ottobre al 31 maggio, dal martedì al venerdì:** 11:00 – 13:00 e 15:00 – 18:00;
+- **dal 1° ottobre al 31 maggio, sabato e domenica:** 10:00 – 13:00 e 15:00 – 18:00;
+- **dal 1° giugno al 30 settembre, dal martedì al venerdì:** 11:00 – 13:00 e 16:00 – 18:00;
+- **dal 1° giugno al 30 settembre, sabato e domenica:** 10:00 – 13:00 e 16:00 – 19:00;
+- **chiuso:** il 1° gennaio, il 25 e il 26 dicembre.
+
+Le visite guidate sono su prenotazione. In occasione di eventi e mostre gli orari possono cambiare.
+
+**Telefono:** [331 454 7183](tel:+393314547183)
+
+**Email:** [direzionemuseodiffusocspr@gmail.com](mailto:direzionemuseodiffusocspr@gmail.com)
+
+**Indirizzo:** Piazza San Pietro, Castel San Pietro Romano (Roma)
+
+### Rocca dei Colonna
+
+La rocca fa parte dei luoghi del Museo Diffuso, che però non pubblica un orario separato: per sapere quando è visitabile conviene chiedere al museo.
+
+*Fonti: MuDi - Museo Diffuso di Castel San Pietro Romano, pagine [Informazioni utili](https://mudicastello.it/informazioni-utili/) per gli orari e [Contatti](https://www.mudicastello.it/contatti/) per telefono ed email (consultate a ottobre 2026).*
+
 *Foto: Museo diffuso Castel San Pietro Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Castel_San_Pietro_Romano), CC BY-SA 4.0; Frederick Sporchia, CC BY-SA 4.0.*

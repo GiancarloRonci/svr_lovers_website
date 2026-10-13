@@ -26,4 +26,30 @@ The village gathers around the little square of the church of San Pietro Apostol
 
 Those alleys have also been a film set: here in 1953 Luigi Comencini shot "Pane, amore e fantasia" (Bread, Love and Dreams), with Vittorio De Sica and Gina Lollobrigida, and in the following years other films were set here, from "Pane, amore e gelosia" to "Il federale". It was the photojournalist Adolfo Porry Pastorel, who served as mayor of Castel San Pietro, who brought cinema to the village. The story is told by the MuDi, the Museo Diffuso, which is based in the village.
 
+## Opening hours and contacts
+
+### MuDi - Museo Diffuso
+
+The museum, with its Visitor Centre in Palazzo Mocci, is open from Tuesday to Sunday; it is closed on Mondays.
+
+- **1 October to 31 May, Tuesday to Friday:** 11:00 am – 1:00 pm and 3:00 – 6:00 pm;
+- **1 October to 31 May, Saturday and Sunday:** 10:00 am – 1:00 pm and 3:00 – 6:00 pm;
+- **1 June to 30 September, Tuesday to Friday:** 11:00 am – 1:00 pm and 4:00 – 6:00 pm;
+- **1 June to 30 September, Saturday and Sunday:** 10:00 am – 1:00 pm and 4:00 – 7:00 pm;
+- **closed:** 1 January, 25 and 26 December.
+
+Guided tours must be booked. Opening hours may change during events and exhibitions.
+
+**Phone:** [+39 331 454 7183](tel:+393314547183)
+
+**Email:** [direzionemuseodiffusocspr@gmail.com](mailto:direzionemuseodiffusocspr@gmail.com)
+
+**Address:** Piazza San Pietro, Castel San Pietro Romano (Rome)
+
+### Rocca dei Colonna
+
+The fortress is one of the sites of the Museo Diffuso, which however does not publish separate opening hours for it: to find out when it can be visited, it is best to ask the museum.
+
+*Sources: MuDi - Museo Diffuso di Castel San Pietro Romano, pages [Informazioni utili](https://mudicastello.it/informazioni-utili/) for opening hours and [Contatti](https://www.mudicastello.it/contatti/) for phone and email (checked in October 2026).*
+
 *Photo: Museo diffuso Castel San Pietro Romano, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Castel_San_Pietro_Romano), CC BY-SA 4.0; Frederick Sporchia, CC BY-SA 4.0.*
