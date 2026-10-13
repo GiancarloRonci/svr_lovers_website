@@ -79,7 +79,7 @@ Le fotografie dovranno essere inviate entro il **30 novembre 2026**, secondo le 
 
 Apposito modulo disponibile online: [www.sanvitoromanolovers.org/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/](https://www.sanvitoromanolovers.org/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/)
 
-Per ogni partecipante dovranno essere indicati almeno nome, cognome e un recapito, che deve essere un numero di cellulare o un profilo social.
+Per ogni partecipante dovranno essere indicati nome, cognome e indirizzo email.
 
 Per ogni fotografia potrà essere indicato un titolo e, se ritenuto utile, il luogo in cui è stata realizzata.
 

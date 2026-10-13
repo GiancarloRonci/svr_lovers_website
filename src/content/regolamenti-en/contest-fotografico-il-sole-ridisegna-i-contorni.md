@@ -81,7 +81,7 @@ The photographs must be submitted by **30 November 2026**, in the manner indicat
 
 Dedicated form available online: [www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/](https://www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/)
 
-For each participant, at least a first name, surname and a contact detail must be given; the contact detail must be a mobile number or a social media profile.
+For each participant, a first name, surname and email address must be given.
 
 For each photograph, a title may be given and, if considered useful, the place where it was taken.
 
