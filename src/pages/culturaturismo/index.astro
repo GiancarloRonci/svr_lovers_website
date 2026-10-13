@@ -60,7 +60,7 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
                 title={a.data.title}
                 description={a.data.frequenza ?? a.data.description}
                 image={a.data.immagine}
-                nota="Attività in fase di definizione: al momento non sappiamo ancora quando inizierà."
+                nota={cat === 'concorsi-fotografici' ? undefined : 'Attività in fase di definizione: al momento non sappiamo ancora quando inizierà.'}
               />
             ))}
           </div>
