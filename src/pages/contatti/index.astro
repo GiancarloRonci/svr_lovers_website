@@ -1,10 +1,14 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { withBase } from '../../lib/url';
 ---
 
 <Layout title="Contatti" description="Come contattare sanvitoromano.lovers ed entrare nella community.">
   <h1>Contatti</h1>
   <p class="meta">Scrivici, chiamaci o seguici sui social: siamo felici di sentirti!</p>
+  <p>
+    Cerchiamo collaboratori che ci aiutino a sviluppare le idee di <a href={withBase('culturaturismo/')}>Cultura&Turismo</a>: se vuoi darci una mano, scrivici.
+  </p>
 
   <ul class="contact-list">
     <li>
