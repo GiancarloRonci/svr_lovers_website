@@ -34,6 +34,6 @@ La domenica mattina una parte del santuario resta chiusa al pubblico per le funz
 
 Gli orari possono cambiare, soprattutto nei giorni festivi: conviene verificarli prima di partire.
 
-*Fonte orari: [Ministero della Cultura](https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco) (consultato a ottobre 2026).*
+*Fonte per orari e telefono: [Ministero della Cultura](https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco) (consultato a ottobre 2026). Sito dei monaci: [Benedettini di Subiaco](http://www.benedettini-subiaco.org/).*
 
 *Foto: High Contrast e Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_del_Sacro_Speco_(Subiaco)), CC BY 3.0 e CC BY-SA 4.0; pietro scerrato, CC BY 3.0.*

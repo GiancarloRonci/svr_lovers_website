@@ -31,6 +31,6 @@ Il monastero è aperto alle visite tutti i giorni; la visita è accompagnata da 
 
 Gli orari possono cambiare, soprattutto nei giorni festivi: conviene verificarli prima di partire.
 
-*Fonte orari: [Benedettini di Subiaco](http://www.benedettini-subiaco.org/) (consultato a ottobre 2026).*
+*Fonti: [Benedettini di Subiaco](http://www.benedettini-subiaco.org/) per orari e telefono, [Ministero della Cultura](https://cultura.gov.it/luogo/monastero-di-santa-scolastica) per le modalità di visita (consultati a ottobre 2026).*
 
 *Foto: Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_di_Santa_Scolastica_(Subiaco)), CC BY-SA 4.0.*

@@ -34,6 +34,6 @@ On Sunday mornings part of the sanctuary is closed to the public for religious s
 
 Opening hours may change, especially on public holidays: it is best to check them before setting off.
 
-*Opening hours source: [Italian Ministry of Culture](https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco) (checked in October 2026).*
+*Source for opening hours and phone: [Italian Ministry of Culture](https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco) (checked in October 2026). The monks' website: [Benedictines of Subiaco](http://www.benedettini-subiaco.org/).*
 
 *Photo: High Contrast and Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_del_Sacro_Speco_(Subiaco)), CC BY 3.0 and CC BY-SA 4.0; pietro scerrato, CC BY 3.0.*

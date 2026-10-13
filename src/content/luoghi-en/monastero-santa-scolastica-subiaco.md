@@ -31,6 +31,6 @@ The monastery is open to visitors every day; visits are accompanied by a guide a
 
 Opening hours may change, especially on public holidays: it is best to check them before setting off.
 
-*Opening hours source: [Benedictines of Subiaco](http://www.benedettini-subiaco.org/) (checked in October 2026).*
+*Sources: [Benedictines of Subiaco](http://www.benedettini-subiaco.org/) for opening hours and phone, [Italian Ministry of Culture](https://cultura.gov.it/luogo/monastero-di-santa-scolastica) for visiting arrangements (checked in October 2026).*
 
 *Photo: Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_di_Santa_Scolastica_(Subiaco)), CC BY-SA 4.0.*
