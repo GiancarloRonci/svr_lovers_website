@@ -22,4 +22,41 @@ A few steps from the cathedral is the Palace of Boniface VIII, residence of the 
 
 The visit is completed by the medieval streets of the historic centre, with stone houses, arches and small squares, perfect for a stroll before heading back to San Vito. Opening times and guided tours of the crypt and the palace change during the year: it is worth checking them before setting off.
 
+## Opening hours and contacts
+
+### Cathedral Museum and Crypt of San Magno
+
+The museum is open every day; the crypt is part of the museum route and cannot be visited on its own. Booking is mandatory, for individual visitors too.
+
+- **April to October:** 9:00 am – 1:00 pm and 3:00 – 7:00 pm;
+- **November to March:** 9:00 am – 1:00 pm and 3:00 – 6:00 pm;
+- **last entry:** one hour before closing;
+- **Sunday mornings:** the ticket office closes at 10:30 am and reopens at 3:00 pm;
+- **during services:** visits are suspended.
+
+In the crypt the lights come on at fixed times, every half hour (from 9:30 am to 12:30 pm and from 3:30 to 6:30 pm), and stay on for 20 minutes.
+
+**Phone:** [+39 0775 728374](tel:+390775728374)
+
+**Email:** [museo@cattedraledianagni.it](mailto:museo@cattedraledianagni.it)
+
+**Address:** Via Leone XIII, Anagni (Frosinone)
+
+### Palace of Boniface VIII
+
+The palace is open every day:
+
+- **5 April to early November:** Monday to Friday 9:30 am – 1:00 pm and 3:00 – 7:00 pm; Saturday and Sunday 9:30 am – 7:00 pm;
+- **4 November to 4 April:** Monday to Friday 9:30 am – 1:00 pm and 3:00 – 6:00 pm; Saturday and Sunday 9:30 am – 6:00 pm;
+- **last entry:** 45 minutes before closing;
+- **special days:** on 24 and 31 December it closes at 6:00 pm, on 25 December it opens in the morning only.
+
+**Phone:** [+39 0775 727053](tel:+390775727053)
+
+**Email:** [palazzobonifacioviii@archeoares.com](mailto:palazzobonifacioviii@archeoares.com)
+
+**Address:** Strada Vittorio Emanuele 238, Anagni (Frosinone)
+
+*Sources for opening hours and contacts: [Cattedrale e Museo di Anagni - Orari e biglietti](https://www.cattedraledianagni.it/museo/orari-biglietti/) for the museum and the crypt; [Città di Anagni - Palazzo Bonifacio VIII](https://comune.anagni.fr.it/vivere-il-comune/luoghi/palazzo-bonifacio-viii/) for the palace (checked in October 2026).*
+
 *Photo: Diego Baglieri, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Anagni), CC BY-SA 4.0; Settembre2014, CC BY-SA 3.0; Diego Baglieri, CC BY-SA 4.0.*
