@@ -26,4 +26,28 @@ From the castle you walk down the main street among palaces, doorways and alleys
 
 Genazzano is also famous for its Infiorata, held every year on the first Sunday of July and dating back to 1883: the streets of the old town are covered with a long carpet of petals, which in 2012 entered the Guinness World Records with more than 1,600 square metres. At the table, the town is known for gnocchi, ciambelline al vino (wine biscuits) and Cesanese wine.
 
+## Opening hours and contacts
+
+### Colonna Castle
+
+According to the municipality, the castle museum is open every day from 10:00 am to 6:00 pm. There is an admission charge and visits must be booked by email.
+
+**Email:** [museo.quadreria@genazzano.org](mailto:museo.quadreria@genazzano.org)
+
+**Phone:** [+39 06 955791](tel:+3906955791) (town hall switchboard)
+
+**Address:** Piazza San Nicola 4, Genazzano (Rome)
+
+During exhibitions and events the opening hours may differ: it is best to ask for confirmation when booking.
+
+### Bramante's Nymphaeum
+
+The nymphaeum is always open and access is free.
+
+### Sanctuary of the Madonna del Buon Consiglio
+
+The basilica is open every day from 7:00 am to 12:45 pm and from 3:00 to 6:45 pm (until 7:45 pm in summer time). Mass times and contacts are on the [sanctuary page](/en/luoghi/santuario-madonna-buon-consiglio-genazzano).
+
+*Sources: Municipality of Genazzano, pages [Castello Colonna](https://www.comune.genazzano.roma.it/it/vivere/744750) and [Ninfeo Bramante](https://www.comune.genazzano.roma.it/index.php/it/vivere/ninfeo-bramante) (checked in October 2026).*
+
 *Photo: Frederick Sporchia, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Genazzano), CC BY-SA 4.0; Gigi er Gigliola, CC0; Lince16, CC BY 3.0.*

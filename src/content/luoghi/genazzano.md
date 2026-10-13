@@ -26,4 +26,28 @@ Dal castello si scende lungo la via principale tra palazzi, portali e vicoli che
 
 Genazzano è famosa anche per l'Infiorata, che si tiene ogni anno la prima domenica di luglio e risale al 1883: le vie del centro vengono coperte da un lungo tappeto di petali, che nel 2012 è entrato nel Guinness dei primati con oltre 1.600 metri quadrati di superficie. A tavola, il paese è legato agli gnocchi, alle ciambelline al vino e al Cesanese.
 
+## Orari e contatti
+
+### Castello Colonna
+
+Secondo il Comune, il museo del castello è aperto tutti i giorni dalle 10:00 alle 18:00. L'ingresso è a pagamento e va prenotato via email.
+
+**Email:** [museo.quadreria@genazzano.org](mailto:museo.quadreria@genazzano.org)
+
+**Telefono:** [06 955791](tel:+3906955791) (centralino del Comune)
+
+**Indirizzo:** Piazza San Nicola 4, Genazzano (Roma)
+
+Durante mostre ed eventi gli orari possono essere diversi: conviene chiedere conferma al momento della prenotazione.
+
+### Ninfeo di Bramante
+
+Il ninfeo è sempre aperto e l'accesso è libero.
+
+### Santuario della Madonna del Buon Consiglio
+
+La basilica è aperta tutti i giorni dalle 7:00 alle 12:45 e dalle 15:00 alle 18:45 (fino alle 19:45 con l'ora legale). Orari delle Messe e contatti sono nella [scheda del santuario](/luoghi/santuario-madonna-buon-consiglio-genazzano).
+
+*Fonti: Comune di Genazzano, pagine [Castello Colonna](https://www.comune.genazzano.roma.it/it/vivere/744750) e [Ninfeo Bramante](https://www.comune.genazzano.roma.it/index.php/it/vivere/ninfeo-bramante) (consultate a ottobre 2026).*
+
 *Foto: Frederick Sporchia, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Genazzano), CC BY-SA 4.0; Gigi er Gigliola, CC0; Lince16, CC BY 3.0.*
