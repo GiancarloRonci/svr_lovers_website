@@ -19,6 +19,21 @@ Il percorso si articola in tre parti: le gallerie iniziali (il ramo fangoso di 1
 
 Nei pressi si trova anche il Pertuso di Roiate, una galleria naturale lunga 240 metri che attraversa una piccola collina.
 
+## Orari e contatti
+
+Le grotte si visitano solo con visita guidata:
+
+- **in stagione (indicativamente da maggio a inizio ottobre):** sabato e domenica dalle 10:00 alle 17:00, con partenze ogni ora circa;
+- **nel resto dell'anno:** solo su prenotazione.
+
+**Telefono per le prenotazioni:** [351 527 5501](tel:+393515275501)
+
+**Email:** [grottedellarco@gmail.com](mailto:grottedellarco@gmail.com)
+
+Il calendario cambia di anno in anno: prima di partire conviene telefonare per avere conferma di giorni e orari.
+
+*Fonte: [Pro Loco di Bellegra](https://www.bellegra.eu/informazioni-proloco-bellegra/orari-di-visita) (consultato a ottobre 2026).*
+
 **Per informazioni e prenotazioni:**
 - [Sito ufficiale delle Grotte dell'Arco](https://www.grottadellarco.com/)
 - [Le Grotte dell'Arco a Bellegra - VisitLazio](https://www.visitlazio.com/le-grotte-dellarco-a-bellegra/)

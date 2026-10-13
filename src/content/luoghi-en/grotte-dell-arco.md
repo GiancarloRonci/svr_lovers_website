@@ -19,6 +19,21 @@ The route is divided into three sections: the initial galleries (the 190 m muddy
 
 Nearby is also the Pertuso di Roiate, a 240-metre natural tunnel running through a small hill.
 
+## Opening hours and contacts
+
+The caves can only be visited on a guided tour:
+
+- **in season (roughly from May to early October):** Saturdays and Sundays from 10:00 am to 5:00 pm, with tours leaving about every hour;
+- **the rest of the year:** by booking only.
+
+**Phone for bookings:** [+39 351 527 5501](tel:+393515275501)
+
+**Email:** [grottedellarco@gmail.com](mailto:grottedellarco@gmail.com)
+
+The calendar changes from year to year: before setting off, it is best to phone and confirm days and times.
+
+*Source: [Pro Loco di Bellegra](https://www.bellegra.eu/informazioni-proloco-bellegra/orari-di-visita) (checked in October 2026).*
+
 **For information and bookings:**
 - [Official website of the Grotte dell'Arco](https://www.grottadellarco.com/)
 - [Le Grotte dell'Arco a Bellegra - VisitLazio](https://www.visitlazio.com/le-grotte-dellarco-a-bellegra/)
