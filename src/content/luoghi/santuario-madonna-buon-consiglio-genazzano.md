@@ -19,4 +19,30 @@ L'immagine, ancora oggi miracolosamente aderente al muro senza alcun supporto, �
 
 Ancora oggi meta di pellegrinaggi da tutto il mondo, il santuario custodisce nella sua facciata settecentesca splendidi mosaici che raccontano la storia del prodigio, ed è uno dei luoghi di fede e arte più significativi dell'intera area dei Prenestini.
 
+## Orari e contatti
+
+**Apertura della basilica**, tutti i giorni:
+
+- **mattina:** 7:00 – 12:45;
+- **pomeriggio, con l'ora solare:** 15:00 – 18:45;
+- **pomeriggio, con l'ora legale:** 15:00 – 19:45.
+
+**Sante Messe:**
+
+- **feriali:** 7:30, 9:00 e 17:00 (alle 18:00 con l'ora legale);
+- **prefestive:** 7:30, 9:00 e 18:00;
+- **festive:** 7:30, 9:30, 11:00 e 18:00.
+
+Il Rosario si recita tutti i giorni, mezz'ora prima della Messa della sera. Il 25 di ogni mese si celebra la liturgia in ricordo della "Venuta" dell'immagine, alle 16:00 (alle 17:00 con l'ora legale).
+
+**Telefono:** [06 9579002](tel:+39069579002)
+
+**Email:** [santuariombc@gmail.com](mailto:santuariombc@gmail.com)
+
+**Indirizzo:** Corso Cardinali Vannutelli 2, Genazzano (Roma)
+
+Gli orari possono cambiare, soprattutto nei giorni di festa: conviene verificarli prima di partire.
+
+*Fonte per orari, Messe e contatti: [Basilica Santuario Madre del Buon Consiglio - Gli orari della Basilica](https://www.madredelbuonconsiglio.it/orari) (consultato a ottobre 2026).*
+
 *Foto: Cruz.croce, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sanctuary_Our_Lady_of_Good_Counsel_(Genazzano)), CC0.*

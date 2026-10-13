@@ -19,4 +19,30 @@ The image, still today miraculously adhering to the wall without any support, is
 
 Still today a destination for pilgrims from all over the world, the sanctuary's 18th-century façade holds beautiful mosaics telling the story of the miracle, making it one of the most significant places of faith and art in the whole Prenestini area.
 
+## Opening hours and contacts
+
+**Basilica opening hours**, every day:
+
+- **morning:** 7:00 am – 12:45 pm;
+- **afternoon, in winter time:** 3:00 – 6:45 pm;
+- **afternoon, in summer time:** 3:00 – 7:45 pm.
+
+**Mass times:**
+
+- **weekdays:** 7:30 am, 9:00 am and 5:00 pm (6:00 pm in summer time);
+- **eve of Sundays and holidays:** 7:30 am, 9:00 am and 6:00 pm;
+- **Sundays and holidays:** 7:30 am, 9:30 am, 11:00 am and 6:00 pm.
+
+The Rosary is prayed every day, half an hour before the evening Mass. On the 25th of each month the liturgy in memory of the "Venuta" (the arrival of the image) is celebrated at 4:00 pm (5:00 pm in summer time).
+
+**Phone:** [+39 06 9579002](tel:+39069579002)
+
+**Email:** [santuariombc@gmail.com](mailto:santuariombc@gmail.com)
+
+**Address:** Corso Cardinali Vannutelli 2, Genazzano (Rome)
+
+Opening hours may change, especially on feast days: it is best to check them before setting off.
+
+*Source for opening hours, Mass times and contacts: [Basilica Santuario Madre del Buon Consiglio - Gli orari della Basilica](https://www.madredelbuonconsiglio.it/orari) (checked in October 2026).*
+
 *Photo: Cruz.croce, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sanctuary_Our_Lady_of_Good_Counsel_(Genazzano)), CC0.*
