@@ -19,4 +19,20 @@ Il territorio di Rocca di Cave custodisce anche un patrimonio geologico di eccez
 
 Ancora oggi Rocca di Cave, secondo comune più alto della provincia di Roma, resta una tappa imperdibile per chi cerca panorami mozzafiato e un tuffo nella storia, tra rovine medievali e testimonianze di un passato remotissimo scolpito nella roccia.
 
+## Orari e contatti
+
+Il Museo Geopaleontologico "Ardito Desio", ospitato nella rocca, il planetario e la scogliera fossile fanno parte del Sistema Museale di Rocca di Cave (SMuRC).
+
+Lo SMuRC non pubblica un orario fisso: le aperture seguono un calendario di giornate e attività, per lo più nei fine settimana e nei festivi. Nelle giornate di apertura più recenti il museo è stato aperto dalle 10:30 alle 17:30. Per laboratori, visite guidate e spettacoli al planetario la prenotazione è obbligatoria, sul [portale delle prenotazioni](https://smurc-prenotazioni.sumupstore.com/).
+
+**Telefono:** [352 071 4185](tel:+393520714185)
+
+**Email:** [info@smurc.it](mailto:info@smurc.it); per le prenotazioni [prenotazioni@smurc.it](mailto:prenotazioni@smurc.it)
+
+**Indirizzi:** museo in Via della Torre 30; planetario e Giardino dei Dinosauri in Via Colle Pozzo 1; scogliera fossile in Via di Genazzano, Rocca di Cave (Roma)
+
+Prima di partire conviene verificare sul sito dello SMuRC in quali giorni il museo è aperto.
+
+*Fonti: [SMuRC - Sistema Museale di Rocca di Cave](https://www.smurc.it/) per contatti e indirizzi; [Monti Prenestini](https://montiprenestini.info/dinosauri-da-costruire-stelle-da-esplorare-domenica-4-ottobre-allo-smurc-si-gioca-con-la-scienza/) per l'orario dell'ultima giornata di apertura (consultati a ottobre 2026).*
+
 *Foto: Siluc, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monti_Prenestini), CC BY-SA 3.0 (veduta dei Monti Prenestini); Jean-Baptiste Camille Corot, dominio pubblico.*

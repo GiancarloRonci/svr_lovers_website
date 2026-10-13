@@ -19,4 +19,20 @@ The territory of Rocca di Cave also holds a geological heritage of exceptional v
 
 Still today Rocca di Cave, the second-highest municipality in the province of Rome, remains an unmissable stop for anyone seeking breathtaking views and a dive into history, amid medieval ruins and traces of a remote past carved into the rock.
 
+## Opening hours and contacts
+
+The "Ardito Desio" Geo-Palaeontological Museum, housed in the fortress, the planetarium and the fossil reef are part of the Rocca di Cave Museum System (SMuRC).
+
+SMuRC does not publish fixed opening hours: openings follow a calendar of open days and activities, mostly at weekends and on public holidays. On the most recent open days the museum was open from 10:30 am to 5:30 pm. For workshops, guided tours and planetarium shows, booking is mandatory on the [booking portal](https://smurc-prenotazioni.sumupstore.com/).
+
+**Phone:** [+39 352 071 4185](tel:+393520714185)
+
+**Email:** [info@smurc.it](mailto:info@smurc.it); for bookings [prenotazioni@smurc.it](mailto:prenotazioni@smurc.it)
+
+**Addresses:** museum at Via della Torre 30; planetarium and Dinosaur Garden at Via Colle Pozzo 1; fossil reef on Via di Genazzano, Rocca di Cave (Rome)
+
+Before setting off, it is best to check on the SMuRC website which days the museum is open.
+
+*Sources: [SMuRC - Sistema Museale di Rocca di Cave](https://www.smurc.it/) for contacts and addresses; [Monti Prenestini](https://montiprenestini.info/dinosauri-da-costruire-stelle-da-esplorare-domenica-4-ottobre-allo-smurc-si-gioca-con-la-scienza/) for the opening hours of the latest open day (checked in October 2026).*
+
 *Photo: Siluc, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monti_Prenestini), CC BY-SA 3.0 (view of the Prenestini Mountains); Jean-Baptiste Camille Corot, public domain.*
