@@ -17,4 +17,30 @@ Al centro dell'abitato sorge la cinquecentesca Chiesa di Santa Maria Maddalena, 
 
 Nei dintorni di Capranica Prenestina si trovano alcuni dei luoghi più suggestivi dell'area: il Santuario della Mentorella, immerso nel verde dei Monti Prenestini, e la frazione di Guadagnolo, a 1218 metri il centro abitato più alto del Lazio, punto di partenza di sentieri panoramici che regalano viste spettacolari sulla valle sottostante.
 
+## Orari e contatti
+
+### Museo Civico Naturalistico dei Monti Prenestini
+
+Il museo è chiuso al pubblico fino al 1° novembre 2026 per lavori di ammodernamento. Di norma è aperto dal martedì alla domenica, dalle 10:00 alle 13:00 e dalle 15:00 alle 19:00: dopo la riapertura conviene chiedere conferma degli orari.
+
+**Telefono:** [335 812 1634](tel:+393358121634)
+
+**Email:** [info@museonaturalisticomontiprenestini.com](mailto:info@museonaturalisticomontiprenestini.com)
+
+**Indirizzo:** Piazza Aristide Frezza 6, Capranica Prenestina (Roma)
+
+### Chiesa di Santa Maria Maddalena
+
+La chiesa è generalmente sempre aperta; se è chiusa si può telefonare al parroco. Rivolgendosi al parroco si può chiedere anche di visitare la cupola.
+
+**Telefono:** [06 9584322](tel:+39069584322)
+
+**Email:** [info@chiesadellamaddalena.it](mailto:info@chiesadellamaddalena.it)
+
+### Santuario della Mentorella
+
+Il santuario è aperto tutti i giorni dalle 8:00 alle 19:00: Messe e contatti sono nella [scheda del santuario](/luoghi/santuario-della-mentorella).
+
+*Fonti: [Museo civico naturalistico dei Monti Prenestini - sito ufficiale](https://www.museonaturalisticomontiprenestini.com/) per il museo; [Chiesa di Santa Maria Maddalena - Visite](https://chiesadellamaddalena.it/la-chiesa/visite) per la chiesa (consultati a ottobre 2026).*
+
 *Foto: Umbowiki, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Capranica_Prenestina), CC BY-SA 4.0.*
