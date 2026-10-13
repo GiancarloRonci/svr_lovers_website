@@ -87,9 +87,13 @@ For each photograph, a title may be given and, if considered useful, the place w
 
 ## 7. Voting and winner
 
-All accepted photographs will be put to a vote in the manner announced by the organisers.
+From all the accepted photographs, the organisers will select **20 finalist photographs**, which will be put to a final vote.
 
-The photograph that receives the most votes will be declared the **winner of the contest**.
+The 20 selected photographs will be presented to the members of the community through the social networks (**Facebook, Instagram, TikTok**), in the ways each platform makes available.
+
+The winner will be determined by the **sum of the number of likes** each photograph receives across the different platforms: the photograph with the highest total will be declared the **winner of the contest**.
+
+The likes that determine the winning photograph will be counted on **7 January 2027**.
 
 In the event of a tie, the organisers may hold a run-off vote or apply the criterion that will be announced before voting closes.
 

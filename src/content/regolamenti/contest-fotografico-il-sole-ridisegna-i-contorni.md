@@ -85,9 +85,13 @@ Per ogni fotografia potrà essere indicato un titolo e, se ritenuto utile, il lu
 
 ## 7. Votazione e vincitore
 
-Tutte le fotografie ammesse saranno sottoposte a votazione secondo le modalità comunicate dagli organizzatori.
+Tra tutte le fotografie ammesse, gli organizzatori selezioneranno **20 fotografie finaliste**, che saranno sottoposte a votazione finale.
 
-La fotografia che riceverà il maggior numero di voti sarà proclamata **vincitrice del concorso**.
+Le 20 fotografie selezionate saranno proposte agli utenti della community attraverso i social network (**Facebook, Instagram, TikTok**), secondo le modalità che le varie piattaforme mettono a disposizione.
+
+Il vincitore sarà determinato in base alla **somma del numero dei like** ricevuti da ciascuna fotografia sulle diverse piattaforme: la fotografia che otterrà il totale più alto sarà proclamata **vincitrice del concorso**.
+
+I like che determineranno la fotografia vincitrice saranno contati il giorno **7 gennaio 2027**.
 
 In caso di parità, gli organizzatori potranno procedere a una votazione di spareggio o applicare il criterio che sarà comunicato prima della conclusione delle votazioni.
 
