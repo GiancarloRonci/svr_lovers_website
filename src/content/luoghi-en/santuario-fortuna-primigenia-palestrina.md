@@ -20,4 +20,24 @@ On the remains of the uppermost terrace stands today's Palazzo Colonna Barberini
 
 Still today, Palestrina, with its monumental terraces overlooking the Sacco valley, remains one of the most important archaeological destinations in Lazio, able to tell in a single place both the grandeur of Roman engineering and the richness of trade across the ancient Mediterranean.
 
+## Opening hours and contacts
+
+The museum and the sanctuary are open from Wednesday to Monday; they are closed on Tuesdays.
+
+- **Museo Archeologico Nazionale Prenestino:** 9:00 am – 7:30 pm, last entry at 6:30 pm;
+- **Sanctuary of Fortuna Primigenia, from the last Sunday of March to the last Saturday of October:** 9:30 am – 6:30 pm;
+- **Sanctuary of Fortuna Primigenia, from the last Sunday of October to the last Saturday of March:** 9:30 am – 4:30 pm.
+
+At the sanctuary, last entry is half an hour before closing. Admission is free on the first Sunday of the month, 25 April, 2 June and 4 November.
+
+**Phone:** [+39 06 9538100](tel:+39069538100)
+
+**Email:** [mupa-prae-gabi@cultura.gov.it](mailto:mupa-prae-gabi@cultura.gov.it)
+
+**Address:** Piazza della Cortina, Palestrina (Rome)
+
+Opening hours may change, especially on public holidays: it is best to check them before setting off.
+
+*Sources for opening hours and contacts: [Musei e Parchi archeologici di Praeneste e Gabii - official website](https://gabiipraeneste.cultura.gov.it/) and the [Italian Ministry of Culture](https://cultura.gov.it/luogo/musei-e-parchi-archeologici-di-praeneste-e-gabii-museo-archeologico-nazionale-prenestino-santuario-della-fortuna-primigenia-e-complesso-degli-edifici-del-foro-di-praeneste) (checked in October 2026).*
+
 *Photo: Sergio D'Afflitto (Blackcat) and Camelia.boban, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palazzo_Colonna_Barberini_(Palestrina)), CC BY-SA 3.0.*

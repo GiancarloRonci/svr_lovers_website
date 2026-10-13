@@ -24,4 +24,23 @@ A fief of the Colonna for much of the Middle Ages, Palestrina paid dearly for th
 
 From the square you climb towards the palace and the museum along alleys and stepped stairways, such as that of Via Orazio Marucchi, among stone doorways, arches and sudden views over the Sacco valley and the Alban Hills. Higher still, on top of the mountain, on the ancient acropolis, is the village of [Castel San Pietro Romano](/en/luoghi/castel-san-pietro-romano). With the sanctuary, the museum and the old town, Palestrina makes a perfect half-day or full-day trip from San Vito.
 
+## Opening hours and contacts
+
+### Archaeological Museum and Sanctuary of Fortuna Primigenia
+
+The museum and the sanctuary are open from Wednesday to Monday and closed on Tuesdays: the museum from 9:00 am to 7:30 pm (last entry at 6:30 pm), the sanctuary from 9:30 am to 6:30 pm, or until 4:30 pm from the last Sunday of October to the last Saturday of March. Full opening hours and contacts are on the [sanctuary page](/en/luoghi/santuario-fortuna-primigenia-palestrina).
+
+### Cathedral of Sant'Agapito
+
+The Diocese does not publish opening hours for the cathedral, only Mass times:
+
+- **Sundays and holidays:** 8:00 am, 10:00 am, 12:00 noon and 6:00 pm (in July and August 8:00 am, 11:00 am and 7:00 pm);
+- **weekdays:** 7:30 am, 10:00 am and 6:00 pm (in July and August 7:30 am, 10:00 am and 7:00 pm).
+
+**Email:** [cattedralepalestrina@gmail.com](mailto:cattedralepalestrina@gmail.com)
+
+**Address:** Corso Pierluigi, Palestrina (Rome)
+
+*Sources: [Musei e Parchi archeologici di Praeneste e Gabii - official website](https://gabiipraeneste.cultura.gov.it/) for the museum and the sanctuary; [Diocese of Tivoli and Palestrina](https://diocesitivoliepalestrina.it/parrocchie/sesta-vicaria/palestrina-cattedrale-s-agapito-m/) for the cathedral (checked in October 2026).*
+
 *Photo: rgiannotti1, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palestrina), CC BY-SA 3.0; Frederick Sporchia, CC BY-SA 4.0.*

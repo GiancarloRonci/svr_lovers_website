@@ -20,4 +20,24 @@ Sui resti dell'ultima terrazza sorge oggi il Palazzo Colonna Barberini, che dal 
 
 Ancora oggi Palestrina, con le sue terrazze monumentali affacciate sulla valle del Sacco, resta una delle mete archeologiche più importanti del Lazio, capace di raccontare in un solo luogo la grandezza dell'ingegneria romana e la ricchezza dei traffici commerciali del Mediterraneo antico.
 
+## Orari e contatti
+
+Museo e santuario sono aperti dal mercoledì al lunedì; il martedì sono chiusi.
+
+- **Museo Archeologico Nazionale Prenestino:** 9:00 – 19:30, con ultimo ingresso alle 18:30;
+- **Santuario della Fortuna Primigenia, dall'ultima domenica di marzo all'ultimo sabato di ottobre:** 9:30 – 18:30;
+- **Santuario della Fortuna Primigenia, dall'ultima domenica di ottobre all'ultimo sabato di marzo:** 9:30 – 16:30.
+
+Al santuario l'ultimo ingresso è mezz'ora prima della chiusura. L'ingresso è gratuito la prima domenica del mese, il 25 aprile, il 2 giugno e il 4 novembre.
+
+**Telefono:** [06 9538100](tel:+39069538100)
+
+**Email:** [mupa-prae-gabi@cultura.gov.it](mailto:mupa-prae-gabi@cultura.gov.it)
+
+**Indirizzo:** Piazza della Cortina, Palestrina (Roma)
+
+Gli orari possono cambiare, soprattutto nei giorni festivi: conviene verificarli prima di partire.
+
+*Fonti per orari e contatti: [Musei e Parchi archeologici di Praeneste e Gabii - sito ufficiale](https://gabiipraeneste.cultura.gov.it/) e [Ministero della Cultura](https://cultura.gov.it/luogo/musei-e-parchi-archeologici-di-praeneste-e-gabii-museo-archeologico-nazionale-prenestino-santuario-della-fortuna-primigenia-e-complesso-degli-edifici-del-foro-di-praeneste) (consultati a ottobre 2026).*
+
 *Foto: Sergio D'Afflitto (Blackcat) e Camelia.boban, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palazzo_Colonna_Barberini_(Palestrina)), CC BY-SA 3.0.*

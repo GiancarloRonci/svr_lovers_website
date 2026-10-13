@@ -24,4 +24,23 @@ Feudo dei Colonna per gran parte del Medioevo, Palestrina pagò cara la rivalit�
 
 Dalla piazza si sale verso il palazzo e il museo lungo vicoli e scalinate a gradoni, come quella di via Orazio Marucchi, tra portali in pietra, archi e scorci improvvisi sulla valle del Sacco e sui Colli Albani. Ancora più in alto, in cima al monte, sull'antica acropoli, c'è il borgo di [Castel San Pietro Romano](/luoghi/castel-san-pietro-romano). Con il santuario, il museo e il centro storico, Palestrina è una meta perfetta per mezza giornata o per una giornata intera partendo da San Vito.
 
+## Orari e contatti
+
+### Museo Archeologico e Santuario della Fortuna Primigenia
+
+Museo e santuario sono aperti dal mercoledì al lunedì e chiusi il martedì: il museo dalle 9:00 alle 19:30 (ultimo ingresso alle 18:30), il santuario dalle 9:30 alle 18:30, oppure fino alle 16:30 dall'ultima domenica di ottobre all'ultimo sabato di marzo. Orari completi e contatti sono nella [scheda del santuario](/luoghi/santuario-fortuna-primigenia-palestrina).
+
+### Cattedrale di Sant'Agapito
+
+La Diocesi non pubblica un orario di apertura della cattedrale, ma gli orari delle Messe:
+
+- **Messe festive:** 8:00, 10:00, 12:00 e 18:00 (a luglio e agosto 8:00, 11:00 e 19:00);
+- **Messe feriali:** 7:30, 10:00 e 18:00 (a luglio e agosto 7:30, 10:00 e 19:00).
+
+**Email:** [cattedralepalestrina@gmail.com](mailto:cattedralepalestrina@gmail.com)
+
+**Indirizzo:** Corso Pierluigi, Palestrina (Roma)
+
+*Fonti: [Musei e Parchi archeologici di Praeneste e Gabii - sito ufficiale](https://gabiipraeneste.cultura.gov.it/) per museo e santuario; [Diocesi di Tivoli e di Palestrina](https://diocesitivoliepalestrina.it/parrocchie/sesta-vicaria/palestrina-cattedrale-s-agapito-m/) per la cattedrale (consultati a ottobre 2026).*
+
 *Foto: rgiannotti1, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Palestrina), CC BY-SA 3.0; Frederick Sporchia, CC BY-SA 4.0.*
