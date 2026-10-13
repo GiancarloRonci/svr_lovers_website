@@ -96,6 +96,35 @@ Conceived as a symbolic journey through mythology, allegory and references to cl
 
 Today Villa d'Este is a state museum open to visitors year-round, drawing hundreds of thousands of visitors each year who are captivated by the dialogue between architecture, nature and water that has made it a timeless model of garden art.
 
+## Opening hours and contacts
+
+The villa opens every day at 8:30 am, except on Mondays, when it opens at 2:00 pm. Last entry and closing time change with the season:
+
+- **January:** last entry at 4:00 pm, exit by 5:00 pm;
+- **February:** last entry at 4:30 pm, exit by 5:30 pm;
+- **March (winter time):** last entry at 5:15 pm, exit by 6:15 pm;
+- **March (summer time):** last entry at 6:15 pm, exit by 7:15 pm;
+- **April:** last entry at 6:30 pm, exit by 7:30 pm;
+- **May to August:** last entry at 6:45 pm, exit by 7:45 pm;
+- **September:** last entry at 6:15 pm, exit by 7:15 pm;
+- **October (summer time):** last entry at 5:30 pm, exit by 6:30 pm;
+- **October (winter time):** last entry at 4:30 pm, exit by 5:30 pm;
+- **November and December:** last entry at 4:00 pm, exit by 5:00 pm.
+
+**Good to know:**
+
+- **Public holidays falling on a Monday:** the villa opens at 8:45 am, and on the following Tuesday it opens at 2:00 pm.
+- **Closed:** 1 January and 25 December, unless special openings are announced.
+- **Free admission:** the first Sunday of the month, 25 April, 2 June and 4 November.
+
+**Phone:** [+39 0774 5589](tel:+3907745589) (offices of the Istituto Villa Adriana e Villa d'Este)
+
+**Email:** [va-ve@cultura.gov.it](mailto:va-ve@cultura.gov.it); for the ticket office [villadeste@rearonline.it](mailto:villadeste@rearonline.it)
+
+**Address:** Piazza Trento 5, Tivoli (Rome)
+
+*Sources for opening hours and contacts: [Istituto Villa Adriana e Villa d'Este - official website](https://villae.cultura.gov.it/i-luoghi/villa-deste/) and the [Italian Ministry of Culture](https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-villa-d-este) (checked in October 2026).*
+
 ## Tips for your visit
 
 Rather than trying to "see everything", plan the visit as a slow walk through the relationship between palace, water, perspective and landscape: it is this combination that makes the complex unique. Villa d'Este is not a museum to "tick off" but a place to walk through and observe at leisure: the water, the sound of the fountains, the perspective of the avenues and the view are all part of the work.

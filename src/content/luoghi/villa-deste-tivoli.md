@@ -96,6 +96,35 @@ Il giardino, concepito come un percorso simbolico attraverso mitologia, allegori
 
 Oggi Villa d'Este è un museo statale visitabile tutto l'anno, meta ogni anno di centinaia di migliaia di visitatori affascinati dal dialogo tra architettura, natura e acqua che ne ha fatto un modello senza tempo dell'arte dei giardini.
 
+## Orari e contatti
+
+La villa apre tutti i giorni alle 8:30, tranne il lunedì, quando apre alle 14:00. L'orario dell'ultimo ingresso e quello di uscita cambiano con la stagione:
+
+- **gennaio:** ultimo ingresso alle 16:00, uscita entro le 17:00;
+- **febbraio:** ultimo ingresso alle 16:30, uscita entro le 17:30;
+- **marzo (ora solare):** ultimo ingresso alle 17:15, uscita entro le 18:15;
+- **marzo (ora legale):** ultimo ingresso alle 18:15, uscita entro le 19:15;
+- **aprile:** ultimo ingresso alle 18:30, uscita entro le 19:30;
+- **da maggio ad agosto:** ultimo ingresso alle 18:45, uscita entro le 19:45;
+- **settembre:** ultimo ingresso alle 18:15, uscita entro le 19:15;
+- **ottobre (ora legale):** ultimo ingresso alle 17:30, uscita entro le 18:30;
+- **ottobre (ora solare):** ultimo ingresso alle 16:30, uscita entro le 17:30;
+- **novembre e dicembre:** ultimo ingresso alle 16:00, uscita entro le 17:00.
+
+**Da sapere:**
+
+- **Lunedì festivi:** la villa apre alle 8:45 e il martedì successivo apre alle 14:00.
+- **Chiusure:** 1° gennaio e 25 dicembre, salvo aperture straordinarie.
+- **Ingresso gratuito:** la prima domenica del mese, il 25 aprile, il 2 giugno e il 4 novembre.
+
+**Telefono:** [0774 5589](tel:+3907745589) (uffici dell'Istituto Villa Adriana e Villa d'Este)
+
+**Email:** [va-ve@cultura.gov.it](mailto:va-ve@cultura.gov.it); per la biglietteria [villadeste@rearonline.it](mailto:villadeste@rearonline.it)
+
+**Indirizzo:** Piazza Trento 5, Tivoli (Roma)
+
+*Fonti per orari e contatti: [Istituto Villa Adriana e Villa d'Este - sito ufficiale](https://villae.cultura.gov.it/i-luoghi/villa-deste/) e [Ministero della Cultura](https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-villa-d-este) (consultati a ottobre 2026).*
+
 ## Consigli per la visita
 
 Più che "vedere tutto", conviene impostare la visita come una passeggiata lenta attraverso il rapporto tra palazzo, acqua, prospettiva e paesaggio: è questa combinazione a rendere unico il complesso. Villa d'Este non è un museo da "spuntare", ma un luogo da camminare e osservare con calma: l'acqua, il rumore delle fontane, la prospettiva dei viali e il panorama fanno parte dell'opera.
