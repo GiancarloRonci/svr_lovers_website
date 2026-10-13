@@ -36,4 +36,12 @@ Il monte è meta di numerosi sentieri panoramici che partono dai paesi vicini, t
 
 Ancora oggi Guadagnolo, con la sua posizione remota e il suo skyline che domina i Prenestini, resta una meta privilegiata per escursionisti e amanti della montagna in cerca di panorami autentici, a due passi dalla capitale.
 
+## Orari
+
+Guadagnolo è un borgo e una cima di montagna: il paese, il belvedere e i sentieri sono all'aperto e non hanno orari di visita. D'inverno, con neve o ghiaccio, conviene informarsi sulle condizioni della strada prima di salire.
+
+L'unico luogo con un orario nei dintorni è il [Santuario della Mentorella](/luoghi/santuario-della-mentorella), poco sotto la cima: è aperto tutti i giorni dalle 8:00 alle 19:00. Messe e contatti sono nella scheda del santuario.
+
+*Fonte per l'orario del santuario: [Santuario della Mentorella](https://santuariodellamentorella.jimdofree.com/) (consultato a ottobre 2026).*
+
 *Foto: LPLT, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monte_Guadagnolo), CC BY-SA 3.0; Registrato2013, dominio pubblico; Sofiasettembre, CC BY-SA 4.0.*

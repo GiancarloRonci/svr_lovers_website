@@ -36,4 +36,12 @@ The mountain is the destination of numerous panoramic trails setting off from th
 
 Still today Guadagnolo, with its remote position and its skyline dominating the Prenestini range, remains a favourite destination for hikers and mountain lovers seeking genuine panoramas just a short distance from the capital.
 
+## Opening hours
+
+Guadagnolo is a village and a mountain summit: the village, the viewpoint and the trails are in the open air and have no visiting hours. In winter, with snow or ice, it is best to check the road conditions before driving up.
+
+The only place nearby with opening hours is the [Sanctuary of the Mentorella](/en/luoghi/santuario-della-mentorella), just below the summit: it is open every day from 8:00 am to 7:00 pm. Mass times and contacts are on the sanctuary page.
+
+*Source for the sanctuary's opening hours: [Santuario della Mentorella](https://santuariodellamentorella.jimdofree.com/) (checked in October 2026).*
+
 *Photo: LPLT, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monte_Guadagnolo), CC BY-SA 3.0; Registrato2013, public domain; Sofiasettembre, CC BY-SA 4.0.*
