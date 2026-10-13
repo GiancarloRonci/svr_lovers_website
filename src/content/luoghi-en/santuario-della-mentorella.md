@@ -34,4 +34,20 @@ In the 6th century the sanctuary was given to Benedictine monks and remained for
 
 Perched among the rocks, with its entrance reachable only on foot along a mountain path, the sanctuary offers one of the most spectacular views in the area, looking out over the valley below towards the Prenestini and Simbruini mountains. Still today it is a destination for pilgrims and hikers alike, and remains one of the most striking places near San Vito Romano.
 
+## Opening hours and contacts
+
+The sanctuary is open every day, weekdays and public holidays alike, from 8:00 am to 7:00 pm.
+
+**Mass times:**
+
+- **Monday to Saturday:** 4:00 pm;
+- **Sundays and public holidays:** 10:00 am, 11:00 am, 12:30 pm and 5:00 pm;
+- **first Saturday of the month:** 5:00 pm (Mass for the sick).
+
+**Phone:** [+39 06 9547 1899](tel:+390695471899)
+
+Opening hours may change: it is best to check them before setting off.
+
+*Sources: [Sanctuary of the Mentorella](https://santuariodellamentorella.jimdofree.com/) for opening hours and Mass times, [Congregation of the Resurrection](https://resurrectionist.eu/en/community/where-we-are/our-sacred-shrines/sanctuary-of-our-lady-of-grace-at-mentorella-italy) for contact details (checked in October 2026).*
+
 *Photo: Laky 1970, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Santuario_della_Mentorella), CC BY-SA 4.0.*

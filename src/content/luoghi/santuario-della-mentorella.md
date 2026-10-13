@@ -34,4 +34,20 @@ Nel VI secolo il santuario fu donato ai monaci benedettini e rimase per secoli s
 
 Arroccato tra le rocce, con l'ingresso raggiungibile solo a piedi lungo un sentiero, il santuario regala uno dei panorami più spettacolari della zona, con lo sguardo che spazia sulla valle sottostante fino ai monti Prenestini e Simbruini. Ancora oggi è meta di pellegrinaggi ed escursioni, e resta uno dei luoghi più suggestivi nei dintorni di San Vito Romano.
 
+## Orari e contatti
+
+Il santuario è aperto tutti i giorni, feriali e festivi, dalle 8:00 alle 19:00.
+
+**Sante Messe:**
+
+- **dal lunedì al sabato:** 16:00;
+- **domenica e festivi:** 10:00, 11:00, 12:30 e 17:00;
+- **primo sabato del mese:** 17:00 (Messa dei malati).
+
+**Telefono:** [06 9547 1899](tel:+390695471899)
+
+Gli orari possono cambiare: conviene verificarli prima di partire.
+
+*Fonti: [Santuario della Mentorella](https://santuariodellamentorella.jimdofree.com/) per orari e Messe, [Congregazione della Risurrezione](https://resurrectionist.eu/en/community/where-we-are/our-sacred-shrines/sanctuary-of-our-lady-of-grace-at-mentorella-italy) per i contatti (consultati a ottobre 2026).*
+
 *Foto: Laky 1970, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Santuario_della_Mentorella), CC BY-SA 4.0.*
