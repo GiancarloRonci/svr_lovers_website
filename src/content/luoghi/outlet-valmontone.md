@@ -52,6 +52,28 @@ Prenestini, l'outlet è aperto sette giorni su sette, con orari più lunghi nei
 fine settimana: conviene verificarli sul sito ufficiale prima di partire, in
 particolare nei giorni festivi.
 
+## Orari e contatti
+
+**Negozi:**
+
+- **dal lunedì al venerdì:** 10:00 – 20:00;
+- **sabato e domenica:** 10:00 – 21:00.
+
+**Food court:**
+
+- **dal lunedì al giovedì:** 10:00 – 22:00;
+- **dal venerdì alla domenica:** 10:00 – 23:00.
+
+**Telefono:** [06 9599491](tel:+39069599491)
+
+**Email:** [info@valmontoneoutlet.com](mailto:info@valmontoneoutlet.com)
+
+**Indirizzo:** Via della Pace, località Pascolaro, Valmontone (Roma)
+
+Nei giorni festivi e nei periodi di saldi gli orari possono cambiare: conviene verificarli prima di partire.
+
+*Fonte per orari, telefono ed email: [Valmontone Outlet - sito ufficiale](https://www.valmontoneoutlet.com/) (consultato a ottobre 2026).*
+
 ## Cosa ne pensano i visitatori
 
 Leggendo le recensioni lasciate online da chi c'è stato, le impressioni sono nel

@@ -53,6 +53,28 @@ the Monti Prenestini area, the outlet is open seven days a week, with longer
 hours at weekends: it is worth checking them on the official website before
 setting off, especially on public holidays.
 
+## Opening hours and contacts
+
+**Shops:**
+
+- **Monday to Friday:** 10:00 am – 8:00 pm;
+- **Saturday and Sunday:** 10:00 am – 9:00 pm.
+
+**Food court:**
+
+- **Monday to Thursday:** 10:00 am – 10:00 pm;
+- **Friday to Sunday:** 10:00 am – 11:00 pm.
+
+**Phone:** [+39 06 9599491](tel:+39069599491)
+
+**Email:** [info@valmontoneoutlet.com](mailto:info@valmontoneoutlet.com)
+
+**Address:** Via della Pace, località Pascolaro, Valmontone (Rome)
+
+On public holidays and during the sales the opening hours may change: it is best to check them before setting off.
+
+*Source for opening hours, phone and email: [Valmontone Outlet - official website](https://www.valmontoneoutlet.com/en/) (checked in October 2026).*
+
 ## What visitors think
 
 Judging by the reviews left online by people who have been there, impressions
