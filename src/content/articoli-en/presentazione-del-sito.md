@@ -30,7 +30,11 @@ We made it for those who live in San Vito, for those who come back every summer 
 
 🌍 The whole site is also available in Italian.
 
+🧳 Our dream is to see many tourists in San Vito Romano: to discover the village, but also because San Vito is a strategic base from which to visit many places in the surrounding area, a good number of which are described on this site.
+
 The site has only just been born and will grow together with you. Do you have an old photo, a memory, a family story, an event to report or a mistake to correct? Write to us here in the group or at info@sanvitoromanolovers.org: every contribution is precious.
+
+💡 It is really important for us to understand how the site can keep getting better: we have many ideas to bring to life on these pages, and we look forward to hearing from you, our readers.
 
 👉 Visit it, have a look around and tell us what you think: **https://www.sanvitoromanolovers.org/en/**
 

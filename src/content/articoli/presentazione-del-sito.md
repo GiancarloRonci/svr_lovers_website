@@ -30,7 +30,11 @@ Lo abbiamo pensato per chi a San Vito ci vive, per chi ci torna ogni estate e pe
 
 🌍 Tutto il sito è disponibile anche in inglese, per gli amici che ci leggono dall'estero.
 
+🧳 Il nostro sogno è vedere tanti turisti a San Vito Romano: per scoprire il paese, ma anche perché San Vito è un punto strategico da cui partire per visitare molti luoghi dei dintorni, tanti dei quali sono raccontati in questo sito.
+
 Il sito è appena nato e crescerà insieme a voi. Avete una vecchia foto, un ricordo, una storia di famiglia, un evento da segnalare o un errore da correggere? Scriveteci qui nel gruppo oppure a info@sanvitoromanolovers.org: ogni contributo è prezioso.
+
+💡 Per noi è davvero importante capire come il sito può essere migliorato sempre di più: abbiamo tante idee da concretizzare su queste pagine e aspettiamo le segnalazioni di voi utenti.
 
 👉 Visitatelo, curiosate e fateci sapere che cosa ne pensate: **https://www.sanvitoromanolovers.org**
 
