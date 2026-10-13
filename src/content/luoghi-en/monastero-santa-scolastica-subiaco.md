@@ -19,4 +19,18 @@ A special chapter in the history of Italian culture was written here in 1465, wh
 
 Still home to a community of Benedictine monks, the monastery is open to visitors and, together with the nearby Sacro Speco, is an essential stop for anyone wanting to discover the origins of Western monasticism.
 
+## Opening hours and contacts
+
+The monastery is open to visitors every day; visits are accompanied by a guide and no booking is required:
+
+- **morning:** 9:30 am – 12:15 pm;
+- **afternoon, in summer:** 3:30 – 6:15 pm;
+- **afternoon, in winter:** 3:30 – 5:15 pm.
+
+**Phone:** [+39 0774 82421](tel:+39077482421)
+
+Opening hours may change, especially on public holidays: it is best to check them before setting off.
+
+*Opening hours source: [Benedictines of Subiaco](http://www.benedettini-subiaco.org/) (checked in October 2026).*
+
 *Photo: Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_di_Santa_Scolastica_(Subiaco)), CC BY-SA 4.0.*

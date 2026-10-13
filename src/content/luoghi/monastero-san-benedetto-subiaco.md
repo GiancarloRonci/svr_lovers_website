@@ -20,4 +20,20 @@ Poco più a valle, lungo la stessa gola, sorge il Monastero di Santa Scolastica,
 
 Raggiungibile solo a piedi lungo un sentiero che si inerpica tra i boschi, il Sacro Speco resta ancora oggi meta di pellegrinaggi e visite, uno dei santuari rupestri più spettacolari del Lazio.
 
+## Orari e contatti
+
+Il monastero è aperto alle visite tutti i giorni, senza prenotazione:
+
+- **mattina:** 9:00 – 12:30 (ultimo ingresso alle 12:00);
+- **pomeriggio, dal 1° aprile al 1° novembre:** 15:00 – 18:00 (ultimo ingresso alle 17:30);
+- **pomeriggio, dal 2 novembre al 31 marzo:** 15:00 – 17:00 (ultimo ingresso alle 16:30).
+
+La domenica mattina una parte del santuario resta chiusa al pubblico per le funzioni religiose.
+
+**Telefono:** [0774 85039](tel:+39077485039)
+
+Gli orari possono cambiare, soprattutto nei giorni festivi: conviene verificarli prima di partire.
+
+*Fonte orari: [Ministero della Cultura](https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco) (consultato a ottobre 2026).*
+
 *Foto: High Contrast e Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_del_Sacro_Speco_(Subiaco)), CC BY 3.0 e CC BY-SA 4.0; pietro scerrato, CC BY 3.0.*

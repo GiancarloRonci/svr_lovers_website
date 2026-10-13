@@ -19,4 +19,18 @@ Un capitolo speciale nella storia della cultura italiana si scrisse qui nel 1465
 
 Ancora oggi abitato da una comunità di monaci benedettini, il monastero è aperto alle visite ed è un luogo imprescindibile per chi vuole scoprire, insieme al vicino Sacro Speco, le origini del monachesimo occidentale.
 
+## Orari e contatti
+
+Il monastero è aperto alle visite tutti i giorni; la visita è accompagnata da una guida e non richiede prenotazione:
+
+- **mattina:** 9:30 – 12:15;
+- **pomeriggio, in estate:** 15:30 – 18:15;
+- **pomeriggio, in inverno:** 15:30 – 17:15.
+
+**Telefono:** [0774 82421](tel:+39077482421)
+
+Gli orari possono cambiare, soprattutto nei giorni festivi: conviene verificarli prima di partire.
+
+*Fonte orari: [Benedettini di Subiaco](http://www.benedettini-subiaco.org/) (consultato a ottobre 2026).*
+
 *Foto: Livioandronico2013, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Monastero_di_Santa_Scolastica_(Subiaco)), CC BY-SA 4.0.*
