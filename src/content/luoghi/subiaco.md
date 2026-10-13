@@ -20,4 +20,30 @@ Il centro storico è dominato dalla Rocca Abbaziale, la fortezza medievale degli
 
 Subiaco è anche la città natale dell'attrice Gina Lollobrigida e il punto di partenza per salire a Monte Livata e ai sentieri del Parco dei Monti Simbruini. Con i due monasteri, il borgo e la rocca, è la meta ideale per una giornata intera partendo da San Vito.
 
+## Orari e contatti
+
+### Rocca Abbaziale
+
+La rocca è aperta ogni sabato, domenica e festivo, con orario continuato:
+
+- **dal 1° maggio al 31 ottobre:** 10:00 – 19:00;
+- **dal 1° novembre al 30 aprile:** 10:30 – 18:30;
+- **chiusa:** il 25 dicembre e il 1° gennaio.
+
+Le aperture straordinarie vengono comunicate sul sito della rocca.
+
+**Telefono e WhatsApp:** [379 177 7766](tel:+393791777766)
+
+**Email:** [info@roccadisubiaco.it](mailto:info@roccadisubiaco.it)
+
+**Indirizzo:** Piazza Santa Maria della Valle (Salita Don Gigi), Subiaco (Roma)
+
+### Monasteri di San Benedetto e di Santa Scolastica
+
+I due monasteri sono aperti tutti i giorni, con una pausa a metà giornata: il Sacro Speco indicativamente 9:00 – 12:30 e dalle 15:00, Santa Scolastica 9:30 – 12:15 e dalle 15:30. Orari completi, telefoni e fonti sono nelle schede del [Monastero di San Benedetto](/luoghi/monastero-san-benedetto-subiaco) e del [Monastero di Santa Scolastica](/luoghi/monastero-santa-scolastica-subiaco).
+
+Gli orari possono cambiare: conviene verificarli prima di partire.
+
+*Fonte per orari e contatti della rocca: [Rocca Abbaziale di Subiaco - sito ufficiale](https://roccadisubiaco.it/info/) (consultato a ottobre 2026).*
+
 *Foto: Mattis, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Subiaco), CC BY-SA 4.0; Livioandronico2013, CC BY-SA 4.0.*

@@ -20,4 +20,30 @@ The historic centre is dominated by the Rocca Abbaziale, the medieval fortress o
 
 Subiaco is also the birthplace of the actress Gina Lollobrigida and the starting point for the climb to Monte Livata and the trails of the Monti Simbruini Park. With the two monasteries, the old town and the fortress, it makes an ideal full-day trip from San Vito.
 
+## Opening hours and contacts
+
+### Rocca Abbaziale
+
+The fortress is open every Saturday, Sunday and public holiday, without a lunchtime break:
+
+- **1 May to 31 October:** 10:00 am – 7:00 pm;
+- **1 November to 30 April:** 10:30 am – 6:30 pm;
+- **closed:** 25 December and 1 January.
+
+Special openings are announced on the fortress website.
+
+**Phone and WhatsApp:** [+39 379 177 7766](tel:+393791777766)
+
+**Email:** [info@roccadisubiaco.it](mailto:info@roccadisubiaco.it)
+
+**Address:** Piazza Santa Maria della Valle (Salita Don Gigi), Subiaco (Rome)
+
+### Monasteries of San Benedetto and Santa Scolastica
+
+The two monasteries are open every day, with a midday break: the Sacro Speco roughly 9:00 am – 12:30 pm and from 3:00 pm, Santa Scolastica 9:30 am – 12:15 pm and from 3:30 pm. Full opening hours, phone numbers and sources are on the pages of the [Monastery of San Benedetto](/en/luoghi/monastero-san-benedetto-subiaco) and the [Monastery of Santa Scolastica](/en/luoghi/monastero-santa-scolastica-subiaco).
+
+Opening hours may change: it is best to check them before setting off.
+
+*Source for the fortress opening hours and contacts: [Rocca Abbaziale di Subiaco - official website](https://roccadisubiaco.it/info/) (checked in October 2026).*
+
 *Photo: Mattis, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Subiaco), CC BY-SA 4.0; Livioandronico2013, CC BY-SA 4.0.*
