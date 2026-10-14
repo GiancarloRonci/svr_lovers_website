@@ -27,6 +27,32 @@ Every day the sun, the moon and the street lamps light up San Vito Romano and ch
 
 ©️ **The rights stay yours** – the photos remain the property of whoever took them (or holds the rights); you only allow us to use them for the contest and to promote the town. If recognisable people appear in your photos, make sure you have their permission.
 
+🤔 **"Can I send this photo?" A few concrete examples**
+
+📷 I took a photo of the sunset behind the bell tower with my smartphone, then brightened it a little and cropped it.\
+✅ **Yes.** Any device is fine, and adjusting light and colour or cropping is allowed.
+
+🖼️ I have a black-and-white photo of the patron saint's feast from the 1960s, taken by my grandfather and kept in the family album.\
+✅ **Yes.** Historical photos from your personal or family collection are welcome.
+
+🌐 I found a beautiful photo of Piazza Roma online (or on someone else's profile) and I'd like to send it in.\
+❌ **No**, unless the person who took it has given you permission: you can only send photos taken by others if you hold the rights or have their authorisation.
+
+🤝 A friend who loves photography has given me permission to send some of their shots of the town.\
+✅ **Yes.** You can send photos taken by others, as long as the author has allowed them to be published and exhibited for the contest.
+
+🌈 I photographed the castle, but the sky was grey: I replaced it with a sunset sky and added a rainbow.\
+❌ **No.** Changes that add, replace or transform elements of the scene are not allowed.
+
+👧 I have a photo of children playing in the square during the feast, and their faces are clearly recognisable.\
+✅ **Yes**, but only if you have their parents' permission. ❌ Without it, **no**.
+
+🏞️ I have a lovely photo of the Monastery of Saint Benedict in Subiaco.\
+❌ **No.** Photos must be taken within the territory of San Vito Romano and tell the story of the town.
+
+📅 I've finally picked my photos and I'm sending them on 3 December 2026.\
+❌ **No.** The deadline is 30 November 2026: don't leave it to the last minute!
+
 👉 **To take part**, you will find all the information and the form to upload your photos here: **[www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/](https://www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/)**
 
 📄 Before submitting, please read the **official rules**: **[www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/regolamento/](https://www.sanvitoromanolovers.org/en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/regolamento/)**
