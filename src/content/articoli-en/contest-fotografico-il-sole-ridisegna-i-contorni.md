@@ -3,6 +3,8 @@ title: "Photo contest: \"San Vito Romano: the sun redraws the outlines\""
 description: "The post introducing the first edition of the photo contest dedicated to San Vito Romano: how to take part, deadlines and voting."
 data: 2026-10-14
 autore: Redazione SVRLovers
+immagine: ./contest-fotografico-il-sole-ridisegna-i-contorni/locandina.png
+immagineIntera: true
 ---
 
 📸 **The first SanVitoRomano Lovers photo contest is on: "San Vito Romano: il sole ridisegna i contorni" (the sun redraws the outlines)** ☀️

@@ -227,6 +227,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     autore: z.string().optional(),
     // Raggruppa l'articolo in una sezione di Cultura&Turismo (es. "Viaggi nel tempo")
     categoria: z.enum(['viaggi-nel-tempo']).optional(),
+    // Mostra l'immagine intera, senza ritaglio (es. locandine verticali)
+    immagineIntera: z.boolean().optional(),
     immagine: image().optional(),
     galleria: z
       .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
