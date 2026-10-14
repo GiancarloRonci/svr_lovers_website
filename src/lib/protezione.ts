@@ -1,7 +1,7 @@
 // Attività di Cultura&Turismo ancora in lavorazione: la scheda, il regolamento e la pagina di
 // ringraziamento (IT ed EN) chiedono una password prima di mostrare il contenuto.
-// Per riaprire una pagina a tutti basta togliere il suo slug da questo elenco.
-export const ATTIVITA_PROTETTE = ['contest-fotografico-il-sole-ridisegna-i-contorni'];
+// Per proteggere un'attività aggiungi il suo slug a questo elenco; per riaprirla a tutti toglilo.
+export const ATTIVITA_PROTETTE: string[] = [];
 
 // Impronta SHA-256 della password (scritta in minuscolo). Per cambiarla:
 //   node -e "console.log(require('crypto').createHash('sha256').update('nuova-password').digest('hex'))"
