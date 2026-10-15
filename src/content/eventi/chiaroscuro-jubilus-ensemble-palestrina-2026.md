@@ -9,6 +9,6 @@ tipologiaEvento: Concerto
 
 Domenica 18 ottobre 2026, alle 19:30, la Basilica Cattedrale di Sant'Agapito di Palestrina ospita "Chiaroscuro", concerto corale del Jubilus Ensemble diretto da Roberto Manuel Zangari. Come suggerisce il titolo, il programma gioca sul contrasto tra luce e ombra ed esplora tutta la gamma espressiva del canto d'insieme.
 
-Il concerto è organizzato dalla Fondazione Giovanni Pierluigi da Palestrina, nell'ambito delle iniziative dedicate al patrimonio musicale della città natale del grande compositore. Per informazioni su ingresso e prenotazioni: 06 953 8083, fond.palestrina@fiscal.it.
+Il concerto è organizzato dalla Fondazione Giovanni Pierluigi da Palestrina, nell'ambito delle iniziative dedicate al patrimonio musicale della città natale del grande compositore. Per informazioni su ingresso e prenotazioni: 06 953 8083, fond.palestrina@tiscali.it.
 
 *Fonte: [Monti Prenestini](https://montiprenestini.info/chiaroscuro-a-palestrina-la-musica-corale-della-jubilus-ensemble/)*

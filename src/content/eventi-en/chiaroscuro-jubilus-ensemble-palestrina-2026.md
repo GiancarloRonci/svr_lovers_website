@@ -9,6 +9,6 @@ tipologiaEvento: Concert
 
 On Sunday 18 October 2026, at 7:30 PM, the Cathedral of Sant'Agapito in Palestrina hosts "Chiaroscuro", a choral concert by the Jubilus Ensemble conducted by Roberto Manuel Zangari. As the title suggests, the programme plays on the contrast between light and shadow and explores the full expressive range of ensemble singing.
 
-The concert is organised by the Fondazione Giovanni Pierluigi da Palestrina, as part of its initiatives celebrating the musical heritage of the great composer's home town. For information on admission and booking: 06 953 8083, fond.palestrina@fiscal.it.
+The concert is organised by the Fondazione Giovanni Pierluigi da Palestrina, as part of its initiatives celebrating the musical heritage of the great composer's home town. For information on admission and booking: 06 953 8083, fond.palestrina@tiscali.it.
 
 *Source: [Monti Prenestini](https://montiprenestini.info/chiaroscuro-a-palestrina-la-musica-corale-della-jubilus-ensemble/)*

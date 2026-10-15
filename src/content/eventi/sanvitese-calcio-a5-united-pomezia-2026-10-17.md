@@ -6,6 +6,6 @@ luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
 tipologiaEvento: Evento Sportivo
 ---
 
-Per la 5ª giornata del girone A della Serie C1 laziale di calcio a 5, sabato 17 ottobre la Sanvitese Calcio a 5 gioca in casa contro United Pomezia C5. L'orario del calcio d'inizio non è ancora stato comunicato: seguite la pagina Facebook della squadra per gli aggiornamenti e venite a tifare i colori del paese!
+Per la 5ª giornata del girone A della Serie C1 laziale di calcio a 5, sabato 17 ottobre la Sanvitese Calcio a 5 gioca in casa contro United Pomezia C5, con calcio d'inizio alle 16:00. Venite a tifare i colori del paese!
 
-*Fonte: [Calendario Serie C1 2026/2027 - LND Lazio](https://lazio.lnd.it/wp-content/uploads/2026/09/Calendario-completo-C1_CFemminile_U19.pdf)*
+*Fonte: [Calendario Serie C1 2026/2027 - LND Lazio](https://lazio.lnd.it/wp-content/uploads/2026/09/Calendario-completo-C1_CFemminile_U19.pdf), [Calcio a 5 Live](https://www.calcioa5live.com/?com=girone&id=10)*
