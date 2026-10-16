@@ -91,6 +91,8 @@ From all the accepted photographs, the organisers will select **20 finalist phot
 
 The 20 selected photographs will be presented to the members of the community through the social networks (**Facebook, Instagram, TikTok**), in the ways each platform makes available.
 
+**Participants' names will not be shown** during the voting. Once the voting has closed, the names of the people whose photographs reach the **top three positions** will be announced.
+
 The winner will be determined by the **sum of the number of likes** each photograph receives across the different platforms: the photograph with the highest total will be declared the **winner of the contest**.
 
 The likes that determine the winning photograph will be counted on **7 January 2027**.

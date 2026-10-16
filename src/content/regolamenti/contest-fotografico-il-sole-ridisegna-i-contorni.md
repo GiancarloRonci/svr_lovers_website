@@ -89,6 +89,8 @@ Tra tutte le fotografie ammesse, gli organizzatori selezioneranno **20 fotografi
 
 Le 20 fotografie selezionate saranno proposte agli utenti della community attraverso i social network (**Facebook, Instagram, TikTok**), secondo le modalità che le varie piattaforme mettono a disposizione.
 
+Durante le votazioni **i nomi dei partecipanti non verranno indicati**. Al termine delle votazioni verranno resi noti i nomi delle persone che avranno raggiunto le **prime tre posizioni**.
+
 Il vincitore sarà determinato in base alla **somma del numero dei like** ricevuti da ciascuna fotografia sulle diverse piattaforme: la fotografia che otterrà il totale più alto sarà proclamata **vincitrice del concorso**.
 
 I like che determineranno la fotografia vincitrice saranno contati il giorno **7 gennaio 2027**.
