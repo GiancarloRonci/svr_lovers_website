@@ -2,6 +2,7 @@
 title: "San Vito, deposto con amore sulla sua collina"
 description: "Una foto-arte che immagina mani divine e angeli posare San Vito Romano sulla sua collina tra i Monti Prenestini: un invito a guardare il paese come un dono da custodire."
 data: 2026-10-16
+autore: Vito Rossi
 categoria: viaggi-nel-tempo
 immagine: ./san-vito-deposto-con-amore-sulla-sua-collina/san-vito-mani-divine-angeli.jpg
 ---

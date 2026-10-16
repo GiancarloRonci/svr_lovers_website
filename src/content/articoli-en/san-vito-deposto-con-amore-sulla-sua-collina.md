@@ -2,6 +2,7 @@
 title: "San Vito, lovingly set down on its hill"
 description: "A photo-art piece that imagines divine hands and angels placing San Vito Romano on its hill among the Monti Prenestini: an invitation to see the village as a gift to look after."
 data: 2026-10-16
+autore: Vito Rossi
 categoria: viaggi-nel-tempo
 immagine: ./san-vito-deposto-con-amore-sulla-sua-collina/san-vito-mani-divine-angeli.jpg
 ---
