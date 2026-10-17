@@ -191,6 +191,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         <dialog id="sel-conferma" class="sel-conferma" aria-labelledby="sel-conferma-titolo">
           <h2 id="sel-conferma-titolo">{t.confermaTitolo}</h2>
           <p id="sel-conferma-testo" />
+          <p id="sel-conferma-errore" class="avviso" role="alert" hidden />
           <div class="sel-conferma-bottoni">
             <button type="button" id="sel-conferma-no" class="secondario">{t.annulla}</button>
             <button type="button" id="sel-conferma-si" class="pericolo">{t.confermaSi}</button>
@@ -320,7 +321,16 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         var visoreElimina = document.getElementById('sel-visore-elimina');
         var conferma = document.getElementById('sel-conferma');
         var confermaSi = document.getElementById('sel-conferma-si');
+        var confermaErrore = document.getElementById('sel-conferma-errore');
         var daEliminare = null;
+
+        // Gli errori dell'eliminazione restano nella finestra di conferma, che non si chiude:
+        // l'avviso della pagina è in alto e chi sta guardando la galleria non lo vedrebbe
+        function erroreConferma(testo) {
+          confermaErrore.textContent = testo;
+          confermaErrore.hidden = false;
+          confermaSi.disabled = false;
+        }
 
         function preparaEliminaVisore() {
           visoreElimina.hidden = dati.chiuso || !eMia(dati.foto[aperta].codice);
@@ -331,6 +341,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           daEliminare = codice;
           document.getElementById('sel-conferma-testo').textContent = testi.confermaTesto.replace('{codice}', codice);
           confermaSi.disabled = false;
+          confermaErrore.hidden = true;
           conferma.showModal();
         }
 
@@ -354,6 +365,9 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             codice: codice,
           })
             .then(function (r) {
+              if (!r.ok && r.errore !== 'chiuso' && r.errore !== 'credenziali') {
+                return erroreConferma(testi.erroreElimina + ' (' + r.errore + ')');
+              }
               conferma.close();
               if (r.ok) {
                 dati.foto = r.foto;
@@ -370,11 +384,9 @@ const chiaveMemoria = `svr-selezione-${slug}`;
                 return disegna();
               }
               if (r.errore === 'credenziali') return esci(testi.erroreCredenziali);
-              mostraErrore(testi.erroreElimina);
             })
             .catch(function () {
-              conferma.close();
-              mostraErrore(testi.erroreRete);
+              erroreConferma(testi.erroreRete);
             });
         }
         visore.addEventListener('keydown', function (e) {
