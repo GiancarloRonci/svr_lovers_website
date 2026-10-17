@@ -27,6 +27,8 @@ const strings = {
     erroreCredenziali: 'Email o password non corrette.',
     erroreRete: 'Impossibile contattare il server. Controlla la connessione e riprova.',
     erroreChiuso: 'Le votazioni sono chiuse: i like non si possono più cambiare.',
+    errorePropria: 'Non puoi mettere il like alle tue foto.',
+    tuaFoto: 'La tua foto',
     chiuso: 'Le votazioni sono chiuse. Qui sotto trovi la classifica finale.',
     galleria: 'Le foto in concorso',
     nessunaFoto: 'Non ci sono ancora foto da votare.',
@@ -58,6 +60,8 @@ const strings = {
     erroreCredenziali: 'Incorrect email or password.',
     erroreRete: 'Unable to reach the server. Check your connection and try again.',
     erroreChiuso: 'Voting is closed: likes can no longer be changed.',
+    errorePropria: 'You cannot like your own photos.',
+    tuaFoto: 'Your photo',
     chiuso: 'Voting is closed. The final ranking is below.',
     galleria: 'The photos in the contest',
     nessunaFoto: 'There are no photos to vote on yet.',
@@ -94,6 +98,8 @@ const testi = {
   erroreCredenziali: t.erroreCredenziali,
   erroreRete: t.erroreRete,
   erroreChiuso: t.erroreChiuso,
+  errorePropria: t.errorePropria,
+  tuaFoto: t.tuaFoto,
   nessunaFoto: t.nessunaFoto,
   tuoiLike: t.tuoiLike('{n}', '{tot}'),
   like: t.like,
@@ -210,8 +216,24 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         }
 
         // Stato del cuore (pieno/vuoto) per un bottone della galleria o del visore
+        function eMia(codice) {
+          return dati.foto.some(function (f) {
+            return f.codice === codice && f.propria;
+          });
+        }
+
         function preparaLike(bottone, codice) {
+          // Le proprie foto non si possono votare: al posto del cuore compare "La tua foto"
+          if (eMia(codice)) {
+            bottone.classList.add('propria');
+            bottone.removeAttribute('aria-pressed');
+            bottone.removeAttribute('aria-label');
+            bottone.textContent = testi.tuaFoto;
+            bottone.disabled = true;
+            return;
+          }
           var attivo = haLike(codice);
+          bottone.classList.remove('propria');
           bottone.setAttribute('aria-pressed', attivo ? 'true' : 'false');
           bottone.setAttribute('aria-label', (attivo ? testi.togliLike : testi.like) + ' – ' + codice);
           bottone.textContent = attivo ? '♥' : '♡';
@@ -386,6 +408,10 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           })
             .then(function (r) {
               if (r.ok) return aggiorna(r);
+              if (r.errore === 'propria') {
+                mostraErrore(testi.errorePropria);
+                return disegna();
+              }
               if (r.errore === 'chiuso') {
                 mostraErrore(testi.erroreChiuso);
                 dati.chiuso = true;
@@ -573,6 +599,22 @@ const chiaveMemoria = `svr-selezione-${slug}`;
   .sel-galleria :global(.sel-like:disabled) {
     opacity: 0.5;
     cursor: default;
+  }
+
+  .sel-galleria :global(.sel-like.propria),
+  .sel-visore .sel-like.propria {
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 1;
+  }
+
+  .sel-galleria :global(.sel-like.propria) {
+    color: var(--color-muted);
+  }
+
+  .sel-visore .sel-like.propria {
+    color: #c9c4b6;
   }
 
   .sel-visore {

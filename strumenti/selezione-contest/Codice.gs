@@ -3,7 +3,10 @@
  *
  * Web app Google Apps Script collegata al foglio Google con le schede:
  *   - Abilitati: Email | Password            (una riga per selezionatore)
- *   - Foto:      Codice | ID file Drive       (compilata dal menu "Contest > Importa foto")
+ *   - Foto:      Codice | ID file Drive | Email autore
+ *                (le prime due colonne le compila il menu "Contest > Importa foto"; l'email
+ *                dell'autore si scrive a mano, almeno per le foto dei selezionatori, che non
+ *                possono mettere il like alle proprie foto)
  *   - Like:      Email | Codice | Data        (scritta dallo script, non modificarla a mano)
  *
  * La pagina del sito chiama questa web app con POST e riceve JSON.
@@ -42,14 +45,17 @@ function doPost(e) {
 
   if (richiesta.azione === 'accesso') {
     var stato = statoVotazione(email);
-    stato.foto = elencoFoto();
+    stato.foto = elencoFoto(email);
     return risposta(stato);
   }
 
   if (richiesta.azione === 'like') {
     if (votazioneChiusa()) return risposta({ ok: false, errore: 'chiuso' });
     var codice = String(richiesta.codice || '');
-    if (!codiciFoto()[codice]) return risposta({ ok: false, errore: 'foto' });
+    var autori = autoriFoto();
+    if (!(codice in autori)) return risposta({ ok: false, errore: 'foto' });
+    // Il like alle proprie foto è vietato (toglierlo resta possibile, nel caso ci fosse già)
+    if (richiesta.valore === true && autori[codice] === email) return risposta({ ok: false, errore: 'propria' });
     impostaLike(email, codice, richiesta.valore === true);
     return risposta(statoVotazione(email));
   }
@@ -87,7 +93,12 @@ function votazioneChiusa() {
   return new Date() > CHIUSURA;
 }
 
-function elencoFoto() {
+function emailAutore(r) {
+  return String(r[2] || '').trim().toLowerCase();
+}
+
+// L'email dell'autore non viene mai mandata alla pagina: solo il segnale "questa foto è tua"
+function elencoFoto(email) {
   return righe(SCHEDA_FOTO)
     .filter(function (r) {
       return r[0] && r[1];
@@ -98,22 +109,25 @@ function elencoFoto() {
         codice: String(r[0]).trim(),
         img: 'https://drive.google.com/thumbnail?id=' + id + '&sz=w800',
         grande: 'https://drive.google.com/thumbnail?id=' + id + '&sz=w2400',
+        propria: emailAutore(r) !== '' && emailAutore(r) === email,
       };
     });
 }
 
-function codiciFoto() {
-  var codici = {};
+// Codice foto -> email dell'autore ('' se non indicata)
+function autoriFoto() {
+  var autori = {};
   righe(SCHEDA_FOTO).forEach(function (r) {
-    if (r[0] && r[1]) codici[String(r[0]).trim()] = true;
+    if (r[0] && r[1]) autori[String(r[0]).trim()] = emailAutore(r);
   });
-  return codici;
+  return autori;
 }
 
 // Like dell'utente e classifica di tutte le foto (anche quelle senza like)
 function statoVotazione(email) {
+  var autori = autoriFoto();
   var conteggi = {};
-  Object.keys(codiciFoto()).forEach(function (c) {
+  Object.keys(autori).forEach(function (c) {
     conteggi[c] = 0;
   });
   var miei = [];
@@ -121,6 +135,8 @@ function statoVotazione(email) {
     var e = String(r[0]).trim().toLowerCase();
     var c = String(r[1]).trim();
     if (!(c in conteggi)) return;
+    // Un like dato a una propria foto (prima che fosse indicato l'autore) non conta
+    if (autori[c] && autori[c] === e) return;
     conteggi[c]++;
     if (e === email) miei.push(c);
   });
@@ -170,19 +186,26 @@ function onOpen() {
     .addToUi();
 }
 
-// Crea le tre schede con le intestazioni, se mancano
+// Crea le tre schede con le intestazioni, se mancano, e aggiunge le intestazioni mancanti
+// a quelle già esistenti (es. la colonna "Email autore" nella scheda Foto)
 function preparaSchede() {
   var foglio = SpreadsheetApp.getActiveSpreadsheet();
   [
     [SCHEDA_ABILITATI, ['Email', 'Password']],
-    [SCHEDA_FOTO, ['Codice', 'ID file Drive']],
+    [SCHEDA_FOTO, ['Codice', 'ID file Drive', 'Email autore']],
     [SCHEDA_LIKE, ['Email', 'Codice', 'Data']],
   ].forEach(function (d) {
-    if (!foglio.getSheetByName(d[0])) {
-      var s = foglio.insertSheet(d[0]);
+    var s = foglio.getSheetByName(d[0]);
+    if (!s) {
+      s = foglio.insertSheet(d[0]);
       s.appendRow(d[1]);
       s.setFrozenRows(1);
+      return;
     }
+    d[1].forEach(function (titolo, i) {
+      var cella = s.getRange(1, i + 1);
+      if (!cella.getValue()) cella.setValue(titolo);
+    });
   });
   SpreadsheetApp.getUi().alert('Schede pronte: Abilitati, Foto, Like.');
 }

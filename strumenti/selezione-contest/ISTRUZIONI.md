@@ -23,7 +23,8 @@ server. Le password non finiscono mai nel codice del sito né su GitHub.
 4. In alto nel codice sostituisci `INCOLLA-QUI-ID-CARTELLA` con l'ID della cartella del punto 1.
    Lì c'è anche la data di chiusura (`CHIUSURA`, 30 novembre 2026 alle 23:59:59).
 5. Salva (icona del disco), torna al foglio e ricarica la pagina: compare il menu **Contest**.
-6. **Contest > Prepara le schede**: crea le schede `Abilitati`, `Foto` e `Like`.
+6. **Contest > Prepara le schede**: crea le schede `Abilitati`, `Foto` e `Like` (se esistono già,
+   aggiunge solo le intestazioni mancanti, come la colonna "Email autore").
    La prima volta Google chiede l'autorizzazione: scegli il tuo account, poi
    "Avanzate" > "Vai a … (non sicuro)" > "Consenti" (lo script è tuo, l'avviso è normale).
 
@@ -42,6 +43,17 @@ importate non vengono duplicate e i codici esistenti non cambiano.
 
 Per escludere una foto (per esempio non conforme al regolamento) cancella la sua riga nella scheda
 Foto: sparisce dalla pagina e i suoi like non vengono più contati.
+
+### Foto dei selezionatori
+
+Un selezionatore non può mettere il like alle proprie foto. Nella scheda **Foto**, colonna C
+(**Email autore**), scrivi l'email dell'autore accanto alle foto dei selezionatori: deve essere la
+stessa email che il selezionatore usa per entrare nella pagina (quella della scheda Abilitati).
+Per le altre foto la colonna può restare vuota.
+
+Nella pagina, sulle sue foto il selezionatore vede la scritta "La tua foto" al posto del cuore.
+L'email dell'autore non viene mai mostrata. Se un selezionatore aveva già messo il like a una sua
+foto prima che compilassi la colonna, quel like non viene più contato.
 
 ## 5. Pubblicare la web app
 
