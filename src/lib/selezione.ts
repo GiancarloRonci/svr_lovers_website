@@ -12,7 +12,7 @@ export interface Selezione {
 // Chiave: slug della scheda del contest in `src/content/associazione`
 export const SELEZIONI: Record<string, Selezione> = {
   'contest-fotografico-il-sole-ridisegna-i-contorni': {
-    scriptUrl: 'https://script.google.com/macros/s/AKfycbwEdpxqx6Rbr-dOki547m8tqyu0GtnxP4wwuTCdxqQ4ulhtXVU-A1s-bJn_YbZMp9qrYA/exec',
+    scriptUrl: 'https://script.google.com/macros/s/AKfycbz7eBFyfbzpT8p9-Hkgcaqm_BA-LX-8-df1A5nkO-SXI_FbqisTUszhQXohC4xABj3tOA/exec',
     chiusura: '2026-11-30T23:59:59+01:00',
   },
 };
