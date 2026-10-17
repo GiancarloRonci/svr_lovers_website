@@ -244,20 +244,18 @@ function chiaveWebhook() {
   return chiave;
 }
 
+// L'indirizzo /exec non si può ricavare in modo affidabile dallo script (getService().getUrl()
+// può restituire un indirizzo interno che dà 404): si mostra solo la parte da aggiungere.
 function mostraUrlWebhook() {
-  var url = ScriptApp.getService().getUrl();
   var ui = SpreadsheetApp.getUi();
-  if (!url) {
-    ui.alert('Prima pubblica lo script come app web (Esegui il deployment > Nuovo deployment).');
-    return;
-  }
   ui.alert(
     'URL del webhook per Tally',
-    'In Tally: modulo > Integrations > Webhooks > Connect, e incolla questo indirizzo:\n\n' +
-      url.replace(/\/dev$/, '/exec') +
+    'Prendi l\'URL dell\'app web del tuo deployment (Esegui il deployment > Gestisci deployment, ' +
+      'quello che finisce con /exec, lo stesso usato dal sito) e aggiungi in fondo:\n\n' +
       '?chiave=' +
       chiaveWebhook() +
-      '\n\nNon condividerlo: contiene la chiave che autorizza gli invii.',
+      '\n\nIncolla l\'indirizzo completo in Tally: modulo > Integrations > Webhooks > Connect.' +
+      '\nNon condividerlo: contiene la chiave che autorizza gli invii.',
     ui.ButtonSet.OK
   );
 }

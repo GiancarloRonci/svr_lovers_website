@@ -57,10 +57,10 @@ modifica (matita) > Versione: Nuova versione > Esegui il deployment**. L'URL res
 
 1. Nel foglio: **Contest > Attiva il salvataggio automatico delle foto** (una volta sola).
    Google chiede di nuovo l'autorizzazione, perché ora lo script scarica file da internet.
-2. Nel foglio: **Contest > Collega Tally (mostra URL del webhook)**. Compare un indirizzo del tipo
-   `https://script.google.com/macros/s/…/exec?chiave=…`: copialo. Non condividerlo, contiene la
-   chiave che autorizza gli invii. Se l'indirizzo mostrato non corrisponde al tuo `/exec`, usa il
-   tuo `/exec` aggiungendo in fondo la parte `?chiave=…`.
+2. Nel foglio: **Contest > Collega Tally (mostra URL del webhook)**. Compare la parte
+   `?chiave=…`: aggiungila in fondo all'URL `/exec` del tuo deployment (lo stesso usato dal sito),
+   per esempio `https://script.google.com/macros/s/…/exec?chiave=…`. Non condividere l'indirizzo
+   completo: contiene la chiave che autorizza gli invii.
 3. In Tally apri il modulo del contest > **Integrations > Webhooks > Connect**, incolla l'indirizzo e
    salva. Non serve impostare il "signing secret" né intestazioni HTTP.
 4. Prova: invia una foto di prova con il modulo. Entro un paio di minuti compare una riga nella
