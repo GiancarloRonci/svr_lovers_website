@@ -29,6 +29,14 @@ const strings = {
     erroreChiuso: 'Le votazioni sono chiuse: i like non si possono più cambiare.',
     errorePropria: 'Non puoi mettere il like alle tue foto.',
     tuaFoto: 'La tua foto',
+    elimina: 'Elimina',
+    eliminaFoto: 'Elimina la tua foto',
+    confermaTitolo: 'Eliminare la foto?',
+    confermaTesto: (c: string) =>
+      `La foto ${c} verrà tolta dal contest: non sarà più visibile ai selezionatori e i like ricevuti non verranno più contati.`,
+    confermaSi: 'Sì, elimina',
+    annulla: 'Annulla',
+    erroreElimina: 'Non è stato possibile eliminare la foto. Riprova.',
     chiuso: 'Le votazioni sono chiuse. Qui sotto trovi la classifica finale.',
     galleria: 'Le foto in concorso',
     nessunaFoto: 'Non ci sono ancora foto da votare.',
@@ -62,6 +70,14 @@ const strings = {
     erroreChiuso: 'Voting is closed: likes can no longer be changed.',
     errorePropria: 'You cannot like your own photos.',
     tuaFoto: 'Your photo',
+    elimina: 'Delete',
+    eliminaFoto: 'Delete your photo',
+    confermaTitolo: 'Delete the photo?',
+    confermaTesto: (c: string) =>
+      `Photo ${c} will be removed from the contest: selectors will no longer see it and its likes will no longer be counted.`,
+    confermaSi: 'Yes, delete',
+    annulla: 'Cancel',
+    erroreElimina: 'The photo could not be deleted. Please try again.',
     chiuso: 'Voting is closed. The final ranking is below.',
     galleria: 'The photos in the contest',
     nessunaFoto: 'There are no photos to vote on yet.',
@@ -100,6 +116,10 @@ const testi = {
   erroreChiuso: t.erroreChiuso,
   errorePropria: t.errorePropria,
   tuaFoto: t.tuaFoto,
+  elimina: t.elimina,
+  eliminaFoto: t.eliminaFoto,
+  confermaTesto: t.confermaTesto('{codice}'),
+  erroreElimina: t.erroreElimina,
   nessunaFoto: t.nessunaFoto,
   tuoiLike: t.tuoiLike('{n}', '{tot}'),
   like: t.like,
@@ -162,9 +182,19 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             <span id="sel-visore-codice" class="sel-visore-codice" />
             <span id="sel-visore-posizione" class="sel-visore-posizione" />
             <button type="button" class="sel-like" id="sel-visore-like" />
+            <button type="button" class="sel-elimina" id="sel-visore-elimina" hidden>{t.elimina}</button>
           </div>
           <p id="sel-visore-errore" class="sel-visore-errore" role="alert" hidden />
 
+        </dialog>
+
+        <dialog id="sel-conferma" class="sel-conferma" aria-labelledby="sel-conferma-titolo">
+          <h2 id="sel-conferma-titolo">{t.confermaTitolo}</h2>
+          <p id="sel-conferma-testo" />
+          <div class="sel-conferma-bottoni">
+            <button type="button" id="sel-conferma-no" class="secondario">{t.annulla}</button>
+            <button type="button" id="sel-conferma-si" class="pericolo">{t.confermaSi}</button>
+          </div>
         </dialog>
       </>
     )
@@ -259,6 +289,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             .replace('{i}', aperta + 1)
             .replace('{n}', n);
           preparaLike(visoreLike, f.codice);
+          preparaEliminaVisore();
           visoreErrore.hidden = true;
           // Precarica le foto vicine, così lo scorrimento è immediato
           [aperta + 1, aperta - 1].forEach(function (j) {
@@ -284,6 +315,68 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           var codice = dati.foto[aperta].codice;
           cambiaLike(codice, !haLike(codice), visoreLike);
         });
+
+        // Eliminazione delle proprie foto, dopo la conferma in una finestra della pagina
+        var visoreElimina = document.getElementById('sel-visore-elimina');
+        var conferma = document.getElementById('sel-conferma');
+        var confermaSi = document.getElementById('sel-conferma-si');
+        var daEliminare = null;
+
+        function preparaEliminaVisore() {
+          visoreElimina.hidden = dati.chiuso || !eMia(dati.foto[aperta].codice);
+          visoreElimina.setAttribute('aria-label', testi.eliminaFoto + ' – ' + dati.foto[aperta].codice);
+        }
+
+        function chiediElimina(codice) {
+          daEliminare = codice;
+          document.getElementById('sel-conferma-testo').textContent = testi.confermaTesto.replace('{codice}', codice);
+          confermaSi.disabled = false;
+          conferma.showModal();
+        }
+
+        visoreElimina.addEventListener('click', function () {
+          chiediElimina(dati.foto[aperta].codice);
+        });
+        document.getElementById('sel-conferma-no').addEventListener('click', function () {
+          conferma.close();
+        });
+        confermaSi.addEventListener('click', function () {
+          confermaSi.disabled = true;
+          eliminaFoto(daEliminare);
+        });
+
+        function eliminaFoto(codice) {
+          mostraErrore('');
+          chiama({
+            azione: 'elimina',
+            email: credenziali.email,
+            password: credenziali.password,
+            codice: codice,
+          })
+            .then(function (r) {
+              conferma.close();
+              if (r.ok) {
+                dati.foto = r.foto;
+                // Nel visore resta aperta la foto successiva, o si chiude se non ce ne sono più
+                if (visore.open) {
+                  if (dati.foto.length) mostraFoto(aperta);
+                  else visore.close();
+                }
+                return aggiorna(r);
+              }
+              if (r.errore === 'chiuso') {
+                mostraErrore(testi.erroreChiuso);
+                dati.chiuso = true;
+                return disegna();
+              }
+              if (r.errore === 'credenziali') return esci(testi.erroreCredenziali);
+              mostraErrore(testi.erroreElimina);
+            })
+            .catch(function () {
+              conferma.close();
+              mostraErrore(testi.erroreRete);
+            });
+        }
         visore.addEventListener('keydown', function (e) {
           if (e.key === 'ArrowLeft') mostraFoto(aperta - 1);
           else if (e.key === 'ArrowRight') mostraFoto(aperta + 1);
@@ -351,8 +444,22 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             bottone.addEventListener('click', function () {
               cambiaLike(f.codice, !haLike(f.codice), bottone);
             });
+            var azioni = document.createElement('span');
+            azioni.className = 'sel-azioni';
+            azioni.appendChild(bottone);
+            if (f.propria && !dati.chiuso) {
+              var elimina = document.createElement('button');
+              elimina.type = 'button';
+              elimina.className = 'sel-elimina';
+              elimina.textContent = testi.elimina;
+              elimina.setAttribute('aria-label', testi.eliminaFoto + ' – ' + f.codice);
+              elimina.addEventListener('click', function () {
+                chiediElimina(f.codice);
+              });
+              azioni.appendChild(elimina);
+            }
             riga.appendChild(codice);
-            riga.appendChild(bottone);
+            riga.appendChild(azioni);
 
             li.appendChild(link);
             li.appendChild(riga);
@@ -386,7 +493,10 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             classifica.appendChild(li);
           });
 
-          if (visore.open && aperta >= 0) preparaLike(visoreLike, dati.foto[aperta].codice);
+          if (visore.open && aperta >= 0) {
+            preparaLike(visoreLike, dati.foto[aperta].codice);
+            preparaEliminaVisore();
+          }
         }
 
         function aggiorna(risposta) {
@@ -615,6 +725,82 @@ const chiaveMemoria = `svr-selezione-${slug}`;
 
   .sel-visore .sel-like.propria {
     color: #c9c4b6;
+  }
+
+  .sel-galleria :global(.sel-azioni) {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .sel-galleria :global(.sel-elimina),
+  .sel-visore .sel-elimina {
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    padding: 0.2rem;
+    text-decoration: underline;
+  }
+
+  .sel-galleria :global(.sel-elimina) {
+    color: #a93226;
+  }
+
+  .sel-visore .sel-elimina {
+    color: #ffb4a8;
+  }
+
+  .sel-visore .sel-elimina[hidden] {
+    display: none;
+  }
+
+  .sel-conferma {
+    max-width: min(28rem, calc(100vw - 2rem));
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .sel-conferma::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .sel-conferma h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .sel-conferma-bottoni {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .sel-conferma-bottoni button {
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+  }
+
+  .sel-conferma .secondario {
+    background: #fff;
+    border: 1px solid var(--color-border);
+  }
+
+  .sel-conferma .pericolo {
+    background: #a93226;
+    border: 1px solid #a93226;
+    color: #fff;
+  }
+
+  .sel-conferma .pericolo:disabled {
+    opacity: 0.6;
+    cursor: default;
   }
 
   .sel-visore {

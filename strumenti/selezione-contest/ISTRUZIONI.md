@@ -45,7 +45,8 @@ Per togliere l'accesso a qualcuno cancella la sua riga o cambiagli la password.
 Un selezionatore non può mettere il like alle proprie foto: lo script lo riconosce perché l'email
 dell'autore (presa dal modulo Tally) coincide con quella con cui entra nella pagina. Per questo i
 selezionatori che partecipano al contest devono usare **la stessa email** nel modulo e nella
-scheda Abilitati. Sulle loro foto vedono "La tua foto" al posto del cuore.
+scheda Abilitati. Sulle loro foto vedono "La tua foto" al posto del cuore e il pulsante
+**Elimina**: dopo la conferma la foto viene tolta dal contest (fino alla chiusura delle votazioni).
 
 ## 4. Pubblicare la web app
 
@@ -89,8 +90,14 @@ cancellare la scheda Import CSV.
 
 ## Gestione
 
-- Per escludere una foto (per esempio non conforme al regolamento) cancella la sua riga nella scheda
-  **Foto**: sparisce dalla pagina e i suoi like non vengono più contati. Il file resta su Drive.
+- Per escludere una foto (per esempio non conforme al regolamento) scrivi qualcosa (una data, "no")
+  nella sua colonna **Eliminata** della scheda **Foto**: sparisce dalla pagina e i suoi like non
+  vengono più contati. Il file resta su Drive. Meglio non cancellare la riga: se era l'ultima, il
+  suo codice verrebbe dato alla foto successiva, che erediterebbe i like.
+- Quando un selezionatore elimina una propria foto dalla pagina, la riga **non** viene cancellata:
+  lo script scrive la data nella colonna **Eliminata** della scheda Foto e la foto sparisce dalla
+  pagina (file su Drive e like restano). Per rimetterla in gara svuota quella cella.
+  Se la scheda Foto esisteva già, **Contest > Prepara le schede** aggiunge l'intestazione Eliminata.
 - **Contest > Importa foto dalla cartella (manuale)** resta disponibile per aggiungere a mano foto
   messe direttamente nella cartella Drive (senza email dell'autore).
 

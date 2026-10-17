@@ -3,9 +3,10 @@
  *
  * Web app Google Apps Script collegata al foglio Google con le schede:
  *   - Abilitati: Email | Password            (una riga per selezionatore)
- *   - Foto:      Codice | ID file Drive | Email autore
+ *   - Foto:      Codice | ID file Drive | Email autore | Eliminata
  *                (compilata in automatico dagli invii Tally; i selezionatori non possono mettere
- *                il like alle foto con la loro email come autore)
+ *                il like alle foto con la loro email come autore, ma possono eliminarle: lo script
+ *                scrive la data in "Eliminata" e la foto sparisce dalla pagina)
  *   - Like:      Email | Codice | Data        (scritta dallo script, non modificarla a mano)
  *   - Coda:      foto ricevute da Tally (webhook o CSV) in attesa di essere salvate su Drive
  *   - Import CSV: (facoltativa) risposte esportate da Tally, per importare gli invii vecchi
@@ -72,6 +73,15 @@ function doPost(e) {
     return risposta(statoVotazione(email));
   }
 
+  if (richiesta.azione === 'elimina') {
+    if (votazioneChiusa()) return risposta({ ok: false, errore: 'chiuso' });
+    var esito = eliminaFoto(email, String(richiesta.codice || ''));
+    if (esito) return risposta({ ok: false, errore: esito });
+    var dopo = statoVotazione(email);
+    dopo.foto = elencoFoto(email);
+    return risposta(dopo);
+  }
+
   return risposta({ ok: false, errore: 'azione' });
 }
 
@@ -109,12 +119,15 @@ function emailAutore(r) {
   return String(r[2] || '').trim().toLowerCase();
 }
 
+// Righe della scheda Foto in gara: con codice e file, e non eliminate dall'autore
+function fotoInGara(r) {
+  return r[0] && r[1] && !r[3];
+}
+
 // L'email dell'autore non viene mai mandata alla pagina: solo il segnale "questa foto è tua"
 function elencoFoto(email) {
   return righe(SCHEDA_FOTO)
-    .filter(function (r) {
-      return r[0] && r[1];
-    })
+    .filter(fotoInGara)
     .map(function (r) {
       var id = String(r[1]).trim();
       return {
@@ -130,7 +143,7 @@ function elencoFoto(email) {
 function autoriFoto() {
   var autori = {};
   righe(SCHEDA_FOTO).forEach(function (r) {
-    if (r[0] && r[1]) autori[String(r[0]).trim()] = emailAutore(r);
+    if (fotoInGara(r)) autori[String(r[0]).trim()] = emailAutore(r);
   });
   return autori;
 }
@@ -187,6 +200,27 @@ function impostaLike(email, codice, valore) {
   }
 }
 
+// Un selezionatore può eliminare solo le proprie foto. La riga resta nella scheda Foto con la
+// data in "Eliminata" (così il codice non viene riassegnato e la foto si può recuperare svuotando
+// la cella); il file resta su Drive. Restituisce '' se riuscita, altrimenti il codice di errore.
+function eliminaFoto(email, codice) {
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var s = scheda(SCHEDA_FOTO);
+    var valori = s.getDataRange().getValues();
+    for (var i = 1; i < valori.length; i++) {
+      if (!fotoInGara(valori[i]) || String(valori[i][0]).trim() !== codice) continue;
+      if (emailAutore(valori[i]) === '' || emailAutore(valori[i]) !== email) return 'nonPropria';
+      s.getRange(i + 1, 4).setValue(new Date());
+      return '';
+    }
+    return 'foto';
+  } finally {
+    lock.releaseLock();
+  }
+}
+
 // ---------------------------------------------------------------------------------------------
 // Menu del foglio
 
@@ -211,7 +245,7 @@ function preparaSchede() {
   var foglio = SpreadsheetApp.getActiveSpreadsheet();
   [
     [SCHEDA_ABILITATI, ['Email', 'Password']],
-    [SCHEDA_FOTO, ['Codice', 'ID file Drive', 'Email autore']],
+    [SCHEDA_FOTO, ['Codice', 'ID file Drive', 'Email autore', 'Eliminata']],
     [SCHEDA_LIKE, ['Email', 'Codice', 'Data']],
     [SCHEDA_CODA, INTESTAZIONE_CODA],
   ].forEach(function (d) {
