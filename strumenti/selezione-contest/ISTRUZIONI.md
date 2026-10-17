@@ -24,8 +24,14 @@ codice anonimo (F001, F002…) e l'email dell'autore.
 3. Cancella il contenuto del file `Codice.gs` e incolla tutto il file `Codice.gs` di questa cartella.
 4. In alto nel codice sostituisci `INCOLLA-QUI-ID-CARTELLA` con l'ID della cartella del punto 1.
    Lì c'è anche la data di chiusura (`CHIUSURA`, 30 novembre 2026 alle 23:59:59).
-5. Salva (icona del disco), torna al foglio e ricarica la pagina: compare il menu **Contest**.
-6. **Contest > Prepara le schede**: crea le schede `Abilitati`, `Foto`, `Like` e `Coda` (se esistono
+5. Permessi: in Apps Script > **Impostazioni progetto** spunta "Mostra il file manifest
+   appsscript.json nell'editor", apri il file `appsscript.json` e sostituiscine il contenuto con il
+   file `appsscript.json` di questa cartella. Dichiara tutti i permessi necessari: senza, Google
+   può non chiedere quello per scaricare le foto da Tally (errore "You do not have permission to
+   call UrlFetchApp.fetch"). Poi, nell'editor, scegli la funzione `elaboraCoda`, clicca **Esegui** e
+   concedi l'autorizzazione (deve comparire "Connettersi a un servizio esterno").
+6. Salva (icona del disco), torna al foglio e ricarica la pagina: compare il menu **Contest**.
+7. **Contest > Prepara le schede**: crea le schede `Abilitati`, `Foto`, `Like` e `Coda` (se esistono
    già, aggiunge solo quelle o le intestazioni mancanti).
    La prima volta Google chiede l'autorizzazione: scegli il tuo account, poi
    "Avanzate" > "Vai a … (non sicuro)" > "Consenti" (lo script è tuo, l'avviso è normale).
