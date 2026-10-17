@@ -4,12 +4,15 @@
  * Web app Google Apps Script collegata al foglio Google con le schede:
  *   - Abilitati: Email | Password            (una riga per selezionatore)
  *   - Foto:      Codice | ID file Drive | Email autore
- *                (le prime due colonne le compila il menu "Contest > Importa foto"; l'email
- *                dell'autore si scrive a mano, almeno per le foto dei selezionatori, che non
- *                possono mettere il like alle proprie foto)
+ *                (compilata in automatico dagli invii Tally; i selezionatori non possono mettere
+ *                il like alle foto con la loro email come autore)
  *   - Like:      Email | Codice | Data        (scritta dallo script, non modificarla a mano)
+ *   - Coda:      foto ricevute da Tally (webhook o CSV) in attesa di essere salvate su Drive
+ *   - Import CSV: (facoltativa) risposte esportate da Tally, per importare gli invii vecchi
  *
- * La pagina del sito chiama questa web app con POST e riceve JSON.
+ * La pagina del sito chiama questa web app con POST e riceve JSON. Tally chiama la stessa web
+ * app (webhook) con `?chiave=...` nell'indirizzo: l'invio finisce nella Coda e un'esecuzione
+ * automatica ogni minuto scarica le foto (Tally vuole una risposta entro 10 secondi).
  * Istruzioni complete: ISTRUZIONI.md nella stessa cartella.
  */
 
@@ -23,6 +26,12 @@ var CARTELLA_FOTO_ID = 'INCOLLA-QUI-ID-CARTELLA';
 var SCHEDA_ABILITATI = 'Abilitati';
 var SCHEDA_FOTO = 'Foto';
 var SCHEDA_LIKE = 'Like';
+var SCHEDA_CODA = 'Coda';
+var SCHEDA_CSV = 'Import CSV';
+
+// Colonne della scheda Coda
+var INTESTAZIONE_CODA = ['Data', 'ID invio', 'Email autore', 'Nome file', 'URL', 'Stato', 'Codice'];
+var CODA = { data: 0, invio: 1, email: 2, nome: 3, url: 4, stato: 5, codice: 6 };
 
 // ---------------------------------------------------------------------------------------------
 // Web app
@@ -32,6 +41,9 @@ function doGet() {
 }
 
 function doPost(e) {
+  // Invio dal modulo Tally (webhook): l'indirizzo contiene la chiave segreta
+  if (e.parameter && e.parameter.chiave !== undefined) return riceviTally(e);
+
   var richiesta;
   try {
     richiesta = JSON.parse(e.postData.contents);
@@ -182,11 +194,18 @@ function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('Contest')
     .addItem('Prepara le schede', 'preparaSchede')
-    .addItem('Importa foto dalla cartella', 'importaFoto')
+    .addSeparator()
+    .addItem('Collega Tally (mostra URL del webhook)', 'mostraUrlWebhook')
+    .addItem('Attiva il salvataggio automatico delle foto', 'attivaElaborazione')
+    .addItem('Importa gli invii dalla scheda "Import CSV"', 'importaCsv')
+    .addItem('Salva adesso le foto in coda', 'elaboraCodaManuale')
+    .addItem('Riprova le foto con errore', 'riprovaErrori')
+    .addSeparator()
+    .addItem('Importa foto dalla cartella (manuale)', 'importaFoto')
     .addToUi();
 }
 
-// Crea le tre schede con le intestazioni, se mancano, e aggiunge le intestazioni mancanti
+// Crea le schede con le intestazioni, se mancano, e aggiunge le intestazioni mancanti
 // a quelle già esistenti (es. la colonna "Email autore" nella scheda Foto)
 function preparaSchede() {
   var foglio = SpreadsheetApp.getActiveSpreadsheet();
@@ -194,6 +213,7 @@ function preparaSchede() {
     [SCHEDA_ABILITATI, ['Email', 'Password']],
     [SCHEDA_FOTO, ['Codice', 'ID file Drive', 'Email autore']],
     [SCHEDA_LIKE, ['Email', 'Codice', 'Data']],
+    [SCHEDA_CODA, INTESTAZIONE_CODA],
   ].forEach(function (d) {
     var s = foglio.getSheetByName(d[0]);
     if (!s) {
@@ -207,7 +227,231 @@ function preparaSchede() {
       if (!cella.getValue()) cella.setValue(titolo);
     });
   });
-  SpreadsheetApp.getUi().alert('Schede pronte: Abilitati, Foto, Like.');
+  SpreadsheetApp.getUi().alert('Schede pronte: Abilitati, Foto, Like, Coda.');
+}
+
+// ---------------------------------------------------------------------------------------------
+// Invii da Tally: webhook e import CSV finiscono nella Coda; elaboraCoda salva le foto su Drive
+
+// Chiave segreta del webhook, generata la prima volta e conservata nelle proprietà dello script
+function chiaveWebhook() {
+  var props = PropertiesService.getScriptProperties();
+  var chiave = props.getProperty('CHIAVE_WEBHOOK');
+  if (!chiave) {
+    chiave = Utilities.getUuid().replace(/-/g, '');
+    props.setProperty('CHIAVE_WEBHOOK', chiave);
+  }
+  return chiave;
+}
+
+function mostraUrlWebhook() {
+  var url = ScriptApp.getService().getUrl();
+  var ui = SpreadsheetApp.getUi();
+  if (!url) {
+    ui.alert('Prima pubblica lo script come app web (Esegui il deployment > Nuovo deployment).');
+    return;
+  }
+  ui.alert(
+    'URL del webhook per Tally',
+    'In Tally: modulo > Integrations > Webhooks > Connect, e incolla questo indirizzo:\n\n' +
+      url.replace(/\/dev$/, '/exec') +
+      '?chiave=' +
+      chiaveWebhook() +
+      '\n\nNon condividerlo: contiene la chiave che autorizza gli invii.',
+    ui.ButtonSet.OK
+  );
+}
+
+function riceviTally(e) {
+  if (e.parameter.chiave !== chiaveWebhook()) return risposta({ ok: false, errore: 'chiave' });
+  var invio;
+  try {
+    invio = JSON.parse(e.postData.contents);
+  } catch (err) {
+    return risposta({ ok: false, errore: 'richiesta' });
+  }
+  if (invio.eventType !== 'FORM_RESPONSE' || !invio.data) return risposta({ ok: true, ignorato: true });
+
+  var campi = invio.data.fields || [];
+  var email = '';
+  var file = [];
+  campi.forEach(function (c) {
+    if (c.type === 'INPUT_EMAIL' && !email && c.value) email = String(c.value);
+    if (c.type === 'FILE_UPLOAD' && Array.isArray(c.value)) file = file.concat(c.value);
+  });
+  var id = invio.data.submissionId || invio.data.responseId || invio.eventId;
+  var aggiunti = accoda(
+    file.map(function (f) {
+      return { invio: id, email: email, nome: f.name, url: f.url };
+    })
+  );
+  return risposta({ ok: true, accodati: aggiunti });
+}
+
+// Aggiunge alla Coda le foto non ancora presenti (stesso invio e stesso nome file = doppione,
+// per esempio quando Tally ripete un invio o lo stesso invio arriva anche dal CSV)
+function accoda(elementi) {
+  if (!elementi.length) return 0;
+  var lock = LockService.getScriptLock();
+  lock.waitLock(5000);
+  try {
+    var s = scheda(SCHEDA_CODA);
+    var presenti = {};
+    righe(SCHEDA_CODA).forEach(function (r) {
+      presenti[String(r[CODA.invio]) + '|' + String(r[CODA.nome])] = true;
+    });
+    var nuove = [];
+    elementi.forEach(function (el) {
+      var chiave = String(el.invio) + '|' + String(el.nome);
+      if (!el.url || presenti[chiave]) return;
+      presenti[chiave] = true;
+      var riga = [];
+      riga[CODA.data] = new Date();
+      riga[CODA.invio] = el.invio;
+      riga[CODA.email] = String(el.email || '').trim().toLowerCase();
+      riga[CODA.nome] = el.nome;
+      riga[CODA.url] = el.url;
+      riga[CODA.stato] = '';
+      riga[CODA.codice] = '';
+      nuove.push(riga);
+    });
+    if (nuove.length) s.getRange(s.getLastRow() + 1, 1, nuove.length, INTESTAZIONE_CODA.length).setValues(nuove);
+    return nuove.length;
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+// Esecuzione automatica ogni minuto (una sola)
+function attivaElaborazione() {
+  var gia = ScriptApp.getProjectTriggers().some(function (t) {
+    return t.getHandlerFunction() === 'elaboraCoda';
+  });
+  if (!gia) ScriptApp.newTrigger('elaboraCoda').timeBased().everyMinutes(1).create();
+  SpreadsheetApp.getUi().alert(
+    gia ? 'Il salvataggio automatico era già attivo.' : 'Salvataggio automatico attivato: le foto in coda vengono salvate ogni minuto.'
+  );
+}
+
+function elaboraCodaManuale() {
+  var n = elaboraCoda();
+  SpreadsheetApp.getUi().alert(n + ' foto salvate. Controlla la colonna Stato della scheda Coda per eventuali errori.');
+}
+
+function riprovaErrori() {
+  var s = scheda(SCHEDA_CODA);
+  var valori = s.getDataRange().getValues();
+  var n = 0;
+  for (var i = 1; i < valori.length; i++) {
+    if (String(valori[i][CODA.stato]).indexOf('errore') === 0) {
+      s.getRange(i + 1, CODA.stato + 1).setValue('');
+      n++;
+    }
+  }
+  SpreadsheetApp.getUi().alert(n + ' foto rimesse in coda.');
+}
+
+function prossimoCodice() {
+  var ultimo = 0;
+  righe(SCHEDA_FOTO).forEach(function (r) {
+    var n = parseInt(String(r[0]).replace(/\D/g, ''), 10);
+    if (n > ultimo) ultimo = n;
+  });
+  return 'F' + ('00' + (ultimo + 1)).slice(-3);
+}
+
+// Scarica le foto in coda, le salva nella cartella Drive con il codice anonimo come nome e le
+// aggiunge alla scheda Foto con l'email dell'autore. Restituisce quante foto ha salvato.
+function elaboraCoda() {
+  var lock = LockService.getDocumentLock();
+  if (!lock.tryLock(1000)) return 0; // un'altra elaborazione è già in corso
+  var salvate = 0;
+  try {
+    var inizio = Date.now();
+    var s = scheda(SCHEDA_CODA);
+    var foto = scheda(SCHEDA_FOTO);
+    var valori = s.getDataRange().getValues();
+    var cartella = DriveApp.getFolderById(CARTELLA_FOTO_ID);
+    for (var i = 1; i < valori.length; i++) {
+      if (Date.now() - inizio > 4 * 60 * 1000) break; // il resto al giro successivo
+      var r = valori[i];
+      if (String(r[CODA.stato]) !== '') continue;
+      try {
+        var resp = UrlFetchApp.fetch(String(r[CODA.url]), { muteHttpExceptions: true, followRedirects: true });
+        if (resp.getResponseCode() !== 200) throw new Error('download non riuscito (HTTP ' + resp.getResponseCode() + ')');
+        var blob = resp.getBlob();
+        var tipo = blob.getContentType() || '';
+        if (tipo.indexOf('image/') !== 0) throw new Error('non è un\'immagine (' + tipo + ')');
+        var codice = prossimoCodice();
+        var estensione = (String(r[CODA.nome]).match(/\.[a-z0-9]{2,5}$/i) || ['.' + tipo.split('/')[1]])[0].toLowerCase();
+        var file = cartella.createFile(blob.setName(codice + estensione));
+        file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+        foto.appendRow([codice, file.getId(), String(r[CODA.email]).trim().toLowerCase()]);
+        s.getRange(i + 1, CODA.stato + 1, 1, 2).setValues([['ok', codice]]);
+        salvate++;
+      } catch (err) {
+        s.getRange(i + 1, CODA.stato + 1).setValue('errore: ' + err.message);
+      }
+    }
+  } finally {
+    lock.releaseLock();
+  }
+  return salvate;
+}
+
+// Import una tantum degli invii già ricevuti: in Tally scarica le risposte in CSV e importale
+// nel foglio (File > Importa > Carica > "Inserisci nuovi fogli"), poi rinomina la scheda in
+// "Import CSV". Da ogni riga prende l'email e tutti i link alle foto caricate su Tally.
+function importaCsv() {
+  var ui = SpreadsheetApp.getUi();
+  var s = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SCHEDA_CSV);
+  if (!s) {
+    ui.alert('Manca la scheda "' + SCHEDA_CSV + '": importa il CSV di Tally e rinomina la nuova scheda così.');
+    return;
+  }
+  var valori = s.getDataRange().getDisplayValues();
+  var intestazione = valori[0].map(function (h) {
+    return String(h).toLowerCase();
+  });
+  var colId = intestazione.findIndex(function (h) {
+    return /submission id|response id/.test(h);
+  });
+  var colEmail = intestazione.findIndex(function (h) {
+    return /e-?mail/.test(h);
+  });
+
+  var elementi = [];
+  var senzaFoto = 0;
+  valori.slice(1).forEach(function (r, i) {
+    var id = colId >= 0 && r[colId] ? r[colId] : 'csv-riga-' + (i + 2);
+    var email = colEmail >= 0 ? r[colEmail] : '';
+    if (!email) {
+      var trovata = r.join(' ').match(/[^\s,;"<>]+@[^\s,;"<>]+\.[a-z]{2,}/i);
+      if (trovata) email = trovata[0];
+    }
+    var link = (r.join(' ').match(/https?:\/\/[^\s,;"]+/g) || []).filter(function (u) {
+      return /tally/i.test(u);
+    });
+    if (!link.length) {
+      senzaFoto++;
+      return;
+    }
+    link.forEach(function (u) {
+      var nome = decodeURIComponent(u.split('?')[0].split('/').pop());
+      elementi.push({ invio: id, email: email, nome: nome, url: u });
+    });
+  });
+
+  var aggiunte = accoda(elementi);
+  var salvate = elaboraCoda();
+  ui.alert(
+    'Import CSV completato',
+    aggiunte + ' foto aggiunte alla coda (' + (elementi.length - aggiunte) + ' già presenti), ' +
+      salvate + ' salvate su Drive.' +
+      (senzaFoto ? '\n' + senzaFoto + ' righe senza link a foto sono state saltate.' : '') +
+      '\nSe alcune foto restano in coda, il salvataggio automatico le completa al prossimo giro.',
+    ui.ButtonSet.OK
+  );
 }
 
 // Aggiunge alla scheda Foto le immagini della cartella non ancora presenti, con un codice
