@@ -1,0 +1,34 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SelezioneFoto from '../../../components/SelezioneFoto.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+import { SELEZIONI } from '../../../lib/selezione';
+
+// Area riservata ai selezionatori: una per ogni contest configurato in `src/lib/selezione.ts`.
+// Non è collegata dai menu e resta fuori dai motori di ricerca.
+export async function getStaticPaths() {
+  const attivita = await getCollection('associazione');
+  return attivita
+    .filter((a) => SELEZIONI[a.id])
+    .map((a) => ({ params: { id: a.id }, props: { entry: a } }));
+}
+
+const { entry } = Astro.props;
+const { title } = entry.data;
+---
+
+<Layout title="Selezione delle finaliste" description={`Area riservata ai selezionatori: ${title}`} noindex>
+  <a href={withBase(`culturaturismo/${entry.id}/`)}>&larr; Torna al contest</a>
+  <h1>Selezione delle finaliste</h1>
+  <p class="sottotitolo">{title}</p>
+
+  <SelezioneFoto lang="it" slug={entry.id} selezione={SELEZIONI[entry.id]} />
+</Layout>
+
+<style>
+  .sottotitolo {
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+</style>

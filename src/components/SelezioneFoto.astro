@@ -1,0 +1,509 @@
+---
+// Area riservata ai selezionatori: accesso con email e password personali, galleria anonima delle
+// foto in concorso con like da mettere e togliere, classifica parziale in fondo alla pagina.
+// Tutti i dati passano dalla web app dello script Google configurata in `src/lib/selezione.ts`.
+import type { Selezione } from '../lib/selezione';
+
+interface Props {
+  lang: 'it' | 'en';
+  slug: string;
+  selezione: Selezione;
+}
+
+const { lang, slug, selezione } = Astro.props;
+
+const strings = {
+  it: {
+    intro:
+      'Questa pagina è riservata ai selezionatori del contest. Metti il like alle foto che vorresti vedere tra le 20 finaliste: puoi metterlo a quante foto vuoi e toglierlo quando vuoi, fino alla chiusura delle votazioni.',
+    chiusura: 'Le votazioni si chiudono il',
+    nonAttiva: 'La votazione non è ancora attiva. Riprova più tardi.',
+    email: 'Email',
+    password: 'Password',
+    entra: 'Entra',
+    esci: 'Esci',
+    accessoCome: 'Accesso come',
+    caricamento: 'Caricamento…',
+    erroreCredenziali: 'Email o password non corrette.',
+    erroreRete: 'Impossibile contattare il server. Controlla la connessione e riprova.',
+    erroreChiuso: 'Le votazioni sono chiuse: i like non si possono più cambiare.',
+    chiuso: 'Le votazioni sono chiuse. Qui sotto trovi la classifica finale.',
+    galleria: 'Le foto in concorso',
+    nessunaFoto: 'Non ci sono ancora foto da votare.',
+    tuoiLike: (n: string, tot: string) => `Hai messo il like a ${n} foto su ${tot}.`,
+    like: 'Mi piace',
+    togliLike: 'Togli il like',
+    ingrandisci: 'Apri la foto ingrandita',
+    foto: 'Foto',
+    classifica: 'Classifica parziale',
+    classificaNota:
+      'Il conteggio si aggiorna a ogni like. Le prime 20 foto (evidenziate) sono quelle che oggi andrebbero in finale.',
+    likeCount: (n: number) => (n === 1 ? '1 like' : `${n} like`),
+  },
+  en: {
+    intro:
+      'This page is reserved for the contest selectors. Like the photos you would like to see among the 20 finalists: you can like as many photos as you want and remove a like at any time, until voting closes.',
+    chiusura: 'Voting closes on',
+    nonAttiva: 'Voting is not open yet. Please try again later.',
+    email: 'Email',
+    password: 'Password',
+    entra: 'Enter',
+    esci: 'Log out',
+    accessoCome: 'Logged in as',
+    caricamento: 'Loading…',
+    erroreCredenziali: 'Incorrect email or password.',
+    erroreRete: 'Unable to reach the server. Check your connection and try again.',
+    erroreChiuso: 'Voting is closed: likes can no longer be changed.',
+    chiuso: 'Voting is closed. The final ranking is below.',
+    galleria: 'The photos in the contest',
+    nessunaFoto: 'There are no photos to vote on yet.',
+    tuoiLike: (n: string, tot: string) => `You have liked ${n} of ${tot} photos.`,
+    like: 'Like',
+    togliLike: 'Remove like',
+    ingrandisci: 'Open the enlarged photo',
+    foto: 'Photo',
+    classifica: 'Current ranking',
+    classificaNota:
+      'The count updates with every like. The top 20 photos (highlighted) are the ones that would currently reach the final.',
+    likeCount: (n: number) => (n === 1 ? '1 like' : `${n} likes`),
+  },
+} as const;
+
+const t = strings[lang];
+const locale = lang === 'en' ? 'en-GB' : 'it-IT';
+const chiusuraTesto = new Date(selezione.chiusura).toLocaleString(locale, {
+  timeZone: 'Europe/Rome',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+
+// Testi passati allo script del browser (le funzioni non si possono serializzare)
+const testi = {
+  caricamento: t.caricamento,
+  erroreCredenziali: t.erroreCredenziali,
+  erroreRete: t.erroreRete,
+  erroreChiuso: t.erroreChiuso,
+  nessunaFoto: t.nessunaFoto,
+  tuoiLike: t.tuoiLike('{n}', '{tot}'),
+  like: t.like,
+  togliLike: t.togliLike,
+  ingrandisci: t.ingrandisci,
+  foto: t.foto,
+  likeUno: t.likeCount(1),
+  likeMolti: t.likeCount(2).replace('2', '{n}'),
+};
+const scriptUrl = selezione.scriptUrl;
+const chiaveMemoria = `svr-selezione-${slug}`;
+---
+
+<div class="selezione">
+  <p>{t.intro}</p>
+  <p class="meta">{t.chiusura} {chiusuraTesto}.</p>
+
+  {
+    !scriptUrl ? (
+      <p class="avviso">{t.nonAttiva}</p>
+    ) : (
+      <>
+        <form id="sel-accesso" class="sel-accesso" hidden>
+          <label>
+            {t.email}
+            <input type="email" name="email" autocomplete="username" required />
+          </label>
+          <label>
+            {t.password}
+            <input type="password" name="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit">{t.entra}</button>
+        </form>
+
+        <p id="sel-stato" class="meta" role="status" aria-live="polite" />
+        <p id="sel-errore" class="avviso" role="alert" hidden />
+
+        <div id="sel-area" hidden>
+          <p class="sel-utente">
+            {t.accessoCome} <strong id="sel-email" /> · <button type="button" id="sel-esci" class="link">{t.esci}</button>
+          </p>
+          <p id="sel-chiuso" class="avviso" hidden>{t.chiuso}</p>
+
+          <h2>{t.galleria}</h2>
+          <p id="sel-conteggio" class="meta" />
+          <ul id="sel-galleria" class="sel-galleria" />
+
+          <h2>{t.classifica}</h2>
+          <p class="meta">{t.classificaNota}</p>
+          <ol id="sel-classifica" class="sel-classifica" />
+        </div>
+      </>
+    )
+  }
+</div>
+
+{
+  scriptUrl && (
+    <script is:inline define:vars={{ scriptUrl, chiaveMemoria, testi }}>
+      (function () {
+        var form = document.getElementById('sel-accesso');
+        var stato = document.getElementById('sel-stato');
+        var errore = document.getElementById('sel-errore');
+        var area = document.getElementById('sel-area');
+        var galleria = document.getElementById('sel-galleria');
+        var classifica = document.getElementById('sel-classifica');
+        var conteggio = document.getElementById('sel-conteggio');
+        var credenziali = null;
+        var dati = null;
+
+        function leggiMemoria() {
+          try {
+            var v = JSON.parse(localStorage.getItem(chiaveMemoria) || 'null');
+            return v && v.email && v.password ? v : null;
+          } catch (e) {
+            return null;
+          }
+        }
+        function scriviMemoria(v) {
+          try {
+            if (v) localStorage.setItem(chiaveMemoria, JSON.stringify(v));
+            else localStorage.removeItem(chiaveMemoria);
+          } catch (e) {}
+        }
+        function mostraErrore(testo) {
+          errore.textContent = testo || '';
+          errore.hidden = !testo;
+        }
+
+        // Richiesta "semplice" (testo, niente intestazioni) per evitare il controllo CORS preliminare
+        function chiama(corpo) {
+          return fetch(scriptUrl, { method: 'POST', body: JSON.stringify(corpo) }).then(function (r) {
+            if (!r.ok) throw new Error('http');
+            return r.json();
+          });
+        }
+
+        function testoLike(n) {
+          return n === 1 ? testi.likeUno : testi.likeMolti.replace('{n}', n);
+        }
+
+        function disegna() {
+          var miei = {};
+          dati.miei.forEach(function (c) {
+            miei[c] = true;
+          });
+          var immagini = {};
+          dati.foto.forEach(function (f) {
+            immagini[f.codice] = f;
+          });
+
+          document.getElementById('sel-chiuso').hidden = !dati.chiuso;
+          conteggio.textContent = testi.tuoiLike
+            .replace('{n}', dati.miei.length)
+            .replace('{tot}', dati.foto.length);
+
+          galleria.textContent = '';
+          if (!dati.foto.length) {
+            var vuoto = document.createElement('li');
+            vuoto.className = 'meta';
+            vuoto.textContent = testi.nessunaFoto;
+            galleria.appendChild(vuoto);
+          }
+          dati.foto.forEach(function (f) {
+            var li = document.createElement('li');
+            li.className = 'sel-foto';
+
+            var link = document.createElement('a');
+            link.href = f.grande;
+            link.target = '_blank';
+            link.rel = 'noopener';
+            link.title = testi.ingrandisci;
+            var img = document.createElement('img');
+            img.src = f.img;
+            img.alt = testi.foto + ' ' + f.codice;
+            img.loading = 'lazy';
+            link.appendChild(img);
+
+            var riga = document.createElement('div');
+            riga.className = 'sel-riga';
+            var codice = document.createElement('span');
+            codice.textContent = f.codice;
+            var bottone = document.createElement('button');
+            bottone.type = 'button';
+            bottone.className = 'sel-like';
+            bottone.setAttribute('aria-pressed', miei[f.codice] ? 'true' : 'false');
+            bottone.setAttribute('aria-label', (miei[f.codice] ? testi.togliLike : testi.like) + ' – ' + f.codice);
+            bottone.textContent = miei[f.codice] ? '♥' : '♡';
+            bottone.disabled = dati.chiuso;
+            bottone.addEventListener('click', function () {
+              cambiaLike(f.codice, !miei[f.codice], bottone);
+            });
+            riga.appendChild(codice);
+            riga.appendChild(bottone);
+
+            li.appendChild(link);
+            li.appendChild(riga);
+            galleria.appendChild(li);
+          });
+
+          classifica.textContent = '';
+          dati.classifica.forEach(function (c, i) {
+            var li = document.createElement('li');
+            if (i < 20 && c.like > 0) li.className = 'finale';
+            var pos = document.createElement('span');
+            pos.className = 'sel-pos';
+            pos.textContent = i + 1 + '.';
+            li.appendChild(pos);
+            var f = immagini[c.codice];
+            if (f) {
+              var img = document.createElement('img');
+              img.src = f.img;
+              img.alt = '';
+              img.loading = 'lazy';
+              li.appendChild(img);
+            }
+            var codice = document.createElement('span');
+            codice.className = 'sel-codice';
+            codice.textContent = c.codice;
+            var n = document.createElement('span');
+            n.className = 'meta';
+            n.textContent = testoLike(c.like);
+            li.appendChild(codice);
+            li.appendChild(n);
+            classifica.appendChild(li);
+          });
+        }
+
+        function aggiorna(risposta) {
+          dati.miei = risposta.miei;
+          dati.classifica = risposta.classifica;
+          dati.chiuso = risposta.chiuso;
+          disegna();
+        }
+
+        function cambiaLike(codice, valore, bottone) {
+          bottone.disabled = true;
+          mostraErrore('');
+          chiama({
+            azione: 'like',
+            email: credenziali.email,
+            password: credenziali.password,
+            codice: codice,
+            valore: valore,
+          })
+            .then(function (r) {
+              if (r.ok) return aggiorna(r);
+              if (r.errore === 'chiuso') {
+                mostraErrore(testi.erroreChiuso);
+                dati.chiuso = true;
+                return disegna();
+              }
+              if (r.errore === 'credenziali') return esci(testi.erroreCredenziali);
+              throw new Error(r.errore);
+            })
+            .catch(function () {
+              bottone.disabled = false;
+              mostraErrore(testi.erroreRete);
+            });
+        }
+
+        function entra(c) {
+          form.hidden = true;
+          mostraErrore('');
+          stato.textContent = testi.caricamento;
+          chiama({ azione: 'accesso', email: c.email, password: c.password })
+            .then(function (r) {
+              stato.textContent = '';
+              if (!r.ok) return esci(r.errore === 'credenziali' ? testi.erroreCredenziali : testi.erroreRete);
+              credenziali = c;
+              scriviMemoria(c);
+              dati = r;
+              document.getElementById('sel-email').textContent = c.email;
+              area.hidden = false;
+              disegna();
+            })
+            .catch(function () {
+              stato.textContent = '';
+              form.hidden = false;
+              mostraErrore(testi.erroreRete);
+            });
+        }
+
+        function esci(messaggio) {
+          credenziali = null;
+          dati = null;
+          scriviMemoria(null);
+          area.hidden = true;
+          form.hidden = false;
+          form.reset();
+          mostraErrore(messaggio || '');
+        }
+
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          entra({
+            email: form.email.value.trim().toLowerCase(),
+            password: form.password.value.trim(),
+          });
+        });
+        document.getElementById('sel-esci').addEventListener('click', function () {
+          esci('');
+        });
+
+        // Chi è già entrato da questo dispositivo non deve riscrivere email e password
+        var salvate = leggiMemoria();
+        if (salvate) entra(salvate);
+        else form.hidden = false;
+      })();
+    </script>
+  )
+}
+
+<style>
+  .meta {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+
+  .avviso {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-accent);
+    background: #fff;
+  }
+
+  .sel-accesso {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+  }
+
+  .sel-accesso[hidden],
+  .avviso[hidden] {
+    display: none;
+  }
+
+  .sel-accesso label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    flex: 1 1 220px;
+  }
+
+  .sel-accesso input {
+    padding: 0.5rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font: inherit;
+  }
+
+  .sel-accesso button,
+  .sel-like {
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .sel-accesso button {
+    padding: 0.55rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: var(--color-accent);
+    color: #fff;
+  }
+
+  .sel-accesso button:hover {
+    background: var(--color-accent-dark);
+  }
+
+  .link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--color-accent-dark);
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .sel-galleria {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .sel-galleria :global(.sel-foto) {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .sel-galleria :global(.sel-foto img) {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .sel-galleria :global(.sel-riga) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.75rem;
+    font-weight: 600;
+  }
+
+  .sel-galleria :global(.sel-like) {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #c0392b;
+    padding: 0.2rem;
+  }
+
+  .sel-galleria :global(.sel-like:disabled) {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  .sel-classifica {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sel-classifica :global(.sel-pos) {
+    min-width: 2rem;
+    text-align: right;
+    color: var(--color-muted);
+  }
+
+  .sel-classifica :global(li) {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .sel-classifica :global(li.finale) {
+    background: #f1f4e6;
+  }
+
+  .sel-classifica :global(img) {
+    width: 56px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .sel-classifica :global(.sel-codice) {
+    font-weight: 600;
+    min-width: 3.5rem;
+  }
+</style>
