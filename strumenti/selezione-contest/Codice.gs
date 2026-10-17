@@ -17,6 +17,10 @@
  * Istruzioni complete: ISTRUZIONI.md nella stessa cartella.
  */
 
+// Versione del codice, mostrata aprendo l'URL /exec nel browser: serve a controllare che il
+// deployment esegua davvero l'ultima versione incollata. Va cambiata a ogni modifica.
+var VERSIONE = '2026-10-17 eliminazione foto';
+
 // Fine delle votazioni (ora italiana): dopo questa data i like non si possono più cambiare.
 var CHIUSURA = new Date('2026-11-30T23:59:59+01:00');
 
@@ -38,7 +42,7 @@ var CODA = { data: 0, invio: 1, email: 2, nome: 3, url: 4, stato: 5, codice: 6 }
 // Web app
 
 function doGet() {
-  return ContentService.createTextOutput('Selezione contest: web app attiva.');
+  return ContentService.createTextOutput('Selezione contest: web app attiva (versione ' + VERSIONE + ').');
 }
 
 function doPost(e) {
@@ -54,6 +58,8 @@ function doPost(e) {
 
   var email = String(richiesta.email || '').trim().toLowerCase();
   var password = String(richiesta.password || '').trim();
+  // Visibile in Apps Script > Esecuzioni (password esclusa)
+  console.log('Versione ' + VERSIONE + ' - azione ' + richiesta.azione + ' da ' + email + (richiesta.codice ? ' su ' + richiesta.codice : ''));
   if (!credenzialiValide(email, password)) return risposta({ ok: false, errore: 'credenziali' });
 
   if (richiesta.azione === 'accesso') {
