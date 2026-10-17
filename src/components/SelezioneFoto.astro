@@ -43,6 +43,7 @@ const strings = {
     tuoiLike: (n: string, tot: string) => `Hai messo il like a ${n} foto su ${tot}.`,
     like: 'Mi piace',
     togliLike: 'Togli il like',
+    salvataggio: 'Salvataggio in corso',
     ingrandisci: 'Apri la foto ingrandita',
     precedente: 'Foto precedente',
     successiva: 'Foto successiva',
@@ -84,6 +85,7 @@ const strings = {
     tuoiLike: (n: string, tot: string) => `You have liked ${n} of ${tot} photos.`,
     like: 'Like',
     togliLike: 'Remove like',
+    salvataggio: 'Saving',
     ingrandisci: 'Open the enlarged photo',
     precedente: 'Previous photo',
     successiva: 'Next photo',
@@ -124,6 +126,7 @@ const testi = {
   tuoiLike: t.tuoiLike('{n}', '{tot}'),
   like: t.like,
   togliLike: t.togliLike,
+  salvataggio: t.salvataggio,
   ingrandisci: t.ingrandisci,
   posizione: t.posizione('{i}', '{n}'),
   foto: t.foto,
@@ -215,6 +218,8 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         var conteggio = document.getElementById('sel-conteggio');
         var credenziali = null;
         var dati = null;
+        // Like in attesa della risposta dello script (codice -> true): il cuore mostra la rotellina
+        var inCorso = {};
 
         function leggiMemoria() {
           try {
@@ -263,6 +268,15 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             bottone.disabled = true;
             return;
           }
+          bottone.classList.toggle('in-corso', !!inCorso[codice]);
+          if (inCorso[codice]) {
+            bottone.setAttribute('aria-busy', 'true');
+            bottone.setAttribute('aria-label', testi.salvataggio + ' – ' + codice);
+            bottone.textContent = '';
+            bottone.disabled = true;
+            return;
+          }
+          bottone.removeAttribute('aria-busy');
           var attivo = haLike(codice);
           bottone.classList.remove('propria');
           bottone.setAttribute('aria-pressed', attivo ? 'true' : 'false');
@@ -519,7 +533,9 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         }
 
         function cambiaLike(codice, valore, bottone) {
-          bottone.disabled = true;
+          inCorso[codice] = true;
+          preparaLike(bottone, codice);
+          if (visore.open && aperta >= 0 && dati.foto[aperta].codice === codice) preparaLike(visoreLike, codice);
           mostraErrore('');
           chiama({
             azione: 'like',
@@ -529,6 +545,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             valore: valore,
           })
             .then(function (r) {
+              delete inCorso[codice];
               if (r.ok) return aggiorna(r);
               if (r.errore === 'propria') {
                 mostraErrore(testi.errorePropria);
@@ -543,7 +560,8 @@ const chiaveMemoria = `svr-selezione-${slug}`;
               throw new Error(r.errore);
             })
             .catch(function () {
-              bottone.disabled = false;
+              delete inCorso[codice];
+              if (dati) disegna();
               mostraErrore(testi.erroreRete);
             });
         }
@@ -582,6 +600,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
 
         function esci(messaggio) {
           credenziali = null;
+          inCorso = {};
           dati = null;
           scriviMemoria(null);
           area.hidden = true;
@@ -910,6 +929,32 @@ const chiaveMemoria = `svr-selezione-${slug}`;
   .sel-visore .sel-like:disabled {
     opacity: 0.5;
     cursor: default;
+  }
+
+  /* Like in salvataggio: al posto del cuore una rotellina dello stesso colore */
+  .sel-galleria :global(.sel-like.in-corso),
+  .sel-visore .sel-like.in-corso {
+    opacity: 1;
+    cursor: progress;
+  }
+
+  .sel-galleria :global(.sel-like.in-corso::after),
+  .sel-visore .sel-like.in-corso::after {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 1em;
+    box-sizing: border-box;
+    border: 0.14em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: sel-gira 0.8s linear infinite;
+  }
+
+  @keyframes sel-gira {
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .sel-visore-errore {
