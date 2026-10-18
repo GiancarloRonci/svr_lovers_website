@@ -36,8 +36,8 @@ foto:
     lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Le case in pietra con le persiane verdi viste dall'alto, con il bosco e i monti alle spalle."
-  - lat: 41.881880
-    lng: 12.981294
+  - lat: 41.881849
+    lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto11.jpg
     didascalia: "Una scalinata in sampietrini tra due ringhiere verdi, all'ombra degli alberi, con in fondo una casa e un lampione."
   - lat: 41.881895

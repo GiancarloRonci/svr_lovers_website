@@ -36,8 +36,8 @@ foto:
     lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Stone houses with green shutters seen from above, with the woods and the mountains behind them."
-  - lat: 41.881880
-    lng: 12.981294
+  - lat: 41.881849
+    lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto11.jpg
     didascalia: "A cobbled stairway between two green railings, in the shade of the trees, with a house and a street lamp at the bottom."
   - lat: 41.881895
