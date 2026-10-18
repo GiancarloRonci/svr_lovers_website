@@ -48,8 +48,8 @@ foto:
     lng: 12.980936
     immagine: ./al-monte-chiesa-san-vito/foto7.jpg
     didascalia: "The church façade seen from the lawn, with an old iron bench in front of the door."
-  - lat: 41.881837
-    lng: 12.980268
+  - lat: 41.881920
+    lng: 12.980822
     immagine: ./al-monte-chiesa-san-vito/foto8.jpg
     didascalia: "The tree-lined lawn beside the church, with benches, street lamps and the stone well with its little roof."
 ---

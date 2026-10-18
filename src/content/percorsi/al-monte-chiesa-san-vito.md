@@ -48,8 +48,8 @@ foto:
     lng: 12.980936
     immagine: ./al-monte-chiesa-san-vito/foto7.jpg
     didascalia: "La facciata della chiesa vista dal prato, con una vecchia panchina in ferro davanti al portone."
-  - lat: 41.881837
-    lng: 12.980268
+  - lat: 41.881920
+    lng: 12.980822
     immagine: ./al-monte-chiesa-san-vito/foto8.jpg
     didascalia: "Il prato alberato accanto alla chiesa, con le panchine, i lampioni e il pozzo in pietra con la tettoia."
 ---
