@@ -36,6 +36,10 @@ foto:
     lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Stone houses with green shutters seen from above, with the woods and the mountains behind them."
+  - lat: 41.881771
+    lng: 12.981191
+    immagine: ./al-monte-chiesa-san-vito/foto12.jpg
+    didascalia: "The sign telling the history of the church of San Vito, built in 1735 to a design by Marquis Gerolamo Theodoli, with the text also in Braille."
   - lat: 41.881849
     lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto11.jpg

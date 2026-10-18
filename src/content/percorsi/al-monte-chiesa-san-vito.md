@@ -36,6 +36,10 @@ foto:
     lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Le case in pietra con le persiane verdi viste dall'alto, con il bosco e i monti alle spalle."
+  - lat: 41.881771
+    lng: 12.981191
+    immagine: ./al-monte-chiesa-san-vito/foto12.jpg
+    didascalia: "Il cartello con la storia della chiesa di San Vito, costruita nel 1735 su progetto del marchese Gerolamo Theodoli, con il testo anche in Braille."
   - lat: 41.881849
     lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto11.jpg
