@@ -12,28 +12,28 @@ partenza:
   lat: 41.881709
   lng: 12.979377
 foto:
-  - lat: 41.881745
-    lng: 12.980016
+  - lat: 41.881733
+    lng: 12.979621
     immagine: ./al-monte-chiesa-san-vito/foto2.jpg
     didascalia: "La salita lastricata tra le case: in fondo, tra due alberi, il muro di sostegno e il campanile della chiesa di San Vito."
-  - lat: 41.881685
-    lng: 12.980466
+  - lat: 41.881761
+    lng: 12.979959
     immagine: ./al-monte-chiesa-san-vito/foto3.jpg
     didascalia: "Il muro in mattoni con i contrafforti in pietra bianca che sostiene il prato della chiesa; sopra, il campanile a punta."
-  - lat: 41.881653
-    lng: 12.980665
+  - lat: 41.881713
+    lng: 12.980206
     immagine: ./al-monte-chiesa-san-vito/foto4.jpg
     didascalia: "Dalla strada, oltre la ringhiera, la vista sul colle con i due grandi pini e, sullo sfondo, i monti nella foschia."
   - lat: 41.881849
     lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Le case in pietra con le persiane verdi viste dall'alto, con il bosco e i monti alle spalle."
-  - lat: 41.881901
-    lng: 12.980936
+  - lat: 41.881895
+    lng: 12.981063
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg
     didascalia: "I tetti in coppi e le antenne sopra un vicolo, con la valle verde e i paesi sulle colline di fronte."
-  - lat: 41.881907
-    lng: 12.980338
+  - lat: 41.881901
+    lng: 12.980936
     immagine: ./al-monte-chiesa-san-vito/foto7.jpg
     didascalia: "La facciata della chiesa vista dal prato, con una vecchia panchina in ferro davanti al portone."
   - lat: 41.881837
