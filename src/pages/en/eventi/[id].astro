@@ -28,7 +28,8 @@ const lastModified = getLastModified(entry.filePath);
   {luogo && <p class="luogo">📍 {luogo}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>}
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
 
-  {immagine && <Image src={immagine} alt={title} width={900} height={500} />}
+  {/* Le immagini degli eventi sono spesso locandine verticali: si mostrano intere, senza ritaglio */}
+  {immagine && <Image class="evento-image" src={immagine} alt={title} width={900} />}
 
   <article>
     <Content />
@@ -46,6 +47,13 @@ const lastModified = getLastModified(entry.filePath);
 </Layout>
 
 <style>
+  .evento-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
   .aggiornato {
     font-size: 0.8rem;
     color: var(--color-muted);
