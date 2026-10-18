@@ -16,6 +16,10 @@ foto:
     lng: 12.979621
     immagine: ./al-monte-chiesa-san-vito/foto2.jpg
     didascalia: "The paved climb between the houses: at the end, between two trees, the retaining wall and the bell tower of the church of San Vito."
+  - lat: 41.881749
+    lng: 12.979744
+    immagine: ./al-monte-chiesa-san-vito/foto9.jpg
+    didascalia: "Via del Monte climbs between houses with shutters and flower pots towards the wall with white stone buttresses, below the church bell tower."
   - lat: 41.881761
     lng: 12.979959
     immagine: ./al-monte-chiesa-san-vito/foto3.jpg
@@ -24,10 +28,18 @@ foto:
     lng: 12.980206
     immagine: ./al-monte-chiesa-san-vito/foto4.jpg
     didascalia: "From the street, beyond the railing, the view of the hill with the two tall pines and, in the background, the mountains in the haze."
-  - lat: 41.881849
-    lng: 12.981201
+  - lat: 41.881653
+    lng: 12.980656
+    immagine: ./al-monte-chiesa-san-vito/foto10.jpg
+    didascalia: "The road that winds around the hill, below the brick and stone wall of the church, with a green bench and street lamps on the valley side."
+  - lat: 41.881725
+    lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Stone houses with green shutters seen from above, with the woods and the mountains behind them."
+  - lat: 41.881880
+    lng: 12.981294
+    immagine: ./al-monte-chiesa-san-vito/foto11.jpg
+    didascalia: "A cobbled stairway between two green railings, in the shade of the trees, with a house and a street lamp at the bottom."
   - lat: 41.881895
     lng: 12.981063
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg

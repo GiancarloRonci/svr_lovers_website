@@ -16,6 +16,10 @@ foto:
     lng: 12.979621
     immagine: ./al-monte-chiesa-san-vito/foto2.jpg
     didascalia: "La salita lastricata tra le case: in fondo, tra due alberi, il muro di sostegno e il campanile della chiesa di San Vito."
+  - lat: 41.881749
+    lng: 12.979744
+    immagine: ./al-monte-chiesa-san-vito/foto9.jpg
+    didascalia: "Via del Monte sale tra le case con le persiane e i vasi di fiori verso il muro con i contrafforti in pietra bianca, sotto il campanile della chiesa."
   - lat: 41.881761
     lng: 12.979959
     immagine: ./al-monte-chiesa-san-vito/foto3.jpg
@@ -24,10 +28,18 @@ foto:
     lng: 12.980206
     immagine: ./al-monte-chiesa-san-vito/foto4.jpg
     didascalia: "Dalla strada, oltre la ringhiera, la vista sul colle con i due grandi pini e, sullo sfondo, i monti nella foschia."
-  - lat: 41.881849
-    lng: 12.981201
+  - lat: 41.881653
+    lng: 12.980656
+    immagine: ./al-monte-chiesa-san-vito/foto10.jpg
+    didascalia: "La strada che gira attorno al colle, sotto il muro in mattoni e pietra della chiesa, con una panchina verde e i lampioni sul lato della valle."
+  - lat: 41.881725
+    lng: 12.981192
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Le case in pietra con le persiane verdi viste dall'alto, con il bosco e i monti alle spalle."
+  - lat: 41.881880
+    lng: 12.981294
+    immagine: ./al-monte-chiesa-san-vito/foto11.jpg
+    didascalia: "Una scalinata in sampietrini tra due ringhiere verdi, all'ombra degli alberi, con in fondo una casa e un lampione."
   - lat: 41.881895
     lng: 12.981063
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg
