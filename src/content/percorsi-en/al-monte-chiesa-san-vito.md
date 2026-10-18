@@ -44,8 +44,8 @@ foto:
     lng: 12.981063
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg
     didascalia: "Terracotta roofs and aerials above a lane, with the green valley and the hill towns opposite."
-  - lat: 41.881901
-    lng: 12.980936
+  - lat: 41.881648
+    lng: 12.980924
     immagine: ./al-monte-chiesa-san-vito/foto7.jpg
     didascalia: "The church façade seen from the lawn, with an old iron bench in front of the door."
   - lat: 41.881920

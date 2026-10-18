@@ -44,8 +44,8 @@ foto:
     lng: 12.981063
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg
     didascalia: "I tetti in coppi e le antenne sopra un vicolo, con la valle verde e i paesi sulle colline di fronte."
-  - lat: 41.881901
-    lng: 12.980936
+  - lat: 41.881648
+    lng: 12.980924
     immagine: ./al-monte-chiesa-san-vito/foto7.jpg
     didascalia: "La facciata della chiesa vista dal prato, con una vecchia panchina in ferro davanti al portone."
   - lat: 41.881920
