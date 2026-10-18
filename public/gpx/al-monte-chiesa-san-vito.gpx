@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1" creator="svrlovers" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Al Monte e la Chiesa di San Vito</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="41.881709" lon="12.979377"></trkpt>
+      <trkpt lat="41.881737" lon="12.979664"></trkpt>
+      <trkpt lat="41.881761" lon="12.979997"></trkpt>
+      <trkpt lat="41.881685" lon="12.980466"></trkpt>
+      <trkpt lat="41.881653" lon="12.980665"></trkpt>
+      <trkpt lat="41.881645" lon="12.981070"></trkpt>
+      <trkpt lat="41.881703" lon="12.981185"></trkpt>
+      <trkpt lat="41.881849" lon="12.981201"></trkpt>
+      <trkpt lat="41.881889" lon="12.981145"></trkpt>
+      <trkpt lat="41.881951" lon="12.980541"></trkpt>
+      <trkpt lat="41.881907" lon="12.980338"></trkpt>
+      <trkpt lat="41.881837" lon="12.980268"></trkpt>
+      <trkpt lat="41.881761" lon="12.980000"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
