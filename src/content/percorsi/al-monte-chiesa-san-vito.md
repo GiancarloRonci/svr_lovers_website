@@ -12,8 +12,8 @@ partenza:
   lat: 41.881709
   lng: 12.979377
 foto:
-  - lat: 41.881737
-    lng: 12.979664
+  - lat: 41.881745
+    lng: 12.980016
     immagine: ./al-monte-chiesa-san-vito/foto2.jpg
     didascalia: "La salita lastricata tra le case: in fondo, tra due alberi, il muro di sostegno e il campanile della chiesa di San Vito."
   - lat: 41.881685
@@ -28,8 +28,8 @@ foto:
     lng: 12.981201
     immagine: ./al-monte-chiesa-san-vito/foto5.jpg
     didascalia: "Le case in pietra con le persiane verdi viste dall'alto, con il bosco e i monti alle spalle."
-  - lat: 41.881889
-    lng: 12.981145
+  - lat: 41.881901
+    lng: 12.980936
     immagine: ./al-monte-chiesa-san-vito/foto6.jpg
     didascalia: "I tetti in coppi e le antenne sopra un vicolo, con la valle verde e i paesi sulle colline di fronte."
   - lat: 41.881907
