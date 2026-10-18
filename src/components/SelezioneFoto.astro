@@ -290,38 +290,60 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         var visoreImg = document.getElementById('sel-visore-img');
         var visoreLike = document.getElementById('sel-visore-like');
         var visoreErrore = document.getElementById('sel-visore-errore');
+        // aperta: posizione in dati.foto della foto mostrata; passo: la sua posizione nell'ordine
+        // di scorrimento, che è quello della galleria oppure, se aperta dalla classifica, quello
+        // della classifica al momento del clic (sequenza = elenco dei codici, null per la galleria)
         var aperta = -1;
+        var passo = -1;
+        var sequenza = null;
 
-        function mostraFoto(i) {
-          var n = dati.foto.length;
+        function ordine() {
+          return (
+            sequenza ||
+            dati.foto.map(function (f) {
+              return f.codice;
+            })
+          );
+        }
+
+        function indiceDi(codice) {
+          for (var i = 0; i < dati.foto.length; i++) if (dati.foto[i].codice === codice) return i;
+          return -1;
+        }
+
+        function mostraFoto(p) {
+          var ord = ordine();
+          var n = ord.length;
           if (!n) return;
-          aperta = (i + n) % n;
+          passo = (p + n) % n;
+          aperta = indiceDi(ord[passo]);
           var f = dati.foto[aperta];
           visoreImg.src = f.grande;
           visoreImg.alt = testi.foto + ' ' + f.codice;
           document.getElementById('sel-visore-codice').textContent = f.codice;
           document.getElementById('sel-visore-posizione').textContent = testi.posizione
-            .replace('{i}', aperta + 1)
+            .replace('{i}', passo + 1)
             .replace('{n}', n);
           preparaLike(visoreLike, f.codice);
           preparaEliminaVisore();
           visoreErrore.hidden = true;
           // Precarica le foto vicine, così lo scorrimento è immediato
-          [aperta + 1, aperta - 1].forEach(function (j) {
-            new Image().src = dati.foto[(j + n) % n].grande;
+          [passo + 1, passo - 1].forEach(function (j) {
+            new Image().src = dati.foto[indiceDi(ord[(j + n) % n])].grande;
           });
         }
 
-        function apriFoto(i) {
-          mostraFoto(i);
+        function apriFoto(i, ordineClassifica) {
+          sequenza = ordineClassifica || null;
+          mostraFoto(sequenza ? sequenza.indexOf(dati.foto[i].codice) : i);
           if (!visore.open) visore.showModal();
         }
 
         document.getElementById('sel-visore-prec').addEventListener('click', function () {
-          mostraFoto(aperta - 1);
+          mostraFoto(passo - 1);
         });
         document.getElementById('sel-visore-succ').addEventListener('click', function () {
-          mostraFoto(aperta + 1);
+          mostraFoto(passo + 1);
         });
         document.getElementById('sel-visore-chiudi').addEventListener('click', function () {
           visore.close();
@@ -385,9 +407,14 @@ const chiaveMemoria = `svr-selezione-${slug}`;
               conferma.close();
               if (r.ok) {
                 dati.foto = r.foto;
+                if (sequenza) {
+                  sequenza = sequenza.filter(function (c) {
+                    return c !== codice;
+                  });
+                }
                 // Nel visore resta aperta la foto successiva, o si chiude se non ce ne sono più
                 if (visore.open) {
-                  if (dati.foto.length) mostraFoto(aperta);
+                  if (ordine().length) mostraFoto(passo);
                   else visore.close();
                 }
                 return aggiorna(r);
@@ -404,8 +431,8 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             });
         }
         visore.addEventListener('keydown', function (e) {
-          if (e.key === 'ArrowLeft') mostraFoto(aperta - 1);
-          else if (e.key === 'ArrowRight') mostraFoto(aperta + 1);
+          if (e.key === 'ArrowLeft') mostraFoto(passo - 1);
+          else if (e.key === 'ArrowRight') mostraFoto(passo + 1);
           else return;
           e.preventDefault();
         });
@@ -421,13 +448,14 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           if (inizioX === null) return;
           var dx = e.changedTouches[0].clientX - inizioX;
           inizioX = null;
-          if (Math.abs(dx) > 50) mostraFoto(aperta + (dx < 0 ? 1 : -1));
+          if (Math.abs(dx) > 50) mostraFoto(passo + (dx < 0 ? 1 : -1));
         });
 
         function disegna() {
+          // Codice -> posizione in dati.foto, per aprire nel visore le foto della classifica
           var immagini = {};
-          dati.foto.forEach(function (f) {
-            immagini[f.codice] = f;
+          dati.foto.forEach(function (f, i) {
+            immagini[f.codice] = i;
           });
 
           document.getElementById('sel-chiuso').hidden = !dati.chiuso;
@@ -493,6 +521,13 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           });
 
           classifica.textContent = '';
+          var ordineClassifica = dati.classifica
+            .map(function (c) {
+              return c.codice;
+            })
+            .filter(function (codice) {
+              return immagini[codice] !== undefined;
+            });
           dati.classifica.forEach(function (c, i) {
             var li = document.createElement('li');
             if (i < 20 && c.like > 0) li.className = 'finale';
@@ -500,13 +535,23 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             pos.className = 'sel-pos';
             pos.textContent = i + 1 + '.';
             li.appendChild(pos);
-            var f = immagini[c.codice];
-            if (f) {
+            var indice = immagini[c.codice];
+            if (indice !== undefined) {
+              var f = dati.foto[indice];
+              var link = document.createElement('a');
+              link.href = f.grande;
+              link.title = testi.ingrandisci;
+              link.setAttribute('aria-label', testi.ingrandisci + ' – ' + c.codice);
+              link.addEventListener('click', function (e) {
+                e.preventDefault();
+                apriFoto(indice, ordineClassifica);
+              });
               var img = document.createElement('img');
               img.src = f.img;
               img.alt = '';
               img.loading = 'lazy';
-              li.appendChild(img);
+              link.appendChild(img);
+              li.appendChild(link);
             }
             var codice = document.createElement('span');
             codice.className = 'sel-codice';
@@ -1001,7 +1046,18 @@ const chiaveMemoria = `svr-selezione-${slug}`;
     background: #f1f4e6;
   }
 
+  .sel-classifica :global(a) {
+    display: flex;
+    flex-shrink: 0;
+    cursor: zoom-in;
+  }
+
+  .sel-classifica :global(a:hover img) {
+    opacity: 0.85;
+  }
+
   .sel-classifica :global(img) {
+    display: block;
     width: 56px;
     height: 42px;
     object-fit: cover;
