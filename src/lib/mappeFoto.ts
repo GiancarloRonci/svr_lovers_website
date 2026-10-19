@@ -6,6 +6,11 @@ import { withBase } from './url';
 
 type Lang = 'it' | 'en';
 
+/** Voce dell'elenco `foto` di una Mappa Con Foto: foto di un percorso oppure foto propria. */
+export type MappaFotoVoce =
+  | { percorso: string; immagine: string }
+  | { immagine: ImageMetadata; lat: number; lng: number; didascalia?: string };
+
 export interface MappaFotoPunto {
   lat: number;
   lng: number;
@@ -13,8 +18,8 @@ export interface MappaFotoPunto {
   full: string;
   didascalia?: string;
   name: string;
-  link: string;
-  linkLabel: string;
+  link?: string;
+  linkLabel?: string;
   immagine: ImageMetadata;
 }
 
@@ -30,20 +35,33 @@ function fotoFileNames(filePath: string): string[] {
 }
 
 /**
- * Risolve le foto di una Mappa Con Foto leggendo coordinate, immagine e didascalia dal percorso
- * da cui provengono (IT da `percorsi`, EN da `percorsiEn`). Una foto non trovata blocca la build.
+ * Risolve le foto di una Mappa Con Foto. Per le foto dei percorsi coordinate, immagine e didascalia
+ * si leggono dal percorso (IT da `percorsi`, EN da `percorsiEn`) e una foto non trovata blocca la
+ * build; le foto proprie della mappa usano i dati scritti nell'elenco e prendono il nome della mappa.
  */
-export async function resolveMappaFoto(
-  foto: { percorso: string; immagine: string }[],
-  lang: Lang
-): Promise<MappaFotoPunto[]> {
+export async function resolveMappaFoto(foto: MappaFotoVoce[], lang: Lang, titoloMappa: string): Promise<MappaFotoPunto[]> {
   const percorsi = await getCollection(lang === 'en' ? 'percorsiEn' : 'percorsi');
   const byId = new Map(percorsi.map((p) => [p.id, p]));
   const prefix = lang === 'en' ? 'en/' : '';
   const fotoLabel = lang === 'en' ? 'Photo' : 'Foto';
+  let proprie = 0;
 
   return Promise.all(
-    foto.map(async ({ percorso, immagine }) => {
+    foto.map(async (voce) => {
+      if (!('percorso' in voce)) {
+        proprie += 1;
+        return {
+          lat: voce.lat,
+          lng: voce.lng,
+          src: (await getImage({ src: voce.immagine, width: 300 })).src,
+          full: (await getImage({ src: voce.immagine, width: 1400 })).src,
+          didascalia: voce.didascalia,
+          name: `${titoloMappa} · ${fotoLabel} ${proprie}`,
+          immagine: voce.immagine,
+        };
+      }
+
+      const { percorso, immagine } = voce;
       const entry = byId.get(percorso);
       if (!entry) throw new Error(`Mappa Con Foto: percorso "${percorso}" non trovato (${lang})`);
       const index = fotoFileNames(entry.filePath!).indexOf(immagine);

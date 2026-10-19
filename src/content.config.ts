@@ -41,13 +41,25 @@ const percorsiEn = defineCollection({
   schema: percorsiSchema,
 });
 
-// Mappa Con Foto: elenco esplicito di foto prese dai percorsi (slug del percorso + nome del file).
-// Coordinate, immagine e didascalia si leggono dal percorso, così restano sempre allineate.
-const mappeFotoSchema = z.object({
-  title: z.string(),
-  description: z.string(),
-  foto: z.array(z.object({ percorso: z.string(), immagine: z.string() })),
-});
+// Mappa Con Foto: elenco esplicito di foto. Ogni voce è una foto presa da un percorso (slug del
+// percorso + nome del file: coordinate, immagine e didascalia si leggono dal percorso, così restano
+// sempre allineate) oppure una foto propria della mappa, con immagine, coordinate e didascalia.
+const mappeFotoSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+  z.object({
+    title: z.string(),
+    description: z.string(),
+    foto: z.array(
+      z.union([
+        z.object({ percorso: z.string(), immagine: z.string() }),
+        z.object({
+          immagine: image(),
+          lat: z.number(),
+          lng: z.number(),
+          didascalia: z.string().optional(),
+        }),
+      ])
+    ),
+  });
 
 const mappeFoto = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/mappe-foto' }),

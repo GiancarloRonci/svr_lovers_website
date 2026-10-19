@@ -16,7 +16,7 @@ const { title, description, foto } = entry.data;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 
-const punti = (await resolveMappaFoto(foto, 'en')).map(({ immagine, ...p }) => p);
+const punti = (await resolveMappaFoto(foto, 'en', title)).map(({ immagine, ...p }) => p);
 ---
 
 <Layout title={title} description={description}>

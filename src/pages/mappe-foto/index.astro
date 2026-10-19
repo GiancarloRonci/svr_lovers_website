@@ -8,7 +8,7 @@ import { resolveMappaFoto } from '../../lib/mappeFoto';
 const mappe = await Promise.all(
   (await getCollection('mappeFoto')).map(async (m) => ({
     entry: m,
-    copertina: (await resolveMappaFoto(m.data.foto.slice(0, 1), 'it'))[0]?.immagine,
+    copertina: (await resolveMappaFoto(m.data.foto.slice(0, 1), 'it', m.data.title))[0]?.immagine,
   }))
 );
 ---
