@@ -8,15 +8,20 @@ interface FotoPunto {
   full: string;
   didascalia?: string;
   name?: string;
+  // Link a una pagina collegata alla foto (es. il percorso da cui proviene, nelle Mappe Con Foto)
+  link?: string;
+  linkLabel?: string;
 }
 
 interface Props {
   gpx?: string;
   partenza?: { lat: number; lng: number };
   foto?: FotoPunto[];
+  // Mappa più alta, per le pagine in cui la mappa è il contenuto principale
+  alta?: boolean;
 }
 
-const { gpx, partenza, foto } = Astro.props;
+const { gpx, partenza, foto, alta = false } = Astro.props;
 const gpxUrl = gpx ? withBase(gpx) : '';
 const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 const hasFoto = Boolean(foto && foto.length > 0);
@@ -24,7 +29,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
 
 <div class="trail-map-container">
   <div
-    class="trail-map"
+    class:list={['trail-map', { alta }]}
     data-gpx={gpxUrl}
     data-lat={partenza?.lat ?? ''}
     data-lng={partenza?.lng ?? ''}
@@ -56,6 +61,10 @@ const hasFoto = Boolean(foto && foto.length > 0);
     margin: 1.5rem 0;
     border: 1px solid var(--color-border);
     background: #eee;
+  }
+  .trail-map.alta {
+    height: 70vh;
+    min-height: 420px;
   }
 
   .tm-coords {
@@ -103,6 +112,13 @@ const hasFoto = Boolean(foto && foto.length > 0);
   :global(.photo-popup .caption) {
     font-size: 0.85rem;
     color: #333;
+  }
+
+  :global(.photo-popup .photo-link) {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 700;
   }
 
   :global(.photo-popup .photo-name) {
@@ -239,6 +255,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
     full: string;
     didascalia?: string;
     name?: string;
+    link?: string;
+    linkLabel?: string;
   }
 
   function escapeHtml(value: string): string {
@@ -416,7 +434,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
       const name = p.name ?? `Foto ${index + 1}`;
       const nameHtml = `<span class="photo-name">${escapeHtml(name)}</span>`;
       const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
-      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}</div>`;
+      const link = p.link ? `<a class="photo-link" href="${escapeHtml(p.link)}">${escapeHtml(p.linkLabel ?? p.link)} &rarr;</a>` : '';
+      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}${link}</div>`;
       const marker = L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
       marker.on('popupopen', () => {
         const popupEl = marker.getPopup()?.getElement();

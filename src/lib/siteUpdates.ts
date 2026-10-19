@@ -12,6 +12,7 @@ const sections = {
   leggende: { collection: 'leggende', url: 'leggende', label: { it: 'Leggende', en: 'Legends' } },
   luoghi: { collection: 'luoghi', url: 'luoghi', label: { it: 'Luoghi', en: 'Places' } },
   percorsi: { collection: 'percorsi', url: 'percorsi', label: { it: 'Percorsi', en: 'Trails' } },
+  'mappe-foto': { collection: 'mappeFoto', url: 'mappe-foto', label: { it: 'Mappe con foto', en: 'Photo maps' } },
   'cosa-fare': { collection: 'cosaFare', url: 'cosa-fare', label: { it: 'Cosa fare', en: 'What to Do' } },
   eventi: { collection: 'eventi', url: 'eventi', label: { it: 'Eventi & Feste', en: 'Events & Festivals' } },
   soggiorno: { collection: 'soggiorno', url: 'soggiorno', label: { it: 'Dove Soggiornare', en: 'Where to Stay' } },

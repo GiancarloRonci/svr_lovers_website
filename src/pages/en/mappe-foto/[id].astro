@@ -1,0 +1,41 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import TrailMap from '../../../components/TrailMap.astro';
+import { getCollection, render } from 'astro:content';
+import { withBase } from '../../../lib/url';
+import { resolveMappaFoto } from '../../../lib/mappeFoto';
+import { getLastModified, formatLastModified } from '../../../lib/lastModified';
+
+export async function getStaticPaths() {
+  const mappe = await getCollection('mappeFotoEn');
+  return mappe.map((m) => ({ params: { id: m.id }, props: { entry: m } }));
+}
+
+const { entry } = Astro.props;
+const { title, description, foto } = entry.data;
+const { Content } = await render(entry);
+const lastModified = getLastModified(entry.filePath);
+
+const punti = (await resolveMappaFoto(foto, 'en')).map(({ immagine, ...p }) => p);
+---
+
+<Layout title={title} description={description}>
+  <a href={withBase('en/mappe-foto/')}>&larr; All photo maps</a>
+  <h1>{title}</h1>
+  <p class="meta">{punti.length} photos on the map</p>
+  {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
+
+  <article>
+    <Content />
+  </article>
+
+  <TrailMap foto={punti} alta />
+</Layout>
+
+<style>
+  .aggiornato {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+</style>

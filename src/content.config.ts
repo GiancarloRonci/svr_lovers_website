@@ -41,7 +41,25 @@ const percorsiEn = defineCollection({
   schema: percorsiSchema,
 });
 
-const storiaSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
+// Mappa Con Foto: elenco esplicito di foto prese dai percorsi (slug del percorso + nome del file).
+// Coordinate, immagine e didascalia si leggono dal percorso, così restano sempre allineate.
+const mappeFotoSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  foto: z.array(z.object({ percorso: z.string(), immagine: z.string() })),
+});
+
+const mappeFoto = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/mappe-foto' }),
+  schema: mappeFotoSchema,
+});
+
+const mappeFotoEn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/mappe-foto-en' }),
+  schema: mappeFotoSchema,
+});
+
+const storiaSchema =({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
     description: z.string(),
@@ -266,6 +284,8 @@ const newsEn = defineCollection({
 export const collections = {
   percorsi,
   percorsiEn,
+  mappeFoto,
+  mappeFotoEn,
   storia,
   storiaEn,
   leggende,

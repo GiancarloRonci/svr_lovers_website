@@ -1,0 +1,32 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+import { resolveMappaFoto } from '../../../lib/mappeFoto';
+
+const mappe = await Promise.all(
+  (await getCollection('mappeFotoEn')).map(async (m) => ({
+    entry: m,
+    copertina: (await resolveMappaFoto(m.data.foto.slice(0, 1), 'en'))[0]?.immagine,
+  }))
+);
+---
+
+<Layout title="Photo maps" description="Maps of San Vito Romano with each photo placed exactly where it was taken.">
+  <h1>Photo maps</h1>
+  <p class="meta">Photos of the village and its surroundings, each one on the map where it was taken.</p>
+
+  <div class="card-grid">
+    {
+      mappe.map(({ entry, copertina }) => (
+        <Card
+          href={withBase(`en/mappe-foto/${entry.id}/`)}
+          title={entry.data.title}
+          description={`${entry.data.foto.length} photos · ${entry.data.description}`}
+          image={copertina}
+        />
+      ))
+    }
+  </div>
+</Layout>
