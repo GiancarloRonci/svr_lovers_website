@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import type { ImageMetadata } from 'astro';
@@ -18,11 +19,14 @@ export interface MappaFotoPunto {
 }
 
 /**
- * Nome del file senza cartella, estensione e hash: `foto3.jpg`, `/_astro/foto3.AbC123.jpg` e
- * `/@fs/.../foto3.jpg?origWidth=...` diventano tutti `foto3`.
+ * Nomi dei file delle foto geolocalizzate di un percorso, nell'ordine del frontmatter, letti dal
+ * file markdown: in build le immagini elaborate cambiano nome (hash, foto identiche unificate),
+ * quindi non si possono riconoscere dal loro `src`.
  */
-function baseName(path: string): string {
-  return (path.split('?')[0].split('/').pop() ?? '').split('.')[0];
+function fotoFileNames(filePath: string): string[] {
+  const text = readFileSync(filePath, 'utf-8').replace(/\r\n/g, '\n');
+  const block = /^foto:\n((?:[ \t].*\n?)*)/m.exec(text)?.[1] ?? '';
+  return [...block.matchAll(/^\s+immagine:\s*["']?([^"'\n]+?)["']?\s*$/gm)].map((m) => m[1].split('/').pop()!);
 }
 
 /**
@@ -42,8 +46,8 @@ export async function resolveMappaFoto(
     foto.map(async ({ percorso, immagine }) => {
       const entry = byId.get(percorso);
       if (!entry) throw new Error(`Mappa Con Foto: percorso "${percorso}" non trovato (${lang})`);
-      const index = (entry.data.foto ?? []).findIndex((f) => baseName(f.immagine.src) === baseName(immagine));
-      if (index < 0) throw new Error(`Mappa Con Foto: foto "${immagine}" non trovata nel percorso "${percorso}" (${lang})`);
+      const index = fotoFileNames(entry.filePath!).indexOf(immagine);
+      if (index < 0 || !entry.data.foto?.[index]) throw new Error(`Mappa Con Foto: foto "${immagine}" non trovata nel percorso "${percorso}" (${lang})`);
       const f = entry.data.foto![index];
       return {
         lat: f.lat,
