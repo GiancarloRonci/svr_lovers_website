@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import TrailMap from '../../components/TrailMap.astro';
+import PhotoGallery from '../../components/PhotoGallery.astro';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { resolveMappaFoto } from '../../lib/mappeFoto';
@@ -16,7 +17,15 @@ const { title, description, foto } = entry.data;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 
-const punti = (await resolveMappaFoto(foto, 'it', title)).map(({ immagine, ...p }) => p);
+const risolte = await resolveMappaFoto(foto, 'it', title);
+const punti = risolte.map(({ immagine, ...p }) => p);
+const galleryItems = risolte.map((f) => ({
+  immagine: f.immagine,
+  full: f.full,
+  alt: f.didascalia || f.name,
+  caption: f.didascalia ?? '',
+  name: f.name,
+}));
 ---
 
 <Layout title={title} description={description}>
@@ -30,6 +39,8 @@ const punti = (await resolveMappaFoto(foto, 'it', title)).map(({ immagine, ...p 
   </article>
 
   <TrailMap foto={punti} alta />
+
+  <PhotoGallery items={galleryItems} />
 </Layout>
 
 <style>
