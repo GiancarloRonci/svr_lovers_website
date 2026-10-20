@@ -58,6 +58,8 @@ I concerti pop/rock/dance in questi comuni sono rari e perlopiù legati a sagre 
 
 6. **Alla fine, riepiloga all'utente** i concerti trovati (artista/evento, genere, date, luogo, fonte) e proponili prima di scrivere i file, a meno che l'utente non abbia già chiesto esplicitamente di procedere senza conferma.
 
+7. **Aggiorna l'articolo "Il weekend".** Se hai aggiunto concerti che cadono nel prossimo fine settimana, aggiorna (o crea) l'articolo del weekend seguendo la modalità D della skill `aggiorna-eventi` (`.claude/skills/aggiorna-eventi/SKILL.md`), in italiano e in inglese.
+
 ## Regole comuni
 
 - Non fare commit/push automaticamente a meno che l'utente non lo chieda esplicitamente. Se lo chiede, usa il flusso git standard del progetto (git add solo dei file interessati, commit descrittivo, push).

@@ -1,6 +1,6 @@
 ---
 name: aggiorna-eventi
-description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane (incluse le partite in casa della Sanvitese Calcio a 5), propone quelli nuovi da aggiungere alle collection eventi/eventi-en, verifica se gli eventi già inseriti delle prossime due settimane hanno aggiornamenti importanti (rinvii, annullamenti, orari, programma), e rimuove gli eventi ormai passati. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "aggiungere le partite della Sanvitese", "eliminare gli eventi passati" o simili.
+description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da San Vito Romano nelle prossime settimane (incluse le partite in casa della Sanvitese Calcio a 5), propone quelli nuovi da aggiungere alle collection eventi/eventi-en, verifica se gli eventi già inseriti delle prossime due settimane hanno aggiornamenti importanti (rinvii, annullamenti, orari, programma), rimuove gli eventi ormai passati e aggiorna l'articolo "Il weekend" con i consigli per il prossimo fine settimana. Usare quando l'utente chiede di "aggiornare gli eventi", "cercare nuovi eventi nei dintorni", "aggiungere le partite della Sanvitese", "eliminare gli eventi passati" o simili.
 ---
 
 # Aggiorna eventi nei dintorni di San Vito Romano
@@ -8,6 +8,8 @@ description: Cerca sagre, feste e altri eventi entro circa un'ora di macchina da
 Questa skill mantiene aggiornata la collection Astro `src/content/eventi` (e il suo gemello `src/content/eventi-en`) con gli eventi in programma entro circa un'ora di macchina da San Vito Romano.
 
 Ha tre modalità, spesso richieste insieme: **aggiungere eventi nuovi** (A), **rimuovere eventi passati** (B) e **verificare aggiornamenti agli eventi già inseriti nelle prossime due settimane** (C). Se l'utente chiede genericamente di "aggiornare gli eventi", esegui tutte e tre; altrimenti fai quella richiesta.
+
+**Ogni volta** che la skill gira, qualunque modalità sia stata richiesta, alla fine esegui anche la modalità D: **aggiornare l'articolo "Il weekend"** con i consigli per il prossimo fine settimana, in base agli eventi come risultano dopo le modifiche.
 
 ## Contesto geografico
 
@@ -82,6 +84,29 @@ Da eseguire ogni volta che la skill gira (insieme alle modalità A e B), limitat
 4. **Non modificare nulla in automatico.** Nel riepilogo finale elenca, in una sezione separata da eventi nuovi e rimossi, ogni evento da aggiornare con: modifica proposta, testo attuale → testo nuovo (in sintesi) e fonte. Applica le modifiche solo dopo la conferma dell'utente.
 5. Quando applichi una modifica, aggiorna sempre insieme il file IT e quello EN con lo stesso slug (frontmatter e corpo), aggiorna la riga `*Fonte: ...*` se la notizia viene da una fonte diversa e, in caso di annullamento, rimuovi entrambi i file con `git rm` segnalandolo nel riepilogo.
 6. Se non trovi aggiornamenti rilevanti, dillo esplicitamente in una riga.
+
+## Modalità D — Aggiornare l'articolo "Il weekend"
+
+Gli articoli "Il weekend" sono articoli della collection `articoli` (e `articoli-en`) con `categoria: weekend`: compaiono nella sezione "Il weekend" di Cultura&Turismo. Vanno aggiornati **dopo** aver scritto le modifiche delle modalità A, B e C, così l'articolo riflette gli eventi effettivamente pubblicati.
+
+1. **Individua il weekend.** Da lunedì a giovedì è il venerdì-domenica successivo; da venerdì a domenica è quello in corso. Se il venerdì o il lunedì sono festivi (es. 1° novembre, 8 dicembre), includili nel weekend lungo.
+2. **Slug:** `weekend-<giorno-inizio>-<giorno-fine>-<mese>-<anno>`, es. `weekend-23-25-ottobre-2026`; se il weekend scavalca il mese, `weekend-30-ottobre-1-novembre-2026`. Stesso slug in `articoli-en`.
+3. **Se l'articolo di quel weekend esiste già**, aggiornalo: aggiungi gli eventi nuovi pertinenti, togli quelli annullati o rinviati, correggi orari e dettagli cambiati. Lascia invariato il campo `data`. **Se non esiste**, crealo nuovo. Non modificare mai gli articoli dei weekend già passati: restano come archivio, non vanno cancellati.
+4. **Scelta degli eventi:** tutti i file di `src/content/eventi` che si svolgono in almeno un giorno del weekend (eventi di un giorno in quella data, o eventi su più giorni il cui intervallo copre il weekend). Non serve citarli tutti se sono molti: privilegia quelli a San Vito Romano (sempre, partite della Sanvitese comprese), le sagre e gli eventi gratuiti o più vicini, e raggruppa quelli simili (es. le escursioni sui Simbruini).
+5. **Struttura** (vedi `src/content/articoli/weekend-23-25-ottobre-2026.md` come modello):
+   ```yaml
+   ---
+   title: "Il weekend: <tema in poche parole> (<gg>-<gg> <mese>)"
+   description: "<una o due frasi con gli appuntamenti principali>"
+   data: YYYY-MM-DD   # giorno in cui l'articolo è stato creato
+   categoria: weekend
+   ---
+   ```
+   Poi un'introduzione breve (con eventuali note pratiche: cambio dell'ora, festività, meteo), una sezione `##` per giorno (Venerdì, Sabato, Domenica), un **consiglio della settimana** evidenziato (di preferenza un evento a San Vito), la riga finale **"Se avete solo mezza giornata"** e la chiusura che rimanda alle schede degli [eventi](/eventi/) per orari e contatti.
+6. **Link:** ogni evento citato ha il link alla sua scheda, `/eventi/<slug>` nel file IT e `/en/eventi/<slug>` in quello EN. Linka solo slug che esistono in entrambe le collection (controllalo prima di finire). Quando un evento viene poi rimosso, la pagina trasforma da sola il suo link in testo semplice: non serve ritoccare l'articolo.
+7. **Stile:** italiano scorrevole, tono da consiglio tra compaesani, frasi brevi; orari e prenotazioni solo quando sono utili a decidere (es. scadenza delle iscrizioni). Non inventare dettagli che non sono nelle schede degli eventi.
+8. **Versione inglese** in `src/content/articoli-en/<stesso-slug>.md` con titolo `"The Weekend: ... (<dd>-<dd> <Month>)"`, stesse sezioni e stessi eventi, link con prefisso `/en/`.
+9. **Nel riepilogo finale** indica se l'articolo è stato creato o aggiornato e quali eventi hai aggiunto o tolto. Non serve una conferma separata: l'articolo va aggiornato insieme agli eventi, e l'utente lo rivede nel riepilogo prima del commit.
 
 ## Regole comuni
 
