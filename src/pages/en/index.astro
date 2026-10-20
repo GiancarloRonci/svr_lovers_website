@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import LatestPhotos from '../../components/LatestPhotos.astro';
+import Meteo from '../../components/Meteo.astro';
 import Card from '../../components/Card.astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -96,6 +97,8 @@ const articoli = (await getCollection('articoliEn'))
           🎵 <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">TikTok</a>
         </li>
       </ul>
+
+      <Meteo lang="en" />
 
       <div class="home-news home-section">
         <h2>Latest news</h2>

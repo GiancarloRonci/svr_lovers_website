@@ -5,6 +5,8 @@ import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { resolveGalleria } from '../../lib/gallery';
 import { getLastModified, formatLastModified } from '../../lib/lastModified';
+import { weekendDatesFromSlug } from '../../lib/weekend';
+import Meteo from '../../components/Meteo.astro';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli');
@@ -19,6 +21,7 @@ const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 // Nei consigli del weekend i link agli eventi già rimossi dalla collection diventano testo semplice
 const eventiAttivi = categoria === 'weekend' ? (await getCollection('eventi')).map((e) => e.id) : null;
+const weekend = categoria === 'weekend' ? weekendDatesFromSlug(entry.id) : null;
 
 const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => ({
   ...item,
@@ -53,6 +56,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
       </>
     )
   }
+  {weekend && <Meteo lang="it" weekendInizio={weekend.inizio} weekendFine={weekend.fine} />}
   <article>
     <Content />
   </article>
