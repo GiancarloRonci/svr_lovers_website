@@ -27,6 +27,10 @@ foto:
     lng: 12.982539
     immagine: ./lattaceca/foto4.jpg
     didascalia: "The lane in the evening, lit by street lamps: on the left the wooden fence overlooking the greenery, on the right the low wall and the old stone houses."
+  - lat: 41.883884
+    lng: 12.983606
+    immagine: ./lattaceca/foto5.jpg
+    didascalia: "The path sloping down between the railing and the wooden fence, with a view over the fog-filled valley and the hills in the background."
 ---
 
 A short loop walk in the centre of San Vito Romano, starting and ending in [Piazza Augusto Baccelli](/en/luoghi/piazza-augusto-baccelli).

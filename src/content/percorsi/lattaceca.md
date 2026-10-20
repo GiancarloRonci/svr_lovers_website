@@ -27,6 +27,10 @@ foto:
     lng: 12.982539
     immagine: ./lattaceca/foto4.jpg
     didascalia: "La stradina di sera, illuminata dai lampioni: a sinistra la staccionata in legno affacciata sul verde, a destra il muretto e le vecchie case in pietra."
+  - lat: 41.883884
+    lng: 12.983606
+    immagine: ./lattaceca/foto5.jpg
+    didascalia: "Il vialetto che scende tra la ringhiera e la staccionata in legno, con la vista sulla valle avvolta dalla nebbia e le colline sullo sfondo."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).
