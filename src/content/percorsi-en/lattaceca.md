@@ -23,6 +23,10 @@ foto:
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
     didascalia: "A covered passage in the old town in the evening: the stone arch, the wooden-beam ceiling lit by small lamps and the cobbled paving."
+  - lat: 41.882885
+    lng: 12.982539
+    immagine: ./lattaceca/foto4.jpg
+    didascalia: "The lane in the evening, lit by street lamps: on the left the wooden fence overlooking the greenery, on the right the low wall and the old stone houses."
 ---
 
 A short loop walk in the centre of San Vito Romano, starting and ending in [Piazza Augusto Baccelli](/en/luoghi/piazza-augusto-baccelli).

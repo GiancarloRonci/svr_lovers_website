@@ -23,6 +23,10 @@ foto:
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
     didascalia: "Un passaggio coperto del centro storico di sera: l'arco in pietra, il soffitto di travi in legno illuminato da piccole lampade e il selciato di sampietrini."
+  - lat: 41.882885
+    lng: 12.982539
+    immagine: ./lattaceca/foto4.jpg
+    didascalia: "La stradina di sera, illuminata dai lampioni: a sinistra la staccionata in legno affacciata sul verde, a destra il muretto e le vecchie case in pietra."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).

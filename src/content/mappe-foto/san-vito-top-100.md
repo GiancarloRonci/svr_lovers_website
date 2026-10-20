@@ -46,6 +46,8 @@ foto:
     immagine: foto2.jpg
   - percorso: lattaceca
     immagine: foto3.jpg
+  - percorso: lattaceca
+    immagine: foto4.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto25.jpg
   - percorso: percorso-a-san-biagio
