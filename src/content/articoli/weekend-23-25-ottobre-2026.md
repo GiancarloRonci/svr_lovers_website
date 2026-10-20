@@ -1,6 +1,6 @@
 ---
 title: "Il weekend: tra olivi, castagne e faggete (23-25 ottobre)"
-description: "Camminata tra gli Olivi a San Vito, castagne a Cave e a Segni, zazzicchie a Gerano, musica a Colleferro e le prime faggete d'autunno sui Simbruini: cosa fare nel weekend dal 23 al 25 ottobre 2026."
+description: "Camminata tra gli Olivi a San Vito, castagne a Cave e a Segni, zazzicchie a Gerano, pizzocchio a Pisoniano, polenta a Sambuci, musica a Colleferro e le prime faggete d'autunno sui Simbruini: cosa fare nel weekend dal 23 al 25 ottobre 2026."
 data: 2026-10-20
 categoria: weekend
 immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
@@ -17,6 +17,8 @@ Il pomeriggio di venerdì è per i più piccoli: a Zagarolo la [Giornata del Gio
 Sabato si tifa: al Campetto la [Sanvitese Calcio a 5 ospita il Pavona](/eventi/sanvitese-calcio-a5-pavona-2026-10-24) per la 7ª giornata di Serie C1. L'orario del calcio d'inizio va controllato sulla pagina Facebook della squadra.
 
 Per pranzo, a venti minuti da casa, Gerano apre la [Sagra delle Zazzicchie e Verole](/eventi/sagra-zazzicchie-verole-gerano-2026): la salsiccia locale nel panino con i broccoletti e le caldarroste, con stand al coperto dalle 12:00 fino a sera. Sabato alle 21:30, in Piazza della Vittoria, c'è anche un concerto tributo ad Achille Lauro.
+
+Per cena c'è solo l'imbarazzo della scelta. A dieci minuti da San Vito, la [Sagra del Pizzocchio di Granturco](/eventi/sagra-pizzocchio-granturco-pisoniano-2026) di Pisoniano apre alle 19:30 con la focaccia di granturco, salsiccia e broccoletti, e poi musica e stornelli fino a tardi. A Sambuci, dalle 19:00 in Piazza di Corte, la [Sagra della Polenta](/eventi/sagra-polenta-sambuci-2026) porta in tavola la polenta con le spuntature o con il broccolo romano, con gli sbandieratori di Ciciliano.
 
 Chi ha voglia di montagna può scegliere l'anello di [Boschi in movimento](/eventi/boschi-in-movimento-campaegli-2026), camminata e yoga tra Campaegli e Camposecco, oppure il pomeriggio del [Nordic Walking dei Ponti](/eventi/nordic-walking-dei-ponti-subiaco-2026) a Subiaco, a favore di Komen Italia (prenotazione entro venerdì).
 
@@ -36,6 +38,7 @@ Il pomeriggio offre più scelte:
 - l'ultimo giorno della [Biennale "Dentro l'Oro"](/eventi/biennale-dentro-loro-genazzano-2026) al Castello Colonna di Genazzano, con il finissage alle 17:00;
 - la giornata finale della [Sagra del Marrone Segnino](/eventi/sagra-marrone-segnino-segni-2026) a Segni e della sagra di Cave;
 - a Gerano il secondo giorno delle zazzicchie, con la sfilata delle auto storiche dei Ferraristi dell'Appia Antica;
+- a Sambuci il pranzo della sagra della polenta, dalle 12:00, e la visita guidata al Castello Theodoli con le dame in abiti d'epoca;
 - alle 17:00 ["Dovere Civile"](/eventi/dovere-civile-castel-san-pietro-romano-2026) a Castel San Pietro Romano, la commemorazione dell'eccidio scampato del 1943 con il cortometraggio su Adolfo Porry Pastorel;
 - per chiudere, la ["Gran Partita" di Mozart](/eventi/gran-partita-mozart-colleferro-2026) suonata da 13 clarinetti a Colleferro, alle 18:00 e a ingresso libero.
 
