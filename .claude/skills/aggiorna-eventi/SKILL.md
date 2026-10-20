@@ -103,6 +103,7 @@ Gli articoli "Il weekend" sono articoli della collection `articoli` (e `articoli
    categoria: weekend
    ---
    ```
+   Le due note in testa ("Scegli tu cosa fare": l'articolo riassume tutti gli eventi rilevanti e ognuno sceglie in base a gusti e tempo; "Prima di partire, verifica sempre": controllare che l'evento sia confermato e che orari e dettagli non siano cambiati) le aggiunge da sola la pagina per gli articoli con `categoria: weekend`: non vanno ripetute nel testo.
    Poi un'introduzione breve (con eventuali note pratiche: cambio dell'ora, festività, meteo), una sezione `##` per giorno (Venerdì, Sabato, Domenica), un **consiglio della settimana** evidenziato (di preferenza un evento a San Vito), la riga finale **"Se avete solo mezza giornata"** e la chiusura che rimanda alle schede degli [eventi](/eventi/) per orari e contatti.
 6. **Link:** ogni evento citato ha il link alla sua scheda, `/eventi/<slug>` nel file IT e `/en/eventi/<slug>` in quello EN. Linka solo slug che esistono in entrambe le collection (controllalo prima di finire). Quando un evento viene poi rimosso, la pagina trasforma da sola il suo link in testo semplice: non serve ritoccare l'articolo.
 7. **Stile:** italiano scorrevole, tono da consiglio tra compaesani, frasi brevi; orari e prenotazioni solo quando sono utili a decidere (es. scadenza delle iscrizioni). Non inventare dettagli che non sono nelle schede degli eventi.
