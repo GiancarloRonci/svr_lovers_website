@@ -28,6 +28,7 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
    - Usa WebSearch per query come `"<nome evento>" <comune> 2026 programma date`, poi WebFetch sulla fonte più autorevole trovata per confermare le date esatte.
 
 3. **Scarta gli eventi con data incerta o contraddittoria** finché non trovi una fonte ufficiale che la confermi (es. il sito del Comune o della Pro Loco organizzatrice). Se più fonti danno date diverse, fidati della fonte istituzionale.
+   - **Eventi non confermati in avvicinamento.** Tieni traccia degli eventi scartati per mancanza di conferma (vedi la memoria "Questioni aperte"). Quando uno di questi cade **entro 10 giorni da oggi**, non lasciarlo solo nelle note: ricontrollalo con WebSearch in modalità `extended` (la ricerca `standard` ha già restituito risultati fuori tema per eventi piccoli, es. Gerano il 2026-10-19) e cerca anche nelle testate locali (Tiburno, Canale Dieci, Suby News, NumeroZero, RomaPop), che a ridosso dell'evento spesso pubblicano il programma prima dei Comuni. Poi proponilo all'utente in una sezione apposita del riepilogo, con date, programma trovato, fonti e grado di affidabilità: decide l'utente se pubblicarlo. Se viene pubblicato senza fonte ufficiale, scrivilo nel corpo della scheda e rimanda ai canali dell'organizzatore per gli aggiornamenti.
 
 4. **Per ogni evento nuovo confermato**, crea il file in `src/content/eventi/<slug-descrittivo>.md` seguendo lo schema Zod (`src/content.config.ts`, `eventiSchema`):
    ```yaml
@@ -59,7 +60,7 @@ Comuni entro circa un'ora di macchina da San Vito Romano (Roma), da usare come r
    - **Corpo:** 1-2 frasi con campionato e girone, giornata, orario del calcio d'inizio e invito a tifare la squadra del paese; chiudi con la riga `*Fonte: ...*` come per gli altri eventi.
    - Anche per le partite crea la versione inglese in `eventi-en` (title: `"Sanvitese Calcio a 5 vs <Opponent>"`, `tipologiaEvento: Sports Event`) e, se una partita viene rinviata, aggiorna o rimuovi il file corrispondente.
 
-7. **Alla fine, riepiloga all'utente** gli eventi trovati (titolo, date, luogo, fonte) e proponili prima di scrivere i file, a meno che l'utente non abbia già chiesto esplicitamente di procedere senza conferma.
+7. **Alla fine, riepiloga all'utente** gli eventi trovati (titolo, date, luogo, fonte) e proponili prima di scrivere i file, a meno che l'utente non abbia già chiesto esplicitamente di procedere senza conferma. Includi la sezione **"Non confermati nei prossimi 10 giorni"** (vedi punto 3), anche solo per dire che non ce ne sono.
 
 ## Modalità B — Rimuovere eventi passati
 
