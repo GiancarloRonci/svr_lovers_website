@@ -9,6 +9,9 @@ const attivita = await getCollection('associazioneEn');
 const viaggiNelTempo = (await getCollection('articoliEn'))
   .filter((a) => a.data.categoria === 'viaggi-nel-tempo')
   .sort(byInsertionDesc);
+const weekend = (await getCollection('articoliEn'))
+  .filter((a) => a.data.categoria === 'weekend')
+  .sort(byInsertionDesc);
 
 const etichette: Record<string, string> = {
   scacchi: 'Chess',
@@ -85,6 +88,29 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
         </p>
         <div class="card-grid">
           {viaggiNelTempo.map((a) => (
+            <Card
+              href={withBase(`en/articoli/${a.id}/`)}
+              title={a.data.title}
+              description={a.data.description}
+              meta={a.data.data?.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+              image={a.data.immagine}
+            />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    weekend.length > 0 && (
+      <section id="weekend">
+        <h2>The Weekend</h2>
+        <p>
+          Our tips for the weekend: food festivals, hikes, concerts and events in San Vito Romano
+          and the surrounding area, picked from the events on the calendar.
+        </p>
+        <div class="card-grid">
+          {weekend.map((a) => (
             <Card
               href={withBase(`en/articoli/${a.id}/`)}
               title={a.data.title}

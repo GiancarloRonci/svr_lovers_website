@@ -17,6 +17,8 @@ const { title, description, data, autore, categoria, immagine, immagineIntera: i
 const immagineIntera = categoria === 'viaggi-nel-tempo' || immagineInteraFlag === true;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
+// Nei consigli del weekend i link agli eventi già rimossi dalla collection diventano testo semplice
+const eventiAttivi = categoria === 'weekend' ? (await getCollection('eventiEn')).map((e) => e.id) : null;
 
 const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((item, i) => ({
   ...item,
@@ -38,6 +40,16 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   <article>
     <Content />
   </article>
+  {
+    eventiAttivi && (
+      <script is:inline define:vars={{ eventiAttivi }}>
+        document.querySelectorAll('article a[href*="/eventi/"]').forEach(function (a) {
+          var m = a.getAttribute('href').match(/\/eventi\/([^/?#]+)/);
+          if (m && eventiAttivi.indexOf(m[1]) === -1) a.replaceWith.apply(a, Array.from(a.childNodes));
+        });
+      </script>
+    )
+  }
 
   {
     galleryItems.length > 0 && (

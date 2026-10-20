@@ -1,0 +1,40 @@
+---
+title: "The Weekend: olive groves, chestnuts and beech woods (23-25 October)"
+description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, music in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
+data: 2026-10-20
+categoria: weekend
+---
+
+The last weekend of October has everything you expect from autumn in the Monti Prenestini: new olive oil, chestnuts, woods changing colour. And the first event is right here at home. **On Saturday night the clocks go back to standard time: on Sunday you get an extra hour of sleep.**
+
+## Friday: games, chestnuts and jazz
+
+Friday afternoon is for the little ones: in Zagarolo the [Day of Play](/en/eventi/giornata-del-gioco-zagarolo-2026) fills the historic centre with 19 games to try, from 4:30 PM to 7:00 PM. At 5:00 PM the [Cave Chestnut Festival](/en/eventi/sagra-castagna-cave-2026) opens, a quarter of an hour from San Vito: food stands and wine cellars open at 7:00 PM and the bands start playing in the squares at 9:00 PM. If you prefer an indoor concert, the Blue Mood Sound play ["From Jazz to Pop"](/en/eventi/dal-jazz-al-pop-blue-mood-sound-colleferro-2026) at the Auditorium Fabbrica della Musica in Colleferro, at 6:00 PM with free admission.
+
+## Saturday: Sanvitese at home and an afternoon in the villages
+
+On Saturday it's time to cheer: at the Campetto, [Sanvitese Calcio a 5 host Pavona](/en/eventi/sanvitese-calcio-a5-pavona-2026-10-24) for matchday 7 of Serie C1. Check the team's Facebook page for the kick-off time.
+
+If you feel like heading to the mountains, you can choose the [Woods in Motion](/en/eventi/boschi-in-movimento-campaegli-2026) loop, a walk with yoga between Campaegli and Camposecco, or the afternoon [Nordic Walking of the Bridges](/en/eventi/nordic-walking-dei-ponti-subiaco-2026) in Subiaco, in support of Komen Italia (booking by Friday).
+
+Late in the afternoon there is a book and some music: at 5:00 PM the presentation of ["Mare Nero"](/en/eventi/mare-nero-ansaldo-castel-san-pietro-romano-2026) by Marco Ansaldo at the MuDi in Castel San Pietro Romano, and at 6:00 PM a jazz version of Carmina Burana in Piazza Conti in Poli, during the [Culture Days](/en/eventi/giornate-della-cultura-poli-2026). In the evening, head back to Cave to hear Alla Riversa and Malagrazia.
+
+## Sunday: the Olive Grove Walk in San Vito
+
+Our tip of the week is the [Olive Grove Walk](/en/eventi/camminata-tra-gli-olivi-san-vito-romano-2026), meeting at 10:00 AM in Via Guido Baccelli, in front of the post office. It is about two kilometres through the historic centre up to Via Porta Olevano, with guided visits to churches and palaces, followed by the La Rosciola olive mill, with a tasting of the new oil and an optional lunch on booking. In case of bad weather the event is cancelled, so check on the morning itself.
+
+If you want to walk further, the Simbruini mountains offer:
+
+- **hikes for every pace:** from the easy [Autumn in Campaegli](/en/eventi/autunno-a-campaegli-cervara-2026), 12 km from Cervara di Roma that are also fine for youngsters, to the [Way of Stone and Water](/en/eventi/via-della-pietra-e-dell-acqua-jenne-2026) from Jenne to the Trevi Waterfall, with booking by Thursday;
+- **at Monte Livata:** [Forest Bathing](/en/eventi/forest-bathing-monte-livata-2026) along trail 672/C, the [hike to Monte Autore](/en/eventi/escursione-monte-autore-livata-2026) and, for families, the last Sunday with the [bees of the Mieleria nel Bosco](/en/eventi/api-mieleria-nel-bosco-monte-livata-2026).
+
+The afternoon offers several options:
+
+- the last day of the ["Dentro l'Oro" Biennale](/en/eventi/biennale-dentro-loro-genazzano-2026) at Castello Colonna in Genazzano, with the closing event at 5:00 PM;
+- the final day of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) and of the festival in Cave;
+- at 5:00 PM ["Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel;
+- to round off the day, Mozart's ["Gran Partita"](/en/eventi/gran-partita-mozart-colleferro-2026) played by 13 clarinets in Colleferro, at 6:00 PM with free admission.
+
+**If you only have half a day:** the Olive Grove Walk in the morning and the chestnuts of Cave in the afternoon, all within a quarter of an hour from home.
+
+Times, prices and contacts for each event are on the [events](/en/eventi/) pages: always have a look before you set off, because programmes can change.
