@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: olive groves, chestnuts and beech woods (23-25 October)"
-description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, music in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
+description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, zazzicchie sausages in Gerano, music in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
 data: 2026-10-20
 categoria: weekend
 immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
@@ -15,6 +15,8 @@ Friday afternoon is for the little ones: in Zagarolo the [Day of Play](/en/event
 ## Saturday: Sanvitese at home and an afternoon in the villages
 
 On Saturday it's time to cheer: at the Campetto, [Sanvitese Calcio a 5 host Pavona](/en/eventi/sanvitese-calcio-a5-pavona-2026-10-24) for matchday 7 of Serie C1. Check the team's Facebook page for the kick-off time.
+
+For lunch, twenty minutes from home, Gerano opens the [Zazzicchie and Verole Festival](/en/eventi/sagra-zazzicchie-verole-gerano-2026): the local sausage in a sandwich with broccoli rabe and roasted chestnuts, with covered food stands from 12:00 PM until the evening. On Saturday at 9:30 PM, in Piazza della Vittoria, there is also a tribute concert to Achille Lauro.
 
 If you feel like heading to the mountains, you can choose the [Woods in Motion](/en/eventi/boschi-in-movimento-campaegli-2026) loop, a walk with yoga between Campaegli and Camposecco, or the afternoon [Nordic Walking of the Bridges](/en/eventi/nordic-walking-dei-ponti-subiaco-2026) in Subiaco, in support of Komen Italia (booking by Friday).
 
@@ -33,6 +35,7 @@ The afternoon offers several options:
 
 - the last day of the ["Dentro l'Oro" Biennale](/en/eventi/biennale-dentro-loro-genazzano-2026) at Castello Colonna in Genazzano, with the closing event at 5:00 PM;
 - the final day of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) and of the festival in Cave;
+- in Gerano, the second day of the zazzicchie festival, with the parade of vintage cars by the Ferraristi dell'Appia Antica;
 - at 5:00 PM ["Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel;
 - to round off the day, Mozart's ["Gran Partita"](/en/eventi/gran-partita-mozart-colleferro-2026) played by 13 clarinets in Colleferro, at 6:00 PM with free admission.
 
