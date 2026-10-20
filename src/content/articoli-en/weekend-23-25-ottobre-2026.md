@@ -3,6 +3,7 @@ title: "The Weekend: olive groves, chestnuts and beech woods (23-25 October)"
 description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, music in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
 data: 2026-10-20
 categoria: weekend
+immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
 ---
 
 The last weekend of October has everything you expect from autumn in the Monti Prenestini: new olive oil, chestnuts, woods changing colour. And the first event is right here at home. **On Saturday night the clocks go back to standard time: on Sunday you get an extra hour of sleep.**

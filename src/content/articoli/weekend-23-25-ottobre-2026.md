@@ -3,6 +3,7 @@ title: "Il weekend: tra olivi, castagne e faggete (23-25 ottobre)"
 description: "Camminata tra gli Olivi a San Vito, castagne a Cave e a Segni, musica a Colleferro e le prime faggete d'autunno sui Simbruini: cosa fare nel weekend dal 23 al 25 ottobre 2026."
 data: 2026-10-20
 categoria: weekend
+immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
 ---
 
 L'ultimo weekend di ottobre ha tutto quello che ci si aspetta dall'autunno sui Monti Prenestini: l'olio nuovo, le castagne, i boschi che cambiano colore. E il primo appuntamento è a casa nostra. **Nella notte tra sabato e domenica torna l'ora solare: domenica si dorme un'ora in più.**
