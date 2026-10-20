@@ -37,6 +37,22 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
   {immagine && !immagineIntera && <Image class="articolo-image" src={immagine} alt={title} width={900} height={500} />}
   {immagine && immagineIntera && <Image class="articolo-image-intera" src={immagine} alt={title} />}
+  {
+    categoria === 'weekend' && (
+      <>
+      <p class="avviso">
+        <strong>Pick what suits you.</strong> This article sums up all the main events of the
+        weekend, but there's no need to attend them all: choose the ones you like best, based on
+        your tastes and the time you have available.
+      </p>
+      <p class="avviso">
+        <strong>Always check before you set off.</strong> Make sure with the organisers or the
+        official sources that the event is confirmed and that times and details haven't changed:
+        programmes can be changed or cancelled at the last minute.
+      </p>
+      </>
+    )
+  }
   <article>
     <Content />
   </article>
@@ -75,6 +91,14 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 </Layout>
 
 <style>
+  .avviso {
+    margin: 1rem 0 1.5rem;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--color-accent);
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+
   .aggiornato {
     font-size: 0.8rem;
     color: var(--color-muted);
