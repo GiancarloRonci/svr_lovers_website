@@ -39,7 +39,7 @@ The afternoon offers several options:
 - the final day of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) and of the festival in Cave;
 - in Gerano, the second day of the zazzicchie festival, with the parade of vintage cars by the Ferraristi dell'Appia Antica;
 - in Sambuci, lunch at the polenta festival from 12:00 PM and the guided tour of Theodoli Castle led by ladies in period dress;
-- at 5:00 PM ["Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel;
+- at 5:30 PM ["Porry Pastorel - Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) at the MuDi in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel and the mayor and the museum director in attendance;
 - to round off the day, Mozart's ["Gran Partita"](/en/eventi/gran-partita-mozart-colleferro-2026) played by 13 clarinets in Colleferro, at 6:00 PM with free admission.
 
 **If you only have half a day:** the Olive Grove Walk in the morning and the chestnuts of Cave in the afternoon, all within a quarter of an hour from home.

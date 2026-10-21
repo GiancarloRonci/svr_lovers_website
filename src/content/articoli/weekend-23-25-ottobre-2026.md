@@ -39,7 +39,7 @@ Il pomeriggio offre più scelte:
 - la giornata finale della [Sagra del Marrone Segnino](/eventi/sagra-marrone-segnino-segni-2026) a Segni e della sagra di Cave;
 - a Gerano il secondo giorno delle zazzicchie, con la sfilata delle auto storiche dei Ferraristi dell'Appia Antica;
 - a Sambuci il pranzo della sagra della polenta, dalle 12:00, e la visita guidata al Castello Theodoli con le dame in abiti d'epoca;
-- alle 17:00 ["Dovere Civile"](/eventi/dovere-civile-castel-san-pietro-romano-2026) a Castel San Pietro Romano, la commemorazione dell'eccidio scampato del 1943 con il cortometraggio su Adolfo Porry Pastorel;
+- alle 17:30 ["Porry Pastorel - Dovere Civile"](/eventi/dovere-civile-castel-san-pietro-romano-2026) al MuDi di Castel San Pietro Romano, la commemorazione dell'eccidio scampato del 1943 con il cortometraggio su Adolfo Porry Pastorel, alla presenza del sindaco e della direttrice del museo;
 - per chiudere, la ["Gran Partita" di Mozart](/eventi/gran-partita-mozart-colleferro-2026) suonata da 13 clarinetti a Colleferro, alle 18:00 e a ingresso libero.
 
 **Se avete solo mezza giornata:** la Camminata tra gli Olivi la mattina e le castagne di Cave il pomeriggio, tutto entro un quarto d'ora da casa.
