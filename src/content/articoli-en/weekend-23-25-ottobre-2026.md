@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: olive groves, chestnuts and beech woods (23-25 October)"
-description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, zazzicchie sausages in Gerano, pizzocchio in Pisoniano, polenta in Sambuci, music in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
+description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, zazzicchie sausages in Gerano, pizzocchio in Pisoniano, polenta in Sambuci, fallone in Affile, music and theatre in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
 data: 2026-10-20
 categoria: weekend
 immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
@@ -10,7 +10,7 @@ The last weekend of October has everything you expect from autumn in the Monti P
 
 ## Friday: games, chestnuts and jazz
 
-Friday afternoon is for the little ones: in Zagarolo the [Day of Play](/en/eventi/giornata-del-gioco-zagarolo-2026) fills the historic centre with 19 games to try, from 4:30 PM to 7:00 PM. At 5:00 PM the [Cave Chestnut Festival](/en/eventi/sagra-castagna-cave-2026) opens, a quarter of an hour from San Vito: food stands and wine cellars open at 7:00 PM and the bands start playing in the squares at 9:00 PM. If you prefer an indoor concert, the Blue Mood Sound play ["From Jazz to Pop"](/en/eventi/dal-jazz-al-pop-blue-mood-sound-colleferro-2026) at the Auditorium Fabbrica della Musica in Colleferro, at 6:00 PM with free admission.
+Friday afternoon is for the little ones: in Zagarolo the [Day of Play](/en/eventi/giornata-del-gioco-zagarolo-2026) fills the historic centre with 19 games to try, from 4:30 PM to 7:00 PM. At 5:00 PM the [Cave Chestnut Festival](/en/eventi/sagra-castagna-cave-2026) opens, a quarter of an hour from San Vito: food stands and wine cellars open at 7:00 PM and the bands start playing in the squares at 9:00 PM. If you prefer an indoor concert, the Blue Mood Sound play ["From Jazz to Pop"](/en/eventi/dal-jazz-al-pop-blue-mood-sound-colleferro-2026) at the Auditorium Fabbrica della Musica in Colleferro, at 6:00 PM with free admission. Further away, in the Lepini Mountains, the fraschette taverns of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) open from Friday.
 
 ## Saturday: Sanvitese at home and an afternoon in the villages
 
@@ -20,9 +20,13 @@ For lunch, twenty minutes from home, Gerano opens the [Zazzicchie and Verole Fes
 
 For dinner you are spoilt for choice. Ten minutes from San Vito, the [Corn Pizzocchio Festival](/en/eventi/sagra-pizzocchio-granturco-pisoniano-2026) in Pisoniano opens at 7:30 PM with corn flatbread, sausage and broccoli rabe, followed by music and folk songs until late. In Sambuci, from 7:00 PM in Piazza di Corte, the [Polenta Festival](/en/eventi/sagra-polenta-sambuci-2026) serves polenta with pork ribs or with Roman broccoli, with the flag-wavers of Ciciliano.
 
-If you feel like heading to the mountains, you can choose the [Woods in Motion](/en/eventi/boschi-in-movimento-campaegli-2026) loop, a walk with yoga between Campaegli and Camposecco, or the afternoon [Nordic Walking of the Bridges](/en/eventi/nordic-walking-dei-ponti-subiaco-2026) in Subiaco, in support of Komen Italia (booking by Friday).
+There are two more festivals in the Aniene Valley. In Affile the [Fallone Festival](/en/eventi/sagra-fallone-affile-2026) starts at 4:00 PM with the historical parade and the flag-wavers; from 6:00 PM falloni, the town's stuffed focaccia, are on sale, and at 9:00 PM the Brigallè play. In Agosta the [Autumn Festival](/en/eventi/festa-autunno-agosta-2026) opens at 5:00 PM with roasted chestnuts, new wine and gnocchi with mutton sauce, with covered seating. Agosta is not yet officially confirmed, so check the Pro Loco's channels.
 
-Late in the afternoon there is a book and some music: at 5:00 PM the presentation of ["Mare Nero"](/en/eventi/mare-nero-ansaldo-castel-san-pietro-romano-2026) by Marco Ansaldo at the MuDi in Castel San Pietro Romano, and at 6:00 PM a jazz version of Carmina Burana in Piazza Conti in Poli, during the [Culture Days](/en/eventi/giornate-della-cultura-poli-2026). In the evening, head back to Cave to hear Alla Riversa and Malagrazia.
+If you feel like heading to the mountains, you can choose the [Woods in Motion](/en/eventi/boschi-in-movimento-campaegli-2026) loop, a walk with yoga between Campaegli and Camposecco, or the afternoon [Nordic Walking of the Bridges](/en/eventi/nordic-walking-dei-ponti-subiaco-2026) in Subiaco, in support of Komen Italia (booking by Friday). In Cervara di Roma, for the opening of the restored Ponte della Valle, the Park offers a [free day](/en/eventi/custodire-raccontare-territorio-cervara-2026) of guided tours, sun observation from the Fortress and tastings (these must be booked).
+
+Late in the afternoon there is a book and some music: at 5:00 PM the presentation of ["Mare Nero"](/en/eventi/mare-nero-ansaldo-castel-san-pietro-romano-2026) by Marco Ansaldo at the MuDi in Castel San Pietro Romano, at 6:00 PM a jazz version of Carmina Burana in Piazza Conti in Poli, during the [Culture Days](/en/eventi/giornate-della-cultura-poli-2026), and also at 6:00 PM three local choirs at [Armonie d'Autunno](/en/eventi/armonie-d-autunno-colleferro-2026), at the Colleferro Auditorium with free admission. Colleferro also hosts the [Chilli Pepper Festival](/en/eventi/festa-peperoncino-colleferro-2026) all weekend, with a food market, a spicy pasta contest and workshops for children.
+
+In the evening, head back to Cave to hear Alla Riversa and Malagrazia. If you prefer theatre, at 9:00 PM there is ["Voices beyond the border"](/en/eventi/voci-oltre-il-confine-colleferro-2026) at the Teatro Comunale in Colleferro, a show of memories and testimonies.
 
 ## Sunday: the Olive Grove Walk in San Vito
 
@@ -39,6 +43,8 @@ The afternoon offers several options:
 - the final day of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) and of the festival in Cave;
 - in Gerano, the second day of the zazzicchie festival, with the parade of vintage cars by the Ferraristi dell'Appia Antica;
 - in Sambuci, lunch at the polenta festival from 12:00 PM and the guided tour of Theodoli Castle led by ladies in period dress;
+- in Affile, the festival lunch with polenta and pork ribs at 1:00 PM and, at 4:00 PM, the Contest of the Contrade that closes the Palio;
+- in Colleferro, the second day of the Chilli Pepper Festival, until 9:00 PM;
 - at 5:30 PM ["Porry Pastorel - Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) at the MuDi in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel and the mayor and the museum director in attendance;
 - to round off the day, Mozart's ["Gran Partita"](/en/eventi/gran-partita-mozart-colleferro-2026) played by 13 clarinets in Colleferro, at 6:00 PM with free admission.
 
