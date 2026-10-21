@@ -46,10 +46,11 @@ const t =
   }
   .meteo3b iframe {
     display: block;
-    max-width: 100%;
+    /* Il contenuto di 3bmeteo si adatta alla larghezza: occupa tutto il riquadro, senza spazio vuoto a destra */
+    width: 100%;
     border: 0;
   }
-  /* Ingrandito del 22% (caratteri e icone compresi) dove c'è spazio; sul telefono resta alla misura originale */
+  /* Ingrandito del 22% (caratteri, icone e altezza) dove c'è spazio; sul telefono resta alla misura originale */
   @media (min-width: 600px) {
     .meteo3b iframe {
       zoom: 1.22;
