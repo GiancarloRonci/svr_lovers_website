@@ -4,12 +4,18 @@ description: Il grandioso santuario a terrazze di Palestrina, oggi Museo Archeol
 comune: Palestrina
 minutiAuto: 30
 immagine: ./santuario-fortuna-primigenia-palestrina/photo1.jpg
+immagineAutore: "Sergio D'Afflitto (Blackcat)"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.840451
   lng: 12.892571
 galleria:
-  - ./santuario-fortuna-primigenia-palestrina/photo2.jpg
-  - ./santuario-fortuna-primigenia-palestrina/photo3.jpg
+  - immagine: ./santuario-fortuna-primigenia-palestrina/photo2.jpg
+    autore: "Camelia.boban"
+    licenza: "CC BY-SA 3.0"
+  - immagine: ./santuario-fortuna-primigenia-palestrina/photo3.jpg
+    autore: "Camelia.boban"
+    licenza: "CC BY-SA 3.0"
 ---
 
 A [Palestrina](/luoghi/palestrina), l'antica Praeneste, non lontano da San Vito Romano, sorge uno dei più grandiosi complessi dell'architettura romana repubblicana: il Santuario della Fortuna Primigenia. Costruito nel II secolo a.C., il santuario si sviluppa su sei enormi terrazze artificiali scavate nel fianco del Monte Ginestro, collegate da rampe e scalinate e sorrette da imponenti sostruzioni in opera poligonale e opera incerta, una vera e propria sfida ingegneristica per l'epoca.

@@ -1,6 +1,12 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+// Autore e licenza di una foto; senza autore vale quello predefinito (src/lib/photoCredit.ts)
+const creditoFoto = {
+  autore: z.string().optional(),
+  licenza: z.string().optional(),
+};
+
 const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
   z.object({
     title: z.string(),
@@ -12,8 +18,10 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     durata: z.string(),
     dislivello: z.string().optional(),
     immagine: image().optional(),
+    immagineAutore: z.string().optional(),
+    immagineLicenza: z.string().optional(),
     galleria: z
-      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),
     gpx: z.string().optional(),
     partenza: z
@@ -26,6 +34,7 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
           lng: z.number(),
           immagine: image(),
           didascalia: z.string().optional(),
+          ...creditoFoto,
         })
       )
       .optional(),
@@ -56,6 +65,7 @@ const mappeFotoSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =
           lat: z.number(),
           lng: z.number(),
           didascalia: z.string().optional(),
+          ...creditoFoto,
         }),
       ])
     ),
@@ -114,8 +124,10 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     comune: z.string(),
     minutiAuto: z.number().int().positive().optional(),
     immagine: image().optional(),
+    immagineAutore: z.string().optional(),
+    immagineLicenza: z.string().optional(),
     galleria: z
-      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),
     coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
   });
@@ -196,7 +208,7 @@ const soggiornoSchema =({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     description: z.string(),
     immagine: image().optional(),
     galleria: z
-      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),
     indirizzo: z.string().optional(),
     telefono: z.string().optional(),
@@ -261,7 +273,7 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     immagineIntera: z.boolean().optional(),
     immagine: image().optional(),
     galleria: z
-      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional() })]))
+      .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),
   });
 

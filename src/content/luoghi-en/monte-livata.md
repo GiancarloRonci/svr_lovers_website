@@ -4,12 +4,18 @@ description: Known as "Rome's mountain", part of the Monti Simbruini and its reg
 comune: Subiaco
 minutiAuto: 50
 immagine: ./monte-livata/photo1.jpg
+immagineAutore: "Agordal"
+immagineLicenza: "public domain"
 coordinate:
   lat: 41.9398
   lng: 13.1466
 galleria:
-  - ./monte-livata/photo2.jpg
-  - ./monte-livata/photo3.jpg
+  - immagine: ./monte-livata/photo2.jpg
+    autore: "Agordal"
+    licenza: "public domain"
+  - immagine: ./monte-livata/photo3.jpg
+    autore: "Paolo Negretti"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Monte Livata is a medium-altitude mountain (1,429 m) in the Monti Simbruini range, within the municipality of Subiaco, about fifteen kilometres from the town centre. Known as "Rome's mountain", at 78 kilometres from the capital it is home to the only ski resort in the Province of Rome. It is about 33 km from San Vito Romano, roughly a 45-minute drive. The area, covering roughly 3,000 hectares, lies entirely within the Monti Simbruini Regional Nature Park and is surrounded by extensive beech forests, with a characteristic karst landscape where buffalo, horses and cattle graze.

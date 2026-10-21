@@ -4,11 +4,15 @@ description: The Benedictine monastery of Subiaco, the oldest in Italy, with its
 comune: Subiaco
 minutiAuto: 35
 immagine: ./monastero-santa-scolastica-subiaco/photo1.jpg
+immagineAutore: "Livioandronico2013"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.9186478
   lng: 13.1102558
 galleria:
-  - ./monastero-santa-scolastica-subiaco/photo2.jpg
+  - immagine: ./monastero-santa-scolastica-subiaco/photo2.jpg
+    autore: "Livioandronico2013"
+    licenza: "CC BY-SA 4.0"
 ---
 
 The Monastery of Santa Scolastica stands a little downstream from the Sacro Speco, along the same gorge of the Aniene above Subiaco, not far from San Vito Romano. Founded in 520 and originally dedicated to San Silvestro, it is the only one of the twelve monasteries built by Saint Benedict in this valley to have survived earthquakes and Saracen invasions, and is considered the oldest Benedictine monastery in Italy. Between the 11th and 12th centuries it experienced its peak, becoming one of the most powerful in the Papal States thanks to donations from kings and prelates.

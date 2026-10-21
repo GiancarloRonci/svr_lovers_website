@@ -4,6 +4,8 @@ description: Il convento francescano immerso nel bosco sopra Bellegra, fondato n
 comune: Bellegra
 minutiAuto: 15
 immagine: ./convento-san-francesco-bellegra/photo1.jpg
+immagineAutore: "Claudius Ziehr"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.899098
   lng: 13.0145621

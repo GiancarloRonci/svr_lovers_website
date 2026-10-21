@@ -4,16 +4,24 @@ description: L'antica Praeneste, adagiata a terrazze sul Monte Ginestro, con la 
 comune: Palestrina
 minutiAuto: 30
 immagine: ./palestrina/photo1.jpg
+immagineAutore: "rgiannotti1"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.839047
   lng: 12.892078
 galleria:
   - immagine: ./palestrina/photo2.jpg
     didascalia: "Piazza Regina Margherita con il monumento a Giovanni Pierluigi da Palestrina; sulla facciata alle sue spalle affiorano le semicolonne di un edificio dell'antica Praeneste."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./palestrina/photo3.jpg
     didascalia: "La facciata della Cattedrale di Sant'Agapito, con il campanile romanico e il portale marmoreo."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./palestrina/photo4.jpg
     didascalia: "La scalinata di via Orazio Marucchi, una delle salite a gradoni del centro storico."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Palestrina si distende a terrazze sul fianco del Monte Ginestro, a circa 450 metri di quota e a una mezz'ora di auto da San Vito Romano. È l'antica *Praeneste*, la città che ha dato il nome alla via Prenestina: le case del centro storico sono cresciute, secolo dopo secolo, sopra le terrazze del [Santuario della Fortuna Primigenia](/luoghi/santuario-fortuna-primigenia-palestrina), che dall'alto domina ancora l'abitato con il Palazzo Colonna Barberini. Al santuario e al Museo Archeologico Prenestino è dedicata una scheda nella sezione Luoghi.

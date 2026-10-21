@@ -4,18 +4,28 @@ description: "The town stretched along a tuff spur a few kilometres from San Vit
 comune: Genazzano
 minutiAuto: 10
 immagine: ./genazzano/photo1.jpg
+immagineAutore: "Frederick Sporchia"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8350193
   lng: 12.9740901
 galleria:
   - immagine: ./genazzano/photo2.jpg
     didascalia: "The entrance to Colonna Castle, with the access bridge and the arcaded loggia on the façade."
+    autore: "Gigi er Gigliola"
+    licenza: "CC0"
   - immagine: ./genazzano/photo3.jpg
     didascalia: "Via dei Colonna, among the tuff houses of the old town, with the green of the valley in the background."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./genazzano/photo4.jpg
     didascalia: "A carpet of petals along a street of the town during the Infiorata, in July 2012."
+    autore: "Lince16"
+    licenza: "CC BY 3.0"
   - immagine: ./genazzano/photo5.jpg
     didascalia: "The houses of the town overlooking the valley, seen from Vicolo Vite in autumn."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Genazzano is one of the towns closest to San Vito Romano, just a few kilometres away by road: a long, narrow town built at 375 metres above sea level on a spur of volcanic tuff, with its houses lined up along a single ridge that climbs to the castle. For centuries it was one of the most important fiefs of the Colonna, who from here controlled the route between Rome and Naples.

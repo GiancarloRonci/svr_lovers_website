@@ -3,13 +3,14 @@ import { getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import type { ImageMetadata } from 'astro';
 import { withBase } from './url';
+import { formatCredit } from './photoCredit';
 
 type Lang = 'it' | 'en';
 
 /** Voce dell'elenco `foto` di una Mappa Con Foto: foto di un percorso oppure foto propria. */
 export type MappaFotoVoce =
   | { percorso: string; immagine: string }
-  | { immagine: ImageMetadata; lat: number; lng: number; didascalia?: string };
+  | { immagine: ImageMetadata; lat: number; lng: number; didascalia?: string; autore?: string; licenza?: string };
 
 export interface MappaFotoPunto {
   lat: number;
@@ -17,6 +18,7 @@ export interface MappaFotoPunto {
   src: string;
   full: string;
   didascalia?: string;
+  credit: string;
   name: string;
   link?: string;
   linkLabel?: string;
@@ -56,6 +58,7 @@ export async function resolveMappaFoto(foto: MappaFotoVoce[], lang: Lang, titolo
           src: (await getImage({ src: voce.immagine, width: 300 })).src,
           full: (await getImage({ src: voce.immagine, width: 1400 })).src,
           didascalia: voce.didascalia,
+          credit: formatCredit(voce.autore, voce.licenza),
           name: `${titoloMappa} · ${fotoLabel} ${proprie}`,
           immagine: voce.immagine,
         };
@@ -73,6 +76,7 @@ export async function resolveMappaFoto(foto: MappaFotoVoce[], lang: Lang, titolo
         src: (await getImage({ src: f.immagine, width: 300 })).src,
         full: (await getImage({ src: f.immagine, width: 1400 })).src,
         didascalia: f.didascalia,
+        credit: formatCredit(f.autore, f.licenza),
         name: `${entry.data.title} · ${fotoLabel} ${index + 1}`,
         link: withBase(`${prefix}percorsi/${percorso}/`),
         linkLabel: lang === 'en' ? 'Go to the trail' : 'Vai al percorso',

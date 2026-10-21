@@ -4,18 +4,28 @@ description: The tiny village on top of Monte Ginestro, on the ancient acropolis
 comune: Castel San Pietro Romano
 minutiAuto: 40
 immagine: ./castel-san-pietro-romano/photo1.jpg
+immagineAutore: "Museo diffuso Castel San Pietro Romano"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8458
   lng: 12.895
 galleria:
   - immagine: ./castel-san-pietro-romano/photo2.jpg
     didascalia: "The cobbled climb towards the Rocca dei Colonna, with the walls of the fortress rising above the houses of the village."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo3.jpg
     didascalia: "The church of San Pietro Apostolo, with its portico and brick bell tower."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo4.jpg
     didascalia: "A stretch of the polygonal walls of the ancient acropolis, looking out over the plain towards Rome."
+    autore: "Museo diffuso Castel San Pietro Romano"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo5.jpg
     didascalia: "The bell tower of San Pietro Apostolo peeping out between the alleys of the village."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Castel San Pietro Romano is a village of a few hundred inhabitants on top of Monte Ginestro, at 763 metres above sea level, right above [Palestrina](/en/luoghi/palestrina) and about forty minutes' drive from San Vito Romano. It stands on the ancient acropolis of Praeneste: its polygonal walls, made of large limestone blocks, ran down the mountain as far as the [Sanctuary of Fortuna Primigenia](/en/luoghi/santuario-fortuna-primigenia-palestrina). According to tradition, the apostle Peter preached on these heights, and the village takes its name from him. Since 2017 it has been one of the Most Beautiful Villages in Italy.

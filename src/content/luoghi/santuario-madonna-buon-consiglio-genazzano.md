@@ -4,11 +4,15 @@ description: Uno dei santuari mariani più venerati del Lazio, a Genazzano, cust
 comune: Genazzano
 minutiAuto: 10
 immagine: ./santuario-madonna-buon-consiglio-genazzano/photo1.jpg
+immagineAutore: "Cruz.croce"
+immagineLicenza: "CC0"
 coordinate:
   lat: 41.8334857
   lng: 12.9731594
 galleria:
-  - ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+  - immagine: ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+    autore: "Cruz.croce"
+    licenza: "CC0"
 ---
 
 Il Santuario della Madonna del Buon Consiglio sorge nel cuore di [Genazzano](/luoghi/genazzano), non lontano da San Vito Romano, ed è uno dei luoghi di culto mariano più venerati del Lazio. La sua storia comincia nel 1467, quando la terziaria agostiniana Petruccia di Ienco, dopo aver speso ogni suo avere per restaurare un'antica chiesa trecentesca ormai in rovina, si vide beffeggiata dai compaesani per non essere riuscita a completare i lavori: rispose che sarebbero stati la Vergine e Sant'Agostino a terminare l'opera prima della sua morte.

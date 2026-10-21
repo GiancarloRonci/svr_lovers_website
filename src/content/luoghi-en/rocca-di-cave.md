@@ -4,11 +4,15 @@ description: A small panoramic village with a ruined castle, one of the finest v
 comune: Rocca di Cave
 minutiAuto: 20
 immagine: ./rocca-di-cave/photo1.jpg
+immagineAutore: "Siluc"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.84642
   lng: 12.94549
 galleria:
-  - ./rocca-di-cave/photo2.jpg
+  - immagine: ./rocca-di-cave/photo2.jpg
+    autore: "Jean-Baptiste Camille Corot"
+    licenza: "public domain"
 ---
 
 Rocca di Cave is the smallest and one of the most striking villages of the Prenestini Mountains, not far from San Vito Romano. Its origins go back to around 850 AD, when Benedictine monks from Subiaco founded a first fortified settlement here, called "Castello dei Santi Tre" ("Castle of the Three Saints"), to defend against Saracen raids. The name Rocca di Cave first appears in a document from 1125; conquered in 1101 by Pietro Colonna, the village remained under the control of the powerful Roman family until the late 19th century.

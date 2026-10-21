@@ -4,12 +4,18 @@ description: Il monastero-santuario incastonato nella roccia di Subiaco, costrui
 comune: Subiaco
 minutiAuto: 35
 immagine: ./monastero-san-benedetto-subiaco/photo1.jpg
+immagineAutore: "High Contrast"
+immagineLicenza: "CC BY 3.0"
 coordinate:
   lat: 41.9170248
   lng: 13.117677
 galleria:
-  - ./monastero-san-benedetto-subiaco/photo2.jpg
-  - ./monastero-san-benedetto-subiaco/photo3.jpg
+  - immagine: ./monastero-san-benedetto-subiaco/photo2.jpg
+    autore: "Livioandronico2013"
+    licenza: "CC BY-SA 4.0"
+  - immagine: ./monastero-san-benedetto-subiaco/photo3.jpg
+    autore: "pietro scerrato"
+    licenza: "CC BY 3.0"
   - immagine: ./monastero-san-benedetto-subiaco/photo4.jpg
     didascalia: Il viale lastricato che porta al monastero, tra lecci e roccia
   - immagine: ./monastero-san-benedetto-subiaco/photo5.jpg

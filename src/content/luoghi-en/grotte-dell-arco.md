@@ -4,6 +4,8 @@ description: The only karst cave in the province of Rome, near Bellegra, with ne
 comune: Bellegra
 minutiAuto: 25
 immagine: ./grotte-dell-arco/photo1.jpg
+immagineAutore: "Giovanni Mecchia, Marco Mecchia, Maria Piro, Maurizio Barbati"
+immagineLicenza: "CC BY 4.0"
 coordinate:
   lat: 41.8892
   lng: 13.0492

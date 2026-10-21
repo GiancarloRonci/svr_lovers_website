@@ -4,11 +4,15 @@ description: The medieval hilltop village on the Prenestini mountains, listed am
 comune: Capranica Prenestina
 minutiAuto: 15
 immagine: ./capranica-prenestina/photo1.jpg
+immagineAutore: "Umbowiki"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8620926
   lng: 12.9521369
 galleria:
-  - ./capranica-prenestina/photo2.jpg
+  - immagine: ./capranica-prenestina/photo2.jpg
+    autore: "Umbowiki"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Capranica Prenestina is a small medieval village perched at over 900 metres on the Prenestini mountains, not far from San Vito Romano. Its history is tied to two noble families, the Capranica and the Colonna, who over the centuries shaped both its architecture and its fate. In 2024 the village joined the prestigious club of Italy's Most Beautiful Villages.

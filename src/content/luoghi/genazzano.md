@@ -4,18 +4,28 @@ description: "Il borgo allungato su uno sperone di tufo a pochi chilometri da Sa
 comune: Genazzano
 minutiAuto: 10
 immagine: ./genazzano/photo1.jpg
+immagineAutore: "Frederick Sporchia"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8350193
   lng: 12.9740901
 galleria:
   - immagine: ./genazzano/photo2.jpg
     didascalia: "L'ingresso del Castello Colonna, con il ponte d'accesso e il loggiato ad archi sulla facciata."
+    autore: "Gigi er Gigliola"
+    licenza: "CC0"
   - immagine: ./genazzano/photo3.jpg
     didascalia: "Via dei Colonna, tra le case in tufo del centro storico, con il verde della valle sullo sfondo."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./genazzano/photo4.jpg
     didascalia: "Un tappeto di petali lungo una via del borgo durante l'Infiorata, nel luglio 2012."
+    autore: "Lince16"
+    licenza: "CC BY 3.0"
   - immagine: ./genazzano/photo5.jpg
     didascalia: "Le case del borgo affacciate sulla valle, viste da Vicolo Vite in autunno."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Genazzano è uno dei paesi più vicini a San Vito Romano, a pochi chilometri di strada: un borgo lungo e stretto, costruito a 375 metri di quota su uno sperone di tufo vulcanico, con le case allineate lungo un'unica dorsale che sale fino al castello. Per secoli è stato uno dei feudi più importanti dei Colonna, che da qui controllavano il passaggio tra Roma e Napoli.

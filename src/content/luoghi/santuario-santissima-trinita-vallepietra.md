@@ -4,14 +4,20 @@ description: Il piccolo santuario ai piedi della grande parete rocciosa del Mont
 comune: Vallepietra
 minutiAuto: 75
 immagine: ./santuario-santissima-trinita-vallepietra/photo1.jpg
+immagineAutore: "pietro scerrato"
+immagineLicenza: "CC BY 3.0"
 coordinate:
   lat: 41.95641
   lng: 13.23105
 galleria:
   - immagine: ./santuario-santissima-trinita-vallepietra/photo2.jpg
     didascalia: "La facciata del santuario, addossata alla roccia, con la scalinata e il piazzale."
+    autore: "Anghellos"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./santuario-santissima-trinita-vallepietra/photo3.jpg
     didascalia: "La cappella con l'affresco delle Tre Persone della Trinità, dietro la cancellata."
+    autore: "Marica Massaro"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Il Santuario della Santissima Trinità sorge a circa 1.337 metri di quota nel territorio di Vallepietra, quasi al confine tra Lazio e Abruzzo. La piccola chiesa è addossata alla base di un'enorme rupe a strapiombo del Monte Autore, nei Monti Simbruini, affacciata sulla valle del Simbrivio: un colpo d'occhio che da solo vale il viaggio.

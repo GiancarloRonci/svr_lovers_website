@@ -4,12 +4,18 @@ description: Il borgo storico con il castello Colonna-Barberini e il bosco della
 comune: Olevano Romano
 minutiAuto: 25
 immagine: ./olevano-romano/photo1.jpg
+immagineAutore: "Pietro Scerrato"
+immagineLicenza: "CC BY 3.0"
 coordinate:
   lat: 41.860325
   lng: 13.030878
 galleria:
-  - ./olevano-romano/photo2.jpg
-  - ./olevano-romano/photo3.jpg
+  - immagine: ./olevano-romano/photo2.jpg
+    autore: "Paul Weber"
+    licenza: "pubblico dominio"
+  - immagine: ./olevano-romano/photo3.jpg
+    autore: "Kaethe17"
+    licenza: "CC BY 4.0"
 ---
 
 Olevano Romano, borgo arroccato su uno sperone roccioso non lontano da San Vito Romano, ha origini che risalgono almeno all'epoca romana, testimoniate da tratti delle mura in opera poligonale ancora visibili. Divenuto castrum nel Medioevo, nel 1232 il paese compare in un atto tra Oddone Colonna e papa Gregorio IX: da questa famiglia prende il nome il Castello Colonna-Barberini, edificato a difesa dell'abitato e passato nei secoli tra Colonna, Comune di Roma, Orsini e infine Borghese, fino all'ultimo signore Camillo Borghese, marito di Paolina Bonaparte.

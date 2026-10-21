@@ -4,12 +4,18 @@ description: The historic village with the Colonna-Barberini castle and the Serp
 comune: Olevano Romano
 minutiAuto: 25
 immagine: ./olevano-romano/photo1.jpg
+immagineAutore: "Pietro Scerrato"
+immagineLicenza: "CC BY 3.0"
 coordinate:
   lat: 41.860325
   lng: 13.030878
 galleria:
-  - ./olevano-romano/photo2.jpg
-  - ./olevano-romano/photo3.jpg
+  - immagine: ./olevano-romano/photo2.jpg
+    autore: "Paul Weber"
+    licenza: "public domain"
+  - immagine: ./olevano-romano/photo3.jpg
+    autore: "Kaethe17"
+    licenza: "CC BY 4.0"
 ---
 
 Olevano Romano, a village perched on a rocky spur not far from San Vito Romano, has origins going back at least to Roman times, attested by stretches of polygonal-masonry walls still visible today. Having become a castrum in the Middle Ages, the village appears in 1232 in a deed between Oddone Colonna and Pope Gregory IX: it is from this family that the Colonna-Barberini Castle takes its name, built to defend the settlement and passed down over the centuries through the Colonna, the Comune of Rome, the Orsini and finally the Borghese family, down to its last lord, Camillo Borghese, husband of Pauline Bonaparte.

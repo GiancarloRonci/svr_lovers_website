@@ -4,12 +4,16 @@ description: The town in the upper Aniene Valley dominated by the Rocca Abbazial
 comune: Subiaco
 minutiAuto: 35
 immagine: ./subiaco/photo1.jpg
+immagineAutore: "Mattis"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.9260904
   lng: 13.0948486
 galleria:
   - immagine: ./subiaco/photo2.jpg
     didascalia: "The Rocca Abbaziale with its clock tower, on top of the rocky spur that rises above the houses of the town."
+    autore: "Livioandronico2013"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Subiaco climbs a hill in the upper Aniene Valley, at about 400 metres above sea level, not far from San Vito Romano. Its name already tells its story: it comes from the Latin *Sublaqueum*, "below the lakes", because the town grew up downstream of the artificial basins that Emperor Nero had created by damming the river, in the gorge where his villa stood.

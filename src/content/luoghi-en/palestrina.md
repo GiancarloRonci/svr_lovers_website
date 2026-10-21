@@ -4,16 +4,24 @@ description: Ancient Praeneste, terraced on the slopes of Monte Ginestro, with t
 comune: Palestrina
 minutiAuto: 30
 immagine: ./palestrina/photo1.jpg
+immagineAutore: "rgiannotti1"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.839047
   lng: 12.892078
 galleria:
   - immagine: ./palestrina/photo2.jpg
     didascalia: "Piazza Regina Margherita with the monument to Giovanni Pierluigi da Palestrina; on the façade behind it, the half-columns of a building of ancient Praeneste show through."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./palestrina/photo3.jpg
     didascalia: "The façade of the Cathedral of Sant'Agapito, with its Romanesque bell tower and marble portal."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./palestrina/photo4.jpg
     didascalia: "The stairway of Via Orazio Marucchi, one of the stepped climbs of the old town."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Palestrina spreads in terraces across the side of Monte Ginestro, at about 450 metres above sea level and half an hour's drive from San Vito Romano. It is ancient *Praeneste*, the city that gave its name to the Via Prenestina: century after century, the houses of the old town grew up over the terraces of the [Sanctuary of Fortuna Primigenia](/en/luoghi/santuario-fortuna-primigenia-palestrina), which still dominates the town from above with the Palazzo Colonna Barberini. The sanctuary and the Prenestine Archaeological Museum have their own page in the Places section.

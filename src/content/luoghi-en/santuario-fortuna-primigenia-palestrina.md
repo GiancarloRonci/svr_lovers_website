@@ -4,12 +4,18 @@ description: The grand terraced sanctuary of Palestrina, today the Prenestine Ar
 comune: Palestrina
 minutiAuto: 30
 immagine: ./santuario-fortuna-primigenia-palestrina/photo1.jpg
+immagineAutore: "Sergio D'Afflitto (Blackcat)"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.840451
   lng: 12.892571
 galleria:
-  - ./santuario-fortuna-primigenia-palestrina/photo2.jpg
-  - ./santuario-fortuna-primigenia-palestrina/photo3.jpg
+  - immagine: ./santuario-fortuna-primigenia-palestrina/photo2.jpg
+    autore: "Camelia.boban"
+    licenza: "CC BY-SA 3.0"
+  - immagine: ./santuario-fortuna-primigenia-palestrina/photo3.jpg
+    autore: "Camelia.boban"
+    licenza: "CC BY-SA 3.0"
 ---
 
 In [Palestrina](/en/luoghi/palestrina), the ancient Praeneste, not far from San Vito Romano, stands one of the grandest complexes of Roman republican architecture: the Sanctuary of Fortuna Primigenia. Built in the 2nd century BC, the sanctuary unfolds across six enormous artificial terraces carved into the slope of Monte Ginestro, connected by ramps and staircases and supported by imposing substructures in polygonal masonry and opus incertum - a genuine engineering feat for its time.

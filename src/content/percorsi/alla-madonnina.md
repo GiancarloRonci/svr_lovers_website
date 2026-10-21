@@ -8,6 +8,8 @@ lunghezzaKm: 1.1
 durata: "15min"
 dislivello: "30 m"
 immagine: ./alla-madonnina/foto1.jpg
+immagineAutore: "Nicolò Fiorenza"
+immagineLicenza: "pubblico dominio"
 gpx: /gpx/alla-madonnina.gpx
 partenza:
   lat: 41.882656

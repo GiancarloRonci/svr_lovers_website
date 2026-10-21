@@ -4,12 +4,18 @@ description: La montagna di Roma, tra Monti Simbruini e Parco Naturale Regionale
 comune: Subiaco
 minutiAuto: 50
 immagine: ./monte-livata/photo1.jpg
+immagineAutore: "Agordal"
+immagineLicenza: "pubblico dominio"
 coordinate:
   lat: 41.9398
   lng: 13.1466
 galleria:
-  - ./monte-livata/photo2.jpg
-  - ./monte-livata/photo3.jpg
+  - immagine: ./monte-livata/photo2.jpg
+    autore: "Agordal"
+    licenza: "pubblico dominio"
+  - immagine: ./monte-livata/photo3.jpg
+    autore: "Paolo Negretti"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Monte Livata è una montagna di media altitudine (1429 m) dei Monti Simbruini, nel territorio del comune di Subiaco, a una quindicina di chilometri dal centro cittadino. È conosciuta come "la montagna di Roma": con i suoi 78 chilometri dalla capitale, ospita infatti l'unica stazione sciistica della provincia. Da San Vito Romano dista circa 33 km, percorribili in auto in poco meno di un'ora. L'area, di circa 3000 ettari, ricade interamente nel Parco Naturale Regionale dei Monti Simbruini ed è circondata da estese faggete, con un territorio dal caratteristico paesaggio carsico dove pascolano bufali, cavalli e bovini.

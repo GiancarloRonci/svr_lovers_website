@@ -4,14 +4,20 @@ description: The "city of the popes", with its Romanesque cathedral, the frescoe
 comune: Anagni
 minutiAuto: 45
 immagine: ./anagni/photo1.jpg
+immagineAutore: "Diego Baglieri"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.742883
   lng: 13.16223
 galleria:
   - immagine: ./anagni/photo2.jpg
     didascalia: The apses and side of the Cathedral of Santa Maria
+    autore: "Settembre2014"
+    licenza: "CC BY-SA 3.0"
   - immagine: ./anagni/photo3.jpg
     didascalia: The Palace of Boniface VIII
+    autore: "Diego Baglieri"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Anagni stands on a hill overlooking the Sacco valley, about 45 minutes by car from San Vito Romano. Once a centre of the ancient Hernici people, in the Middle Ages it became one of the most important towns of the Papal States: several popes were born or lived here for long periods, including Innocent III, Gregory IX, Alexander IV and Boniface VIII, which is why it is still known today as the "city of the popes".

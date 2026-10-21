@@ -6,6 +6,7 @@ import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
 import { formatDriveTime } from '../../../lib/driveTime';
 import { resolveGalleria } from '../../../lib/gallery';
+import { formatCredit } from '../../../lib/photoCredit';
 import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 
 export async function getStaticPaths() {
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, comune, minutiAuto, immagine, galleria, coordinate } = entry.data;
+const { title, description, comune, minutiAuto, immagine, immagineAutore, immagineLicenza, galleria, coordinate } = entry.data;
 const distanza = formatDriveTime(minutiAuto, 'en');
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
@@ -30,7 +31,14 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   <h1>{title}</h1>
   <p class="comune">📍 {comune}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
-  {immagine && <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />}
+  {
+    immagine && (
+      <div class="cover">
+        <Image class:list={['luogo-image', entry.id]} src={immagine} alt={title} width={900} height={500} />
+        <span class="cover-credit">{formatCredit(immagineAutore, immagineLicenza)}</span>
+      </div>
+    )
+  }
   {
     coordinate && (
       <>
@@ -52,7 +60,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
     galleryItems.length > 0 && (
       <section class="gallery">
         {galleryItems.map((item) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name}>
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
           </button>
         ))}
@@ -65,7 +73,10 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
     <button type="button" class="lightbox-prev" aria-label="Previous photo">&larr;</button>
     <figure class="lightbox-figure">
       <img class="lightbox-img" alt="" />
-      <figcaption class="lightbox-caption"></figcaption>
+      <figcaption class="lightbox-caption">
+          <span class="lightbox-text"></span>
+          <span class="lightbox-credit"></span>
+        </figcaption>
     </figure>
     <button type="button" class="lightbox-next" aria-label="Next photo">&rarr;</button>
   </div>
@@ -94,7 +105,22 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
     font-style: italic;
   }
 
+  .cover {
+    position: relative;
+  }
+  .cover-credit {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 0.75rem;
+  }
+
   .luogo-image {
+    display: block;
     width: 100%;
     height: auto;
     aspect-ratio: 900 / 500;
@@ -154,6 +180,15 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
     font-size: 0.9rem;
     text-align: center;
   }
+  .lightbox-text,
+  .lightbox-credit {
+    display: block;
+  }
+  .lightbox-credit {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #bbb;
+  }
   .lightbox-close,
   .lightbox-prev,
   .lightbox-next {
@@ -199,7 +234,8 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   if (gallery && lightbox) {
     const items = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.gallery-item'));
     const img = lightbox.querySelector('.lightbox-img') as HTMLImageElement;
-    const caption = lightbox.querySelector('.lightbox-caption') as HTMLElement;
+    const caption = lightbox.querySelector('.lightbox-text') as HTMLElement;
+    const credit = lightbox.querySelector('.lightbox-credit') as HTMLElement;
     let current = 0;
 
     const render = () => {
@@ -207,6 +243,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
       const name = items[current].dataset.name ?? '';
       const desc = items[current].dataset.caption ?? '';
       caption.textContent = desc ? `${name}: ${desc}` : name;
+      credit.textContent = items[current].dataset.credit ?? '';
     };
     const open = (i: number) => {
       current = i;

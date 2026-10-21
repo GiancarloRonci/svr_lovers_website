@@ -4,11 +4,15 @@ description: One of the most venerated Marian sanctuaries in Lazio, in Genazzano
 comune: Genazzano
 minutiAuto: 10
 immagine: ./santuario-madonna-buon-consiglio-genazzano/photo1.jpg
+immagineAutore: "Cruz.croce"
+immagineLicenza: "CC0"
 coordinate:
   lat: 41.8334857
   lng: 12.9731594
 galleria:
-  - ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+  - immagine: ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+    autore: "Cruz.croce"
+    licenza: "CC0"
 ---
 
 The Sanctuary of Our Lady of Good Counsel stands in the heart of [Genazzano](/en/luoghi/genazzano), not far from San Vito Romano, and is one of the most venerated Marian shrines in Lazio. Its story begins in 1467, when the Augustinian tertiary Petruccia di Ienco, having spent everything she owned to restore an ancient 14th-century church that lay in ruins, was mocked by fellow townspeople for failing to complete the work: she replied that the Virgin and Saint Augustine would finish the building before her death.

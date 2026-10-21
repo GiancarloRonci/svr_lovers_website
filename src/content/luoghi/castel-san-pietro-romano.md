@@ -4,18 +4,28 @@ description: Il piccolo borgo in cima al Monte Ginestro, sull'antica acropoli di
 comune: Castel San Pietro Romano
 minutiAuto: 40
 immagine: ./castel-san-pietro-romano/photo1.jpg
+immagineAutore: "Museo diffuso Castel San Pietro Romano"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8458
   lng: 12.895
 galleria:
   - immagine: ./castel-san-pietro-romano/photo2.jpg
     didascalia: "La salita acciottolata verso la Rocca dei Colonna, con le mura della fortezza che sovrastano le case del borgo."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo3.jpg
     didascalia: "La chiesa di San Pietro Apostolo, con il portico e il campanile in mattoni."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo4.jpg
     didascalia: "Un tratto delle mura poligonali dell'antica acropoli, affacciato sulla pianura verso Roma."
+    autore: "Museo diffuso Castel San Pietro Romano"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./castel-san-pietro-romano/photo5.jpg
     didascalia: "Il campanile di San Pietro Apostolo che spunta tra i vicoli del borgo."
+    autore: "Frederick Sporchia"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Castel San Pietro Romano è un borgo di poche centinaia di abitanti in cima al Monte Ginestro, a 763 metri di quota, proprio sopra [Palestrina](/luoghi/palestrina) e a una quarantina di minuti di auto da San Vito Romano. Sorge sull'antica acropoli di Praeneste: le sue mura poligonali, fatte di grandi blocchi di calcare, scendevano lungo il monte fino al [Santuario della Fortuna Primigenia](/luoghi/santuario-fortuna-primigenia-palestrina). Secondo la tradizione, su queste alture predicò l'apostolo Pietro, da cui il paese prende il nome. Dal 2017 fa parte dei Borghi più belli d'Italia.

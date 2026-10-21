@@ -4,11 +4,15 @@ description: Il monastero benedettino di Subiaco, il più antico d'Italia, con i
 comune: Subiaco
 minutiAuto: 35
 immagine: ./monastero-santa-scolastica-subiaco/photo1.jpg
+immagineAutore: "Livioandronico2013"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.9186478
   lng: 13.1102558
 galleria:
-  - ./monastero-santa-scolastica-subiaco/photo2.jpg
+  - immagine: ./monastero-santa-scolastica-subiaco/photo2.jpg
+    autore: "Livioandronico2013"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Il Monastero di Santa Scolastica sorge poco a valle del Sacro Speco, lungo la stessa gola dell'Aniene sopra Subiaco, non lontano da San Vito Romano. Fondato nel 520 e inizialmente dedicato a San Silvestro, è l'unico dei dodici monasteri fatti costruire da San Benedetto in questa valle ad essere sopravvissuto ai terremoti e alle invasioni saracene, ed è considerato il monastero benedettino più antico d'Italia. Tra l'XI e il XII secolo visse il suo massimo splendore, diventando uno dei più potenti dello Stato Pontificio grazie alle donazioni di re e prelati.

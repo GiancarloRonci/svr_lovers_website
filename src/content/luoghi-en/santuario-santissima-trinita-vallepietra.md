@@ -4,14 +4,20 @@ description: The small sanctuary at the foot of the great rock face of Monte Aut
 comune: Vallepietra
 minutiAuto: 75
 immagine: ./santuario-santissima-trinita-vallepietra/photo1.jpg
+immagineAutore: "pietro scerrato"
+immagineLicenza: "CC BY 3.0"
 coordinate:
   lat: 41.95641
   lng: 13.23105
 galleria:
   - immagine: ./santuario-santissima-trinita-vallepietra/photo2.jpg
     didascalia: "The façade of the sanctuary, built against the rock, with its stairway and forecourt."
+    autore: "Anghellos"
+    licenza: "CC BY-SA 4.0"
   - immagine: ./santuario-santissima-trinita-vallepietra/photo3.jpg
     didascalia: "The chapel with the fresco of the Three Persons of the Trinity, behind the iron grille."
+    autore: "Marica Massaro"
+    licenza: "CC BY-SA 4.0"
 ---
 
 The Sanctuary of the Santissima Trinità (Most Holy Trinity) stands at about 1,337 metres above sea level in the territory of Vallepietra, almost on the border between Lazio and Abruzzo. The small church is built against the base of a huge sheer cliff of Monte Autore, in the Simbruini mountains, overlooking the Simbrivio valley: a sight that is worth the trip on its own.

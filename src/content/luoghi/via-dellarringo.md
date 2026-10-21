@@ -3,6 +3,7 @@ title: Via dell'Arringo
 description: Una ripida stradina lastricata del centro storico di San Vito Romano, tra case in pietra, ringhiere di ferro e scorci sulla vallata.
 comune: San Vito Romano
 immagine: ./via-dellarringo/photo1.jpg
+immagineAutore: "Giancarlo Ronci"
 coordinate:
   lat: 41.884251
   lng: 12.98336

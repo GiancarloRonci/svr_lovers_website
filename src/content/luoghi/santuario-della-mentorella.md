@@ -4,12 +4,18 @@ description: Il più antico santuario mariano d'Italia, arroccato su uno sperone
 comune: Capranica Prenestina
 minutiAuto: 30
 immagine: ./santuario-della-mentorella/photo1.jpg
+immagineAutore: "Laky 1970"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.9212919
   lng: 12.9364636
 galleria:
-  - ./santuario-della-mentorella/photo2.jpg
-  - ./santuario-della-mentorella/photo3.jpg
+  - immagine: ./santuario-della-mentorella/photo2.jpg
+    autore: "Laky 1970"
+    licenza: "CC BY-SA 4.0"
+  - immagine: ./santuario-della-mentorella/photo3.jpg
+    autore: "Laky 1970"
+    licenza: "CC BY-SA 4.0"
   - ./santuario-della-mentorella/photo4.jpg
   - ./santuario-della-mentorella/photo5.jpg
   - ./santuario-della-mentorella/photo6.jpg

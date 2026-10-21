@@ -4,14 +4,20 @@ description: La "città dei papi", con la cattedrale romanica, la cripta affresc
 comune: Anagni
 minutiAuto: 45
 immagine: ./anagni/photo1.jpg
+immagineAutore: "Diego Baglieri"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.742883
   lng: 13.16223
 galleria:
   - immagine: ./anagni/photo2.jpg
     didascalia: Le absidi e il fianco della Cattedrale di Santa Maria
+    autore: "Settembre2014"
+    licenza: "CC BY-SA 3.0"
   - immagine: ./anagni/photo3.jpg
     didascalia: Il Palazzo di Bonifacio VIII
+    autore: "Diego Baglieri"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Anagni sorge su un colle che domina la valle del Sacco, a circa 45 minuti di auto da San Vito Romano. Antico centro del popolo degli Ernici, nel Medioevo divenne una delle città più importanti dello Stato della Chiesa: qui nacquero o vissero a lungo diversi papi, tra cui Innocenzo III, Gregorio IX, Alessandro IV e Bonifacio VIII, tanto che ancora oggi è conosciuta come la "città dei papi".

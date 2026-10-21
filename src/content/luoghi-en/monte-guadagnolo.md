@@ -4,12 +4,18 @@ description: The highest inhabited place in Lazio (1218 m), with some of the mos
 comune: Capranica Prenestina
 minutiAuto: 30
 immagine: ./monte-guadagnolo/photo1.jpg
+immagineAutore: "LPLT"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.913682
   lng: 12.927746
 galleria:
-  - ./monte-guadagnolo/photo2.jpg
-  - ./monte-guadagnolo/photo3.jpg
+  - immagine: ./monte-guadagnolo/photo2.jpg
+    autore: "Registrato2013"
+    licenza: "public domain"
+  - immagine: ./monte-guadagnolo/photo3.jpg
+    autore: "Sofiasettembre"
+    licenza: "CC BY-SA 4.0"
   - ./monte-guadagnolo/photo4.jpg
   - ./monte-guadagnolo/photo5.jpg
   - ./monte-guadagnolo/photo6.jpg

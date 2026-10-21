@@ -7,6 +7,8 @@ interface FotoPunto {
   src: string;
   full: string;
   didascalia?: string;
+  // Autore della foto, già formattato (es. "📷 Redazione SVR Lovers")
+  credit?: string;
   name?: string;
   // Link a una pagina collegata alla foto (es. il percorso da cui proviene, nelle Mappe Con Foto)
   link?: string;
@@ -45,7 +47,10 @@ const hasFoto = Boolean(foto && foto.length > 0);
         <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">&larr;</button>
         <figure class="tm-lightbox-figure">
           <img class="tm-lightbox-img" alt="" />
-          <figcaption class="tm-lightbox-caption"></figcaption>
+          <figcaption class="tm-lightbox-caption">
+            <span class="tm-lightbox-text"></span>
+            <span class="tm-lightbox-credit"></span>
+          </figcaption>
         </figure>
         <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">&rarr;</button>
       </div>
@@ -112,6 +117,13 @@ const hasFoto = Boolean(foto && foto.length > 0);
   :global(.photo-popup .caption) {
     font-size: 0.85rem;
     color: #333;
+  }
+
+  :global(.photo-popup .credit) {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: #777;
   }
 
   :global(.photo-popup .photo-link) {
@@ -196,6 +208,15 @@ const hasFoto = Boolean(foto && foto.length > 0);
     font-size: 0.9rem;
     text-align: center;
   }
+  .tm-lightbox-text,
+  .tm-lightbox-credit {
+    display: block;
+  }
+  .tm-lightbox-credit {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #bbb;
+  }
   .tm-lightbox-close,
   .tm-lightbox-prev,
   .tm-lightbox-next {
@@ -254,6 +275,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     src: string;
     full: string;
     didascalia?: string;
+    credit?: string;
     name?: string;
     link?: string;
     linkLabel?: string;
@@ -279,7 +301,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
     if (!lightbox || points.length === 0) return null;
 
     const img = lightbox.querySelector('.tm-lightbox-img') as HTMLImageElement;
-    const caption = lightbox.querySelector('.tm-lightbox-caption') as HTMLElement;
+    const caption = lightbox.querySelector('.tm-lightbox-text') as HTMLElement;
+    const credit = lightbox.querySelector('.tm-lightbox-credit') as HTMLElement;
     let current = 0;
 
     const render = () => {
@@ -288,6 +311,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
       img.src = p.full || p.src;
       img.alt = p.didascalia ?? name;
       caption.textContent = p.didascalia ? `${name}: ${p.didascalia}` : name;
+      credit.textContent = p.credit ?? '';
     };
     const open = (index: number) => {
       current = index;
@@ -434,8 +458,9 @@ const hasFoto = Boolean(foto && foto.length > 0);
       const name = p.name ?? `Foto ${index + 1}`;
       const nameHtml = `<span class="photo-name">${escapeHtml(name)}</span>`;
       const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
+      const credit = p.credit ? `<span class="credit">${escapeHtml(p.credit)}</span>` : '';
       const link = p.link ? `<a class="photo-link" href="${escapeHtml(p.link)}">${escapeHtml(p.linkLabel ?? p.link)} &rarr;</a>` : '';
-      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}${link}</div>`;
+      const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}${credit}${link}</div>`;
       const marker = L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
       marker.on('popupopen', () => {
         const popupEl = marker.getPopup()?.getElement();

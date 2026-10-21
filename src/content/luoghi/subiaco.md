@@ -4,12 +4,16 @@ description: Il borgo dell'alta Valle dell'Aniene dominato dalla Rocca Abbaziale
 comune: Subiaco
 minutiAuto: 35
 immagine: ./subiaco/photo1.jpg
+immagineAutore: "Mattis"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.9260904
   lng: 13.0948486
 galleria:
   - immagine: ./subiaco/photo2.jpg
     didascalia: "La Rocca Abbaziale con la torre dell'orologio, in cima allo sperone di roccia che sovrasta le case del borgo."
+    autore: "Livioandronico2013"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Subiaco si arrampica su un colle dell'alta Valle dell'Aniene, a circa 400 metri di quota, non lontano da San Vito Romano. Il suo nome racconta già la sua storia: deriva dal latino *Sublaqueum*, "sotto i laghi", perché il paese nacque a valle dei bacini artificiali che l'imperatore Nerone fece creare sbarrando il fiume, nella gola dove sorgeva la sua villa.

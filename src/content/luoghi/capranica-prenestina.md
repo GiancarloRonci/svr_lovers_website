@@ -4,11 +4,15 @@ description: Il borgo medievale arroccato sui Monti Prenestini, tra i Borghi pi�
 comune: Capranica Prenestina
 minutiAuto: 15
 immagine: ./capranica-prenestina/photo1.jpg
+immagineAutore: "Umbowiki"
+immagineLicenza: "CC BY-SA 4.0"
 coordinate:
   lat: 41.8620926
   lng: 12.9521369
 galleria:
-  - ./capranica-prenestina/photo2.jpg
+  - immagine: ./capranica-prenestina/photo2.jpg
+    autore: "Umbowiki"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Capranica Prenestina è un piccolo borgo di origine medievale arroccato a oltre 900 metri sui Monti Prenestini, non lontano da San Vito Romano. Le sue vicende storiche sono legate a due famiglie nobiliari, i Capranica e i Colonna, che nei secoli ne hanno segnato l'architettura e il destino. Nel 2024 il borgo è entrato a far parte del prestigioso club dei Borghi più belli d'Italia.

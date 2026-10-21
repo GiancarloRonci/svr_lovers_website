@@ -7,12 +7,16 @@ difficoltaNota: "some stretches of steps"
 lunghezzaKm: 0.27
 durata: "10min"
 immagine: ./via-dellarringo-vicolo-baciadonne/foto1.jpg
+immagineAutore: "Giancarlo Ronci"
 galleria:
-  - ./via-dellarringo-vicolo-baciadonne/foto2.jpg
+  - immagine: ./via-dellarringo-vicolo-baciadonne/foto2.jpg
+    autore: "Giancarlo Ronci"
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
     didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
+    autore: "Giancarlo Ronci"
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "The stone steps of the alley, between ancient walls and an old wooden door."
+    autore: "Giancarlo Ronci"
 gpx: /gpx/via-dellarringo-vicolo-baciadonne.gpx
 partenza:
   lat: 41.882629
@@ -22,10 +26,12 @@ foto:
     lng: 12.983017
     immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
     didascalia: "The small square with the fountain, the starting point of the walk, in the shade of Theodoli Castle's walls."
+    autore: "Giancarlo Ronci"
   - lat: 41.882742
     lng: 12.983962
     immagine: ./via-dellarringo-vicolo-baciadonne/foto6.jpg
     didascalia: "The archway leading into the medieval quarter, between the stone houses, on the way to Piazza San Biagio."
+    autore: "Giancarlo Ronci"
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.

@@ -4,6 +4,8 @@ description: The Franciscan convent set in the woods above Bellegra, founded whe
 comune: Bellegra
 minutiAuto: 15
 immagine: ./convento-san-francesco-bellegra/photo1.jpg
+immagineAutore: "Claudius Ziehr"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.899098
   lng: 13.0145621

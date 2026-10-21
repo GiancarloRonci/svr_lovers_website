@@ -4,11 +4,15 @@ description: Piccolo borgo panoramico con castello diroccato, uno dei punti di v
 comune: Rocca di Cave
 minutiAuto: 20
 immagine: ./rocca-di-cave/photo1.jpg
+immagineAutore: "Siluc"
+immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.84642
   lng: 12.94549
 galleria:
-  - ./rocca-di-cave/photo2.jpg
+  - immagine: ./rocca-di-cave/photo2.jpg
+    autore: "Jean-Baptiste Camille Corot"
+    licenza: "pubblico dominio"
 ---
 
 Rocca di Cave è il più piccolo e uno dei più suggestivi borghi dei Monti Prenestini, non lontano da San Vito Romano. Le sue origini risalgono all'incirca all'850, quando i monaci benedettini di Subiaco vi fondarono un primo insediamento fortificato, chiamato "Castello dei Santi Tre", a difesa dalle incursioni saracene. Il nome Rocca di Cave compare per la prima volta in un documento del 1125; conquistato nel 1101 da Pietro Colonna, il paese restò sotto il controllo della potente famiglia romana fino alla fine dell'Ottocento.

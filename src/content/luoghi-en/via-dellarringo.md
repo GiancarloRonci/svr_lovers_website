@@ -3,6 +3,7 @@ title: Via dell'Arringo
 description: A steep, paved lane in San Vito Romano's historic centre, lined with stone houses, iron railings and glimpses over the valley.
 comune: San Vito Romano
 immagine: ./via-dellarringo/photo1.jpg
+immagineAutore: "Giancarlo Ronci"
 coordinate:
   lat: 41.884251
   lng: 12.98336
