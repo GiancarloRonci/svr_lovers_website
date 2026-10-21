@@ -2,8 +2,8 @@
 title: "San Vito Top 100"
 description: "The most beautiful photos of San Vito Romano and its surroundings, each one placed exactly where it was taken."
 foto:
-  - percorso: al-monte-chiesa-san-vito
-    immagine: foto2.jpg
+  - percorso: lattaceca
+    immagine: foto6.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto9.jpg
   - percorso: al-monte-chiesa-san-vito
