@@ -1,0 +1,63 @@
+---
+// Widget meteo di 3bmeteo per San Vito Romano (località 6448): previsioni orarie dei prossimi 7 giorni in un iframe.
+// Con `weekendFine` (data ISO) il riquadro non si mostra più a weekend passato.
+interface Props {
+  lang: 'it' | 'en';
+  weekendFine?: string;
+}
+
+const { lang, weekendFine } = Astro.props;
+const t =
+  lang === 'en'
+    ? { heading: 'Weather in San Vito Romano', title: '3bmeteo forecast for San Vito Romano', link: 'Weather' }
+    : { heading: 'Meteo a San Vito Romano', title: 'Previsioni 3bmeteo per San Vito Romano', link: 'Meteo' };
+---
+
+<section class="meteo3b" data-weekend-fine={weekendFine}>
+  <h2>{t.heading}</h2>
+  <div>
+    <iframe
+      src={`https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_orario/6448/ffffff/1461a1/5e5e5e/ffffff/${lang}/0/1`}
+      width="382"
+      height="497"
+      frameborder="0"
+      loading="lazy"
+      title={t.title}></iframe>
+    <br />
+    <a href="https://www.3bmeteo.com/meteo/6448" target="_blank" rel="noopener noreferrer">{t.link}</a>
+  </div>
+</section>
+
+<style>
+  .meteo3b {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+  }
+  .meteo3b[hidden] {
+    display: none;
+  }
+  .meteo3b h2 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+  }
+  .meteo3b iframe {
+    display: block;
+    max-width: 100%;
+    border: 0;
+  }
+  .meteo3b a {
+    font-size: 0.8rem;
+  }
+</style>
+
+<script>
+  // A weekend passato le previsioni non servono più: si nasconde il riquadro (e l'iframe non viene caricato)
+  const oggi = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+  document.querySelectorAll<HTMLElement>('.meteo3b[data-weekend-fine]').forEach((box) => {
+    if (oggi > (box.dataset.weekendFine as string)) box.hidden = true;
+  });
+</script>

@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import LatestPhotos from '../components/LatestPhotos.astro';
-import Meteo from '../components/Meteo.astro';
+import Meteo3b from '../components/Meteo3b.astro';
 import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -98,7 +98,7 @@ const articoli = (await getCollection('articoli'))
         </li>
       </ul>
 
-      <Meteo lang="it" />
+      <Meteo3b lang="it" />
 
       <div class="home-news home-section">
         <h2>Ultime news</h2>

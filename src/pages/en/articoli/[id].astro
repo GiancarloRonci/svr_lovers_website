@@ -6,7 +6,7 @@ import { withBase } from '../../../lib/url';
 import { resolveGalleria } from '../../../lib/gallery';
 import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 import { weekendDatesFromSlug } from '../../../lib/weekend';
-import Meteo from '../../../components/Meteo.astro';
+import Meteo3b from '../../../components/Meteo3b.astro';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoliEn');
@@ -56,7 +56,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
       </>
     )
   }
-  {weekend && <Meteo lang="en" weekendInizio={weekend.inizio} weekendFine={weekend.fine} />}
+  {weekend && <Meteo3b lang="en" weekendFine={weekend.fine} />}
   <article>
     <Content />
   </article>
