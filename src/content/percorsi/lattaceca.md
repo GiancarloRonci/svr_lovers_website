@@ -31,6 +31,10 @@ foto:
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg
     didascalia: "Il vialetto che scende tra la ringhiera e la staccionata in legno, con la vista sulla valle avvolta dalla nebbia e le colline sullo sfondo."
+  - lat: 41.883784
+    lng: 12.983107
+    immagine: ./lattaceca/foto6.jpg
+    didascalia: "La vista da Via della Libertà sul pendio verde: una vecchia casa in pietra con il pergolato tra alberi e cipressi, e più in alto i palazzi."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).
