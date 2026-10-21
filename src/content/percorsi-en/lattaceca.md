@@ -35,6 +35,10 @@ foto:
     lng: 12.983107
     immagine: ./lattaceca/foto6.jpg
     didascalia: "The view from Via della Libertà over the green slope: an old stone house with a pergola among the trees and cypresses, and the apartment buildings higher up."
+  - lat: 41.882933
+    lng: 12.982754
+    immagine: ./lattaceca/foto7.jpg
+    didascalia: "The lane with its wooden fence on an autumn morning: yellow leaves on the tarmac, the old houses overlooking the slope and the mountains lit by the sun."
 ---
 
 A short loop walk in the centre of San Vito Romano, starting and ending in [Piazza Augusto Baccelli](/en/luoghi/piazza-augusto-baccelli).
