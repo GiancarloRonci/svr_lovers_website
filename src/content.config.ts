@@ -272,6 +272,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     // Mostra l'immagine intera, senza ritaglio (es. locandine verticali)
     immagineIntera: z.boolean().optional(),
     immagine: image().optional(),
+    // Parte dell'immagine da tenere nel ritaglio delle schede (es. "left bottom"); senza, il centro
+    copertinaPosizione: z.string().optional(),
     galleria: z
       .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),

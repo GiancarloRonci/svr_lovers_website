@@ -151,6 +151,7 @@ const articoli = (await getCollection('articoli'))
                 description={a.data.description}
                 meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
                 image={a.data.immagine}
+                imagePosition={a.data.copertinaPosizione}
               />
             ))
           }

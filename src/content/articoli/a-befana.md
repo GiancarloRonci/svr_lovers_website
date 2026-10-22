@@ -5,6 +5,7 @@ data: 2026-10-22
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
 immagine: ./a-befana/a-befana.jpg
+copertinaPosizione: "left bottom"
 ---
 
 ## Il testo in sanvitese

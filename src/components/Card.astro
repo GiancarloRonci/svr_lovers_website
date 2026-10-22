@@ -13,11 +13,13 @@ interface Props {
   distanza?: string;
   nota?: string;
   image?: ImageMetadata;
+  // Parte dell'immagine da tenere nel ritaglio 4:3 (es. "left bottom"); senza, il centro
+  imagePosition?: string;
   dataInizio?: Date;
   dataFine?: Date;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, distanza, nota, image, dataInizio, dataFine } = Astro.props;
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, distanza, nota, image, imagePosition, dataInizio, dataFine } = Astro.props;
 // Event cards expose their dates and type to the filters on the events page.
 const eventAttrs = dataInizio
   ? {
@@ -29,7 +31,18 @@ const eventAttrs = dataInizio
 ---
 
 <a class="card" href={href} {...eventAttrs}>
-  {image && <Image src={image} alt={title} width={480} height={360} />}
+  {
+    image && (
+      <Image
+        src={image}
+        alt={title}
+        width={480}
+        height={360}
+        position={imagePosition}
+        style={imagePosition ? `object-position: ${imagePosition}` : undefined}
+      />
+    )
+  }
   <div class="card-body">
     {tag && <span class={tagClass}>{tag}</span>}
     <h3>{title}</h3>

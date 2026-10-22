@@ -21,6 +21,7 @@ const articoli = (await getCollection('articoliEn')).sort(byInsertionDesc);
           description={a.data.description}
           meta={a.data.data?.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
           image={a.data.immagine}
+          imagePosition={a.data.copertinaPosizione}
         />
       ))
     }
