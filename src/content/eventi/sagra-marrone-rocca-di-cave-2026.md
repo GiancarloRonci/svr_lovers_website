@@ -6,9 +6,10 @@ dataFine: 2026-11-01
 luogo: "Centro storico di Rocca di Cave (Roma)"
 minutiAuto: 20
 tipologiaEvento: Sagra Enogastronomica
+immagine: ./sagra-marrone-rocca-di-cave-2026/locandina.jpg
 ---
 
-Sabato 31 ottobre e domenica 1° novembre 2026 Rocca di Cave ospita la 48ª edizione della Sagra del Marrone, organizzata dalla Pro Loco insieme all'Amministrazione comunale. In entrambe le giornate gli stand gastronomici aprono alle 12:00 con caldarroste, polenta, panini e altri piatti della tradizione locale; la sera spazio alla musica popolare e all'intrattenimento. Tra le novità di quest'anno, uno stand gestito da un gruppo di giovani del paese.
+Sabato 31 ottobre e domenica 1° novembre 2026 Rocca di Cave ospita la 48ª edizione della Sagra del Marrone, organizzata dalla Pro Loco insieme all'Amministrazione comunale. In entrambe le giornate gli stand gastronomici aprono alle 12:00 con i prodotti tipici locali: caldarroste, polenta, panini vari e tanti altri prodotti del territorio. In programma musica popolare e, la sera, intrattenimento musicale. Tra le novità di quest'anno, uno stand gestito da un gruppo di giovani del paese.
 
 Per l'occasione il Sistema Museale di Rocca di Cave (Smurc) propone visite guidate e iniziative speciali, prenotabili online su [smurc-prenotazioni.sumupstore.com](https://smurc-prenotazioni.sumupstore.com).
 

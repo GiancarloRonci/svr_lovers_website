@@ -6,9 +6,10 @@ dataFine: 2026-11-01
 luogo: "Historic centre of Rocca di Cave (Rome)"
 minutiAuto: 20
 tipologiaEvento: Food & Wine Festival
+immagine: ./sagra-marrone-rocca-di-cave-2026/locandina.jpg
 ---
 
-On Saturday 31 October and Sunday 1 November 2026 Rocca di Cave hosts the 48th Sagra del Marrone (Chestnut Festival), organised by the Pro Loco together with the town council. On both days the food stands open at 12:00 noon with roast chestnuts, polenta, sandwiches and other traditional local dishes; in the evening there is folk music and entertainment. New this year is a stand run by a group of young people from the village.
+On Saturday 31 October and Sunday 1 November 2026 Rocca di Cave hosts the 48th Sagra del Marrone (Chestnut Festival), organised by the Pro Loco together with the town council. On both days the food stands open at 12:00 noon with typical local products: roast chestnuts, polenta, a variety of sandwiches and many other local specialities. The programme includes folk music and, in the evening, live music entertainment. New this year is a stand run by a group of young people from the village.
 
 For the occasion the Rocca di Cave Museum System (Smurc) offers guided tours and special activities, which can be booked online at [smurc-prenotazioni.sumupstore.com](https://smurc-prenotazioni.sumupstore.com).
 
