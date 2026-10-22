@@ -15,8 +15,8 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { title, description, data, autore, categoria, immagine, immagineIntera: immagineInteraFlag, galleria } = entry.data;
-// Nei "Viaggi nel tempo" l'immagine è il cuore dell'articolo: si mostra intera, senza ritaglio (o quando lo chiede `immagineIntera`)
-const immagineIntera = categoria === 'viaggi-nel-tempo' || immagineInteraFlag === true;
+// Nei "Viaggi nel tempo" e nelle "Storie in sanvitese" l'immagine è il cuore dell'articolo: si mostra intera, senza ritaglio (o quando lo chiede `immagineIntera`)
+const immagineIntera = categoria === 'viaggi-nel-tempo' || categoria === 'storie-in-sanvitese' || immagineInteraFlag === true;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 // Nei consigli del weekend i link agli eventi già rimossi dalla collection diventano testo semplice

@@ -267,8 +267,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     description: z.string(),
     data: z.coerce.date().optional(),
     autore: z.string().optional(),
-    // Raggruppa l'articolo in una sezione di Cultura&Turismo ("Viaggi nel tempo", "Il weekend")
-    categoria: z.enum(['viaggi-nel-tempo', 'weekend']).optional(),
+    // Raggruppa l'articolo in una sezione di Cultura&Turismo ("Viaggi nel tempo", "Il weekend", "Storie in sanvitese")
+    categoria: z.enum(['viaggi-nel-tempo', 'weekend', 'storie-in-sanvitese']).optional(),
     // Mostra l'immagine intera, senza ritaglio (es. locandine verticali)
     immagineIntera: z.boolean().optional(),
     immagine: image().optional(),

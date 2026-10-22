@@ -12,6 +12,9 @@ const viaggiNelTempo = (await getCollection('articoli'))
 const weekend = (await getCollection('articoli'))
   .filter((a) => a.data.categoria === 'weekend')
   .sort(byInsertionDesc);
+const storieInSanvitese = (await getCollection('articoli'))
+  .filter((a) => a.data.categoria === 'storie-in-sanvitese')
+  .sort(byInsertionDesc);
 
 const etichette: Record<string, string> = {
   scacchi: 'Scacchi',
@@ -89,6 +92,29 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
         </p>
         <div class="card-grid">
           {viaggiNelTempo.map((a) => (
+            <Card
+              href={withBase(`articoli/${a.id}/`)}
+              title={a.data.title}
+              description={a.data.description}
+              meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+              image={a.data.immagine}
+            />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    storieInSanvitese.length > 0 && (
+      <section id="storie-in-sanvitese">
+        <h2>Storie in sanvitese</h2>
+        <p>
+          Storie e poesie nel dialetto di San Vito Romano, ciascuna con un'immagine e una
+          spiegazione in italiano.
+        </p>
+        <div class="card-grid">
+          {storieInSanvitese.map((a) => (
             <Card
               href={withBase(`articoli/${a.id}/`)}
               title={a.data.title}
