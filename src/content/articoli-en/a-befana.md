@@ -9,7 +9,36 @@ immagine: ./a-befana/a-befana.jpg
 
 ## The text in Sanvitese
 
-> NAVOTA A BEFANA CHE' SCEGNEA A GLIU' CAMMINU E CASEMA PORTEA A SACCOCCIA D' ARDICA, CO' DENTRO I PORTOCALLI CHE' LASSEA SOPRE A GLIU' TAVOLINU ELLA CUCINA. OGNI TANTU CIAMMISCHIEA PURE E FIGHERA SECCHE, E PRIMA CHE' SENNE GLEA MARRECAPPEA E CUPERTE. CHESTA ERA A BEFANA CHE' SCEGNEA A GLIU' CAMMINU CHE' TENEMO ALLA CUCINA, E PORTEA SEMPRE A SACCOCCIA VOTA E GL' ANNO PRIMA. A FORZA DE' STRUCIALLA NFACCIA ALLA FELLIME E GLIU' CAMMINU LEA LOCRATA, COSÌ' I PEZZITTI ELLA SACCOCCIA CASCHENO DENTRO ALLA PIGNATA. COMME GLI' VOLEA BENE A CHELLA BEFANA, QUANNO ROPREA I CAZETTONE SOPRE A GLIU' TAVOLINU CAGNEA L' ARIA. E FICHERA SECCHE ENO PIGLIATU I SAPORE E GLIU' CALECAGNU, ELLE NUCI MEZZE FRACICHE SAPENO PURE DE' RANCICU. SE' SARVENO I PORTOCALLI COLLA COCCIA MEZZA NGREPPITA, APPRECHE' ERENO CHIGLI AVANZATI GL' ANNO PRIMA. CHELLO CHE' ARRECCONTO E' NA' STORIA CHE' TENGO ARREPUSATA, QUANNO VENEA A BEFANA A CASEMA PORTEA A SACCOCCIA SEMPRE SBUCIATA. E NUCI COLLE NOCCHIE LE' TROVEA SEMPRE SOTTO A GLIU' TAVOLINU, E FICHERA SECCHE VICINU A GLIU' CAMMINU. ME' DOMANNEA AMMAPPA CHE' BEFANA POVERACCIA, NAVOTA MESSE PORTATU NA' CARAMELLA PURE SENZA CARTA. MAGARI PURE UN GIOCATTULU TUTTU SFASCIATU, SE' POTESSE ARREBRACCIA' CHELLA BEFANA GLI' DARIA UN BACIU. APPRECHE' QUANNO MELLA SONNO MARREVEO ENANZI A GL' OCCHI CHIGLI REGALI, MAAAAA ARRECAPPEME A CUPERTA CA' TENCO GELATE E MANI.
+> Navota a Befana che' scegnea a gliu' camminu\
+> e casema portea a saccoccia d' ardica,\
+> co' dentro i portocalli che' lassea sopre a gliu' tavolinu ella cucina.\
+> Ogni tantu ciammischiea pure e fighera secche,\
+> e prima che' senne glea marrecappea e cuperte.
+>
+> Chesta era a Befana che' scegnea a gliu' camminu che' tenemo alla cucina,\
+> e portea sempre a saccoccia vota e gl' anno prima.\
+> A forza de' strucialla nfaccia alla fellime e gliu' camminu lea locrata,\
+> così' i pezzitti ella saccoccia cascheno dentro alla pignata.
+>
+> Comme gli' volea bene a chella Befana,\
+> quanno roprea i cazettone sopre a gliu' tavolinu cagnea l' aria.\
+> E fichera secche eno pigliatu i sapore e gliu' calecagnu,\
+> elle nuci mezze fraciche sapeno pure de' rancicu.\
+> Se' sarveno i portocalli colla coccia mezza ngreppita,\
+> appreche' ereno chigli avanzati gl' anno prima.
+>
+> Chello che' arrecconto e' na' storia che' tengo arrepusata,\
+> quanno venea a Befana a casema portea a saccoccia sempre sbuciata.\
+> E nuci colle nocchie le' trovea sempre sotto a gliu' tavolinu,\
+> e fichera secche vicinu a gliu' camminu.
+>
+> Me' domannea ammappa che' Befana poveraccia,\
+> navota messe portatu na' caramella pure senza carta.\
+> Magari pure un giocattulu tuttu sfasciatu,\
+> se' potesse arrebraccia' chella Befana gli' daria un baciu.
+>
+> Appreche' quanno mella sonno marreveo enanzi a gl' occhi chigli regali,\
+> maaaaa arrecappeme a cuperta ca' tenco gelate e mani.
 
 ## Explanation in English
 
