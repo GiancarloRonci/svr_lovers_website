@@ -134,6 +134,11 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     color: var(--color-muted);
   }
 
+  /* L'immagine con il testo originale della poesia */
+  .poesia :global(img) {
+    border: 1px solid #d4d4d4;
+  }
+
   .aggiornato {
     font-size: 0.8rem;
     color: var(--color-muted);
