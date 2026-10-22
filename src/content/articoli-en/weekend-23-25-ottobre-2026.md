@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: olive groves, chestnuts and beech woods (23-25 October)"
-description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, zazzicchie sausages in Gerano, pizzocchio in Pisoniano, polenta in Sambuci, fallone in Affile, music and theatre in Colleferro and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
+description: "The Olive Grove Walk in San Vito, chestnuts in Cave and Segni, zazzicchie sausages in Gerano, pizzocchio in Pisoniano, polenta in Sambuci, fallone in Affile, music and theatre in Colleferro and San Cesareo and the first autumn beech woods in the Simbruini mountains: what to do on the weekend of 23 to 25 October 2026."
 data: 2026-10-20
 categoria: weekend
 immagine: ./weekend-23-25-ottobre-2026/copertina.jpg
@@ -24,7 +24,7 @@ There are two more festivals in the Aniene Valley. In Affile the [Fallone Festiv
 
 If you feel like heading to the mountains, you can choose the [Woods in Motion](/en/eventi/boschi-in-movimento-campaegli-2026) loop, a walk with yoga between Campaegli and Camposecco, or the afternoon [Nordic Walking of the Bridges](/en/eventi/nordic-walking-dei-ponti-subiaco-2026) in Subiaco, in support of Komen Italia (booking by Friday). In Cervara di Roma, for the opening of the restored Ponte della Valle, the Park offers a [free day](/en/eventi/custodire-raccontare-territorio-cervara-2026) of guided tours, sun observation from the Fortress and tastings (these must be booked).
 
-Late in the afternoon there is a book and some music: at 5:00 PM the presentation of ["Mare Nero"](/en/eventi/mare-nero-ansaldo-castel-san-pietro-romano-2026) by Marco Ansaldo at the MuDi in Castel San Pietro Romano, at 6:00 PM a jazz version of Carmina Burana in Piazza Conti in Poli, during the [Culture Days](/en/eventi/giornate-della-cultura-poli-2026), and also at 6:00 PM three local choirs at [Armonie d'Autunno](/en/eventi/armonie-d-autunno-colleferro-2026), at the Colleferro Auditorium with free admission. Colleferro also hosts the [Chilli Pepper Festival](/en/eventi/festa-peperoncino-colleferro-2026) all weekend, with a food market, a spicy pasta contest and workshops for children.
+Late in the afternoon there is a book and some music: at 5:00 PM the presentation of ["Mare Nero"](/en/eventi/mare-nero-ansaldo-castel-san-pietro-romano-2026) by Marco Ansaldo at the MuDi in Castel San Pietro Romano, at 6:00 PM a jazz version of Carmina Burana in Piazza Conti in Poli, during the [Culture Days](/en/eventi/giornate-della-cultura-poli-2026), and also at 6:00 PM three local choirs at [Armonie d'Autunno](/en/eventi/armonie-d-autunno-colleferro-2026), at the Colleferro Auditorium with free admission. Please note: Colleferro's Chilli Pepper Festival, planned for the whole weekend, has been cancelled because of the road blockades linked to the truck drivers' protests.
 
 In the evening, head back to Cave to hear Alla Riversa and Malagrazia. If you prefer theatre, at 9:00 PM there is ["Voices beyond the border"](/en/eventi/voci-oltre-il-confine-colleferro-2026) at the Teatro Comunale in Colleferro, a show of memories and testimonies.
 
@@ -44,7 +44,7 @@ The afternoon offers several options:
 - in Gerano, the second day of the zazzicchie festival, with the parade of vintage cars by the Ferraristi dell'Appia Antica;
 - in Sambuci, lunch at the polenta festival from 12:00 PM and the guided tour of Theodoli Castle led by ladies in period dress;
 - in Affile, the festival lunch with polenta and pork ribs at 1:00 PM and, at 4:00 PM, the Contest of the Contrade that closes the Palio;
-- in Colleferro, the second day of the Chilli Pepper Festival, until 9:00 PM;
+- at 5:30 PM, at the San Cesareo town auditorium, the comedy ["Zitelloni in Casa"](/en/eventi/zitelloni-in-casa-san-cesareo-2026), with a free-will donation for cystic fibrosis care;
 - at 5:30 PM ["Porry Pastorel - Civic Duty"](/en/eventi/dovere-civile-castel-san-pietro-romano-2026) at the MuDi in Castel San Pietro Romano, commemorating the massacre that was averted in 1943, with the short film about Adolfo Porry Pastorel and the mayor and the museum director in attendance;
 - to round off the day, Mozart's ["Gran Partita"](/en/eventi/gran-partita-mozart-colleferro-2026) played by 13 clarinets in Colleferro, at 6:00 PM with free admission.
 
