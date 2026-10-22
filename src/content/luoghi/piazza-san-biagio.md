@@ -14,6 +14,8 @@ galleria:
   - ./piazza-san-biagio/photo6.jpg
   - ./piazza-san-biagio/photo7.jpg
   - ./piazza-san-biagio/photo9.jpg
+  - immagine: ./piazza-san-biagio/photo10.jpg
+    didascalia: "Tre porte magiche, che sanno di bei ricordi, di lavoro e di fede. Per molti anni c'era proprio una scritta sul muro che richiamava al lavoro e alla preghiera. Ricordo anche un periodo in cui praticamente venni invitato a partecipare a una tombola, lì dentro sulla sinistra, dove c'erano tutti i ragazzi nabballeri, e c'era ovviamente anche Don Marcello."
 ---
 
 Piazza San Biagio è uno dei cuori del centro storico di San Vito Romano: uno slargo raccolto, pavimentato in sampietrini, su cui si affaccia la chiesa parrocchiale di San Biagio Vescovo e Martire, posta al centro del reticolo di vicoli e scalinate che formano l'abitato medievale del paese. La data di costruzione della chiesa è incerta: la tradizione la vuole sorta su un preesistente oratorio del XII secolo. L'edificio attuale è il risultato della ricostruzione promossa dalla famiglia Theodoli tra il 1607 e il 1609, su progetto dell'architetto Giovanni Theodoli. La piazza fu riqualificata nel 1646 e la chiesa venne consacrata definitivamente il 13 ottobre 1777.

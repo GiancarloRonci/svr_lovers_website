@@ -24,8 +24,10 @@ foto:
     immagine: foto7.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto8.jpg
-  - percorso: alla-madonnina
-    immagine: foto3.jpg
+  - immagine: ./san-vito-top-100/piazza-san-biagio-tre-porte.jpg
+    lat: 41.883139
+    lng: 12.983964
+    didascalia: "Piazza San Biagio. Tre porte magiche, che sanno di bei ricordi, di lavoro e di fede. Per molti anni c'era proprio una scritta sul muro che richiamava al lavoro e alla preghiera. Ricordo anche un periodo in cui praticamente venni invitato a partecipare a una tombola, lì dentro sulla sinistra, dove c'erano tutti i ragazzi nabballeri, e c'era ovviamente anche Don Marcello."
   - percorso: alla-madonnina
     immagine: foto4.jpg
   - percorso: alla-madonnina

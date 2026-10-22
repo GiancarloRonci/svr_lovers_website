@@ -24,8 +24,10 @@ foto:
     immagine: foto7.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto8.jpg
-  - percorso: alla-madonnina
-    immagine: foto3.jpg
+  - immagine: ./san-vito-top-100/piazza-san-biagio-tre-porte.jpg
+    lat: 41.883139
+    lng: 12.983964
+    didascalia: "Piazza San Biagio. Three magical doors, full of fond memories, of work and of faith. For many years there was actually an inscription on the wall calling people to work and prayer. I also remember a time when I was more or less invited to join a game of tombola (Italian bingo), in there on the left, where all the \"nabballeri\" boys were, and of course Don Marcello was there too."
   - percorso: alla-madonnina
     immagine: foto4.jpg
   - percorso: alla-madonnina

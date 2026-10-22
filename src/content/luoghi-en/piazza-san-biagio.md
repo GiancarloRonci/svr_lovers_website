@@ -14,6 +14,8 @@ galleria:
   - ./piazza-san-biagio/photo6.jpg
   - ./piazza-san-biagio/photo7.jpg
   - ./piazza-san-biagio/photo9.jpg
+  - immagine: ./piazza-san-biagio/photo10.jpg
+    didascalia: "Three magical doors, full of fond memories, of work and of faith. For many years there was actually an inscription on the wall calling people to work and prayer. I also remember a time when I was more or less invited to join a game of tombola (Italian bingo), in there on the left, where all the \"nabballeri\" boys were, and of course Don Marcello was there too."
 ---
 
 Piazza San Biagio is one of the hearts of San Vito Romano's old town: a small square paved in cobblestones, overlooked by the parish church of San Biagio Vescovo e Martire, which stands at the centre of the network of alleys and stairways that make up the town's medieval core. The church's construction date is uncertain: tradition holds that it was built on the site of an earlier 12th-century oratory. The present building is the result of the rebuilding promoted by the Theodoli family between 1607 and 1609, to a design by the architect Giovanni Theodoli. The square itself was redeveloped in 1646, and the church was formally consecrated on 13 October 1777.
