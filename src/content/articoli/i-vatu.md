@@ -5,7 +5,7 @@ data: 2026-10-22
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
 immagine: ./i-vatu/i-vatu.jpg
-copertinaPosizione: "center top"
+copertinaPosizione: "top"
 ---
 
 ## Il testo in sanvitese
