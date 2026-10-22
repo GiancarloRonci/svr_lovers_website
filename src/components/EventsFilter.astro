@@ -88,7 +88,8 @@ const labels =
   .events-empty {
     margin-top: 1.5rem;
   }
-  :global(.card[hidden]),
+  /* Must outweigh `.card-list .card { display: flex }` in the layout. */
+  :global(.card-list .card[hidden]),
   :global(.events-section[hidden]) {
     display: none;
   }
