@@ -39,7 +39,7 @@ If you want to walk further, the Simbruini mountains offer:
 
 The afternoon offers several options:
 
-- the last day of the ["Dentro l'Oro" Biennale](/en/eventi/biennale-dentro-loro-genazzano-2026) at Castello Colonna in Genazzano, with the closing event at 5:00 PM;
+- in Genazzano, at 4:00 PM at the Teatro Cinema Italia, the documentary ["Oltre il muro"](/en/eventi/oltre-il-muro-genazzano-2026) about the fresco of Our Lady of Good Counsel, with free admission and the director in attendance; then, at 5:00 PM, the closing event of the ["Dentro l'Oro" Biennale](/en/eventi/biennale-dentro-loro-genazzano-2026) at Castello Colonna, on its last day;
 - the final day of the [Segni Chestnut Festival](/en/eventi/sagra-marrone-segnino-segni-2026) and of the festival in Cave;
 - in Gerano, the second day of the zazzicchie festival, with the parade of vintage cars by the Ferraristi dell'Appia Antica;
 - in Sambuci, lunch at the polenta festival from 12:00 PM and the guided tour of Theodoli Castle led by ladies in period dress;
