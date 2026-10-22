@@ -47,6 +47,7 @@ const tipologie = [...new Set(eventi.map((e) => e.data.tipologiaEvento).filter((
               tag={e.data.tipologiaEvento}
               tagClass={tagClass(e.data.tipologiaEvento)}
               dataInizio={e.data.dataInizio}
+              dataFine={e.data.dataFine}
               description={formatEventDate(e.data.dataInizio, e.data.dataFine, 'en-GB')}
               luogo={e.data.luogo}
               distanza={formatDriveTime(e.data.minutiAuto, 'en')}

@@ -14,11 +14,18 @@ interface Props {
   nota?: string;
   image?: ImageMetadata;
   dataInizio?: Date;
+  dataFine?: Date;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, distanza, nota, image, dataInizio } = Astro.props;
-// Event cards expose their start date and type to the filters on the events page.
-const eventAttrs = dataInizio ? { 'data-inizio': dataInizio.toISOString().slice(0, 10), 'data-tipo': tag ?? '' } : {};
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, distanza, nota, image, dataInizio, dataFine } = Astro.props;
+// Event cards expose their dates and type to the filters on the events page.
+const eventAttrs = dataInizio
+  ? {
+      'data-inizio': dataInizio.toISOString().slice(0, 10),
+      'data-fine': (dataFine ?? dataInizio).toISOString().slice(0, 10),
+      'data-tipo': tag ?? '',
+    }
+  : {};
 ---
 
 <a class="card" href={href} {...eventAttrs}>

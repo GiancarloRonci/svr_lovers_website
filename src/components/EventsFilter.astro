@@ -13,6 +13,9 @@ const labels =
         d7: 'Within 7 days',
         d15: 'Within 15 days',
         m2: 'Within 2 months',
+        custom: 'Chosen dates',
+        from: 'From',
+        to: 'To',
         typeLabel: 'Type',
         allTypes: 'All types',
         empty: 'No events match the selected filters.',
@@ -23,6 +26,9 @@ const labels =
         d7: 'Entro 7 giorni',
         d15: 'Entro 15 giorni',
         m2: 'Entro 2 mesi',
+        custom: 'Date scelte',
+        from: 'Dal',
+        to: 'Al',
         typeLabel: 'Tipo',
         allTypes: 'Tutti i tipi',
         empty: 'Nessun evento corrisponde ai filtri scelti.',
@@ -30,18 +36,29 @@ const labels =
 ---
 
 <div class="events-filter">
-  <label for="events-range">{labels.filterLabel}</label>
-  <select id="events-range">
-    <option value="all" selected>{labels.all}</option>
-    <option value="7d">{labels.d7}</option>
-    <option value="15d">{labels.d15}</option>
-    <option value="2m">{labels.m2}</option>
-  </select>
-  <label for="events-type">{labels.typeLabel}</label>
-  <select id="events-type">
-    <option value="" selected>{labels.allTypes}</option>
-    {tipologie.map((t) => <option value={t}>{t}</option>)}
-  </select>
+  <div class="filter-group">
+    <label for="events-range">{labels.filterLabel}</label>
+    <select id="events-range">
+      <option value="all" selected>{labels.all}</option>
+      <option value="7d">{labels.d7}</option>
+      <option value="15d">{labels.d15}</option>
+      <option value="2m">{labels.m2}</option>
+      <option value="custom" hidden>{labels.custom}</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="events-from">{labels.from}</label>
+    <input type="date" id="events-from" />
+    <label for="events-to">{labels.to}</label>
+    <input type="date" id="events-to" />
+  </div>
+  <div class="filter-group">
+    <label for="events-type">{labels.typeLabel}</label>
+    <select id="events-type">
+      <option value="" selected>{labels.allTypes}</option>
+      {tipologie.map((t) => <option value={t}>{t}</option>)}
+    </select>
+  </div>
 </div>
 <p class="meta events-empty" hidden>{labels.empty}</p>
 
@@ -50,11 +67,18 @@ const labels =
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.5rem 1rem;
     margin-top: 1rem;
     font-size: 0.9rem;
   }
-  .events-filter select {
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .events-filter select,
+  .events-filter input {
     font: inherit;
     padding: 0.3rem 0.6rem;
     border: 1px solid var(--color-border);
@@ -79,7 +103,6 @@ const labels =
     }
 
     function limit(value) {
-      if (value === 'all') return null;
       var d = new Date();
       if (value === '2m') {
         d.setMonth(d.getMonth() + 2);
@@ -92,19 +115,32 @@ const labels =
     // The filter sits above the event list, so wait for the cards to be in the DOM.
     function init() {
       var select = document.getElementById('events-range');
+      var fromInput = document.getElementById('events-from');
+      var toInput = document.getElementById('events-to');
       var typeSelect = document.getElementById('events-type');
-      if (!select || !typeSelect) return;
+      if (!select || !fromInput || !toInput || !typeSelect) return;
       var cards = document.querySelectorAll('.card[data-inizio]');
       var sections = document.querySelectorAll('.events-section');
       var emptyMsg = document.querySelector('.events-empty');
+      var customOption = select.querySelector('option[value="custom"]');
+      var today = isoDate(new Date());
+
+      // Past events are not listed, so the calendars start from today.
+      fromInput.min = today;
+      toInput.min = today;
 
       function apply() {
-        var max = limit(select.value);
+        var from = fromInput.value;
+        var to = toInput.value;
         var tipo = typeSelect.value;
         var visible = 0;
         cards.forEach(function (card) {
+          // An event matches if at least one of its days falls in the chosen range.
+          var inizio = card.getAttribute('data-inizio');
+          var fine = card.getAttribute('data-fine') || inizio;
           var show =
-            (max === null || card.getAttribute('data-inizio') <= max) &&
+            (to === '' || inizio <= to) &&
+            (from === '' || fine >= from) &&
             (tipo === '' || card.getAttribute('data-tipo') === tipo);
           card.hidden = !show;
           if (show) visible++;
@@ -115,7 +151,38 @@ const labels =
         if (emptyMsg) emptyMsg.hidden = visible > 0;
       }
 
-      select.addEventListener('change', apply);
+      // The quick ranges fill in the calendars.
+      select.addEventListener('change', function () {
+        if (select.value === 'custom') return;
+        if (customOption) customOption.hidden = true;
+        if (select.value === 'all') {
+          fromInput.value = '';
+          toInput.value = '';
+        } else {
+          fromInput.value = today;
+          toInput.value = limit(select.value);
+        }
+        toInput.min = fromInput.value || today;
+        apply();
+      });
+
+      // Picking dates by hand switches the quick ranges to "chosen dates".
+      function onDateChange() {
+        if (fromInput.value && toInput.value && toInput.value < fromInput.value) {
+          toInput.value = fromInput.value;
+        }
+        toInput.min = fromInput.value || today;
+        if (fromInput.value || toInput.value) {
+          if (customOption) customOption.hidden = false;
+          select.value = 'custom';
+        } else {
+          select.value = 'all';
+        }
+        apply();
+      }
+
+      fromInput.addEventListener('change', onDateChange);
+      toInput.addEventListener('change', onDateChange);
       typeSelect.addEventListener('change', apply);
       apply();
     }
