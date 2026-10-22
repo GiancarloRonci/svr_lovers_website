@@ -10,6 +10,8 @@ copertinaPosizione: "left bottom"
 
 ## Il testo in sanvitese
 
+> ### A Befana
+>
 > Navota a Befana che' scegnea a gliu' camminu\
 > e casema portea a saccoccia d' ardica,\
 > co' dentro i portocalli che' lassea sopre a gliu' tavolinu ella cucina.\
@@ -40,6 +42,8 @@ copertinaPosizione: "left bottom"
 >
 > Appreche' quanno mella sonno marreveo enanzi a gl' occhi chigli regali,\
 > maaaaa arrecappeme a cuperta ca' tenco gelate e mani.
+>
+> <footer>Scritta da Antonio Orlandi</footer>
 
 ## Spiegazione in italiano
 

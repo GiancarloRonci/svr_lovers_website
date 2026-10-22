@@ -115,11 +115,23 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     font-size: 1.05rem;
     line-height: 1.7;
   }
-  .poesia :global(blockquote p:first-child::before) {
+  .poesia :global(blockquote h3) {
+    margin: 0 0 1rem;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  .poesia :global(blockquote p:first-of-type::before) {
     content: '«';
   }
-  .poesia :global(blockquote p:last-child::after) {
+  .poesia :global(blockquote p:last-of-type::after) {
     content: '»';
+  }
+  .poesia :global(blockquote footer) {
+    margin-top: 1rem;
+    text-align: right;
+    font-style: normal;
+    font-size: 0.95rem;
+    color: var(--color-muted);
   }
 
   .aggiornato {
