@@ -40,7 +40,7 @@ Per chi vuole camminare di più, i Simbruini offrono:
 Il pomeriggio offre più scelte:
 
 - a Genazzano, alle 16:00 al Teatro Cinema Italia, il documentario ["Oltre il muro"](/eventi/oltre-il-muro-genazzano-2026) sull'affresco della Madre del Buon Consiglio, a ingresso gratuito e con il regista in sala; poi, alle 17:00, il finissage della [Biennale "Dentro l'Oro"](/eventi/biennale-dentro-loro-genazzano-2026) al Castello Colonna, all'ultimo giorno;
-- la giornata finale della [Sagra del Marrone Segnino](/eventi/sagra-marrone-segnino-segni-2026) a Segni e della sagra di Cave;
+- la giornata finale della sagra di Cave e della [Sagra del Marrone Segnino](/eventi/sagra-marrone-segnino-segni-2026) a Segni, dove alle 16:00 sfila il corteo storico della Copéta con gli sbandieratori e alle 21:00 chiude il concerto degli Hernicantus;
 - a Gerano il secondo giorno delle zazzicchie, con la sfilata delle auto storiche dei Ferraristi dell'Appia Antica;
 - a Sambuci il pranzo della sagra della polenta, dalle 12:00, e la visita guidata al Castello Theodoli con le dame in abiti d'epoca;
 - ad Affile il pranzo della sagra con polenta e spuntature alle 13:00 e, alle 16:00, la Disfida delle Contrade che chiude il Palio;
