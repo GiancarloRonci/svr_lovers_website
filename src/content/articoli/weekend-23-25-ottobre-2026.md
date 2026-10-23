@@ -14,7 +14,7 @@ Il pomeriggio di venerdì è per i più piccoli: a Zagarolo la [Giornata del Gio
 
 ## Sabato: la Sanvitese in casa e il pomeriggio nei borghi
 
-Sabato si tifa: al Campetto la [Sanvitese Calcio a 5 ospita il Pavona](/eventi/sanvitese-calcio-a5-pavona-2026-10-24) per la 7ª giornata di Serie C1. L'orario del calcio d'inizio va controllato sulla pagina Facebook della squadra.
+Sabato si tifa: al Campetto la [Sanvitese Calcio a 5 ospita il Pavona](/eventi/sanvitese-calcio-a5-pavona-2026-10-24) per la 7ª giornata di Serie C1, con calcio d'inizio alle 16:00.
 
 Per pranzo, a venti minuti da casa, Gerano apre la [Sagra delle Zazzicchie e Verole](/eventi/sagra-zazzicchie-verole-gerano-2026): la salsiccia locale nel panino con i broccoletti e le caldarroste, con stand al coperto dalle 12:00 fino a sera. Sabato alle 21:30, in Piazza della Vittoria, c'è anche un concerto tributo ad Achille Lauro.
 
@@ -30,7 +30,7 @@ La sera si torna a Cave, dove suonano Alla Riversa e Malagrazia. Chi preferisce 
 
 ## Domenica: la Camminata tra gli Olivi a San Vito
 
-Il consiglio della settimana è la [Camminata tra gli Olivi](/eventi/camminata-tra-gli-olivi-san-vito-romano-2026), con ritrovo alle 10:00 in via Guido Baccelli, davanti all'ufficio postale. Sono circa due chilometri nel centro storico fino a via Porta Olevano, con visite guidate a chiese e palazzi, e poi il frantoio La Rosciola, con la degustazione dell'olio nuovo e il pranzo facoltativo su prenotazione. In caso di maltempo l'evento è annullato: meglio controllare la mattina stessa.
+Il consiglio della settimana è la [Camminata tra gli Olivi](/eventi/camminata-tra-gli-olivi-san-vito-romano-2026), con ritrovo alle 10:00 in via Guido Baccelli, davanti all'ufficio postale. Sono circa due chilometri nel centro storico fino a via Porta Olevano, con visite guidate a chiese e palazzi, e poi il frantoio La Rosciola, con la degustazione dell'olio nuovo e il pranzo facoltativo a 15 € (prenotazione obbligatoria). In caso di maltempo l'evento è annullato: meglio controllare la mattina stessa.
 
 Per chi vuole camminare di più, i Simbruini offrono:
 

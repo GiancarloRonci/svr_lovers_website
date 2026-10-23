@@ -14,7 +14,7 @@ Friday afternoon is for the little ones: in Zagarolo the [Day of Play](/en/event
 
 ## Saturday: Sanvitese at home and an afternoon in the villages
 
-On Saturday it's time to cheer: at the Campetto, [Sanvitese Calcio a 5 host Pavona](/en/eventi/sanvitese-calcio-a5-pavona-2026-10-24) for matchday 7 of Serie C1. Check the team's Facebook page for the kick-off time.
+On Saturday it's time to cheer: at the Campetto, [Sanvitese Calcio a 5 host Pavona](/en/eventi/sanvitese-calcio-a5-pavona-2026-10-24) for matchday 7 of Serie C1, with kick-off at 4:00 PM.
 
 For lunch, twenty minutes from home, Gerano opens the [Zazzicchie and Verole Festival](/en/eventi/sagra-zazzicchie-verole-gerano-2026): the local sausage in a sandwich with broccoli rabe and roasted chestnuts, with covered food stands from 12:00 PM until the evening. On Saturday at 9:30 PM, in Piazza della Vittoria, there is also a tribute concert to Achille Lauro.
 
@@ -30,7 +30,7 @@ In the evening, head back to Cave to hear Alla Riversa and Malagrazia. If you pr
 
 ## Sunday: the Olive Grove Walk in San Vito
 
-Our tip of the week is the [Olive Grove Walk](/en/eventi/camminata-tra-gli-olivi-san-vito-romano-2026), meeting at 10:00 AM in Via Guido Baccelli, in front of the post office. It is about two kilometres through the historic centre up to Via Porta Olevano, with guided visits to churches and palaces, followed by the La Rosciola olive mill, with a tasting of the new oil and an optional lunch on booking. In case of bad weather the event is cancelled, so check on the morning itself.
+Our tip of the week is the [Olive Grove Walk](/en/eventi/camminata-tra-gli-olivi-san-vito-romano-2026), meeting at 10:00 AM in Via Guido Baccelli, in front of the post office. It is about two kilometres through the historic centre up to Via Porta Olevano, with guided visits to churches and palaces, followed by the La Rosciola olive mill, with a tasting of the new oil and an optional lunch at €15 per person (booking required). In case of bad weather the event is cancelled, so check on the morning itself.
 
 If you want to walk further, the Simbruini mountains offer:
 
