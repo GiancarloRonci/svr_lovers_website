@@ -21,7 +21,7 @@ const galleryItems = await resolveGalleria(galleria, title, 0, 'photo');
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/soggiorno/')}>&larr; Where to Stay</a>
+  <a data-pagefind-ignore href={withBase('en/soggiorno/')}>&larr; Where to Stay</a>
   <h1>{title}</h1>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
 

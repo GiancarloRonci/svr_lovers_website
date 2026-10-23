@@ -15,7 +15,7 @@ const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('cosa-fare/')}>&larr; Cosa fare</a>
+  <a data-pagefind-ignore href={withBase('cosa-fare/')}>&larr; Cosa fare</a>
   <h1>{title}</h1>
   <p class="meta">{giorniTotali} giorni · {description}</p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}

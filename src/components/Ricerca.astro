@@ -1,0 +1,83 @@
+---
+import { withBase } from '../lib/url';
+
+// Casella di ricerca di Pagefind: l'indice (cartella /pagefind/) viene creato dopo `astro build`,
+// quindi con `astro dev` la ricerca non è disponibile e si mostra un avviso
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+
+const strings = {
+  it: {
+    nonDisponibile: 'La ricerca non è disponibile in questo momento. Riprova più tardi.',
+    // La traduzione italiana di Pagefind dice "Cancella la cronologia", che qui non ha senso
+    cancella: 'Cancella',
+  },
+  en: {
+    nonDisponibile: 'Search is not available at the moment. Please try again later.',
+    cancella: 'Clear',
+  },
+} as const;
+
+const t = strings[lang];
+const bundlePath = withBase('pagefind/');
+const cancella = t.cancella;
+---
+
+<link rel="stylesheet" href={`${bundlePath}pagefind-ui.css`} />
+<div id="ricerca" class="ricerca"></div>
+<p id="ricerca-errore" class="meta" hidden>{t.nonDisponibile}</p>
+
+<script is:inline define:vars={{ bundlePath, cancella }}>
+  (function () {
+    var errore = document.getElementById('ricerca-errore');
+    var s = document.createElement('script');
+    s.src = bundlePath + 'pagefind-ui.js';
+    s.onload = function () {
+      var ui = new window.PagefindUI({
+        element: '#ricerca',
+        bundlePath: bundlePath,
+        showImages: false,
+        showSubResults: true,
+        resetStyles: false,
+        autofocus: true,
+        translations: { clear_search: cancella },
+      });
+      // Una ricerca arrivata da un link (es. /cerca/?q=castagne) parte subito
+      var q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    };
+    s.onerror = function () {
+      errore.hidden = false;
+    };
+    document.head.appendChild(s);
+  })();
+</script>
+
+<style is:global>
+  .ricerca {
+    --pagefind-ui-scale: 0.9;
+    --pagefind-ui-primary: var(--color-accent-dark);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: #fff;
+    --pagefind-ui-border: var(--color-border);
+    --pagefind-ui-tag: var(--color-bg);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-font: var(--font-body);
+    max-width: 760px;
+    margin-top: 1.5rem;
+  }
+
+  .ricerca .pagefind-ui__result-link {
+    color: var(--color-accent-dark);
+    font-family: var(--font-heading);
+  }
+
+  .ricerca mark {
+    background: #efe7c9;
+    color: inherit;
+  }
+</style>

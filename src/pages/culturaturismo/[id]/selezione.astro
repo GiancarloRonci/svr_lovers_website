@@ -19,7 +19,7 @@ const { title } = entry.data;
 ---
 
 <Layout title="Selezione delle finaliste" description={`Area riservata ai selezionatori: ${title}`} noindex>
-  <a href={withBase(`culturaturismo/${entry.id}/`)}>&larr; Torna al contest</a>
+  <a data-pagefind-ignore href={withBase(`culturaturismo/${entry.id}/`)}>&larr; Torna al contest</a>
   <h1>Selezione delle finaliste</h1>
   <p class="sottotitolo">{title}</p>
 

@@ -15,7 +15,7 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/news/')}>&larr; All news</a>
+  <a data-pagefind-ignore href={withBase('en/news/')}>&larr; All news</a>
   <h1>{title}</h1>
   <p class="meta">{data.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
 

@@ -21,7 +21,7 @@ const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description}>
-  <p><a href={withBase('en/eventi/')}>&larr; All events</a></p>
+  <p><a data-pagefind-ignore href={withBase('en/eventi/')}>&larr; All events</a></p>
   {tipologiaEvento && <p><span class={tagClass(tipologiaEvento)}>{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
   <p class="meta">{formatEventDate(dataInizio, dataFine, 'en-GB')}</p>

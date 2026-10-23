@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Ricerca from '../../components/Ricerca.astro';
+---
+
+<Layout cercabile={false} title="Cerca" description="Cerca tra eventi, news, luoghi, percorsi, storia e articoli di SanVitoRomano Lovers.">
+  <h1>Cerca nel sito</h1>
+  <p class="meta">Eventi, news, luoghi, percorsi, storia, leggende e articoli: scrivi una o più parole.</p>
+
+  <Ricerca lang="it" />
+</Layout>

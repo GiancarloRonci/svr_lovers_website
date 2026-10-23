@@ -31,7 +31,7 @@ const grazieUrl = withBase(`en/culturaturismo/${entry.id}/grazie/`);
 ---
 
 <Layout title={title} description={description} protetto={isProtetta(entry.id)}>
-  <a href={withBase('en/culturaturismo/')}>&larr; All activities</a>
+  <a data-pagefind-ignore href={withBase('en/culturaturismo/')}>&larr; All activities</a>
   <span class="tag">{etichette[categoria]}</span>
   <h1>{title}</h1>
   {frequenza && <p class="meta">{frequenza}</p>}

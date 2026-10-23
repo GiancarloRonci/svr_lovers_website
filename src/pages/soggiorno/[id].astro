@@ -21,7 +21,7 @@ const galleryItems = await resolveGalleria(galleria, title);
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('soggiorno/')}>&larr; Dove Soggiornare</a>
+  <a data-pagefind-ignore href={withBase('soggiorno/')}>&larr; Dove Soggiornare</a>
   <h1>{title}</h1>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 

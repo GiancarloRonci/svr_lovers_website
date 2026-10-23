@@ -51,6 +51,7 @@ const strings = {
       viaggiNelTempo: 'Viaggi nel tempo',
       storieInSanvitese: 'Storie in sanvitese',
       weekend: 'Il weekend',
+      cerca: 'Cerca',
     },
     defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
     footer: (year: number) => `© ${year} Il Paese. Sito realizzato dalla comunità.`,
@@ -106,6 +107,7 @@ const strings = {
       viaggiNelTempo: 'Journeys Through Time',
       storieInSanvitese: 'Stories in Sanvitese',
       weekend: 'The Weekend',
+      cerca: 'Search',
     },
     defaultDescription: 'The village: history, trails, places and events.',
     footer: (year: number) => `© ${year} The Village. Website made by the community.`,
@@ -278,6 +280,15 @@ const privacyHref = withBase(`${prefix}privacy/`);
               </li>
             )
           )}
+          <li>
+            <a href={withBase(`${prefix}cerca/`)} class="search-link" aria-label={t.nav.cerca} title={t.nav.cerca}>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2" />
+                <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="search-label">{t.nav.cerca}</span>
+            </a>
+          </li>
           <li><a href={switchHref} class="lang-switch">{switchLabel}</a></li>
         </ul>
       </nav>
@@ -579,6 +590,14 @@ const privacyHref = withBase(`${prefix}privacy/`);
         display: none;
       }
 
+      .search-link {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+
+      .search-link svg { display: block; }
+
       .lang-switch {
         font-weight: 700;
         border: 1px solid var(--color-border);
@@ -614,6 +633,16 @@ const privacyHref = withBase(`${prefix}privacy/`);
       }
 
       @media (min-width: 961px) {
+        /* Su schermo largo basta la lente: la scritta resta per i lettori di schermo */
+        .search-label {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip: rect(0 0 0 0);
+          white-space: nowrap;
+        }
+
         .dropdown-menu {
           position: absolute;
           top: 100%;

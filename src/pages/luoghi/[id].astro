@@ -27,7 +27,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
+  <a data-pagefind-ignore href={withBase('luoghi/')}>&larr; Tutti i luoghi</a>
   <h1>{title}</h1>
   <p class="comune">📍 {comune}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}

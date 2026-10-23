@@ -17,7 +17,7 @@ const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/leggende/')}>&larr; All legends</a>
+  <a data-pagefind-ignore href={withBase('en/leggende/')}>&larr; All legends</a>
   <h1>{title}</h1>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
   {immagine && <Image class="luogo-image" src={immagine} alt={title} width={900} />}

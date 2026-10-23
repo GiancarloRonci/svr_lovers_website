@@ -19,7 +19,7 @@ const haRegolamento = (await getCollection('regolamentiEn')).some((r) => r.id ==
 ---
 
 <Layout title="Thank you for your photo" description={`Thank you for taking part: ${title}`} noindex protetto={isProtetta(entry.id)}>
-  <a href={paginaContest}>&larr; Back to the contest</a>
+  <a data-pagefind-ignore href={paginaContest}>&larr; Back to the contest</a>
   <h1>Thank you<span id="grazie-nome"></span>!</h1>
   <p class="meta">{title}</p>
 

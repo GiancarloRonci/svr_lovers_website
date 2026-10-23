@@ -60,7 +60,7 @@ const galleryItems = [
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/percorsi/')}>&larr; All trails</a>
+  <a data-pagefind-ignore href={withBase('en/percorsi/')}>&larr; All trails</a>
   <h1>{title}</h1>
   <p class="meta">
     {tipoLabels[tipo]} · {difficoltaLabels[difficolta]}{difficoltaNota && ` ${difficoltaNota}`} · {lunghezzaKm} km · {durata}

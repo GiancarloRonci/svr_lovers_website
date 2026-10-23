@@ -30,7 +30,7 @@ const galleryItems = risolte.map((f) => ({
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('en/mappe-foto/')}>&larr; All photo maps</a>
+  <a data-pagefind-ignore href={withBase('en/mappe-foto/')}>&larr; All photo maps</a>
   <h1>{title}</h1>
   <p class="meta">{punti.length} photos on the map</p>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}

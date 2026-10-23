@@ -21,7 +21,7 @@ const lastModified = getLastModified(entry.filePath);
 ---
 
 <Layout title={title} description={description} protetto={isProtetta(entry.id)}>
-  <a href={withBase(`culturaturismo/${entry.id}/`)}>&larr; Torna al contest</a>
+  <a data-pagefind-ignore href={withBase(`culturaturismo/${entry.id}/`)}>&larr; Torna al contest</a>
   <h1>{title}</h1>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 

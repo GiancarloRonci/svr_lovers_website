@@ -30,7 +30,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
 ---
 
 <Layout title={title} description={description}>
-  <a href={withBase('articoli/')}>&larr; Tutti gli articoli</a>
+  <a data-pagefind-ignore href={withBase('articoli/')}>&larr; Tutti gli articoli</a>
   <h1>{title}</h1>
   <p class="meta">
     {data && <>{data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</>}
