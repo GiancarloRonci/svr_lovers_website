@@ -72,6 +72,22 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   }
 
   {
+    galleryItems.some((item) => item.caption) && (
+      <section class="foto-elenco">
+        <h2>The photos</h2>
+        <ul>
+          {galleryItems.map((item) => (
+            <li>
+              <strong>{item.name}</strong>
+              {item.caption && `: ${item.caption}`}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
     galleryItems.length > 0 && (
       <section class="gallery">
         {galleryItems.map((item) => (

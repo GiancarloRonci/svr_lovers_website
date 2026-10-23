@@ -20,9 +20,25 @@ interface Props {
 const { items, lang = 'it' } = Astro.props;
 const labels =
   lang === 'en'
-    ? { close: 'Close', prev: 'Previous photo', next: 'Next photo' }
-    : { close: 'Chiudi', prev: 'Foto precedente', next: 'Foto successiva' };
+    ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos' }
+    : { close: 'Chiudi', prev: 'Foto precedente', next: 'Foto successiva', photos: 'Le foto' };
 ---
+
+{
+  items.some((item) => item.caption) && (
+    <section class="foto-elenco">
+      <h2>{labels.photos}</h2>
+      <ul>
+        {items.map((item) => (
+          <li>
+            <strong>{item.name}</strong>
+            {item.caption && `: ${item.caption}`}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
 
 {
   items.length > 0 && (
