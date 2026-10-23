@@ -31,6 +31,10 @@ foto:
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
     didascalia: "The Fontana Nova along Viale Trento Trieste: a stone drinking fountain with an arched niche and a basin."
+  - lat: 41.879449
+    lng: 12.979186
+    immagine: ./alla-madonnina/foto7.jpg
+    didascalia: "An iron cross along Viale Trento Trieste, with trefoil ends, the words \"In hoc signo vinces\" and a sunburst at the centre, on a stone pedestal. In shape it resembles the wrought-iron crosses dated between 1890 and 1910 listed in Italy's General Catalogue of Cultural Heritage."
   - lat: 41.878723
     lng: 12.983615
     immagine: ./alla-madonnina/foto5.jpg

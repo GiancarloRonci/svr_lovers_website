@@ -31,6 +31,10 @@ foto:
     lng: 12.97918
     immagine: ./alla-madonnina/foto2.jpg
     didascalia: "La Fontana Nova lungo Viale Trento Trieste: un fontanile in pietra con la nicchia ad arco e la vasca."
+  - lat: 41.879449
+    lng: 12.979186
+    immagine: ./alla-madonnina/foto7.jpg
+    didascalia: "Una croce in ferro lungo Viale Trento Trieste, con le estremità trilobate, la scritta \"In hoc signo vinces\" e una raggiera al centro, su un piedistallo di pietra. Per forma ricorda le croci in ferro battuto databili tra il 1890 e il 1910 schedate nel Catalogo generale dei Beni culturali."
   - lat: 41.878723
     lng: 12.983615
     immagine: ./alla-madonnina/foto5.jpg
