@@ -42,7 +42,7 @@ const articoli = (await getCollection('articoli'))
   .slice(0, 3);
 ---
 
-<Layout title="Home">
+<Layout cercabile={false} title="Home">
   <section class="hero">
     {
       heroImage ? (

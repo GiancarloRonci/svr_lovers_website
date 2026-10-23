@@ -10,6 +10,9 @@ interface Props {
   noindex?: boolean;
   // Pagine in lavorazione: il contenuto si vede solo dopo aver inserito la password
   protetto?: boolean;
+  // Pagine di elenco (home, indici delle sezioni): restano fuori dalla ricerca interna,
+  // che così rimanda direttamente alle schede
+  cercabile?: boolean;
 }
 
 const strings = {
@@ -186,8 +189,10 @@ const navItems: (NavLink | NavDropdown)[] = [
   { type: 'link', label: t.nav.contatti, href: withBase(`${prefix}contatti/`) },
 ];
 
-const { title, description = t.defaultDescription, noindex = false, protetto = false } = Astro.props;
+const { title, description = t.defaultDescription, noindex = false, protetto = false, cercabile = true } = Astro.props;
 const hashAccesso = HASH_PASSWORD;
+// Pagefind indicizza solo le pagine con data-pagefind-body: le pagine riservate o di servizio ne restano fuori
+const indicizzata = cercabile && !noindex && !protetto;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 let relPath = Astro.url.pathname;
@@ -327,7 +332,7 @@ const privacyHref = withBase(`${prefix}privacy/`);
       )
     }
 
-    <main class:list={[{ protetto }]}>
+    <main class:list={[{ protetto }]} data-pagefind-body={indicizzata ? '' : undefined}>
       <slot />
     </main>
 

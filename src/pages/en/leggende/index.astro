@@ -8,7 +8,7 @@ import { byInsertionDesc } from '../../../lib/insertionOrder';
 const leggende = (await getCollection('leggendeEn')).sort(byInsertionDesc);
 ---
 
-<Layout title="Legends" description="Legends and folk tales handed down in San Vito Romano.">
+<Layout cercabile={false} title="Legends" description="Legends and folk tales handed down in San Vito Romano.">
   <h1>Legends</h1>
   <p class="meta">Stories, mysteries and folk tales passed down from generation to generation.</p>
 

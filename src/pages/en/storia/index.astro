@@ -9,7 +9,7 @@ const articoli = (await getCollection('storiaEn')).sort(
 );
 ---
 
-<Layout title="History" description="The history of our town, from its origins to today.">
+<Layout cercabile={false} title="History" description="The history of our town, from its origins to today.">
   <h1>History</h1>
   <p class="meta">The events, traditions and figures that have shaped the town.</p>
 

@@ -29,7 +29,7 @@ const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 const hasFoto = Boolean(foto && foto.length > 0);
 ---
 
-<div class="trail-map-container">
+<div class="trail-map-container" data-pagefind-ignore>
   <div
     class:list={['trail-map', { alta }]}
     data-gpx={gpxUrl}

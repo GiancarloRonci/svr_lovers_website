@@ -7,7 +7,7 @@ import { withBase } from '../../../lib/url';
 const itinerari = (await getCollection('cosaFareEn')).sort((a, b) => a.data.giorniTotali - b.data.giorniTotali);
 ---
 
-<Layout title="What to Do" description="Suggested itineraries for a stay in San Vito Romano.">
+<Layout cercabile={false} title="What to Do" description="Suggested itineraries for a stay in San Vito Romano.">
   <h1>What to Do</h1>
   <p class="meta">Itineraries with suggested times for a 3, 5, 7 or 15 day stay.</p>
   <p class="avviso">

@@ -9,7 +9,7 @@ const articoli = (await getCollection('storia')).sort(
 );
 ---
 
-<Layout title="Storia" description="La storia del nostro paese, dalle origini a oggi.">
+<Layout cercabile={false} title="Storia" description="La storia del nostro paese, dalle origini a oggi.">
   <h1>Storia</h1>
   <p class="meta">Le vicende, le tradizioni e i personaggi che hanno segnato il paese.</p>
 

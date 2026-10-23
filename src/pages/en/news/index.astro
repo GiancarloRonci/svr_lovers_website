@@ -10,7 +10,7 @@ const news = (await getCollection('newsEn')).sort(
 );
 ---
 
-<Layout title="News" description="The community's latest news.">
+<Layout cercabile={false} title="News" description="The community's latest news.">
   <h1>News</h1>
   <p class="meta">All the community's news and updates.</p>
 

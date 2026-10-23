@@ -9,7 +9,7 @@ const urbani = percorsi.filter((p) => p.data.tipo === 'urbano');
 const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
 ---
 
-<Layout title="Percorsi" description="Percorsi di trekking urbano e naturalistico nel nostro paese.">
+<Layout cercabile={false} title="Percorsi" description="Percorsi di trekking urbano e naturalistico nel nostro paese.">
   <h1>Percorsi</h1>
   <p class="meta">Itinerari a piedi tra il centro storico e la natura circostante.</p>
 

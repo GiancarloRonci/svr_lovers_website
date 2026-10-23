@@ -8,7 +8,7 @@ import { byInsertionDesc } from '../../lib/insertionOrder';
 const articoli = (await getCollection('articoli')).sort(byInsertionDesc);
 ---
 
-<Layout title="Articoli" description="Articoli della community su San Vito Romano.">
+<Layout cercabile={false} title="Articoli" description="Articoli della community su San Vito Romano.">
   <h1>Articoli</h1>
   <p class="meta">Racconti, approfondimenti e curiosità su San Vito Romano scritti dalla community.</p>
 
