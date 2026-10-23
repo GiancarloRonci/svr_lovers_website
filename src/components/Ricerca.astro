@@ -24,13 +24,15 @@ const strings = {
 const t = strings[lang];
 const bundlePath = withBase('pagefind/');
 const cancella = t.cancella;
+// Nome del filtro per sezione impostato in Layout.astro: lo si apre da subito
+const filtroSezione = lang === 'en' ? 'Section' : 'Sezione';
 ---
 
 <link rel="stylesheet" href={`${bundlePath}pagefind-ui.css`} />
 <div id="ricerca" class="ricerca"></div>
 <p id="ricerca-errore" class="meta" hidden>{t.nonDisponibile}</p>
 
-<script is:inline define:vars={{ bundlePath, cancella }}>
+<script is:inline define:vars={{ bundlePath, cancella, filtroSezione }}>
   (function () {
     var errore = document.getElementById('ricerca-errore');
     var s = document.createElement('script');
@@ -43,6 +45,9 @@ const cancella = t.cancella;
         showSubResults: true,
         resetStyles: false,
         autofocus: true,
+        // Sul telefono il filtro aperto spingerebbe in basso i risultati: resta chiuso, si apre con un tocco
+        openFilters: window.matchMedia('(min-width: 720px)').matches ? [filtroSezione] : [],
+        showEmptyFilters: false,
         translations: { clear_search: cancella },
       });
       // Una ricerca arrivata da un link (es. /cerca/?q=castagne) parte subito
@@ -67,8 +72,14 @@ const cancella = t.cancella;
     --pagefind-ui-border-width: 1px;
     --pagefind-ui-border-radius: 8px;
     --pagefind-ui-font: var(--font-body);
-    max-width: 760px;
+    max-width: 900px;
     margin-top: 1.5rem;
+  }
+
+  .ricerca fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .ricerca .pagefind-ui__result-link {

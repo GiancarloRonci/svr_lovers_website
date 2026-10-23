@@ -53,6 +53,8 @@ const strings = {
       weekend: 'Il weekend',
       cerca: 'Cerca',
     },
+    filtroSezione: 'Sezione',
+    altrePagine: 'Altre pagine',
     defaultDescription: 'Il paese: storia, percorsi, luoghi ed eventi.',
     footer: (year: number) => `© ${year} Il Paese. Sito realizzato dalla comunità.`,
     privacy: 'Privacy e cookie',
@@ -109,6 +111,8 @@ const strings = {
       weekend: 'The Weekend',
       cerca: 'Search',
     },
+    filtroSezione: 'Section',
+    altrePagine: 'Other pages',
     defaultDescription: 'The village: history, trails, places and events.',
     footer: (year: number) => `© ${year} The Village. Website made by the community.`,
     privacy: 'Privacy and cookies',
@@ -201,6 +205,23 @@ let relPath = Astro.url.pathname;
 if (base && relPath.startsWith(base)) relPath = relPath.slice(base.length);
 relPath = relPath.replace(/^\//, '');
 const bare = relPath === 'en' ? '' : relPath.startsWith('en/') ? relPath.slice(3) : relPath;
+
+// Filtro per sezione nella ricerca interna, ricavato dal primo pezzo dell'indirizzo
+const sezioni: Record<string, string> = {
+  eventi: t.nav.eventi,
+  news: t.nav.news,
+  luoghi: t.nav.luoghi,
+  percorsi: t.nav.percorsi,
+  'mappe-foto': t.nav.mappeFoto,
+  storia: t.nav.storia,
+  leggende: t.nav.leggende,
+  articoli: t.nav.articoli,
+  'cosa-fare': t.nav.cosaFare,
+  soggiorno: t.nav.soggiorno,
+  culturaturismo: t.nav.associazione,
+};
+const sezione = sezioni[bare.split('/')[0]] ?? t.altrePagine;
+const filtroSezione = `${t.filtroSezione}:${sezione}`;
 
 const itHref = withBase(bare || '/');
 const enHref = withBase(`en/${bare}`);
@@ -343,7 +364,11 @@ const privacyHref = withBase(`${prefix}privacy/`);
       )
     }
 
-    <main class:list={[{ protetto }]} data-pagefind-body={indicizzata ? '' : undefined}>
+    <main
+      class:list={[{ protetto }]}
+      data-pagefind-body={indicizzata ? '' : undefined}
+      data-pagefind-filter={indicizzata ? filtroSezione : undefined}
+    >
       <slot />
     </main>
 
