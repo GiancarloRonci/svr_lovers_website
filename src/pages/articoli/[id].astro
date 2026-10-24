@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, data, autore, categoria, immagine, immagineIntera: immagineInteraFlag, galleria } = entry.data;
+const { title, description, data, autore, categoria, immagine, immagineIntera: immagineInteraFlag, copertinaBassa, galleria } = entry.data;
 // Nei "Viaggi nel tempo" e nelle "Storie in sanvitese" l'immagine è il cuore dell'articolo: si mostra intera, senza ritaglio (o quando lo chiede `immagineIntera`)
 const immagineIntera = categoria === 'viaggi-nel-tempo' || categoria === 'storie-in-sanvitese' || immagineInteraFlag === true;
 const { Content } = await render(entry);
@@ -46,7 +46,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
   </p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
   {immagine && !immagineIntera && <Image class="articolo-image" src={immagine} alt={title} width={900} height={500} />}
-  {immagine && immagineIntera && <Image class="articolo-image-intera" src={immagine} alt={title} />}
+  {immagine && immagineIntera && <Image class:list={['articolo-image-intera', { bassa: copertinaBassa }]} src={immagine} alt={title} />}
   {
     categoria === 'weekend' && (
       <>
@@ -165,6 +165,11 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     height: auto;
     margin: 0 auto;
     border-radius: 8px;
+  }
+  /* Copertine verticali: al massimo tre quarti dello schermo, così il testo si vede subito */
+  .articolo-image-intera.bassa {
+    width: auto;
+    max-height: 75vh;
   }
 </style>
 

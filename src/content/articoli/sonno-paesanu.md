@@ -4,6 +4,7 @@ description: "Una poesia in sanvitese su un sogno: un paesano si ritrova su Mart
 data: 2026-10-23
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
+copertinaBassa: true
 immagine: ./sonno-paesanu/sonno-paesanu.jpg
 ---
 

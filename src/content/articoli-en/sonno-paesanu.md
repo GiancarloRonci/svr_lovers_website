@@ -4,6 +4,7 @@ description: "A poem in the San Vito dialect about a dream: a villager finds him
 data: 2026-10-23
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
+copertinaBassa: true
 immagine: ./sonno-paesanu/sonno-paesanu.jpg
 ---
 

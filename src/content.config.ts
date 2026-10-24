@@ -271,6 +271,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     categoria: z.enum(['viaggi-nel-tempo', 'weekend', 'storie-in-sanvitese']).optional(),
     // Mostra l'immagine intera, senza ritaglio (es. locandine verticali)
     immagineIntera: z.boolean().optional(),
+    // Limita l'altezza della copertina intera a circa tre quarti dello schermo (per le immagini verticali)
+    copertinaBassa: z.boolean().optional(),
     immagine: image().optional(),
     // Parte dell'immagine da tenere nel ritaglio delle schede, con i valori di sharp: "top", "bottom", "left", "right", "left top", "left bottom", "right top", "right bottom" (non "center top"); senza, il centro
     copertinaPosizione: z.string().optional(),
