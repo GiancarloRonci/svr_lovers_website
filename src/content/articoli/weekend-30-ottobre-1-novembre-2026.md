@@ -3,6 +3,7 @@ title: "Il weekend: castagne e Halloween per Ognissanti (30 ottobre-1 novembre)"
 description: "Sagre del marrone a Rocca di Cave e Arcinazzo, Festa d'Autunno a Ciciliano, castagne a Monte Livata e a Jenne, Halloween a Capranica, Olevano, Colleferro, Paliano e Poli, musica corale a Palestrina: cosa fare nel weekend dal 30 ottobre al 1° novembre 2026."
 data: 2026-10-24
 categoria: weekend
+immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
 ---
 
 È il weekend di Halloween e di Ognissanti: sabato si festeggia tra zucche e maschere, domenica è festa. Intorno a casa è il momento delle castagne, con tre sagre a meno di mezz'ora e altre feste sui Simbruini.

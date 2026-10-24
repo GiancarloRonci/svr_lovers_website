@@ -3,6 +3,7 @@ title: "The Weekend: chestnuts and Halloween for All Saints (30 October-1 Novemb
 description: "Chestnut festivals in Rocca di Cave and Arcinazzo, the Autumn Festival in Ciciliano, chestnuts at Monte Livata and in Jenne, Halloween in Capranica, Olevano, Colleferro, Paliano and Poli, choral music in Palestrina: what to do on the weekend of 30 October to 1 November 2026."
 data: 2026-10-24
 categoria: weekend
+immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
 ---
 
 It's the weekend of Halloween and All Saints' Day: on Saturday there are pumpkins and costumes, and Sunday is a public holiday. Around home it's chestnut time, with three festivals less than half an hour away and more celebrations in the Simbruini mountains.
