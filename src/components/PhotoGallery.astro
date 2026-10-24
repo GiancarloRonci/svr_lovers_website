@@ -30,7 +30,7 @@ const labels =
   items.some((item) => item.caption) && (
     <section class="foto-elenco">
       <h2>{labels.photos}</h2>
-      <ul>
+      <ul class:list={{ numerata }}>
         {items.map((item, i) => (
           <li>
             {numerata && <span class="foto-num">{i + 1}</span>}
@@ -117,6 +117,23 @@ const labels =
   }
   .foto-elenco .foto-num {
     margin-right: 0.4rem;
+  }
+  /* Con i numeri d'ordine il punto dell'elenco non serve */
+  .foto-elenco ul.numerata {
+    list-style: none;
+    padding-left: 0;
+  }
+  /* Il testo che va a capo resta allineato a destra del numero */
+  .foto-elenco ul.numerata li {
+    position: relative;
+    padding-left: 2.1rem;
+    margin-bottom: 0.3rem;
+  }
+  .foto-elenco ul.numerata .foto-num {
+    position: absolute;
+    left: 0;
+    top: 0.05rem;
+    margin-right: 0;
   }
   .lightbox-num {
     margin-right: 0.4rem;
