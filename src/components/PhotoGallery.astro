@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
-import { osmLabel, osmUrl } from '../lib/osm';
+import { osmLabel, osmLabelLuogo, osmUrl } from '../lib/osm';
 
 interface GalleryItem {
   immagine: ImageMetadata;
@@ -23,9 +23,18 @@ interface Props {
   numerata?: boolean;
   // Titolo dell'elenco delle didascalie, se diverso da "Le foto" (es. "Foto lungo il percorso")
   titolo?: string;
+  // Posizione del luogo, usata per il link alla mappa delle foto che non hanno una posizione propria
+  luogo?: { lat: number; lng: number };
 }
 
-const { items, lang = 'it', numerata = false, titolo } = Astro.props;
+const { items, lang = 'it', numerata = false, titolo, luogo } = Astro.props;
+// Link alla mappa di ogni foto: la sua posizione se nota, altrimenti quella del luogo (con un'etichetta diversa)
+const mappa = (item: GalleryItem) =>
+  item.lat !== undefined && item.lng !== undefined
+    ? { url: osmUrl(item.lat, item.lng), label: osmLabel(lang) }
+    : luogo
+      ? { url: osmUrl(luogo.lat, luogo.lng), label: osmLabelLuogo(lang) }
+      : undefined;
 const labels =
   lang === 'en'
     ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos', open: 'Open the photo' }
@@ -52,7 +61,7 @@ const labels =
 
       <section class="gallery">
         {items.map((item, i) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined} data-map={item.lat !== undefined && item.lng !== undefined ? osmUrl(item.lat, item.lng) : undefined}>
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined} data-map={mappa(item)?.url} data-map-label={mappa(item)?.label}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
             {numerata && <span class="foto-num" aria-hidden="true">{i + 1}</span>}
           </button>
@@ -68,7 +77,7 @@ const labels =
           <span class="lightbox-text"><span class="foto-num lightbox-num" hidden></span><span class="lightbox-desc"></span></span>
           <span class="lightbox-meta">
             <span class="lightbox-credit"></span>
-            <a class="lightbox-map" target="_blank" rel="noopener" hidden>{osmLabel(lang)}</a>
+            <a class="lightbox-map" target="_blank" rel="noopener" hidden></a>
           </span>
         </figcaption>
         </figure>
@@ -299,6 +308,7 @@ const labels =
       caption.textContent = desc ? `${name}: ${desc}` : name;
       credit.textContent = items[current].dataset.credit ?? '';
       mapLink.href = items[current].dataset.map ?? '';
+      mapLink.textContent = items[current].dataset.mapLabel ?? '';
       mapLink.hidden = !items[current].dataset.map;
     };
     const open = (i: number) => {

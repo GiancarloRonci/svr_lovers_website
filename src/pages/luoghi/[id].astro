@@ -57,7 +57,7 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     segnalazioni che il sito può migliorare sempre di più.
   </p>
 
-  <PhotoGallery items={galleryItems} numerata />
+  <PhotoGallery items={galleryItems} luogo={coordinate} numerata />
 </Layout>
 
 <style>
