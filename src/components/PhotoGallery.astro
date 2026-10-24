@@ -22,30 +22,28 @@ interface Props {
 const { items, lang = 'it', numerata = false } = Astro.props;
 const labels =
   lang === 'en'
-    ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos' }
-    : { close: 'Chiudi', prev: 'Foto precedente', next: 'Foto successiva', photos: 'Le foto' };
+    ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos', open: 'Open the photo' }
+    : { close: 'Chiudi', prev: 'Foto precedente', next: 'Foto successiva', photos: 'Le foto', open: 'Apri la foto' };
 ---
-
-{
-  items.some((item) => item.caption) && (
-    <section class="foto-elenco">
-      <h2>{labels.photos}</h2>
-      <ul class:list={{ numerata }}>
-        {items.map((item, i) => (
-          <li>
-            {numerata && <span class="foto-num">{i + 1}</span>}
-            <strong>{item.name}</strong>
-            {item.caption && `: ${item.caption}`}
-          </li>
-        ))}
-      </ul>
-    </section>
-  )
-}
 
 {
   items.length > 0 && (
     <div class="photo-gallery">
+      {items.some((item) => item.caption) && (
+        <section class="foto-elenco">
+          <h2>{labels.photos}</h2>
+          <ul class:list={{ numerata }}>
+            {items.map((item, i) => (
+              <li>
+                {numerata && <span class="foto-num">{i + 1}</span>}
+                <button type="button" class="foto-apri" data-index={i} title={labels.open}>{item.name}</button>
+                {item.caption && `: ${item.caption}`}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <section class="gallery">
         {items.map((item, i) => (
           <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined}>
@@ -118,6 +116,22 @@ const labels =
   .foto-elenco .foto-num {
     margin-right: 0.4rem;
   }
+  /* Il nome della foto nell'elenco è un link che apre l'ingrandimento */
+  .foto-apri {
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: zoom-in;
+  }
+  .foto-apri:hover {
+    text-decoration-thickness: 2px;
+  }
+
   /* Con i numeri d'ordine il punto dell'elenco non serve */
   .foto-elenco ul.numerata {
     list-style: none;
@@ -259,6 +273,9 @@ const labels =
     };
 
     items.forEach((item, i) => item.addEventListener('click', () => open(i)));
+    container.querySelectorAll<HTMLButtonElement>('.foto-apri').forEach((link) =>
+      link.addEventListener('click', () => open(Number(link.dataset.index)))
+    );
     lightbox.querySelector('.lightbox-close')?.addEventListener('click', close);
     lightbox.querySelector('.lightbox-prev')?.addEventListener('click', () => move(-1));
     lightbox.querySelector('.lightbox-next')?.addEventListener('click', () => move(1));
