@@ -7,9 +7,12 @@ coordinate:
   lat: 41.8830
   lng: 12.9836
 galleria:
-  - ./castello-theodoli/photo2.jpg
-  - ./castello-theodoli/photo3.jpg
-  - ./castello-theodoli/photo4.jpg
+  - immagine: ./castello-theodoli/photo2.jpg
+    didascalia: "La facciata del castello vista dal basso, con la torre rotonda e le finestre ad arco."
+  - immagine: ./castello-theodoli/photo3.jpg
+    didascalia: "Il castello visto dalla salita in selciato, con il muro a scarpa e la torre rotonda."
+  - immagine: ./castello-theodoli/photo4.jpg
+    didascalia: "Un portone ad arco in legno nel muro di cinta e la scalinata in selciato che sale verso un palazzo in pietra."
   - immagine: ./castello-theodoli/photo10.jpg
     didascalia: "Fotografia d'archivio in bianco e nero di un affresco degli interni: un paesaggio con cacciatori e cani, incorniciato da putti, festoni e telamoni dipinti."
   - immagine: ./castello-theodoli/photo11.jpg

@@ -7,12 +7,18 @@ coordinate:
   lat: 41.883
   lng: 12.983
 galleria:
-  - ./villa-comunale/photo2.jpg
-  - ./villa-comunale/photo3.jpg
-  - ./villa-comunale/photo4.jpg
-  - ./villa-comunale/photo5.jpg
-  - ./villa-comunale/photo6.jpg
-  - ./villa-comunale/photo7.jpg
+  - immagine: ./villa-comunale/photo2.jpg
+    didascalia: "The path running through the park, with its wooden fence."
+  - immagine: ./villa-comunale/photo3.jpg
+    didascalia: "The lawn between the trees and the path, with the children's play area in the background."
+  - immagine: ./villa-comunale/photo4.jpg
+    didascalia: "Wooden tables and benches in the shade of the trees."
+  - immagine: ./villa-comunale/photo5.jpg
+    didascalia: "The park lawn, with the fenced play area in the background."
+  - immagine: ./villa-comunale/photo6.jpg
+    didascalia: "The colourful play area, seen from the lawn along the path."
+  - immagine: ./villa-comunale/photo7.jpg
+    didascalia: "A pink building at the entrance to the park, on the stone-paved open space among the pines."
   - immagine: ./villa-comunale/photo8.jpg
     didascalia: "The semicircular stone terraces, in the shade of the trees."
 ---

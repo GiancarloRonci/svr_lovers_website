@@ -11,9 +11,11 @@ coordinate:
   lng: 13.1466
 galleria:
   - immagine: ./monte-livata/photo2.jpg
+    didascalia: "A rocky ridge at altitude, with a view over the Simbruini mountains."
     autore: "Agordal"
     licenza: "public domain"
   - immagine: ./monte-livata/photo3.jpg
+    didascalia: "The beech forest in its autumn colours."
     autore: "Paolo Negretti"
     licenza: "CC BY-SA 4.0"
 ---

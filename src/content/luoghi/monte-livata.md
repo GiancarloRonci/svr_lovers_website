@@ -11,9 +11,11 @@ coordinate:
   lng: 13.1466
 galleria:
   - immagine: ./monte-livata/photo2.jpg
+    didascalia: "Un crinale roccioso in quota, con la vista sulle montagne dei Simbruini."
     autore: "Agordal"
     licenza: "pubblico dominio"
   - immagine: ./monte-livata/photo3.jpg
+    didascalia: "La faggeta con i colori dell'autunno."
     autore: "Paolo Negretti"
     licenza: "CC BY-SA 4.0"
 ---

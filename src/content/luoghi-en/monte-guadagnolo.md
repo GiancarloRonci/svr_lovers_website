@@ -11,27 +11,45 @@ coordinate:
   lng: 12.927746
 galleria:
   - immagine: ./monte-guadagnolo/photo2.jpg
+    didascalia: "The summit of Monte Guadagnolo seen from the meadows below."
     autore: "Registrato2013"
     licenza: "public domain"
   - immagine: ./monte-guadagnolo/photo3.jpg
+    didascalia: "Sunset among the pines, with the valleys and a village in the distance."
     autore: "Sofiasettembre"
     licenza: "CC BY-SA 4.0"
-  - ./monte-guadagnolo/photo4.jpg
-  - ./monte-guadagnolo/photo5.jpg
-  - ./monte-guadagnolo/photo6.jpg
-  - ./monte-guadagnolo/photo7.jpg
-  - ./monte-guadagnolo/photo8.jpg
-  - ./monte-guadagnolo/photo9.jpg
-  - ./monte-guadagnolo/photo10.jpg
-  - ./monte-guadagnolo/photo11.jpg
-  - ./monte-guadagnolo/photo12.jpg
-  - ./monte-guadagnolo/photo13.jpg
-  - ./monte-guadagnolo/photo14.jpg
-  - ./monte-guadagnolo/photo15.jpg
-  - ./monte-guadagnolo/photo16.jpg
-  - ./monte-guadagnolo/photo17.jpg
-  - ./monte-guadagnolo/photo18.jpg
-  - ./monte-guadagnolo/photo19.jpg
+  - immagine: ./monte-guadagnolo/photo4.jpg
+    didascalia: "The monument with the statue of Christ with open arms, at the top of the village."
+  - immagine: ./monte-guadagnolo/photo5.jpg
+    didascalia: "A church in the village, with its small bell tower and rose window, on the square among the trees."
+  - immagine: ./monte-guadagnolo/photo6.jpg
+    didascalia: "An old stone and brick bell tower, with a bronze statue on the rock beside it."
+  - immagine: ./monte-guadagnolo/photo7.jpg
+    didascalia: "A bell tower among the white rocks, with the village rooftops and the mountains on the horizon."
+  - immagine: ./monte-guadagnolo/photo8.jpg
+    didascalia: "The view from the lookout, with a planter of red geraniums in the foreground."
+  - immagine: ./monte-guadagnolo/photo9.jpg
+    didascalia: "The view from the terrace over the small football pitch and the hills."
+  - immagine: ./monte-guadagnolo/photo10.jpg
+    didascalia: "The view from the rock over the valleys and the pastures below."
+  - immagine: ./monte-guadagnolo/photo11.jpg
+    didascalia: "The hills and the plain in the distance, seen from the rocks at the summit."
+  - immagine: ./monte-guadagnolo/photo12.jpg
+    didascalia: "A paved street in the village, with the flower-lined stairway climbing towards an arch."
+  - immagine: ./monte-guadagnolo/photo13.jpg
+    didascalia: "A cobbled lane seen from beneath a stone arch."
+  - immagine: ./monte-guadagnolo/photo14.jpg
+    didascalia: "Stone houses with green shutters on a small square in the village."
+  - immagine: ./monte-guadagnolo/photo15.jpg
+    didascalia: "The paved square with its stone houses and a tree with red leaves."
+  - immagine: ./monte-guadagnolo/photo16.jpg
+    didascalia: "The arch leading towards the centre of the village, between houses with green doors."
+  - immagine: ./monte-guadagnolo/photo17.jpg
+    didascalia: "The pedestrian street at the entrance to the village, between the stone houses and the trees."
+  - immagine: ./monte-guadagnolo/photo18.jpg
+    didascalia: "The square bustling with gazebos during a festival, with many visitors."
+  - immagine: ./monte-guadagnolo/photo19.jpg
+    didascalia: "A stone and timber building with balconies, on the village square."
 ---
 
 Guadagnolo, a hamlet of the municipality of Capranica Prenestina not far from San Vito Romano, sits atop the mountain of the same name at 1218 metres above sea level: it is the highest inhabited place in Lazio, perched on the tallest peak of the Prenestini Mountains. Despite having just 56 residents, this tiny mountain village offers one of the most extraordinary panoramas in the region.

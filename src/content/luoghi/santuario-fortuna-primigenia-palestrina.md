@@ -11,9 +11,11 @@ coordinate:
   lng: 12.892571
 galleria:
   - immagine: ./santuario-fortuna-primigenia-palestrina/photo2.jpg
+    didascalia: "Il Mosaico del Nilo, esposto nel Museo Archeologico Prenestino."
     autore: "Camelia.boban"
     licenza: "CC BY-SA 3.0"
   - immagine: ./santuario-fortuna-primigenia-palestrina/photo3.jpg
+    didascalia: "La scalinata che sale tra le arcate delle terrazze del santuario verso il Palazzo Colonna Barberini."
     autore: "Camelia.boban"
     licenza: "CC BY-SA 3.0"
 ---

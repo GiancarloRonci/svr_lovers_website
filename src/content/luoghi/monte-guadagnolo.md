@@ -11,27 +11,45 @@ coordinate:
   lng: 12.927746
 galleria:
   - immagine: ./monte-guadagnolo/photo2.jpg
+    didascalia: "La vetta del Monte Guadagnolo vista dai prati sottostanti."
     autore: "Registrato2013"
     licenza: "pubblico dominio"
   - immagine: ./monte-guadagnolo/photo3.jpg
+    didascalia: "Il tramonto tra i pini, con le valli e un paese in lontananza."
     autore: "Sofiasettembre"
     licenza: "CC BY-SA 4.0"
-  - ./monte-guadagnolo/photo4.jpg
-  - ./monte-guadagnolo/photo5.jpg
-  - ./monte-guadagnolo/photo6.jpg
-  - ./monte-guadagnolo/photo7.jpg
-  - ./monte-guadagnolo/photo8.jpg
-  - ./monte-guadagnolo/photo9.jpg
-  - ./monte-guadagnolo/photo10.jpg
-  - ./monte-guadagnolo/photo11.jpg
-  - ./monte-guadagnolo/photo12.jpg
-  - ./monte-guadagnolo/photo13.jpg
-  - ./monte-guadagnolo/photo14.jpg
-  - ./monte-guadagnolo/photo15.jpg
-  - ./monte-guadagnolo/photo16.jpg
-  - ./monte-guadagnolo/photo17.jpg
-  - ./monte-guadagnolo/photo18.jpg
-  - ./monte-guadagnolo/photo19.jpg
+  - immagine: ./monte-guadagnolo/photo4.jpg
+    didascalia: "Il monumento con la statua del Cristo a braccia aperte, in cima al paese."
+  - immagine: ./monte-guadagnolo/photo5.jpg
+    didascalia: "Una chiesa del paese, con il piccolo campanile e il rosone, sul piazzale tra gli alberi."
+  - immagine: ./monte-guadagnolo/photo6.jpg
+    didascalia: "Un vecchio campanile in pietra e mattoni, con una statua in bronzo sulla rupe accanto."
+  - immagine: ./monte-guadagnolo/photo7.jpg
+    didascalia: "Un campanile tra le rocce bianche, con i tetti del paese e i monti all'orizzonte."
+  - immagine: ./monte-guadagnolo/photo8.jpg
+    didascalia: "Il panorama dal belvedere, con una fioriera di gerani rossi in primo piano."
+  - immagine: ./monte-guadagnolo/photo9.jpg
+    didascalia: "La vista dalla terrazza sul campetto da calcio e sulle colline."
+  - immagine: ./monte-guadagnolo/photo10.jpg
+    didascalia: "Il panorama dalla rupe sulle valli e sui pascoli sottostanti."
+  - immagine: ./monte-guadagnolo/photo11.jpg
+    didascalia: "Le colline e la pianura in lontananza, viste dalle rocce della cima."
+  - immagine: ./monte-guadagnolo/photo12.jpg
+    didascalia: "Una via lastricata del paese, con la scalinata fiorita che sale verso un arco."
+  - immagine: ./monte-guadagnolo/photo13.jpg
+    didascalia: "Un vicolo in selciato visto da sotto un arco in pietra."
+  - immagine: ./monte-guadagnolo/photo14.jpg
+    didascalia: "Case in pietra con le persiane verdi in una piazzetta del borgo."
+  - immagine: ./monte-guadagnolo/photo15.jpg
+    didascalia: "La piazzetta lastricata con le case in pietra e un albero dalle foglie rosse."
+  - immagine: ./monte-guadagnolo/photo16.jpg
+    didascalia: "L'arco che porta verso il centro del paese, tra le case con le porte verdi."
+  - immagine: ./monte-guadagnolo/photo17.jpg
+    didascalia: "La strada pedonale all'ingresso del paese, tra le case in pietra e gli alberi."
+  - immagine: ./monte-guadagnolo/photo18.jpg
+    didascalia: "La piazza animata dai gazebo durante una festa, con molti visitatori."
+  - immagine: ./monte-guadagnolo/photo19.jpg
+    didascalia: "Un edificio in pietra e legno con i balconi, sulla piazza del paese."
 ---
 
 Guadagnolo, frazione del comune di Capranica Prenestina non lontano da San Vito Romano, sorge in cima all'omonimo Monte Guadagnolo a 1218 metri di altitudine: è il centro abitato più alto del Lazio, arroccato sulla vetta più elevata dei Monti Prenestini. Nonostante i soli 56 abitanti, questo minuscolo borgo di montagna offre uno dei panorami più straordinari della regione.

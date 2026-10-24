@@ -7,7 +7,8 @@ coordinate:
   lat: 41.8830
   lng: 12.9836
 galleria:
-  - ./santa-maria-de-arce/photo2.jpg
+  - immagine: ./santa-maria-de-arce/photo2.jpg
+    didascalia: "L'organo della chiesa, con la tastiera, i registri e la pedaliera."
 ---
 
 La Chiesa di Santa Maria de Arce sorge accanto al Castello Theodoli, nel punto più alto del centro storico: il nome "de Arce" deriva dal latino "arx", che significa rocca o altura, a ricordo della sua collocazione. La prima fase costruttiva risale al XV secolo, come testimonia l'iscrizione del 1489 incisa su una campana, quando la chiesa serviva quasi esclusivamente i soldati di guarnigione presso la Rocca.

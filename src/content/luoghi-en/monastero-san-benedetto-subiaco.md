@@ -11,9 +11,11 @@ coordinate:
   lng: 13.117677
 galleria:
   - immagine: ./monastero-san-benedetto-subiaco/photo2.jpg
+    didascalia: "The interior of the church, with its cross vaults entirely covered in frescoes."
     autore: "Livioandronico2013"
     licenza: "CC BY-SA 4.0"
   - immagine: ./monastero-san-benedetto-subiaco/photo3.jpg
+    didascalia: "The monastery built on the rock, with its tall jutting arches and the valley below."
     autore: "pietro scerrato"
     licenza: "CC BY 3.0"
   - immagine: ./monastero-san-benedetto-subiaco/photo4.jpg

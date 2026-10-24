@@ -11,6 +11,7 @@ coordinate:
   lng: 12.9731594
 galleria:
   - immagine: ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+    didascalia: "The altar with the image of Our Lady of Good Counsel, among polychrome marble, gold and frescoes."
     autore: "Cruz.croce"
     licenza: "CC0"
 ---

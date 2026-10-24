@@ -11,9 +11,11 @@ coordinate:
   lng: 13.030878
 galleria:
   - immagine: ./olevano-romano/photo2.jpg
+    didascalia: "Paesaggio con rocce e alberi dipinto nell'Ottocento da Paul Weber, uno dei tanti pittori stranieri attratti dalla campagna di Olevano."
     autore: "Paul Weber"
     licenza: "pubblico dominio"
   - immagine: ./olevano-romano/photo3.jpg
+    didascalia: "Le case del paese in una giornata nuvolosa, con alcune rose rosse in primo piano."
     autore: "Kaethe17"
     licenza: "CC BY 4.0"
 ---

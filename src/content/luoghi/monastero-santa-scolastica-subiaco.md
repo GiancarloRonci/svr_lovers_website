@@ -11,6 +11,7 @@ coordinate:
   lng: 13.1102558
 galleria:
   - immagine: ./monastero-santa-scolastica-subiaco/photo2.jpg
+    didascalia: "Il chiostro cosmatesco, con gli archetti sorretti da colonnine binate, alcune tortili."
     autore: "Livioandronico2013"
     licenza: "CC BY-SA 4.0"
 ---

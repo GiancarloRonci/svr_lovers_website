@@ -11,6 +11,7 @@ coordinate:
   lng: 12.9731594
 galleria:
   - immagine: ./santuario-madonna-buon-consiglio-genazzano/photo2.jpg
+    didascalia: "L'altare con l'immagine della Madonna del Buon Consiglio, tra marmi policromi, oro e affreschi."
     autore: "Cruz.croce"
     licenza: "CC0"
 ---

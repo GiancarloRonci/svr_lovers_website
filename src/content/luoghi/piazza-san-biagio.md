@@ -7,13 +7,20 @@ coordinate:
   lat: 41.8833
   lng: 12.9847
 galleria:
-  - ./piazza-san-biagio/photo2.jpg
-  - ./piazza-san-biagio/photo3.jpg
-  - ./piazza-san-biagio/photo4.jpg
-  - ./piazza-san-biagio/photo5.jpg
-  - ./piazza-san-biagio/photo6.jpg
-  - ./piazza-san-biagio/photo7.jpg
-  - ./piazza-san-biagio/photo9.jpg
+  - immagine: ./piazza-san-biagio/photo2.jpg
+    didascalia: "La facciata della chiesa di San Biagio vista dal basso, con il nastro azzurro sul portale."
+  - immagine: ./piazza-san-biagio/photo3.jpg
+    didascalia: "La piazza in sampietrini con la fontanella, le case in pietra e la chiesa di San Biagio."
+  - immagine: ./piazza-san-biagio/photo4.jpg
+    didascalia: "La chiesa e la piazza addobbate con le bandierine colorate per la festa."
+  - immagine: ./piazza-san-biagio/photo5.jpg
+    didascalia: "La piazza di sera, con i disegni della pavimentazione illuminati dai lampioni."
+  - immagine: ./piazza-san-biagio/photo6.jpg
+    didascalia: "La scalinata in pietra che sale dalla piazza tra le case, di sera."
+  - immagine: ./piazza-san-biagio/photo7.jpg
+    didascalia: "La chiesa di San Biagio e la piazza illuminate di notte."
+  - immagine: ./piazza-san-biagio/photo9.jpg
+    didascalia: "La piazza vista da un vicolo stretto, tra la roccia e i muri delle case."
   - immagine: ./piazza-san-biagio/photo10.jpg
     didascalia: "Tre porte magiche, che sanno di bei ricordi, di lavoro e di fede. Per molti anni c'era proprio una scritta sul muro che richiamava al lavoro e alla preghiera. Ricordo anche un periodo in cui praticamente venni invitato a partecipare a una tombola, lì dentro sulla sinistra, dove c'erano tutti i ragazzi nabballeri, e c'era ovviamente anche Don Marcello."
 ---

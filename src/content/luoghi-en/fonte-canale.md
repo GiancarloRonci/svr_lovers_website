@@ -4,13 +4,18 @@ description: One of San Vito Romano's most underrated and most beautiful spots, 
 comune: San Vito Romano
 immagine: ./fonte-canale/photo1.jpg
 galleria:
-  - ./fonte-canale/photo2.jpg
-  - ./fonte-canale/photo3.jpg
+  - immagine: ./fonte-canale/photo2.jpg
+    didascalia: "The village at sunset seen from Fonte Canale, with Castello Theodoli at the top; in the foreground, a small bell gable and a stone arch."
+  - immagine: ./fonte-canale/photo3.jpg
+    didascalia: "The village lit up in the evening, with the bell tower and Castello Theodoli."
   - immagine: ./fonte-canale/photo4.jpg
     didascalia: "The spring, with water flowing into the basin."
-  - ./fonte-canale/photo5.jpg
-  - ./fonte-canale/photo6.jpg
-  - ./fonte-canale/photo7.jpg
+  - immagine: ./fonte-canale/photo5.jpg
+    didascalia: "The wall of the fountain with its stone basins, in the evening."
+  - immagine: ./fonte-canale/photo6.jpg
+    didascalia: "The fountain's open space in the evening, under the string of lights hung above the wall."
+  - immagine: ./fonte-canale/photo7.jpg
+    didascalia: "The lawn with its benches and the lights strung along the wall, seen from beneath an arch."
   - immagine: ./fonte-canale/photo8.jpg
     didascalia: "Intruglio Lab, where the wash house once stood."
 coordinate:

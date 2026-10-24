@@ -7,12 +7,18 @@ coordinate:
   lat: 41.883
   lng: 12.983
 galleria:
-  - ./villa-comunale/photo2.jpg
-  - ./villa-comunale/photo3.jpg
-  - ./villa-comunale/photo4.jpg
-  - ./villa-comunale/photo5.jpg
-  - ./villa-comunale/photo6.jpg
-  - ./villa-comunale/photo7.jpg
+  - immagine: ./villa-comunale/photo2.jpg
+    didascalia: "Il viale che attraversa il parco, con la staccionata in legno."
+  - immagine: ./villa-comunale/photo3.jpg
+    didascalia: "Il prato tra gli alberi e il viale, con i giochi per bambini sullo sfondo."
+  - immagine: ./villa-comunale/photo4.jpg
+    didascalia: "Tavoli e panche in legno all'ombra degli alberi."
+  - immagine: ./villa-comunale/photo5.jpg
+    didascalia: "Il prato del parco, con l'area giochi recintata sullo sfondo."
+  - immagine: ./villa-comunale/photo6.jpg
+    didascalia: "L'area giochi colorata, vista dal prato lungo il viale."
+  - immagine: ./villa-comunale/photo7.jpg
+    didascalia: "Un edificio rosa all'ingresso del parco, sullo slargo in pietra tra i pini."
   - immagine: ./villa-comunale/photo8.jpg
     didascalia: "Le gradinate in pietra a semicerchio, all'ombra degli alberi."
 ---

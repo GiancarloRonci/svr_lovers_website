@@ -11,25 +11,41 @@ coordinate:
   lng: 12.9364636
 galleria:
   - immagine: ./santuario-della-mentorella/photo2.jpg
+    didascalia: "La valle vista dalla rupe del santuario, con i paesi e i monti all'orizzonte."
     autore: "Laky 1970"
     licenza: "CC BY-SA 4.0"
   - immagine: ./santuario-della-mentorella/photo3.jpg
+    didascalia: "L'interno della chiesa, con l'altare in fondo e le pareti affrescate."
     autore: "Laky 1970"
     licenza: "CC BY-SA 4.0"
-  - ./santuario-della-mentorella/photo4.jpg
-  - ./santuario-della-mentorella/photo5.jpg
-  - ./santuario-della-mentorella/photo6.jpg
-  - ./santuario-della-mentorella/photo7.jpg
-  - ./santuario-della-mentorella/photo8.jpg
-  - ./santuario-della-mentorella/photo9.jpg
-  - ./santuario-della-mentorella/photo10.jpg
-  - ./santuario-della-mentorella/photo11.jpg
-  - ./santuario-della-mentorella/photo12.jpg
-  - ./santuario-della-mentorella/photo13.jpg
-  - ./santuario-della-mentorella/photo14.jpg
-  - ./santuario-della-mentorella/photo15.jpg
-  - ./santuario-della-mentorella/photo16.jpg
-  - ./santuario-della-mentorella/photo17.jpg
+  - immagine: ./santuario-della-mentorella/photo4.jpg
+    didascalia: "La facciata della chiesa e gli edifici del santuario sul piazzale, con la statua di San Giovanni Paolo II davanti all'ingresso."
+  - immagine: ./santuario-della-mentorella/photo5.jpg
+    didascalia: "L'ingresso della chiesa con la statua in bronzo di San Giovanni Paolo II."
+  - immagine: ./santuario-della-mentorella/photo6.jpg
+    didascalia: "La navata durante una Messa, con l'altare in fondo."
+  - immagine: ./santuario-della-mentorella/photo7.jpg
+    didascalia: "Una cappella con la volta affrescata, un altare con un rilievo e la statua bianca di un santo."
+  - immagine: ./santuario-della-mentorella/photo8.jpg
+    didascalia: "Una scalinata con targhe e stemmi lungo il muro."
+  - immagine: ./santuario-della-mentorella/photo9.jpg
+    didascalia: "Il campanile a vela con due campane, affacciato sulla valle."
+  - immagine: ./santuario-della-mentorella/photo10.jpg
+    didascalia: "Una campana e una statua in bronzo ai piedi della rupe, con i rosari appesi."
+  - immagine: ./santuario-della-mentorella/photo11.jpg
+    didascalia: "La grotta di San Benedetto, con le candele accese e la statua del santo."
+  - immagine: ./santuario-della-mentorella/photo12.jpg
+    didascalia: "La grotta nella roccia, illuminata dalle candele."
+  - immagine: ./santuario-della-mentorella/photo13.jpg
+    didascalia: "La statua di San Benedetto nella grotta, circondata dalle fotografie lasciate dai fedeli."
+  - immagine: ./santuario-della-mentorella/photo14.jpg
+    didascalia: "Una teca nella roccia con le ossa dei monaci benedettini, sotto una lapide che invita a ricordare."
+  - immagine: ./santuario-della-mentorella/photo15.jpg
+    didascalia: "La vista dalla rupe sulla valle e sui paesi lontani."
+  - immagine: ./santuario-della-mentorella/photo16.jpg
+    didascalia: "Il panorama sulle valli e sui monti nella luce del pomeriggio."
+  - immagine: ./santuario-della-mentorella/photo17.jpg
+    didascalia: "Una cappella decorata con stucchi e statue, con l'altare e la statua della Madonna in una nicchia."
 ---
 
 Il Santuario della Mentorella sorge a oltre 1000 metri di quota su uno sperone roccioso dei Monti Prenestini, nel territorio di Capranica Prenestina, non lontano da San Vito Romano. È considerato il più antico santuario mariano d'Italia: la tradizione lo vuole fondato per volontà di Costantino nel IV secolo, proprio nel luogo dove sarebbe avvenuta la conversione del tribuno romano Placido.

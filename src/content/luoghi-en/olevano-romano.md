@@ -11,9 +11,11 @@ coordinate:
   lng: 13.030878
 galleria:
   - immagine: ./olevano-romano/photo2.jpg
+    didascalia: "Landscape with rocks and trees painted in the 19th century by Paul Weber, one of the many foreign painters drawn to the countryside around Olevano."
     autore: "Paul Weber"
     licenza: "public domain"
   - immagine: ./olevano-romano/photo3.jpg
+    didascalia: "The houses of the town on a cloudy day, with a few red roses in the foreground."
     autore: "Kaethe17"
     licenza: "CC BY 4.0"
 ---

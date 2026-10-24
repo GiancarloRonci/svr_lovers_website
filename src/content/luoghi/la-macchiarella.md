@@ -7,15 +7,24 @@ coordinate:
   lat: 41.882993
   lng: 12.976330
 galleria:
-  - ./la-macchiarella/photo2.jpg
-  - ./la-macchiarella/photo3.jpg
-  - ./la-macchiarella/photo4.jpg
-  - ./la-macchiarella/photo5.jpg
-  - ./la-macchiarella/photo6.jpg
-  - ./la-macchiarella/photo7.jpg
-  - ./la-macchiarella/photo8.jpg
-  - ./la-macchiarella/photo9.jpg
-  - ./la-macchiarella/photo10.jpg
+  - immagine: ./la-macchiarella/photo2.jpg
+    didascalia: "Il viale lastricato all'ingresso del parco, tra muretti in pietra e alberi d'alto fusto, con un cartello informativo"
+  - immagine: ./la-macchiarella/photo3.jpg
+    didascalia: "Un sentiero in terra battuta coperto di foglie, con una panchina a lato"
+  - immagine: ./la-macchiarella/photo4.jpg
+    didascalia: "Il sentiero che entra nel bosco tra le foglie verdi dei castagni"
+  - immagine: ./la-macchiarella/photo5.jpg
+    didascalia: "Il viale coperto di foglie lungo il muretto in pietra, con un lampione tra gli alberi"
+  - immagine: ./la-macchiarella/photo6.jpg
+    didascalia: "Il viale lastricato con le panchine sotto gli alberi, ai margini del parco verso le case"
+  - immagine: ./la-macchiarella/photo7.jpg
+    didascalia: "Un tavolo con panche in cima a una piccola altura erbosa"
+  - immagine: ./la-macchiarella/photo8.jpg
+    didascalia: "Il viale lastricato che scende verso lo spiazzo del parco, con i palazzi sullo sfondo"
+  - immagine: ./la-macchiarella/photo9.jpg
+    didascalia: "Le alte conifere ai margini del parco, sopra il muro di cinta"
+  - immagine: ./la-macchiarella/photo10.jpg
+    didascalia: "La strada alberata che costeggia il muro di cinta del parco"
   - immagine: ./la-macchiarella/photo11.jpg
     didascalia: Un ponticello in legno collega il sentiero al viale lastricato con staccionata e lampioni
   - immagine: ./la-macchiarella/photo12.jpg

@@ -7,15 +7,24 @@ coordinate:
   lat: 41.882993
   lng: 12.976330
 galleria:
-  - ./la-macchiarella/photo2.jpg
-  - ./la-macchiarella/photo3.jpg
-  - ./la-macchiarella/photo4.jpg
-  - ./la-macchiarella/photo5.jpg
-  - ./la-macchiarella/photo6.jpg
-  - ./la-macchiarella/photo7.jpg
-  - ./la-macchiarella/photo8.jpg
-  - ./la-macchiarella/photo9.jpg
-  - ./la-macchiarella/photo10.jpg
+  - immagine: ./la-macchiarella/photo2.jpg
+    didascalia: "The paved avenue at the entrance to the park, between low stone walls and tall trees, with an information sign"
+  - immagine: ./la-macchiarella/photo3.jpg
+    didascalia: "A dirt path covered in leaves, with a bench at the side"
+  - immagine: ./la-macchiarella/photo4.jpg
+    didascalia: "The path entering the woods among the green leaves of the chestnut trees"
+  - immagine: ./la-macchiarella/photo5.jpg
+    didascalia: "The leaf-covered avenue along the low stone wall, with a lamp post among the trees"
+  - immagine: ./la-macchiarella/photo6.jpg
+    didascalia: "The paved avenue with benches under the trees, on the edge of the park towards the houses"
+  - immagine: ./la-macchiarella/photo7.jpg
+    didascalia: "A table with benches on top of a small grassy rise"
+  - immagine: ./la-macchiarella/photo8.jpg
+    didascalia: "The paved avenue sloping down to the park's open space, with buildings in the background"
+  - immagine: ./la-macchiarella/photo9.jpg
+    didascalia: "The tall conifers on the edge of the park, above the boundary wall"
+  - immagine: ./la-macchiarella/photo10.jpg
+    didascalia: "The tree-lined road running along the park's boundary wall"
   - immagine: ./la-macchiarella/photo11.jpg
     didascalia: A small wooden footbridge links the trail to the paved avenue with its fence and lamp posts
   - immagine: ./la-macchiarella/photo12.jpg

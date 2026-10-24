@@ -11,6 +11,7 @@ coordinate:
   lng: 13.1102558
 galleria:
   - immagine: ./monastero-santa-scolastica-subiaco/photo2.jpg
+    didascalia: "The Cosmatesque cloister, with small arches resting on paired columns, some of them twisted."
     autore: "Livioandronico2013"
     licenza: "CC BY-SA 4.0"
 ---

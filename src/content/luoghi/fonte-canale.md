@@ -4,13 +4,18 @@ description: Una delle fonti più sottovalutate e più belle di San Vito Romano,
 comune: San Vito Romano
 immagine: ./fonte-canale/photo1.jpg
 galleria:
-  - ./fonte-canale/photo2.jpg
-  - ./fonte-canale/photo3.jpg
+  - immagine: ./fonte-canale/photo2.jpg
+    didascalia: "Il paese al tramonto visto dalla Fonte Canale, con il Castello Theodoli in cima; in primo piano un piccolo campanile a vela e un'arcata in pietra."
+  - immagine: ./fonte-canale/photo3.jpg
+    didascalia: "Il paese illuminato di sera, con il campanile e il Castello Theodoli."
   - immagine: ./fonte-canale/photo4.jpg
     didascalia: "La fonte, con i getti d'acqua nella vasca."
-  - ./fonte-canale/photo5.jpg
-  - ./fonte-canale/photo6.jpg
-  - ./fonte-canale/photo7.jpg
+  - immagine: ./fonte-canale/photo5.jpg
+    didascalia: "Il muro della fonte con le vasche in pietra, di sera."
+  - immagine: ./fonte-canale/photo6.jpg
+    didascalia: "Lo spiazzo della fonte di sera, sotto la fila di luci appese sopra il muro."
+  - immagine: ./fonte-canale/photo7.jpg
+    didascalia: "Il prato con le panchine e le luci appese lungo il muro, visto da sotto un arco."
   - immagine: ./fonte-canale/photo8.jpg
     didascalia: "L'Intruglio Lab, dove un tempo sorgeva il lavatoio."
 coordinate:

@@ -7,7 +7,8 @@ coordinate:
   lat: 41.8830
   lng: 12.9836
 galleria:
-  - ./santa-maria-de-arce/photo2.jpg
+  - immagine: ./santa-maria-de-arce/photo2.jpg
+    didascalia: "The church organ, with its keyboard, stops and pedalboard."
 ---
 
 The Church of Santa Maria de Arce stands next to the Theodoli Castle, at the highest point of the historic centre: its name "de Arce" comes from the Latin "arx", meaning rock or citadel, recalling its position. The first construction phase dates back to the 15th century, as confirmed by an inscription from 1489 on a bell, when the church served almost exclusively the soldiers garrisoned near the Rocca.

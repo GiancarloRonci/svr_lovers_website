@@ -11,6 +11,7 @@ coordinate:
   lng: 12.9521369
 galleria:
   - immagine: ./capranica-prenestina/photo2.jpg
+    didascalia: "Il \"cupolino\" della Chiesa di Santa Maria Maddalena, che spicca sopra i tetti del borgo."
     autore: "Umbowiki"
     licenza: "CC BY-SA 4.0"
 ---

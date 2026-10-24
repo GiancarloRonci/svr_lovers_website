@@ -11,6 +11,7 @@ coordinate:
   lng: 12.94549
 galleria:
   - immagine: ./rocca-di-cave/photo2.jpg
+    didascalia: "A mountain landscape painted by Jean-Baptiste Camille Corot, in its gilded frame."
     autore: "Jean-Baptiste Camille Corot"
     licenza: "public domain"
 ---

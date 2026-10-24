@@ -11,25 +11,41 @@ coordinate:
   lng: 12.9364636
 galleria:
   - immagine: ./santuario-della-mentorella/photo2.jpg
+    didascalia: "The valley seen from the sanctuary's rock, with the villages and the mountains on the horizon."
     autore: "Laky 1970"
     licenza: "CC BY-SA 4.0"
   - immagine: ./santuario-della-mentorella/photo3.jpg
+    didascalia: "The interior of the church, with the altar at the end and the frescoed walls."
     autore: "Laky 1970"
     licenza: "CC BY-SA 4.0"
-  - ./santuario-della-mentorella/photo4.jpg
-  - ./santuario-della-mentorella/photo5.jpg
-  - ./santuario-della-mentorella/photo6.jpg
-  - ./santuario-della-mentorella/photo7.jpg
-  - ./santuario-della-mentorella/photo8.jpg
-  - ./santuario-della-mentorella/photo9.jpg
-  - ./santuario-della-mentorella/photo10.jpg
-  - ./santuario-della-mentorella/photo11.jpg
-  - ./santuario-della-mentorella/photo12.jpg
-  - ./santuario-della-mentorella/photo13.jpg
-  - ./santuario-della-mentorella/photo14.jpg
-  - ./santuario-della-mentorella/photo15.jpg
-  - ./santuario-della-mentorella/photo16.jpg
-  - ./santuario-della-mentorella/photo17.jpg
+  - immagine: ./santuario-della-mentorella/photo4.jpg
+    didascalia: "The church façade and the sanctuary buildings on the forecourt, with the statue of Saint John Paul II in front of the entrance."
+  - immagine: ./santuario-della-mentorella/photo5.jpg
+    didascalia: "The church entrance with the bronze statue of Saint John Paul II."
+  - immagine: ./santuario-della-mentorella/photo6.jpg
+    didascalia: "The nave during Mass, with the altar at the end."
+  - immagine: ./santuario-della-mentorella/photo7.jpg
+    didascalia: "A chapel with a frescoed vault, an altar with a relief and the white statue of a saint."
+  - immagine: ./santuario-della-mentorella/photo8.jpg
+    didascalia: "A stairway with plaques and coats of arms along the wall."
+  - immagine: ./santuario-della-mentorella/photo9.jpg
+    didascalia: "The bell gable with two bells, overlooking the valley."
+  - immagine: ./santuario-della-mentorella/photo10.jpg
+    didascalia: "A bell and a bronze statue at the foot of the rock, hung with rosaries."
+  - immagine: ./santuario-della-mentorella/photo11.jpg
+    didascalia: "The grotto of Saint Benedict, with lit candles and the statue of the saint."
+  - immagine: ./santuario-della-mentorella/photo12.jpg
+    didascalia: "The grotto in the rock, lit by candles."
+  - immagine: ./santuario-della-mentorella/photo13.jpg
+    didascalia: "The statue of Saint Benedict in the grotto, surrounded by photographs left by the faithful."
+  - immagine: ./santuario-della-mentorella/photo14.jpg
+    didascalia: "A glass case in the rock holding the bones of Benedictine monks, beneath a plaque that invites remembrance."
+  - immagine: ./santuario-della-mentorella/photo15.jpg
+    didascalia: "The view from the rock over the valley and the distant villages."
+  - immagine: ./santuario-della-mentorella/photo16.jpg
+    didascalia: "The view over the valleys and the mountains in the afternoon light."
+  - immagine: ./santuario-della-mentorella/photo17.jpg
+    didascalia: "A chapel decorated with stucco and statues, with the altar and the statue of the Madonna in a niche."
 ---
 
 The Sanctuary of the Mentorella stands at over 1,000 metres above sea level on a rocky spur of the Prenestini mountains, in the territory of Capranica Prenestina, not far from San Vito Romano. It is considered the oldest Marian sanctuary in Italy: tradition holds it was founded by Constantine in the 4th century, on the very spot where the Roman tribune Placidus is said to have converted.

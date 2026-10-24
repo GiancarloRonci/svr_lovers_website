@@ -11,9 +11,11 @@ coordinate:
   lng: 13.117677
 galleria:
   - immagine: ./monastero-san-benedetto-subiaco/photo2.jpg
+    didascalia: "L'interno della chiesa, con le volte a crociera interamente affrescate."
     autore: "Livioandronico2013"
     licenza: "CC BY-SA 4.0"
   - immagine: ./monastero-san-benedetto-subiaco/photo3.jpg
+    didascalia: "Il monastero costruito sulla roccia, con le alte arcate a sbalzo e la valle sottostante."
     autore: "pietro scerrato"
     licenza: "CC BY 3.0"
   - immagine: ./monastero-san-benedetto-subiaco/photo4.jpg

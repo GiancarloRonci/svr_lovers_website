@@ -10,6 +10,7 @@ coordinate:
   lng: 12.983410
 galleria:
   - immagine: ./santuario-madonna-di-compigliano/photo2.jpg
+    didascalia: "La facciata del santuario, con il portale centrale, le due porte laterali e la croce in cima."
     autore: "Comune di San Vito Romano"
     licenza: "CC BY 4.0"
   - immagine: ./santuario-madonna-di-compigliano/photo3.jpg
