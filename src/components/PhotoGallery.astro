@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import { osmLabel, osmUrl } from '../lib/osm';
 
 interface GalleryItem {
   immagine: ImageMetadata;
@@ -10,6 +11,9 @@ interface GalleryItem {
   // Autore della foto, già formattato (es. "📷 Redazione SVR Lovers")
   credit?: string;
   name: string;
+  // Punto in cui è stata scattata la foto, se noto: nell'ingrandimento compare il link alla mappa
+  lat?: number;
+  lng?: number;
 }
 
 interface Props {
@@ -48,7 +52,7 @@ const labels =
 
       <section class="gallery">
         {items.map((item, i) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined}>
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined} data-map={item.lat !== undefined && item.lng !== undefined ? osmUrl(item.lat, item.lng) : undefined}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
             {numerata && <span class="foto-num" aria-hidden="true">{i + 1}</span>}
           </button>
@@ -62,7 +66,10 @@ const labels =
           <img class="lightbox-img" alt="" />
           <figcaption class="lightbox-caption">
           <span class="lightbox-text"><span class="foto-num lightbox-num" hidden></span><span class="lightbox-desc"></span></span>
-          <span class="lightbox-credit"></span>
+          <span class="lightbox-meta">
+            <span class="lightbox-credit"></span>
+            <a class="lightbox-map" target="_blank" rel="noopener" hidden>{osmLabel(lang)}</a>
+          </span>
         </figcaption>
         </figure>
         <button type="button" class="lightbox-next" aria-label={labels.next}>›</button>
@@ -192,13 +199,26 @@ const labels =
     text-align: center;
   }
   .lightbox-text,
-  .lightbox-credit {
+  .lightbox-meta {
     display: block;
   }
-  .lightbox-credit {
+  .lightbox-meta {
     margin-top: 0.2rem;
     font-size: 0.8rem;
     color: #bbb;
+  }
+  /* Link alla posizione della foto su OpenStreetMap, accanto all'autore */
+  .lightbox-map {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    white-space: nowrap;
+  }
+  .lightbox-map[hidden] {
+    display: none;
+  }
+  .lightbox-credit:not(:empty) + .lightbox-map {
+    margin-left: 0.75rem;
   }
   .lightbox-close,
   .lightbox-prev,
@@ -267,6 +287,7 @@ const labels =
     const num = lightbox.querySelector('.lightbox-num') as HTMLElement;
     const caption = lightbox.querySelector('.lightbox-desc') as HTMLElement;
     const credit = lightbox.querySelector('.lightbox-credit') as HTMLElement;
+    const mapLink = lightbox.querySelector('.lightbox-map') as HTMLAnchorElement;
     let current = 0;
 
     const render = () => {
@@ -277,6 +298,8 @@ const labels =
       num.hidden = !items[current].dataset.num;
       caption.textContent = desc ? `${name}: ${desc}` : name;
       credit.textContent = items[current].dataset.credit ?? '';
+      mapLink.href = items[current].dataset.map ?? '';
+      mapLink.hidden = !items[current].dataset.map;
     };
     const open = (i: number) => {
       current = i;

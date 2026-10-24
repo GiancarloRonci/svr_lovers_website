@@ -51,6 +51,8 @@ const galleryItems = [
     alt: f.didascalia || `${title} - photo ${i + 1}`,
     caption: f.didascalia ?? '',
     credit: f.credit,
+    lat: f.lat,
+    lng: f.lng,
     name: `Photo ${i + 1}`,
   })),
   ...(await resolveGalleria(galleria, title, fotoResolved.length, 'photo')).map((item, i) => ({
@@ -88,7 +90,7 @@ const galleryItems = [
   </p>
 
   {(gpx || partenza || fotoResolved.length > 0) && (
-    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} numerata />
+    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} numerata lang="en" />
   )}
 
   {gpx && (

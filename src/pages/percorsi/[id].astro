@@ -41,6 +41,8 @@ const galleryItems = [
     alt: f.didascalia || `${title} - foto ${i + 1}`,
     caption: f.didascalia ?? '',
     credit: f.credit,
+    lat: f.lat,
+    lng: f.lng,
     name: `Foto ${i + 1}`,
   })),
   ...(await resolveGalleria(galleria, title, fotoResolved.length)).map((item, i) => ({

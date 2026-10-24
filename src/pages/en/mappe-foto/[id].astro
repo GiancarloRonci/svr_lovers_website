@@ -26,6 +26,8 @@ const galleryItems = risolte.map((f) => ({
   caption: f.didascalia ?? '',
   credit: f.credit,
   name: f.name,
+  lat: f.lat,
+  lng: f.lng,
 }));
 ---
 
@@ -39,7 +41,7 @@ const galleryItems = risolte.map((f) => ({
     <Content />
   </article>
 
-  <TrailMap foto={punti} alta numerata />
+  <TrailMap foto={punti} alta numerata lang="en" />
 
   <PhotoGallery items={galleryItems} lang="en" numerata />
 </Layout>

@@ -1,5 +1,6 @@
 ---
 import { withBase } from '../lib/url';
+import { osmLabel } from '../lib/osm';
 
 interface FotoPunto {
   lat: number;
@@ -23,9 +24,10 @@ interface Props {
   alta?: boolean;
   // Segnaposto delle foto con il numero d'ordine, uguale a quello della galleria (Mappe Con Foto)
   numerata?: boolean;
+  lang?: 'it' | 'en';
 }
 
-const { gpx, partenza, foto, alta = false, numerata = false } = Astro.props;
+const { gpx, partenza, foto, alta = false, numerata = false, lang = 'it' } = Astro.props;
 const gpxUrl = gpx ? withBase(gpx) : '';
 const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 const hasFoto = Boolean(foto && foto.length > 0);
@@ -52,7 +54,10 @@ const hasFoto = Boolean(foto && foto.length > 0);
           <img class="tm-lightbox-img" alt="" />
           <figcaption class="tm-lightbox-caption">
             <span class="tm-lightbox-text"><span class="tm-num tm-lightbox-num" hidden></span><span class="tm-lightbox-desc"></span></span>
-            <span class="tm-lightbox-credit"></span>
+            <span class="tm-lightbox-meta">
+              <span class="tm-lightbox-credit"></span>
+              <a class="tm-lightbox-map" target="_blank" rel="noopener" hidden>{osmLabel(lang)}</a>
+            </span>
           </figcaption>
         </figure>
         <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">›</button>
@@ -247,13 +252,26 @@ const hasFoto = Boolean(foto && foto.length > 0);
     text-align: center;
   }
   .tm-lightbox-text,
-  .tm-lightbox-credit {
+  .tm-lightbox-meta {
     display: block;
   }
-  .tm-lightbox-credit {
+  .tm-lightbox-meta {
     margin-top: 0.2rem;
     font-size: 0.8rem;
     color: #bbb;
+  }
+  /* Link alla posizione della foto su OpenStreetMap, accanto all'autore */
+  .tm-lightbox-map {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    white-space: nowrap;
+  }
+  .tm-lightbox-map[hidden] {
+    display: none;
+  }
+  .tm-lightbox-credit:not(:empty) + .tm-lightbox-map {
+    margin-left: 0.75rem;
   }
   .tm-lightbox-close,
   .tm-lightbox-prev,
@@ -318,6 +336,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
   import markerIcon from 'leaflet/dist/images/marker-icon.png';
   import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
   import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+  import { osmUrl } from '../lib/osm';
 
   delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
   L.Icon.Default.mergeOptions({
@@ -370,6 +389,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     const num = lightbox.querySelector('.tm-lightbox-num') as HTMLElement;
     const caption = lightbox.querySelector('.tm-lightbox-desc') as HTMLElement;
     const credit = lightbox.querySelector('.tm-lightbox-credit') as HTMLElement;
+    const mapLink = lightbox.querySelector('.tm-lightbox-map') as HTMLAnchorElement;
     let current = 0;
 
     const render = () => {
@@ -381,6 +401,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
       num.hidden = !numerata;
       caption.textContent = p.didascalia ? `${name}: ${p.didascalia}` : name;
       credit.textContent = p.credit ?? '';
+      mapLink.href = osmUrl(p.lat, p.lng);
+      mapLink.hidden = false;
     };
     const open = (index: number) => {
       current = index;
