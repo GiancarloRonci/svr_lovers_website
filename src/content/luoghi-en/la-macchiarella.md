@@ -45,6 +45,7 @@ galleria:
     didascalia: Table and benches in a clearing in the park
   - immagine: ./la-macchiarella/photo20.jpg
     didascalia: "A wooden boardwalk among the chestnut trees, with chestnut burrs on the ground and a table with benches in the background"
+    autore: "Giancarlo Ronci"
 ---
 
 La Macchiarella is a public park and a centuries-old chestnut wood owned by the municipality, located right inside the town of San Vito Romano. It covers more than 4 hectares and is made up mainly of old chestnut trees, which offer shade and shelter during the summer months.
