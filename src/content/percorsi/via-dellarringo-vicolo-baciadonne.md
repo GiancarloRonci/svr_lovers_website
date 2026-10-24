@@ -9,9 +9,6 @@ durata: "10min"
 immagine: ./via-dellarringo-vicolo-baciadonne/foto1.jpg
 immagineAutore: "Giancarlo Ronci"
 galleria:
-  - immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
-    didascalia: "Un arco di pietra incornicia la scaletta che scende tra le case, con la vista che si apre sulla vallata."
-    autore: "Giancarlo Ronci"
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "La scaletta di pietra del vicolo, tra i muri antichi e un vecchio portone di legno."
     autore: "Giancarlo Ronci"
@@ -39,6 +36,11 @@ foto:
     lng: 12.984583
     immagine: ./via-dellarringo-vicolo-baciadonne/foto2.jpg
     didascalia: "L'insegna in legno del Vicolo Baciadonne, con un fiocco rosso, e la scaletta in pietra che sale verso un arco."
+    autore: "Giancarlo Ronci"
+  - lat: 41.882777
+    lng: 12.984471
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
+    didascalia: "Un arco di pietra incornicia la scaletta che scende tra le case, con la vista che si apre sulla vallata."
     autore: "Giancarlo Ronci"
 ---
 

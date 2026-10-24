@@ -9,9 +9,6 @@ durata: "10min"
 immagine: ./via-dellarringo-vicolo-baciadonne/foto1.jpg
 immagineAutore: "Giancarlo Ronci"
 galleria:
-  - immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
-    didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
-    autore: "Giancarlo Ronci"
   - immagine: ./via-dellarringo-vicolo-baciadonne/foto4.jpg
     didascalia: "The stone steps of the alley, between ancient walls and an old wooden door."
     autore: "Giancarlo Ronci"
@@ -39,6 +36,11 @@ foto:
     lng: 12.984583
     immagine: ./via-dellarringo-vicolo-baciadonne/foto2.jpg
     didascalia: "The wooden sign of Vicolo Baciadonne, with a red bow, and the stone steps climbing towards an arch."
+    autore: "Giancarlo Ronci"
+  - lat: 41.882777
+    lng: 12.984471
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
+    didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
     autore: "Giancarlo Ronci"
 ---
 
