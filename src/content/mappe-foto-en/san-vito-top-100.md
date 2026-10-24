@@ -206,4 +206,4 @@ foto:
     immagine: foto6.jpg
 ---
 
-A map of the photos taken along our trails, each one placed exactly where it was shot. Click on a camera to see the photo and find out which trail it comes from.
+A map of the photos taken along our trails, each one placed exactly where it was shot. Click on a number to see the photo and find out which trail it comes from: the same number marks it in the list of photos and in the gallery below.

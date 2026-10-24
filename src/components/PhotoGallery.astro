@@ -15,9 +15,11 @@ interface GalleryItem {
 interface Props {
   items: GalleryItem[];
   lang?: 'it' | 'en';
+  // Mostra il numero d'ordine di ogni foto in un cerchietto (miniatura, elenco e ingrandimento), come sulla mappa
+  numerata?: boolean;
 }
 
-const { items, lang = 'it' } = Astro.props;
+const { items, lang = 'it', numerata = false } = Astro.props;
 const labels =
   lang === 'en'
     ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos' }
@@ -29,8 +31,9 @@ const labels =
     <section class="foto-elenco">
       <h2>{labels.photos}</h2>
       <ul>
-        {items.map((item) => (
+        {items.map((item, i) => (
           <li>
+            {numerata && <span class="foto-num">{i + 1}</span>}
             <strong>{item.name}</strong>
             {item.caption && `: ${item.caption}`}
           </li>
@@ -44,9 +47,10 @@ const labels =
   items.length > 0 && (
     <div class="photo-gallery">
       <section class="gallery">
-        {items.map((item) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit}>
+        {items.map((item, i) => (
+          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit} data-num={numerata ? i + 1 : undefined}>
             <Image src={item.immagine} alt={item.alt} width={400} height={300} />
+            {numerata && <span class="foto-num" aria-hidden="true">{i + 1}</span>}
           </button>
         ))}
       </section>
@@ -57,7 +61,7 @@ const labels =
         <figure class="lightbox-figure">
           <img class="lightbox-img" alt="" />
           <figcaption class="lightbox-caption">
-          <span class="lightbox-text"></span>
+          <span class="lightbox-text"><span class="foto-num lightbox-num" hidden></span><span class="lightbox-desc"></span></span>
           <span class="lightbox-credit"></span>
         </figcaption>
         </figure>
@@ -75,6 +79,7 @@ const labels =
     margin-top: 1.5rem;
   }
   .gallery-item {
+    position: relative;
     display: block;
     padding: 0;
     border: 0;
@@ -86,6 +91,39 @@ const labels =
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+  }
+
+  /* Numero d'ordine della foto, uguale a quello sulla mappa */
+  .foto-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.6rem;
+    height: 1.6rem;
+    padding: 0 0.3rem;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: middle;
+  }
+  .gallery-item .foto-num {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  .foto-elenco .foto-num {
+    margin-right: 0.4rem;
+  }
+  .lightbox-num {
+    margin-right: 0.4rem;
+    border: 1px solid #fff;
+  }
+  .lightbox-num[hidden] {
+    display: none;
   }
 
   .lightbox {
@@ -174,7 +212,8 @@ const labels =
 
     const items = Array.from(container.querySelectorAll<HTMLButtonElement>('.gallery-item'));
     const img = lightbox.querySelector('.lightbox-img') as HTMLImageElement;
-    const caption = lightbox.querySelector('.lightbox-text') as HTMLElement;
+    const num = lightbox.querySelector('.lightbox-num') as HTMLElement;
+    const caption = lightbox.querySelector('.lightbox-desc') as HTMLElement;
     const credit = lightbox.querySelector('.lightbox-credit') as HTMLElement;
     let current = 0;
 
@@ -182,6 +221,8 @@ const labels =
       img.src = items[current].dataset.full ?? '';
       const name = items[current].dataset.name ?? '';
       const desc = items[current].dataset.caption ?? '';
+      num.textContent = items[current].dataset.num ?? '';
+      num.hidden = !items[current].dataset.num;
       caption.textContent = desc ? `${name}: ${desc}` : name;
       credit.textContent = items[current].dataset.credit ?? '';
     };

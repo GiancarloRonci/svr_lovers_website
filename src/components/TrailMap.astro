@@ -21,9 +21,11 @@ interface Props {
   foto?: FotoPunto[];
   // Mappa più alta, per le pagine in cui la mappa è il contenuto principale
   alta?: boolean;
+  // Segnaposto delle foto con il numero d'ordine, uguale a quello della galleria (Mappe Con Foto)
+  numerata?: boolean;
 }
 
-const { gpx, partenza, foto, alta = false } = Astro.props;
+const { gpx, partenza, foto, alta = false, numerata = false } = Astro.props;
 const gpxUrl = gpx ? withBase(gpx) : '';
 const fotoJson = foto && foto.length > 0 ? JSON.stringify(foto) : '';
 const hasFoto = Boolean(foto && foto.length > 0);
@@ -36,6 +38,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     data-lat={partenza?.lat ?? ''}
     data-lng={partenza?.lng ?? ''}
     data-foto={fotoJson}
+    data-numerata={numerata ? 'true' : undefined}
   >
   </div>
   <div class="tm-coords" hidden></div>
@@ -48,7 +51,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
         <figure class="tm-lightbox-figure">
           <img class="tm-lightbox-img" alt="" />
           <figcaption class="tm-lightbox-caption">
-            <span class="tm-lightbox-text"></span>
+            <span class="tm-lightbox-text"><span class="tm-num tm-lightbox-num" hidden></span><span class="tm-lightbox-desc"></span></span>
             <span class="tm-lightbox-credit"></span>
           </figcaption>
         </figure>
@@ -99,6 +102,41 @@ const hasFoto = Boolean(foto && foto.length > 0);
     border: 2px solid #6b7f3a;
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  }
+  /* Leaflet impone display: block alle icone: qui serve flex per centrare il numero */
+  :global(.leaflet-marker-icon.photo-marker-icon.numerata) {
+    display: flex;
+    color: #6b7f3a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  :global(.photo-marker-icon.numerata.tre-cifre) {
+    font-size: 10px;
+  }
+
+  /* Numero d'ordine della foto nel popup e nell'ingrandimento, come nella galleria */
+  :global(.tm-num) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.3rem;
+    margin-right: 0.35rem;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: middle;
+  }
+  .tm-lightbox-num {
+    border: 1px solid #fff;
+  }
+  .tm-lightbox-num[hidden] {
+    display: none;
   }
 
   :global(.photo-popup) {
@@ -296,12 +334,22 @@ const hasFoto = Boolean(foto && foto.length > 0);
     iconAnchor: [14, 14],
   });
 
-  function setupLightbox(container: HTMLElement, points: FotoPunto[]): ((index: number) => void) | null {
+  function numIcon(n: number): L.DivIcon {
+    return L.divIcon({
+      html: String(n),
+      className: n >= 100 ? 'photo-marker-icon numerata tre-cifre' : 'photo-marker-icon numerata',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+    });
+  }
+
+  function setupLightbox(container: HTMLElement, points: FotoPunto[], numerata: boolean): ((index: number) => void) | null {
     const lightbox = container.querySelector<HTMLElement>('.tm-lightbox');
     if (!lightbox || points.length === 0) return null;
 
     const img = lightbox.querySelector('.tm-lightbox-img') as HTMLImageElement;
-    const caption = lightbox.querySelector('.tm-lightbox-text') as HTMLElement;
+    const num = lightbox.querySelector('.tm-lightbox-num') as HTMLElement;
+    const caption = lightbox.querySelector('.tm-lightbox-desc') as HTMLElement;
     const credit = lightbox.querySelector('.tm-lightbox-credit') as HTMLElement;
     let current = 0;
 
@@ -310,6 +358,8 @@ const hasFoto = Boolean(foto && foto.length > 0);
       const name = p.name ?? `Foto ${current + 1}`;
       img.src = p.full || p.src;
       img.alt = p.didascalia ?? name;
+      num.textContent = String(current + 1);
+      num.hidden = !numerata;
       caption.textContent = p.didascalia ? `${name}: ${p.didascalia}` : name;
       credit.textContent = p.credit ?? '';
     };
@@ -453,15 +503,16 @@ const hasFoto = Boolean(foto && foto.length > 0);
     new LocateControl({ position: 'topleft' }).addTo(map);
   }
 
-  function addFotoMarkers(map: L.Map, points: FotoPunto[], openLightbox: ((index: number) => void) | null): void {
+  function addFotoMarkers(map: L.Map, points: FotoPunto[], openLightbox: ((index: number) => void) | null, numerata: boolean): void {
     points.forEach((p, index) => {
       const name = p.name ?? `Foto ${index + 1}`;
-      const nameHtml = `<span class="photo-name">${escapeHtml(name)}</span>`;
+      const numHtml = numerata ? `<span class="tm-num">${index + 1}</span>` : '';
+      const nameHtml = `<span class="photo-name">${numHtml}${escapeHtml(name)}</span>`;
       const caption = p.didascalia ? `<span class="caption">${escapeHtml(p.didascalia)}</span>` : '';
       const credit = p.credit ? `<span class="credit">${escapeHtml(p.credit)}</span>` : '';
       const link = p.link ? `<a class="photo-link" href="${escapeHtml(p.link)}">${escapeHtml(p.linkLabel ?? p.link)} &rarr;</a>` : '';
       const popupHtml = `<div class="photo-popup"><img class="photo-popup-img" src="${escapeHtml(p.src)}" alt="${escapeHtml(p.didascalia ?? '')}">${nameHtml}${caption}${credit}${link}</div>`;
-      const marker = L.marker([p.lat, p.lng], { icon: fotoIcon }).addTo(map).bindPopup(popupHtml);
+      const marker = L.marker([p.lat, p.lng], { icon: numerata ? numIcon(index + 1) : fotoIcon }).addTo(map).bindPopup(popupHtml);
       marker.on('popupopen', () => {
         const popupEl = marker.getPopup()?.getElement();
         const imgEl = popupEl?.querySelector<HTMLImageElement>('.photo-popup-img');
@@ -530,8 +581,9 @@ const hasFoto = Boolean(foto && foto.length > 0);
       }
     }
 
-    const openLightbox = setupLightbox(container, fotoPoints);
-    addFotoMarkers(map, fotoPoints, openLightbox);
+    const numerata = el.dataset.numerata === 'true';
+    const openLightbox = setupLightbox(container, fotoPoints, numerata);
+    addFotoMarkers(map, fotoPoints, openLightbox, numerata);
 
     if (!hasView && fotoPoints.length > 0) {
       const bounds = L.latLngBounds(fotoPoints.map((p) => [p.lat, p.lng]));

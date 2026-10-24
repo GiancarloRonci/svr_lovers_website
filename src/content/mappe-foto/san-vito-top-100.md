@@ -206,4 +206,4 @@ foto:
     immagine: foto6.jpg
 ---
 
-Una mappa con le foto scattate lungo i nostri percorsi, ognuna nel punto esatto in cui è stata fatta. Clicca su una macchina fotografica per vedere la foto e scoprire da quale percorso proviene.
+Una mappa con le foto scattate lungo i nostri percorsi, ognuna nel punto esatto in cui è stata fatta. Clicca su un numero per vedere la foto e scoprire da quale percorso proviene: lo stesso numero la indica nell'elenco delle foto e nella galleria qui sotto.
