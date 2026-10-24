@@ -37,6 +37,8 @@ Per chi vuole camminare di più, i Simbruini offrono:
 - **escursioni per tutti i passi:** dalla facile [Autunno a Campaegli](/eventi/autunno-a-campaegli-cervara-2026), 12 km da Cervara di Roma adatti anche ai ragazzi, alla [Via della Pietra e dell'Acqua](/eventi/via-della-pietra-e-dell-acqua-jenne-2026) da Jenne alla Cascata di Trevi, con prenotazione entro giovedì;
 - **a Monte Livata:** il [Forest Bathing](/eventi/forest-bathing-monte-livata-2026) lungo il sentiero 672/C, l'[escursione al Monte Autore](/eventi/escursione-monte-autore-livata-2026) e, per le famiglie, l'ultima domenica con le [api della Mieleria nel Bosco](/eventi/api-mieleria-nel-bosco-monte-livata-2026).
 
+Chi preferisce correre ha la [Corrincastagna](/eventi/corrincastagna-cave-2026) a Cave, la gara di 9,6 km che parte alle 9:15 da Piazza Santa Croce.
+
 Il pomeriggio offre più scelte:
 
 - a Genazzano, alle 16:00 al Teatro Cinema Italia, il documentario ["Oltre il muro"](/eventi/oltre-il-muro-genazzano-2026) sull'affresco della Madre del Buon Consiglio, a ingresso gratuito e con il regista in sala; poi, alle 17:00, il finissage della [Biennale "Dentro l'Oro"](/eventi/biennale-dentro-loro-genazzano-2026) al Castello Colonna, all'ultimo giorno;

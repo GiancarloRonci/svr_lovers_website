@@ -7,8 +7,8 @@ minutiAuto: 15
 tipologiaEvento: Evento Cittadino
 ---
 
-Sabato 31 ottobre 2026, dalle 19:30, il Parco Comunale di Capranica Prenestina ospita la Festa di Halloween.
+Sabato 31 ottobre 2026, dalle 19:30, il Parco Comunale di Capranica Prenestina ospita la Festa di Halloween: una serata con cena, musica, cocktail e maschere.
 
-L'appuntamento chiude il calendario di ottobre nei Monti Prenestini curato da Visit Monti Prenestini. Il programma dettagliato della serata non è ancora stato comunicato.
+L'appuntamento chiude il calendario di ottobre nei Monti Prenestini curato da Visit Monti Prenestini. Orari di chiusura, prezzi e prenotazioni non sono ancora stati comunicati.
 
-*Fonte: [La Dea Bendata](https://www.ladeabendata.info/ottobre-nei-monti-prenestini-un-mese-di-eventi-tra-natura-astronomia-borghi-e-tradizioni/)*
+*Fonti: [La Dea Bendata](https://www.ladeabendata.info/ottobre-nei-monti-prenestini-un-mese-di-eventi-tra-natura-astronomia-borghi-e-tradizioni/), [La Dea Bendata](https://www.ladeabendata.info/mudi-halloween-e-sagra-del-marrone-i-prossimi-appuntamenti-nei-monti-prenestini/)*

@@ -37,6 +37,8 @@ If you want to walk further, the Simbruini mountains offer:
 - **hikes for every pace:** from the easy [Autumn in Campaegli](/en/eventi/autunno-a-campaegli-cervara-2026), 12 km from Cervara di Roma that are also fine for youngsters, to the [Way of Stone and Water](/en/eventi/via-della-pietra-e-dell-acqua-jenne-2026) from Jenne to the Trevi Waterfall, with booking by Thursday;
 - **at Monte Livata:** [Forest Bathing](/en/eventi/forest-bathing-monte-livata-2026) along trail 672/C, the [hike to Monte Autore](/en/eventi/escursione-monte-autore-livata-2026) and, for families, the last Sunday with the [bees of the Mieleria nel Bosco](/en/eventi/api-mieleria-nel-bosco-monte-livata-2026).
 
+If you would rather run, there is the [Corrincastagna](/en/eventi/corrincastagna-cave-2026) in Cave, a 9.6 km race starting at 9:15 AM from Piazza Santa Croce.
+
 The afternoon offers several options:
 
 - in Genazzano, at 4:00 PM at the Teatro Cinema Italia, the documentary ["Oltre il muro"](/en/eventi/oltre-il-muro-genazzano-2026) about the fresco of Our Lady of Good Counsel, with free admission and the director in attendance; then, at 5:00 PM, the closing event of the ["Dentro l'Oro" Biennale](/en/eventi/biennale-dentro-loro-genazzano-2026) at Castello Colonna, on its last day;
