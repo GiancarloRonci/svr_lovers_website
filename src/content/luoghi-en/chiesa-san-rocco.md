@@ -29,6 +29,8 @@ galleria:
     didascalia: The left wall, with the altar of Saint Sebastian, the choir loft and the statues
   - immagine: ./chiesa-san-rocco/photo12.jpg
     didascalia: "The vault seen from below: among the Carmelite saints, Saint Teresa, Saint Mary Magdalene de' Pazzi and Saint John of the Cross"
+  - immagine: ./chiesa-san-rocco/photo13.jpg
+    didascalia: The interior in the evening seen through the half-open door, with the monstrance on the high altar
 ---
 
 The church of Saints Sebastian and Roch stands on Via Borgo Mario Theodoli, almost in the centre of the Borgo. Together with the adjacent building, later the Carmelite convent, it is part of the plan to reorganise the town commissioned by Cardinal Mario Theodoli around the middle of the 17th century (c. 1640-1660). It probably stands on a rural chapel that predates the opening of the borgo in 1649.

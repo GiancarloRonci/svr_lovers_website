@@ -29,6 +29,8 @@ galleria:
     didascalia: La parete sinistra, con l'altare di San Sebastiano, la cantoria e le statue
   - immagine: ./chiesa-san-rocco/photo12.jpg
     didascalia: "La volta vista dal basso: tra i santi carmelitani, Santa Teresa, Santa Maria Maddalena de' Pazzi e San Giovanni della Croce"
+  - immagine: ./chiesa-san-rocco/photo13.jpg
+    didascalia: L'interno di sera visto dalla porta socchiusa, con l'ostensorio sull'altare maggiore
 ---
 
 La chiesa dei Santi Sebastiano e Rocco si trova in via Borgo Mario Theodoli, quasi al centro del Borgo. Insieme al palazzo adiacente, poi divenuto convento dei Carmelitani, fa parte del programma di sistemazione dell'abitato voluto dal Cardinale Mario Theodoli intorno alla metà del Seicento (1640-1660 circa). Probabilmente sorge su una cappella rurale preesistente all'apertura del borgo, nel 1649.
