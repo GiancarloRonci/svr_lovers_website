@@ -33,6 +33,11 @@ foto:
     immagine: ./via-dellarringo-vicolo-baciadonne/foto6.jpg
     didascalia: "The archway leading into the medieval quarter, between the stone houses, on the way to Piazza San Biagio."
     autore: "Giancarlo Ronci"
+  - lat: 41.882838
+    lng: 12.984846
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto7.jpg
+    didascalia: "The cobbled alley in the evening, between stone houses lit by street lamps."
+    autore: "Giancarlo Ronci"
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.

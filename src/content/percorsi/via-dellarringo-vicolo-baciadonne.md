@@ -33,6 +33,11 @@ foto:
     immagine: ./via-dellarringo-vicolo-baciadonne/foto6.jpg
     didascalia: "L'arco d'ingresso al quartiere medievale, tra le case in pietra, sulla strada verso Piazza San Biagio."
     autore: "Giancarlo Ronci"
+  - lat: 41.882838
+    lng: 12.984846
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto7.jpg
+    didascalia: "Il vicolo lastricato di sera, tra le case in pietra illuminate dai lampioni."
+    autore: "Giancarlo Ronci"
 ---
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.
