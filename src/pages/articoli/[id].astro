@@ -20,8 +20,14 @@ const { title, description, data, autore, categoria, immagine, immagineIntera: i
 const immagineIntera = categoria === 'viaggi-nel-tempo' || categoria === 'storie-in-sanvitese' || immagineInteraFlag === true;
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
-// Nei consigli del weekend i link agli eventi già rimossi dalla collection diventano testo semplice
-const eventiAttivi = categoria === 'weekend' ? (await getCollection('eventi')).map((e) => e.id) : null;
+// Nei consigli del weekend i link agli eventi già rimossi dalla collection diventano testo semplice,
+// e accanto agli altri compaiono i minuti di auto da San Vito presi dalla scheda dell'evento
+const eventiWeekend = categoria === 'weekend' ? await getCollection('eventi') : null;
+const eventiAttivi = eventiWeekend ? eventiWeekend.map((e) => e.id) : null;
+const minutiEventi = eventiWeekend
+  ? Object.fromEntries(eventiWeekend.filter((e) => e.data.minutiAuto).map((e) => [e.id, e.data.minutiAuto]))
+  : null;
+const etichettaMinuti = 'circa {n} min in auto da San Vito';
 const weekend = categoria === 'weekend' ? weekendDatesFromSlug(entry.id) : null;
 
 const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => ({
@@ -47,7 +53,8 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
       <p class="avviso">
         <strong>Scegli tu cosa fare.</strong> Qui sono riassunti tutti gli eventi rilevanti del
         weekend, ma non serve partecipare a tutto: scegli quelli che preferisci in base ai tuoi gusti
-        e al tempo che hai a disposizione.
+        e al tempo che hai a disposizione. Accanto a ogni evento fuori paese trovi i minuti di auto
+        per arrivarci da San Vito.
       </p>
       <p class="avviso">
         <strong>Prima di partire, verifica sempre.</strong> Controlla presso gli organizzatori o le
@@ -63,10 +70,24 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
   </article>
   {
     eventiAttivi && (
-      <script is:inline define:vars={{ eventiAttivi }}>
+      <script is:inline define:vars={{ eventiAttivi, minutiEventi, etichettaMinuti }}>
+        var giaIndicati = {};
         document.querySelectorAll('article a[href*="/eventi/"]').forEach(function (a) {
           var m = a.getAttribute('href').match(/\/eventi\/([^/?#]+)/);
-          if (m && eventiAttivi.indexOf(m[1]) === -1) a.replaceWith.apply(a, Array.from(a.childNodes));
+          if (!m) return;
+          if (eventiAttivi.indexOf(m[1]) === -1) {
+            a.replaceWith.apply(a, Array.from(a.childNodes));
+            return;
+          }
+          // I minuti di auto solo al primo link di ogni evento (gli eventi a San Vito non li hanno)
+          var minuti = minutiEventi[m[1]];
+          if (!minuti || giaIndicati[m[1]]) return;
+          giaIndicati[m[1]] = true;
+          var span = document.createElement('span');
+          span.className = 'minuti-auto';
+          span.title = etichettaMinuti.replace('{n}', minuti);
+          span.textContent = ' (🚗 ' + minuti + ' min)';
+          a.after(span);
         });
       </script>
     )
@@ -76,6 +97,12 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
 </Layout>
 
 <style>
+  /* Minuti di auto accanto ai link agli eventi, aggiunti dallo script: lo stile va reso globale */
+  :global(.minuti-auto) {
+    color: var(--color-muted);
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
   .avviso {
     margin: 1rem 0 1.5rem;
     padding: 0.75rem 1rem;
