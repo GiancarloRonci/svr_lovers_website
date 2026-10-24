@@ -57,7 +57,7 @@ const labels =
 
       <div class="lightbox" hidden>
         <button type="button" class="lightbox-close" aria-label={labels.close}>&times;</button>
-        <button type="button" class="lightbox-prev" aria-label={labels.prev}>&larr;</button>
+        <button type="button" class="lightbox-prev" aria-label={labels.prev}>‹</button>
         <figure class="lightbox-figure">
           <img class="lightbox-img" alt="" />
           <figcaption class="lightbox-caption">
@@ -65,7 +65,7 @@ const labels =
           <span class="lightbox-credit"></span>
         </figcaption>
         </figure>
-        <button type="button" class="lightbox-next" aria-label={labels.next}>&rarr;</button>
+        <button type="button" class="lightbox-next" aria-label={labels.next}>›</button>
       </div>
     </div>
   )
@@ -226,15 +226,34 @@ const labels =
     top: 1rem;
     right: 1rem;
   }
-  .lightbox-prev {
-    left: 1rem;
+  /* Frecce grandi senza cerchio, come nel visore della selezione del contest */
+  .lightbox-prev,
+  .lightbox-next {
     top: 50%;
     transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.9rem;
+    border-radius: 8px;
+    background: none;
+    font-size: 3.5rem;
+  }
+  .lightbox-prev:hover,
+  .lightbox-next:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+  .lightbox-prev {
+    left: 0.5rem;
   }
   .lightbox-next {
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    .lightbox-prev,
+    .lightbox-next {
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.35);
+    }
   }
 </style>
 

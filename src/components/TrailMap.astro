@@ -47,7 +47,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
     hasFoto && (
       <div class="tm-lightbox" hidden>
         <button type="button" class="tm-lightbox-close" aria-label="Chiudi">&times;</button>
-        <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">&larr;</button>
+        <button type="button" class="tm-lightbox-prev" aria-label="Foto precedente">‹</button>
         <figure class="tm-lightbox-figure">
           <img class="tm-lightbox-img" alt="" />
           <figcaption class="tm-lightbox-caption">
@@ -55,7 +55,7 @@ const hasFoto = Boolean(foto && foto.length > 0);
             <span class="tm-lightbox-credit"></span>
           </figcaption>
         </figure>
-        <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">&rarr;</button>
+        <button type="button" class="tm-lightbox-next" aria-label="Foto successiva">›</button>
       </div>
     )
   }
@@ -281,15 +281,34 @@ const hasFoto = Boolean(foto && foto.length > 0);
     top: 1rem;
     right: 1rem;
   }
-  .tm-lightbox-prev {
-    left: 1rem;
+  /* Frecce grandi senza cerchio, come nel visore della selezione del contest */
+  .tm-lightbox-prev,
+  .tm-lightbox-next {
     top: 50%;
     transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.9rem;
+    border-radius: 8px;
+    background: none;
+    font-size: 3.5rem;
+  }
+  .tm-lightbox-prev:hover,
+  .tm-lightbox-next:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+  .tm-lightbox-prev {
+    left: 0.5rem;
   }
   .tm-lightbox-next {
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    .tm-lightbox-prev,
+    .tm-lightbox-next {
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.35);
+    }
   }
 </style>
 
