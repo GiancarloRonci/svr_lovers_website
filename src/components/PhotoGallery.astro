@@ -17,9 +17,11 @@ interface Props {
   lang?: 'it' | 'en';
   // Mostra il numero d'ordine di ogni foto in un cerchietto (miniatura, elenco e ingrandimento), come sulla mappa
   numerata?: boolean;
+  // Titolo dell'elenco delle didascalie, se diverso da "Le foto" (es. "Foto lungo il percorso")
+  titolo?: string;
 }
 
-const { items, lang = 'it', numerata = false } = Astro.props;
+const { items, lang = 'it', numerata = false, titolo } = Astro.props;
 const labels =
   lang === 'en'
     ? { close: 'Close', prev: 'Previous photo', next: 'Next photo', photos: 'The photos', open: 'Open the photo' }
@@ -31,7 +33,7 @@ const labels =
     <div class="photo-gallery">
       {items.some((item) => item.caption) && (
         <section class="foto-elenco">
-          <h2>{labels.photos}</h2>
+          <h2>{titolo ?? labels.photos}</h2>
           <ul class:list={{ numerata }}>
             {items.map((item, i) => (
               <li>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import TrailMap from '../../../components/TrailMap.astro';
+import PhotoGallery from '../../../components/PhotoGallery.astro';
 import { Image, getImage } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
@@ -87,7 +88,7 @@ const galleryItems = [
   </p>
 
   {(gpx || partenza || fotoResolved.length > 0) && (
-    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} />
+    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} numerata />
   )}
 
   {gpx && (
@@ -96,46 +97,7 @@ const galleryItems = [
     </p>
   )}
 
-  {
-    fotoResolved.length > 0 && (
-      <section class="foto-elenco">
-        <h2>Photos along the trail</h2>
-        <ul>
-          {fotoResolved.map((f, i) => (
-            <li>
-              <strong>Photo {i + 1}</strong>
-              {f.didascalia && `: ${f.didascalia}`}
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
-  }
-
-  {
-    galleryItems.length > 0 && (
-      <section class="gallery">
-        {galleryItems.map((item) => (
-          <button type="button" class="gallery-item" data-full={item.full} data-caption={item.caption} data-name={item.name} data-credit={item.credit}>
-            <Image src={item.immagine} alt={item.alt} width={400} height={300} />
-          </button>
-        ))}
-      </section>
-    )
-  }
-
-  <div class="lightbox" id="lightbox" hidden>
-    <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
-    <button type="button" class="lightbox-prev" aria-label="Previous photo">&larr;</button>
-    <figure class="lightbox-figure">
-      <img class="lightbox-img" alt="" />
-      <figcaption class="lightbox-caption">
-          <span class="lightbox-text"></span>
-          <span class="lightbox-credit"></span>
-        </figcaption>
-    </figure>
-    <button type="button" class="lightbox-next" aria-label="Next photo">&rarr;</button>
-  </div>
+  <PhotoGallery items={galleryItems} lang="en" numerata titolo="Photos along the trail" />
 </Layout>
 
 <style>
@@ -170,151 +132,4 @@ const galleryItems = [
     color: var(--color-muted);
     font-style: italic;
   }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-  }
-  .gallery-item {
-    display: block;
-    padding: 0;
-    border: 0;
-    background: none;
-    cursor: zoom-in;
-  }
-  .gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-
-  .lightbox {
-    position: fixed;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.85);
-    z-index: 1000;
-  }
-  .lightbox[hidden] {
-    display: none;
-  }
-  .lightbox-figure {
-    margin: 0;
-    max-width: 90vw;
-    max-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .lightbox-img {
-    max-width: 90vw;
-    max-height: 80vh;
-    object-fit: contain;
-    border-radius: 4px;
-  }
-  .lightbox-caption {
-    color: #fff;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    text-align: center;
-  }
-  .lightbox-text,
-  .lightbox-credit {
-    display: block;
-  }
-  .lightbox-credit {
-    margin-top: 0.2rem;
-    font-size: 0.8rem;
-    color: #bbb;
-  }
-  .lightbox-close,
-  .lightbox-prev,
-  .lightbox-next {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 0;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.15);
-    color: #fff;
-    font-size: 1.5rem;
-    line-height: 1;
-    cursor: pointer;
-  }
-  .lightbox-close:hover,
-  .lightbox-prev:hover,
-  .lightbox-next:hover {
-    background: rgba(255, 255, 255, 0.3);
-  }
-  .lightbox-close {
-    top: 1rem;
-    right: 1rem;
-  }
-  .lightbox-prev {
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .lightbox-next {
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 </style>
-
-<script>
-  const gallery = document.querySelector('.gallery');
-  const lightbox = document.getElementById('lightbox');
-
-  if (gallery && lightbox) {
-    const items = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.gallery-item'));
-    const img = lightbox.querySelector('.lightbox-img') as HTMLImageElement;
-    const caption = lightbox.querySelector('.lightbox-text') as HTMLElement;
-    const credit = lightbox.querySelector('.lightbox-credit') as HTMLElement;
-    let current = 0;
-
-    const render = () => {
-      img.src = items[current].dataset.full ?? '';
-      const name = items[current].dataset.name ?? '';
-      const desc = items[current].dataset.caption ?? '';
-      caption.textContent = desc ? `${name}: ${desc}` : name;
-      credit.textContent = items[current].dataset.credit ?? '';
-    };
-    const open = (i: number) => {
-      current = i;
-      render();
-      lightbox.hidden = false;
-      document.body.style.overflow = 'hidden';
-    };
-    const close = () => {
-      lightbox.hidden = true;
-      document.body.style.overflow = '';
-    };
-    const move = (delta: number) => {
-      current = (current + delta + items.length) % items.length;
-      render();
-    };
-
-    items.forEach((item, i) => item.addEventListener('click', () => open(i)));
-    lightbox.querySelector('.lightbox-close')?.addEventListener('click', close);
-    lightbox.querySelector('.lightbox-prev')?.addEventListener('click', () => move(-1));
-    lightbox.querySelector('.lightbox-next')?.addEventListener('click', () => move(1));
-    lightbox.addEventListener('click', (e) => {
-      if (e.target === lightbox) close();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (lightbox.hidden) return;
-      if (e.key === 'Escape') close();
-      if (e.key === 'ArrowLeft') move(-1);
-      if (e.key === 'ArrowRight') move(1);
-    });
-  }
-</script>
