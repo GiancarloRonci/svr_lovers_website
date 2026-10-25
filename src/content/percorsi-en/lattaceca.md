@@ -11,39 +11,39 @@ partenza:
   lat: 41.882611
   lng: 12.982936
 foto:
-  - lat: 41.883513
-    lng: 12.984069
-    immagine: ./lattaceca/foto3.jpg
-    didascalia: "A covered passage in the old town in the evening: the stone arch, the wooden-beam ceiling lit by small lamps and the cobbled paving."
-  - lat: 41.883884
-    lng: 12.983606
-    immagine: ./lattaceca/foto5.jpg
-    didascalia: "The path sloping down between the railing and the wooden fence, with a view over the fog-filled valley and the hills in the background."
-  - lat: 41.883784
-    lng: 12.983107
-    immagine: ./lattaceca/foto6.jpg
-    didascalia: "The view from Via della Libertà over the green slope: an old stone house with a pergola among the trees and cypresses, and the apartment buildings higher up."
-  - lat: 41.883066
-    lng: 12.983247
-    immagine: ./lattaceca/foto2.jpg
-    didascalia: "Theodoli Castle seen from below, from Via Santa Maria, above the bank of yellow flowers."
-  - lat: 41.883030
-    lng: 12.983188
-    immagine: ./lattaceca/foto1.jpg
-    didascalia: "Via Santa Maria: the lane with its wooden fence, the old houses overlooking the slope and the stone wall covered in yellow flowers."
-  - lat: 41.882933
-    lng: 12.982754
-    immagine: ./lattaceca/foto7.jpg
-    didascalia: "The lane with its wooden fence on an autumn morning: yellow leaves on the tarmac, the old houses overlooking the slope and the mountains lit by the sun."
   - lat: 41.882885
     lng: 12.982539
     immagine: ./lattaceca/foto4.jpg
     didascalia: "The lane in the evening, lit by street lamps: on the left the wooden fence overlooking the greenery, on the right the low wall and the old stone houses."
+  - lat: 41.882933
+    lng: 12.982754
+    immagine: ./lattaceca/foto7.jpg
+    didascalia: "The lane with its wooden fence on an autumn morning: yellow leaves on the tarmac, the old houses overlooking the slope and the mountains lit by the sun."
+  - lat: 41.883030
+    lng: 12.983188
+    immagine: ./lattaceca/foto1.jpg
+    didascalia: "Via Santa Maria: the lane with its wooden fence, the old houses overlooking the slope and the stone wall covered in yellow flowers."
+  - lat: 41.883066
+    lng: 12.983247
+    immagine: ./lattaceca/foto2.jpg
+    didascalia: "Theodoli Castle seen from below, from Via Santa Maria, above the bank of yellow flowers."
+  - lat: 41.883784
+    lng: 12.983107
+    immagine: ./lattaceca/foto6.jpg
+    didascalia: "The view from Via della Libertà over the green slope: an old stone house with a pergola among the trees and cypresses, and the apartment buildings higher up."
+  - lat: 41.883884
+    lng: 12.983606
+    immagine: ./lattaceca/foto5.jpg
+    didascalia: "The path sloping down between the railing and the wooden fence, with a view over the fog-filled valley and the hills in the background."
+  - lat: 41.883513
+    lng: 12.984069
+    immagine: ./lattaceca/foto3.jpg
+    didascalia: "A covered passage in the old town in the evening: the stone arch, the wooden-beam ceiling lit by small lamps and the cobbled paving."
 ---
 
 A short loop walk in the centre of San Vito Romano, starting and ending in [Piazza Augusto Baccelli](/en/luoghi/piazza-augusto-baccelli).
 
-From the square the route heads east to [Piazza Governo Vecchio](/en/luoghi/piazza-governo-vecchio), then climbs north and goes anticlockwise around the hill of [Theodoli Castle](/en/luoghi/castello-theodoli). The way back descends along Via Santa Maria and, before returning to the square, heads west for a short stretch and comes back.
+From the square the route first heads west for a short stretch and comes back, then climbs north along Via Santa Maria and goes clockwise around the hill of [Theodoli Castle](/en/luoghi/castello-theodoli). The way back descends to [Piazza Governo Vecchio](/en/luoghi/piazza-governo-vecchio) and from there returns to the starting point.
 
 The whole walk is about 560 metres, to be taken at an easy pace in around ten minutes.
 
