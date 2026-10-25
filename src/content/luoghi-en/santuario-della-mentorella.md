@@ -46,6 +46,24 @@ galleria:
     didascalia: "The view over the valleys and the mountains in the afternoon light."
   - immagine: ./santuario-della-mentorella/photo17.jpg
     didascalia: "A chapel decorated with stucco and statues, with the altar and the statue of the Madonna in a niche."
+  - immagine: ./santuario-della-mentorella/photo18.jpg
+    didascalia: "On the path from San Vito Romano: the wooden board of the Karol Wojtyla Trail, hanging from a branch, invites those climbing to entrust their worries and wishes to Mary, Our Lady of Graces of the Mentorella."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo19.jpg
+    didascalia: "A fork in the woods along the path, with wooden arrows pointing to Ciciliano (Pilgrims' Trail) and to the Sanctuary of the Mentorella (Karol Wojtyla Trail)."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo20.jpg
+    didascalia: "Autumn colours in the woods along the path, with the mountains in the background."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo21.jpg
+    didascalia: "An old dead tree at the edge of a meadow along the path, with the valley, the mountains and a hilltop village."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo22.jpg
+    didascalia: "The sanctuary seen from above, with the church, the convent and the rock behind, overlooking the valleys and the mountains."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo23.jpg
+    didascalia: "A pillar in the church with the fresco of Saint Casimir the King, holding a palm."
+    autore: "Valerio Bruno 21mo Secolo"
 ---
 
 The Sanctuary of the Mentorella stands at over 1,000 metres above sea level on a rocky spur of the Prenestini mountains, in the territory of Capranica Prenestina, not far from San Vito Romano. It is considered the oldest Marian sanctuary in Italy: tradition holds it was founded by Constantine in the 4th century, on the very spot where the Roman tribune Placidus is said to have converted.

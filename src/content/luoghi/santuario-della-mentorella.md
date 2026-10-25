@@ -46,6 +46,24 @@ galleria:
     didascalia: "Il panorama sulle valli e sui monti nella luce del pomeriggio."
   - immagine: ./santuario-della-mentorella/photo17.jpg
     didascalia: "Una cappella decorata con stucchi e statue, con l'altare e la statua della Madonna in una nicchia."
+  - immagine: ./santuario-della-mentorella/photo18.jpg
+    didascalia: "Sul sentiero da San Vito Romano: la tavola di legno del Sentiero Karol Wojtyla, appesa a un ramo, invita chi sale ad affidare a Maria, Madonna delle Grazie della Mentorella, le proprie preoccupazioni e i propri desideri."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo19.jpg
+    didascalia: "Un bivio nel bosco lungo il sentiero, con le frecce di legno per Ciciliano (Sentiero dei Pellegrini) e per il Santuario della Mentorella (Sentiero Karol Wojtyla)."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo20.jpg
+    didascalia: "I colori dell'autunno nel bosco lungo il sentiero, con i monti sullo sfondo."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo21.jpg
+    didascalia: "Un vecchio albero secco ai margini di un prato lungo il sentiero, con la valle, i monti e un paese arroccato sulla collina."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo22.jpg
+    didascalia: "Il santuario visto dall'alto, con la chiesa, il convento e la rupe alle spalle, affacciato sulle valli e sui monti."
+    autore: "Valerio Bruno 21mo Secolo"
+  - immagine: ./santuario-della-mentorella/photo23.jpg
+    didascalia: "Un pilastro della chiesa con l'affresco di San Casimiro re, con la palma in mano."
+    autore: "Valerio Bruno 21mo Secolo"
 ---
 
 Il Santuario della Mentorella sorge a oltre 1000 metri di quota su uno sperone roccioso dei Monti Prenestini, nel territorio di Capranica Prenestina, non lontano da San Vito Romano. È considerato il più antico santuario mariano d'Italia: la tradizione lo vuole fondato per volontà di Costantino nel IV secolo, proprio nel luogo dove sarebbe avvenuta la conversione del tribuno romano Placido.
