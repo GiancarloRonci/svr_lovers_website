@@ -12,6 +12,6 @@ On Saturday 7 and Sunday 8 November 2026 Rocca Canterano, in the upper Aniene Va
 
 The food stands are open on Saturday from 12:00 PM to 10:00 PM and on Sunday from 12:00 PM to 5:00 PM. Besides the role, the menu offers cecamariti (handmade fettuccine with tomato sauce or with chestnuts, mushrooms and sausage), beans with pork rind, sausage and chicory sandwiches and hazelnut sweets. The mock parade sets off on Saturday at 6:30 PM and on Sunday at 4:30 PM.
 
-This information comes from a Canale Dieci article and not yet from an official source: before setting off, check the channels of the Municipality of Rocca Canterano or the organisers.
+Dates and times are confirmed by the poster published by the Pro Loco of Rocca Canterano, which organises the festival.
 
-*Source: [Canale Dieci – Festa del Cornuto 2026: a Rocca Canterano caldarroste, vino novello e una valanga di ironia](https://canaledieci.it/2026/10/18/festa-del-cornuto-2026-rocca-canterano-caldarroste-vino-ironia/)*
+*Source: [Pro Loco Rocca Canterano](https://www.facebook.com/prolocoroccacanterano.rm.9) and [Canale Dieci – Festa del Cornuto 2026: a Rocca Canterano caldarroste, vino novello e una valanga di ironia](https://canaledieci.it/2026/10/18/festa-del-cornuto-2026-rocca-canterano-caldarroste-vino-ironia/)*

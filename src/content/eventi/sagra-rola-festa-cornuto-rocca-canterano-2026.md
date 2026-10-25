@@ -12,6 +12,6 @@ Sabato 7 e domenica 8 novembre 2026 Rocca Canterano, nell'Alta Valle dell'Aniene
 
 Gli stand aprono sabato dalle 12:00 alle 22:00 e domenica dalle 12:00 alle 17:00. Oltre alle role, il menù propone i cecamariti (fettuccine fatte a mano, al sugo rosso oppure con castagne, funghi e salsiccia), fagioli con le cotiche, panini con salsiccia e cicoria e dolci alle nocciole. Il corteo burlesco sfila sabato alle 18:30 e domenica alle 16:30.
 
-Le informazioni vengono da un articolo di Canale Dieci e non ancora da una fonte ufficiale: prima di partire conviene controllare i canali del Comune di Rocca Canterano o degli organizzatori.
+Date e orari sono confermati dalla locandina pubblicata dalla Pro Loco di Rocca Canterano, che organizza la festa.
 
-*Fonte: [Canale Dieci – Festa del Cornuto 2026: a Rocca Canterano caldarroste, vino novello e una valanga di ironia](https://canaledieci.it/2026/10/18/festa-del-cornuto-2026-rocca-canterano-caldarroste-vino-ironia/)*
+*Fonte: [Pro Loco Rocca Canterano](https://www.facebook.com/prolocoroccacanterano.rm.9) e [Canale Dieci – Festa del Cornuto 2026: a Rocca Canterano caldarroste, vino novello e una valanga di ironia](https://canaledieci.it/2026/10/18/festa-del-cornuto-2026-rocca-canterano-caldarroste-vino-ironia/)*
