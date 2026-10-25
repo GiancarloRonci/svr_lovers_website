@@ -48,8 +48,7 @@ A short walk through the heart of the "nnabballe" medieval quarter, taking in tw
 
 It starts at the Tre Fontane fountain in Piazza Augusto Baccelli, the townspeople's favourite meeting place, in the shade of the great trees and the high walls of the Theodoli Castle. Following the castle walls you reach the archway that, beneath an old stone building, serves as the gateway to the medieval quarter: once through the arch, the street changes character and you enter a tangle of cobbled alleys, steps and stone houses, the same setting as Via dell'Arringo, the steep cobbled lane that descends downhill from the castle between iron railings and glimpses of the old town's rooftops.
 
-You climb towards Piazza San Biagio and then head back down a cobbled alley, especially evocative in the evening, when the street lamps light up the stone of the houses. At the bottom is Vicolo Baciadonne, recognisable by its wooden sign: a secluded, almost hidden corner, with its stone steps, an old wooden door and an archway framing the view over the valley. From here, climbing back up the steps, a few paces bring you back towards Piazza San Biagio.
-
+From here, simply follow the route on the map and the photos along the way to reach Vicolo Baciadonne.
 A short walk, but full of atmosphere, best taken slowly — perhaps asking a local for directions along the way: getting a little lost among these alleys is part of the charm.
 
 *Photos: Giancarlo Ronci, from the community on [Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1385223697141387/) and [Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1402873185376438).*

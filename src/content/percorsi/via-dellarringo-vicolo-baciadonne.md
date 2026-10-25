@@ -48,8 +48,7 @@ Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra
 
 Si parte dalle Tre Fontane di Piazza Augusto Baccelli, il punto di ritrovo dei sanvitesi, all'ombra dei grandi alberi e delle alte mura del Castello Theodoli. Costeggiando le mura del castello si arriva all'arco che, sotto un vecchio palazzo in pietra, fa da porta d'ingresso al quartiere medievale: oltrepassato l'arco, la strada cambia volto e si entra in un intreccio di vicoli lastricati, scalette e case in pietra, lo stesso paesaggio di Via dell'Arringo, la ripida stradina in sampietrini che scende a valle del castello tra ringhiere di ferro e scorci sui tetti del paese vecchio.
 
-Si sale verso Piazza San Biagio e poi si ridiscende lungo un vicolo lastricato, particolarmente suggestivo di sera, quando i lampioni accendono la pietra delle case. In fondo si trova il Vicolo Baciadonne, riconoscibile dalla sua insegna in legno: un angolo appartato e quasi nascosto, con la scaletta in pietra, un vecchio portone di legno e un arco che incornicia la vista sulla vallata. Da qui, risalendo le scalette, si torna in pochi passi verso Piazza San Biagio.
-
+Da qui basta seguire il tracciato sulla mappa e le foto lungo il percorso per arrivare al Vicolo Baciadonne.
 Un percorso breve ma denso di atmosfera, che vale la pena affrontare con calma, magari chiedendo indicazioni a qualche sanvitese lungo la strada: perdersi un po' tra questi vicoli fa parte del fascino della passeggiata.
 
 *Foto: Giancarlo Ronci, dalla community di [Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1385223697141387/) e [Facebook](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1402873185376438).*
