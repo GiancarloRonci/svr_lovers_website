@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import LatestPhotos from '../components/LatestPhotos.astro';
 import Meteo3b from '../components/Meteo3b.astro';
+import ContestBanner from '../components/ContestBanner.astro';
 import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -97,6 +98,8 @@ const articoli = (await getCollection('articoli'))
           🎵 <a href="https://www.tiktok.com/@sanvitoromano.lovers" target="_blank" rel="noopener noreferrer">TikTok</a>
         </li>
       </ul>
+
+      <ContestBanner lang="it" />
 
       <Meteo3b lang="it" />
 

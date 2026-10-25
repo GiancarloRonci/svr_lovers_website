@@ -1,0 +1,134 @@
+---
+// Banner in home che ricorda il contest fotografico in corso, con i colori della locandina.
+// Dopo la scadenza (`scadenza`, data ISO) il banner non si mostra più.
+import { Image } from 'astro:assets';
+import { withBase } from '../lib/url';
+import locandina from '../content/articoli/contest-fotografico-il-sole-ridisegna-i-contorni/locandina.png';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const scadenza = '2026-11-30';
+const t =
+  lang === 'en'
+    ? {
+        kicker: 'Photo contest in progress',
+        title1: 'The sun redraws',
+        title2: 'the outlines',
+        text: 'Free theme, free entry, as many photos as you like – old family photos too.',
+        deadline: 'Send your photos by',
+        date: '30 November 2026',
+        cta: 'Take part',
+        href: withBase('en/culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/'),
+      }
+    : {
+        kicker: 'Contest fotografico in corso',
+        title1: 'Il sole ridisegna',
+        title2: 'i contorni',
+        text: 'Tema libero, partecipazione gratuita, foto illimitate – valgono anche le foto storiche di famiglia.',
+        deadline: 'Invia le tue foto entro il',
+        date: '30 novembre 2026',
+        cta: 'Partecipa',
+        href: withBase('culturaturismo/contest-fotografico-il-sole-ridisegna-i-contorni/'),
+      };
+---
+
+<a class="contest-banner" href={t.href} data-scadenza={scadenza} data-pagefind-ignore>
+  <Image class="contest-banner-img" src={locandina} alt="" width={800} />
+  <div class="contest-banner-body">
+    <p class="contest-banner-kicker">📸 {t.kicker}</p>
+    <p class="contest-banner-title">{t.title1} <em>{t.title2}</em></p>
+    <p class="contest-banner-text">{t.text}</p>
+    <div class="contest-banner-footer">
+      <span class="contest-banner-deadline">{t.deadline} <strong>{t.date}</strong></span>
+      <span class="contest-banner-cta">{t.cta} &rarr;</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .contest-banner {
+    display: block;
+    margin-top: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #1c1715;
+    color: #f5efe3;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+    border: 1px solid #f4b942;
+  }
+  .contest-banner[hidden] {
+    display: none;
+  }
+  /* Solo la parte alta della locandina: tramonto e profilo del paese */
+  .contest-banner-img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 18%;
+  }
+  .contest-banner-body {
+    padding: 1.1rem 1.5rem 1.3rem;
+  }
+  .contest-banner-kicker {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #f4b942;
+  }
+  .contest-banner-title {
+    margin: 0.35rem 0 0.5rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #f5efe3;
+  }
+  .contest-banner-title em {
+    color: #f4b942;
+  }
+  .contest-banner-text {
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+    color: #d9d1c2;
+  }
+  .contest-banner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+  .contest-banner-deadline {
+    font-size: 0.9rem;
+    color: #d9d1c2;
+  }
+  .contest-banner-deadline strong {
+    color: #f5efe3;
+  }
+  .contest-banner-cta {
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    background: #e8953a;
+    color: #1c1715;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .contest-banner:hover .contest-banner-cta {
+    background: #f4b942;
+  }
+</style>
+
+<script>
+  // A contest chiuso il banner non serve più
+  const oggi = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+  document.querySelectorAll<HTMLElement>('.contest-banner[data-scadenza]').forEach((box) => {
+    if (oggi > (box.dataset.scadenza as string)) box.hidden = true;
+  });
+</script>
