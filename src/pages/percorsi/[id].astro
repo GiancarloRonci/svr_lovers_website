@@ -80,7 +80,13 @@ const galleryItems = [
   </p>
 
   {(gpx || partenza || fotoResolved.length > 0) && (
-    <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} numerata />
+    <>
+      <p class="nota-mappa">
+        Una volta sulla mappa del percorso, tocca il pulsante 📍 per individuare la tua posizione attuale e fatti guidare
+        dalla mappa stessa.
+      </p>
+      <TrailMap gpx={gpx} partenza={partenza} foto={fotoResolved} numerata />
+    </>
   )}
 
   {gpx && (
@@ -117,6 +123,10 @@ const galleryItems = [
     display: block;
     max-width: 100%;
     height: auto;
+  }
+
+  .nota-mappa {
+    font-size: 0.9rem;
   }
 
   .segnalazioni {
