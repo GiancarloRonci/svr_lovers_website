@@ -20,7 +20,7 @@ foto:
   - lat: 41.882627
     lng: 12.983017
     immagine: ./via-dellarringo-vicolo-baciadonne/foto5.jpg
-    didascalia: "La piccola piazza con la fontana, punto di partenza della passeggiata, all'ombra delle mura del Castello Theodoli."
+    didascalia: "Le Tre Fontane in Piazza Augusto Baccelli, punto di partenza della passeggiata, all'ombra delle mura del Castello Theodoli."
     autore: "Giancarlo Ronci"
   - lat: 41.882742
     lng: 12.983962
@@ -46,7 +46,9 @@ foto:
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.
 
-Si parte da Via dell'Arringo, ripida stradina lastricata in sampietrini che scende a valle del Castello Theodoli tra case in pietra e ringhiere di ferro, con lo sguardo che si apre sui tetti del paese vecchio e sulle colline circostanti. Da qui, addentrandosi tra i vicoli stretti e le scalette del centro storico, in pochi minuti si raggiunge il Vicolo Baciadonne: un angolo appartato e quasi nascosto, tra archi in pietra, vecchie mura e un vecchio portone di legno, non lontano da Piazza San Biagio.
+Si parte dalle Tre Fontane di Piazza Augusto Baccelli, il punto di ritrovo dei sanvitesi, all'ombra dei grandi alberi e delle alte mura del Castello Theodoli. Costeggiando le mura del castello si arriva all'arco che, sotto un vecchio palazzo in pietra, fa da porta d'ingresso al quartiere medievale: oltrepassato l'arco, la strada cambia volto e si entra in un intreccio di vicoli lastricati, scalette e case in pietra, lo stesso paesaggio di Via dell'Arringo, la ripida stradina in sampietrini che scende a valle del castello tra ringhiere di ferro e scorci sui tetti del paese vecchio.
+
+Si sale verso Piazza San Biagio e poi si ridiscende lungo un vicolo lastricato, particolarmente suggestivo di sera, quando i lampioni accendono la pietra delle case. In fondo si trova il Vicolo Baciadonne, riconoscibile dalla sua insegna in legno: un angolo appartato e quasi nascosto, con la scaletta in pietra, un vecchio portone di legno e un arco che incornicia la vista sulla vallata. Da qui, risalendo le scalette, si torna in pochi passi verso Piazza San Biagio.
 
 Un percorso breve ma denso di atmosfera, che vale la pena affrontare con calma, magari chiedendo indicazioni a qualche sanvitese lungo la strada: perdersi un po' tra questi vicoli fa parte del fascino della passeggiata.
 
