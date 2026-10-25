@@ -11,22 +11,10 @@ partenza:
   lat: 41.882611
   lng: 12.982936
 foto:
-  - lat: 41.883030
-    lng: 12.983188
-    immagine: ./lattaceca/foto1.jpg
-    didascalia: "Via Santa Maria: la stradina con la staccionata in legno, le vecchie case affacciate sul pendio e il muro in pietra coperto di fiori gialli."
-  - lat: 41.883066
-    lng: 12.983247
-    immagine: ./lattaceca/foto2.jpg
-    didascalia: "Il Castello Theodoli visto dal basso, da Via Santa Maria, sopra la scarpata fiorita di giallo."
   - lat: 41.883513
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
     didascalia: "Un passaggio coperto del centro storico di sera: l'arco in pietra, il soffitto di travi in legno illuminato da piccole lampade e il selciato di sampietrini."
-  - lat: 41.882885
-    lng: 12.982539
-    immagine: ./lattaceca/foto4.jpg
-    didascalia: "La stradina di sera, illuminata dai lampioni: a sinistra la staccionata in legno affacciata sul verde, a destra il muretto e le vecchie case in pietra."
   - lat: 41.883884
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg
@@ -35,15 +23,27 @@ foto:
     lng: 12.983107
     immagine: ./lattaceca/foto6.jpg
     didascalia: "La vista da Via della Libertà sul pendio verde: una vecchia casa in pietra con il pergolato tra alberi e cipressi, e più in alto i palazzi."
+  - lat: 41.883066
+    lng: 12.983247
+    immagine: ./lattaceca/foto2.jpg
+    didascalia: "Il Castello Theodoli visto dal basso, da Via Santa Maria, sopra la scarpata fiorita di giallo."
+  - lat: 41.883030
+    lng: 12.983188
+    immagine: ./lattaceca/foto1.jpg
+    didascalia: "Via Santa Maria: la stradina con la staccionata in legno, le vecchie case affacciate sul pendio e il muro in pietra coperto di fiori gialli."
   - lat: 41.882933
     lng: 12.982754
     immagine: ./lattaceca/foto7.jpg
     didascalia: "La stradina con la staccionata in legno in una mattina d'autunno: le foglie gialle sull'asfalto, le vecchie case affacciate sul pendio e le montagne illuminate dal sole."
+  - lat: 41.882885
+    lng: 12.982539
+    immagine: ./lattaceca/foto4.jpg
+    didascalia: "La stradina di sera, illuminata dai lampioni: a sinistra la staccionata in legno affacciata sul verde, a destra il muretto e le vecchie case in pietra."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).
 
-Dalla piazza il percorso si allunga prima verso ovest per un breve tratto e torna indietro, poi piega a nord e gira attorno all'altura del [Castello Theodoli](/luoghi/castello-theodoli). Il ritorno scende a [Piazza Governo Vecchio](/luoghi/piazza-governo-vecchio) e da qui riporta al punto di partenza.
+Dalla piazza il percorso va verso est fino a [Piazza Governo Vecchio](/luoghi/piazza-governo-vecchio), poi sale a nord e gira in senso antiorario attorno all'altura del [Castello Theodoli](/luoghi/castello-theodoli). Il ritorno scende lungo Via Santa Maria e, prima di rientrare in piazza, si allunga per un breve tratto verso ovest e torna indietro.
 
 In tutto sono circa 560 metri, da percorrere con calma in una decina di minuti.
 
