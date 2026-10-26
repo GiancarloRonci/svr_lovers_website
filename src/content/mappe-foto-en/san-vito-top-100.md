@@ -14,8 +14,8 @@ foto:
     immagine: foto10.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto5.jpg
-  - percorso: al-monte-chiesa-san-vito
-    immagine: foto12.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto9.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto11.jpg
   - percorso: al-monte-chiesa-san-vito
@@ -121,8 +121,6 @@ foto:
   - percorso: percorso-b-olevano
     immagine: foto8.jpg
   - percorso: percorso-b-olevano
-    immagine: foto9.jpg
-  - percorso: percorso-b-olevano
     immagine: foto10.jpg
   - percorso: percorso-b-olevano
     immagine: foto11.jpg
@@ -147,8 +145,6 @@ foto:
   - percorso: percorso-b-olevano
     immagine: foto21.jpg
   - percorso: percorso-b-olevano
-    immagine: foto47.jpg
-  - percorso: percorso-b-olevano
     immagine: foto22.jpg
   - percorso: percorso-b-olevano
     immagine: foto23.jpg
@@ -158,8 +154,6 @@ foto:
     immagine: foto25.jpg
   - percorso: percorso-b-olevano
     immagine: foto26.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto45.jpg
   - percorso: percorso-b-olevano
     immagine: foto27.jpg
   - percorso: percorso-b-olevano
@@ -183,8 +177,6 @@ foto:
   - percorso: percorso-b-olevano
     immagine: foto37.jpg
   - percorso: percorso-b-olevano
-    immagine: foto48.jpg
-  - percorso: percorso-b-olevano
     immagine: foto38.jpg
   - percorso: percorso-b-olevano
     immagine: foto39.jpg
@@ -193,13 +185,21 @@ foto:
   - percorso: percorso-b-olevano
     immagine: foto41.jpg
   - percorso: percorso-b-olevano
-    immagine: foto46.jpg
-  - percorso: percorso-b-olevano
     immagine: foto42.jpg
   - percorso: percorso-b-olevano
     immagine: foto43.jpg
   - percorso: percorso-b-olevano
     immagine: foto44.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto45.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto46.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto47.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto48.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto49.jpg
   - percorso: via-dellarringo-vicolo-baciadonne
     immagine: foto5.jpg
   - percorso: via-dellarringo-vicolo-baciadonne
