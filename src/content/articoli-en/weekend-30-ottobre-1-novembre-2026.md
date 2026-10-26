@@ -28,7 +28,7 @@ The other chestnut festivals:
 Halloween for all ages:
 
 - **for children:** during the day, [Halloween in the Woods](/en/eventi/halloween-al-bosco-paliano-2026) in Paliano, from 10:00 AM to 11:00 PM, with workshops, a piñata, a costume contest and, in the evening, the ghost walk (tickets 6 euros, 4 for children); in Poli, from 3:30 to 5:30 PM, [Holyween](/en/eventi/holyween-poli-2026) at the parish youth centre, with games and face painting;
-- **in the afternoon:** at 5:00 PM ["Halloween in the square"](/en/eventi/halloween-in-piazza-colleferro-2026) in Piazza Italia in Colleferro and, also at 5:00 PM, the Circus Karakasciò in Piazza Laudenzi for [Halloween in Olevano Romano](/en/eventi/halloween-olevano-romano-2026);
+- **in the afternoon:** from 4:30 PM ["Halloween in the square"](/en/eventi/halloween-in-piazza-colleferro-2026) in Piazza Italia in Colleferro, with games, face painting, bouncy castles for the little ones and free doughnuts, and at 5:00 PM the Circus Karakasciò in Piazza Laudenzi for [Halloween in Olevano Romano](/en/eventi/halloween-olevano-romano-2026);
 - **in the evening:** from 7:30 PM the [Halloween Party](/en/eventi/halloween-capranica-prenestina-2026) in the municipal park of Capranica Prenestina, with dinner, music and cocktails; from 10:00 PM the Olevano Halloween Party, indoors, with three DJs and 500 euros for the best costume.
 
 For a different kind of evening, [I Cantori di Caudium](/en/eventi/cantori-di-caudium-palestrina-2026) sing at 6:30 PM in the church of San Francesco in Palestrina, with the polyphony of Palestrina and de Victoria.

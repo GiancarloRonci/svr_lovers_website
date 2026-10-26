@@ -11,6 +11,6 @@ Venerdì 30 ottobre 2026, alle 18:00, la casa natale del Pierluigi a Palestrina 
 
 In programma musiche di Heitor Villa-Lobos, Dusan Bogdanovic, Eduardo Sainz de la Maza, Marek Pasieczny e Guinga: un viaggio tra Brasile, Spagna ed Europa orientale nel repertorio per chitarra del Novecento e di oggi.
 
-Ingresso e prenotazioni non sono indicati: per informazioni si può contattare la Fondazione al numero 06 953 8083 o all'indirizzo fond.palestrina@tiscali.it.
+L'ingresso è gratuito. Per informazioni si può contattare la Fondazione al numero 06 953 8083 o all'indirizzo fond.palestrina@tiscali.it.
 
 *Fonte: [Fondazione Giovanni Pierluigi da Palestrina](https://www.fondazionepierluigipalestrina.it/intersezioni-i-linguaggi-della-chitarra-moderna/)*

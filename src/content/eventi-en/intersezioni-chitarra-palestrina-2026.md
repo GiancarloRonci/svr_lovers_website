@@ -11,6 +11,6 @@ On Friday 30 October 2026, at 6:00 PM, Pierluigi's birthplace in Palestrina host
 
 The programme features music by Heitor Villa-Lobos, Dusan Bogdanovic, Eduardo Sainz de la Maza, Marek Pasieczny and Guinga: a journey through Brazil, Spain and Eastern Europe in the guitar repertoire of the twentieth century and today.
 
-Admission and booking details are not given: for information contact the Foundation at +39 06 953 8083 or fond.palestrina@tiscali.it.
+Admission is free. For information contact the Foundation at +39 06 953 8083 or fond.palestrina@tiscali.it.
 
 *Source: [Giovanni Pierluigi da Palestrina Foundation](https://www.fondazionepierluigipalestrina.it/intersezioni-i-linguaggi-della-chitarra-moderna/)*

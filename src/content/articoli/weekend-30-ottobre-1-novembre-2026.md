@@ -28,7 +28,7 @@ Le altre feste delle castagne:
 Halloween per tutte le età:
 
 - **per i bambini:** di giorno, [Halloween al Bosco](/eventi/halloween-al-bosco-paliano-2026) a Paliano, dalle 10:00 alle 23:00, con laboratori, pentolaccia, concorso in maschera e, la sera, la passeggiata dei fantasmi (biglietto 6 euro, 4 per i bambini); a Poli, dalle 15:30 alle 17:30, [Holyween](/eventi/holyween-poli-2026) all'oratorio, con giochi e truccabimbi;
-- **nel pomeriggio:** alle 17:00 ["Halloween in piazza"](/eventi/halloween-in-piazza-colleferro-2026) in Piazza Italia a Colleferro e, sempre alle 17:00, il Circus Karakasciò in Piazza Laudenzi per [Halloween a Olevano Romano](/eventi/halloween-olevano-romano-2026);
+- **nel pomeriggio:** dalle 16:30 ["Halloween in piazza"](/eventi/halloween-in-piazza-colleferro-2026) in Piazza Italia a Colleferro, con giochi, trucca-bimbi, gonfiabili per i più piccoli e ciambelle gratis, e alle 17:00 il Circus Karakasciò in Piazza Laudenzi per [Halloween a Olevano Romano](/eventi/halloween-olevano-romano-2026);
 - **la sera:** dalle 19:30 la [Festa di Halloween](/eventi/halloween-capranica-prenestina-2026) al Parco Comunale di Capranica Prenestina, con cena, musica e cocktail; dalle 22:00 l'Halloween Party di Olevano, al coperto, con tre dj e 500 euro per la maschera migliore.
 
 Chi preferisce una serata diversa ha [I Cantori di Caudium](/eventi/cantori-di-caudium-palestrina-2026) alle 18:30 nella chiesa di San Francesco a Palestrina, con la polifonia di Palestrina e de Victoria.
