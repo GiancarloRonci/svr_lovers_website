@@ -50,8 +50,10 @@ foto:
     immagine: foto3.jpg
   - percorso: lattaceca
     immagine: foto4.jpg
-  - percorso: percorso-a-san-biagio
-    immagine: foto25.jpg
+  - immagine: ./san-vito-top-100/castello-theodoli-notte.jpg
+    lat: 41.8830
+    lng: 12.9836
+    didascalia: "The castle at night, lit by the street lamps under a sky of clouds brightened by the moon."
   - percorso: percorso-a-san-biagio
     immagine: foto2.jpg
   - percorso: lattaceca
