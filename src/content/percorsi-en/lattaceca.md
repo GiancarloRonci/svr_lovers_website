@@ -31,6 +31,10 @@ foto:
     lng: 12.983107
     immagine: ./lattaceca/foto6.jpg
     didascalia: "The view from Via della Libertà over the green slope: an old stone house with a pergola among the trees and cypresses, and the apartment buildings higher up."
+  - lat: 41.883780
+    lng: 12.983585
+    immagine: ./lattaceca/foto8.jpg
+    didascalia: "From an old wooden door, the steps lead down to the iron gate and the low stone wall; below, the wooded valley and, higher up, the houses on the hill."
   - lat: 41.883884
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg

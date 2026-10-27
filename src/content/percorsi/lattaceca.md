@@ -31,6 +31,10 @@ foto:
     lng: 12.983107
     immagine: ./lattaceca/foto6.jpg
     didascalia: "La vista da Via della Libertà sul pendio verde: una vecchia casa in pietra con il pergolato tra alberi e cipressi, e più in alto i palazzi."
+  - lat: 41.883780
+    lng: 12.983585
+    immagine: ./lattaceca/foto8.jpg
+    didascalia: "Da un vecchio portone in legno, la scalinata scende verso il cancello in ferro e il muretto in pietra; sotto, la valle coperta di boschi e, in alto, le case sulla collina."
   - lat: 41.883884
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg
