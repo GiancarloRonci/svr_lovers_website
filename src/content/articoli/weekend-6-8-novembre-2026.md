@@ -1,6 +1,6 @@
 ---
 title: "Il weekend: Festa del Cornuto e boschi dei Simbruini (6-8 novembre)"
-description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco: cosa fare nel weekend dal 6 all'8 novembre 2026."
+description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, il pranzo delle lane a San Cesareo: cosa fare nel weekend dal 6 all'8 novembre 2026."
 data: 2026-10-25
 categoria: weekend
 ---
@@ -19,6 +19,8 @@ Il consiglio della settimana è restare in paese per [Sanvitese - Frosinone Tecc
 
 Da mezzogiorno a Rocca Canterano apre la [Sagra della Rola e Festa del Cornuto](/eventi/sagra-rola-festa-cornuto-rocca-canterano-2026): caldarroste, vino novello, cecamariti e fagioli con le cotiche, con gli stand aperti fino alle 22:00 e il corteo burlesco alle 18:30.
 
+Per chi ha ancora voglia di sport, alle 19:00 al PalaFlacco di Palestrina c'è l'esordio in casa della squadra di basket femminile: [Iobus Jungle Team - GD Barrili](/eventi/iobus-jungle-team-gd-barrili-palestrina-2026-11-07), Serie C.
+
 ## Domenica: boschi e sentieri
 
 La mattina è per chi ama camminare e correre:
@@ -26,7 +28,7 @@ La mattina è per chi ama camminare e correre:
 - alle 9:00 parte da Subiaco il [Trail sui Sentieri dei Santi](/eventi/trail-sentieri-santi-subiaco-2026), 13 km tra il Sacro Speco e Santa Scolastica, anche non competitivo; alle 9:30 c'è il percorso gratuito di 2 km per i bambini;
 - dalle 10:00 alle 15:00 a Monte Livata c'è il [Forest Bathing](/eventi/forest-bathing-monte-livata-2026-11-08) lungo il sentiero 672/C, un anello di meno di 6 km da fare con calma (20 euro, su prenotazione).
 
-A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30.
+A pranzo c'è l'imbarazzo della scelta. A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30. A San Cesareo, dalle 12:30 in Piazzale La Villetta, la Pro Loco organizza ["Sapori Sancesaresi, Lane e tradizioni"](/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), con le lane al baccalà e le pizze di polenta: i biglietti si comprano in prevendita.
 
 **Se avete solo mezza giornata:** il pranzo della domenica alla Festa del Cornuto di Rocca Canterano, a venticinque minuti da casa.
 
