@@ -23,6 +23,7 @@ galleria:
     didascalia: "Cartolina d'epoca: \"S. Vito Romano - Scorcio del vecchio paese\", con le case in pietra e una scala esterna ad arco."
   - immagine: ./foto-dal-passato/foto9.jpg
     didascalia: "Cartolina colorata a mano: \"San Vito Romano m. 720 - Panorama\"."
+categoria: com-era-san-vito
 ---
 
 Vecchie cartoline, fotografie di famiglia, scatti ingialliti ritrovati in un cassetto: sono piccoli frammenti di memoria che raccontano com'era San Vito Romano prima che il tempo ne cambiasse strade, piazze e abitudini. In questa pagina raccogliamo le immagini d'epoca del paese, per guardarle insieme e riscoprire luoghi che conosciamo bene con gli occhi di chi li ha vissuti prima di noi.

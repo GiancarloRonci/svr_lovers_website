@@ -8,6 +8,7 @@ import { resolveGalleria } from '../../../lib/gallery';
 import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 import { weekendDatesFromSlug } from '../../../lib/weekend';
 import Meteo3b from '../../../components/Meteo3b.astro';
+import { categoriaArticolo } from '../../../lib/categorieArticoli';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoliEn');
@@ -38,6 +39,9 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 
 <Layout title={title} description={description}>
   <a data-pagefind-ignore href={withBase('en/articoli/')}>&larr; All articles</a>
+  <p class="categoria-articolo" data-pagefind-ignore>
+    <a class="tag" href={withBase(`en/articoli/categoria/${categoria}/`)}>{categoriaArticolo(categoria).en.nome}</a>
+  </p>
   <h1>{title}</h1>
   <p class="meta">
     {data && <>{data.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</>}
@@ -211,6 +215,14 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   /* L'immagine con il testo originale della poesia */
   .poesia :global(img) {
     border: 1px solid #d4d4d4;
+  }
+
+  .categoria-articolo {
+    margin: 1rem 0 -0.5rem;
+  }
+  .categoria-articolo .tag {
+    margin: 0;
+    text-decoration: none;
   }
 
   .aggiornato {

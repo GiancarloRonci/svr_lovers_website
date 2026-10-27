@@ -1,0 +1,46 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import Card from '../../../../components/Card.astro';
+import CategorieArticoli from '../../../../components/CategorieArticoli.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../../lib/url';
+import { byInsertionDesc } from '../../../../lib/insertionOrder';
+import { CATEGORIE_ARTICOLI } from '../../../../lib/categorieArticoli';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoliEn');
+  // One page for each category with at least one article
+  return CATEGORIE_ARTICOLI.filter((c) => articoli.some((a) => a.data.categoria === c.id)).map((c) => ({
+    params: { categoria: c.id },
+    props: { categoria: c },
+  }));
+}
+
+const { categoria } = Astro.props;
+const articoli = (await getCollection('articoliEn'))
+  .filter((a) => a.data.categoria === categoria.id)
+  .sort(byInsertionDesc);
+---
+
+<Layout cercabile={false} title={categoria.en.nome} description={categoria.en.descrizione}>
+  <a href={withBase('en/articoli/')}>&larr; All articles</a>
+  <h1>{categoria.en.nome}</h1>
+  <p class="meta">{categoria.en.descrizione}</p>
+
+  <CategorieArticoli lang="en" attiva={categoria.id} />
+
+  <div class="card-grid">
+    {
+      articoli.map((a) => (
+        <Card
+          href={withBase(`en/articoli/${a.id}/`)}
+          title={a.data.title}
+          description={a.data.description}
+          meta={a.data.data?.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+          image={a.data.immagine}
+          imagePosition={a.data.copertinaPosizione}
+        />
+      ))
+    }
+  </div>
+</Layout>

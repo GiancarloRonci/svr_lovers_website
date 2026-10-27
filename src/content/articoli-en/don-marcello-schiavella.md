@@ -6,6 +6,7 @@ autore: Redazione SVRLovers
 immagine: ./don-marcello-schiavella/photo3.jpg
 immagineIntera: true
 copertinaPosizione: top
+categoria: personaggi
 ---
 
 For anyone who grew up in San Vito Romano between the late Sixties and the late Nineties, "the priest of San Biagio" meant Don Marcello. Don Marcello Schiavella, originally from nearby Genazzano, came to the parish of San Biagio Martire in 1968 and stayed for thirty years, until October 1998: a very long time, during which he baptised, married, accompanied and above all helped raise whole generations of sanvitesi. "The legendary, much-loved Don Marcello, a symbol for many generations of young people", as the community has remembered him.

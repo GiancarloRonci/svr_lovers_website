@@ -4,6 +4,7 @@ description: "The post introducing the community's website: what is in it, who i
 data: 2026-10-12
 autore: Redazione SVRLovers
 immagine: ./presentazione-del-sito/copertina.jpg
+categoria: community
 ---
 
 🌿 **San Vito Romano has a new address: [www.sanvitoromanolovers.org](https://www.sanvitoromanolovers.org/en/)** ❤️

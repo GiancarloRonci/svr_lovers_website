@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { ID_CATEGORIE_ARTICOLI } from './lib/categorieArticoli';
 
 // Autore e licenza di una foto; senza autore vale quello predefinito (src/lib/photoCredit.ts)
 const creditoFoto = {
@@ -267,8 +268,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     description: z.string(),
     data: z.coerce.date().optional(),
     autore: z.string().optional(),
-    // Raggruppa l'articolo in una sezione di Cultura&Turismo ("Viaggi nel tempo", "Il weekend", "Storie in sanvitese")
-    categoria: z.enum(['viaggi-nel-tempo', 'weekend', 'storie-in-sanvitese']).optional(),
+    // Obbligatoria: ogni categoria ha la sua pagina in /articoli/categoria/<id>/ (elenco in src/lib/categorieArticoli.ts)
+    categoria: z.enum(ID_CATEGORIE_ARTICOLI),
     // Mostra l'immagine intera, senza ritaglio (es. locandine verticali)
     immagineIntera: z.boolean().optional(),
     // Limita l'altezza della copertina intera a circa tre quarti dello schermo (per le immagini verticali)

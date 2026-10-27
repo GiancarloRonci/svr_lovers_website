@@ -5,6 +5,7 @@ data: 2026-10-14
 autore: Redazione SVRLovers
 immagine: ./contest-fotografico-il-sole-ridisegna-i-contorni/locandina.png
 immagineIntera: true
+categoria: community
 ---
 
 📸 **Al via il primo contest fotografico di SanVitoRomano Lovers: "San Vito Romano: il sole ridisegna i contorni"** ☀️

@@ -4,6 +4,7 @@ description: A historic bar in San Vito Romano, for years the town's meeting pla
 data: 2026-09-24
 autore: Redazione SVRLovers
 immagine: ./il-bar-2000/photo1.jpg
+categoria: com-era-san-vito
 ---
 
 Il Bar 2000 is one of those places that live mostly in the memory of the people who spent time there: a vintage postcard shows it with its red sign, the covered terrace with its outdoor tables, and the small square it overlooked, halfway between Piazza Roma and "la Terrazza", next to the petrol station - right where the bank stands today - back when San Vito Romano moved at a different pace. For generations of sanvitesi it was simply "il bar 2000" — or, as some remember it, "the legendary bar 2000".

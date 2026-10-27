@@ -1,0 +1,63 @@
+---
+// La barra con le categorie degli articoli, ciascuna con il link alla sua pagina e il numero di articoli.
+// Con `attiva` evidenzia la categoria della pagina in cui si trova.
+import { getCollection } from 'astro:content';
+import { withBase } from '../lib/url';
+import { CATEGORIE_ARTICOLI, type CategoriaArticolo } from '../lib/categorieArticoli';
+
+interface Props {
+  lang: 'it' | 'en';
+  attiva?: CategoriaArticolo;
+}
+
+const { lang, attiva } = Astro.props;
+const articoli = await getCollection(lang === 'it' ? 'articoli' : 'articoliEn');
+const prefisso = lang === 'it' ? 'articoli' : 'en/articoli';
+const voci = CATEGORIE_ARTICOLI.map((c) => ({
+  ...c,
+  numero: articoli.filter((a) => a.data.categoria === c.id).length,
+})).filter((c) => c.numero > 0);
+---
+
+<nav class="categorie-articoli" aria-label={lang === 'it' ? 'Categorie degli articoli' : 'Article categories'}>
+  <a href={withBase(`${prefisso}/`)} aria-current={attiva ? undefined : 'page'}>
+    {lang === 'it' ? 'Tutti' : 'All'}
+  </a>
+  {
+    voci.map((c) => (
+      <a href={withBase(`${prefisso}/categoria/${c.id}/`)} aria-current={c.id === attiva ? 'page' : undefined}>
+        {c[lang].nome} <span class="numero">{c.numero}</span>
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .categorie-articoli {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 1.5rem;
+  }
+  .categorie-articoli a {
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--color-text);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .categorie-articoli a:hover {
+    border-color: var(--color-accent);
+  }
+  .categorie-articoli a[aria-current='page'] {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+  .numero {
+    opacity: 0.7;
+    font-size: 0.85em;
+  }
+</style>

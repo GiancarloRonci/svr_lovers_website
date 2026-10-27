@@ -4,6 +4,7 @@ description: An overview portrait of San Vito Romano, its historic centre, green
 data: 2026-09-22
 autore: SVRLovers editorial team
 immagine: ./san-vito-romano/copertina.jpg
+categoria: com-era-san-vito
 ---
 
 San Vito Romano sits at around 650 metres above sea level in the Prenestini Mountains, just over an hour from Rome. It's one of those villages you get to know slowly: a tight-knit historic centre, narrow lanes climbing up towards the castle, and all around it woods and trails inviting you to step outside the built-up area and breathe some mountain air.

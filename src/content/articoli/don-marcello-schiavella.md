@@ -6,6 +6,7 @@ autore: Redazione SVRLovers
 immagine: ./don-marcello-schiavella/photo3.jpg
 immagineIntera: true
 copertinaPosizione: top
+categoria: personaggi
 ---
 
 Per chi è cresciuto a San Vito Romano tra la fine degli anni Sessanta e la fine degli anni Novanta, dire "il prete di San Biagio" significava dire Don Marcello. Don Marcello Schiavella, originario della vicina Genazzano, arrivò alla parrocchia di San Biagio Martire nel 1968 e vi rimase per trent'anni, fino all'ottobre del 1998: un tempo lunghissimo, nel quale ha battezzato, sposato, accompagnato e soprattutto fatto crescere intere generazioni di sanvitesi. "Il mitico e ben voluto Don Marcello, simbolo di molte generazioni di giovani", come lo ha ricordato la community.

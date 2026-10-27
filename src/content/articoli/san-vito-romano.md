@@ -4,6 +4,7 @@ description: Un ritratto d'insieme di San Vito Romano, tra centro storico, verde
 data: 2026-09-22
 autore: Redazione SVRLovers
 immagine: ./san-vito-romano/copertina.jpg
+categoria: com-era-san-vito
 ---
 
 San Vito Romano sorge a circa 650 metri d'altitudine sui Monti Prenestini, a poco più di un'ora da Roma. È uno di quei paesi che si scoprono piano piano: un centro storico raccolto, vicoli stretti che si arrampicano verso il castello, e tutto intorno boschi e sentieri che invitano a uscire dal centro abitato per respirare aria di montagna.

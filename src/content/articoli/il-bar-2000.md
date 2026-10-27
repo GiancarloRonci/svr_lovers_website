@@ -4,6 +4,7 @@ description: Uno storico bar di San Vito Romano, per anni punto di ritrovo del p
 data: 2026-09-24
 autore: Redazione SVRLovers
 immagine: ./il-bar-2000/photo1.jpg
+categoria: com-era-san-vito
 ---
 
 Il Bar 2000 è uno dei luoghi che vivono soprattutto nella memoria di chi lo ha frequentato: una cartolina d'epoca lo ritrae con la sua insegna rossa ben visibile, il porticato con i tavolini all'aperto e il piazzale dove si affacciava, a metà strada tra Piazza Roma e la Terrazza, accanto al distributore di benzina - proprio dove oggi sorge la banca - in un'epoca in cui San Vito Romano aveva un ritmo diverso. Per generazioni di sanvitesi è stato semplicemente "il bar 2000", o come lo ricorda qualcuno, "il mitico bar 2000".

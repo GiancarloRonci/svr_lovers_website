@@ -1,9 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
+import CategorieArticoli from '../../components/CategorieArticoli.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/url';
 import { byInsertionDesc } from '../../lib/insertionOrder';
+import { categoriaArticolo } from '../../lib/categorieArticoli';
 
 const articoli = (await getCollection('articoli')).sort(byInsertionDesc);
 ---
@@ -12,6 +14,8 @@ const articoli = (await getCollection('articoli')).sort(byInsertionDesc);
   <h1>Articoli</h1>
   <p class="meta">Racconti, approfondimenti e curiosità su San Vito Romano scritti dalla community.</p>
 
+  <CategorieArticoli lang="it" />
+
   <div class="card-grid">
     {
       articoli.map((a) => (
@@ -19,6 +23,7 @@ const articoli = (await getCollection('articoli')).sort(byInsertionDesc);
           href={withBase(`articoli/${a.id}/`)}
           title={a.data.title}
           description={a.data.description}
+          tag={categoriaArticolo(a.data.categoria).it.nome}
           meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
           image={a.data.immagine}
           imagePosition={a.data.copertinaPosizione}

@@ -23,6 +23,7 @@ galleria:
     didascalia: "Vintage postcard: \"S. Vito Romano - Scorcio del vecchio paese\", with stone houses and an arched outdoor staircase."
   - immagine: ./foto-dal-passato/foto9.jpg
     didascalia: "Hand-coloured postcard: \"San Vito Romano m. 720 - Panorama\"."
+categoria: com-era-san-vito
 ---
 
 Old postcards, family photos, faded snapshots found in a drawer: small fragments of memory that tell us what San Vito Romano looked like before time changed its streets, squares and habits. On this page we collect vintage images of the town, to look at them together and rediscover familiar places through the eyes of those who lived there before us.

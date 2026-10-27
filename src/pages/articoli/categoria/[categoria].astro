@@ -1,0 +1,46 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+import CategorieArticoli from '../../../components/CategorieArticoli.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
+import { byInsertionDesc } from '../../../lib/insertionOrder';
+import { CATEGORIE_ARTICOLI } from '../../../lib/categorieArticoli';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli');
+  // Una pagina per ogni categoria che ha almeno un articolo
+  return CATEGORIE_ARTICOLI.filter((c) => articoli.some((a) => a.data.categoria === c.id)).map((c) => ({
+    params: { categoria: c.id },
+    props: { categoria: c },
+  }));
+}
+
+const { categoria } = Astro.props;
+const articoli = (await getCollection('articoli'))
+  .filter((a) => a.data.categoria === categoria.id)
+  .sort(byInsertionDesc);
+---
+
+<Layout cercabile={false} title={categoria.it.nome} description={categoria.it.descrizione}>
+  <a href={withBase('articoli/')}>&larr; Tutti gli articoli</a>
+  <h1>{categoria.it.nome}</h1>
+  <p class="meta">{categoria.it.descrizione}</p>
+
+  <CategorieArticoli lang="it" attiva={categoria.id} />
+
+  <div class="card-grid">
+    {
+      articoli.map((a) => (
+        <Card
+          href={withBase(`articoli/${a.id}/`)}
+          title={a.data.title}
+          description={a.data.description}
+          meta={a.data.data?.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+          image={a.data.immagine}
+          imagePosition={a.data.copertinaPosizione}
+        />
+      ))
+    }
+  </div>
+</Layout>
