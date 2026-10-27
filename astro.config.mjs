@@ -1,10 +1,16 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { satteri } from '@astrojs/markdown-satteri';
+import { didascalieImmagini } from './src/lib/didascalie-immagini.mjs';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.sanvitoromanolovers.org',
   base: '/',
+  markdown: {
+    // Didascalie sotto le immagini degli articoli, dal testo alternativo
+    processor: satteri({ hastPlugins: [didascalieImmagini] }),
+  },
   i18n: {
     locales: ['it', 'en'],
     defaultLocale: 'it',

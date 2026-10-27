@@ -531,6 +531,22 @@ const privacyHref = withBase(`${prefix}privacy/`);
         margin: 1.5rem auto;
       }
 
+      /* Immagini con didascalia negli articoli (vedi src/lib/rehype-didascalie.mjs) */
+      article figure.didascalia {
+        margin: 1.5rem 0;
+      }
+      article figure.didascalia img {
+        margin: 0 auto;
+      }
+      article figure.didascalia figcaption {
+        max-width: 40rem;
+        margin: 0.5rem auto 0;
+        text-align: center;
+        font-size: 0.9rem;
+        font-style: italic;
+        color: var(--color-muted);
+      }
+
       main {
         max-width: 1000px;
         margin: 0 auto;
