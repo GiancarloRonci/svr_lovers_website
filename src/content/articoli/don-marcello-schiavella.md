@@ -20,7 +20,11 @@ La sua strada era cominciata prestissimo: entrò nel seminario di Palestrina nel
 
 Il suo mondo era [Piazza San Biagio](/luoghi/piazza-san-biagio/). Sotto la chiesa si aprono tre porte, che i sanvitesi ricordano bene: la prima era il deposito della bottega di Giuliano, la seconda la sala ricreativa, la terza lo studio di Don Marcello, con la biblioteca. Sul muro, per anni, una scritta richiamava tutti a "pace, lavoro e fratellanza"; è sparita quando, dopo la sua partenza, l'edificio è stato ristrutturato e ritinteggiato.
 
+![Le tre porte sotto la chiesa di San Biagio come sono oggi, dopo la ristrutturazione: la scritta sul muro non c'è più.](./don-marcello-schiavella/photo6.jpg)
+
 Nei locali della parrocchia si facevano il catechismo, le tombolate con tutti i ragazzi "nabballeri" del quartiere di nnabballe e soprattutto il cinema. Quasi tutte le domeniche Don Marcello proiettava un film: alla porta c'era Valeriano, con il suo banchetto, a strappare i biglietti, e con 100 lire ci si vedeva lo spettacolo, ragazzi, famiglie e anziani insieme. Per i più grandi, ancora oggi, quello resta "il mitico cinema di Don Marcello e Valeriano", una specie di "Nuovo Cinema Paradiso" sanvitese, e a tutti e due va ancora "un grazie per le bellissime domeniche insieme ai loro film".
+
+![La fila per il cinema della domenica davanti alle porte di Piazza San Biagio, con Valeriano che strappa i biglietti: un'illustrazione creata con l'intelligenza artificiale e condivisa nel gruppo della community, una ricostruzione di fantasia e non una foto d'epoca.](./don-marcello-schiavella/photo7.jpg)
 
 Il suo studio, invece, era per molti "una tana piena di serenità, cultura e lavoro". Lì Don Marcello costruiva le sue opere in legno: diorami che riproducevano gli angoli più caratteristici di San Vito, precisi fino ai minimi particolari, che spiegava con gioia a chi andava a trovarlo. E con l'archetto da traforo insegnava a lavorare il legno anche ai ragazzi. Era appassionato di fotografia, e scattava foto in continuazione ai suoi ragazzi.
 

@@ -20,7 +20,11 @@ His path began very early: he entered the seminary in Palestrina in 1948, when h
 
 His world was [Piazza San Biagio](/en/luoghi/piazza-san-biagio/). Below the church open three doors that the sanvitesi remember well: the first was the storeroom of Giuliano's shop, the second the recreation room, the third Don Marcello's study, with the library. For years an inscription on the wall called everyone to "peace, work and brotherhood"; it disappeared when, after he left, the building was renovated and repainted.
 
+![The three doors below the church of San Biagio as they are today, after the renovation: the inscription on the wall is gone.](./don-marcello-schiavella/photo6.jpg)
+
 The parish rooms hosted catechism, tombola (Italian bingo) evenings with all the "nabballeri" kids from the nnabballe quarter and, above all, the cinema. Almost every Sunday Don Marcello screened a film: at the door sat Valeriano at his little table, tearing the tickets, and for 100 lire you could watch the show, kids, families and old folks all together. For the older ones it is still "the legendary cinema of Don Marcello and Valeriano", a sort of San Vito "Cinema Paradiso", and both of them still get "a thank-you for the wonderful Sundays together with their films".
+
+![The queue for the Sunday film in front of the doors on Piazza San Biagio, with Valeriano tearing the tickets: an illustration created with artificial intelligence and shared in the community group, an imaginative reconstruction rather than a period photo.](./don-marcello-schiavella/photo7.jpg)
 
 His study, on the other hand, was for many "a den full of serenity, culture and work". There Don Marcello built his wooden works: dioramas reproducing the most characteristic corners of San Vito, accurate down to the smallest detail, which he would happily explain to anyone who came to visit. With a fretsaw he also taught the kids how to work wood. He was passionate about photography, and was forever taking pictures of his young people.
 
