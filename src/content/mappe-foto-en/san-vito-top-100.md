@@ -164,8 +164,8 @@ foto:
     immagine: foto29.jpg
   - percorso: percorso-b-olevano
     immagine: foto30.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto31.jpg
+  - percorso: lattaceca
+    immagine: foto8.jpg
   - percorso: percorso-b-olevano
     immagine: foto32.jpg
   - percorso: percorso-b-olevano
