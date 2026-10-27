@@ -3,7 +3,8 @@ title: Don Marcello Schiavella
 description: For thirty years parish priest of San Biagio Martire, guide and friend to whole generations of sanvitesi, between Sunday films, his wooden dioramas, trips and football.
 data: 2026-10-26
 autore: Redazione SVRLovers
-immagine: ./don-marcello-schiavella/photo1.jpg
+immagine: ./don-marcello-schiavella/photo3.jpg
+immagineIntera: true
 copertinaPosizione: top
 ---
 

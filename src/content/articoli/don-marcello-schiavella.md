@@ -3,7 +3,8 @@ title: Don Marcello Schiavella
 description: Per trent'anni parroco di San Biagio Martire, guida e amico di intere generazioni di sanvitesi, tra il cinema della domenica, i suoi diorami in legno, le gite e il calcio.
 data: 2026-10-26
 autore: Redazione SVRLovers
-immagine: ./don-marcello-schiavella/photo1.jpg
+immagine: ./don-marcello-schiavella/photo3.jpg
+immagineIntera: true
 copertinaPosizione: top
 ---
 
