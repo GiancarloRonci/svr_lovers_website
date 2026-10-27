@@ -4,6 +4,7 @@ description: "Chestnut festivals in Rocca di Cave and Arcinazzo, the Autumn Fest
 data: 2026-10-24
 categoria: weekend
 immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
+copertinaPosizione: left
 ---
 
 It's the weekend of Halloween and All Saints' Day: on Saturday there are pumpkins and costumes, and Sunday is a public holiday. Around home it's chestnut time, with three festivals less than half an hour away and more celebrations in the Simbruini mountains.

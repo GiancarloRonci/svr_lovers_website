@@ -4,6 +4,7 @@ description: "Sagre del marrone a Rocca di Cave e Arcinazzo, Festa d'Autunno a C
 data: 2026-10-24
 categoria: weekend
 immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
+copertinaPosizione: left
 ---
 
 È il weekend di Halloween e di Ognissanti: sabato si festeggia tra zucche e maschere, domenica è festa. Intorno a casa è il momento delle castagne, con tre sagre a meno di mezz'ora e altre feste sui Simbruini.
