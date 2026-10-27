@@ -10,6 +10,7 @@ import { withBase } from '../lib/url';
 import { byInsertionDesc } from '../lib/insertionOrder';
 import { byLastChangeDesc } from '../lib/siteUpdates';
 import { formatEventDate } from '../lib/eventDate';
+import { formatDriveTime } from '../lib/driveTime';
 import { getSiteLastModified, formatLastModifiedFull } from '../lib/lastModified';
 
 const siteLastModified = getSiteLastModified();
@@ -192,6 +193,7 @@ const articoli = (await getCollection('articoli'))
                 title={e.data.title}
                 description={e.data.description}
                 meta={formatEventDate(e.data.dataInizio, e.data.dataFine, 'it-IT')}
+                distanza={formatDriveTime(e.data.minutiAuto, 'it')}
                 image={e.data.immagine}
               />
             ))
