@@ -29,6 +29,8 @@ The parish rooms hosted catechism, tombola (Italian bingo) evenings with all the
 
 His study, on the other hand, was for many "a den full of serenity, culture and work". There Don Marcello built his wooden works: dioramas reproducing the most characteristic corners of San Vito, accurate down to the smallest detail, which he would happily explain to anyone who came to visit. With a fretsaw he also taught the kids how to work wood. He was passionate about photography, and was forever taking pictures of his young people.
 
+![A group of children in Don Marcello's study and library, arm in arm around the marble table covered with newspapers; the date printed on the photo is from 1993.](./don-marcello-schiavella/photo8.jpg)
+
 Giancarlo remembers finding a beautiful book on chess on the shelves of that library: it was thanks to that book that he learned to play. Don Marcello also loved cutting the best jokes out of the newspapers and collecting them, gluing them one by one into a book of his own. And how could anyone forget the time when he built the old village of San Vito Romano in miniature, all made of wood. "How patient he was."
 
 That miniature San Vito can still be seen in a short video shared on Facebook: the town rebuilt piece by piece, in wood, by his own hands.

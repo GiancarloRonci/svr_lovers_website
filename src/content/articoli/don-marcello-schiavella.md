@@ -29,6 +29,8 @@ Nei locali della parrocchia si facevano il catechismo, le tombolate con tutti i 
 
 Il suo studio, invece, era per molti "una tana piena di serenità, cultura e lavoro". Lì Don Marcello costruiva le sue opere in legno: diorami che riproducevano gli angoli più caratteristici di San Vito, precisi fino ai minimi particolari, che spiegava con gioia a chi andava a trovarlo. E con l'archetto da traforo insegnava a lavorare il legno anche ai ragazzi. Era appassionato di fotografia, e scattava foto in continuazione ai suoi ragazzi.
 
+![Un gruppo di bambini nello studio e biblioteca di Don Marcello, abbracciati attorno al tavolo di marmo coperto di giornali; la data stampata sulla foto è del 1993.](./don-marcello-schiavella/photo8.jpg)
+
 Giancarlo ricorda di aver trovato, tra gli scaffali di quella biblioteca, un bellissimo libro sugli scacchi: è grazie a quel libro che ha imparato a giocare. Don Marcello, poi, amava ritagliare dai giornali le barzellette più belle e le collezionava incollandole una a una in un suo libro. E come dimenticare il periodo in cui costruì, in miniatura e tutto in legno, il borgo antico di San Vito Romano. "Quanta pazienza che aveva."
 
 Quel San Vito in miniatura si può ancora vedere in un breve video condiviso su Facebook: il paese ricostruito pezzo per pezzo, in legno, dalle sue mani.
