@@ -24,6 +24,8 @@ The parish rooms hosted catechism, tombola (Italian bingo) evenings with all the
 
 His study, on the other hand, was for many "a den full of serenity, culture and work". There Don Marcello built his wooden works: dioramas reproducing the most characteristic corners of San Vito, accurate down to the smallest detail, which he would happily explain to anyone who came to visit. With a fretsaw he also taught the kids how to work wood. He was passionate about photography, and was forever taking pictures of his young people.
 
+Giancarlo remembers finding a beautiful book on chess on the shelves of that library: it was thanks to that book that he learned to play. Don Marcello also loved cutting the best jokes out of the newspapers and collecting them, gluing them one by one into a book of his own. And how could anyone forget the time when he built the old village of San Vito Romano in miniature, all made of wood. "How patient he was."
+
 ## The priest of the young
 
 "A priest who revolutionised the parish of San Biagio, creating a group of young people who are still very close today and always grateful to him, for the gift of friendship, unity and faith": that is how those who were there describe him. Don Marcello knew how to deal with kids and keep them busy: he organised camps, trips and outings to the Sonnina, parties in the square, pilgrimages. For the processions he prepared costumes so beautiful that the kids "came to blows" to wear them. Many were his altar boys, and one remembers helping him, as a boy, to redo the sacristy roof by wetting the cement.

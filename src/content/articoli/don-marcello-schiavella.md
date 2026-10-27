@@ -24,6 +24,8 @@ Nei locali della parrocchia si facevano il catechismo, le tombolate con tutti i 
 
 Il suo studio, invece, era per molti "una tana piena di serenità, cultura e lavoro". Lì Don Marcello costruiva le sue opere in legno: diorami che riproducevano gli angoli più caratteristici di San Vito, precisi fino ai minimi particolari, che spiegava con gioia a chi andava a trovarlo. E con l'archetto da traforo insegnava a lavorare il legno anche ai ragazzi. Era appassionato di fotografia, e scattava foto in continuazione ai suoi ragazzi.
 
+Giancarlo ricorda di aver trovato, tra gli scaffali di quella biblioteca, un bellissimo libro sugli scacchi: è grazie a quel libro che ha imparato a giocare. Don Marcello, poi, amava ritagliare dai giornali le barzellette più belle e le collezionava incollandole una a una in un suo libro. E come dimenticare il periodo in cui costruì, in miniatura e tutto in legno, il borgo antico di San Vito Romano. "Quanta pazienza che aveva."
+
 ## Il prete dei ragazzi
 
 "Un prete che ha rivoluzionato la parrocchia di San Biagio, creando un gruppo di giovani che ancora oggi sono molto uniti e grati sempre a lui, per il dono dell'amicizia, dell'unione, della fede": così lo descrive chi c'era. Don Marcello sapeva come trattare e intrattenere i ragazzi: organizzava campeggi, gite e scampagnate alla Sonnina, feste in piazza, pellegrinaggi. Per le processioni preparava costumi così belli che i ragazzi "facevano a botte" per indossarli. In tanti sono stati suoi chierichetti, e c'è chi ricorda di averlo aiutato, da ragazzo, a rifare il tetto della sagrestia, bagnando il cemento.
