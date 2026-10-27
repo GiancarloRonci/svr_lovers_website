@@ -92,6 +92,21 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
       </script>
     )
   }
+  <script is:inline>
+    // Video di Facebook "clicca per caricare": l'iframe (e i cookie di Meta) arriva solo dopo il clic
+    document.querySelectorAll('article .video-facebook button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var box = b.closest('.video-facebook');
+        var f = document.createElement('iframe');
+        f.src = box.dataset.src;
+        f.title = box.dataset.title || '';
+        f.allow = 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share';
+        f.allowFullscreen = true;
+        box.replaceChildren(f);
+        box.classList.add('caricato');
+      });
+    });
+  </script>
 
   <PhotoGallery items={galleryItems} lang="en" numerata />
 </Layout>
@@ -102,6 +117,50 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
     color: var(--color-muted);
     font-size: 0.9em;
     white-space: nowrap;
+  }
+  /* Video di Facebook incorporati nel testo (vedi lo script sopra) */
+  article :global(.video-facebook) {
+    aspect-ratio: 16 / 9;
+    margin: 1.5rem 0 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    text-align: center;
+    background: #1f2328;
+    color: #e6e6e6;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  article :global(.video-facebook p) {
+    margin: 0;
+    max-width: 32rem;
+  }
+  article :global(.video-facebook a) {
+    color: #fff;
+  }
+  article :global(.video-facebook button) {
+    padding: 0.6rem 1.2rem;
+    border: 0;
+    border-radius: 999px;
+    background: var(--color-accent);
+    color: #fff;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  article :global(.video-facebook.caricato) {
+    padding: 0;
+    background: #000;
+  }
+  article :global(.video-facebook iframe) {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
   }
   .avviso {
     margin: 1rem 0 1.5rem;

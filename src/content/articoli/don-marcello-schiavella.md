@@ -40,6 +40,13 @@ Con i ragazzi stringeva legami che sono durati una vita. Lo racconta una foto ch
 
 La chiesa, ai suoi tempi, era sempre piena. La domenica mattina diceva messa anche al santuario della Madonnina, e anche lì non restava un posto libero. Ha celebrato i matrimoni di tanti sanvitesi, a San Biagio come alla Madonnina, e per alcuni non ha esitato a spostarsi fino a Roma o a Nettuno pur di sposarli lui. Antonio Orlandi, nel suo sanvitese, ricorda così la piazza di quegli anni: "piazza san Biagio era tutta na' pipinara, cinquanta persone senteno e unu sonea a chitarra. Mentre don Marcello dicea a messa e giuliano i bottegante taglea a ventresca."
 
+<div class="video-facebook" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100026558231241%2Fvideos%2F1555335985999011%2F&amp;show_text=false&amp;autoplay=true" data-title="Video sulla chiesa di San Biagio Martire">
+<button type="button">▶ Guarda il video</button>
+<p>Il video viene caricato da Facebook, che può usare i propri cookie. In alternativa puoi <a href="https://www.facebook.com/100026558231241/videos/pcb.1367185332278557/1555335985999011" target="_blank" rel="noopener noreferrer">aprirlo su Facebook</a>.</p>
+</div>
+
+*Un video sulla chiesa di San Biagio Martire, che Don Marcello ha guidato per trent'anni.*
+
 ## La passione per il calcio
 
 L'altra sua grande passione era lo sport, e il calcio in particolare. Don Marcello sostenne le squadre giovanili e fece dell'ambiente sportivo della parrocchia un luogo in cui crescere: proprio lì mosse i primi passi da calciatore Francesco Rocca, il terzino della Roma e della Nazionale soprannominato "Kawasaki" per la sua velocità.

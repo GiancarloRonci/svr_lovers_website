@@ -40,6 +40,13 @@ With his young people he formed bonds that lasted a lifetime. A photo shows him,
 
 In his day the church was always full. On Sunday mornings he also said mass at the sanctuary of the Madonnina, and there too not a seat was left. He celebrated the weddings of many sanvitesi, at San Biagio and at the Madonnina, and for some he did not hesitate to travel as far as Rome or Nettuno to marry them himself. Antonio Orlandi, in his San Vito dialect, remembers the square in those years like this: "piazza san Biagio era tutta na' pipinara, cinquanta persone senteno e unu sonea a chitarra. Mentre don Marcello dicea a messa e giuliano i bottegante taglea a ventresca" - Piazza San Biagio was swarming with people, fifty listening while one played the guitar, while Don Marcello said mass and Giuliano the shopkeeper sliced the pancetta.
 
+<div class="video-facebook" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100026558231241%2Fvideos%2F1555335985999011%2F&amp;show_text=false&amp;autoplay=true" data-title="Video about the church of San Biagio Martire">
+<button type="button">▶ Watch the video</button>
+<p>The video is loaded from Facebook, which may use its own cookies. Alternatively you can <a href="https://www.facebook.com/100026558231241/videos/pcb.1367185332278557/1555335985999011" target="_blank" rel="noopener noreferrer">open it on Facebook</a>.</p>
+</div>
+
+*A video about the church of San Biagio Martire, which Don Marcello led for thirty years.*
+
 ## A passion for football
 
 His other great passion was sport, and football in particular. Don Marcello supported the youth teams and made the parish's sporting life a place to grow up in: it was right there that Francesco Rocca took his first steps as a footballer - the AS Roma and Italy full-back nicknamed "Kawasaki" for his speed.
