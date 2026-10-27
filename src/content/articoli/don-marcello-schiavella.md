@@ -31,7 +31,7 @@ Il suo studio, invece, era per molti "una tana piena di serenità, cultura e lav
 
 ![Un gruppo di bambini nello studio e biblioteca di Don Marcello, abbracciati attorno al tavolo di marmo coperto di giornali; la data stampata sulla foto è del 1993.](./don-marcello-schiavella/photo8.jpg)
 
-Giancarlo ricorda di aver trovato, tra gli scaffali di quella biblioteca, un bellissimo libro sugli scacchi: è grazie a quel libro che ha imparato a giocare. Don Marcello, poi, amava ritagliare dai giornali le barzellette più belle e le collezionava incollandole una a una in un suo libro. E come dimenticare il periodo in cui costruì, in miniatura e tutto in legno, il borgo antico di San Vito Romano. "Quanta pazienza che aveva."
+Giancarlo ricorda di aver trovato, tra gli scaffali di quella biblioteca, un bellissimo libro sugli scacchi: è grazie a quel libro che ha imparato a giocare. Sul tavolo dello studio, poi, c'erano sempre tutti i quotidiani: Don Marcello li metteva a disposizione di chiunque volesse leggerli. E proprio dai giornali amava ritagliare le barzellette più belle e le collezionava incollandole una a una in un suo libro. E come dimenticare il periodo in cui costruì, in miniatura e tutto in legno, il borgo antico di San Vito Romano. "Quanta pazienza che aveva."
 
 Quel San Vito in miniatura si può ancora vedere in un breve video condiviso su Facebook: il paese ricostruito pezzo per pezzo, in legno, dalle sue mani.
 

@@ -31,7 +31,7 @@ His study, on the other hand, was for many "a den full of serenity, culture and 
 
 ![A group of children in Don Marcello's study and library, arm in arm around the marble table covered with newspapers; the date printed on the photo is from 1993.](./don-marcello-schiavella/photo8.jpg)
 
-Giancarlo remembers finding a beautiful book on chess on the shelves of that library: it was thanks to that book that he learned to play. Don Marcello also loved cutting the best jokes out of the newspapers and collecting them, gluing them one by one into a book of his own. And how could anyone forget the time when he built the old village of San Vito Romano in miniature, all made of wood. "How patient he was."
+Giancarlo remembers finding a beautiful book on chess on the shelves of that library: it was thanks to that book that he learned to play. On the table in the study, what's more, all the daily newspapers were always laid out: Don Marcello made them available to anyone who wanted to read them. And it was from those newspapers that he loved cutting the best jokes and collecting them, gluing them one by one into a book of his own. And how could anyone forget the time when he built the old village of San Vito Romano in miniature, all made of wood. "How patient he was."
 
 That miniature San Vito can still be seen in a short video shared on Facebook: the town rebuilt piece by piece, in wood, by his own hands.
 
