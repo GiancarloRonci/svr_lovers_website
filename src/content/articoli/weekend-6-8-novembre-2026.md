@@ -3,6 +3,7 @@ title: "Il weekend: Festa del Cornuto e boschi dei Simbruini (6-8 novembre)"
 description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, il pranzo delle lane a San Cesareo: cosa fare nel weekend dal 6 all'8 novembre 2026."
 data: 2026-10-25
 categoria: weekend
+immagine: ./weekend-6-8-novembre-2026/copertina.png
 ---
 
 Passato il ponte di Ognissanti, il primo weekend di novembre è più tranquillo ma non vuoto: a Rocca Canterano arrivano le role e la Festa del Cornuto, a San Vito torna a giocare la Sanvitese, e sui Simbruini i boschi sono nel pieno dei colori d'autunno.

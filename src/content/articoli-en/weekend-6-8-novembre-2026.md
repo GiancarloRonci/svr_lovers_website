@@ -3,6 +3,7 @@ title: "The Weekend: the Festa del Cornuto and the Simbruini woods (6-8 November
 description: "The Sagra della Rola and Festa del Cornuto in Rocca Canterano, the Sanvitese at home, the trail on the Paths of the Saints and forest bathing at Monte Livata, music and readings on Saint Francis in Subiaco, the lane pasta lunch in San Cesareo: what to do on the weekend of 6 to 8 November 2026."
 data: 2026-10-25
 categoria: weekend
+immagine: ./weekend-6-8-novembre-2026/copertina.png
 ---
 
 After the All Saints' long weekend, the first weekend of November is quieter but far from empty: the role (roast chestnuts) and the Festa del Cornuto arrive in Rocca Canterano, the Sanvitese plays at home again in San Vito, and the Simbruini woods are at the height of their autumn colours.
