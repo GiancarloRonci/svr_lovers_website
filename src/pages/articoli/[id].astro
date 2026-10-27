@@ -152,6 +152,13 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     font-weight: 600;
     cursor: pointer;
   }
+  /* Reel verticali: stretti e centrati, senza occupare tutto lo schermo */
+  article :global(.video-facebook.verticale) {
+    aspect-ratio: 9 / 16;
+    width: min(100%, 360px, 45vh);
+    margin-left: auto;
+    margin-right: auto;
+  }
   article :global(.video-facebook.caricato) {
     padding: 0;
     background: #000;

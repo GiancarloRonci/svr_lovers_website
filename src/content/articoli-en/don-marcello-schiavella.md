@@ -26,6 +26,15 @@ His study, on the other hand, was for many "a den full of serenity, culture and 
 
 Giancarlo remembers finding a beautiful book on chess on the shelves of that library: it was thanks to that book that he learned to play. Don Marcello also loved cutting the best jokes out of the newspapers and collecting them, gluing them one by one into a book of his own. And how could anyone forget the time when he built the old village of San Vito Romano in miniature, all made of wood. "How patient he was."
 
+That miniature San Vito can still be seen in a short video shared on Facebook: the town rebuilt piece by piece, in wood, by his own hands.
+
+<div class="video-facebook verticale" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1674302923438014%2F&amp;show_text=false&amp;autoplay=true" data-title="Reel about San Vito Romano in miniature, made of wood by Don Marcello">
+<button type="button">▶ Watch the video</button>
+<p>The video is loaded from Facebook, which may use its own cookies. Alternatively you can <a href="https://www.facebook.com/reel/1674302923438014" target="_blank" rel="noopener noreferrer">open it on Facebook</a>.</p>
+</div>
+
+*San Vito Romano in miniature, all made of wood: one of Don Marcello's works.*
+
 ## The priest of the young
 
 "A priest who revolutionised the parish of San Biagio, creating a group of young people who are still very close today and always grateful to him, for the gift of friendship, unity and faith": that is how those who were there describe him. Don Marcello knew how to deal with kids and keep them busy: he organised camps, trips and outings to the Sonnina, parties in the square, pilgrimages. For the processions he prepared costumes so beautiful that the kids "came to blows" to wear them. Many were his altar boys, and one remembers helping him, as a boy, to redo the sacristy roof by wetting the cement.

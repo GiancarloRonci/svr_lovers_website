@@ -26,6 +26,15 @@ Il suo studio, invece, era per molti "una tana piena di serenità, cultura e lav
 
 Giancarlo ricorda di aver trovato, tra gli scaffali di quella biblioteca, un bellissimo libro sugli scacchi: è grazie a quel libro che ha imparato a giocare. Don Marcello, poi, amava ritagliare dai giornali le barzellette più belle e le collezionava incollandole una a una in un suo libro. E come dimenticare il periodo in cui costruì, in miniatura e tutto in legno, il borgo antico di San Vito Romano. "Quanta pazienza che aveva."
 
+Quel San Vito in miniatura si può ancora vedere in un breve video condiviso su Facebook: il paese ricostruito pezzo per pezzo, in legno, dalle sue mani.
+
+<div class="video-facebook verticale" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1674302923438014%2F&amp;show_text=false&amp;autoplay=true" data-title="Reel su San Vito Romano in miniatura, realizzato in legno da Don Marcello">
+<button type="button">▶ Guarda il video</button>
+<p>Il video viene caricato da Facebook, che può usare i propri cookie. In alternativa puoi <a href="https://www.facebook.com/reel/1674302923438014" target="_blank" rel="noopener noreferrer">aprirlo su Facebook</a>.</p>
+</div>
+
+*San Vito Romano in miniatura, tutto in legno: una delle opere di Don Marcello.*
+
 ## Il prete dei ragazzi
 
 "Un prete che ha rivoluzionato la parrocchia di San Biagio, creando un gruppo di giovani che ancora oggi sono molto uniti e grati sempre a lui, per il dono dell'amicizia, dell'unione, della fede": così lo descrive chi c'era. Don Marcello sapeva come trattare e intrattenere i ragazzi: organizzava campeggi, gite e scampagnate alla Sonnina, feste in piazza, pellegrinaggi. Per le processioni preparava costumi così belli che i ragazzi "facevano a botte" per indossarli. In tanti sono stati suoi chierichetti, e c'è chi ricorda di averlo aiutato, da ragazzo, a rifare il tetto della sagrestia, bagnando il cemento.
