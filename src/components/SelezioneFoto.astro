@@ -185,6 +185,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             <span id="sel-visore-codice" class="sel-visore-codice" />
             <span id="sel-visore-posizione" class="sel-visore-posizione" />
             <button type="button" class="sel-like" id="sel-visore-like" />
+            <span id="sel-visore-totale" class="sel-totale" />
             <button type="button" class="sel-elimina" id="sel-visore-elimina" hidden>{t.elimina}</button>
           </div>
           <p id="sel-visore-errore" class="sel-visore-errore" role="alert" hidden />
@@ -251,6 +252,18 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           return dati.miei.indexOf(codice) >= 0;
         }
 
+        // Like totali ricevuti da una foto, presi dalla classifica
+        function totaleLike(codice) {
+          for (var i = 0; i < dati.classifica.length; i++) {
+            if (dati.classifica[i].codice === codice) return dati.classifica[i].like;
+          }
+          return 0;
+        }
+
+        function preparaTotale(el, codice) {
+          el.textContent = testoLike(totaleLike(codice));
+        }
+
         // Stato del cuore (pieno/vuoto) per un bottone della galleria o del visore
         function eMia(codice) {
           return dati.foto.some(function (f) {
@@ -289,6 +302,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
         var visore = document.getElementById('sel-visore');
         var visoreImg = document.getElementById('sel-visore-img');
         var visoreLike = document.getElementById('sel-visore-like');
+        var visoreTotale = document.getElementById('sel-visore-totale');
         var visoreErrore = document.getElementById('sel-visore-errore');
         // aperta: posizione in dati.foto della foto mostrata; passo: la sua posizione nell'ordine
         // di scorrimento, che è quello della galleria oppure, se aperta dalla classifica, quello
@@ -325,6 +339,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             .replace('{i}', passo + 1)
             .replace('{n}', n);
           preparaLike(visoreLike, f.codice);
+          preparaTotale(visoreTotale, f.codice);
           preparaEliminaVisore();
           visoreErrore.hidden = true;
           // Precarica le foto vicine, così lo scorrimento è immediato
@@ -501,6 +516,10 @@ const chiaveMemoria = `svr-selezione-${slug}`;
             var azioni = document.createElement('span');
             azioni.className = 'sel-azioni';
             azioni.appendChild(bottone);
+            var totale = document.createElement('span');
+            totale.className = 'sel-totale';
+            preparaTotale(totale, f.codice);
+            azioni.appendChild(totale);
             if (f.propria && !dati.chiuso) {
               var elimina = document.createElement('button');
               elimina.type = 'button';
@@ -566,6 +585,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
 
           if (visore.open && aperta >= 0) {
             preparaLike(visoreLike, dati.foto[aperta].codice);
+            preparaTotale(visoreTotale, dati.foto[aperta].codice);
             preparaEliminaVisore();
           }
         }
@@ -809,6 +829,14 @@ const chiaveMemoria = `svr-selezione-${slug}`;
     gap: 0.6rem;
   }
 
+  /* Like totali della foto, accanto al cuore */
+  .sel-galleria :global(.sel-totale) {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    margin-left: -0.3rem;
+  }
+
   .sel-galleria :global(.sel-elimina),
   .sel-visore .sel-elimina {
     cursor: pointer;
@@ -962,6 +990,12 @@ const chiaveMemoria = `svr-selezione-${slug}`;
   .sel-visore-posizione {
     color: #c9c4b6;
     font-size: 0.9rem;
+  }
+
+  .sel-visore .sel-totale {
+    color: #c9c4b6;
+    font-size: 0.9rem;
+    margin-left: -0.75rem;
   }
 
   .sel-visore .sel-like {
