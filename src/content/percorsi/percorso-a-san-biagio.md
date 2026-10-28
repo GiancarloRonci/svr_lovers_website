@@ -68,6 +68,10 @@ foto:
     lng: 12.984428
     immagine: ./percorso-a-san-biagio/foto13.jpg
     didascalia: "Un bellissimo portone, chiuso da tantissimo tempo"
+  - lat: 41.883529
+    lng: 12.984369
+    immagine: ./percorso-a-san-biagio/foto28.jpg
+    didascalia: "Le scale di Via San Biagio: un lampione in ferro battuto, il gatto sui gradini, le case con il balcone e il gallo segnavento sul comignolo, e in fondo le montagne."
   - lat: 41.883589
     lng: 12.984208
     immagine: ./percorso-a-san-biagio/foto14.jpg

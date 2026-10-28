@@ -68,6 +68,10 @@ foto:
     lng: 12.984428
     immagine: ./percorso-a-san-biagio/foto13.jpg
     didascalia: "A beautiful doorway, closed for a very long time"
+  - lat: 41.883529
+    lng: 12.984369
+    immagine: ./percorso-a-san-biagio/foto28.jpg
+    didascalia: "The steps of Via San Biagio: a wrought-iron street lamp, a cat on the stairs, houses with a balcony and a rooster weather vane on the chimney, and the mountains in the distance."
   - lat: 41.883589
     lng: 12.984208
     immagine: ./percorso-a-san-biagio/foto14.jpg
