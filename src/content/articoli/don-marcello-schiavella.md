@@ -15,7 +15,7 @@ Per chi è cresciuto a San Vito Romano tra la fine degli anni Sessanta e la fine
 
 ## La vocazione
 
-La sua strada era cominciata prestissimo: entrò nel seminario di Palestrina nel 1948, ad appena undici anni, e proseguì poi gli studi al Pontificio Collegio Leoniano di Anagni. Chi lo ha conosciuto da giovane parroco lo ricorda con la veste, i folti capelli neri e gli immancabili occhiali dalla montatura importante; e con il breviario, che recitava puntualmente ogni pomeriggio, senza saltarne uno. C'è anche chi lo ha avuto come professore alle scuole medie.
+Don Marcello era nato a Genazzano il 18 marzo 1937, e la sua strada era cominciata prestissimo: entrò nel seminario di Palestrina nel 1948, ad appena undici anni, e proseguì poi gli studi al Pontificio Collegio Leoniano di Anagni. Fu ordinato sacerdote nel suo paese il 21 aprile 1963 e mosse i primi passi da viceparroco proprio a Genazzano, nella parrocchia di San Paolo Apostolo. Chi lo ha conosciuto da giovane parroco lo ricorda con la veste, i folti capelli neri e gli immancabili occhiali dalla montatura importante; e con il breviario, che recitava puntualmente ogni pomeriggio, senza saltarne uno. C'è anche chi lo ha avuto come professore alle scuole medie.
 
 ## Le tre porte di Piazza San Biagio
 
@@ -73,12 +73,34 @@ Una delle immagini più care alla community lo ritrae a braccetto con due amici,
 
 ## Il ritorno a Genazzano
 
-Nell'ottobre del 1998 Don Marcello lasciò San Vito Romano e tornò nella sua Genazzano, dove fu parroco della chiesa di San Paolo Apostolo; anche lì, nei locali della chiesa, le sue opere in legno erano in bella mostra. Molti sanvitesi ricordano ancora il dispiacere per quel trasferimento. A Genazzano il suo legame con lo sport e con i giovani non si è perso: in suo ricordo si corre la "Genazzano a Perdifiato – Memorial Don Marcello Schiavella", una corsa su strada di 9,5 chilometri con gare anche per i più piccoli, giunta nel 2024 all'ottava edizione.
+![La copertina dell'Annuario diocesano 1997 della Diocesi suburbicaria di Palestrina e, accanto, la foto di Don Marcello pubblicata al suo interno, in uno dei suoi ultimi anni a San Vito.](./don-marcello-schiavella/photo13.jpg)
+
+Nell'ottobre del 1998 Don Marcello lasciò San Vito Romano e tornò nella sua Genazzano, come parroco di quella stessa chiesa di San Paolo Apostolo dove aveva cominciato da viceparroco; anche lì, nella chiesa, le sue opere in legno erano in bella mostra. Molti sanvitesi ricordano ancora il dispiacere per quel trasferimento. A Genazzano il suo legame con lo sport e con i giovani non si è perso: in suo ricordo si corre la "Genazzano a Perdifiato – Memorial Don Marcello Schiavella", una corsa su strada di 9,5 chilometri con gare anche per i più piccoli, giunta nel 2024 all'ottava edizione.
 
 ![Due ritratti affiancati: Don Marcello in età matura e un giovane in divisa militare.](./don-marcello-schiavella/photo5.jpg)
+
+## I diorami di San Paolo
+
+Nella primavera del 2012 Agapito Fornari, allora direttore dell'Ufficio Beni Culturali della Diocesi, andò a trovare Don Marcello nella parrocchia di San Paolo e fotografò le sue ultime creazioni, esposte in fondo alla chiesa. Don Marcello gli raccontò, con ricchezza di dettagli, come era nata questa passione: era sempre stato affascinato dai diorami e dalla possibilità di ricreare mondi in miniatura. Non erano semplici riproduzioni: ognuna raccontava un luogo della sua vita di sacerdote.
+
+Il primo diorama era un omaggio alle sue radici: Genazzano e il Santuario della Madonna del Buon Consiglio, con la facciata riprodotta fino all'iscrizione sotto il timpano.
+
+![Il diorama in legno del Santuario della Madonna del Buon Consiglio di Genazzano, con il campanile e la facciata decorata (foto di Agapito Fornari, 2012).](./don-marcello-schiavella/photo9.jpg)
+
+Il secondo raccontava l'amore di Don Marcello per la storia locale e per l'architettura del territorio: il Castello Colonna di Genazzano e, sulla destra, la chiesa di San Nicola di Bari e di San Giovanni.
+
+![Il diorama di Genazzano con il Castello Colonna al centro e, sulla destra, la chiesa di San Nicola di Bari e di San Giovanni (foto di Agapito Fornari, 2012).](./don-marcello-schiavella/photo10.jpg)
+
+Il terzo custodiva il cuore del suo lungo ministero: la chiesa di San Biagio, con le case di San Vito strette intorno. Le riproduceva con una precisione che stupisce ancora oggi chi ci abitava. Giorgio Pazzi ricorda: "La parte terminale del mio comignolo era divisa in due parti. Ma vista da terra non si vedeva, dovetti arrampicarmi sul tetto per vedere che era così".
+
+![Il diorama di San Biagio esposto nella chiesa di San Paolo a Genazzano: la chiesa sanvitese con il campanile, circondata dalle case del paese (foto di Agapito Fornari, 2012).](./don-marcello-schiavella/photo11.jpg)
+
+![Il modellino in legno della chiesa di San Biagio con il tetto sollevato, che lascia vedere le volte decorate, le colonne e i banchi della navata (foto di Agapito Fornari, 2012).](./don-marcello-schiavella/photo12.jpg)
+
+Che fine abbiano fatto questi capolavori, oggi, non si sa. Lo ha chiesto qualcuno nel gruppo, e Agapito Fornari ha risposto: "Don Marcello mi disse che voleva donarli ma non so dove siano poi andati a finire".
 
 ## I ricordi della community
 
 Ogni volta che una sua foto compare nel gruppo Facebook della community, i commenti si moltiplicano: "indimenticabile", "il nostro prete, mai dimenticato", "un esempio di sacerdote", "grande sacerdote, grande uomo e grande amico", "Don Marcello sempre nel cuore, anzi il cuore di San Vito". C'è chi si dice "cresciuta a pane e Don Marcello", e chi lo riassume così: "non era soltanto un sacerdote, era una presenza, un punto di riferimento. Univa, non divideva. Parlava poco e faceva molto". E anche chi in quegli anni non c'era riconosce in questi ricordi "una bellissima storia dove la semplicità la fa da padrone", e aggiunge: "È la nostra cultura e va protetta". In tanti si augurano che un giorno San Vito possa ricordarlo in modo stabile, e proprio a San Biagio, il luogo dove ha vissuto e dove ha dato tanto a ognuno.
 
-*Fonte: ricordi condivisi dalla community su Facebook ([1](https://www.facebook.com/groups/sanvitoromano.lovers/posts/931444639185964/), [2](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1367185332278557/), [3](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1375874478076309/), [4](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1395637989433291/), [5](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1425343576462732/), [6](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439333888397034/), [7](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439644465032643/), [8](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439737121690044/)).*
+*Fonte: ricordi condivisi dalla community su Facebook ([1](https://www.facebook.com/groups/sanvitoromano.lovers/posts/931444639185964/), [2](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1367185332278557/), [3](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1375874478076309/), [4](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1395637989433291/), [5](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1425343576462732/), [6](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439333888397034/), [7](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439644465032643/), [8](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439737121690044/), [9](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1445034367826986/)). Le foto dei diorami e l'immagine dell'Annuario diocesano 1997 vengono dal post di Agapito Fornari.*

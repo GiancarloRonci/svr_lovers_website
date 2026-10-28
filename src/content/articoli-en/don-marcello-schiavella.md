@@ -15,7 +15,7 @@ For anyone who grew up in San Vito Romano between the late Sixties and the late 
 
 ## His vocation
 
-His path began very early: he entered the seminary in Palestrina in 1948, when he was just eleven, and went on to study at the Pontifical Leonine College in Anagni. Those who knew him as a young parish priest remember him in his cassock, with thick black hair and his ever-present glasses with their bold frames; and with his breviary, which he recited punctually every afternoon, without ever skipping one. Some also had him as a teacher at middle school.
+Don Marcello was born in Genazzano on 18 March 1937, and his path began very early: he entered the seminary in Palestrina in 1948, when he was just eleven, and went on to study at the Pontifical Leonine College in Anagni. He was ordained a priest in his home town on 21 April 1963 and took his first steps as a curate right there in Genazzano, in the parish of San Paolo Apostolo. Those who knew him as a young parish priest remember him in his cassock, with thick black hair and his ever-present glasses with their bold frames; and with his breviary, which he recited punctually every afternoon, without ever skipping one. Some also had him as a teacher at middle school.
 
 ## The three doors of Piazza San Biagio
 
@@ -73,12 +73,34 @@ One of the pictures the community holds dearest shows him arm in arm with two fr
 
 ## Back to Genazzano
 
-In October 1998 Don Marcello left San Vito Romano and returned to his native Genazzano, where he was parish priest of the church of San Paolo Apostolo; there too his wooden works were proudly displayed in the church rooms. Many sanvitesi still remember how sorry they were about that transfer. In Genazzano his bond with sport and young people lived on: the "Genazzano a Perdifiato – Memorial Don Marcello Schiavella" is run in his memory, a 9.5 km road race with shorter races for children too, which reached its eighth edition in 2024.
+![The cover of the 1997 Diocesan Yearbook of the Suburbicarian Diocese of Palestrina and, next to it, the photo of Don Marcello published inside, in one of his last years in San Vito.](./don-marcello-schiavella/photo13.jpg)
+
+In October 1998 Don Marcello left San Vito Romano and returned to his native Genazzano, as parish priest of the same church of San Paolo Apostolo where he had started out as a curate; there too his wooden works were proudly displayed in the church. Many sanvitesi still remember how sorry they were about that transfer. In Genazzano his bond with sport and young people lived on: the "Genazzano a Perdifiato – Memorial Don Marcello Schiavella" is run in his memory, a 9.5 km road race with shorter races for children too, which reached its eighth edition in 2024.
 
 ![Two portraits side by side: Don Marcello in his mature years and a young man in military uniform.](./don-marcello-schiavella/photo5.jpg)
+
+## The dioramas of San Paolo
+
+In spring 2012 Agapito Fornari, then director of the Diocese's Cultural Heritage Office, visited Don Marcello in the parish of San Paolo and photographed his latest creations, displayed at the back of the church. Don Marcello told him in rich detail how this passion had begun: he had always been fascinated by dioramas and by the chance to recreate worlds in miniature. They were not mere reproductions: each one told the story of a place in his life as a priest.
+
+The first diorama was a tribute to his roots: Genazzano and the Sanctuary of Our Lady of Good Counsel, with the facade reproduced right down to the inscription below the pediment.
+
+![The wooden diorama of the Sanctuary of Our Lady of Good Counsel in Genazzano, with its bell tower and decorated facade (photo by Agapito Fornari, 2012).](./don-marcello-schiavella/photo9.jpg)
+
+The second showed Don Marcello's love for local history and for the architecture of the area: the Castello Colonna in Genazzano and, on the right, the church of San Nicola di Bari and San Giovanni.
+
+![The diorama of Genazzano with the Castello Colonna in the centre and, on the right, the church of San Nicola di Bari and San Giovanni (photo by Agapito Fornari, 2012).](./don-marcello-schiavella/photo10.jpg)
+
+The third held the heart of his long ministry: the church of San Biagio, with the houses of San Vito clustered around it. He reproduced them with a precision that still amazes the people who lived there. Giorgio Pazzi remembers: "The top of my chimney was split into two parts. But you couldn't see it from the ground; I had to climb onto the roof to see that it really was like that".
+
+![The San Biagio diorama on display in the church of San Paolo in Genazzano: the San Vito church with its bell tower, surrounded by the houses of the village (photo by Agapito Fornari, 2012).](./don-marcello-schiavella/photo11.jpg)
+
+![The wooden model of the church of San Biagio with its roof lifted, showing the decorated vaults, the columns and the pews of the nave (photo by Agapito Fornari, 2012).](./don-marcello-schiavella/photo12.jpg)
+
+What became of these masterpieces today is not known. Someone asked in the group, and Agapito Fornari replied: "Don Marcello told me he wanted to donate them, but I don't know where they ended up".
 
 ## The community's memories
 
 Every time one of his photos appears in the community's Facebook group, the comments multiply: "unforgettable", "our priest, never forgotten", "an example of a priest", "a great priest, a great man and a great friend", "Don Marcello always in our hearts, or rather the heart of San Vito". One woman says she "grew up on bread and Don Marcello", and someone else sums it up like this: "he was not just a priest, he was a presence, a point of reference. He united, he did not divide. He spoke little and did a lot". Even those who were not around in those years see in these memories "a beautiful story where simplicity reigns", and add: "It is our culture and it must be protected". Many hope that one day San Vito will remember him in a lasting way, and right at San Biagio, the place where he lived and where he gave so much to everyone.
 
-*Source: memories shared by the community on Facebook ([1](https://www.facebook.com/groups/sanvitoromano.lovers/posts/931444639185964/), [2](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1367185332278557/), [3](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1375874478076309/), [4](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1395637989433291/), [5](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1425343576462732/), [6](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439333888397034/), [7](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439644465032643/), [8](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439737121690044/)).*
+*Source: memories shared by the community on Facebook ([1](https://www.facebook.com/groups/sanvitoromano.lovers/posts/931444639185964/), [2](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1367185332278557/), [3](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1375874478076309/), [4](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1395637989433291/), [5](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1425343576462732/), [6](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439333888397034/), [7](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439644465032643/), [8](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1439737121690044/), [9](https://www.facebook.com/groups/sanvitoromano.lovers/posts/1445034367826986/)). The photos of the dioramas and the image of the 1997 Diocesan Yearbook come from Agapito Fornari's post.*
