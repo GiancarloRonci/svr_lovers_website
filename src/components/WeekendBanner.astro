@@ -1,0 +1,174 @@
+---
+// Banner in home che porta all'articolo "Il weekend" del prossimo fine settimana.
+// Le date di ogni weekend vengono dallo slug dell'articolo (`weekendDatesFromSlug`): al build si
+// preparano i banner dei weekend non ancora finiti e nel browser si mostra il primo che non è ancora
+// passato, così da lunedì in poi il banner passa da solo al weekend successivo. Se non ce n'è
+// nessuno resta il banner che rimanda all'elenco degli articoli "Il weekend".
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import { withBase } from '../lib/url';
+import { weekendDatesFromSlug } from '../lib/weekend';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const locale = lang === 'en' ? 'en-GB' : 'it-IT';
+const prefisso = lang === 'en' ? 'en/' : '';
+const t =
+  lang === 'en'
+    ? {
+        prossimo: 'Next weekend',
+        corrente: 'This weekend',
+        cta: 'What to do',
+        fallbackTitle: 'What to do at the weekend',
+        fallbackText: 'Food festivals, hikes, concerts and events in San Vito Romano and the surrounding area.',
+        fallbackCta: 'All our weekend tips',
+      }
+    : {
+        prossimo: 'Il prossimo weekend',
+        corrente: 'Questo weekend',
+        cta: 'Cosa fare',
+        fallbackTitle: 'Cosa fare nel weekend',
+        fallbackText: 'Sagre, escursioni, concerti e appuntamenti a San Vito Romano e nei dintorni.',
+        fallbackCta: 'Tutti i consigli per il weekend',
+      };
+
+const oggiBuild = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+const fmt = (iso: string, opts: Intl.DateTimeFormatOptions) =>
+  new Date(`${iso}T12:00:00`).toLocaleDateString(locale, { ...opts, timeZone: 'Europe/Rome' });
+// "6-8 novembre" oppure "30 ottobre - 1 novembre"
+const etichettaDate = (inizio: string, fine: string) =>
+  inizio.slice(0, 7) === fine.slice(0, 7)
+    ? `${fmt(inizio, { day: 'numeric' })}–${fmt(fine, { day: 'numeric', month: 'long' })}`
+    : `${fmt(inizio, { day: 'numeric', month: 'long' })} – ${fmt(fine, { day: 'numeric', month: 'long' })}`;
+
+const weekend = (await getCollection(lang === 'en' ? 'articoliEn' : 'articoli'))
+  .filter((a) => a.data.categoria === 'weekend')
+  .map((a) => ({ articolo: a, date: weekendDatesFromSlug(a.id) }))
+  .filter((w): w is typeof w & { date: { inizio: string; fine: string } } => w.date !== null && w.date.fine >= oggiBuild)
+  .sort((a, b) => a.date.inizio.localeCompare(b.date.inizio))
+  .map(({ articolo, date }) => ({
+    ...date,
+    href: withBase(`${prefisso}articoli/${articolo.id}/`),
+    immagine: articolo.data.immagine,
+    // "Il weekend: castagne e Halloween per Ognissanti (30 ottobre-1 novembre)" -> "castagne e Halloween per Ognissanti"
+    titolo: articolo.data.title.replace(/^(Il weekend|The Weekend):\s*/i, '').replace(/\s*\([^)]*\)\s*$/, ''),
+    testo: articolo.data.description,
+    etichetta: etichettaDate(date.inizio, date.fine),
+  }));
+---
+
+<div class="weekend-banners" data-pagefind-ignore>
+  {
+    weekend.map((w, i) => (
+      <a class="weekend-banner" href={w.href} data-inizio={w.inizio} data-fine={w.fine} hidden={i > 0}>
+        {w.immagine && <Image class="weekend-banner-img" src={w.immagine} alt="" width={800} />}
+        <div class="weekend-banner-body">
+          <p class="weekend-banner-kicker">
+            🗓️ <span class="weekend-banner-quando" data-prossimo={t.prossimo} data-corrente={t.corrente}>{t.prossimo}</span> · {w.etichetta}
+          </p>
+          <p class="weekend-banner-title">{w.titolo}</p>
+          <p class="weekend-banner-text">{w.testo}</p>
+          <div class="weekend-banner-footer">
+            <span class="weekend-banner-cta">{t.cta} &rarr;</span>
+          </div>
+        </div>
+      </a>
+    ))
+  }
+  <a class="weekend-banner weekend-banner-fallback" href={withBase(`${prefisso}articoli/categoria/weekend/`)} hidden={weekend.length > 0}>
+    <div class="weekend-banner-body">
+      <p class="weekend-banner-kicker">🗓️ {t.corrente}</p>
+      <p class="weekend-banner-title">{t.fallbackTitle}</p>
+      <p class="weekend-banner-text">{t.fallbackText}</p>
+      <div class="weekend-banner-footer">
+        <span class="weekend-banner-cta">{t.fallbackCta} &rarr;</span>
+      </div>
+    </div>
+  </a>
+</div>
+
+<style>
+  .weekend-banner {
+    display: block;
+    margin-top: 1.25rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f1f3e6;
+    color: var(--color-text);
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+    border: 1px solid var(--color-accent);
+  }
+  .weekend-banner[hidden] {
+    display: none;
+  }
+  .weekend-banner-img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .weekend-banner-body {
+    padding: 1.1rem 1.5rem 1.3rem;
+  }
+  .weekend-banner-kicker {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-accent-dark);
+  }
+  .weekend-banner-title {
+    margin: 0.35rem 0 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-text);
+  }
+  .weekend-banner-title::first-letter {
+    text-transform: uppercase;
+  }
+  .weekend-banner-text {
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+    color: var(--color-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .weekend-banner-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .weekend-banner-cta {
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .weekend-banner:hover .weekend-banner-cta {
+    background: var(--color-accent-dark);
+  }
+</style>
+
+<script>
+  // Il weekend da mostrare è il primo non ancora finito: da lunedì si passa al successivo,
+  // da venerdì a domenica resta quello in corso
+  const oggi = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+  document.querySelectorAll<HTMLElement>('.weekend-banners').forEach((box) => {
+    const banners = [...box.querySelectorAll<HTMLElement>('.weekend-banner[data-fine]')];
+    const attuale = banners.find((b) => (b.dataset.fine as string) >= oggi);
+    banners.forEach((b) => (b.hidden = b !== attuale));
+    (box.querySelector('.weekend-banner-fallback') as HTMLElement).hidden = attuale !== undefined;
+    const quando = attuale?.querySelector<HTMLElement>('.weekend-banner-quando');
+    if (attuale && quando && oggi >= (attuale.dataset.inizio as string)) quando.textContent = quando.dataset.corrente ?? '';
+  });
+</script>
