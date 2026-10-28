@@ -81,6 +81,8 @@ foto:
   - percorso: percorso-a-san-biagio
     immagine: foto13.jpg
   - percorso: percorso-a-san-biagio
+    immagine: foto28.jpg
+  - percorso: percorso-a-san-biagio
     immagine: foto14.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto15.jpg
@@ -100,8 +102,6 @@ foto:
     immagine: foto19.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto20.jpg
-  - percorso: percorso-a-san-biagio
-    immagine: foto21.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto22.jpg
   - percorso: percorso-a-san-biagio
