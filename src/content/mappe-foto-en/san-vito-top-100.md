@@ -178,8 +178,10 @@ foto:
     immagine: foto36.jpg
   - percorso: percorso-b-olevano
     immagine: foto37.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto38.jpg
+  - immagine: ./san-vito-top-100/vicolo-scalinata-arco-notte.jpg
+    lat: 41.883376
+    lng: 12.984173
+    didascalia: "An alley in the historic centre at night: the stairway goes down under an arch towards a courtyard with potted plants and a small iron staircase in front of a door."
   - percorso: percorso-b-olevano
     immagine: foto39.jpg
   - percorso: percorso-b-olevano
