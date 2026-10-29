@@ -41,6 +41,8 @@ Domenica le sagre continuano. Rocca di Cave, Ciciliano, Arcinazzo e Riofreddo ap
 
 La mattina, a Jenne, l'Antico Forno ospita il laboratorio dei [Tortiglioni](/eventi/biscotti-tortiglioni-jenne-2026), i biscotti tipici del paese, dalle 9:00 alle 13:00 (25 euro, su prenotazione). A Colleferro è l'ultimo giorno della [mostra di Maria Rosaria Colaiacomo](/eventi/mostra-maria-rosaria-colaiacomo-colleferro-2026) a Palazzo Morandi, a ingresso libero fino alle 19:00.
 
+La sera, alle 18:00, il Basket Palestrina torna a giocare davanti ai suoi tifosi al PalaIaia: [Basket Palestrina 1962 - Velletri](/eventi/basket-palestrina-velletri-2026-11-01).
+
 **Se avete solo mezza giornata:** il pranzo alla Sagra del Marrone di Rocca di Cave, sabato o domenica, a venti minuti da casa.
 
 Orari, costi e contatti di ogni appuntamento sono nelle schede degli [eventi](/eventi/): prima di partire conviene sempre dare un'occhiata, perché i programmi possono cambiare.

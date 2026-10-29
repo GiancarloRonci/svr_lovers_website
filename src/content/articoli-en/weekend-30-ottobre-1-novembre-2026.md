@@ -41,6 +41,8 @@ On Sunday the festivals carry on. Rocca di Cave, Ciciliano, Arcinazzo and Riofre
 
 In the morning, in Jenne, the Antico Forno hosts the workshop on [Tortiglioni](/en/eventi/biscotti-tortiglioni-jenne-2026), the town's traditional biscuits, from 9:00 AM to 1:00 PM (25 euros, booking required). In Colleferro it's the last day of the [Maria Rosaria Colaiacomo exhibition](/en/eventi/mostra-maria-rosaria-colaiacomo-colleferro-2026) at Palazzo Morandi, with free admission until 7:00 PM.
 
+In the evening, at 6:00 PM, Basket Palestrina plays again in front of its fans at the PalaIaia: [Basket Palestrina 1962 vs Velletri](/en/eventi/basket-palestrina-velletri-2026-11-01).
+
 **If you only have half a day:** lunch at the Rocca di Cave Chestnut Festival, on Saturday or Sunday, twenty minutes from home.
 
 Times, prices and contacts for each event are on the [events](/en/eventi/) pages: always have a look before you set off, because programmes can change.

@@ -31,6 +31,8 @@ La mattina è per chi ama camminare e correre:
 
 A pranzo c'è l'imbarazzo della scelta. A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30. A San Cesareo, dalle 12:30 in Piazzale La Villetta, la Pro Loco organizza ["Sapori Sancesaresi, Lane e tradizioni"](/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), con le lane al baccalà e le pizze di polenta: i biglietti si comprano in prevendita.
 
+Per chi ama i libri, a Cave l'associazione Caffè Corretto [apre la sua stagione culturale](/eventi/caffe-corretto-stagione-culturale-cave-2026) al teatro, con la scrittrice Vincenza Alfano e il romanzo "La guerriera dei libri" (l'orario non è ancora uscito).
+
 **Se avete solo mezza giornata:** il pranzo della domenica alla Festa del Cornuto di Rocca Canterano, a venticinque minuti da casa.
 
 Orari, costi e contatti di ogni appuntamento sono nelle schede degli [eventi](/eventi/): prima di partire conviene sempre dare un'occhiata, perché i programmi possono cambiare.

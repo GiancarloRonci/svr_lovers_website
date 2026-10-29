@@ -31,6 +31,8 @@ The morning is for those who love walking and running:
 
 For lunch you are spoilt for choice. In Rocca Canterano the festival carries on: stands open from 12 noon to 5 pm and the parade at 4:30 pm. In San Cesareo, from 12:30 pm in Piazzale La Villetta, the Pro Loco hosts ["Sapori Sancesaresi, Lane e tradizioni"](/en/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), with lane pasta with salt cod and polenta pizzas: tickets are sold in advance.
 
+For book lovers, in Cave the Caffè Corretto association [opens its cultural season](/en/eventi/caffe-corretto-stagione-culturale-cave-2026) at the theatre, with the writer Vincenza Alfano and her novel "La guerriera dei libri" (the time hasn't been announced yet).
+
 **If you only have half a day:** Sunday lunch at the Festa del Cornuto in Rocca Canterano, twenty-five minutes from home.
 
 Times, prices and contacts for each event are on the [events](/en/eventi/) pages: it's always worth checking before you set off, as programmes can change.
