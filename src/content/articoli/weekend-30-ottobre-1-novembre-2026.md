@@ -1,6 +1,6 @@
 ---
 title: "Il weekend: castagne e Halloween per Ognissanti (30 ottobre-1 novembre)"
-description: "Sagre del marrone a Rocca di Cave e Arcinazzo, Festa d'Autunno a Ciciliano, castagne a Riofreddo, Monte Livata e Jenne, Halloween a Capranica, Olevano, Colleferro, Paliano e Poli, musica corale a Palestrina: cosa fare nel weekend dal 30 ottobre al 1° novembre 2026."
+description: "Sagre del marrone a Rocca di Cave e Arcinazzo, Feste d'Autunno a Ciciliano e Canterano, castagne a Riofreddo, Monte Livata e Jenne, Halloween a Capranica, Olevano, Colleferro, Paliano e Poli, musica corale a Palestrina: cosa fare nel weekend dal 30 ottobre al 1° novembre 2026."
 data: 2026-10-24
 categoria: weekend
 immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
@@ -17,11 +17,12 @@ La serata di venerdì è tranquilla. Alle 18:00, alla casa natale del Pierluigi 
 
 ## Sabato: castagne a pranzo, Halloween la sera
 
-Il consiglio della settimana è la [Sagra del Marrone di Rocca di Cave](/eventi/sagra-marrone-rocca-di-cave-2026), a venti minuti da San Vito: dalle 12:00 caldarroste, polenta e prodotti del territorio, con la musica popolare e, la sera, l'intrattenimento in piazza. Il Sistema Museale del paese organizza anche visite guidate, prenotabili online.
+Il consiglio della settimana è la [Sagra del Marrone di Rocca di Cave](/eventi/sagra-marrone-rocca-di-cave-2026), a venti minuti da San Vito: dalle 12:00 caldarroste, polenta e prodotti del territorio, alle 17:00 il concerto di musica popolare degli Erresei e, la sera, l'intrattenimento in piazza. Il Sistema Museale del paese organizza anche visite guidate, prenotabili online.
 
 Le altre feste delle castagne:
 
 - a Ciciliano la [Festa d'Autunno "Passeggia e Assaggia"](/eventi/festa-autunno-ciciliano-2026) apre alle 10:00 nel centro storico, con pranzo dalle 12:00, Halloween per i bambini dalle 15:00 e cena dalle 18:00;
+- a Canterano la [Festa d'Autunno](/eventi/festa-autunno-canterano-2026) della Pro Loco porta tra i vicoli pane alle castagne, pasta e fagioli, arrosticini, caldarroste e vino caldo: pranzo e cena dalle 12:00, con Halloween per i bambini e musica dal vivo;
 - ad Arcinazzo Romano la [Sagra del Marrone](/eventi/sagra-marrone-arcinazzo-romano-2026) apre gli stand alle 11:00 in Piazza Santa Lucia, con marroni alla brace e polenta; la sera, alle 20:30, suona il gruppo Hernicantus (le date vengono dalla stampa locale: meglio controllare prima di partire);
 - a Monte Livata, dalle 15:30 in Piazzetta Kristal, la [Festa della Castagna](/eventi/festa-castagna-monte-livata-2026) della Pro Loco, con un premio per il costume più originale;
 - a Jenne, dalle 17:00 ai giardini di Piazza Vittorio Emanuele III, la [Castagnata](/eventi/castagnata-jenne-2026) della Pro Loco e del Centro Anziani;
@@ -37,7 +38,7 @@ Chi preferisce una serata diversa ha [I Cantori di Caudium](/eventi/cantori-di-c
 
 ## Domenica: Ognissanti
 
-Domenica le sagre continuano. Rocca di Cave, Ciciliano, Arcinazzo e Riofreddo aprono gli stand a pranzo; a Ciciliano la festa si chiude alle 18:00. Ad Arcinazzo il pomeriggio è il più animato: sbandieratori alle 15:30 e, alle 17:30, il tradizionale Ballo della Signoraccia.
+Domenica le sagre continuano. Rocca di Cave, Ciciliano, Canterano, Arcinazzo e Riofreddo aprono gli stand a pranzo; a Ciciliano la festa si chiude alle 18:00. Ad Arcinazzo il pomeriggio è il più animato: sbandieratori alle 15:30 e, alle 17:30, il tradizionale Ballo della Signoraccia.
 
 La mattina, a Jenne, l'Antico Forno ospita il laboratorio dei [Tortiglioni](/eventi/biscotti-tortiglioni-jenne-2026), i biscotti tipici del paese, dalle 9:00 alle 13:00 (25 euro, su prenotazione). A Colleferro è l'ultimo giorno della [mostra di Maria Rosaria Colaiacomo](/eventi/mostra-maria-rosaria-colaiacomo-colleferro-2026) a Palazzo Morandi, a ingresso libero fino alle 19:00.
 

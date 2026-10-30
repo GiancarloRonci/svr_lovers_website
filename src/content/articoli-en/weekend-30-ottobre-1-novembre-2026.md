@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: chestnuts and Halloween for All Saints (30 October-1 November)"
-description: "Chestnut festivals in Rocca di Cave and Arcinazzo, the Autumn Festival in Ciciliano, chestnuts in Riofreddo, at Monte Livata and in Jenne, Halloween in Capranica, Olevano, Colleferro, Paliano and Poli, choral music in Palestrina: what to do on the weekend of 30 October to 1 November 2026."
+description: "Chestnut festivals in Rocca di Cave and Arcinazzo, Autumn Festivals in Ciciliano and Canterano, chestnuts in Riofreddo, at Monte Livata and in Jenne, Halloween in Capranica, Olevano, Colleferro, Paliano and Poli, choral music in Palestrina: what to do on the weekend of 30 October to 1 November 2026."
 data: 2026-10-24
 categoria: weekend
 immagine: ./weekend-30-ottobre-1-novembre-2026/copertina.png
@@ -17,11 +17,12 @@ Friday evening is quiet. At 6:00 PM, at the birthplace of Pierluigi in Palestrin
 
 ## Saturday: chestnuts for lunch, Halloween in the evening
 
-Our tip of the week is the [Rocca di Cave Chestnut Festival](/en/eventi/sagra-marrone-rocca-di-cave-2026), twenty minutes from San Vito: from 12:00 PM roasted chestnuts, polenta and local products, with folk music and, in the evening, entertainment in the square. The town's museum network also runs guided tours, which can be booked online.
+Our tip of the week is the [Rocca di Cave Chestnut Festival](/en/eventi/sagra-marrone-rocca-di-cave-2026), twenty minutes from San Vito: from 12:00 PM roasted chestnuts, polenta and local products, at 5:00 PM the folk music concert by Erresei and, in the evening, entertainment in the square. The town's museum network also runs guided tours, which can be booked online.
 
 The other chestnut festivals:
 
 - in Ciciliano the [Autumn Festival "Passeggia e Assaggia"](/en/eventi/festa-autunno-ciciliano-2026) opens at 10:00 AM in the historic centre, with lunch from 12:00 PM, Halloween for children from 3:00 PM and dinner from 6:00 PM;
+- in Canterano the Pro Loco's [Autumn Festival](/en/eventi/festa-autunno-canterano-2026) fills the lanes with chestnut bread, pasta and beans, arrosticini skewers, roasted chestnuts and mulled wine: lunch and dinner from 12:00 PM, with Halloween for children and live music;
 - in Arcinazzo Romano the [Chestnut Festival](/en/eventi/sagra-marrone-arcinazzo-romano-2026) opens its stands at 11:00 AM in Piazza Santa Lucia, with grilled chestnuts and polenta; in the evening, at 8:30 PM, the group Hernicantus plays (the dates come from the local press, so check before you set off);
 - at Monte Livata, from 3:30 PM in Piazzetta Kristal, the Pro Loco's [Chestnut Festival](/en/eventi/festa-castagna-monte-livata-2026), with a prize for the most original costume;
 - in Jenne, from 5:00 PM in the gardens of Piazza Vittorio Emanuele III, the [Chestnut Party](/en/eventi/castagnata-jenne-2026) run by the Pro Loco and the senior centre;
@@ -37,7 +38,7 @@ For a different kind of evening, [I Cantori di Caudium](/en/eventi/cantori-di-ca
 
 ## Sunday: All Saints' Day
 
-On Sunday the festivals carry on. Rocca di Cave, Ciciliano, Arcinazzo and Riofreddo open their food stands at lunchtime; in Ciciliano the festival closes at 6:00 PM. In Arcinazzo the afternoon is the liveliest: flag-wavers at 3:30 PM and, at 5:30 PM, the traditional Ballo della Signoraccia dance.
+On Sunday the festivals carry on. Rocca di Cave, Ciciliano, Canterano, Arcinazzo and Riofreddo open their food stands at lunchtime; in Ciciliano the festival closes at 6:00 PM. In Arcinazzo the afternoon is the liveliest: flag-wavers at 3:30 PM and, at 5:30 PM, the traditional Ballo della Signoraccia dance.
 
 In the morning, in Jenne, the Antico Forno hosts the workshop on [Tortiglioni](/en/eventi/biscotti-tortiglioni-jenne-2026), the town's traditional biscuits, from 9:00 AM to 1:00 PM (25 euros, booking required). In Colleferro it's the last day of the [Maria Rosaria Colaiacomo exhibition](/en/eventi/mostra-maria-rosaria-colaiacomo-colleferro-2026) at Palazzo Morandi, with free admission until 7:00 PM.
 
