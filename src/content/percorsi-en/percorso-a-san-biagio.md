@@ -36,6 +36,10 @@ foto:
     lng: 12.984342
     immagine: ./percorso-a-san-biagio/foto5.jpg
     didascalia: "Small wayside shrine above the archway leading down into an alley."
+  - lat: 41.883027
+    lng: 12.984329
+    immagine: ./percorso-a-san-biagio/foto29.jpg
+    didascalia: "A bronze statue of an elderly woman sitting and knitting, with an empty chair beside her, against a stone wall among pots and plants."
   - lat: 41.883001
     lng: 12.984393
     immagine: ./percorso-a-san-biagio/foto6.jpg

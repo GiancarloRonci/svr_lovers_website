@@ -36,6 +36,10 @@ foto:
     lng: 12.984342
     immagine: ./percorso-a-san-biagio/foto5.jpg
     didascalia: "Piccola edicola sacra sopra l'arco d'ingresso a un vicolo in discesa."
+  - lat: 41.883027
+    lng: 12.984329
+    immagine: ./percorso-a-san-biagio/foto29.jpg
+    didascalia: "La statua in bronzo di un'anziana seduta che lavora a maglia, con una sedia vuota accanto, contro un muro di pietra tra vasi e piante."
   - lat: 41.883001
     lng: 12.984393
     immagine: ./percorso-a-san-biagio/foto6.jpg
