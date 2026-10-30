@@ -42,6 +42,10 @@ foto:
     immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
     didascalia: "Un arco di pietra incornicia la scaletta che scende tra le case, con la vista che si apre sulla vallata."
     autore: "Giancarlo Ronci"
+  - lat: 41.883027
+    lng: 12.984329
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto8.jpg
+    didascalia: "La statua in bronzo di un'anziana seduta che lavora a maglia, con una sedia vuota accanto, contro un muro di pietra tra vasi e piante."
 ---
 
 Un piccolo itinerario a piedi nel cuore del quartiere medievale "nnabballe", tra due degli angoli più caratteristici di San Vito Romano.

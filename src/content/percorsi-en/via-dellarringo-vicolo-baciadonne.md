@@ -42,6 +42,10 @@ foto:
     immagine: ./via-dellarringo-vicolo-baciadonne/foto3.jpg
     didascalia: "A stone archway frames the steps leading down between the houses, opening onto a view of the valley."
     autore: "Giancarlo Ronci"
+  - lat: 41.883027
+    lng: 12.984329
+    immagine: ./via-dellarringo-vicolo-baciadonne/foto8.jpg
+    didascalia: "A bronze statue of an elderly woman sitting and knitting, with an empty chair beside her, against a stone wall among pots and plants."
 ---
 
 A short walk through the heart of the "nnabballe" medieval quarter, taking in two of San Vito Romano's most characteristic corners.
