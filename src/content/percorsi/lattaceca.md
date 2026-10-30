@@ -43,6 +43,10 @@ foto:
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
     didascalia: "Un passaggio coperto del centro storico di sera: l'arco in pietra, il soffitto di travi in legno illuminato da piccole lampade e il selciato di sampietrini."
+  - lat: 41.883376
+    lng: 12.984173
+    immagine: ./lattaceca/foto9.jpg
+    didascalia: "Un vicolo del centro storico di notte: la scalinata scende sotto un arco verso un cortile con le piante in vaso e una scaletta in ferro davanti a una porta."
 ---
 
 Una breve passeggiata ad anello nel centro di San Vito Romano, con partenza e arrivo a [Piazza Augusto Baccelli](/luoghi/piazza-augusto-baccelli).
