@@ -198,8 +198,8 @@ foto:
     immagine: foto45.jpg
   - percorso: percorso-b-olevano
     immagine: foto46.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto47.jpg
+  - percorso: percorso-a-san-biagio
+    immagine: foto29.jpg
   - percorso: percorso-b-olevano
     immagine: foto48.jpg
   - percorso: percorso-b-olevano
