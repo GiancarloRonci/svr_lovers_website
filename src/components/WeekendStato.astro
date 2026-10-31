@@ -1,0 +1,74 @@
+---
+// Etichetta sulla copertina di un articolo "Il weekend": dice se quel weekend è passato, in corso
+// o ancora da venire. Le date vengono dallo slug (`weekendDatesFromSlug`). Il sito è statico, quindi
+// al build si scrive lo stato di quel giorno e nel browser lo si ricalcola sulla data di oggi.
+import { statoWeekend, weekendDatesFromSlug } from '../lib/weekend';
+
+interface Props {
+  lang: 'it' | 'en';
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t =
+  lang === 'en'
+    ? { passato: 'Past', corrente: 'This weekend', futuro: 'Coming up' }
+    : { passato: 'Passato', corrente: 'Questo weekend', futuro: 'In arrivo' };
+
+const date = weekendDatesFromSlug(slug);
+const oggiBuild = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+const stato = date && statoWeekend(date.inizio, date.fine, oggiBuild);
+---
+
+{
+  date && stato && (
+    <span
+      class="weekend-stato"
+      data-stato={stato}
+      data-inizio={date.inizio}
+      data-fine={date.fine}
+      data-passato={t.passato}
+      data-corrente={t.corrente}
+      data-futuro={t.futuro}
+    >
+      {t[stato]}
+    </span>
+  )
+}
+
+<style>
+  .weekend-stato {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 1;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .weekend-stato[data-stato='passato'] {
+    background: #5c6770;
+  }
+  .weekend-stato[data-stato='corrente'] {
+    background: #b5541c;
+  }
+  .weekend-stato[data-stato='futuro'] {
+    background: var(--color-accent-dark);
+  }
+</style>
+
+<script>
+  import { statoWeekend } from '../lib/weekend';
+
+  const oggi = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+  document.querySelectorAll<HTMLElement>('.weekend-stato').forEach((el) => {
+    const stato = statoWeekend(el.dataset.inizio as string, el.dataset.fine as string, oggi);
+    el.dataset.stato = stato;
+    el.textContent = el.dataset[stato] ?? '';
+  });
+</script>

@@ -28,3 +28,9 @@ export function weekendDatesFromSlug(slug: string): { inizio: string; fine: stri
   const iso = (y: number, mese: number, g: string) => `${y}-${String(mese + 1).padStart(2, '0')}-${g.padStart(2, '0')}`;
   return { inizio: iso(annoInizio, m1, g1), fine: iso(annoFine, m2, g2) };
 }
+
+// Dice se un weekend è passato, in corso o ancora da venire rispetto a `oggi` (data ISO).
+export function statoWeekend(inizio: string, fine: string, oggi: string): 'passato' | 'corrente' | 'futuro' {
+  if (fine < oggi) return 'passato';
+  return inizio > oggi ? 'futuro' : 'corrente';
+}

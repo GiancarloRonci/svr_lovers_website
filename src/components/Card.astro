@@ -31,6 +31,7 @@ const eventAttrs = dataInizio
 ---
 
 <a class="card" href={href} {...eventAttrs}>
+  <slot />
   {
     image && (
       <Image
@@ -55,6 +56,10 @@ const eventAttrs = dataInizio
 </a>
 
 <style>
+  /* Riferimento per le etichette passate nello slot, posizionate sopra la copertina */
+  .card {
+    position: relative;
+  }
   .card-meta {
     color: var(--color-muted);
     font-size: 0.9rem;

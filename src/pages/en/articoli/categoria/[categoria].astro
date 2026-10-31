@@ -2,6 +2,7 @@
 import Layout from '../../../../layouts/Layout.astro';
 import Card from '../../../../components/Card.astro';
 import CategorieArticoli from '../../../../components/CategorieArticoli.astro';
+import WeekendStato from '../../../../components/WeekendStato.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/url';
 import { byInsertionDesc } from '../../../../lib/insertionOrder';
@@ -39,7 +40,9 @@ const articoli = (await getCollection('articoliEn'))
           meta={a.data.data?.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
           image={a.data.immagine}
           imagePosition={a.data.copertinaPosizione}
-        />
+        >
+          {categoria.id === 'weekend' && <WeekendStato lang="en" slug={a.id} />}
+        </Card>
       ))
     }
   </div>
