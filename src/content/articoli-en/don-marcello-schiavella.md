@@ -56,7 +56,7 @@ With his young people he formed bonds that lasted a lifetime. A photo shows him,
 
 Some say that the parish priests of old "cultivated people". Don Marcello was great at this too, and he made even the "outsiders" who came to San Vito for the holidays and in summer feel at home: people like Giancarlo, who received baptism and first communion from him. The proof, for Giancarlo, is the young people in this photo, taken on a trip to the Circeo: Giancarlo knows them all, and they are all "people of gold". It is a picture that says how much Don Marcello loved the young.
 
-![Don Marcello, on the right in sunglasses and a white vest, on a trip to the Circeo with a group of girls and boys, the sea behind them.](./don-marcello-schiavella/photo14.jpg)
+![Don Marcello, on the right in sunglasses and a white vest, on a trip to the Circeo with a group of girls and boys in 1991, the sea behind them.](./don-marcello-schiavella/photo14.jpg)
 
 ## A church always full
 

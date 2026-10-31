@@ -56,7 +56,7 @@ Con i ragazzi stringeva legami che sono durati una vita. Lo racconta una foto ch
 
 Qualcuno dice che i parroci di una volta "coltivavano persone". Don Marcello era grande anche in questo, e faceva sentire a casa pure i "forestieri" che venivano a San Vito per le feste e in estate: come Giancarlo, che da lui ha ricevuto il battesimo e la prima comunione. La prova, per Giancarlo, sono i ragazzi di questa foto, scattata durante una gita al Circeo: li conosce tutti, e sono tutte "persone d'oro". Un'immagine che dice quanto Don Marcello volesse bene ai giovani.
 
-![Don Marcello, sulla destra con gli occhiali da sole e la canottiera bianca, in gita al Circeo con un gruppo di ragazze e ragazzi, con il mare alle spalle.](./don-marcello-schiavella/photo14.jpg)
+![Don Marcello, sulla destra con gli occhiali da sole e la canottiera bianca, in gita al Circeo con un gruppo di ragazze e ragazzi nel 1991, con il mare alle spalle.](./don-marcello-schiavella/photo14.jpg)
 
 ## La chiesa sempre piena
 
