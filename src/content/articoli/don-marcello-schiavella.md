@@ -15,7 +15,7 @@ Per chi è cresciuto a San Vito Romano tra la fine degli anni Sessanta e la fine
 
 ## La vocazione
 
-Don Marcello era nato a Genazzano il 18 marzo 1937, e la sua strada era cominciata prestissimo: entrò nel seminario di Palestrina nel 1948, ad appena undici anni, e proseguì poi gli studi al Pontificio Collegio Leoniano di Anagni. Fu ordinato sacerdote nel suo paese il 21 aprile 1963 e mosse i primi passi da viceparroco proprio a Genazzano, nella parrocchia di San Paolo Apostolo. Chi lo ha conosciuto da giovane parroco lo ricorda con la veste, i folti capelli neri e gli immancabili occhiali dalla montatura importante; e con il breviario, che recitava puntualmente ogni pomeriggio, senza saltarne uno. C'è anche chi lo ha avuto come professore alle scuole medie.
+Don Marcello era nato a Genazzano il 18 marzo 1937, e la sua strada era cominciata prestissimo: entrò nel seminario di Palestrina nel 1948, ad appena undici anni, e proseguì poi gli studi al Pontificio Collegio Leoniano di Anagni. Fu ordinato sacerdote nel suo paese il 21 aprile 1963 e mosse i primi passi da viceparroco proprio a Genazzano, nella parrocchia di San Paolo Apostolo. Chi lo ha conosciuto da giovane parroco lo ricorda con la veste, i folti capelli neri e gli immancabili occhiali dalla montatura importante; e con il breviario, che recitava puntualmente ogni pomeriggio, senza saltarne uno. C'è anche chi lo ha avuto come insegnante di religione alle scuole medie.
 
 ## Le tre porte di Piazza San Biagio
 
@@ -46,9 +46,9 @@ Accanto al legno c'era la pittura. Don Marcello dipingeva a olio gli angoli di S
 
 ## Il prete dei ragazzi
 
-"Un prete che ha rivoluzionato la parrocchia di San Biagio, creando un gruppo di giovani che ancora oggi sono molto uniti e grati sempre a lui, per il dono dell'amicizia, dell'unione, della fede": così lo descrive chi c'era. Don Marcello sapeva come trattare e intrattenere i ragazzi: organizzava campeggi, gite e scampagnate alla Sonnina, feste in piazza, pellegrinaggi. Per le processioni preparava costumi così belli che i ragazzi "facevano a botte" per indossarli. In tanti sono stati suoi chierichetti, e c'è chi ricorda di averlo aiutato, da ragazzo, a rifare il tetto della sagrestia, bagnando il cemento.
+"Un prete che ha rivoluzionato la parrocchia di San Biagio, creando un gruppo di giovani che ancora oggi sono molto uniti e grati sempre a lui, per il dono dell'amicizia, dell'unione, della fede": così lo descrive chi c'era. Don Marcello sapeva come trattare e intrattenere i ragazzi: organizzava campeggi, gite e scampagnate alla Sonnina, feste in piazza, pellegrinaggi. Per le processioni preparava costumi così belli che i ragazzi "facevano a botte" per indossarli. Una settimana prima di Natale, poi, faceva il presepe insieme a loro, utilizzando un'intera cappella sulla sinistra dell'altare. In tanti sono stati suoi chierichetti, e c'è chi ricorda di averlo aiutato, da ragazzo, a rifare il tetto della sagrestia, bagnando il cemento.
 
-![Don Marcello, sulla destra, con un gruppo di ragazze e ragazzi della parrocchia in una foto d'epoca.](./don-marcello-schiavella/photo4.jpg)
+![Don Marcello, sulla destra, in una foto di gruppo a scuola del 1981 con le ragazze e i ragazzi di prima media, di cui era insegnante di religione.](./don-marcello-schiavella/photo4.jpg)
 
 Con i ragazzi stringeva legami che sono durati una vita. Lo racconta una foto che lo ritrae, con il cappello estivo, accanto a un piccolo Giammarco che stringe un fascio di matite colorate: "legami indissolubili, oltre il tempo e lo spazio". Per qualcuno è stato "come un padre", per altri "un amico e un educatore" che ha accompagnato un periodo della vita, o una presenza capace di aiutare nei momenti più duri, come la perdita di una madre.
 
@@ -81,7 +81,7 @@ Una delle immagini più care alla community lo ritrae a braccetto con due amici,
 
 ![La copertina dell'Annuario diocesano 1997 della Diocesi suburbicaria di Palestrina e, accanto, la foto di Don Marcello pubblicata al suo interno, in uno dei suoi ultimi anni a San Vito.](./don-marcello-schiavella/photo13.jpg)
 
-Nell'ottobre del 1998 Don Marcello lasciò San Vito Romano e tornò nella sua Genazzano, come parroco di quella stessa chiesa di San Paolo Apostolo dove aveva cominciato da viceparroco; anche lì, nella chiesa, le sue opere in legno erano in bella mostra. Molti sanvitesi ricordano ancora il dispiacere per quel trasferimento. A Genazzano il suo legame con lo sport e con i giovani non si è perso: in suo ricordo si corre la "Genazzano a Perdifiato – Memorial Don Marcello Schiavella", una corsa su strada di 9,5 chilometri con gare anche per i più piccoli, giunta nel 2024 all'ottava edizione.
+Nell'ottobre del 1998 Don Marcello lasciò San Vito Romano e tornò nella sua Genazzano, come parroco di quella stessa chiesa di San Paolo Apostolo dove aveva cominciato da viceparroco; anche lì, nella chiesa, le sue opere in legno erano in bella mostra. Il modo in cui andò via da San Vito resta in parte un mistero e, oltre al mistero, a molti sanvitesi ha lasciato un notevole dispiacere, che ricordano ancora oggi. A Genazzano il suo legame con lo sport e con i giovani non si è perso: in suo ricordo si corre la "Genazzano a Perdifiato – Memorial Don Marcello Schiavella", una corsa su strada di 9,5 chilometri con gare anche per i più piccoli, giunta nel 2024 all'ottava edizione.
 
 ![Due ritratti affiancati: Don Marcello in età matura e un giovane in divisa militare.](./don-marcello-schiavella/photo5.jpg)
 

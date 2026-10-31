@@ -15,7 +15,7 @@ For anyone who grew up in San Vito Romano between the late Sixties and the late 
 
 ## His vocation
 
-Don Marcello was born in Genazzano on 18 March 1937, and his path began very early: he entered the seminary in Palestrina in 1948, when he was just eleven, and went on to study at the Pontifical Leonine College in Anagni. He was ordained a priest in his home town on 21 April 1963 and took his first steps as a curate right there in Genazzano, in the parish of San Paolo Apostolo. Those who knew him as a young parish priest remember him in his cassock, with thick black hair and his ever-present glasses with their bold frames; and with his breviary, which he recited punctually every afternoon, without ever skipping one. Some also had him as a teacher at middle school.
+Don Marcello was born in Genazzano on 18 March 1937, and his path began very early: he entered the seminary in Palestrina in 1948, when he was just eleven, and went on to study at the Pontifical Leonine College in Anagni. He was ordained a priest in his home town on 21 April 1963 and took his first steps as a curate right there in Genazzano, in the parish of San Paolo Apostolo. Those who knew him as a young parish priest remember him in his cassock, with thick black hair and his ever-present glasses with their bold frames; and with his breviary, which he recited punctually every afternoon, without ever skipping one. Some also had him as their religion teacher at middle school.
 
 ## The three doors of Piazza San Biagio
 
@@ -46,9 +46,9 @@ Alongside the wood there was painting. Don Marcello painted corners of San Vito 
 
 ## The priest of the young
 
-"A priest who revolutionised the parish of San Biagio, creating a group of young people who are still very close today and always grateful to him, for the gift of friendship, unity and faith": that is how those who were there describe him. Don Marcello knew how to deal with kids and keep them busy: he organised camps, trips and outings to the Sonnina, parties in the square, pilgrimages. For the processions he prepared costumes so beautiful that the kids "came to blows" to wear them. Many were his altar boys, and one remembers helping him, as a boy, to redo the sacristy roof by wetting the cement.
+"A priest who revolutionised the parish of San Biagio, creating a group of young people who are still very close today and always grateful to him, for the gift of friendship, unity and faith": that is how those who were there describe him. Don Marcello knew how to deal with kids and keep them busy: he organised camps, trips and outings to the Sonnina, parties in the square, pilgrimages. For the processions he prepared costumes so beautiful that the kids "came to blows" to wear them. A week before Christmas he would build the nativity scene together with them, using an entire chapel to the left of the altar. Many were his altar boys, and one remembers helping him, as a boy, to redo the sacristy roof by wetting the cement.
 
-![Don Marcello, on the right, with a group of girls and boys from the parish in a vintage photo.](./don-marcello-schiavella/photo4.jpg)
+![Don Marcello, on the right, in a 1981 school group photo with the girls and boys of the first year of middle school, whom he taught religion.](./don-marcello-schiavella/photo4.jpg)
 
 With his young people he formed bonds that lasted a lifetime. A photo shows him, in his summer hat, next to little Giammarco holding a bunch of coloured pencils: "unbreakable bonds, beyond time and space". For some he was "like a father", for others "a friend and an educator" who accompanied them through a stage of life, or a presence able to help in the hardest moments, such as the loss of a mother.
 
@@ -81,7 +81,7 @@ One of the pictures the community holds dearest shows him arm in arm with two fr
 
 ![The cover of the 1997 Diocesan Yearbook of the Suburbicarian Diocese of Palestrina and, next to it, the photo of Don Marcello published inside, in one of his last years in San Vito.](./don-marcello-schiavella/photo13.jpg)
 
-In October 1998 Don Marcello left San Vito Romano and returned to his native Genazzano, as parish priest of the same church of San Paolo Apostolo where he had started out as a curate; there too his wooden works were proudly displayed in the church. Many sanvitesi still remember how sorry they were about that transfer. In Genazzano his bond with sport and young people lived on: the "Genazzano a Perdifiato – Memorial Don Marcello Schiavella" is run in his memory, a 9.5 km road race with shorter races for children too, which reached its eighth edition in 2024.
+In October 1998 Don Marcello left San Vito Romano and returned to his native Genazzano, as parish priest of the same church of San Paolo Apostolo where he had started out as a curate; there too his wooden works were proudly displayed in the church. The way he left San Vito remains partly a mystery and, beyond the mystery, it left many sanvitesi with a deep sorrow that they still remember today. In Genazzano his bond with sport and young people lived on: the "Genazzano a Perdifiato – Memorial Don Marcello Schiavella" is run in his memory, a 9.5 km road race with shorter races for children too, which reached its eighth edition in 2024.
 
 ![Two portraits side by side: Don Marcello in his mature years and a young man in military uniform.](./don-marcello-schiavella/photo5.jpg)
 
