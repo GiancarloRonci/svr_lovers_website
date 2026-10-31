@@ -42,6 +42,8 @@ Quel San Vito in miniatura si può ancora vedere in un breve video condiviso su 
 
 *San Vito Romano in miniatura, tutto in legno: una delle opere di Don Marcello.*
 
+Accanto al legno c'era la pittura. Don Marcello dipingeva a olio gli angoli di San Vito, molto spesso mentre i ragazzi erano in sede a giocare a qualche gioco di società o a leggere libri e quotidiani, e firmava i quadri "Mardon". Organizzò anche delle mostre di pittura in Piazza San Biagio, dove ha praticamente sempre venduto tutti i quadri. E per chi c'era restano indimenticabili i pomeriggi passati a giocare con lui a briscola e tressette.
+
 ## Il prete dei ragazzi
 
 "Un prete che ha rivoluzionato la parrocchia di San Biagio, creando un gruppo di giovani che ancora oggi sono molto uniti e grati sempre a lui, per il dono dell'amicizia, dell'unione, della fede": così lo descrive chi c'era. Don Marcello sapeva come trattare e intrattenere i ragazzi: organizzava campeggi, gite e scampagnate alla Sonnina, feste in piazza, pellegrinaggi. Per le processioni preparava costumi così belli che i ragazzi "facevano a botte" per indossarli. In tanti sono stati suoi chierichetti, e c'è chi ricorda di averlo aiutato, da ragazzo, a rifare il tetto della sagrestia, bagnando il cemento.
