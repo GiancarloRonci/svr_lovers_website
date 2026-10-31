@@ -52,6 +52,10 @@ Con i ragazzi stringeva legami che sono durati una vita. Lo racconta una foto ch
 
 ![Don Marcello, con il cappello estivo, seduto al tavolo accanto al piccolo Giammarco, che stringe un fascio di matite colorate.](./don-marcello-schiavella/photo3.jpg)
 
+Qualcuno dice che i parroci di una volta "coltivavano persone". Don Marcello era grande anche in questo, e faceva sentire a casa pure i "forestieri" che venivano a San Vito per le feste e in estate: come Giancarlo, che da lui ha ricevuto il battesimo e la prima comunione. La prova, per Giancarlo, sono i ragazzi di questa foto, scattata durante una gita al Circeo: li conosce tutti, e sono tutte "persone d'oro". Un'immagine che dice quanto Don Marcello volesse bene ai giovani.
+
+![Don Marcello, sulla destra con gli occhiali da sole e la canottiera bianca, in gita al Circeo con un gruppo di ragazze e ragazzi, con il mare alle spalle.](./don-marcello-schiavella/photo14.jpg)
+
 ## La chiesa sempre piena
 
 La chiesa, ai suoi tempi, era sempre piena. La domenica mattina diceva messa anche al santuario della Madonnina, e anche lì non restava un posto libero. Ha celebrato i matrimoni di tanti sanvitesi, a San Biagio come alla Madonnina, e per alcuni non ha esitato a spostarsi fino a Roma o a Nettuno pur di sposarli lui. Antonio Orlandi, nel suo sanvitese, ricorda così la piazza di quegli anni: "piazza san Biagio era tutta na' pipinara, cinquanta persone senteno e unu sonea a chitarra. Mentre don Marcello dicea a messa e giuliano i bottegante taglea a ventresca."

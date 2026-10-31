@@ -52,6 +52,10 @@ With his young people he formed bonds that lasted a lifetime. A photo shows him,
 
 ![Don Marcello, in his summer hat, sitting at a table next to little Giammarco, who is holding a bunch of coloured pencils.](./don-marcello-schiavella/photo3.jpg)
 
+Some say that the parish priests of old "cultivated people". Don Marcello was great at this too, and he made even the "outsiders" who came to San Vito for the holidays and in summer feel at home: people like Giancarlo, who received baptism and first communion from him. The proof, for Giancarlo, is the young people in this photo, taken on a trip to the Circeo: Giancarlo knows them all, and they are all "people of gold". It is a picture that says how much Don Marcello loved the young.
+
+![Don Marcello, on the right in sunglasses and a white vest, on a trip to the Circeo with a group of girls and boys, the sea behind them.](./don-marcello-schiavella/photo14.jpg)
+
 ## A church always full
 
 In his day the church was always full. On Sunday mornings he also said mass at the sanctuary of the Madonnina, and there too not a seat was left. He celebrated the weddings of many sanvitesi, at San Biagio and at the Madonnina, and for some he did not hesitate to travel as far as Rome or Nettuno to marry them himself. Antonio Orlandi, in his San Vito dialect, remembers the square in those years like this: "piazza san Biagio era tutta na' pipinara, cinquanta persone senteno e unu sonea a chitarra. Mentre don Marcello dicea a messa e giuliano i bottegante taglea a ventresca" - Piazza San Biagio was swarming with people, fifty listening while one played the guitar, while Don Marcello said mass and Giuliano the shopkeeper sliced the pancetta.
