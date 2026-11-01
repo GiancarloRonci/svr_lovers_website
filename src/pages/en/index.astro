@@ -119,6 +119,7 @@ const articoli = (await getCollection('articoliEn'))
                     month: 'long',
                     year: 'numeric',
                   })}
+                  {n.data.ente && ` · ${n.data.ente}`}
                 </span>
               </li>
             ))
