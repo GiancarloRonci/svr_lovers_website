@@ -11,6 +11,10 @@ partenza:
   lat: 41.882611
   lng: 12.982936
 foto:
+  - lat: 41.882878
+    lng: 12.982368
+    immagine: ./lattaceca/foto10.jpg
+    didascalia: "La stradina con la staccionata in legno sotto un grande pino: sullo sfondo, in pieno sole, le alte mura e le case del centro storico con il campanile."
   - lat: 41.882885
     lng: 12.982539
     immagine: ./lattaceca/foto4.jpg
@@ -39,6 +43,18 @@ foto:
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg
     didascalia: "Il vialetto che scende tra la ringhiera e la staccionata in legno, con la vista sulla valle avvolta dalla nebbia e le colline sullo sfondo."
+  - lat: 41.883613
+    lng: 12.983950
+    immagine: ./lattaceca/foto11.jpg
+    didascalia: "Uno slargo in sampietrini da cui i gradini scendono in un vicolo tra le case: a destra una scala esterna con la ringhiera in ferro sale al portone in legno, tra vasi di piante e lunghe ombre."
+  - lat: 41.883607
+    lng: 12.983950
+    immagine: ./lattaceca/foto13.jpg
+    didascalia: "Un vicolo acciottolato tra muri di pietra e portoni scuri, che passa sotto un passaggio coperto con le travi in legno."
+  - lat: 41.883553
+    lng: 12.983975
+    immagine: ./lattaceca/foto12.jpg
+    didascalia: "Uno stretto vicolo tra le case: i gradini di pietra chiara e sampietrini salgono verso il lampione, accanto a un grande masso che affiora tra i muri."
   - lat: 41.883513
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg

@@ -11,6 +11,10 @@ partenza:
   lat: 41.882611
   lng: 12.982936
 foto:
+  - lat: 41.882878
+    lng: 12.982368
+    immagine: ./lattaceca/foto10.jpg
+    didascalia: "The lane with its wooden fence beneath a tall pine: in the background, in full sun, the high walls and houses of the historic centre with the bell tower."
   - lat: 41.882885
     lng: 12.982539
     immagine: ./lattaceca/foto4.jpg
@@ -39,6 +43,18 @@ foto:
     lng: 12.983606
     immagine: ./lattaceca/foto5.jpg
     didascalia: "The path sloping down between the railing and the wooden fence, with a view over the fog-filled valley and the hills in the background."
+  - lat: 41.883613
+    lng: 12.983950
+    immagine: ./lattaceca/foto11.jpg
+    didascalia: "A small cobbled open space from which steps lead down into an alley between the houses: on the right an outside staircase with an iron railing climbs to the wooden door, among potted plants and long shadows."
+  - lat: 41.883607
+    lng: 12.983950
+    immagine: ./lattaceca/foto13.jpg
+    didascalia: "A cobbled alley between stone walls and dark doors, running under a covered passage with wooden beams."
+  - lat: 41.883553
+    lng: 12.983975
+    immagine: ./lattaceca/foto12.jpg
+    didascalia: "A narrow alley between the houses: steps of pale stone and cobbles climb towards the street lamp, beside a large boulder jutting out between the walls."
   - lat: 41.883513
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
