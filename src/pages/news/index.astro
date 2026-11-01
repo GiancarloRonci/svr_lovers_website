@@ -24,7 +24,7 @@ const news = (await getCollection('news')).sort(
             href={withBase(`news/${n.id}/`)}
             title={n.data.title}
             description={n.data.description}
-            meta={n.data.data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+            meta={[n.data.data.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }), n.data.ente].filter(Boolean).join(' · ')}
             image={n.data.immagine}
           />
         </div>

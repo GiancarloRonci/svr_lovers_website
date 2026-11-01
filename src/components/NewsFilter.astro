@@ -67,8 +67,8 @@ const labels =
   (function () {
     var select = document.getElementById('news-range');
     if (!select) return;
-    var items = document.querySelectorAll('.news-item');
     var emptyMsg = document.querySelector('.news-empty');
+    var items = [];
 
     // Returns the earliest date to show as YYYY-MM-DD, or '' for no limit.
     function cutoff(value) {
@@ -97,6 +97,10 @@ const labels =
     }
 
     select.addEventListener('change', apply);
-    apply();
+    // Questo script sta prima dell'elenco: le schede si contano quando la pagina è pronta
+    document.addEventListener('DOMContentLoaded', function () {
+      items = document.querySelectorAll('.news-item');
+      apply();
+    });
   })();
 </script>

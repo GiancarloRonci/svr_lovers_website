@@ -298,6 +298,8 @@ const newsSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     description: z.string(),
     data: z.coerce.date(),
     immagine: image().optional(),
+    // Istituzione che ha dato la notizia, mostrata accanto alla data; da omettere per il Comune di San Vito Romano
+    ente: z.string().optional(),
   });
 
 const news = defineCollection({
