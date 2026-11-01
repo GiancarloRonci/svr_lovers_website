@@ -41,7 +41,7 @@ CHIGL’ ANNO NSELLE COMPRA’ NICIUNU, NCISTEA NA’ LIRA MA’ VAFFANCULU.</pr
 <figcaption>The original text of the poem "Carnevale" in the San Vito dialect, written by Antonio Orlandi.</figcaption>
 </figure>
 
-## Explanation in English
+## Meaning of the Poem
 
 The poem “Carnevale” (Carnival) recalls a Carnival in San Vito many years ago. The narrator dresses up as a poor man with whatever he finds at home: a pair of trousers stained with copper spray, his father's half-holed hat and his grandfather Alfonso's jacket. Dressed like this he wanders around the village and knocks on doors, but finds them bolted: he can smell the castagnole (the fried Carnival sweets) and, through the keyhole, he sees the big jar of mosto cotto (cooked grape must), so much that his mouth starts watering.
 

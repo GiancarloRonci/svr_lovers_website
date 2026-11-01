@@ -41,7 +41,7 @@ CHIGL’ ANNO NSELLE COMPRA’ NICIUNU, NCISTEA NA’ LIRA MA’ VAFFANCULU.</pr
 <figcaption>Il testo originale della poesia "Carnevale" in sanvitese, scritto da Antonio Orlandi.</figcaption>
 </figure>
 
-## Spiegazione in italiano
+## Significato della Poesia
 
 La poesia “Carnevale” ricorda un Carnevale di tanti anni fa a San Vito. Il protagonista si traveste da poveraccio con quello che trova in casa: un paio di pantaloni macchiati di ramato, il cappello mezzo bucato del padre e la giacca del nonno Alfonso. Così conciato gira per il paese e bussa alle porte, ma le trova sbarrate: sente il profumo delle castagnole e, dal buco della serratura, vede il boccione del mosto cotto, tanto che gli viene l'acquolina in bocca.
 

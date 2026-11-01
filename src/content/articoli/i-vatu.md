@@ -35,7 +35,7 @@ PERDE SENNO’ PIGLO E PIAGNO.</pre>
 <figcaption>Il testo originale della poesia "I Vatu" in sanvitese, scritto da Antonio Orlandi.</figcaption>
 </figure>
 
-## Spiegazione in italiano
+## Significato della Poesia
 
 La poesia “I Vatu” ci accompagna in un viaggio nella campagna di un tempo, tra terreni incolti, pietre, cardi, rovi, fiori spontanei e frutti selvatici. Un paesaggio apparentemente disordinato, ma ricco di vita, colori e meraviglie, dove ogni pianta e ogni animale trovavano il proprio spazio. Sullo sfondo, il borgo di San Vito Romano domina le colline, mentre un contadino lavora la terra e si prende cura delle coltivazioni, in un legame profondo con la natura e con il ritmo delle stagioni.
 

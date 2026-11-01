@@ -34,7 +34,7 @@ MAAAAA ARRECAPPEME A CUPERTA CA’ TENCO GELATE E MANI.</pre>
 <figcaption>Il testo originale della poesia "A Befana" in sanvitese, scritto da Antonio Orlandi.</figcaption>
 </figure>
 
-## Spiegazione in italiano
+## Significato della Poesia
 
 La poesia racconta, con nostalgia e ironia, i ricordi d'infanzia legati alla Befana, così come veniva vissuta una volta.
 

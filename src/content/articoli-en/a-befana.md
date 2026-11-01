@@ -34,7 +34,7 @@ MAAAAA ARRECAPPEME A CUPERTA CA’ TENCO GELATE E MANI.</pre>
 <figcaption>The original text of the poem "A Befana" in the San Vito dialect, written by Antonio Orlandi.</figcaption>
 </figure>
 
-## Explanation in English
+## Meaning of the Poem
 
 In Italy the Befana is the kindly old woman who, on the night before the Epiphany (6 January), comes down the chimney to leave gifts for children in their stockings. This poem recalls, with nostalgia and irony, childhood memories of the Befana as she was experienced in the old days.
 

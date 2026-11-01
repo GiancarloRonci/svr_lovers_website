@@ -38,7 +38,7 @@ PROFUMA DE’ ANTICU, CHIGLIU NERA MARTE ERA SANTUITU.</pre>
 <figcaption>Il testo originale della poesia "Sonno paesanu" in sanvitese, scritto da Antonio Orlandi.</figcaption>
 </figure>
 
-## Spiegazione in italiano
+## Significato della Poesia
 
 La poesia “Sonno paesanu” racconta il sogno di un sanvitese che, una notte, si ritrova sul pianeta Marte. È però un Marte molto particolare: i marziani prendono l’acqua con le brocche, annaffiano i pomodori nel solco, raccolgono i fagioli a Sorricchiu, danno l’acqua ramata con il trattore e battono i fagioli sull’aia, proprio come si faceva nelle campagne del paese. Hanno gli occhi sporgenti e un’aria buffa, e il sognatore li osserva con la confusione di chi non sa più bene dove si trova.
 

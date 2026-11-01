@@ -35,7 +35,7 @@ PERDE SENNO’ PIGLO E PIAGNO.</pre>
 <figcaption>The original text of the poem "I Vatu" in the San Vito dialect, written by Antonio Orlandi.</figcaption>
 </figure>
 
-## Explanation in English
+## Meaning of the Poem
 
 The poem “I Vatu” takes us on a journey through the countryside of the old days, among uncultivated plots, stones, thistles, brambles, wild flowers and wild fruit. A landscape that looks untidy, yet is full of life, colour and wonder, where every plant and every animal found its own place. In the background the village of San Vito Romano rises above the hills, while a farmer works the land and tends the crops, deeply bound to nature and to the rhythm of the seasons.
 

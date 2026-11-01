@@ -41,7 +41,7 @@ E MASTU, MO’ LASSO PERDE DARRECCONTA’ SENNO’ DIVENTO MATTU.</pre>
 <figcaption>The original text of the poem "Lume e Bruscu" in the San Vito dialect, written by Antonio Orlandi.</figcaption>
 </figure>
 
-## Explanation in English
+## Meaning of the Poem
 
 The poem “Lume e Bruscu” takes its title from that uncertain hour before dawn when it is no longer night and not yet day. At that hour a village woman is already up: she lights the fire in the hearth, bakes the cornmeal pizza and also puts a herring on the embers. Her husband has already led the donkey out of the stable and she is ready with her basket. So begins the “parade” the villagers made every day along the stairway, on their way to the fields.
 

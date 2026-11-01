@@ -41,7 +41,7 @@ E MASTU, MO’ LASSO PERDE DARRECCONTA’ SENNO’ DIVENTO MATTU.</pre>
 <figcaption>Il testo originale della poesia "Lume e Bruscu" in sanvitese, scritto da Antonio Orlandi.</figcaption>
 </figure>
 
-## Spiegazione in italiano
+## Significato della Poesia
 
 La poesia “Lume e Bruscu” prende il titolo da quell'ora incerta prima dell'alba in cui non è più notte e non è ancora giorno. A quell'ora una paesana è già in piedi: accende il fuoco nel camino, cuoce la pizza di granturco e mette sulla brace anche un'aringa. Il marito ha già tirato fuori l'asino dalla stalla e lei è pronta con la canestra. Comincia così la “sfilata” che i paesani facevano ogni giorno lungo la scalinata, diretti alle campagne.
 

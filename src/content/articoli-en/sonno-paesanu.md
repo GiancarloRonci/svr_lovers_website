@@ -38,7 +38,7 @@ PROFUMA DE’ ANTICU, CHIGLIU NERA MARTE ERA SANTUITU.</pre>
 <figcaption>The original text of the poem "Sonno paesanu" in the San Vito dialect, written by Antonio Orlandi.</figcaption>
 </figure>
 
-## Explanation in English
+## Meaning of the Poem
 
 The poem “Sonno paesanu” (A Villager’s Dream) tells of a man from San Vito who, one night, dreams he is on the planet Mars. But it is a very peculiar Mars: the Martians fetch water with jugs, water the tomatoes in the furrow, pick beans at Sorricchiu, spray copper water with the tractor and thresh beans on the threshing floor, just as people used to do in the village fields. They have bulging eyes and a comical look, and the dreamer watches them with the confusion of someone who no longer quite knows where he is.
 
