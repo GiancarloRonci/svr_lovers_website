@@ -41,3 +41,17 @@
   color: inherit;
   font: inherit;
 }
+
+/* "Sonno paesanu": foglio più largo e titolo più vicino al testo */
+.poesia-originale.sonno-paesanu {
+  max-width: 1004px;
+}
+.poesia-originale.sonno-paesanu .foglio {
+  padding-top: 2.66cqw;
+  padding-left: 4.05cqw;
+  line-height: 1.84;
+  padding-bottom: 4cqw;
+}
+.poesia-originale.sonno-paesanu .titolo {
+  margin-bottom: 4.66cqw;
+}
