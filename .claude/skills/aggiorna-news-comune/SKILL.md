@@ -43,6 +43,7 @@ Questa skill sincronizza le notizie pubblicate dal Comune di San Vito Romano con
 
 ## Note
 
+- Le news di altre istituzioni hanno il campo `ente` nel frontmatter (es. `ente: Comune di Capranica Prenestina`, in inglese `Municipality of Capranica Prenestina`), mostrato accanto alla data. Al passo 1 ignora i file con `ente` quando cerchi l'ultima notizia del Comune di San Vito: una news recente di un altro ente nasconderebbe quelle del Comune da recuperare. Le news del Comune di San Vito il campo non lo hanno.
 - Se non ci sono notizie nuove rispetto a quelle già presenti, dillo esplicitamente all'utente senza creare file.
 - Se un articolo del Comune è molto tecnico/lungo (es. bandi con allegati), riassumilo mantenendo le informazioni chiave: scadenze, moduli richiesti, contatti/uffici di riferimento, link a documenti se rilevanti.
 - Usa sempre l'anno corrente coerente con la data odierna quando interpreti date ambigue nel testo del Comune.
