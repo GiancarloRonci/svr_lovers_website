@@ -67,6 +67,22 @@
   line-height: 1.82;
 }
 
+/* "Lume e Bruscu": margini stretti e carattere un po' più grande, come nel documento */
+.poesia-originale.lume-e-bruscu {
+  max-width: 922px;
+}
+.poesia-originale.lume-e-bruscu .foglio {
+  padding-top: 5.1cqw;
+  padding-left: 2.7cqw;
+  padding-right: 2cqw;
+  padding-bottom: 1.8cqw;
+  font-size: 2.36cqw;
+  line-height: 1.83;
+}
+.poesia-originale.lume-e-bruscu .titolo {
+  margin-bottom: 6.6cqw;
+}
+
 /* "A Befana": foglio più largo */
 .poesia-originale.a-befana {
   max-width: 969px;
