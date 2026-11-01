@@ -4,8 +4,6 @@ description: "Una poesia in sanvitese sulle partenze prima dell'alba: il fuoco a
 data: 2026-11-01
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
-copertinaBassa: true
-copertinaPosizione: "top"
 immagine: ./lume-e-bruscu/lume-e-bruscu.jpg
 ---
 

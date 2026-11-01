@@ -4,8 +4,6 @@ description: "A poem in the San Vito dialect about setting off before dawn: the 
 data: 2026-11-01
 autore: Antonio Orlandi
 categoria: storie-in-sanvitese
-copertinaBassa: true
-copertinaPosizione: "top"
 immagine: ./lume-e-bruscu/lume-e-bruscu.jpg
 ---
 
