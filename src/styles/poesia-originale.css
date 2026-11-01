@@ -1,0 +1,43 @@
+/* Poesia riportata come testo vero, con l'aspetto del documento dell'autore: tutto maiuscolo,
+   allineato a sinistra e con gli stessi a capo. Le righe non si spezzano mai: come farebbe
+   un'immagine, il carattere si riduce insieme al foglio (unità cqw = % della larghezza del foglio).
+   Carlito ha le stesse misure di Calibri, il carattere del documento originale. */
+@font-face {
+  font-family: 'Carlito';
+  src: url('../assets/fonts/carlito-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.poesia-originale {
+  container-type: inline-size;
+  max-width: 927px;
+  margin: 0 auto;
+  border: 1px solid #d4d4d4;
+  background: #fff;
+  color: #000;
+}
+
+.poesia-originale .foglio {
+  padding: 3.05cqw 3.6cqw 4.3cqw 4.45cqw;
+  font-family: 'Carlito', 'Calibri', sans-serif;
+  font-size: 2.3cqw;
+  line-height: 1.83;
+}
+
+.poesia-originale .titolo {
+  margin: 0 0 8.2cqw;
+  text-align: center;
+  font-size: inherit;
+}
+
+.poesia-originale pre {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  white-space: pre;
+  background: none;
+  color: inherit;
+  font: inherit;
+}

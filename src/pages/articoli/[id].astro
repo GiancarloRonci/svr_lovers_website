@@ -9,6 +9,7 @@ import { getLastModified, formatLastModified } from '../../lib/lastModified';
 import { weekendDatesFromSlug } from '../../lib/weekend';
 import Meteo3b from '../../components/Meteo3b.astro';
 import { categoriaArticolo } from '../../lib/categorieArticoli';
+import '../../styles/poesia-originale.css';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli');
