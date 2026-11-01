@@ -69,3 +69,17 @@
 .poesia-originale.i-vatu .titolo {
   margin-bottom: 33.3cqw;
 }
+
+/* "A Befana": foglio più largo e ampio spazio tra il titolo e il testo */
+.poesia-originale.a-befana {
+  max-width: 969px;
+}
+.poesia-originale.a-befana .foglio {
+  padding-top: 2.8cqw;
+  padding-left: 4.05cqw;
+  padding-bottom: 2.8cqw;
+  line-height: 1.83;
+}
+.poesia-originale.a-befana .titolo {
+  margin-bottom: 22.6cqw;
+}
