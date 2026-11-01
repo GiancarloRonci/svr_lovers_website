@@ -55,3 +55,17 @@
 .poesia-originale.sonno-paesanu .titolo {
   margin-bottom: 4.66cqw;
 }
+
+/* "I Vatu": foglio più largo e grande spazio tra il titolo e il testo */
+.poesia-originale.i-vatu {
+  max-width: 995px;
+}
+.poesia-originale.i-vatu .foglio {
+  padding-top: 2.8cqw;
+  padding-left: 4.05cqw;
+  padding-bottom: 2.8cqw;
+  line-height: 1.82;
+}
+.poesia-originale.i-vatu .titolo {
+  margin-bottom: 33.3cqw;
+}
