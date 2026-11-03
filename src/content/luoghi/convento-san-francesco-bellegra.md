@@ -51,7 +51,7 @@ galleria:
   - immagine: ./convento-san-francesco-bellegra/photo23.jpg
     didascalia: "Il corridoio su cui si aprono le celle dei frati"
   - immagine: ./convento-san-francesco-bellegra/photo24.jpg
-    didascalia: "Le statue della Sala III e la lapide del beato Tommaso da Cori"
+    didascalia: "Le statue della Sala III e la lapide di San Tommaso da Cori"
   - immagine: ./convento-san-francesco-bellegra/photo25.jpg
     didascalia: "Una sala del museo con il dipinto nella cornice dorata e una panca di legno"
   - immagine: ./convento-san-francesco-bellegra/photo26.jpg
@@ -72,22 +72,38 @@ galleria:
     licenza: "CC BY-SA 3.0"
 ---
 
-Il Convento di San Francesco, noto anche come Sacro Ritiro, sorge immerso nei boschi sopra Bellegra, ai piedi dei Monti Simbruini, non lontano da San Vito Romano. La tradizione, tramandata dal cronista benedettino Mirzio e dallo storico francescano Wadding, racconta che nel 1223 San Francesco d'Assisi, in viaggio verso il monastero di San Benedetto a Subiaco, si fermò con alcuni compagni presso il casale di Monte Casale, allora proprietà dei monaci benedettini. Colpito dall'atmosfera di pace del luogo, tra ulivi, faggete e campagna, il Santo ricevette in dono dall'abate proprio l'area dove oggi sorge il convento, e vi si stabilì con i suoi frati.
+Il Convento di San Francesco, noto anche come Sacro Ritiro, sorge immerso nei boschi sopra Bellegra, ai piedi dei Monti Simbruini, a circa 15 minuti d'auto da San Vito Romano. La sua storia ruota attorno a due date: il 1223, l'anno a cui la tradizione fa risalire il passaggio di San Francesco d'Assisi, e il 1683, l'anno in cui, secondo la scheda dei Luoghi del Cuore del FAI, il convento fu eretto a Ritiro francescano. L'epoca di fondazione del complesso resta invece incerta, anche perché gli edifici furono rimaneggiati più volte.
 
-Una pia tradizione narra che in questo ritiro San Francesco convertì tre famosi briganti della zona, che divennero in seguito frati e morirono in fama di santità: le loro ossa sono conservate ancora oggi nella cappella a lui dedicata.
+## Da San Francesco a Tommaso da Cori
 
-Nel Settecento fra Tommaso da Cori, divenuto superiore della comunità, fondò propriamente il "Sacro Ritiro", mantenendo la struttura piccola e povera pur ampliandola con una foresteria e alcuni dormitori, sufficienti a ospitare al massimo una ventina di religiosi.
+La tradizione, tramandata dal cronista benedettino Mirzio e dallo storico francescano Wadding, racconta che nel 1223 San Francesco d'Assisi, in viaggio verso il monastero di San Benedetto a Subiaco, si fermò con alcuni compagni presso il casale di Monte Casale, allora proprietà dei monaci benedettini. Colpito dall'atmosfera di pace del luogo, tra ulivi, faggete e campagna, il Santo avrebbe ricevuto dall'abate un piccolo romitorio, proprio dove oggi sorge il convento, e vi si sarebbe stabilito con i suoi frati.
+
+Allo stesso periodo appartiene il racconto dei tre briganti della zona che San Francesco avrebbe convertito e che divennero in seguito frati, morendo in fama di santità: le loro ossa sono conservate ancora oggi nella cappella dedicata al Santo, e antiche pitture e iscrizioni ricordano l'episodio. Le fonti lo tramandano come un racconto devozionale.
+
+Una fase meglio documentata inizia alla fine del Seicento. Nel 1683 il convento fu eretto a Ritiro francescano e l'anno seguente, nel 1684, vi arrivò fra Tommaso da Cori, che contribuì a consolidare la nuova comunità e ne scrisse le regole, mantenendo la struttura piccola e povera: con la foresteria e alcuni dormitori poteva ospitare al massimo una ventina di religiosi. Tra il 1703 e il 1709 fu guardiano del convento di Palombara Sabina, dove portò lo stesso modello di vita; tornò poi a Bellegra, dove morì l'11 gennaio 1729. Nel 1999 è stato proclamato santo.
+
+## Perché si chiama "Nido dei Santi"
+
+Il convento è chiamato anche "Nido dei Santi", un nome che ritorna nell'indirizzo, per le figure religiose che vi hanno vissuto. Nella chiesa si conservano il corpo di San Tommaso da Cori e, in due urne di bronzo, le spoglie dei beati Diego Oddi e Mariano da Roccacasale, due frati del Ritiro proclamati beati nel 1999. Fra Mariano fu per quarant'anni il portinaio del convento; fra Diego vi morì il 3 giugno 1919, e una targa nel museo ricorda il luogo. Secondo la Diocesi, il convento ricevette anche due visite papali: quella di Pio VI nel 1789 e quella di Giovanni XXIII nel 1959.
+
+## La chiesa, il museo e l'eremo
+
+- **La chiesa** custodisce un grande crocifisso ligneo del 1685, opera di fra Vincenzo da Bassiano, e una tela cinquecentesca di autore ignoto che raffigura il presepe di Greccio.
+- **Il museo francescano**, nella parte antica del convento, raccoglie oggetti della vita quotidiana dei frati e testimonianze della devozione popolare, e il percorso attraversa anche le celle. Il Catalogo generale dei beni culturali censisce inoltre numerosi reliquiari, fra cui uno attribuito alla bottega degli Embriaci e datato alla prima metà del Quattrocento.
+- **L'eremo**, all'esterno e immerso nel verde, è dedicato alla preghiera personale.
+
+Il convento ha anche un legame con San Vito Romano: secondo la Diocesi, la fraternità francescana secolare di San Vito è tra quelle assistite dai frati del Ritiro.
 
 Ancora oggi il convento, raggiungibile lungo un sentiero nel bosco, conserva questo spirito di raccoglimento e semplicità, ed è meta di visite e momenti di ritiro spirituale per chi cerca la quiete dei Monti Prenestini-Simbruini.
 
 ## Orari e contatti
 
-Il convento non pubblica un orario di visita: prima di partire conviene telefonare ai frati per sapere quando è possibile visitarlo.
+Il convento non pubblica un orario di visita: prima di partire conviene telefonare ai frati per sapere quando è possibile visitarlo e se il museo è aperto.
 
 **Telefono:** [06 9565291](tel:+39069565291)
 
 **Indirizzo:** Via Nido dei Santi (S.P. 10a) 1, Bellegra (Roma)
 
-*Fonte: [Diocesi di Tivoli e di Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/) (consultato a ottobre 2026).*
+*Fonti: [Diocesi di Tivoli e di Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/); [biografia di San Tommaso da Cori](https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19991121_tommaso-da-cori_it.html) sul sito della Santa Sede; scheda del Sacro Ritiro nei Luoghi del Cuore del FAI; Catalogo generale dei beni culturali (consultati tra ottobre e novembre 2026).*
 
 *Foto: Claudius Ziehr, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:(Claudius_Ziehr)_Bellegra_001.jpg), CC BY-SA 3.0 (veduta di Bellegra).*

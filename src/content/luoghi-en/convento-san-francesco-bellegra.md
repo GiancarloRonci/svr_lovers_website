@@ -51,7 +51,7 @@ galleria:
   - immagine: ./convento-san-francesco-bellegra/photo23.jpg
     didascalia: "The corridor onto which the friars' cells open"
   - immagine: ./convento-san-francesco-bellegra/photo24.jpg
-    didascalia: "The statues of Room III and the plaque of Blessed Tommaso da Cori"
+    didascalia: "The statues of Room III and the plaque of Saint Tommaso da Cori"
   - immagine: ./convento-san-francesco-bellegra/photo25.jpg
     didascalia: "A museum room with the painting in its gilded frame and a wooden bench"
   - immagine: ./convento-san-francesco-bellegra/photo26.jpg
@@ -72,22 +72,38 @@ galleria:
     licenza: "CC BY-SA 3.0"
 ---
 
-The Convent of San Francesco, also known as the Sacro Ritiro, stands deep in the woods above Bellegra, at the foot of the Simbruini mountains, not far from San Vito Romano. Tradition, handed down by the Benedictine chronicler Mirzio and the Franciscan historian Wadding, tells that in 1223 Saint Francis of Assisi, on his way to the monastery of San Benedetto in Subiaco, stopped with a few companions at the farmhouse of Monte Casale, then owned by Benedictine monks. Struck by the peaceful atmosphere of the place, amid olive groves, beech woods and countryside, the Saint received as a gift from the abbot the very area where the convent stands today, and settled there with his friars.
+The Convent of San Francesco, also known as the Sacro Ritiro, stands deep in the woods above Bellegra, at the foot of the Simbruini mountains, about 15 minutes' drive from San Vito Romano. Its history revolves around two dates: 1223, the year to which tradition dates the visit of Saint Francis of Assisi, and 1683, the year in which, according to the FAI "Luoghi del Cuore" entry, the convent was made a Franciscan Ritiro (retreat house). When the complex was first founded remains uncertain, partly because the buildings were remodelled several times.
 
-A pious tradition tells that at this retreat Saint Francis converted three notorious local bandits, who later became friars and died in the odour of sanctity: their bones are still kept today in the chapel dedicated to him.
+## From Saint Francis to Tommaso da Cori
 
-In the 18th century, friar Tommaso da Cori, having become superior of the community, properly founded the "Sacro Ritiro", keeping the structure small and simple while expanding it with a guesthouse and a few dormitories, enough to house at most about twenty friars.
+Tradition, handed down by the Benedictine chronicler Mirzio and the Franciscan historian Wadding, tells that in 1223 Saint Francis of Assisi, on his way to the monastery of San Benedetto in Subiaco, stopped with a few companions at the farmhouse of Monte Casale, then owned by Benedictine monks. Struck by the peaceful atmosphere of the place, amid olive groves, beech woods and countryside, the Saint is said to have received from the abbot a small hermitage, right where the convent stands today, and to have settled there with his friars.
+
+To the same period belongs the story of three local bandits whom Saint Francis is said to have converted and who later became friars, dying in the odour of sanctity: their bones are still kept today in the chapel dedicated to the Saint, and old paintings and inscriptions recall the episode. The sources hand it down as a devotional story.
+
+A better documented period begins at the end of the 17th century. In 1683 the convent was made a Franciscan Ritiro, and the following year, in 1684, friar Tommaso da Cori arrived, helping to consolidate the new community and writing its rules, while keeping the structure small and poor: with its guesthouse and a few dormitories it could house at most about twenty friars. From 1703 to 1709 he was guardian of the convent of Palombara Sabina, where he brought the same way of life; he then returned to Bellegra, where he died on 11 January 1729. He was proclaimed a saint in 1999.
+
+## Why it is called "Nest of Saints"
+
+The convent is also known as "Nido dei Santi" (Nest of Saints), a name that also appears in its address, because of the religious figures who lived there. The church holds the body of Saint Tommaso da Cori and, in two bronze urns, the remains of Blessed Diego Oddi and Blessed Mariano da Roccacasale, two friars of the Ritiro beatified in 1999. Friar Mariano was the convent's porter for forty years; friar Diego died here on 3 June 1919, and a plaque in the museum marks the spot. According to the Diocese, the convent also received two papal visits: Pius VI in 1789 and John XXIII in 1959.
+
+## The church, the museum and the hermitage
+
+- **The church** holds a large wooden crucifix from 1685, the work of friar Vincenzo da Bassiano, and a 16th-century canvas by an unknown artist depicting the Nativity scene of Greccio.
+- **The Franciscan museum**, in the old part of the convent, gathers objects from the friars' daily life and examples of popular devotion, and the visit also passes through the cells. The national catalogue of cultural heritage (Catalogo generale dei beni culturali) also lists many reliquaries, including one attributed to the Embriaci workshop and dated to the first half of the 15th century.
+- **The hermitage**, outside and surrounded by greenery, is set aside for personal prayer.
+
+The convent also has a link with San Vito Romano: according to the Diocese, the San Vito fraternity of the Secular Franciscan Order is among those assisted by the friars of the Ritiro.
 
 Still today the convent, reachable along a path through the woods, keeps this spirit of quiet and simplicity, and remains a destination for visits and spiritual retreats for those seeking the peace of the Prenestini-Simbruini mountains.
 
 ## Opening hours and contacts
 
-The convent does not publish visiting hours: before setting off, it is best to phone the friars to find out when it can be visited.
+The convent does not publish visiting hours: before setting off, it is best to phone the friars to find out when it can be visited and whether the museum is open.
 
 **Phone:** [+39 06 9565291](tel:+39069565291)
 
 **Address:** Via Nido dei Santi (S.P. 10a) 1, Bellegra (Rome)
 
-*Source: [Diocese of Tivoli and Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/) (checked in October 2026).*
+*Sources: [Diocese of Tivoli and Palestrina](https://diocesitivoliepalestrina.it/parrocchie/santuari/bellegra-sacro-ritiro-di-san-francesco/); [biography of Saint Tommaso da Cori](https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19991121_tommaso-da-cori_en.html) on the Holy See website; FAI "Luoghi del Cuore" entry for the Sacro Ritiro; Catalogo generale dei beni culturali (checked between October and November 2026).*
 
 *Photo: Claudius Ziehr, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:(Claudius_Ziehr)_Bellegra_001.jpg), CC BY-SA 3.0 (view of Bellegra).*
