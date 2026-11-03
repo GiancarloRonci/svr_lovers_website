@@ -3,15 +3,11 @@ title: Convento di San Francesco (Sacro Ritiro) a Bellegra
 description: Il convento francescano immerso nel bosco sopra Bellegra, fondato nel luogo dove San Francesco si fermò nel 1223, non lontano da San Vito Romano.
 comune: Bellegra
 minutiAuto: 15
-immagine: ./convento-san-francesco-bellegra/photo1.jpg
-immagineAutore: "Claudius Ziehr"
-immagineLicenza: "CC BY-SA 3.0"
+immagine: ./convento-san-francesco-bellegra/photo2.jpg
 coordinate:
   lat: 41.899098
   lng: 13.0145621
 galleria:
-  - immagine: ./convento-san-francesco-bellegra/photo2.jpg
-    didascalia: "La facciata della chiesa del Sacro Ritiro al tramonto, con le luci di Natale e il campanile a vela"
   - immagine: ./convento-san-francesco-bellegra/photo3.jpg
     didascalia: "Una sala del convento con l'albero di Natale e i ritratti dei frati alle pareti"
   - immagine: ./convento-san-francesco-bellegra/photo4.jpg
@@ -70,6 +66,10 @@ galleria:
     didascalia: "Il dipinto «San Francesco converte i tre ladroni di Montecasale»"
   - immagine: ./convento-san-francesco-bellegra/photo31.jpg
     didascalia: "La chiesa del Sacro Ritiro a sera, illuminata per Natale"
+  - immagine: ./convento-san-francesco-bellegra/photo1.jpg
+    didascalia: "Veduta di Bellegra"
+    autore: "Claudius Ziehr"
+    licenza: "CC BY-SA 3.0"
 ---
 
 Il Convento di San Francesco, noto anche come Sacro Ritiro, sorge immerso nei boschi sopra Bellegra, ai piedi dei Monti Simbruini, non lontano da San Vito Romano. La tradizione, tramandata dal cronista benedettino Mirzio e dallo storico francescano Wadding, racconta che nel 1223 San Francesco d'Assisi, in viaggio verso il monastero di San Benedetto a Subiaco, si fermò con alcuni compagni presso il casale di Monte Casale, allora proprietà dei monaci benedettini. Colpito dall'atmosfera di pace del luogo, tra ulivi, faggete e campagna, il Santo ricevette in dono dall'abate proprio l'area dove oggi sorge il convento, e vi si stabilì con i suoi frati.

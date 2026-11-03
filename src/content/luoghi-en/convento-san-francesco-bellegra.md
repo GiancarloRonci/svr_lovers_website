@@ -3,15 +3,11 @@ title: Convent of San Francesco (Sacro Ritiro) in Bellegra
 description: The Franciscan convent set in the woods above Bellegra, founded where Saint Francis stopped in 1223, not far from San Vito Romano.
 comune: Bellegra
 minutiAuto: 15
-immagine: ./convento-san-francesco-bellegra/photo1.jpg
-immagineAutore: "Claudius Ziehr"
-immagineLicenza: "CC BY-SA 3.0"
+immagine: ./convento-san-francesco-bellegra/photo2.jpg
 coordinate:
   lat: 41.899098
   lng: 13.0145621
 galleria:
-  - immagine: ./convento-san-francesco-bellegra/photo2.jpg
-    didascalia: "The façade of the Sacro Ritiro church at sunset, with the Christmas lights and the bell gable"
   - immagine: ./convento-san-francesco-bellegra/photo3.jpg
     didascalia: "A room in the convent with the Christmas tree and portraits of friars on the walls"
   - immagine: ./convento-san-francesco-bellegra/photo4.jpg
@@ -70,6 +66,10 @@ galleria:
     didascalia: "The painting \"Saint Francis converts the three thieves of Montecasale\""
   - immagine: ./convento-san-francesco-bellegra/photo31.jpg
     didascalia: "The Sacro Ritiro church in the evening, lit up for Christmas"
+  - immagine: ./convento-san-francesco-bellegra/photo1.jpg
+    didascalia: "View of Bellegra"
+    autore: "Claudius Ziehr"
+    licenza: "CC BY-SA 3.0"
 ---
 
 The Convent of San Francesco, also known as the Sacro Ritiro, stands deep in the woods above Bellegra, at the foot of the Simbruini mountains, not far from San Vito Romano. Tradition, handed down by the Benedictine chronicler Mirzio and the Franciscan historian Wadding, tells that in 1223 Saint Francis of Assisi, on his way to the monastery of San Benedetto in Subiaco, stopped with a few companions at the farmhouse of Monte Casale, then owned by Benedictine monks. Struck by the peaceful atmosphere of the place, amid olive groves, beech woods and countryside, the Saint received as a gift from the abbot the very area where the convent stands today, and settled there with his friars.
