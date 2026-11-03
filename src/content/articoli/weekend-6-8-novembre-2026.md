@@ -22,6 +22,8 @@ Da mezzogiorno a Rocca Canterano apre la [Sagra della Rola e Festa del Cornuto](
 
 Chi preferisce muovere le gambe, dalle 14:30 alle 16:30 può unirsi alla [Camminata e Nordic Walking](/eventi/camminata-nordic-walking-montore-subiaco-2026-11-07) nelle contrade di Subiaco, con ritrovo alla Cappella della Madonna di Montore (prenotazione entro venerdì 6).
 
+Alle 17:00, alla Biblioteca "Riccardo Morandi" di Colleferro, si apre ["Dalla penna alla cronaca"](/eventi/dalla-penna-alla-cronaca-colleferro-2026), la rassegna del Comune contro la violenza sulle donne: ospite la psicoterapeuta Roberta Cassetti, con un accompagnamento musicale.
+
 Per chi ha ancora voglia di sport, alle 19:00 al PalaFlacco di Palestrina c'è l'esordio in casa della squadra di basket femminile: [Iobus Jungle Team - GD Barrili](/eventi/iobus-jungle-team-gd-barrili-palestrina-2026-11-07), Serie C.
 
 ## Domenica: boschi e sentieri
@@ -35,7 +37,7 @@ Chi preferisce una passeggiata in paese ha, dalle 10:00, la [Fiera Agricola di S
 
 A pranzo c'è l'imbarazzo della scelta. A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30. A San Cesareo, dalle 12:30 in Piazzale La Villetta, la Pro Loco organizza ["Sapori Sancesaresi, Lane e tradizioni"](/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), con le lane al baccalà e le pizze di polenta: i biglietti si comprano in prevendita.
 
-Per chi ama i libri, a Cave l'associazione Caffè Corretto [apre la sua stagione culturale](/eventi/caffe-corretto-stagione-culturale-cave-2026) al teatro, con la scrittrice Vincenza Alfano e il romanzo "La guerriera dei libri" (l'orario non è ancora uscito).
+Il pomeriggio è per chi ama i libri, con due incontri alle 17:30. A Cave l'associazione Caffè Corretto [apre la sua stagione culturale](/eventi/caffe-corretto-stagione-culturale-cave-2026) al Teatro Comunale "Milco Paravani", con la scrittrice Vincenza Alfano e il romanzo "La guerriera dei libri". A Palestrina, alla Biblioteca Fantoniana, il [Progetto Segnalibro](/eventi/progetto-segnalibro-la-guardiana-palestrina-2026) riparte con Caterina Battilocchio e il suo romanzo d'esordio "La guardiana" (ingresso libero).
 
 **Se avete solo mezza giornata:** il pranzo della domenica alla Festa del Cornuto di Rocca Canterano, a venticinque minuti da casa.
 

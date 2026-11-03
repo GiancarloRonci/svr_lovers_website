@@ -1,16 +1,16 @@
 ---
 title: "Borgo diVino in Tour in Subiaco"
-description: Two afternoons of Lazio wine tasting in Subiaco, with eleven wineries, producers and sommeliers, at the stop that closes Borgo diVino's 2026 tour.
+description: At the Convento di San Francesco in Subiaco, a masterclass on Lazio wines on Saturday and a day of tastings on Sunday, at the stop that closes Borgo diVino's 2026 tour.
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
-luogo: "Subiaco (Rome)"
+luogo: "Convento di San Francesco, Via San Francesco, Subiaco (Rome)"
 comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Food & Wine Event
 ---
 
-On Saturday 14 and Sunday 15 November 2026 Borgo diVino in Tour stops in Subiaco with a tasting of Lazio wines: reds, whites, rosés and sparkling wines, including Roma DOC, Cesanese del Piglio DOCG and Frascati, with the chance to meet producers and sommeliers. Eleven wineries have been announced, but the list may change up to a week before.
+On Saturday 14 and Sunday 15 November 2026 Borgo diVino in Tour stops at the Convento di San Francesco in Subiaco, with wines from Lazio and other Italian regions and the chance to meet producers and sommeliers. The list of wineries may change up to a week before.
 
-Tastings run on Saturday from 3:00 PM to 9:00 PM and on Sunday from 3:00 PM to 8:00 PM. The tasting kit costs 20 euros and is bought online on the event website, which also shows the places still available; for information there is WhatsApp 349 597 1079. The official website does not give the exact venue: according to local guides it is Palazzo Moraschi, as at last year's edition.
+On Saturday from 6:30 PM to 8:00 PM there is the masterclass "Le quattro anime del Lazio" (The four souls of Lazio), with four wines from Marco Carpineti, Michael Formiconi, Colle Picchioni and Tenuta Iacoangeli: it is free, but places are limited and must be booked by writing to info@borgodivino.it. On Sunday from 12:00 PM to 8:00 PM the tasting stands are open: entry is free, and the 15-euro voucher gives eight tastings of your choice. It can be bought on site or on the event website (one part of the site still mentions 20 euros, so it is worth checking); for information there is WhatsApp 349 597 1079.
 
 *Source: [Borgo diVino in Tour - Subiaco](https://borgodivino.it/subiaco/)*

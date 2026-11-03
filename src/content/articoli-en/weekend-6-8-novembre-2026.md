@@ -22,6 +22,8 @@ From midday in Rocca Canterano the [Sagra della Rola and Festa del Cornuto](/en/
 
 If you'd rather stretch your legs, from 2:30 to 4:30 pm you can join the [Walking and Nordic Walking](/en/eventi/camminata-nordic-walking-montore-subiaco-2026-11-07) session in the countryside of Subiaco, meeting at the Cappella della Madonna in Montore (booking by Friday 6).
 
+At 5 pm, at the Biblioteca "Riccardo Morandi" in Colleferro, the Municipality opens ["Dalla penna alla cronaca"](/en/eventi/dalla-penna-alla-cronaca-colleferro-2026), its series against violence against women: the guest is the psychotherapist Roberta Cassetti, with live music.
+
 For those still in the mood for sport, at 7 pm at the PalaFlacco in Palestrina the women's basketball team plays its first home game: [Iobus Jungle Team vs GD Barrili](/en/eventi/iobus-jungle-team-gd-barrili-palestrina-2026-11-07), Serie C.
 
 ## Sunday: woods and trails
@@ -35,7 +37,7 @@ If you would rather stroll through a town, from 10 am the [Saint Martin's Farm F
 
 For lunch you are spoilt for choice. In Rocca Canterano the festival carries on: stands open from 12 noon to 5 pm and the parade at 4:30 pm. In San Cesareo, from 12:30 pm in Piazzale La Villetta, the Pro Loco hosts ["Sapori Sancesaresi, Lane e tradizioni"](/en/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), with lane pasta with salt cod and polenta pizzas: tickets are sold in advance.
 
-For book lovers, in Cave the Caffè Corretto association [opens its cultural season](/en/eventi/caffe-corretto-stagione-culturale-cave-2026) at the theatre, with the writer Vincenza Alfano and her novel "La guerriera dei libri" (the time hasn't been announced yet).
+The afternoon is for book lovers, with two meetings at 5:30 pm. In Cave the Caffè Corretto association [opens its cultural season](/en/eventi/caffe-corretto-stagione-culturale-cave-2026) at the Teatro Comunale "Milco Paravani", with the writer Vincenza Alfano and her novel "La guerriera dei libri". In Palestrina, at the Biblioteca Fantoniana, [Progetto Segnalibro](/en/eventi/progetto-segnalibro-la-guardiana-palestrina-2026) starts again with Caterina Battilocchio and her debut novel "La guardiana" (free entry).
 
 **If you only have half a day:** Sunday lunch at the Festa del Cornuto in Rocca Canterano, twenty-five minutes from home.
 
