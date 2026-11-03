@@ -20,6 +20,8 @@ Il consiglio della settimana è restare in paese per [Sanvitese - Frosinone Tecc
 
 Da mezzogiorno a Rocca Canterano apre la [Sagra della Rola e Festa del Cornuto](/eventi/sagra-rola-festa-cornuto-rocca-canterano-2026): caldarroste, vino novello, cecamariti e fagioli con le cotiche, con gli stand aperti fino alle 22:00 e il corteo burlesco alle 18:30.
 
+Chi preferisce muovere le gambe, dalle 14:30 alle 16:30 può unirsi alla [Camminata e Nordic Walking](/eventi/camminata-nordic-walking-montore-subiaco-2026-11-07) nelle contrade di Subiaco, con ritrovo alla Cappella della Madonna di Montore (prenotazione entro venerdì 6).
+
 Per chi ha ancora voglia di sport, alle 19:00 al PalaFlacco di Palestrina c'è l'esordio in casa della squadra di basket femminile: [Iobus Jungle Team - GD Barrili](/eventi/iobus-jungle-team-gd-barrili-palestrina-2026-11-07), Serie C.
 
 ## Domenica: boschi e sentieri

@@ -20,6 +20,8 @@ This week's tip is to stay in town for [Sanvitese vs Frosinone Tecchiena](/en/ev
 
 From midday in Rocca Canterano the [Sagra della Rola and Festa del Cornuto](/en/eventi/sagra-rola-festa-cornuto-rocca-canterano-2026) opens: roast chestnuts, new wine, cecamariti pasta and beans with pork rind, with stands open until 10 pm and the burlesque parade at 6:30 pm.
 
+If you'd rather stretch your legs, from 2:30 to 4:30 pm you can join the [Walking and Nordic Walking](/en/eventi/camminata-nordic-walking-montore-subiaco-2026-11-07) session in the countryside of Subiaco, meeting at the Cappella della Madonna in Montore (booking by Friday 6).
+
 For those still in the mood for sport, at 7 pm at the PalaFlacco in Palestrina the women's basketball team plays its first home game: [Iobus Jungle Team vs GD Barrili](/en/eventi/iobus-jungle-team-gd-barrili-palestrina-2026-11-07), Serie C.
 
 ## Sunday: woods and trails
