@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../lib/url';
-import { formatEventDate } from '../../lib/eventDate';
+import { formatEventDate, luogoSenzaComune } from '../../lib/eventDate';
 import { tagClass } from '../../lib/eventCategory';
 import { formatDriveTime } from '../../lib/driveTime';
 import { getLastModified, formatLastModified } from '../../lib/lastModified';
@@ -14,8 +14,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, dataInizio, dataFine, luogo, minutiAuto, tipologiaEvento, immagine, galleria } = entry.data;
+const { title, description, dataInizio, dataFine, luogo, comune, minutiAuto, tipologiaEvento, immagine, galleria } = entry.data;
 const distanza = formatDriveTime(minutiAuto, 'it');
+const luogoDettaglio = luogoSenzaComune(luogo, comune);
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
 ---
@@ -25,7 +26,10 @@ const lastModified = getLastModified(entry.filePath);
   {tipologiaEvento && <p><span class={tagClass(tipologiaEvento)}>{tipologiaEvento}</span></p>}
   <h1>{title}</h1>
   <p class="meta">{formatEventDate(dataInizio, dataFine, 'it-IT')}</p>
-  {luogo && <p class="luogo">📍 {luogo}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>}
+  <div class="dove">
+    <p class="luogo">📍 {comune}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>
+    {luogoDettaglio && <p class="luogo-dettaglio">{luogoDettaglio}</p>}
+  </div>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
 
   {/* Le immagini degli eventi sono spesso locandine verticali: si mostrano intere, senza ritaglio */}
@@ -59,10 +63,17 @@ const lastModified = getLastModified(entry.filePath);
     color: var(--color-muted);
     margin-top: -0.5rem;
   }
+  .dove {
+    margin: 0.25rem 0 1rem;
+  }
   .luogo {
     font-weight: 600;
     font-size: 1.05rem;
-    margin: 0.25rem 0 1rem;
+    margin: 0;
+  }
+  .luogo-dettaglio {
+    color: var(--color-muted);
+    margin: 0.15rem 0 0;
   }
   .distanza {
     font-weight: 400;
