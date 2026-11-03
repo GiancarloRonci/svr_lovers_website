@@ -4,6 +4,7 @@ description: Two afternoons of Lazio wine tasting in Subiaco, with eleven wineri
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
 luogo: "Subiaco (Rome)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Food & Wine Event
 ---

@@ -3,6 +3,7 @@ title: "\"Rime insaponate\" at the Teatro Vittorio Veneto in Colleferro"
 description: A show for all ages made of words, rhymes and play, opening the children's theatre series at the Teatro Comunale Vittorio Veneto in Colleferro.
 dataInizio: 2026-11-28
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Rome)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Theatrical Performance
 ---

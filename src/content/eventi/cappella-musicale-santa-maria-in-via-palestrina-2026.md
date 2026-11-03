@@ -3,6 +3,7 @@ title: "La Cappella Musicale di S. Maria in Via nella Cattedrale di Palestrina"
 description: Sabato 28 novembre la Cappella Musicale di Santa Maria in Via in concerto nella Basilica Cattedrale di Palestrina.
 dataInizio: 2026-11-28
 luogo: "Basilica Cattedrale di Sant'Agapito, Palestrina (Roma)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Concerto
 ---

@@ -3,6 +3,7 @@ title: "\"Sogno\" al Teatro Vittorio Veneto di Colleferro"
 description: Danza e musica dal vivo in una riscrittura rock del "Sogno d'una notte di mezza estate" di Shakespeare, con la regia e la coreografia di Loredana Parrella.
 dataInizio: 2026-12-12
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Roma)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Spettacolo Teatrale
 ---

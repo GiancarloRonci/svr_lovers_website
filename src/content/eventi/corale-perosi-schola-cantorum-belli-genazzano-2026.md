@@ -3,6 +3,7 @@ title: "Corale Lorenzo Perosi e Schola Cantorum A. Belli al Castello Colonna di 
 description: Sabato 21 novembre concerto corale al Castello Colonna di Genazzano, promosso dalla Fondazione Giovanni Pierluigi da Palestrina.
 dataInizio: 2026-11-21
 luogo: "Castello Colonna, Genazzano (Roma)"
+comune: "Genazzano"
 minutiAuto: 10
 tipologiaEvento: Concerto
 ---

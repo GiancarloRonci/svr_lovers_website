@@ -3,6 +3,7 @@ title: "Sapori Sancesaresi, Lane e tradizioni"
 description: A lunch hosted by the Pro Loco of San Cesareo in Piazzale La Villetta, with lane pasta with salt cod, polenta pizzas and the flavours of local tradition.
 dataInizio: 2026-11-08
 luogo: "Piazzale La Villetta, San Cesareo (Rome)"
+comune: "San Cesareo"
 minutiAuto: 35
 tipologiaEvento: Food & Wine Festival
 ---

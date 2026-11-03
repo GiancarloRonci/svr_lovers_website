@@ -3,6 +3,7 @@ title: "Escursione a Rocca La Prugna da Cervara di Roma"
 description: Un'escursione guidata nel Parco dei Monti Simbruini fino ai resti di La Prugna, antica roccaforte distrutta nel Seicento, passando per l'osservatorio di Prataglia e l'area faunistica del cervo.
 dataInizio: 2026-11-15
 luogo: "Cervara di Roma (Roma)"
+comune: "Cervara di Roma"
 minutiAuto: 45
 tipologiaEvento: Escursione
 ---

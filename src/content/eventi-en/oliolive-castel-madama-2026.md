@@ -4,6 +4,7 @@ description: The 20th edition of Castel Madama's festival of extra virgin olive 
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
 luogo: "Historic centre of Castel Madama (Rome)"
+comune: "Castel Madama"
 minutiAuto: 25
 tipologiaEvento: Food & Wine Festival
 ---

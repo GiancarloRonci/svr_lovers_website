@@ -3,6 +3,7 @@ title: "Women's basketball: Iobus Jungle Team vs GD Barrili"
 description: The home debut in the Serie C league of Iobus Jungle Team, the women's basketball team from Palestrina, against GD Barrili.
 dataInizio: 2026-11-07
 luogo: "PalaFlacco sports hall, Via di Valle Zampea, Palestrina (Rome)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Sports Event
 ---

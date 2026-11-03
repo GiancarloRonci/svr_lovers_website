@@ -3,6 +3,7 @@ title: "Caffè Corretto: si apre la stagione culturale con Vincenza Alfano"
 description: Domenica 8 novembre al teatro di Cave l'associazione Caffè Corretto inaugura la nuova stagione con la scrittrice Vincenza Alfano e il suo romanzo "La guerriera dei libri".
 dataInizio: 2026-11-08
 luogo: "Teatro di Cave, Cave (Roma)"
+comune: "Cave"
 minutiAuto: 15
 tipologiaEvento: Evento Culturale
 ---

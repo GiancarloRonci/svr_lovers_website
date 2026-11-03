@@ -196,6 +196,7 @@ const articoli = (await getCollection('articoli'))
                 title={e.data.title}
                 description={e.data.description}
                 meta={formatEventDate(e.data.dataInizio, e.data.dataFine, 'it-IT')}
+                luogo={e.data.comune}
                 distanza={formatDriveTime(e.data.minutiAuto, 'it')}
                 image={e.data.immagine}
               />

@@ -3,6 +3,7 @@ title: "Concerto di Santa Cecilia in memoria del M° G. Pignatelli a Colleferro"
 description: Sabato 28 novembre il concerto di Santa Cecilia dell'Ensemble Butterfly nella chiesa di Santa Barbara a Colleferro.
 dataInizio: 2026-11-28
 luogo: "Chiesa di Santa Barbara, Piazza Leopoldo Parodi Delfino, Colleferro (Roma)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Concerto
 ---

@@ -3,6 +3,7 @@ title: "\"Romeo e Giulietta – L'amore è saltimbanco\" al Teatro Vittorio Vene
 description: Stivalaccio Teatro rilegge Shakespeare in chiave comica, tra saltimbanchi, duelli e canti, nel primo spettacolo in abbonamento della stagione di Colleferro.
 dataInizio: 2026-11-29
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Roma)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Spettacolo Teatrale
 ---

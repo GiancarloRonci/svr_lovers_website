@@ -3,6 +3,7 @@ title: "Basket femminile: Iobus Jungle Team - GD Barrili"
 description: Esordio casalingo nel campionato di Serie C della Iobus Jungle Team, la squadra di basket femminile di Palestrina, contro il GD Barrili.
 dataInizio: 2026-11-07
 luogo: "Palasport PalaFlacco, Via di Valle Zampea, Palestrina (Roma)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Evento Sportivo
 ---

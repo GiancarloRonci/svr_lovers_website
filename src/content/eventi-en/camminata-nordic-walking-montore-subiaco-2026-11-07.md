@@ -3,6 +3,7 @@ title: "Walking and Nordic Walking in Montore"
 description: An afternoon of free-paced walking and Nordic Walking with a guide from the Monti Simbruini Park, through the countryside around Subiaco.
 dataInizio: 2026-11-07
 luogo: "Cappella della Madonna, Contrada Montore, Subiaco (Rome)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Hike
 ---

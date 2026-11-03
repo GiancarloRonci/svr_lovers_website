@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 - Albano Calcio a 5"
 description: Partita casalinga della Sanvitese Calcio a 5 contro Albano Calcio a 5, 15ª giornata della Serie C1 di calcio a 5.
 dataInizio: 2026-12-19
 luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
+comune: "San Vito Romano"
 tipologiaEvento: Evento Sportivo
 ---
 

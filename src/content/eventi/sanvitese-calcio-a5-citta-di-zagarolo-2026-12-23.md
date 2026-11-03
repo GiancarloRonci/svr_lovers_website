@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 - Città di Zagarolo"
 description: Partita casalinga della Sanvitese Calcio a 5 contro Città di Zagarolo, 1ª giornata di ritorno della Serie C1 di calcio a 5.
 dataInizio: 2026-12-23
 luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
+comune: "San Vito Romano"
 tipologiaEvento: Evento Sportivo
 ---
 

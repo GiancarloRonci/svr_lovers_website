@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 vs Albano Calcio a 5"
 description: Home match of Sanvitese Calcio a 5 against Albano Calcio a 5, matchday 15 of the Serie C1 futsal league.
 dataInizio: 2026-12-19
 luogo: "Campetto di Calcio a 5, San Vito Romano (Rome)"
+comune: "San Vito Romano"
 tipologiaEvento: Sports Event
 ---
 

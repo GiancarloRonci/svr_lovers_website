@@ -4,6 +4,7 @@ description: Due giorni a Rocca Canterano con le role, le caldarroste del paese,
 dataInizio: 2026-11-07
 dataFine: 2026-11-08
 luogo: "Centro storico di Rocca Canterano (Roma)"
+comune: "Rocca Canterano"
 minutiAuto: 25
 tipologiaEvento: Sagra Enogastronomica
 ---

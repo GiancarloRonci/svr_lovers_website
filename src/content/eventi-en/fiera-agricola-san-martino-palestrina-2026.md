@@ -3,6 +3,7 @@ title: "Saint Martin's Farm Fair in Palestrina"
 description: A Sunday devoted to farming in the historic centre of Palestrina, with exhibits, tastings, demonstrations and set menus.
 dataInizio: 2026-11-08
 luogo: "Historic centre of Palestrina (Rome)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Civic Event
 ---

@@ -3,6 +3,7 @@ title: "\"Una questione delicata\" at the Teatro Cinema Italia in Genazzano"
 description: The comedy "Una questione delicata - Madre certa, padre meno" in the 2026/27 theatre season of the Teatro Cinema Italia in Genazzano.
 dataInizio: 2026-11-15
 luogo: "Teatro Cinema Italia, Genazzano (Rome)"
+comune: "Genazzano"
 minutiAuto: 10
 tipologiaEvento: Theatrical Performance
 ---

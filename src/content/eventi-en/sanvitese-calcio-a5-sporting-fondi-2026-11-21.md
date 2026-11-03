@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 vs Sporting Fondi"
 description: Home match of Sanvitese Calcio a 5 against Sporting Fondi, matchday 11 of the Serie C1 futsal league.
 dataInizio: 2026-11-21
 luogo: "Campetto di Calcio a 5, San Vito Romano (Rome)"
+comune: "San Vito Romano"
 tipologiaEvento: Sports Event
 ---
 

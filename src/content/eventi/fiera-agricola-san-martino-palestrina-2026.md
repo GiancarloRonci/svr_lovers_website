@@ -3,6 +3,7 @@ title: "Fiera Agricola di San Martino a Palestrina"
 description: Una domenica dedicata al mondo agricolo nel centro storico di Palestrina, con esposizioni, degustazioni, dimostrazioni e menù convenzionati.
 dataInizio: 2026-11-08
 luogo: "Centro storico di Palestrina (Roma)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Evento Cittadino
 ---

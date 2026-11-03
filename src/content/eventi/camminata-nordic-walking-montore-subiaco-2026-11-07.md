@@ -3,6 +3,7 @@ title: "Camminata e Nordic Walking a Montore"
 description: Un pomeriggio di cammino libero e Nordic Walking con una guida del Parco dei Monti Simbruini, tra le contrade di Subiaco.
 dataInizio: 2026-11-07
 luogo: "Cappella della Madonna, Contrada Montore, Subiaco (Roma)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Escursione
 ---

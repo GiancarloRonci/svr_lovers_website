@@ -4,6 +4,7 @@ description: Due pomeriggi di degustazione dei vini del Lazio a Subiaco, con und
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
 luogo: "Subiaco (Roma)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Evento Enogastronomico
 ---

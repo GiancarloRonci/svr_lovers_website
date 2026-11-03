@@ -3,6 +3,7 @@ title: "Sapori Sancesaresi, Lane e tradizioni"
 description: Pranzo della Pro Loco di San Cesareo in Piazzale La Villetta con le lane al baccalà, le pizze di polenta e i sapori della tradizione locale.
 dataInizio: 2026-11-08
 luogo: "Piazzale La Villetta, San Cesareo (Roma)"
+comune: "San Cesareo"
 minutiAuto: 35
 tipologiaEvento: Sagra Enogastronomica
 ---

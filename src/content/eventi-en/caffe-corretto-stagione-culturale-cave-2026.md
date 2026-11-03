@@ -3,6 +3,7 @@ title: "Caffè Corretto: the cultural season opens with Vincenza Alfano"
 description: On Sunday 8 November, at the theatre in Cave, the Caffè Corretto association opens its new season with the writer Vincenza Alfano and her novel "La guerriera dei libri".
 dataInizio: 2026-11-08
 luogo: "Theatre of Cave, Cave (Rome)"
+comune: "Cave"
 minutiAuto: 15
 tipologiaEvento: Cultural Event
 ---

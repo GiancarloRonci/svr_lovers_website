@@ -3,6 +3,7 @@ title: "\"Francis, a friar not yet a Saint\" at the Teatro Narzio in Subiaco"
 description: Choral music, piano and theatrical readings devoted to Saint Francis at the Teatro Narzio in Subiaco.
 dataInizio: 2026-11-06
 luogo: "Teatro Narzio, Subiaco (Rome)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Cultural Event
 ---

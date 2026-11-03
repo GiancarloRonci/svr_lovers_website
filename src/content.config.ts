@@ -150,6 +150,8 @@ const eventiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     dataInizio: z.coerce.date(),
     dataFine: z.coerce.date().optional(),
     luogo: z.string().optional(),
+    // Comune in cui si tiene l'evento, mostrato nelle card della home
+    comune: z.string(),
     minutiAuto: z.number().int().positive().optional(),
     tipologiaEvento: z.string().optional(),
     immagine: image().optional(),

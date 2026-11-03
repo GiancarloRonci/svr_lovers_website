@@ -4,6 +4,7 @@ description: La 20ª edizione della festa dell'olio extravergine e delle olive d
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
 luogo: "Centro storico di Castel Madama (Roma)"
+comune: "Castel Madama"
 minutiAuto: 25
 tipologiaEvento: Sagra Enogastronomica
 ---

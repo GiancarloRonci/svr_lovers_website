@@ -4,6 +4,7 @@ description: Two days in Rocca Canterano with role, the town's roasted chestnuts
 dataInizio: 2026-11-07
 dataFine: 2026-11-08
 luogo: "Historic center of Rocca Canterano (Rome)"
+comune: "Rocca Canterano"
 minutiAuto: 25
 tipologiaEvento: Food & Wine Festival
 ---

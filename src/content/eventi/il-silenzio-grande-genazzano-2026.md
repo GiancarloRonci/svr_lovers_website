@@ -3,6 +3,7 @@ title: "\"Il silenzio grande\" al Teatro Cinema Italia di Genazzano"
 description: La Compagnia Teatrale TrePerCaso porta in scena "Il silenzio grande" di Maurizio de Giovanni nella stagione teatrale 2026/27 del Teatro Cinema Italia di Genazzano.
 dataInizio: 2026-12-06
 luogo: "Teatro Cinema Italia, Genazzano (Roma)"
+comune: "Genazzano"
 minutiAuto: 10
 tipologiaEvento: Spettacolo Teatrale
 ---

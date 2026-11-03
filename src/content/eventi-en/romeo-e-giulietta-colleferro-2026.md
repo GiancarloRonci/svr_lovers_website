@@ -3,6 +3,7 @@ title: "\"Romeo e Giulietta – L'amore è saltimbanco\" at the Teatro Vittorio 
 description: Stivalaccio Teatro gives Shakespeare a comic reading, with street performers, duels and songs, in the first subscription show of the Colleferro season.
 dataInizio: 2026-11-29
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Rome)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Theatrical Performance
 ---

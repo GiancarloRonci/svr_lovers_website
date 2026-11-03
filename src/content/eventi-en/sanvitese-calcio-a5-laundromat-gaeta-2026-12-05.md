@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 vs Laundromat Gaeta Futsal"
 description: Home match of Sanvitese Calcio a 5 against Laundromat Gaeta Futsal, matchday 13 of the Serie C1 futsal league.
 dataInizio: 2026-12-05
 luogo: "Campetto di Calcio a 5, San Vito Romano (Rome)"
+comune: "San Vito Romano"
 tipologiaEvento: Sports Event
 ---
 

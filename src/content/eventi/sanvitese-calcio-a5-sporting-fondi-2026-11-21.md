@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 - Sporting Fondi"
 description: Partita casalinga della Sanvitese Calcio a 5 contro Sporting Fondi, 11ª giornata della Serie C1 di calcio a 5.
 dataInizio: 2026-11-21
 luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
+comune: "San Vito Romano"
 tipologiaEvento: Evento Sportivo
 ---
 

@@ -3,6 +3,7 @@ title: "\"Colonna Sonora\" al Teatro Caesar di San Vito Romano"
 description: Un concerto-spettacolo di musica inedita che racconta la storia e i protagonisti della famiglia Colonna, dal Medioevo all'età moderna.
 dataInizio: 2026-11-15
 luogo: "Teatro Caesar, Via Remigio De Paolis 14, San Vito Romano (Roma)"
+comune: "San Vito Romano"
 tipologiaEvento: Concerto
 ---
 

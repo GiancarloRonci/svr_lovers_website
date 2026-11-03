@@ -3,6 +3,7 @@ title: "\"Aldo Fabrizi\" al Teatro Cinema Italia di Genazzano"
 description: Lo spettacolo dedicato ad Aldo Fabrizi con Fabrizio Gaetani nella stagione teatrale 2026/27 del Teatro Cinema Italia di Genazzano.
 dataInizio: 2026-11-29
 luogo: "Teatro Cinema Italia, Genazzano (Roma)"
+comune: "Genazzano"
 minutiAuto: 10
 tipologiaEvento: Spettacolo Teatrale
 ---

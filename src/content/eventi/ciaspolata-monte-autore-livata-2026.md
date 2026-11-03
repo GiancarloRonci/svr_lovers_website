@@ -4,6 +4,7 @@ description: Due sabati di dicembre per salire con le ciaspole sulla vetta del M
 dataInizio: 2026-12-19
 dataFine: 2026-12-26
 luogo: "Parcheggio Monna dell'Orso, Monte Livata, Subiaco (Roma)"
+comune: "Subiaco"
 minutiAuto: 60
 tipologiaEvento: Escursione
 ---

@@ -3,6 +3,7 @@ title: "\"Rime insaponate\" al Teatro Vittorio Veneto di Colleferro"
 description: Uno spettacolo per tutti fatto di parole, rime e gioco, che apre la rassegna Teatro Ragazzi del Teatro Comunale Vittorio Veneto di Colleferro.
 dataInizio: 2026-11-28
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Roma)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Spettacolo Teatrale
 ---

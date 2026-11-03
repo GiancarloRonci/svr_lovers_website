@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 - Frosinone Tecchiena Futsal"
 description: Partita casalinga della Sanvitese Calcio a 5 contro Frosinone Tecchiena Futsal, 9ª giornata della Serie C1 di calcio a 5.
 dataInizio: 2026-11-07
 luogo: "Campetto di Calcio a 5, San Vito Romano (Roma)"
+comune: "San Vito Romano"
 tipologiaEvento: Evento Sportivo
 ---
 

@@ -3,6 +3,7 @@ title: "Hike to Rocca La Prugna from Cervara di Roma"
 description: A guided hike in the Monti Simbruini Park to the remains of La Prugna, an old stronghold destroyed in the 17th century, by way of the Prataglia observatory and the deer wildlife area.
 dataInizio: 2026-11-15
 luogo: "Cervara di Roma (Rome)"
+comune: "Cervara di Roma"
 minutiAuto: 45
 tipologiaEvento: Hike
 ---

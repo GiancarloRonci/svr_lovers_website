@@ -3,6 +3,7 @@ title: "Sanvitese Calcio a 5 vs Città di Zagarolo"
 description: Home match of Sanvitese Calcio a 5 against Città di Zagarolo, first matchday of the second half of the Serie C1 futsal league.
 dataInizio: 2026-12-23
 luogo: "Campetto di Calcio a 5, San Vito Romano (Rome)"
+comune: "San Vito Romano"
 tipologiaEvento: Sports Event
 ---
 

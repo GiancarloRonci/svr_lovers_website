@@ -3,6 +3,7 @@ title: "\"Colonna Sonora\" at the Teatro Caesar in San Vito Romano"
 description: A concert-show of original music telling the story and the leading figures of the Colonna family, from the Middle Ages to the modern era.
 dataInizio: 2026-11-15
 luogo: "Teatro Caesar, Via Remigio De Paolis 14, San Vito Romano (Rome)"
+comune: "San Vito Romano"
 tipologiaEvento: Concert
 ---
 

@@ -4,6 +4,7 @@ description: On 21 and 22 November the 16th edition of "Dipinti&Vini d'Autore" a
 dataInizio: 2026-11-21
 dataFine: 2026-11-22
 luogo: "Casa natale del Pierluigi, Palestrina (Rome)"
+comune: "Palestrina"
 minutiAuto: 25
 tipologiaEvento: Cultural Event
 ---

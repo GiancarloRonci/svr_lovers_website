@@ -3,6 +3,7 @@ title: "\"Sogno\" at the Teatro Vittorio Veneto in Colleferro"
 description: Dance and live music in a rock rewriting of Shakespeare's "A Midsummer Night's Dream", directed and choreographed by Loredana Parrella.
 dataInizio: 2026-12-12
 luogo: "Teatro Comunale Vittorio Veneto, Colleferro (Rome)"
+comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Theatrical Performance
 ---

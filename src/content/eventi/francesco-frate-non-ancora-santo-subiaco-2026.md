@@ -3,6 +3,7 @@ title: "\"Francesco, un frate non ancora Santo\" al Teatro Narzio di Subiaco"
 description: Musica corale, pianoforte e letture teatrali dedicate a San Francesco al Teatro Narzio di Subiaco.
 dataInizio: 2026-11-06
 luogo: "Teatro Narzio, Subiaco (Roma)"
+comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Evento Culturale
 ---

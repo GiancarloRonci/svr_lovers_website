@@ -3,6 +3,7 @@ title: "\"Il Referendum di Natale\" al Teatro Cinema Italia di Genazzano"
 description: La commedia natalizia "Il Referendum di Natale" con Marco Bandiera e Carmine Paraggio nella stagione teatrale 2026/27 del Teatro Cinema Italia di Genazzano.
 dataInizio: 2026-12-20
 luogo: "Teatro Cinema Italia, Genazzano (Roma)"
+comune: "Genazzano"
 minutiAuto: 10
 tipologiaEvento: Spettacolo Teatrale
 ---
