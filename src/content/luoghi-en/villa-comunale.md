@@ -23,6 +23,8 @@ galleria:
     didascalia: "The semicircular stone terraces, in the shade of the trees."
 ---
 
+> **Notice: Villa Comunale closed for works.** Since 3 November 2026 the whole park has been a building site and, under mayoral ordinance no. 43/2026, it cannot be entered. The works are expected to end on 10 December 2026, unless extended. [Read the news](/en/news/villa-comunale-chiusa-lavori-2026/).
+
 The Villa Comunale is one of the places that best represents the soul of our town: a true green, social heart, always a meeting point, a place to stroll and to share time together for generations of San Vito residents.
 
 There's no shortage of greenery here. And it's not just the Villa Comunale: right in the town centre there is also the well-known Macchiarella, a small wood that makes San Vito even more special.

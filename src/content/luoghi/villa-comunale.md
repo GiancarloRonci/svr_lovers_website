@@ -23,6 +23,8 @@ galleria:
     didascalia: "Le gradinate in pietra a semicerchio, all'ombra degli alberi."
 ---
 
+> **Avviso: Villa Comunale chiusa per lavori.** Dal 3 novembre 2026 tutto il parco è un cantiere e, per l'ordinanza sindacale n. 43/2026, non si può entrare. La fine dei lavori è prevista per il 10 dicembre 2026, salvo proroghe. [Leggi la news](/news/villa-comunale-chiusa-lavori-2026/).
+
 La Villa Comunale è uno dei luoghi che rappresentano meglio l'anima del nostro paese: un vero e proprio cuore verde e sociale, da sempre punto d'incontro, di passeggio e di condivisione per tante generazioni di sanvitesi.
 
 Il verde qui non manca davvero. E non parliamo soltanto della Villa Comunale: proprio nel centro del paese si trova anche la famosa Macchiarella, un piccolo bosco che rende San Vito ancora più particolare.
