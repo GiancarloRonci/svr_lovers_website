@@ -56,6 +56,10 @@ foto:
     lng: 12.984664
     immagine: ./percorso-a-san-biagio/foto9.jpg
     didascalia: "La chiesa che si affaccia su Piazza San Biagio, cuore del percorso. Eccoci arrivati !!!!!"
+  - lat: 41.883021
+    lng: 12.984712
+    immagine: ./percorso-a-san-biagio/foto30.jpg
+    didascalia: "Un tratto di Via San Biagio: la scalinata di sampietrini scende tra muri e cancelli verso una piccola corte: in fondo una casa con un'edicola votiva sopra il portone incorniciato di pietra, accanto un pergolato di vite e vasi fioriti."
   - lat: 41.883245
     lng: 12.984707
     immagine: ./percorso-a-san-biagio/foto10.jpg

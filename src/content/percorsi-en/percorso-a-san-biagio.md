@@ -56,6 +56,10 @@ foto:
     lng: 12.984664
     immagine: ./percorso-a-san-biagio/foto9.jpg
     didascalia: "The church overlooking Piazza San Biagio, the heart of the trail. Here we are!!!!"
+  - lat: 41.883021
+    lng: 12.984712
+    immagine: ./percorso-a-san-biagio/foto30.jpg
+    didascalia: "A stretch of Via San Biagio: the cobblestone stairway runs down between walls and gates to a small courtyard: at the bottom, a house with a votive shrine above its stone-framed doorway, and beside it a vine pergola and flowering pots."
   - lat: 41.883245
     lng: 12.984707
     immagine: ./percorso-a-san-biagio/foto10.jpg
