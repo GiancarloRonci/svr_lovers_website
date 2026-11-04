@@ -1,6 +1,6 @@
 ---
 title: "Il weekend: Festa del Cornuto e boschi dei Simbruini (6-8 novembre)"
-description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, la Fiera Agricola di San Martino a Palestrina, il pranzo delle lane a San Cesareo: cosa fare nel weekend dal 6 all'8 novembre 2026."
+description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi, la corsa Genazzano a Perdifiato e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, la Fiera Agricola di San Martino a Palestrina, il pranzo delle lane a San Cesareo: cosa fare nel weekend dal 6 all'8 novembre 2026."
 data: 2026-10-25
 categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
@@ -31,6 +31,7 @@ Per chi ha ancora voglia di sport, alle 19:00 al PalaFlacco di Palestrina c'è l
 La mattina è per chi ama camminare e correre:
 
 - alle 9:00 parte da Subiaco il [Trail sui Sentieri dei Santi](/eventi/trail-sentieri-santi-subiaco-2026), 13 km tra il Sacro Speco e Santa Scolastica, anche non competitivo; alle 9:30 c'è il percorso gratuito di 2 km per i bambini;
+- alle 10:00, a due passi da casa, parte dal Castello Colonna [Genazzano a Perdifiato](/eventi/genazzano-a-perdifiato-2026), 9,5 km di saliscendi tra il centro storico, l'acquedotto romano e il Ninfeo del Bramante, con le gare per ragazzi e una camminata non competitiva di 4,5 km (ritrovo alle 8:00, iscrizione ridotta entro le 20:00 di venerdì);
 - dalle 10:00 alle 15:00 a Monte Livata c'è il [Forest Bathing](/eventi/forest-bathing-monte-livata-2026-11-08) lungo il sentiero 672/C, un anello di meno di 6 km da fare con calma (20 euro, su prenotazione).
 
 Chi preferisce una passeggiata in paese ha, dalle 10:00, la [Fiera Agricola di San Martino](/eventi/fiera-agricola-san-martino-palestrina-2026) nel centro storico di Palestrina, con esposizioni, degustazioni e dimostrazioni.

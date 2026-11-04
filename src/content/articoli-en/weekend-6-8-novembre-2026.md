@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: the Festa del Cornuto and the Simbruini woods (6-8 November)"
-description: "The Sagra della Rola and Festa del Cornuto in Rocca Canterano, the Sanvitese at home, the trail on the Paths of the Saints and forest bathing at Monte Livata, music and readings on Saint Francis in Subiaco, the Saint Martin's Farm Fair in Palestrina, the lane pasta lunch in San Cesareo: what to do on the weekend of 6 to 8 November 2026."
+description: "The Sagra della Rola and Festa del Cornuto in Rocca Canterano, the Sanvitese at home, the trail on the Paths of the Saints, the Genazzano a Perdifiato road race and forest bathing at Monte Livata, music and readings on Saint Francis in Subiaco, the Saint Martin's Farm Fair in Palestrina, the lane pasta lunch in San Cesareo: what to do on the weekend of 6 to 8 November 2026."
 data: 2026-10-25
 categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
@@ -31,6 +31,7 @@ For those still in the mood for sport, at 7 pm at the PalaFlacco in Palestrina t
 The morning is for those who love walking and running:
 
 - at 9 am the [Trail on the Paths of the Saints](/en/eventi/trail-sentieri-santi-subiaco-2026) starts from Subiaco, 13 km between the Sacro Speco and Santa Scolastica, also non-competitive; at 9:30 am there is a free 2 km course for children;
+- at 10 am, just down the road, [Genazzano a Perdifiato](/en/eventi/genazzano-a-perdifiato-2026) starts from Castello Colonna, 9.5 km of ups and downs through the old town, past the Roman aqueduct and Bramante's Nymphaeum, with youth races and a 4.5 km non-competitive walk (meet at 8 am, reduced entry fee until 8 pm on Friday);
 - from 10 am to 3 pm at Monte Livata there is [Forest Bathing](/en/eventi/forest-bathing-monte-livata-2026-11-08) along trail 672/C, a loop of under 6 km to take slowly (20 euros, booking required).
 
 If you would rather stroll through a town, from 10 am the [Saint Martin's Farm Fair](/en/eventi/fiera-agricola-san-martino-palestrina-2026) fills the historic centre of Palestrina with exhibits, tastings and demonstrations.
