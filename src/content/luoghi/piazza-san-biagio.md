@@ -23,6 +23,9 @@ galleria:
     didascalia: "La piazza vista da un vicolo stretto, tra la roccia e i muri delle case."
   - immagine: ./piazza-san-biagio/photo10.jpg
     didascalia: "Tre porte magiche, che sanno di bei ricordi, di lavoro e di fede. Per molti anni c'era proprio una scritta sul muro che richiamava al lavoro e alla preghiera. Ricordo anche un periodo in cui praticamente venni invitato a partecipare a una tombola, lì dentro sulla sinistra, dove c'erano tutti i ragazzi nabballeri, e c'era ovviamente anche Don Marcello."
+  - immagine: ./piazza-san-biagio/photo11.jpg
+    didascalia: "L’organo e, al di sotto, la bussola d’ingresso della chiesa, in una fotografia del 2017."
+    autore: Agapito Fornari
 ---
 
 Piazza San Biagio è uno dei cuori del centro storico di San Vito Romano: uno slargo raccolto, pavimentato in sampietrini, sul quale si affaccia la chiesa parrocchiale di San Biagio Vescovo e Martire. Intorno si intrecciano i vicoli e le scalinate del paese vecchio, che fanno della piazza un punto di passaggio e di incontro.

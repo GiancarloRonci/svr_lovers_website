@@ -23,6 +23,9 @@ galleria:
     didascalia: "The square seen from a narrow lane, between the rock and the walls of the houses."
   - immagine: ./piazza-san-biagio/photo10.jpg
     didascalia: "Three magical doors, full of fond memories, of work and of faith. For many years there was actually an inscription on the wall calling people to work and prayer. I also remember a time when I was more or less invited to join a game of tombola (Italian bingo), in there on the left, where all the \"nabballeri\" boys were, and of course Don Marcello was there too."
+  - immagine: ./piazza-san-biagio/photo11.jpg
+    didascalia: "The organ and, below it, the church's entrance vestibule, in a photograph from 2017."
+    autore: Agapito Fornari
 ---
 
 Piazza San Biagio is one of the hearts of San Vito Romano's old town: a small, cobbled square overlooked by the parish church of San Biagio Vescovo e Martire. All around it wind the alleys and stairways of the old village, making the square a place both to pass through and to meet.
