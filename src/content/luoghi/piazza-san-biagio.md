@@ -25,19 +25,29 @@ galleria:
     didascalia: "Tre porte magiche, che sanno di bei ricordi, di lavoro e di fede. Per molti anni c'era proprio una scritta sul muro che richiamava al lavoro e alla preghiera. Ricordo anche un periodo in cui praticamente venni invitato a partecipare a una tombola, lì dentro sulla sinistra, dove c'erano tutti i ragazzi nabballeri, e c'era ovviamente anche Don Marcello."
 ---
 
-Piazza San Biagio è uno dei cuori del centro storico di San Vito Romano: uno slargo raccolto, pavimentato in sampietrini, su cui si affaccia la chiesa parrocchiale di San Biagio Vescovo e Martire, posta al centro del reticolo di vicoli e scalinate che formano l'abitato medievale del paese. La data di costruzione della chiesa è incerta: la tradizione la vuole sorta su un preesistente oratorio del XII secolo. L'edificio attuale è il risultato della ricostruzione promossa dalla famiglia Theodoli tra il 1607 e il 1609, su progetto dell'architetto Giovanni Theodoli. La piazza fu riqualificata nel 1646 e la chiesa venne consacrata definitivamente il 13 ottobre 1777.
+Piazza San Biagio è uno dei cuori del centro storico di San Vito Romano: uno slargo raccolto, pavimentato in sampietrini, sul quale si affaccia la chiesa parrocchiale di San Biagio Vescovo e Martire. Intorno si intrecciano i vicoli e le scalinate del paese vecchio, che fanno della piazza un punto di passaggio e di incontro.
 
-L'interno, in stile barocco, custodisce sull'altare maggiore un affresco dei primi del Seicento (forse del 1609), opera di un autore ignoto di ambito romano tardomanierista, che raffigura San Biagio mentre salva un bambino dalla lisca di pesce che gli si era conficcata in gola, insieme a una donna. È il miracolo da cui nasce il culto del santo come protettore della gola: ogni anno, il 3 febbraio, si rinnova la tradizione della benedizione della gola.
+Di giorno è un angolo tranquillo da attraversare passeggiando nel borgo; di sera, con la luce dei lampioni sulle facciate, diventa uno degli scorci più suggestivi di San Vito Romano. Durante le feste, le bandierine colorate ne accompagnano l’atmosfera e richiamano il legame tra questo spazio e la vita della comunità.
 
-Nell'Ottocento furono aggiunte ai lati del presbiterio le due cappelle del Rosario e di San Giuseppe, rispettivamente nel 1831 e nel 1847. I primi restauri, all'inizio del Novecento, alterarono pesantemente la qualità originaria degli affreschi: della decorazione pittorica di un tempo restano, nelle cappelle laterali, alcuni affreschi di autore ignoto con varie figure di santi, integrati e ritoccati da Antonelli intorno al 1928. Tra il 1927 e il 1929 l'interno fu arricchito anche con altari in marmo e una nuova pavimentazione. Merita attenzione il fonte battesimale del Seicento, formato da una vasca in porfido sormontata da un tabernacolo apribile in legno di noce dipinto e dorato.
+## La chiesa: dalle origini agli interventi del Novecento
 
-Di giorno la piazza è un punto di passaggio tranquillo tra i vicoli del paese vecchio; di sera, con l'illuminazione dei lampioni sulle facciate in pietra, diventa uno degli scorci più suggestivi di San Vito Romano, soprattutto durante le feste, quando si riempie di bandierine colorate.
+La data di costruzione della chiesa è incerta: la tradizione la vuole sorta su un preesistente oratorio del XII secolo. L’edificio attuale è il risultato della ricostruzione promossa dalla famiglia Theodoli tra il 1607 e il 1609, su progetto dell’architetto Giovanni Theodoli. La piazza fu riqualificata nel 1646, mentre la chiesa venne consacrata il 13 ottobre 1777.
+
+L’interno, in stile barocco, custodisce sull’altare maggiore un affresco dei primi del Seicento, forse del 1609, attribuito a un autore ignoto di ambito romano tardomanierista. L’opera raffigura San Biagio mentre salva un bambino da una lisca di pesce che gli si era conficcata in gola; nella scena compare anche una figura femminile. A questo episodio è legata la devozione al santo come protettore della gola: ogni anno, il 3 febbraio, si rinnova la tradizione della benedizione della gola.
+
+Nell’Ottocento furono aggiunte ai lati del presbiterio le due cappelle del Rosario e di San Giuseppe, rispettivamente nel 1831 e nel 1847.
+
+I restauri dell’inizio del Novecento modificarono sensibilmente l’aspetto originario degli affreschi. Nelle cappelle laterali si conservano alcune pitture di autore ignoto raffiguranti santi, integrate e ritoccate da Antonelli intorno al 1928. Tra il 1927 e il 1929 l’interno fu arricchito anche con altari in marmo e una nuova pavimentazione.
+
+Merita attenzione il fonte battesimale del Seicento, formato da una vasca in porfido sormontata da un tabernacolo apribile in legno di noce dipinto e dorato.
+
+Tra le diverse fasi della storia della chiesa, il Settecento offre uno spaccato particolarmente ricco del rapporto tra l’edificio e la comunità: le visite pastorali raccontano problemi quotidiani, lavori e nuovi arredi, conservando anche il ricordo di chi contribuì alla sua cura.
 
 ## Il risveglio di un gioiello barocco: la chiesa nel Settecento
 
 *Note di Agapito Fornari.*
 
-All’inizio del Settecento, la chiesa di San Biagio conservava la struttura e le dimensioni del secolo precedente, ma aveva bisogno di interventi di manutenzione. I documenti delle visite pastorali restituiscono l’immagine di un edificio che, nel corso del secolo, sarebbe stato oggetto di lavori, riparazioni e nuovi arredi.
+All’inizio del Settecento, la chiesa di San Biagio conservava la struttura e le dimensioni del secolo precedente, ma aveva bisogno di interventi di manutenzione. I documenti delle visite pastorali restituiscono l’immagine di un edificio che, nel corso del secolo, sarebbe stato oggetto di riparazioni, miglioramenti e nuove opere.
 
 ### La visita del 1703: luce, manutenzione e vita quotidiana
 
@@ -51,7 +61,7 @@ Altri interventi riguardavano gli spazi e le immagini sacre. Per il fonte battes
 
 Una delle questioni più urgenti riguardava il campanile. Nel 1703 risultava ancora inattuata una disposizione risalente a circa quarant’anni prima, mentre le infiltrazioni di pioggia continuavano a danneggiare la struttura.
 
-Agli amministratori della comunità, che rivendicava il merito di aver eretto quel «bel tempio di elegante struttura», venne imposto di completare i lavori entro un anno, pena il divieto di ingresso in chiesa. Qualora non si fosse provveduto, l’arciprete avrebbe dovuto cercare il sostegno dei fedeli e del marchese Girolamo Theodoli.
+Agli amministratori della comunità, che rivendicava il merito di aver eretto quel «bel tempio di elegante struttura», venne imposto di completare i lavori entro un anno. Qualora non si fosse provveduto, l’arciprete avrebbe dovuto cercare il sostegno dei fedeli e del marchese Girolamo Theodoli.
 
 Il nuovo campanile fu ultimato nel 1715. Alla sua realizzazione contribuì il marchese Theodoli, autore del progetto e sostenitore economico dell’opera, insieme ad altri benefattori e alle rendite delle confraternite locali. La torre ospitava tre campane, due delle quali fuse rispettivamente nel 1702 e nel 1711.
 
@@ -63,16 +73,18 @@ La cura dell’edificio proseguì nei decenni successivi. Nel 1754 furono prescr
 
 ### La consacrazione del 1777
 
-Una tappa importante nella storia della chiesa fu la sua solenne consacrazione, celebrata da monsignor Pietro Ruggeri, vescovo di Ruvo, in onore della Madre di Dio e di San Biagio, vescovo e martire, compatrono del paese.
+Una tappa importante nella storia della chiesa fu la solenne consacrazione, celebrata il 13 ottobre 1777 da monsignor Pietro Ruggeri, vescovo di Ruvo, in onore della Madre di Dio e di San Biagio, vescovo e martire, compatrono del paese.
 
-La scheda ufficiale della Diocesi di Tivoli e di Palestrina riporta la data del **13 ottobre 1777**. Si adotta qui questa indicazione, segnalando la differenza rispetto al 12 ottobre riportato nel testo di partenza.
+Dalle richieste di manutenzione del 1703 ai nuovi arredi e alla consacrazione, le vicende settecentesche raccontano un impegno condiviso: amministratori, confraternite, benefattori e artigiani contribuirono, con ruoli diversi, alla cura di un luogo centrale nella vita religiosa del paese.
 
-Dalle richieste di manutenzione del 1703 ai nuovi arredi e alla consacrazione, le vicende settecentesche raccontano il rapporto tra la chiesa e la sua comunità: un luogo di culto la cui cura coinvolgeva amministratori, confraternite, benefattori e artigiani.
+Ancora oggi, affacciandosi su Piazza San Biagio, la chiesa conserva il legame con il borgo che le è cresciuto intorno. Conoscerne la storia permette di guardare con maggiore attenzione anche i suoi particolari: una campana, un dipinto o un arredo possono custodire la traccia del lavoro e della devozione di intere generazioni.
 
-### Fonti e ricerca documentaria
+## Fonti e ricerca documentaria
 
 Le notizie sulle vicende settecentesche della chiesa sono tratte dalla *Relazione Storica* allegata al progetto di restauro del 2017.
 
 La relazione è stata coordinata e firmata dall’architetto progettista Antonella Cefaro e dall’ingegnera Alessandra Spelta. All’individuazione dei contenuti storici e delle fonti d’archivio ha contribuito la dottoressa Cinzia Di Fazio, all’epoca direttrice dell’Archivio Diocesano, in collaborazione con l’archivista Piero Scatizzi, che ha svolto il lavoro di ricerca sul campo.
 
 Per la qualifica di monsignor Pietro Ruggeri e per la data della consacrazione si è fatto riferimento anche alla scheda della chiesa pubblicata sul sito ufficiale della Diocesi di Tivoli e di Palestrina.
+
+*Nota sulla data: nel testo di partenza delle note settecentesche è indicato il 12 ottobre 1777; in questo articolo si segue la data del 13 ottobre 1777 riportata nella scheda diocesana.*
