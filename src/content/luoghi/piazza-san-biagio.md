@@ -26,6 +26,26 @@ galleria:
   - immagine: ./piazza-san-biagio/photo11.jpg
     didascalia: "L’organo e, al di sotto, la bussola d’ingresso della chiesa, in una fotografia del 2017."
     autore: Agapito Fornari
+  - immagine: ./piazza-san-biagio/photo12.jpg
+    didascalia: "L’interno barocco della chiesa di San Biagio, con la volta a cassettoni, i lampadari di cristallo e l’affresco del santo sull’altare maggiore."
+    autore: "Nicolò Fiorenza"
+    licenza: "pubblico dominio"
+  - immagine: ./piazza-san-biagio/photo13.jpg
+    didascalia: "L’altare maggiore con l’affresco di San Biagio che salva il bambino, e davanti il pavimento a mosaico in marmi colorati."
+    autore: "Comune di San Vito Romano"
+    licenza: "CC BY-SA 3.0"
+  - immagine: ./piazza-san-biagio/photo14.jpg
+    didascalia: "Il campanile della chiesa di San Biagio che spunta sopra i tetti del centro storico, con il quadrante dell’orologio sotto la cella campanaria."
+    autore: "Pere Garcia"
+    licenza: "CC0"
+  - immagine: ./piazza-san-biagio/photo15.jpg
+    didascalia: "Il quadrante dell’orologio del campanile, segnato in numeri romani: un orologio a sei ore, secondo l’antico uso italiano di contare le ore."
+    autore: "Pere Garcia"
+    licenza: "CC0"
+  - immagine: ./piazza-san-biagio/photo16.jpg
+    didascalia: "La consolle dell’antico organo, con la tastiera, i pomelli dei registri e la pedaliera in legno."
+    autore: "Momimariani1962"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Piazza San Biagio è uno dei cuori del centro storico di San Vito Romano: uno slargo raccolto, pavimentato in sampietrini, sul quale si affaccia la chiesa parrocchiale di San Biagio Vescovo e Martire. Intorno si intrecciano i vicoli e le scalinate del paese vecchio, che fanno della piazza un punto di passaggio e di incontro.

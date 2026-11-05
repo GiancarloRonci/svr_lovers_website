@@ -26,6 +26,26 @@ galleria:
   - immagine: ./piazza-san-biagio/photo11.jpg
     didascalia: "The organ and, below it, the church's entrance vestibule, in a photograph from 2017."
     autore: Agapito Fornari
+  - immagine: ./piazza-san-biagio/photo12.jpg
+    didascalia: "The Baroque interior of the Church of San Biagio, with the coffered vault, the crystal chandeliers and the fresco of the saint above the high altar."
+    autore: "Nicolò Fiorenza"
+    licenza: "public domain"
+  - immagine: ./piazza-san-biagio/photo13.jpg
+    didascalia: "The high altar with the fresco of Saint Blaise saving the child, and in front of it the mosaic floor in coloured marble."
+    autore: "Comune di San Vito Romano"
+    licenza: "CC BY-SA 3.0"
+  - immagine: ./piazza-san-biagio/photo14.jpg
+    didascalia: "The bell tower of the Church of San Biagio rising above the roofs of the historic centre, with the clock face below the belfry."
+    autore: "Pere Garcia"
+    licenza: "CC0"
+  - immagine: ./piazza-san-biagio/photo15.jpg
+    didascalia: "The clock face on the bell tower, marked in Roman numerals: a six-hour clock, following the old Italian way of counting the hours."
+    autore: "Pere Garcia"
+    licenza: "CC0"
+  - immagine: ./piazza-san-biagio/photo16.jpg
+    didascalia: "The console of the old organ, with the keyboard, the stop knobs and the wooden pedalboard."
+    autore: "Momimariani1962"
+    licenza: "CC BY-SA 4.0"
 ---
 
 Piazza San Biagio is one of the hearts of San Vito Romano's old town: a small, cobbled square overlooked by the parish church of San Biagio Vescovo e Martire. All around it wind the alleys and stairways of the old village, making the square a place both to pass through and to meet.
