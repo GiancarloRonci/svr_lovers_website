@@ -13,6 +13,8 @@ Sabato 14 e domenica 15 novembre 2026 Castel Madama festeggia l'olio nuovo con l
 
 Nei due giorni si possono assaggiare e comprare gli oli del territorio negli stand e nei mercatini, e scoprire i piatti della cucina tradizionale. Sono previsti anche incontri sulla cultura dell'olio e sul legame tra il paese e la sua campagna. L'ingresso è gratuito.
 
-Orari e programma dettagliato non sono ancora stati pubblicati: per gli aggiornamenti conviene seguire la pagina Facebook di OliOlive e quella del Comune di Castel Madama.
+Le serate sono dedicate alla musica: sabato 14 c'è la festa "2000 in Spinta", con le hit dagli anni Duemila a oggi, e domenica 15 alle 18:00, in Via Sant'Anna 5, il concerto di Luca Dirisio.
 
-*Fonte: [Canale Dieci – OliOlive 2026, a Castel Madama la festa dell'olio nuovo e tradizioni del territorio](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/)*
+Gli orari degli stand e il programma completo non sono ancora stati pubblicati: per gli aggiornamenti conviene seguire la pagina Facebook di OliOlive e quella del Comune di Castel Madama.
+
+*Fonte: [Canale Dieci – OliOlive 2026, a Castel Madama la festa dell'olio nuovo e tradizioni del territorio](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/) e [pagina Facebook di OliOlive 2026](https://www.facebook.com/profile.php?id=61566301680998)*

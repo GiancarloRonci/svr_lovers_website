@@ -1,6 +1,6 @@
 ---
 title: "The Weekend: the Festa del Cornuto and the Simbruini woods (6-8 November)"
-description: "The Sagra della Rola and Festa del Cornuto in Rocca Canterano, the Sanvitese at home, the trail on the Paths of the Saints, the Genazzano a Perdifiato road race and forest bathing at Monte Livata, music and readings on Saint Francis in Subiaco, the Saint Martin's Farm Fair in Palestrina, the lane pasta lunch in San Cesareo: what to do on the weekend of 6 to 8 November 2026."
+description: "The Sagra della Rola and Festa del Cornuto in Rocca Canterano, the Sanvitese at home, the trail on the Paths of the Saints, the Genazzano a Perdifiato road race and forest bathing at Monte Livata, music and readings on Saint Francis in Subiaco, the Saint Martin's Farm Fair in Palestrina, the lane pasta lunch in San Cesareo and the new olive oil in Roiate: what to do on the weekend of 6 to 8 November 2026."
 data: 2026-10-25
 categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
@@ -16,7 +16,9 @@ From Friday afternoon to Sunday, anyone wanting a three-day break can join [Movi
 
 ## Saturday: the Sanvitese and the role
 
-This week's tip is to stay in town for [Sanvitese vs Frosinone Tecchiena](/en/eventi/sanvitese-calcio-a5-frosinone-tecchiena-2026-11-07), the home match of the 9th round of Serie C1: the kick-off time hasn't been announced yet, so keep an eye on the team's Facebook page.
+This week's tip is to stay in town for [Sanvitese vs Frosinone Tecchiena](/en/eventi/sanvitese-calcio-a5-frosinone-tecchiena-2026-11-07), the home match of the 9th round of Serie C1, with kick-off at 4 pm.
+
+In the morning, at 10 am, anyone curious about technology can drop in at the Biblioteca Fantoniana in Palestrina for [SpazioAI](/en/eventi/spazioai-intelligenza-artificiale-palestrina-2026-11-07), a meeting open to all on what artificial intelligence is and how it is changing work and school (free entry).
 
 From midday in Rocca Canterano the [Sagra della Rola and Festa del Cornuto](/en/eventi/sagra-rola-festa-cornuto-rocca-canterano-2026) opens: roast chestnuts, new wine, cecamariti pasta and beans with pork rind, with stands open until 10 pm and the burlesque parade at 6:30 pm.
 
@@ -36,7 +38,7 @@ The morning is for those who love walking and running:
 
 If you would rather stroll through a town, from 10 am the [Saint Martin's Farm Fair](/en/eventi/fiera-agricola-san-martino-palestrina-2026) fills the historic centre of Palestrina with exhibits, tastings and demonstrations.
 
-For lunch you are spoilt for choice. In Rocca Canterano the festival carries on: stands open from 12 noon to 5 pm and the parade at 4:30 pm. In San Cesareo, from 12:30 pm in Piazzale La Villetta, the Pro Loco hosts ["Sapori Sancesaresi, Lane e tradizioni"](/en/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), with lane pasta with salt cod and polenta pizzas: tickets are sold in advance.
+For lunch you are spoilt for choice. In Rocca Canterano the festival carries on: stands open from 12 noon to 5 pm and the parade at 4:30 pm. In San Cesareo, from 12:30 pm in Piazzale La Villetta, the Pro Loco hosts ["Sapori Sancesaresi, Lane e tradizioni"](/en/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), with lane pasta with salt cod and polenta pizzas: tickets are sold in advance. Closer to home, in Roiate, the stand of the [New Olive Oil Festival](/en/eventi/festa-olio-nuovo-roiate-2026) opens at 12:30 pm: bruschette with freshly pressed oil, gnocchi with white ragù and hunter-style lamb, with a full menu for 15 euros.
 
 The afternoon is for book lovers, with two meetings at 5:30 pm. In Cave the Caffè Corretto association [opens its cultural season](/en/eventi/caffe-corretto-stagione-culturale-cave-2026) at the Teatro Comunale "Milco Paravani", with the writer Vincenza Alfano and her novel "La guerriera dei libri". In Palestrina, at the Biblioteca Fantoniana, [Progetto Segnalibro](/en/eventi/progetto-segnalibro-la-guardiana-palestrina-2026) starts again with Caterina Battilocchio and her debut novel "La guardiana" (free entry).
 

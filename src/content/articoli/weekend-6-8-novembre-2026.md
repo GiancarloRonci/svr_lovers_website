@@ -1,6 +1,6 @@
 ---
 title: "Il weekend: Festa del Cornuto e boschi dei Simbruini (6-8 novembre)"
-description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi, la corsa Genazzano a Perdifiato e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, la Fiera Agricola di San Martino a Palestrina, il pranzo delle lane a San Cesareo: cosa fare nel weekend dal 6 all'8 novembre 2026."
+description: "La Sagra della Rola e Festa del Cornuto a Rocca Canterano, la Sanvitese in casa, il trail sui Sentieri dei Santi, la corsa Genazzano a Perdifiato e il forest bathing a Monte Livata, musica e letture su San Francesco a Subiaco, la Fiera Agricola di San Martino a Palestrina, il pranzo delle lane a San Cesareo e l'olio nuovo a Roiate: cosa fare nel weekend dal 6 all'8 novembre 2026."
 data: 2026-10-25
 categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
@@ -16,7 +16,9 @@ Da venerdì pomeriggio a domenica, chi vuole staccare per tre giorni ha [Movimen
 
 ## Sabato: la Sanvitese e le role
 
-Il consiglio della settimana è restare in paese per [Sanvitese - Frosinone Tecchiena](/eventi/sanvitese-calcio-a5-frosinone-tecchiena-2026-11-07), la partita in casa della 9ª giornata di Serie C1: l'orario non è ancora uscito, conviene seguire la pagina Facebook della squadra.
+Il consiglio della settimana è restare in paese per [Sanvitese - Frosinone Tecchiena](/eventi/sanvitese-calcio-a5-frosinone-tecchiena-2026-11-07), la partita in casa della 9ª giornata di Serie C1, con calcio d'inizio alle 16:00.
+
+In mattinata, alle 10:00, chi è curioso di tecnologia può passare alla Biblioteca Fantoniana di Palestrina per [SpazioAI](/eventi/spazioai-intelligenza-artificiale-palestrina-2026-11-07), un incontro aperto a tutti per capire cos'è l'intelligenza artificiale e come cambia lavoro e scuola (ingresso libero).
 
 Da mezzogiorno a Rocca Canterano apre la [Sagra della Rola e Festa del Cornuto](/eventi/sagra-rola-festa-cornuto-rocca-canterano-2026): caldarroste, vino novello, cecamariti e fagioli con le cotiche, con gli stand aperti fino alle 22:00 e il corteo burlesco alle 18:30.
 
@@ -36,7 +38,7 @@ La mattina è per chi ama camminare e correre:
 
 Chi preferisce una passeggiata in paese ha, dalle 10:00, la [Fiera Agricola di San Martino](/eventi/fiera-agricola-san-martino-palestrina-2026) nel centro storico di Palestrina, con esposizioni, degustazioni e dimostrazioni.
 
-A pranzo c'è l'imbarazzo della scelta. A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30. A San Cesareo, dalle 12:30 in Piazzale La Villetta, la Pro Loco organizza ["Sapori Sancesaresi, Lane e tradizioni"](/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), con le lane al baccalà e le pizze di polenta: i biglietti si comprano in prevendita.
+A pranzo c'è l'imbarazzo della scelta. A Rocca Canterano la festa continua: stand aperti dalle 12:00 alle 17:00 e corteo alle 16:30. A San Cesareo, dalle 12:30 in Piazzale La Villetta, la Pro Loco organizza ["Sapori Sancesaresi, Lane e tradizioni"](/eventi/sapori-sancesaresi-lane-tradizioni-san-cesareo-2026), con le lane al baccalà e le pizze di polenta: i biglietti si comprano in prevendita. Più vicino a casa, a Roiate, dalle 12:30 apre lo stand della [Festa dell'Olio Nuovo](/eventi/festa-olio-nuovo-roiate-2026): bruschette con l'olio appena franto, gnocchi al ragù bianco e abbacchio alla cacciatora, con il menu completo a 15 euro.
 
 Il pomeriggio è per chi ama i libri, con due incontri alle 17:30. A Cave l'associazione Caffè Corretto [apre la sua stagione culturale](/eventi/caffe-corretto-stagione-culturale-cave-2026) al Teatro Comunale "Milco Paravani", con la scrittrice Vincenza Alfano e il romanzo "La guerriera dei libri". A Palestrina, alla Biblioteca Fantoniana, il [Progetto Segnalibro](/eventi/progetto-segnalibro-la-guardiana-palestrina-2026) riparte con Caterina Battilocchio e il suo romanzo d'esordio "La guardiana" (ingresso libero).
 

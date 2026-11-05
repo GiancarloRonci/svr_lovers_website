@@ -13,6 +13,8 @@ On Saturday 14 and Sunday 15 November 2026 Castel Madama celebrates the new oil 
 
 Over the two days visitors can taste and buy local oils at the stands and market stalls, and discover the dishes of traditional cooking. There are also talks on olive oil culture and on the bond between the town and its countryside. Entry is free.
 
-Opening times and the detailed programme have not been published yet: for updates, follow the OliOlive Facebook page and that of the Comune di Castel Madama.
+The evenings are for music: on Saturday 14 there is the "2000 in Spinta" party, with hits from the 2000s to today, and on Sunday 15 at 6 pm, in Via Sant'Anna 5, a concert by Luca Dirisio.
 
-*Source: [Canale Dieci – OliOlive 2026, a Castel Madama la festa dell'olio nuovo e tradizioni del territorio](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/)*
+The stands' opening times and the full programme have not been published yet: for updates, follow the OliOlive Facebook page and that of the Comune di Castel Madama.
+
+*Source: [Canale Dieci – OliOlive 2026, a Castel Madama la festa dell'olio nuovo e tradizioni del territorio](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/) and [OliOlive 2026 Facebook page](https://www.facebook.com/profile.php?id=61566301680998)*
