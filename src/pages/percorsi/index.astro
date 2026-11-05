@@ -22,6 +22,7 @@ const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
           title={p.data.title}
           description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
           image={p.data.immagine}
+          imagePosition={p.data.copertinaPosizione}
         />
       ))
     }
@@ -36,6 +37,7 @@ const naturalistici = percorsi.filter((p) => p.data.tipo === 'naturalistico');
           title={p.data.title}
           description={`${p.data.difficolta} · ${p.data.lunghezzaKm} km · ${p.data.durata}`}
           image={p.data.immagine}
+          imagePosition={p.data.copertinaPosizione}
         />
       ))
     }

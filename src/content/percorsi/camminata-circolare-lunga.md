@@ -9,6 +9,7 @@ durata: "1h 5min"
 dislivello: "80 m"
 gpx: /gpx/camminata-circolare-lunga.gpx
 immagine: ./camminata-circolare-lunga/copertina.jpg
+copertinaPosizione: left
 partenza:
   lat: 41.882612
   lng: 12.982955

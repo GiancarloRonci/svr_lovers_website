@@ -179,6 +179,7 @@ const articoli = (await getCollection('articoli'))
                 description={p.data.description}
                 tag={p.data.tipo}
                 image={p.data.immagine}
+                imagePosition={p.data.copertinaPosizione}
               />
             ))
           }

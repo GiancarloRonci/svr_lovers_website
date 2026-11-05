@@ -19,6 +19,8 @@ const percorsiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     durata: z.string(),
     dislivello: z.string().optional(),
     immagine: image().optional(),
+    // Parte della copertina da tenere nel ritaglio 4:3 delle schede (valori di sharp: "left", "right", "top", "bottom", "left top"...); senza, il centro
+    copertinaPosizione: z.string().optional(),
     immagineAutore: z.string().optional(),
     immagineLicenza: z.string().optional(),
     galleria: z
