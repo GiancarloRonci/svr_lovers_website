@@ -200,8 +200,10 @@ foto:
     immagine: foto46.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto29.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto48.jpg
+  - immagine: ./san-vito-top-100/tramonto-arco-tetti.jpg
+    lat: 41.882993
+    lng: 12.984200
+    didascalia: "Sunset seen from beneath a stone arch in the old village: beyond the rooftops and houses, the hills and mountains stand out against a pink and orange sky."
   - percorso: percorso-b-olevano
     immagine: foto49.jpg
   - percorso: via-dellarringo-vicolo-baciadonne

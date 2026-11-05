@@ -200,8 +200,10 @@ foto:
     immagine: foto46.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto29.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto48.jpg
+  - immagine: ./san-vito-top-100/tramonto-arco-tetti.jpg
+    lat: 41.882993
+    lng: 12.984200
+    didascalia: "Il tramonto visto da sotto un arco di pietra del borgo: oltre i tetti e le case, le colline e le montagne si stagliano contro un cielo rosa e arancio."
   - percorso: percorso-b-olevano
     immagine: foto49.jpg
   - percorso: via-dellarringo-vicolo-baciadonne
