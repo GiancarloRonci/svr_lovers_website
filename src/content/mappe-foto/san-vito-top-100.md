@@ -204,6 +204,7 @@ foto:
     lat: 41.882993
     lng: 12.984200
     didascalia: "Il tramonto visto da sotto un arco di pietra del borgo: oltre i tetti e le case, le colline e le montagne si stagliano contro un cielo rosa e arancio."
+    autore: "Valerio Bruno 21mo Secolo"
   - percorso: percorso-b-olevano
     immagine: foto49.jpg
   - percorso: via-dellarringo-vicolo-baciadonne

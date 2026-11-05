@@ -204,6 +204,7 @@ foto:
     lat: 41.882993
     lng: 12.984200
     didascalia: "Sunset seen from beneath a stone arch in the old village: beyond the rooftops and houses, the hills and mountains stand out against a pink and orange sky."
+    autore: "Valerio Bruno 21mo Secolo"
   - percorso: percorso-b-olevano
     immagine: foto49.jpg
   - percorso: via-dellarringo-vicolo-baciadonne
