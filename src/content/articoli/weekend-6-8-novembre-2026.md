@@ -6,7 +6,7 @@ categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
 ---
 
-Passato il ponte di Ognissanti, il primo weekend di novembre è più tranquillo ma non vuoto: a Rocca Canterano arrivano le role e la Festa del Cornuto, a San Vito torna a giocare la Sanvitese, e sui Simbruini i boschi sono nel pieno dei colori d'autunno.
+Passato il ponte di Ognissanti, il primo weekend di novembre è più tranquillo ma non vuoto: a Rocca Canterano arrivano le role e la Festa del Cornuto, a San Vito torna a giocare la Sanvitese, e sui Simbruini i boschi sono nel pieno dei colori d'autunno. Per venerdì la Protezione Civile del Lazio ha diramato un'allerta gialla per pioggia, con rovesci sparsi: chi va a Subiaco la sera porti l'ombrello.
 
 ## Venerdì: San Francesco a Subiaco
 

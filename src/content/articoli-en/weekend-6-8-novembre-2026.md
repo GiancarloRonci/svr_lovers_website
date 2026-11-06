@@ -6,7 +6,7 @@ categoria: weekend
 immagine: ./weekend-6-8-novembre-2026/copertina.png
 ---
 
-After the All Saints' long weekend, the first weekend of November is quieter but far from empty: the role (roast chestnuts) and the Festa del Cornuto arrive in Rocca Canterano, the Sanvitese plays at home again in San Vito, and the Simbruini woods are at the height of their autumn colours.
+After the All Saints' long weekend, the first weekend of November is quieter but far from empty: the role (roast chestnuts) and the Festa del Cornuto arrive in Rocca Canterano, the Sanvitese plays at home again in San Vito, and the Simbruini woods are at the height of their autumn colours. For Friday the Lazio Civil Protection has issued a yellow alert for rain, with scattered showers: if you are heading to Subiaco in the evening, bring an umbrella.
 
 ## Friday: Saint Francis in Subiaco
 
