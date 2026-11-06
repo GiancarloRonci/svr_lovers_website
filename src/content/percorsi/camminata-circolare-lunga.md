@@ -35,6 +35,10 @@ foto:
     lng: 12.982368
     immagine: ./camminata-circolare-lunga/foto5.jpg
     didascalia: "La stradina con la staccionata in legno sotto un grande pino: sullo sfondo, in pieno sole, le alte mura e le case del centro storico con il campanile."
+  - lat: 41.882585
+    lng: 12.981375
+    immagine: ./camminata-circolare-lunga/foto11.jpg
+    didascalia: "Via del Canale: una rampa di sampietrini scende tra il muro in pietra e la ringhiera verso la strada più in basso: le case affacciate sulla valle, le colline coperte di boschi autunnali e i monti sotto il cielo azzurro."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg

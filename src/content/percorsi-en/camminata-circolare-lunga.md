@@ -35,6 +35,10 @@ foto:
     lng: 12.982368
     immagine: ./camminata-circolare-lunga/foto5.jpg
     didascalia: "The lane with its wooden fence beneath a tall pine: in the background, in full sun, the high walls and houses of the historic centre with the bell tower."
+  - lat: 41.882585
+    lng: 12.981375
+    immagine: ./camminata-circolare-lunga/foto11.jpg
+    didascalia: "Via del Canale: a cobbled ramp runs down between the stone wall and the railing towards the road below: houses overlooking the valley, hills covered in autumn woods and the mountains under a blue sky."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg
