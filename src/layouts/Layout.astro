@@ -952,6 +952,13 @@ const privacyHref = withBase(`${prefix}privacy/`);
         object-fit: cover;
       }
 
+      /* Senza height: auto l'attributo height="360" della miniatura vince sull'aspect-ratio:
+         nelle colonne strette la scheda diventa più alta che larga e la copertina 4:3
+         viene ritagliata una seconda volta (es. il titolo nelle copertine dei percorsi) */
+      .card-grid .card img {
+        height: auto;
+      }
+
       .card-body { padding: 1rem; }
 
       .card-body h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
