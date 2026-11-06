@@ -146,8 +146,8 @@ foto:
     immagine: foto20.jpg
   - percorso: percorso-b-olevano
     immagine: foto21.jpg
-  - percorso: percorso-b-olevano
-    immagine: foto22.jpg
+  - percorso: camminata-circolare-lunga
+    immagine: foto11.jpg
   - percorso: percorso-b-olevano
     immagine: foto23.jpg
   - percorso: percorso-b-olevano

@@ -17,6 +17,10 @@ foto:
     lng: 12.983263
     immagine: ./camminata-circolare/foto3.jpg
     didascalia: "Via Borgo Mario Theodoli di sera: i sampietrini illuminati dai lampioni, le facciate dei palazzi e gli alberi sul lato della strada."
+  - lat: 41.882585
+    lng: 12.981375
+    immagine: ./camminata-circolare/foto4.jpg
+    didascalia: "Via del Canale: una rampa di sampietrini scende tra il muro in pietra e la ringhiera verso la strada più in basso: le case affacciate sulla valle, le colline coperte di boschi autunnali e i monti sotto il cielo azzurro."
   - lat: 41.88238
     lng: 12.9816
     immagine: ./camminata-circolare/foto1.jpg

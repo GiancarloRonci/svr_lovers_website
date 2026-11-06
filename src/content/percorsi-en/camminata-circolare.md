@@ -17,6 +17,10 @@ foto:
     lng: 12.983263
     immagine: ./camminata-circolare/foto3.jpg
     didascalia: "Via Borgo Mario Theodoli in the evening: the cobblestones lit by the street lamps, the building fronts and the trees along the side of the street."
+  - lat: 41.882585
+    lng: 12.981375
+    immagine: ./camminata-circolare/foto4.jpg
+    didascalia: "Via del Canale: a cobbled ramp runs down between the stone wall and the railing towards the road below: houses overlooking the valley, hills covered in autumn woods and the mountains under a blue sky."
   - lat: 41.88238
     lng: 12.9816
     immagine: ./camminata-circolare/foto1.jpg
