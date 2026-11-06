@@ -92,6 +92,10 @@ foto:
     lng: 12.984069
     immagine: ./percorso-a-san-biagio/foto16.jpg
     didascalia: "Siamo quasi tornati al livello di via delle Logge"
+  - lat: 41.883503
+    lng: 12.984026
+    immagine: ./percorso-a-san-biagio/foto31.jpg
+    didascalia: "Una fontanella in ghisa con il mascherone all'angolo di Via delle Logge: il vicolo di sampietrini prosegue tra case in pietra, un lampione in ferro battuto e un albero carico di bacche rosse."
   - lat: 41.883427
     lng: 12.983932
     immagine: ./percorso-a-san-biagio/foto26.jpg

@@ -55,7 +55,7 @@ foto:
     lng: 12.9836
     didascalia: "Il castello di notte, illuminato dai lampioni sotto un cielo di nuvole rischiarate dalla luna."
   - percorso: percorso-a-san-biagio
-    immagine: foto2.jpg
+    immagine: foto31.jpg
   - percorso: lattaceca
     immagine: foto7.jpg
   - percorso: percorso-a-san-biagio

@@ -55,7 +55,7 @@ foto:
     lng: 12.9836
     didascalia: "The castle at night, lit by the street lamps under a sky of clouds brightened by the moon."
   - percorso: percorso-a-san-biagio
-    immagine: foto2.jpg
+    immagine: foto31.jpg
   - percorso: lattaceca
     immagine: foto7.jpg
   - percorso: percorso-a-san-biagio

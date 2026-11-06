@@ -55,6 +55,10 @@ foto:
     lng: 12.983975
     immagine: ./lattaceca/foto12.jpg
     didascalia: "Uno stretto vicolo tra le case: i gradini di pietra chiara e sampietrini salgono verso il lampione, accanto a un grande masso che affiora tra i muri."
+  - lat: 41.883503
+    lng: 12.984026
+    immagine: ./lattaceca/foto14.jpg
+    didascalia: "Una fontanella in ghisa con il mascherone all'angolo di Via delle Logge: il vicolo di sampietrini prosegue tra case in pietra, un lampione in ferro battuto e un albero carico di bacche rosse."
   - lat: 41.883513
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg

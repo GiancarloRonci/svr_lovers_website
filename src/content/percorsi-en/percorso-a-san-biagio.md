@@ -92,6 +92,10 @@ foto:
     lng: 12.984069
     immagine: ./percorso-a-san-biagio/foto16.jpg
     didascalia: "We're almost back at the level of Via delle Logge"
+  - lat: 41.883503
+    lng: 12.984026
+    immagine: ./percorso-a-san-biagio/foto31.jpg
+    didascalia: "A cast-iron drinking fountain with a carved mask at the corner of Via delle Logge: the cobbled lane continues between stone houses, a wrought-iron street lamp and a tree laden with red berries."
   - lat: 41.883427
     lng: 12.983932
     immagine: ./percorso-a-san-biagio/foto26.jpg

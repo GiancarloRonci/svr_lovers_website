@@ -55,6 +55,10 @@ foto:
     lng: 12.983975
     immagine: ./lattaceca/foto12.jpg
     didascalia: "A narrow alley between the houses: steps of pale stone and cobbles climb towards the street lamp, beside a large boulder jutting out between the walls."
+  - lat: 41.883503
+    lng: 12.984026
+    immagine: ./lattaceca/foto14.jpg
+    didascalia: "A cast-iron drinking fountain with a carved mask at the corner of Via delle Logge: the cobbled lane continues between stone houses, a wrought-iron street lamp and a tree laden with red berries."
   - lat: 41.883513
     lng: 12.984069
     immagine: ./lattaceca/foto3.jpg
