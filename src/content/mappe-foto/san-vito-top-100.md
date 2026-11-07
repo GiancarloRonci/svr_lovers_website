@@ -102,8 +102,10 @@ foto:
     immagine: foto19.jpg
   - percorso: percorso-a-san-biagio
     immagine: foto20.jpg
-  - percorso: percorso-a-san-biagio
-    immagine: foto22.jpg
+  - immagine: ./san-vito-top-100/albero-giallo-autunno-tavoli.jpg
+    lat: 41.881408
+    lng: 12.978814
+    didascalia: "Un albero dalle foglie gialle d'autunno sopra i tavoli in legno, con un edificio rosa sullo sfondo."
   - percorso: percorso-a-san-biagio
     immagine: foto23.jpg
   - percorso: percorso-b-olevano
