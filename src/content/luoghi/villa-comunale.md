@@ -21,6 +21,8 @@ galleria:
     didascalia: "Un edificio rosa all'ingresso del parco, sullo slargo in pietra tra i pini."
   - immagine: ./villa-comunale/photo8.jpg
     didascalia: "Le gradinate in pietra a semicerchio, all'ombra degli alberi."
+  - immagine: ./villa-comunale/photo9.jpg
+    didascalia: "Un albero dalle foglie gialle d'autunno sopra i tavoli in legno del parco, con un edificio rosa sullo sfondo."
 ---
 
 > **Avviso: Villa Comunale chiusa per lavori.** Dal 3 novembre 2026 tutto il parco è un cantiere e, per l'ordinanza sindacale n. 43/2026, non si può entrare. La fine dei lavori è prevista per il 10 dicembre 2026, salvo proroghe. [Leggi la news](/news/villa-comunale-chiusa-lavori-2026/).

@@ -21,6 +21,8 @@ galleria:
     didascalia: "A pink building at the entrance to the park, on the stone-paved open space among the pines."
   - immagine: ./villa-comunale/photo8.jpg
     didascalia: "The semicircular stone terraces, in the shade of the trees."
+  - immagine: ./villa-comunale/photo9.jpg
+    didascalia: "A tree with yellow autumn leaves above the park's wooden tables, with a pink building in the background."
 ---
 
 > **Notice: Villa Comunale closed for works.** Since 3 November 2026 the whole park has been a building site and, under mayoral ordinance no. 43/2026, it cannot be entered. The works are expected to end on 10 December 2026, unless extended. [Read the news](/en/news/villa-comunale-chiusa-lavori-2026/).
