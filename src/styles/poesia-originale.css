@@ -93,3 +93,8 @@
   padding-bottom: 2.8cqw;
   line-height: 1.83;
 }
+
+/* "I Stracciarolo": margine destro un po' più stretto, così la riga più lunga resta nel foglio */
+.poesia-originale.i-stracciarolo .foglio {
+  padding-right: 3cqw;
+}
