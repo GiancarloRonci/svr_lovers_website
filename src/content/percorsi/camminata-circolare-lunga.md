@@ -39,6 +39,11 @@ foto:
     lng: 12.981375
     immagine: ./camminata-circolare-lunga/foto11.jpg
     didascalia: "Via del Canale: una rampa di sampietrini scende tra il muro in pietra e la ringhiera verso la strada più in basso: le case affacciate sulla valle, le colline coperte di boschi autunnali e i monti sotto il cielo azzurro."
+  - lat: 41.886875
+    lng: 12.974336
+    immagine: ./camminata-circolare-lunga/foto12.jpg
+    autore: Michela Nanni
+    didascalia: "Il belvedere lungo Viale Giovanni XXIII in autunno: tra un acero giallo e una quercia rossa, oltre la ringhiera, il centro storico di San Vito Romano con il palazzo Theodoli e i monti velati di nebbia."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg

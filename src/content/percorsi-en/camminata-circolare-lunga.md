@@ -39,6 +39,11 @@ foto:
     lng: 12.981375
     immagine: ./camminata-circolare-lunga/foto11.jpg
     didascalia: "Via del Canale: a cobbled ramp runs down between the stone wall and the railing towards the road below: houses overlooking the valley, hills covered in autumn woods and the mountains under a blue sky."
+  - lat: 41.886875
+    lng: 12.974336
+    immagine: ./camminata-circolare-lunga/foto12.jpg
+    autore: Michela Nanni
+    didascalia: "The viewpoint along Viale Giovanni XXIII in autumn: between a yellow maple and a red oak, beyond the railing, the historic centre of San Vito Romano with Palazzo Theodoli and the mountains veiled in mist."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg
