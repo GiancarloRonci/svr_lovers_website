@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+import cercasiStaff from '../../assets/culturaturismo/cercasi-staff.svg';
 import { withBase } from '../../lib/url';
 import { byInsertionDesc } from '../../lib/insertionOrder';
 
@@ -75,7 +76,8 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
                 href={withBase(`culturaturismo/${a.id}/`)}
                 title={a.data.title}
                 description={a.data.frequenza ?? a.data.description}
-                image={a.data.immagine}
+                image={a.data.immagine ?? (cat === 'concorsi-fotografici' ? undefined : cercasiStaff)}
+                invito={cat === 'concorsi-fotografici' ? undefined : "Se vuoi curare questa parte, vieni a far parte dello staff di SanVitoRomano Lovers!"}
                 nota={cat === 'concorsi-fotografici' ? undefined : 'Attività in fase di definizione: al momento non sappiamo ancora quando inizierà.'}
               />
             ))}

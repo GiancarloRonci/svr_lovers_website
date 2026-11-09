@@ -14,6 +14,8 @@ interface Props {
   luogoDettaglio?: string;
   distanza?: string;
   nota?: string;
+  // Invito in evidenza sotto la nota (es. a entrare nello staff)
+  invito?: string;
   image?: ImageMetadata;
   // Parte dell'immagine da tenere nel ritaglio 4:3 (es. "left bottom"); senza, il centro
   imagePosition?: string;
@@ -21,7 +23,7 @@ interface Props {
   dataFine?: Date;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, image, imagePosition, dataInizio, dataFine } = Astro.props;
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, invito, image, imagePosition, dataInizio, dataFine } = Astro.props;
 // Event cards expose their dates and type to the filters on the events page.
 const eventAttrs = dataInizio
   ? {
@@ -55,6 +57,7 @@ const eventAttrs = dataInizio
     {luogoDettaglio && <p class="luogo-dettaglio">{luogoDettaglio}</p>}
     {distanza && <p class="distanza">🚗 {distanza}</p>}
     {nota && <p class="nota">⏳ {nota}</p>}
+    {invito && <p class="invito">🙋 {invito}</p>}
   </div>
 </a>
 
@@ -87,6 +90,11 @@ const eventAttrs = dataInizio
     color: var(--color-muted);
     font-size: 0.9rem;
     font-style: italic;
+    margin-top: 0.4rem;
+  }
+  .invito {
+    color: var(--color-accent-dark);
+    font-weight: 600;
     margin-top: 0.4rem;
   }
 </style>
