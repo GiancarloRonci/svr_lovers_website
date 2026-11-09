@@ -3,6 +3,7 @@ title: "The Weekend: new olive oil, wine and the Colonna family in music (13-15 
 description: "OliOlive in Castel Madama with the 2000 in Spinta and Luca Dirisio concerts, Borgo diVino in Subiaco, \"Colonna Sonora\" at the Teatro Caesar in San Vito, the comedy at the Teatro Cinema Italia in Genazzano and the hike to Rocca La Prugna: what to do on the weekend of 13 to 15 November 2026."
 data: 2026-11-09
 categoria: weekend
+immagine: ./weekend-13-15-novembre-2026/copertina.png
 ---
 
 In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar.

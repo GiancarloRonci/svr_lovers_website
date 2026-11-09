@@ -3,6 +3,7 @@ title: "Il weekend: olio nuovo, vino e la storia dei Colonna in musica (13-15 no
 description: "OliOlive a Castel Madama con i concerti di 2000 in Spinta e Luca Dirisio, Borgo diVino a Subiaco, \"Colonna Sonora\" al Teatro Caesar di San Vito, la commedia al Teatro Cinema Italia di Genazzano e l'escursione a Rocca La Prugna: cosa fare nel weekend dal 13 al 15 novembre 2026."
 data: 2026-11-09
 categoria: weekend
+immagine: ./weekend-13-15-novembre-2026/copertina.png
 ---
 
 A metà novembre il calendario gira intorno all'olio nuovo e al vino: a Castel Madama c'è la ventesima edizione di OliOlive, a Subiaco fa tappa Borgo diVino. Domenica pomeriggio, però, il posto migliore è a casa nostra, al Teatro Caesar.
