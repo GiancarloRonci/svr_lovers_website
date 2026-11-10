@@ -33,6 +33,8 @@ La partecipazione implica l'accettazione del presente regolamento.
 
 Le fotografie dovranno essere realizzate nel territorio di **San Vito Romano** e avere come soggetto o riferimento il paese e il suo territorio.
 
+Le fotografie inviate **non devono riportare la firma** dell'autore né altri segni che lo rendano riconoscibile (nome, sigla, logo o watermark): durante l'eventuale fase finale, infatti, i nomi degli autori non saranno resi noti (vedi punto 7).
+
 Non saranno ammesse fotografie:
 
 - contrarie alla legge, al buon costume o alla dignità delle persone;

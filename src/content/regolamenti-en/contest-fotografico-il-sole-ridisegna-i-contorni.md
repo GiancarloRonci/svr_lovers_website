@@ -35,6 +35,8 @@ Taking part implies acceptance of these rules.
 
 The photographs must be taken within the territory of **San Vito Romano** and have the town and its territory as their subject or reference.
 
+Submitted photographs **must not bear the author's signature** or any other mark that would identify them (name, initials, logo or watermark): during the final stage, if held, the authors' names will not be disclosed (see section 7).
+
 Photographs will not be accepted if they are:
 
 - contrary to the law, to public decency or to the dignity of persons;
