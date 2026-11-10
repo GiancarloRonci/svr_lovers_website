@@ -1,4 +1,4 @@
-// Negli articoli ogni immagine da sola in un paragrafo diventa una <figure> con la didascalia,
+// Negli articoli e nei luoghi ogni immagine da sola in un paragrafo diventa una <figure> con la didascalia,
 // presa dal testo alternativo: così basta scrivere ![didascalia](./foto.jpg) nel Markdown.
 // La didascalia è nascosta agli screen reader, che leggono già lo stesso testo dall'alt.
 // È un plugin HAST di Sätteri, il processore Markdown di Astro 7 (l'equivalente di un plugin rehype).
@@ -10,9 +10,9 @@ export const didascalieImmagini = {
   element: {
     filter: ['p'],
     visit(node, ctx) {
-      // Solo le collection articoli e articoli-en
+      // Solo le collection articoli e luoghi (IT ed EN)
       const percorso = decodeURIComponent(ctx.fileURL?.pathname ?? '');
-      if (!/\/content\/articoli(-en)?\//.test(percorso)) return;
+      if (!/\/content\/(articoli|luoghi)(-en)?\//.test(percorso)) return;
 
       const contenuto = node.children.filter((n) => !isSpazio(n));
       const img = contenuto[0];

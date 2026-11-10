@@ -60,6 +60,32 @@ Il monte è meta di numerosi sentieri panoramici che partono dai paesi vicini, t
 
 Ancora oggi Guadagnolo, con la sua posizione remota e il suo skyline che domina i Prenestini, resta una meta privilegiata per escursionisti e amanti della montagna in cerca di panorami autentici, a due passi dalla capitale.
 
+## Il primo monumento a Gesù Cristo Redentore sul Monte Guadagnolo
+
+*Sulle pietre del tempo: camminando nella storia dei Monti Prenestini. Un contributo di Agapito Fornari.*
+
+Ho trovato poco tempo fa a casa di mia madre, tra i tanti libri "sepolti" dal tempo, il volume *Il monumento a Gesù Cristo Redentore sul Monte Guadagnolo - Regione Romana*. È una pubblicazione storica edita nel 1907 dalla Tipografia pontificia dell'Istituto Pio IX a Roma, a cura del Comitato centrale romano dei venti monumenti. Ingiallito, con i segni del tempo, con alcune pagine staccate, ma ancora in grado di incuriosirmi nella lettura.
+
+![La copertina del volume «Il monumento a Gesù Cristo Redentore sul Monte Guadagnolo», stampato a Roma nel 1907 dalla Tipografia pontificia dell'Istituto Pio IX.](./monte-guadagnolo/photo20.jpg)
+
+Così voglio condividere con voi alcune immagini tratte dal libro e un po' della storia (allora era cronaca) raccontata. Il libro documenta la vicenda della realizzazione del maestoso monumento eretto sul Monte Guadagnolo in occasione del Giubileo del 1900, voluto da papa Leone XIII per celebrare i venti secoli dell'era cristiana con venti monumenti dedicati a Cristo Redentore sulle vette d'Italia. Appositi comitati si crearono in tutta Italia per portare a compimento la volontà del Santo Padre.
+
+La posa della prima pietra avvenne il 30 settembre 1901, alla presenza del vescovo di Tivoli e di numerosi pellegrini. I lavori terminarono nel maggio del 1903 e il monumento fu inaugurato il 13 settembre 1903: il complesso comprendeva una cappella alla base e un alto pilastro che sosteneva una statua del Redentore, con la mano destra rivolta a benedire Roma e la sinistra a reggere la croce. La manifestazione richiamò migliaia di fedeli.
+
+![Il monumento originario in una foto del libro del 1907, che curiosamente è stampata a specchio.](./monte-guadagnolo/photo21.jpg)
+
+Il monumento originario era imponente, con un'altezza complessiva di oltre 23 metri (la sola statua del Redentore superava i 5 metri). Sopra l'architrave della cappella d'ingresso era posta una celebre iscrizione latina dedicata ai popoli del Lazio (Romani, Latini, Sabini, Equi, Ernici, Volsci).
+
+Negli anni successivi, in particolare nel 1921 e nel 1936, la struttura subì gravi danni a causa dei ripetuti fulmini, che ne causarono la progressiva rovina fino alla definitiva demolizione e alla sostituzione, negli anni '70, con l'attuale statua in bronzo.
+
+Per quest'ultima statua, a metà degli anni '70, accompagnai negli studi cinematografici De Paolis, in via Tiburtina, l'allora vescovo di Palestrina alla cerimonia di benedizione della nuova statua del Cristo Redentore, officiata dal cardinale Luigi Traglia, allora decano del Collegio cardinalizio. La nuova scultura bronzea fu realizzata dallo stimato artista e scultore tiburtino Elverio Veroli.
+
+Nel 1976 il cardinale Luigi Traglia si trovava all'apice del suo prestigio ecclesiastico come decano del Collegio cardinalizio. Originario della vicina Albano Laziale e intimamente legato al territorio suburbicario e alla provincia romana, presenziò con la sua figura autorevole all'inaugurazione e alla benedizione solenne del nuovo simbolo protettivo della campagna romana, appena un anno prima della sua morte, avvenuta alla fine del 1977.
+
+La testa superstite dell'originaria statua di pietra colpita dai fulmini non andò perduta: venne recuperata dalla popolazione locale e dovrebbe essere tuttora custodita all'interno della moderna chiesa di San Giacomo Apostolo, situata proprio nella piazzetta di arrivo a Guadagnolo.
+
+*Foto del libro: Agapito Fornari. L'attuale monumento in bronzo è nella galleria in fondo alla pagina.*
+
 ## Orari
 
 Guadagnolo è un borgo e una cima di montagna: il paese, il belvedere e i sentieri sono all'aperto e non hanno orari di visita. D'inverno, con neve o ghiaccio, conviene informarsi sulle condizioni della strada prima di salire.
