@@ -50,6 +50,12 @@ galleria:
     didascalia: "The square bustling with gazebos during a festival, with many visitors."
   - immagine: ./monte-guadagnolo/photo19.jpg
     didascalia: "A stone and timber building with balconies, on the village square."
+  - immagine: ./monte-guadagnolo/photo20.jpg
+    didascalia: "The cover of the volume \"Il monumento a Gesù Cristo Redentore sul Monte Guadagnolo\", printed in Rome in 1907 by the Pontifical Press of the Istituto Pio IX."
+    autore: "Agapito Fornari"
+  - immagine: ./monte-guadagnolo/photo21.jpg
+    didascalia: "The original monument in a photo from the 1907 book, which curiously is printed mirror-reversed."
+    autore: "Agapito Fornari"
 ---
 
 Guadagnolo, a hamlet of the municipality of Capranica Prenestina not far from San Vito Romano, sits atop the mountain of the same name at 1218 metres above sea level: it is the highest inhabited place in Lazio, perched on the tallest peak of the Prenestini Mountains. Despite having just 56 residents, this tiny mountain village offers one of the most extraordinary panoramas in the region.

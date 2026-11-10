@@ -50,6 +50,12 @@ galleria:
     didascalia: "La piazza animata dai gazebo durante una festa, con molti visitatori."
   - immagine: ./monte-guadagnolo/photo19.jpg
     didascalia: "Un edificio in pietra e legno con i balconi, sulla piazza del paese."
+  - immagine: ./monte-guadagnolo/photo20.jpg
+    didascalia: "La copertina del volume «Il monumento a Gesù Cristo Redentore sul Monte Guadagnolo», stampato a Roma nel 1907 dalla Tipografia pontificia dell'Istituto Pio IX."
+    autore: "Agapito Fornari"
+  - immagine: ./monte-guadagnolo/photo21.jpg
+    didascalia: "Il monumento originario in una foto del libro del 1907, che curiosamente è stampata a specchio."
+    autore: "Agapito Fornari"
 ---
 
 Guadagnolo, frazione del comune di Capranica Prenestina non lontano da San Vito Romano, sorge in cima all'omonimo Monte Guadagnolo a 1218 metri di altitudine: è il centro abitato più alto del Lazio, arroccato sulla vetta più elevata dei Monti Prenestini. Nonostante i soli 56 abitanti, questo minuscolo borgo di montagna offre uno dei panorami più straordinari della regione.
