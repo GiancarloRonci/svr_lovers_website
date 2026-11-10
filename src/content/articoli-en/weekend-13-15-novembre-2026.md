@@ -14,15 +14,15 @@ At the Porta del Parco in Subiaco the Simbruini Mountains Park's [Mycology Cours
 
 ## Saturday: olive oil in Castel Madama and wine in Subiaco
 
-In Castel Madama [OliOlive](/en/eventi/oliolive-castel-madama-2026) opens, the festival of extra virgin olive oil and table olives, with stands, markets and traditional dishes; entry is free. The stand opening hours have not been published yet: check the event page before you set off. In the evening, at 9:30 pm in Via Sant'Anna, there's dancing with [2000 in Spinta](/en/eventi/2000-in-spinta-castel-madama-2026), the show with the dance and pop hits of the 2000s, also free.
+In Castel Madama [OliOlive](/en/eventi/oliolive-castel-madama-2026) opens, the festival of extra virgin olive oil and table olives, with stands and children's entertainment from 10:30 am in Via Sant'Anna, the flag-wavers at 11:30 am and the Smilf Street Band at 5 pm; entry is free. In the evening, after the food stalls open at 7:30 pm, at 9:30 pm there's dancing with [2000 in Spinta](/en/eventi/2000-in-spinta-castel-madama-2026), the show with the dance and pop hits of the 2000s, also free.
 
 If you prefer wine, [Borgo diVino in Tour](/en/eventi/borgo-divino-subiaco-2026) is at the Convent of San Francesco in Subiaco: on Saturday from 6:30 to 8 pm there is a free masterclass on Lazio wines, with limited places and booking by email.
 
 ## Sunday: theatre, music and a hike
 
-The morning is for walkers: at 9 am the [hike to Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026) leaves Cervara di Roma with a Park guide, passing the Prataglia observatory and the red deer area. Book on WhatsApp by Saturday.
+The morning is for walkers: at 9 am the [hike to Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026) leaves Cervara di Roma with a Park guide, passing the Prataglia observatory and the red deer area. Book on WhatsApp by Saturday. History lovers can head to Palestrina instead, where at 11 am [Palazzo Barberini opens its private wing](/en/eventi/apertura-palazzo-barberini-palestrina-2026) for a guided tour: 15 euros, limited places and booking required.
 
-For lunch you can go back to Castel Madama for the second day of OliOlive, or head up to Subiaco, where Borgo diVino's tasting stands are open from 12 noon to 8 pm: free entry, with a 15-euro voucher for eight tastings.
+For lunch you can go back to Castel Madama for the second day of OliOlive, which also has an 883 tribute band at 4:30 pm, or head up to Subiaco, where Borgo diVino's tasting stands are open from 12 noon to 8 pm: free entry, with a 15-euro voucher for eight tastings.
 
 **This week's tip:** at 5 pm the [Teatro Caesar](/en/eventi/colonna-sonora-teatro-caesar-san-vito-2026) in San Vito stages "Colonna Sonora – La storia in musica della famiglia Colonna", 26 original songs performed live that tell the story of the Colonna family from the Middle Ages to modern times, and with it the story of our towns. Single ticket 10 euros, bookings on 380 180 5894.
 

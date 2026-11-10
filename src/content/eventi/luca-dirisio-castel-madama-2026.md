@@ -10,6 +10,6 @@ tipologiaEvento: Concerto
 
 Domenica 15 novembre 2026 alle 18:00 Luca Dirisio fa tappa a Castel Madama con il suo Tour 2026. Il cantautore abruzzese, uno dei nomi del pop italiano degli anni Duemila, è conosciuto per brani come "Calma e sangue freddo" e "Usami".
 
-Il concerto è in Via Sant'Anna 5 e chiude la seconda giornata di [OliOlive](/eventi/oliolive-castel-madama-2026), la festa dell'olio nuovo organizzata dal Comune: si può abbinare a un giro tra gli stand nel pomeriggio. La locandina non indica biglietti: per conferme e aggiornamenti conviene seguire la pagina Facebook di OliOlive 2026.
+Il concerto è in Via Sant'Anna 5 e chiude la seconda giornata di [OliOlive](/eventi/oliolive-castel-madama-2026), la festa dell'olio nuovo organizzata dal Comune, e lo presenta Claudio Testi: si può abbinare a un giro tra gli stand nel pomeriggio. La locandina non indica biglietti: per conferme e aggiornamenti conviene seguire la pagina Facebook di OliOlive 2026.
 
-*Fonte: [Locandina sulla pagina Facebook di OliOlive 2026](https://www.facebook.com/profile.php?id=61566301680998)*
+*Fonte: [Locandina sulla pagina Facebook di OliOlive 2026](https://www.facebook.com/profile.php?id=61566301680998) e [locandina del programma di OliOlive, pubblicata da Vidya It](https://www.vidyait.net/eventi/oliolive-2026-a-castel-madama/)*

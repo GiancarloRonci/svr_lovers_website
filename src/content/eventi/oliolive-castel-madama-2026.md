@@ -1,20 +1,18 @@
 ---
 title: "OliOlive 2026"
-description: La 20ª edizione della festa dell'olio extravergine e delle olive da tavola di Castel Madama, con degustazioni, mercatini e piatti della tradizione. Ingresso gratuito.
+description: La 20ª edizione della festa dell'olio extravergine e delle olive da tavola di Castel Madama, con stand, animazione per bambini, sbandieratori e musica dal vivo in Via Sant'Anna. Ingresso gratuito.
 dataInizio: 2026-11-14
 dataFine: 2026-11-15
-luogo: "Centro storico di Castel Madama (Roma)"
+luogo: "Via Sant'Anna, Castel Madama (Roma)"
 comune: "Castel Madama"
 minutiAuto: 25
 tipologiaEvento: Sagra Enogastronomica
 ---
 
-Sabato 14 e domenica 15 novembre 2026 Castel Madama festeggia l'olio nuovo con la ventesima edizione di OliOlive, la manifestazione dedicata all'olio extravergine d'oliva e alle olive da tavola, uno dei prodotti più conosciuti del paese.
+Sabato 14 e domenica 15 novembre 2026 Castel Madama festeggia l'olio nuovo con la ventesima edizione di OliOlive, la manifestazione dedicata all'olio extravergine d'oliva e alle olive da tavola, uno dei prodotti più conosciuti del paese. La festa è in Via Sant'Anna e l'ingresso è gratuito; venerdì 13 la apre un incontro con le scuole al Castello Orsini.
 
-Nei due giorni si possono assaggiare e comprare gli oli del territorio negli stand e nei mercatini, e scoprire i piatti della cucina tradizionale. Sono previsti anche incontri sulla cultura dell'olio e sul legame tra il paese e la sua campagna. L'ingresso è gratuito.
+**Sabato 14:** alle 10:30 aprono gli stand e comincia l'animazione per i più piccoli; alle 11:00, nella Sala Baronale del Castello Orsini, la firma del Patto di amicizia con il Comune di Rocca Imperiale, e alle 11:30 l'esibizione degli sbandieratori e musici di Castel Madama. Alle 17:00 suona la Street Band Smilf, alle 19:30 aprono i punti ristoro, alle 20:00 c'è il DJ set e alle 21:30 il live show di [2000 in Spinta](/eventi/2000-in-spinta-castel-madama-2026).
 
-Le serate sono dedicate alla musica: sabato 14 c'è la festa "2000 in Spinta", con le hit dagli anni Duemila a oggi, e domenica 15 alle 18:00, in Via Sant'Anna 5, il concerto di Luca Dirisio.
+**Domenica 15:** stand e animazione per bambini dalle 10:30, alle 11:00 il concerto degli Ever Rock, alle 12:00 lo spettacolo dell'ASD Play, alle 16:00 di nuovo animazione per i più piccoli e alle 16:30 il concerto della cover band degli 883 "Generazione 1000 Watt". Alle 17:45 viene presentata la maglia ufficiale per il trentennale del Palio Madama Margarita d'Austria, e alle 18:00 chiude la festa il [concerto di Luca Dirisio](/eventi/luca-dirisio-castel-madama-2026).
 
-Gli orari degli stand e il programma completo non sono ancora stati pubblicati: per gli aggiornamenti conviene seguire la pagina Facebook di OliOlive e quella del Comune di Castel Madama.
-
-*Fonte: [Canale Dieci – OliOlive 2026, a Castel Madama la festa dell'olio nuovo e tradizioni del territorio](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/) e [pagina Facebook di OliOlive 2026](https://www.facebook.com/profile.php?id=61566301680998)*
+*Fonte: [Locandina ufficiale del programma, pubblicata da Vidya It](https://www.vidyait.net/eventi/oliolive-2026-a-castel-madama/), [Canale Dieci](https://canaledieci.it/2026/10/29/oliolive-2026-a-castel-madama-la-festa-dellolio-nuovo-e-tradizioni-del-territorio/) e [pagina Facebook di OliOlive 2026](https://www.facebook.com/profile.php?id=61566301680998)*
