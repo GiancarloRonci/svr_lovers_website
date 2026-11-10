@@ -133,6 +133,8 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
       .array(z.union([image(), z.object({ immagine: image(), didascalia: z.string().optional(), ...creditoFoto })]))
       .optional(),
     coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
+    // Contributori oltre a SVR Lovers, mostrati in testa alla scheda (src/lib/contributori.ts)
+    contributori: z.array(z.string()).optional(),
   });
 
 const luoghi = defineCollection({

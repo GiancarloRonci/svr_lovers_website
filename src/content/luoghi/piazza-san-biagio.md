@@ -6,6 +6,7 @@ immagine: ./piazza-san-biagio/photo1.jpg
 coordinate:
   lat: 41.8833
   lng: 12.9847
+contributori: ["Agapito Fornari"]
 galleria:
   - immagine: ./piazza-san-biagio/photo2.jpg
     didascalia: "La facciata della chiesa di San Biagio vista dal basso, con il nastro azzurro sul portale."

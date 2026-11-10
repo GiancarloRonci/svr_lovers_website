@@ -8,6 +8,7 @@ import { withBase } from '../../../lib/url';
 import { formatDriveTime } from '../../../lib/driveTime';
 import { resolveGalleria } from '../../../lib/gallery';
 import { formatCredit } from '../../../lib/photoCredit';
+import { formatContributori } from '../../../lib/contributori';
 import { getLastModified, formatLastModified } from '../../../lib/lastModified';
 
 export async function getStaticPaths() {
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, comune, minutiAuto, immagine, immagineAutore, immagineLicenza, galleria, coordinate } = entry.data;
+const { title, description, comune, minutiAuto, immagine, immagineAutore, immagineLicenza, galleria, coordinate, contributori } = entry.data;
 const distanza = formatDriveTime(minutiAuto, 'en');
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
@@ -31,6 +32,7 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   <a data-pagefind-ignore href={withBase('en/luoghi/')}>&larr; All places</a>
   <h1>{title}</h1>
   <p class="comune">📍 {comune}{distanza && <span class="distanza"> · 🚗 {distanza}</span>}</p>
+  <p class="contributori">✍️ Contributors: {formatContributori(contributori, 'en')}</p>
   {lastModified && <p class="aggiornato">Last updated: {formatLastModified(lastModified, 'en-GB')}</p>}
   {
     immagine && (
@@ -74,6 +76,11 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 
   .comune {
     font-weight: 600;
+    color: var(--color-muted);
+    margin-top: -0.5rem;
+  }
+
+  .contributori {
     color: var(--color-muted);
     margin-top: -0.5rem;
   }

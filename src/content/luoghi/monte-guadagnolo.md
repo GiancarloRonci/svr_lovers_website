@@ -9,6 +9,7 @@ immagineLicenza: "CC BY-SA 3.0"
 coordinate:
   lat: 41.913682
   lng: 12.927746
+contributori: ["Agapito Fornari"]
 galleria:
   - immagine: ./monte-guadagnolo/photo2.jpg
     didascalia: "La vetta del Monte Guadagnolo vista dai prati sottostanti."
