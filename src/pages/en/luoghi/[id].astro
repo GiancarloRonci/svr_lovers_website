@@ -61,6 +61,11 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
 </Layout>
 
 <style>
+  /* Immagini nel testo (es. contributi con foto d'epoca): più piccole della larghezza piena */
+  article :global(figure.didascalia img) {
+    max-width: min(100%, 480px);
+  }
+
   .aggiornato {
     font-size: 0.8rem;
     color: var(--color-muted);
