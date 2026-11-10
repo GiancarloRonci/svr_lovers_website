@@ -46,6 +46,8 @@ galleria:
   - immagine: ./la-macchiarella/photo20.jpg
     didascalia: "Una passerella in legno tra i castagni, con i ricci a terra e un tavolo con panche sullo sfondo"
     autore: "Giancarlo Ronci"
+  - immagine: ./la-macchiarella/photo21.jpg
+    didascalia: "Il sentiero coperto di foglie autunnali e ricci di castagne, con una panchina in primo piano e un tavolo con panche in fondo"
 ---
 
 La Macchiarella è un parco pubblico e un castagneto secolare di proprietà comunale che si trova all'interno del centro abitato di San Vito Romano. Si estende per oltre 4 ettari ed è composta principalmente da un bosco di castagni secolari, che offrono ombra e riparo durante i mesi estivi.
