@@ -8,9 +8,11 @@ immagine: ./weekend-13-15-novembre-2026/copertina.png
 
 A metà novembre il calendario gira intorno all'olio nuovo e al vino: a Castel Madama c'è la ventesima edizione di OliOlive, a Subiaco fa tappa Borgo diVino. Domenica pomeriggio, però, il posto migliore è a casa nostra, al Teatro Caesar.
 
-## Venerdì: funghi a Subiaco
+## Venerdì: funghi a Subiaco e antiquari a Labico
 
-Alla Porta del Parco di Subiaco si chiude il [Corso di Micologia](/eventi/corso-micologia-subiaco-2026) del Parco dei Monti Simbruini, iniziato lunedì: è un corso a iscrizione, utile a chi vuole l'attestato per la raccolta dei funghi nel Lazio. Per tutti gli altri il weekend comincia sabato.
+Alla Porta del Parco di Subiaco si chiude il [Corso di Micologia](/eventi/corso-micologia-subiaco-2026) del Parco dei Monti Simbruini, iniziato lunedì: è un corso a iscrizione, utile a chi vuole l'attestato per la raccolta dei funghi nel Lazio.
+
+Chi ama la storia può andare a Labico, dove alle 17:00 a Palazzo Conti c'è il [convegno su Francesco Ficoroni](/eventi/convegno-francesco-ficoroni-labico-2026), l'antiquario del Settecento nato in paese: il suo nome è legato alla Cista Ficoroni, ritrovata tra Palestrina e Labico.
 
 ## Sabato: olio a Castel Madama e vino a Subiaco
 

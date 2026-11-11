@@ -8,9 +8,11 @@ immagine: ./weekend-13-15-novembre-2026/copertina.png
 
 In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar.
 
-## Friday: mushrooms in Subiaco
+## Friday: mushrooms in Subiaco and antiquarians in Labico
 
-At the Porta del Parco in Subiaco the Simbruini Mountains Park's [Mycology Course](/en/eventi/corso-micologia-subiaco-2026), which started on Monday, comes to an end: it requires enrolment and is useful for anyone who wants the certificate for picking mushrooms in Lazio. For everyone else, the weekend starts on Saturday.
+At the Porta del Parco in Subiaco the Simbruini Mountains Park's [Mycology Course](/en/eventi/corso-micologia-subiaco-2026), which started on Monday, comes to an end: it requires enrolment and is useful for anyone who wants the certificate for picking mushrooms in Lazio.
+
+History lovers can head to Labico, where at 5 pm Palazzo Conti hosts a [conference on Francesco Ficoroni](/en/eventi/convegno-francesco-ficoroni-labico-2026), the 18th-century antiquarian born in the town: his name is tied to the Ficoroni Cista, found between Palestrina and Labico.
 
 ## Saturday: olive oil in Castel Madama and wine in Subiaco
 
