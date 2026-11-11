@@ -280,6 +280,8 @@ const articoliSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     immagineIntera: z.boolean().optional(),
     // Limita l'altezza della copertina intera a circa tre quarti dello schermo (per le immagini verticali)
     copertinaBassa: z.boolean().optional(),
+    // Non mostra la copertina in testa all'articolo (resta per le schede e le anteprime), es. quando è già nel testo
+    nascondiCopertina: z.boolean().optional(),
     immagine: image().optional(),
     // Parte dell'immagine da tenere nel ritaglio delle schede, con i valori di sharp: "top", "bottom", "left", "right", "left top", "left bottom", "right top", "right bottom" (non "center top"); senza, il centro
     copertinaPosizione: z.string().optional(),

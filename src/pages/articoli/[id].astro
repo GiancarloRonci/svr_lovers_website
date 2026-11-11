@@ -17,7 +17,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, data, autore, categoria, immagine, immagineIntera: immagineInteraFlag, copertinaBassa, galleria } = entry.data;
+const { title, description, data, autore, categoria, immagine, immagineIntera: immagineInteraFlag, copertinaBassa, nascondiCopertina, galleria } = entry.data;
+// Con `nascondiCopertina` l'immagine resta per le schede e le anteprime ma non compare in testa all'articolo (es. quando è già nel testo)
+const copertina = nascondiCopertina ? undefined : immagine;
 // Nei "Viaggi nel tempo" e nelle "Storie in sanvitese" l'immagine è il cuore dell'articolo: si mostra intera, senza ritaglio (o quando lo chiede `immagineIntera`)
 const immagineIntera = categoria === 'viaggi-nel-tempo' || categoria === 'storie-in-sanvitese' || immagineInteraFlag === true;
 const { Content } = await render(entry);
@@ -50,8 +52,8 @@ const galleryItems = (await resolveGalleria(galleria, title)).map((item, i) => (
     {autore && <>{autore}</>}
   </p>
   {lastModified && <p class="aggiornato">Ultimo aggiornamento: {formatLastModified(lastModified, 'it-IT')}</p>}
-  {immagine && !immagineIntera && <Image class="articolo-image" src={immagine} alt={title} width={900} height={500} />}
-  {immagine && immagineIntera && <Image class:list={['articolo-image-intera', { bassa: copertinaBassa }]} src={immagine} alt={title} />}
+  {copertina && !immagineIntera && <Image class="articolo-image" src={copertina} alt={title} width={900} height={500} />}
+  {copertina && immagineIntera && <Image class:list={['articolo-image-intera', { bassa: copertinaBassa }]} src={copertina} alt={title} />}
   {
     categoria === 'weekend' && (
       <>

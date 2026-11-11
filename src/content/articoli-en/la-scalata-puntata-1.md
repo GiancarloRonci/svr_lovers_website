@@ -4,8 +4,7 @@ description: "Chapter One, The dawn before the departure: after loss and disappo
 data: 2026-11-11
 autore: Vito Rossi
 categoria: la-scalata
-immagineIntera: true
-copertinaBassa: true
+nascondiCopertina: true
 copertinaPosizione: "top"
 immagine: ./la-scalata-puntata-1/la-scalata-puntata-1.jpg
 ---
