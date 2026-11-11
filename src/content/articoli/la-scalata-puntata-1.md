@@ -30,6 +30,8 @@ Tommaso non sa ancora cosa troverà. Sa soltanto che è arrivato il momento di m
 
 ![La Scalata, Capitolo Primo in dieci vignette: il paese dorme, un uomo sveglio, il peso invisibile, le ferite, la fede e le domande, Giobbe, Chiara, Tao, la soglia, il primo passo.](./la-scalata-puntata-1/la-scalata-puntata-1-vignette.jpg)
 
+![La Scalata, Capitolo Secondo – Le Radici in dieci vignette: San Vito Romano, un paese antico, una storia di uomini, un paese che risorge, una memoria viva, una famiglia generosa, il profumo dell'autunno, l'incontro, le radici di Tommaso, ed è da quelle radici….](./la-scalata-puntata-1/la-scalata-puntata-1-radici.jpg)
+
 **Il viaggio è appena cominciato.**
 
 *Continua…*

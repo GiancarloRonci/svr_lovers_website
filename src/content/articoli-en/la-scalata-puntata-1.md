@@ -30,6 +30,8 @@ Tommaso does not yet know what he will find. He only knows that the time has com
 
 ![La Scalata, Chapter One in ten panels (Italian text): the town sleeps, a man awake, the invisible weight, the wounds, faith and questions, Job, Chiara, Tao, the threshold, the first step.](./la-scalata-puntata-1/la-scalata-puntata-1-vignette.jpg)
 
+![La Scalata, Chapter Two – The Roots in ten panels (Italian text): San Vito Romano, an ancient town, a story of men, a town that rises again, a living memory, a generous family, the scent of autumn, the meeting, Tommaso's roots, and it is from those roots….](./la-scalata-puntata-1/la-scalata-puntata-1-radici.jpg)
+
 **The journey has only just begun.**
 
 *To be continued…*
