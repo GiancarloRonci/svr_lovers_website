@@ -4,6 +4,7 @@ description: "OliOlive in Castel Madama with the 2000 in Spinta and Luca Dirisio
 data: 2026-11-09
 categoria: weekend
 immagine: ./weekend-13-15-novembre-2026/copertina.png
+copertinaPosizione: left
 ---
 
 In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar.
