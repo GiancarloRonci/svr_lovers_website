@@ -30,6 +30,19 @@ export const CATEGORIE_ARTICOLI = [
     },
   },
   {
+    id: 'la-scalata',
+    it: {
+      nome: 'La scalata - di Vito Rossi',
+      descrizione:
+        'Il romanzo di Vito Rossi a puntate, in vignette fotorealistiche: Tommaso e il suo fedele Tao in cammino verso la montagna, tra cadute, radici e nuove partenze.',
+    },
+    en: {
+      nome: 'La Scalata (The Climb) - by Vito Rossi',
+      descrizione:
+        "Vito Rossi's novel in instalments, told in photorealistic panels: Tommaso and his faithful Tao on the way to the mountain, through falls, roots and new beginnings.",
+    },
+  },
+  {
     id: 'personaggi',
     it: {
       nome: 'Personaggi',
