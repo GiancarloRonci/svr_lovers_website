@@ -10,6 +10,8 @@ copertinaPosizione: "top"
 immagine: ./la-scalata-puntata-1/la-scalata-puntata-1.jpg
 ---
 
+![La Scalata, Chapter One – The dawn before the departure (Italian text): Tommaso, with his backpack on, stands on his doorstep with his dog Tao as the sun rises over the mountains and the town.](./la-scalata-puntata-1/la-scalata-puntata-1.jpg)
+
 ## Chapter One – The dawn before the departure
 
 There are falls that seem to take everything away. And yet, sometimes, just when our certainties collapse, a new space opens up inside us.
