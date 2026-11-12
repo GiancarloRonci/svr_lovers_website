@@ -7,7 +7,7 @@ immagine: ./weekend-13-15-novembre-2026/copertina.png
 copertinaPosizione: left
 ---
 
-A metà novembre il calendario gira intorno all'olio nuovo e al vino: a Castel Madama c'è la ventesima edizione di OliOlive, a Subiaco fa tappa Borgo diVino. Domenica pomeriggio, però, il posto migliore è a casa nostra, al Teatro Caesar. L'allerta meteo diramata giovedì dalla Protezione Civile regionale, con rovesci, temporali e vento forte, arriva fino a venerdì: chi va a Labico porti l'ombrello. Nel fine settimana il tempo dovrebbe migliorare, ma con temperature in calo.
+A metà novembre il calendario gira intorno all'olio nuovo e al vino: a Castel Madama c'è la ventesima edizione di OliOlive, a Subiaco fa tappa Borgo diVino. Domenica pomeriggio, però, il posto migliore è a casa nostra, al Teatro Caesar. L'allerta arancione per maltempo diramata giovedì dalla Protezione Civile regionale, con rovesci, temporali e vento forte, arriva fino a venerdì: chi va a Labico porti l'ombrello. Nel fine settimana il tempo dovrebbe migliorare, ma con temperature in calo.
 
 ## Venerdì: funghi a Subiaco e antiquari a Labico
 

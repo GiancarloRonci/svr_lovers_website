@@ -7,7 +7,7 @@ immagine: ./weekend-13-15-novembre-2026/copertina.png
 copertinaPosizione: left
 ---
 
-In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar. The weather alert issued on Thursday by the regional Civil Protection, with showers, thunderstorms and strong wind, extends into Friday: if you are heading to Labico, bring an umbrella. The weather should improve over the weekend, but with falling temperatures.
+In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar. The orange weather alert issued on Thursday by the regional Civil Protection, with showers, thunderstorms and strong wind, extends into Friday: if you are heading to Labico, bring an umbrella. The weather should improve over the weekend, but with falling temperatures.
 
 ## Friday: mushrooms in Subiaco and antiquarians in Labico
 
