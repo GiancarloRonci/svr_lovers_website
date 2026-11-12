@@ -7,7 +7,7 @@ immagine: ./weekend-13-15-novembre-2026/copertina.png
 copertinaPosizione: left
 ---
 
-In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar.
+In mid-November the calendar revolves around new olive oil and wine: Castel Madama holds the twentieth edition of OliOlive, and Borgo diVino stops in Subiaco. On Sunday afternoon, though, the best place to be is right here at home, at the Teatro Caesar. The weather alert issued on Thursday by the regional Civil Protection, with showers, thunderstorms and strong wind, extends into Friday: if you are heading to Labico, bring an umbrella. The weather should improve over the weekend, but with falling temperatures.
 
 ## Friday: mushrooms in Subiaco and antiquarians in Labico
 
@@ -25,7 +25,7 @@ If you prefer wine, [Borgo diVino in Tour](/en/eventi/borgo-divino-subiaco-2026)
 
 The morning is for walkers: at 9 am the [hike to Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026) leaves Cervara di Roma with a Park guide, passing the Prataglia observatory and the red deer area. Book on WhatsApp by Saturday. History lovers can head to Palestrina instead, where at 11 am [Palazzo Barberini opens its private wing](/en/eventi/apertura-palazzo-barberini-palestrina-2026) for a guided tour: 15 euros, limited places and booking required.
 
-For lunch you can go back to Castel Madama for the second day of OliOlive, which also has an 883 tribute band at 4:30 pm, or head up to Subiaco, where Borgo diVino's tasting stands are open from 12 noon to 8 pm: free entry, with a 15-euro voucher for eight tastings.
+For lunch you can go back to Castel Madama for the second day of OliOlive, which also has an 883 tribute band at 4:30 pm, or head up to Subiaco, where Borgo diVino's tasting stands are open from 12 noon to 8 pm: free entry, with a 15-euro voucher for eight tastings. In the Aniene Valley, from 4 pm Roviano celebrates the [Feast of San Martino](/en/eventi/festa-san-martino-roviano-2026) in Piazza della Repubblica, with new wine, chestnuts, bruschetta, mulled wine and music.
 
 **This week's tip:** at 5 pm the [Teatro Caesar](/en/eventi/colonna-sonora-teatro-caesar-san-vito-2026) in San Vito stages "Colonna Sonora – La storia in musica della famiglia Colonna", 26 original songs performed live that tell the story of the Colonna family from the Middle Ages to modern times, and with it the story of our towns. Single ticket 10 euros, bookings on 380 180 5894.
 
