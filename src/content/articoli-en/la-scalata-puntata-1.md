@@ -9,8 +9,6 @@ copertinaPosizione: "top"
 immagine: ./la-scalata-puntata-1/la-scalata-puntata-1.jpg
 ---
 
-![La Scalata, Chapter One – The dawn before the departure (Italian text): Tommaso, with his backpack on, stands on his doorstep with his dog Tao as the sun rises over the mountains and the town.](./la-scalata-puntata-1/la-scalata-puntata-1.jpg)
-
 ## Chapter One – The dawn before the departure
 
 There are falls that seem to take everything away. And yet, sometimes, just when our certainties collapse, a new space opens up inside us.
@@ -28,6 +26,8 @@ At his side is Tao, his faithful companion.
 It is from that space that the departure is born.
 
 Tommaso does not yet know what he will find. He only knows that the time has come to set out.
+
+![La Scalata, Chapter One – The dawn before the departure (Italian text): Tommaso, with his backpack on, stands on his doorstep with his dog Tao as the sun rises over the mountains and the town.](./la-scalata-puntata-1/la-scalata-puntata-1.jpg)
 
 ![La Scalata, Chapter One in ten panels (Italian text): the town sleeps, a man awake, the invisible weight, the wounds, faith and questions, Job, Chiara, Tao, the threshold, the first step.](./la-scalata-puntata-1/la-scalata-puntata-1-vignette.jpg)
 
