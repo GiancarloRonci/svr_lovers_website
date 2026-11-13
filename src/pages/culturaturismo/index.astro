@@ -69,11 +69,14 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
       if (items.length === 0) return null;
       // Un contest con il modulo di partecipazione (moduloTally) è aperto: lo mettiamo in evidenza
       const attivo = items.some((a) => a.data.moduloTally);
+      // Tutte le altre attività sono idee in cerca di qualcuno che le sviluppi con noi
+      const ideazione = cat !== 'concorsi-fotografici';
       return (
-        <section id={cat} class={attivo ? 'iniziativa-attiva' : undefined}>
+        <section id={cat} class={attivo ? 'iniziativa-attiva' : ideazione ? 'iniziativa-ideazione' : undefined}>
           <h2>
             {etichette[cat]}
             {attivo && <span class="stato-attivo"><span class="pallino" aria-hidden="true" />In corso</span>}
+            {ideazione && <span class="stato-ideazione"><span aria-hidden="true">💡</span>In ideazione</span>}
           </h2>
           <div class="card-grid">
             {items.map((a) => (
@@ -86,6 +89,7 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
                 nota={cat === 'concorsi-fotografici' ? undefined : 'Attività in fase di definizione: al momento non sappiamo ancora quando inizierà.'}
               >
                 {a.data.moduloTally && <span class="badge-attivo"><span class="pallino" aria-hidden="true" />In corso · Partecipa</span>}
+                {ideazione && <span class="badge-ideazione"><span aria-hidden="true">💡</span>In ideazione · Cercasi staff</span>}
               </Card>
             ))}
           </div>
@@ -205,6 +209,38 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
   }
   .iniziativa-attiva :global(.invito) {
     color: #2e7d32;
+  }
+  /* Le idee: etichetta color ocra sulla copertina e bordo tratteggiato, come un cantiere aperto */
+  .stato-ideazione,
+  .badge-ideazione {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #b7791f;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .stato-ideazione {
+    margin-left: 0.6rem;
+  }
+  .badge-ideazione {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .iniziativa-ideazione :global(.card) {
+    border: 2px dashed #b7791f;
+  }
+  .iniziativa-ideazione :global(.invito) {
+    color: #8a5a12;
   }
   @keyframes pulsa {
     0% { box-shadow: 0 0 0 0 rgba(185, 246, 202, 0.9); }
