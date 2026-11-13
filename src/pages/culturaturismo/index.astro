@@ -207,6 +207,12 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
     box-shadow: 0 0 0 0 rgba(46, 125, 50, 0.45);
     animation: alone 2.4s ease-out infinite;
   }
+  /* La card dell'iniziativa in corso occupa due colonne della griglia, dove lo schermo ne ha almeno due */
+  @media (min-width: 560px) {
+    .iniziativa-attiva :global(.card) {
+      grid-column: span 2;
+    }
+  }
   .iniziativa-attiva :global(.invito) {
     color: #2e7d32;
   }
