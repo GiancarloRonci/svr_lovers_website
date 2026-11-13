@@ -21,9 +21,13 @@ interface Props {
   imagePosition?: string;
   dataInizio?: Date;
   dataFine?: Date;
+  // Chi cura l'iniziativa (es. "A cura di Antonio Orlandi"), mostrato sotto la descrizione
+  curatore?: string;
+  // Classe in più sulla card, per gli stili della pagina che la usa
+  class?: string;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, invito, image, imagePosition, dataInizio, dataFine } = Astro.props;
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, invito, image, imagePosition, dataInizio, dataFine, curatore, class: classe } = Astro.props;
 // Event cards expose their dates and type to the filters on the events page.
 const eventAttrs = dataInizio
   ? {
@@ -34,7 +38,7 @@ const eventAttrs = dataInizio
   : {};
 ---
 
-<a class="card" href={href} {...eventAttrs}>
+<a class:list={['card', classe]} href={href} {...eventAttrs}>
   <slot />
   {
     image && (
@@ -53,6 +57,7 @@ const eventAttrs = dataInizio
     <h3>{title}</h3>
     {meta && <p class="card-meta">📅 {meta}</p>}
     <p>{description}</p>
+    {curatore && <p class="curatore">✍️ {curatore}</p>}
     {luogo && <p class="luogo">📍 {luogo}</p>}
     {luogoDettaglio && <p class="luogo-dettaglio">{luogoDettaglio}</p>}
     {distanza && <p class="distanza">🚗 {distanza}</p>}
@@ -90,6 +95,10 @@ const eventAttrs = dataInizio
     color: var(--color-muted);
     font-size: 0.9rem;
     font-style: italic;
+    margin-top: 0.4rem;
+  }
+  .curatore {
+    font-weight: 600;
     margin-top: 0.4rem;
   }
   .invito {

@@ -17,6 +17,46 @@ const storieInSanvitese = (await getCollection('articoli'))
   .filter((a) => a.data.categoria === 'storie-in-sanvitese')
   .sort(byInsertionDesc);
 
+// Le iniziative già partite, in cima alla pagina: i contest con il modulo di partecipazione aperto
+// (moduloTally) e le serie curate da chi collabora con noi
+const contestAttivi = attivita.filter((a) => a.data.moduloTally);
+const laScalata = (await getCollection('articoli'))
+  .filter((a) => a.data.categoria === 'la-scalata')
+  .sort(byInsertionDesc);
+const leggende = (await getCollection('leggende')).sort(byInsertionDesc);
+const percorsi = await getCollection('percorsi');
+const percorsoCopertina = percorsi.find((p) => p.id === 'via-dellarringo-vicolo-baciadonne') ?? percorsi[0];
+const iniziativeInCorso = [
+  {
+    href: withBase('articoli/categoria/storie-in-sanvitese/'),
+    title: 'Storie in sanvitese',
+    description: "Storie e poesie nel dialetto di San Vito Romano, ciascuna con un'immagine e una spiegazione in italiano.",
+    curatore: 'A cura di Antonio Orlandi',
+    image: storieInSanvitese[0]?.data.immagine,
+  },
+  {
+    href: withBase('articoli/categoria/la-scalata/'),
+    title: 'Romanzo "La scalata"',
+    description: 'Il romanzo a puntate in vignette fotorealistiche: Tommaso e il suo fedele Tao in cammino verso la montagna.',
+    curatore: 'Di Vito Rossi',
+    image: laScalata[0]?.data.immagine,
+  },
+  {
+    href: withBase('leggende/'),
+    title: 'Leggende',
+    description: 'Storie, misteri e racconti popolari tramandati di generazione in generazione a San Vito Romano, ciascuno con il suo fumetto.',
+    curatore: 'A cura di Marco Maccaroni',
+    image: leggende[0]?.data.immagine,
+  },
+  {
+    href: withBase('percorsi/'),
+    title: 'Percorsi urbani e semiurbani',
+    description: 'Itinerari a piedi tra i vicoli del centro storico e le campagne intorno al paese, con foto e mappa.',
+    curatore: 'A cura di Giancarlo Ronci',
+    image: percorsoCopertina?.data.immagine,
+  },
+];
+
 const etichette: Record<string, string> = {
   scacchi: 'Scacchi',
   dama: 'Dama',
@@ -49,10 +89,35 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
     iniziative orientate alla cultura in genere e all'orientamento turistico. Seguiranno maggiori
     dettagli.
   </p>
+  <section id="in-corso" class="iniziativa-attiva">
+    <h2>Iniziative in corso</h2>
+    <p>Queste iniziative sono già partite: puoi partecipare, leggere e camminare con noi.</p>
+    <div class="card-grid">
+      {contestAttivi.map((a) => (
+        <Card
+          class="card-larga"
+          href={withBase(`culturaturismo/${a.id}/`)}
+          title={a.data.title}
+          description={a.data.frequenza ?? a.data.description}
+          image={a.data.immagine}
+          invito="Iscrizioni aperte: carica le tue foto e partecipa!"
+        >
+          <span class={a.data.immagine ? 'badge-attivo sulla-copertina' : 'badge-attivo'}><span class="pallino" aria-hidden="true" />In corso · Partecipa</span>
+        </Card>
+      ))}
+      {iniziativeInCorso.map((i) => (
+        <Card href={i.href} title={i.title} description={i.description} image={i.image} curatore={i.curatore}>
+          <span class={i.image ? 'badge-attivo sulla-copertina' : 'badge-attivo'}><span class="pallino" aria-hidden="true" />In corso</span>
+        </Card>
+      ))}
+    </div>
+  </section>
+
+  <h2>Le idee</h2>
   <p>
     <strong>
-      A parte il Contest Fotografico, quelle che seguono sono soltanto idee: non sappiamo ancora
-      con certezza se verranno realizzate, né quando.
+      Quelle che seguono sono soltanto idee: non sappiamo ancora con certezza se verranno
+      realizzate, né quando.
     </strong>
   </p>
   <p>
@@ -65,17 +130,15 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
 
   {
     categorie.map((cat) => {
-      const items = attivita.filter((a) => a.data.categoria === cat);
+      // I contest aperti sono già tra le iniziative in corso, in cima alla pagina
+      const items = attivita.filter((a) => a.data.categoria === cat && !a.data.moduloTally);
       if (items.length === 0) return null;
-      // Un contest con il modulo di partecipazione (moduloTally) è aperto: lo mettiamo in evidenza
-      const attivo = items.some((a) => a.data.moduloTally);
       // Tutte le altre attività sono idee in cerca di qualcuno che le sviluppi con noi
       const ideazione = cat !== 'concorsi-fotografici';
       return (
-        <section id={cat} class={attivo ? 'iniziativa-attiva' : ideazione ? 'iniziativa-ideazione' : undefined}>
+        <section id={cat} class={ideazione ? 'iniziativa-ideazione' : undefined}>
           <h2>
             {etichette[cat]}
-            {attivo && <span class="stato-attivo"><span class="pallino" aria-hidden="true" />In corso</span>}
             {ideazione && <span class="stato-ideazione"><span aria-hidden="true">💡</span>In ideazione</span>}
           </h2>
           <div class="card-grid">
@@ -85,10 +148,9 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
                 title={a.data.title}
                 description={a.data.frequenza ?? a.data.description}
                 image={a.data.immagine ?? (cat === 'concorsi-fotografici' ? undefined : cercasiStaff)}
-                invito={cat === 'concorsi-fotografici' ? (a.data.moduloTally ? 'Iscrizioni aperte: carica le tue foto e partecipa!' : undefined) : "Se vuoi curare questa parte, vieni a far parte dello staff di SanVitoRomano Lovers!"}
+                invito={cat === 'concorsi-fotografici' ? undefined : "Se vuoi curare questa parte, vieni a far parte dello staff di SanVitoRomano Lovers!"}
                 nota={cat === 'concorsi-fotografici' ? undefined : 'Attività in fase di definizione: al momento non sappiamo ancora quando inizierà.'}
               >
-                {a.data.moduloTally && <span class="badge-attivo"><span class="pallino" aria-hidden="true" />In corso · Partecipa</span>}
                 {ideazione && <span class="badge-ideazione"><span aria-hidden="true">💡</span>In ideazione · Cercasi staff</span>}
               </Card>
             ))}
@@ -173,7 +235,6 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
 
 <style>
   /* Le iniziative in corso (oggi il Contest Fotografico) si distinguono dalle semplici idee */
-  .stato-attivo,
   .badge-attivo {
     display: inline-flex;
     align-items: center;
@@ -188,12 +249,17 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
     text-transform: uppercase;
     vertical-align: middle;
   }
-  .stato-attivo {
-    margin-left: 0.6rem;
-  }
   .badge-attivo {
     align-self: flex-start;
     margin: 0.9rem 1rem 0;
+  }
+  .badge-attivo.sulla-copertina {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
   .pallino {
     width: 0.55rem;
@@ -209,7 +275,7 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
   }
   /* La card dell'iniziativa in corso occupa due colonne della griglia, dove lo schermo ne ha almeno due */
   @media (min-width: 560px) {
-    .iniziativa-attiva :global(.card) {
+    .iniziativa-attiva :global(.card-larga) {
       grid-column: span 2;
     }
   }
