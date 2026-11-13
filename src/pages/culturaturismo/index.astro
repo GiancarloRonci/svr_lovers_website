@@ -2,6 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
+// Copertina del contest aperto: la locandina dell'articolo che lo presenta
+import locandinaContest from '../../content/articoli/contest-fotografico-il-sole-ridisegna-i-contorni/locandina.png';
 import cercasiStaff from '../../assets/culturaturismo/cercasi-staff.svg';
 import { withBase } from '../../lib/url';
 import { byInsertionDesc } from '../../lib/insertionOrder';
@@ -40,6 +42,13 @@ const iniziativeInCorso = [
     description: 'Il romanzo a puntate in vignette fotorealistiche: Tommaso e il suo fedele Tao in cammino verso la montagna.',
     curatore: 'Di Vito Rossi',
     image: laScalata[0]?.data.immagine,
+  },
+  {
+    href: withBase('articoli/categoria/viaggi-nel-tempo/'),
+    title: 'Viaggi nel tempo',
+    description: "Articoli che ci riportano nella San Vito di una volta: un'immagine del passato ricreata con l'intelligenza artificiale e un testo che la racconta.",
+    curatore: 'A cura di Vito Rossi',
+    image: viaggiNelTempo[0]?.data.immagine,
   },
   {
     href: withBase('leggende/'),
@@ -99,10 +108,11 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
           href={withBase(`culturaturismo/${a.id}/`)}
           title={a.data.title}
           description={a.data.frequenza ?? a.data.description}
-          image={a.data.immagine}
+          image={a.data.immagine ?? locandinaContest}
+          imagePosition="top"
           invito="Iscrizioni aperte: carica le tue foto e partecipa!"
         >
-          <span class={a.data.immagine ? 'badge-attivo sulla-copertina' : 'badge-attivo'}><span class="pallino" aria-hidden="true" />In corso · Partecipa</span>
+          <span class="badge-attivo sulla-copertina"><span class="pallino" aria-hidden="true" />In corso · Partecipa</span>
         </Card>
       ))}
       {iniziativeInCorso.map((i) => (
@@ -277,6 +287,10 @@ const categorie = ['scacchi', 'dama', 'bocce', 'proiezione-film', 'proiezione-pa
   @media (min-width: 560px) {
     .iniziativa-attiva :global(.card-larga) {
       grid-column: span 2;
+    }
+    /* Copertina più bassa, così la card larga resta alta come le altre */
+    .iniziativa-attiva :global(.card-larga img) {
+      aspect-ratio: 8 / 3;
     }
   }
   .iniziativa-attiva :global(.invito) {
