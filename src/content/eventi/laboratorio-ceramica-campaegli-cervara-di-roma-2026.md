@@ -5,6 +5,7 @@ dataInizio: 2026-11-14
 dataFine: 2026-11-28
 luogo: "Rifugio montano di Campaegli, Cervara di Roma (Roma)"
 comune: "Cervara di Roma"
+minutiAuto: 55
 tipologiaEvento: Laboratorio
 ---
 

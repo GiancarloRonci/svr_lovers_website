@@ -5,6 +5,7 @@ dataInizio: 2026-11-14
 dataFine: 2026-11-28
 luogo: "Campaegli mountain hut, Cervara di Roma (Rome)"
 comune: "Cervara di Roma"
+minutiAuto: 55
 tipologiaEvento: Workshop
 ---
 
