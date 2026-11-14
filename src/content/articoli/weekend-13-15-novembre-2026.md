@@ -21,15 +21,17 @@ A Castel Madama apre [OliOlive](/eventi/oliolive-castel-madama-2026), la festa d
 
 Chi preferisce il vino ha [Borgo diVino in Tour](/eventi/borgo-divino-subiaco-2026) al Convento di San Francesco di Subiaco: sabato dalle 18:30 alle 20:00 c'è la masterclass gratuita sui vini del Lazio, con posti limitati e prenotazione via email.
 
+Per chi ha voglia di mettere le mani in pasta, da sabato e fino al 28 novembre il rifugio di Campaegli, sopra Cervara di Roma, ospita un [laboratorio di ceramica](/eventi/laboratorio-ceramica-campaegli-cervara-di-roma-2026): giorni e orari si chiedono agli organizzatori.
+
 ## Domenica: teatro, musica e un'escursione
 
-La mattina è per chi cammina: alle 9:00 parte da Cervara di Roma l'[escursione a Rocca La Prugna](/eventi/rocca-la-prugna-cervara-di-roma-2026) con una guida del Parco, passando per l'osservatorio di Prataglia e l'area del cervo. La prenotazione su WhatsApp va fatta entro sabato. Chi preferisce la storia può salire a Palestrina, dove alle 11:00 [Palazzo Barberini apre la sua ala privata](/eventi/apertura-palazzo-barberini-palestrina-2026) con una visita guidata: 15 euro, posti limitati e prenotazione obbligatoria.
+La mattina è per chi cammina: alle 9:00 parte da Cervara di Roma l'[escursione a Rocca La Prugna](/eventi/rocca-la-prugna-cervara-di-roma-2026) con una guida del Parco, passando per l'osservatorio di Prataglia e l'area del cervo. La prenotazione su WhatsApp va fatta entro sabato. Sempre sui Simbruini, sopra Subiaco, c'è il [trekking a Monte Calvo con tappa alla Mieleria del Bosco](/eventi/trekking-monte-calvo-mieleria-subiaco-2026): orario e ritrovo si chiedono all'info line. Chi preferisce la storia può salire a Palestrina, dove alle 11:00 [Palazzo Barberini apre la sua ala privata](/eventi/apertura-palazzo-barberini-palestrina-2026) con una visita guidata: 15 euro, posti limitati e prenotazione obbligatoria.
 
 A pranzo si può tornare a Castel Madama per la seconda giornata di OliOlive, che alle 16:30 ha anche la cover band degli 883, oppure salire a Subiaco, dove dalle 12:00 alle 20:00 sono aperti i banchi d'assaggio di Borgo diVino: ingresso libero, con il voucher da 15 euro per otto degustazioni. Nella Valle dell'Aniene, dalle 16:00 Roviano festeggia [San Martino](/eventi/festa-san-martino-roviano-2026) in Piazza della Repubblica, con vino novello, castagne, bruschette, vin brulé e musica.
 
 **Il consiglio della settimana:** alle 17:00 al [Teatro Caesar](/eventi/colonna-sonora-teatro-caesar-san-vito-2026) di San Vito va in scena "Colonna Sonora – La storia in musica della famiglia Colonna", 26 canzoni inedite dal vivo che raccontano i Colonna dal Medioevo all'età moderna, e con loro i nostri paesi. Biglietto unico a 10 euro, prenotazioni al 380 180 5894.
 
-Alla stessa ora c'è anche dell'altro: alle 17:30 il Teatro Cinema Italia di Genazzano porta in scena la commedia ["Una questione delicata"](/eventi/una-questione-delicata-genazzano-2026), e alle 18:00 a Castel Madama chiude OliOlive il [concerto di Luca Dirisio](/eventi/luca-dirisio-castel-madama-2026).
+Alla stessa ora c'è anche dell'altro: alle 17:30 il Teatro Cinema Italia di Genazzano porta in scena la commedia ["Una questione delicata"](/eventi/una-questione-delicata-genazzano-2026), alle 18:00 a Castel Madama chiude OliOlive il [concerto di Luca Dirisio](/eventi/luca-dirisio-castel-madama-2026) e, sempre alle 18:00, nella Sala Consiliare di Colleferro l'arpa di Sofia Marzetti suona ["Metamorphoses"](/eventi/metamorphoses-arpa-colleferro-2026), tra canti popolari e trascrizioni virtuosistiche.
 
 **Se avete solo mezza giornata:** "Colonna Sonora" al Teatro Caesar domenica pomeriggio, senza prendere la macchina.
 

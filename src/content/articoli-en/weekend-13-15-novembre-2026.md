@@ -21,15 +21,17 @@ In Castel Madama [OliOlive](/en/eventi/oliolive-castel-madama-2026) opens, the f
 
 If you prefer wine, [Borgo diVino in Tour](/en/eventi/borgo-divino-subiaco-2026) is at the Convent of San Francesco in Subiaco: on Saturday from 6:30 to 8 pm there is a free masterclass on Lazio wines, with limited places and booking by email.
 
+If you fancy getting your hands dirty, from Saturday until 28 November the Campaegli mountain hut, above Cervara di Roma, hosts a [ceramics workshop](/en/eventi/laboratorio-ceramica-campaegli-cervara-di-roma-2026): ask the organisers for days and times.
+
 ## Sunday: theatre, music and a hike
 
-The morning is for walkers: at 9 am the [hike to Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026) leaves Cervara di Roma with a Park guide, passing the Prataglia observatory and the red deer area. Book on WhatsApp by Saturday. History lovers can head to Palestrina instead, where at 11 am [Palazzo Barberini opens its private wing](/en/eventi/apertura-palazzo-barberini-palestrina-2026) for a guided tour: 15 euros, limited places and booking required.
+The morning is for walkers: at 9 am the [hike to Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026) leaves Cervara di Roma with a Park guide, passing the Prataglia observatory and the red deer area. Book on WhatsApp by Saturday. Also in the Simbruini, above Subiaco, there's the [trek to Monte Calvo with a stop at the Mieleria del Bosco](/en/eventi/trekking-monte-calvo-mieleria-subiaco-2026): call the info line for the time and meeting point. History lovers can head to Palestrina instead, where at 11 am [Palazzo Barberini opens its private wing](/en/eventi/apertura-palazzo-barberini-palestrina-2026) for a guided tour: 15 euros, limited places and booking required.
 
 For lunch you can go back to Castel Madama for the second day of OliOlive, which also has an 883 tribute band at 4:30 pm, or head up to Subiaco, where Borgo diVino's tasting stands are open from 12 noon to 8 pm: free entry, with a 15-euro voucher for eight tastings. In the Aniene Valley, from 4 pm Roviano celebrates the [Feast of San Martino](/en/eventi/festa-san-martino-roviano-2026) in Piazza della Repubblica, with new wine, chestnuts, bruschetta, mulled wine and music.
 
 **This week's tip:** at 5 pm the [Teatro Caesar](/en/eventi/colonna-sonora-teatro-caesar-san-vito-2026) in San Vito stages "Colonna Sonora – La storia in musica della famiglia Colonna", 26 original songs performed live that tell the story of the Colonna family from the Middle Ages to modern times, and with it the story of our towns. Single ticket 10 euros, bookings on 380 180 5894.
 
-There's more at the same time: at 5:30 pm the Teatro Cinema Italia in Genazzano stages the comedy ["Una questione delicata"](/en/eventi/una-questione-delicata-genazzano-2026), and at 6 pm in Castel Madama OliOlive closes with the [Luca Dirisio concert](/en/eventi/luca-dirisio-castel-madama-2026).
+There's more at the same time: at 5:30 pm the Teatro Cinema Italia in Genazzano stages the comedy ["Una questione delicata"](/en/eventi/una-questione-delicata-genazzano-2026), at 6 pm in Castel Madama OliOlive closes with the [Luca Dirisio concert](/en/eventi/luca-dirisio-castel-madama-2026) and, also at 6 pm, in the Council Chamber in Colleferro Sofia Marzetti's harp plays ["Metamorphoses"](/en/eventi/metamorphoses-arpa-colleferro-2026), blending folk songs and virtuoso transcriptions.
 
 **If you only have half a day:** "Colonna Sonora" at the Teatro Caesar on Sunday afternoon, without even taking the car.
 
