@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import LatestPhotos from '../components/LatestPhotos.astro';
 import Meteo3b from '../components/Meteo3b.astro';
 import ContestBanner from '../components/ContestBanner.astro';
+import MercatiniBanner from '../components/MercatiniBanner.astro';
 import WeekendBanner from '../components/WeekendBanner.astro';
 import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
@@ -102,6 +103,7 @@ const articoli = (await getCollection('articoli'))
       </ul>
 
       <ContestBanner lang="it" />
+      <MercatiniBanner lang="it" />
       <WeekendBanner lang="it" />
 
       <Meteo3b lang="it" />

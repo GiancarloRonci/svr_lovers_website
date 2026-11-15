@@ -1,0 +1,90 @@
+---
+// Banner in home con la locandina dei Mercatini di Natale della Pro Loco di San Vito Romano.
+// Porta alla scheda dell'evento; dopo l'ultima giornata (`scadenza`, data ISO) non si mostra più.
+import { Image } from 'astro:assets';
+import { withBase } from '../lib/url';
+import locandina from '../content/eventi/mercatini-di-natale-san-vito-romano-2026/locandina.webp';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const scadenza = '2026-12-20';
+const t =
+  lang === 'en'
+    ? {
+        alt: 'Poster of the San Vito Romano Christmas Markets, in the historic centre on Sunday 13 and Sunday 20 December',
+        text: 'Christmas Markets · Sundays 13 and 20 December, in the historic centre',
+        cta: 'Find out more',
+        href: withBase('en/eventi/mercatini-di-natale-san-vito-romano-2026/'),
+      }
+    : {
+        alt: 'Locandina dei Mercatini di Natale di San Vito Romano, nel centro storico domenica 13 e domenica 20 dicembre',
+        text: 'Mercatini di Natale · domenica 13 e 20 dicembre, nel centro storico',
+        cta: 'Scopri di più',
+        href: withBase('eventi/mercatini-di-natale-san-vito-romano-2026/'),
+      };
+---
+
+<a class="mercatini-banner" href={t.href} data-scadenza={scadenza} data-pagefind-ignore>
+  <Image class="mercatini-banner-img" src={locandina} alt={t.alt} width={800} />
+  <div class="mercatini-banner-footer">
+    <span class="mercatini-banner-text">🎄 {t.text}</span>
+    <span class="mercatini-banner-cta">{t.cta} &rarr;</span>
+  </div>
+</a>
+
+<style>
+  .mercatini-banner {
+    display: block;
+    margin-top: 1.25rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #6e1a1a;
+    color: #f5efe3;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(43, 43, 38, 0.06);
+    border: 1px solid #c9a24a;
+  }
+  .mercatini-banner[hidden] {
+    display: none;
+  }
+  /* La locandina ha date e luogo scritti dentro: si mostra intera, senza ritaglio */
+  .mercatini-banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .mercatini-banner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.9rem 1.5rem 1rem;
+  }
+  .mercatini-banner-text {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .mercatini-banner-cta {
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    background: #c9a24a;
+    color: #3a0d0d;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .mercatini-banner:hover .mercatini-banner-cta {
+    background: #e3bf62;
+  }
+</style>
+
+<script>
+  // Dopo l'ultima giornata dei mercatini il banner non serve più
+  const oggi = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Rome' });
+  document.querySelectorAll<HTMLElement>('.mercatini-banner[data-scadenza]').forEach((box) => {
+    if (oggi > (box.dataset.scadenza as string)) box.hidden = true;
+  });
+</script>
