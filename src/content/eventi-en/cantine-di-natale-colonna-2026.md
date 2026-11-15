@@ -13,6 +13,6 @@ From 21 November to 20 December 2026 the historic centre of Colonna reopens the 
 
 It opens on Saturday 21 November at 16:00 with music by Irina Arozarena, a hip hop performance by Giulia Giardini's students, bagpipers and the arrival of Father Christmas, broadcast live on Radio Radio. At 19:00 the Little Big Band di Colonna, conducted by Stefano Coccia, plays the Santa Cecilia concert. On Sunday 22 November there is music by Ilgra and the Corrida talent show run by the Tracchetta Food association.
 
-Opening hours of the cellars and any costs have not been published yet, and for now the news comes from the local press: for updates, follow the channels of the Municipality of Colonna and of the Pro Loco.
+On opening days the cellars welcome visitors from 11:00, with craft markets, food and wine tastings, local specialities, children's workshops, live music and Father Christmas's little house. A free shuttle bus runs to the historic centre from the car park in via Colle Sant'Andrea. The programme does not mention entry costs: for updates, follow the Cantine di Natale Facebook page.
 
-*Source: [Il Quotidiano del Lazio – Colonna, la passione di tre donne riapre le antiche cantine](https://www.ilquotidianodellazio.it/colonna-la-passione-di-tre-donne-riapre-le-antiche-cantine-e-accende-il-centro-storico-torna-la-magia-del-natale.html)*
+*Source: [Cantine di Natale – official page](https://www.facebook.com/profile.php?id=61566572941589) and [Il Quotidiano del Lazio – Colonna, la passione di tre donne riapre le antiche cantine](https://www.ilquotidianodellazio.it/colonna-la-passione-di-tre-donne-riapre-le-antiche-cantine-e-accende-il-centro-storico-torna-la-magia-del-natale.html)*
