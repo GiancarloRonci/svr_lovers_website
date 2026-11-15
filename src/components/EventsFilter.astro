@@ -49,9 +49,9 @@ const labels =
   <div class="filter-group">
     <label for="events-range">{labels.filterLabel}</label>
     <select id="events-range">
-      <option value="all" selected>{labels.all}</option>
+      <option value="all">{labels.all}</option>
       <option value="7d">{labels.d7}</option>
-      <option value="15d">{labels.d15}</option>
+      <option value="15d" selected>{labels.d15}</option>
       <option value="2m">{labels.m2}</option>
       <option value="custom" hidden>{labels.custom}</option>
     </select>
@@ -218,6 +218,11 @@ const labels =
       toInput.addEventListener('change', onDateChange);
       typeSelect.addEventListener('change', apply);
       distanceSelect.addEventListener('change', apply);
+
+      // By default the page shows the next 15 days, from today.
+      select.value = '15d';
+      fromInput.value = today;
+      toInput.value = limit('15d');
       apply();
     }
 
