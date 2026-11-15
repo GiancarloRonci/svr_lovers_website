@@ -94,7 +94,8 @@
   line-height: 1.83;
 }
 
-/* "I Stracciarolo": margine destro un po' più stretto, così la riga più lunga resta nel foglio */
-.poesia-originale.i-stracciarolo .foglio {
+/* "I Stracciarolo" e "A Teca ella Madonna": margine destro un po' più stretto, così la riga più lunga resta nel foglio */
+.poesia-originale.i-stracciarolo .foglio,
+.poesia-originale.a-teca-ella-madonna .foglio {
   padding-right: 3cqw;
 }
