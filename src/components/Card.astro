@@ -25,15 +25,18 @@ interface Props {
   curatore?: string;
   // Classe in più sulla card, per gli stili della pagina che la usa
   class?: string;
+  // Minuti di auto da San Vito (0 per gli eventi in paese), per il filtro per distanza della pagina eventi
+  minutiAuto?: number;
 }
 
-const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, invito, image, imagePosition, dataInizio, dataFine, curatore, class: classe } = Astro.props;
-// Event cards expose their dates and type to the filters on the events page.
+const { href, title, description, tag, tagClass = 'tag', meta, luogo, luogoDettaglio, distanza, nota, invito, image, imagePosition, dataInizio, dataFine, curatore, class: classe, minutiAuto } = Astro.props;
+// Event cards expose their dates, type and drive time to the filters on the events page.
 const eventAttrs = dataInizio
   ? {
       'data-inizio': dataInizio.toISOString().slice(0, 10),
       'data-fine': (dataFine ?? dataInizio).toISOString().slice(0, 10),
       'data-tipo': tag ?? '',
+      ...(minutiAuto !== undefined ? { 'data-minuti': String(minutiAuto) } : {}),
     }
   : {};
 ---

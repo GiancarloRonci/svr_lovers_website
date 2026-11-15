@@ -18,6 +18,11 @@ const labels =
         to: 'To',
         typeLabel: 'Type',
         allTypes: 'All types',
+        distanceLabel: 'Distance',
+        allDistances: 'Any distance',
+        within30: 'Within 30 min by car',
+        within60: 'Within 60 min by car',
+        over60: 'Over 60 min by car',
         empty: 'No events match the selected filters.',
       }
     : {
@@ -31,6 +36,11 @@ const labels =
         to: 'Al',
         typeLabel: 'Tipo',
         allTypes: 'Tutti i tipi',
+        distanceLabel: 'Distanza',
+        allDistances: 'Tutte le distanze',
+        within30: 'Entro 30 min di auto',
+        within60: 'Entro 60 min di auto',
+        over60: 'Oltre 60 min di auto',
         empty: 'Nessun evento corrisponde ai filtri scelti.',
       };
 ---
@@ -57,6 +67,15 @@ const labels =
     <select id="events-type">
       <option value="" selected>{labels.allTypes}</option>
       {tipologie.map((t) => <option value={t}>{t}</option>)}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="events-distance">{labels.distanceLabel}</label>
+    <select id="events-distance">
+      <option value="" selected>{labels.allDistances}</option>
+      <option value="30">{labels.within30}</option>
+      <option value="60">{labels.within60}</option>
+      <option value="over60">{labels.over60}</option>
     </select>
   </div>
 </div>
@@ -113,13 +132,24 @@ const labels =
       return isoDate(d);
     }
 
+    // Drive time from San Vito: "30" and "60" are upper limits (60 includes the nearer ones),
+    // "over60" is beyond an hour. Events without a known drive time show only with no filter.
+    function matchesDistance(minuti, distanza) {
+      if (distanza === '') return true;
+      if (minuti === null || minuti === '') return false;
+      var m = Number(minuti);
+      if (distanza === 'over60') return m > 60;
+      return m <= Number(distanza);
+    }
+
     // The filter sits above the event list, so wait for the cards to be in the DOM.
     function init() {
       var select = document.getElementById('events-range');
       var fromInput = document.getElementById('events-from');
       var toInput = document.getElementById('events-to');
       var typeSelect = document.getElementById('events-type');
-      if (!select || !fromInput || !toInput || !typeSelect) return;
+      var distanceSelect = document.getElementById('events-distance');
+      if (!select || !fromInput || !toInput || !typeSelect || !distanceSelect) return;
       var cards = document.querySelectorAll('.card[data-inizio]');
       var sections = document.querySelectorAll('.events-section');
       var emptyMsg = document.querySelector('.events-empty');
@@ -134,6 +164,7 @@ const labels =
         var from = fromInput.value;
         var to = toInput.value;
         var tipo = typeSelect.value;
+        var distanza = distanceSelect.value;
         var visible = 0;
         cards.forEach(function (card) {
           // An event matches if at least one of its days falls in the chosen range.
@@ -142,7 +173,8 @@ const labels =
           var show =
             (to === '' || inizio <= to) &&
             (from === '' || fine >= from) &&
-            (tipo === '' || card.getAttribute('data-tipo') === tipo);
+            (tipo === '' || card.getAttribute('data-tipo') === tipo) &&
+            matchesDistance(card.getAttribute('data-minuti'), distanza);
           card.hidden = !show;
           if (show) visible++;
         });
@@ -185,6 +217,7 @@ const labels =
       fromInput.addEventListener('change', onDateChange);
       toInput.addEventListener('change', onDateChange);
       typeSelect.addEventListener('change', apply);
+      distanceSelect.addEventListener('change', apply);
       apply();
     }
 
