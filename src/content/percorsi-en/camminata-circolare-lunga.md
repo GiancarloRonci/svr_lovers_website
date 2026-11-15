@@ -44,6 +44,10 @@ foto:
     immagine: ./camminata-circolare-lunga/foto12.jpg
     autore: Michela Nanni
     didascalia: "The viewpoint along Viale Giovanni XXIII in autumn: between a yellow maple and a red oak, beyond the railing, the historic centre of San Vito Romano with Palazzo Theodoli and the mountains veiled in mist."
+  - lat: 41.883445
+    lng: 12.975801
+    immagine: ./camminata-circolare-lunga/foto13.jpg
+    didascalia: "A garden along Viale Piave in autumn: the ground covered in dry leaves beneath the chestnut trees and a tall fir, the fence with its stone pillars and, in the background, the roofs of the houses and the hills."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg

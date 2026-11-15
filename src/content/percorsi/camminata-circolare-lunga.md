@@ -44,6 +44,10 @@ foto:
     immagine: ./camminata-circolare-lunga/foto12.jpg
     autore: Michela Nanni
     didascalia: "Il belvedere lungo Viale Giovanni XXIII in autunno: tra un acero giallo e una quercia rossa, oltre la ringhiera, il centro storico di San Vito Romano con il palazzo Theodoli e i monti velati di nebbia."
+  - lat: 41.883445
+    lng: 12.975801
+    immagine: ./camminata-circolare-lunga/foto13.jpg
+    didascalia: "Un giardino lungo Viale Piave in autunno: il prato coperto di foglie secche sotto i castagni e un grande abete, la recinzione con i pilastri in pietra e, sullo sfondo, i tetti delle case e le colline."
   - lat: 41.881733
     lng: 12.979621
     immagine: ./camminata-circolare-lunga/foto6.jpg
