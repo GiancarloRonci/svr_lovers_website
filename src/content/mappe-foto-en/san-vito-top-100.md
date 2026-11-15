@@ -209,8 +209,8 @@ foto:
     autore: "Valerio Bruno 21mo Secolo"
   - percorso: percorso-b-olevano
     immagine: foto49.jpg
-  - percorso: via-dellarringo-vicolo-baciadonne
-    immagine: foto5.jpg
+  - percorso: camminata-circolare-lunga
+    immagine: foto13.jpg
   - percorso: via-dellarringo-vicolo-baciadonne
     immagine: foto6.jpg
 ---
