@@ -37,6 +37,7 @@ const strings = {
       soggiorno: 'Dove Soggiornare',
       associazione: 'Cultura&Turismo',
       contatti: 'Contatti',
+      chiSiamo: 'Chi siamo',
       groupScopri: 'Scopri il Paese',
       groupCosaFare: 'Cosa Fare',
       circoloTutte: 'Tutte le attività',
@@ -88,6 +89,7 @@ const strings = {
       soggiorno: 'Where to Stay',
       associazione: 'Culture&Tourism',
       contatti: 'Contact',
+      chiSiamo: 'About us',
       groupScopri: 'Discover the Village',
       groupCosaFare: 'What to Do',
       circoloTutte: 'All activities',
@@ -171,7 +173,14 @@ const navItems: (NavLink | NavDropdown)[] = [
       { label: t.nav.weekend, href: withBase(`${prefix}articoli/categoria/weekend/`) },
     ],
   },
-  { type: 'link', label: t.nav.contatti, href: withBase(`${prefix}contatti/`) },
+  {
+    type: 'dropdown',
+    label: t.nav.contatti,
+    items: [
+      { label: t.nav.contatti, href: withBase(`${prefix}contatti/`) },
+      { label: t.nav.chiSiamo, href: withBase(`${prefix}chi-siamo/`) },
+    ],
+  },
 ];
 
 const { title, description = t.defaultDescription, noindex = false, protetto = false, cercabile = true } = Astro.props;

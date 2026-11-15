@@ -1,0 +1,96 @@
+---
+// Elenco dei membri per la pagina "Chi siamo": foto circolare (o un segnaposto con le iniziali)
+// e sotto il nome e la frase o il motto del membro. I dati sono in src/data/membri.ts.
+import { Image } from 'astro:assets';
+import { membri } from '../data/membri';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const t =
+  lang === 'en'
+    ? { mottoMancante: 'Motto coming soon', fotoAlt: (nome: string) => `Photo of ${nome}` }
+    : { mottoMancante: 'Frase in arrivo', fotoAlt: (nome: string) => `Foto di ${nome}` };
+
+const iniziali = (nome: string) =>
+  nome
+    .split(' ')
+    .map((parola) => parola[0])
+    .join('')
+    .toUpperCase();
+---
+
+<ul class="membri">
+  {
+    membri.map((m) => (
+      <li class="membro">
+        {m.foto ? (
+          <Image class="membro-foto" src={m.foto} alt={t.fotoAlt(m.nome)} width={320} height={320} />
+        ) : (
+          <div class="membro-foto membro-segnaposto" aria-hidden="true">
+            {iniziali(m.nome)}
+          </div>
+        )}
+        <h2 class="membro-nome">{m.nome}</h2>
+        {m.motto ? (
+          <p class="membro-motto">“{m.motto[lang]}”</p>
+        ) : (
+          <p class="membro-motto membro-motto-vuoto">{t.mottoMancante}</p>
+        )}
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .membri {
+    list-style: none;
+    margin: 2.5rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2.5rem 2rem;
+  }
+  .membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .membro-foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-border);
+  }
+  .membro-segnaposto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeadf;
+    color: var(--color-muted);
+    font-family: var(--font-heading);
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-style: dashed;
+  }
+  .membro-nome {
+    margin: 1rem 0 0.4rem;
+    font-size: 1.2rem;
+  }
+  .membro-motto {
+    margin: 0;
+    max-width: 260px;
+    font-family: var(--font-heading);
+    font-style: italic;
+    color: var(--color-text);
+  }
+  .membro-motto-vuoto {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+</style>
