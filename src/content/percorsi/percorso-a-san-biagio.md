@@ -23,7 +23,7 @@ foto:
   - lat: 41.882782
     lng: 12.984040
     immagine: ./percorso-a-san-biagio/foto1.jpg
-    didascalia: 'Passaggio sotto un arco in pietra, con un antico portone rosso sullo sfondo. Questo è il confine tra "Nammonte" e "Nabballe"'
+    didascalia: 'Passaggio sotto un arco in pietra, con i sampietrini disposti a cerchi e un antico portone ad arco sullo sfondo. Questo è il confine tra "Nammonte" e "Nabballe"'
   - lat: 41.882972
     lng: 12.984235
     immagine: ./percorso-a-san-biagio/foto4.jpg

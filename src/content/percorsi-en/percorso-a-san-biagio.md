@@ -23,7 +23,7 @@ foto:
   - lat: 41.882782
     lng: 12.984040
     immagine: ./percorso-a-san-biagio/foto1.jpg
-    didascalia: 'Passage under a stone arch, with an old red door in the background. This is the boundary between "Nammonte" and "Nabballe"'
+    didascalia: 'Passage under a stone arch, with cobblestones laid in circles and an old arched door in the background. This is the boundary between "Nammonte" and "Nabballe"'
   - lat: 41.882972
     lng: 12.984235
     immagine: ./percorso-a-san-biagio/foto4.jpg
