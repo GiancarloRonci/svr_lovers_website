@@ -17,13 +17,17 @@ Sopra Cervara di Roma prosegue fino al 28 novembre il [laboratorio di ceramica](
 
 Si comincia in paese: la [Sanvitese Calcio a 5](/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) gioca in casa contro lo Sporting Fondi, per l'11ª giornata della Serie C1. L'orario non è ancora stato comunicato: conviene seguire la pagina Facebook della squadra.
 
+Chi ama camminare può partire presto per Jenne: alle 9:30 comincia l'[anello dell'Aniene da Jenne a Trevi](/eventi/anello-aniene-jenne-trevi-2026), circa 14 km con una guida ambientale fino alla Cascata di Trevi, rientro verso le 15:30. Costa 20 euro e si fa solo se si raggiunge il numero minimo di iscritti, quindi conviene prenotare subito.
+
 Palestrina offre un sabato pieno. Alla Casa natale del Pierluigi apre la mostra [Dipinti&Vini d'Autore](/eventi/dipinti-e-vini-d-autore-palestrina-2026), con le opere di quindici artisti accostate ai vini del territorio, dalle 10:00 alle 13:00 e dalle 15:00 alle 17:00. Alle 17:00, in Piazza Santa Maria degli Angeli, il flash mob di ["Gerbera Rossa"](/eventi/gerbera-rossa-palestrina-2026) apre la giornata contro la violenza di genere, che prosegue in Sala Borghesani con la mostra "Nonostante tutto VIVO". La sera, alle 20:00, il ristorante La Muracciola propone la cena-spettacolo con la [Sugar Soul Band](/eventi/sugar-soul-band-zucchero-palestrina-2026) e le canzoni di Zucchero: 40 euro, con prenotazione. All'Auditorium Pierluigi, sabato e domenica, gli allievi di Arte Madre portano in scena ["Sogno di una notte di mezz'estate"](/eventi/sogno-notte-mezza-estate-palestrina-2026); gli orari non sono ancora usciti.
 
 Nel pomeriggio, alle 16:00, Colonna inaugura le [Cantine di Natale](/eventi/cantine-di-natale-colonna-2026): le antiche cantine del centro storico riaprono con musica, zampognari e l'arrivo di Babbo Natale, e alle 19:00 c'è il concerto di Santa Cecilia della Little Big Band di Colonna. Le cantine aprono già dalle 11:00, con mercatini, degustazioni e laboratori per bambini, e dal parcheggio di via Colle Sant'Andrea c'è una navetta gratuita per il centro storico.
 
 A Cave il Teatro Comunale ospita il primo dei due [concerti di Santa Cecilia](/eventi/concerti-santa-cecilia-cave-2026), con la Banda Città di Cave. Chi ama la musica classica, invece, alle 20:45 ha l'appuntamento più importante del weekend: al Palazzo Colonna di Genazzano l'Orchestra delle Cento Città, la Corale Perosi e la Schola Cantorum Belli suonano ["Mozart: Grazia e Invenzione"](/eventi/corale-perosi-schola-cantorum-belli-genazzano-2026), con la Sinfonia n. 29 e la Messa dell'Incoronazione.
 
-## Domenica: bande, cantine e un'altra giornata di mostra
+## Domenica: due passeggiate nei Simbruini, bande, cantine e un'altra giornata di mostra
+
+La domenica mattina è per chi vuole camminare in montagna. Da Cervara di Roma, alle 9:00, parte l'escursione a [Rocca La Prugna](/eventi/rocca-la-prugna-cervara-di-roma-2026), l'antica roccaforte distrutta nel Seicento: circa 12 km facili, con il passaggio all'area faunistica del cervo. Costa 15 euro e bisogna prenotare su WhatsApp entro sabato. Chi preferisce un ritmo più lento può salire a Monte Livata per lo [Shinrin-yoku](/eventi/shinrin-yoku-monte-livata-2026), il "bagno nella foresta" dalle 9:30 alle 13:30 per la Giornata degli Alberi, anche questo su prenotazione.
 
 A Cave si chiude la festa di Santa Cecilia con il concerto della Banda G. Puccini, sempre al Teatro Comunale. A Colonna le cantine restano aperte per la seconda giornata, con la musica degli Ilgra e la Corrida. A Palestrina c'è ancora tempo per Dipinti&Vini d'Autore, con gli stessi orari del sabato, e per la seconda replica di "Sogno di una notte di mezz'estate".
 

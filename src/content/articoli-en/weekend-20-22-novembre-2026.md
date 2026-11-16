@@ -17,13 +17,17 @@ Above Cervara di Roma the [ceramics workshop](/en/eventi/laboratorio-ceramica-ca
 
 It starts in the village: [Sanvitese Calcio a 5](/en/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) play at home against Sporting Fondi, in round 11 of Serie C1. The kick-off time has not been announced yet: keep an eye on the team's Facebook page.
 
+Walkers can set off early for Jenne: at 9:30 am the [Aniene loop from Jenne to Trevi](/en/eventi/anello-aniene-jenne-trevi-2026) begins, about 14 km with an environmental guide to the Trevi waterfall, back around 3:30 pm. It costs 20 euros and only goes ahead with a minimum number of participants, so book early.
+
 Palestrina has a full Saturday. At Pierluigi's birthplace the [Dipinti&Vini d'Autore](/en/eventi/dipinti-e-vini-d-autore-palestrina-2026) exhibition opens, pairing works by fifteen artists with local wines, from 10 am to 1 pm and from 3 to 5 pm. At 5 pm, in Piazza Santa Maria degli Angeli, the ["Gerbera Rossa"](/en/eventi/gerbera-rossa-palestrina-2026) flash mob opens the day against gender violence, which continues in the Sala Borghesani with the exhibition "Nonostante tutto VIVO". In the evening, at 8 pm, La Muracciola restaurant hosts a dinner show with the [Sugar Soul Band](/en/eventi/sugar-soul-band-zucchero-palestrina-2026) and the songs of Zucchero: 40 euros, booking required. At the Auditorium Pierluigi, on Saturday and Sunday, the students of Arte Madre stage ["A Midsummer Night's Dream"](/en/eventi/sogno-notte-mezza-estate-palestrina-2026); times have not been announced yet.
 
 In the afternoon, at 4 pm, Colonna opens its [Christmas Cellars](/en/eventi/cantine-di-natale-colonna-2026): the old cellars of the historic centre reopen with music, bagpipers and the arrival of Father Christmas, and at 7 pm the Little Big Band of Colonna plays its Saint Cecilia concert. The cellars already open at 11 am, with markets, tastings and children's workshops, and a free shuttle bus runs to the historic centre from the car park in via Colle Sant'Andrea.
 
 In Cave the Teatro Comunale hosts the first of two [Saint Cecilia concerts](/en/eventi/concerti-santa-cecilia-cave-2026), with the Banda Città di Cave. Classical music lovers, meanwhile, have the weekend's biggest event at 8:45 pm: at Palazzo Colonna in Genazzano the Orchestra delle Cento Città, the Corale Perosi and the Schola Cantorum Belli perform ["Mozart: Grazia e Invenzione"](/en/eventi/corale-perosi-schola-cantorum-belli-genazzano-2026), with Symphony No. 29 and the Coronation Mass.
 
-## Sunday: bands, cellars and another day of the exhibition
+## Sunday: two walks in the Simbruini, bands, cellars and another day of the exhibition
+
+Sunday morning is for those who want to walk in the mountains. From Cervara di Roma, at 9 am, a hike sets off for [Rocca La Prugna](/en/eventi/rocca-la-prugna-cervara-di-roma-2026), the ancient stronghold destroyed in the 17th century: about 12 easy km, passing the red deer wildlife area. It costs 15 euros and you need to book on WhatsApp by Saturday. If you prefer a slower pace, head up to Monte Livata for [Shinrin-yoku](/en/eventi/shinrin-yoku-monte-livata-2026), "forest bathing" from 9:30 am to 1:30 pm for National Tree Day, also by booking.
 
 Cave closes its Saint Cecilia celebrations with a concert by the Banda G. Puccini, again at the Teatro Comunale. In Colonna the cellars stay open for a second day, with music by Ilgra and the Corrida talent show. In Palestrina there's still time for Dipinti&Vini d'Autore, with the same hours as Saturday, and for the second performance of "A Midsummer Night's Dream".
 
