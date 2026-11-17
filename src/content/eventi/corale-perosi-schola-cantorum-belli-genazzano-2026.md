@@ -12,6 +12,8 @@ Sabato 21 novembre 2026, alle 20:45, il Palazzo Colonna di Genazzano ospita "Moz
 
 Sul palco ci sono l'Orchestra delle Cento Città, la Corale Lorenzo Perosi di Cave e la Schola Cantorum A. Belli di Genazzano, con il soprano Cristina Santonico, il mezzosoprano Beatrice Mercuri, il tenore Michele Della Ventura e il basso Paolo Breda Bulgherini, diretti dal Maestro Giovanni Proietti. Nella prima parte si ascolta la Sinfonia n. 29 in La maggiore KV 201; nella seconda la Messa in Do maggiore KV 317, detta "dell'Incoronazione", per soli, coro, orchestra e organo.
 
-Per informazioni sull'ingresso si può contattare la Fondazione al numero 06 953 8083 o all'indirizzo fond.palestrina@tiscali.it.
+Il concerto chiude la giornata con cui Genazzano, insieme alla Fondazione, celebra la Virgo Fidelis: alle 18:00 c'è la Santa Messa al Santuario della Madre del Buon Consiglio, seguita da un rinfresco, e alle 20:45 la musica al Palazzo Colonna.
 
-*Fonte: [Fondazione Giovanni Pierluigi da Palestrina – Mozart: Grazia e Invenzione](https://www.fondazionepierluigipalestrina.it/mozart-grazia-e-invenzione-la-stagione-giovanile/)*
+Per il concerto è richiesta la prenotazione, scrivendo a fondazionepalestrina@gmail.com. Per altre informazioni si può contattare la Fondazione al numero 06 953 8083 o all'indirizzo fond.palestrina@tiscali.it.
+
+*Fonte: [Fondazione Giovanni Pierluigi da Palestrina – Mozart: Grazia e Invenzione](https://www.fondazionepierluigipalestrina.it/mozart-grazia-e-invenzione-la-stagione-giovanile/); [Monti Prenestini](https://montiprenestini.info/genazzano-celebra-la-virgo-fidelis-santa-messa-al-santuario-e-concerto-di-mozart-al-castello-colonna/)*
