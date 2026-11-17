@@ -244,6 +244,12 @@ const chiaveMemoria = `svr-selezione-${slug}`;
           });
         }
 
+        // Lo script manda le foto nell'ordine della scheda Foto, cioè di arrivo (le nuove vengono
+        // aggiunte in fondo): nella galleria le mostro al contrario, prima le ultime arrivate
+        function ordinaFoto(foto) {
+          return (foto || []).slice().reverse();
+        }
+
         function testoLike(n) {
           return n === 1 ? testi.likeUno : testi.likeMolti.replace('{n}', n);
         }
@@ -421,7 +427,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
               }
               conferma.close();
               if (r.ok) {
-                dati.foto = r.foto;
+                dati.foto = ordinaFoto(r.foto);
                 if (sequenza) {
                   sequenza = sequenza.filter(function (c) {
                     return c !== codice;
@@ -652,6 +658,7 @@ const chiaveMemoria = `svr-selezione-${slug}`;
               credenziali = c;
               scriviMemoria(c);
               dati = r;
+              dati.foto = ordinaFoto(r.foto);
               document.getElementById('sel-email').textContent = c.email;
               area.hidden = false;
               disegna();
