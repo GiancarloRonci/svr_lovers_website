@@ -14,6 +14,8 @@ galleria:
     didascalia: "The \"cupolino\" of the Church of Santa Maria Maddalena, rising above the rooftops of the village."
     autore: "Umbowiki"
     licenza: "CC BY-SA 4.0"
+social:
+  - https://www.facebook.com/comunedicapranicaprenestina/posts/pfbid0M4CL799E8hHTAA7Aup4Gpu9qyMFGKTrgtEhkRWYaBuXDc2jLcucxGz4kyfR7YxpQl
 ---
 
 Capranica Prenestina is a small medieval village perched at over 900 metres on the Prenestini mountains, not far from San Vito Romano. Its history is tied to two noble families, the Capranica and the Colonna, who over the centuries shaped both its architecture and its fate. In 2024 the village joined the prestigious club of Italy's Most Beautiful Villages.

@@ -14,6 +14,8 @@ galleria:
     didascalia: "Il \"cupolino\" della Chiesa di Santa Maria Maddalena, che spicca sopra i tetti del borgo."
     autore: "Umbowiki"
     licenza: "CC BY-SA 4.0"
+social:
+  - https://www.facebook.com/comunedicapranicaprenestina/posts/pfbid0M4CL799E8hHTAA7Aup4Gpu9qyMFGKTrgtEhkRWYaBuXDc2jLcucxGz4kyfR7YxpQl
 ---
 
 Capranica Prenestina è un piccolo borgo di origine medievale arroccato a oltre 900 metri sui Monti Prenestini, non lontano da San Vito Romano. Le sue vicende storiche sono legate a due famiglie nobiliari, i Capranica e i Colonna, che nei secoli ne hanno segnato l'architettura e il destino. Nel 2024 il borgo è entrato a far parte del prestigioso club dei Borghi più belli d'Italia.

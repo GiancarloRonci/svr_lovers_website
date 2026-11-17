@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import TrailMap from '../../../components/TrailMap.astro';
 import PhotoGallery from '../../../components/PhotoGallery.astro';
+import PostSocial from '../../../components/PostSocial.astro';
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../../../lib/url';
@@ -17,7 +18,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, description, comune, minutiAuto, immagine, immagineAutore, immagineLicenza, galleria, coordinate, contributori } = entry.data;
+const { title, description, comune, minutiAuto, immagine, immagineAutore, immagineLicenza, galleria, coordinate, contributori, social } = entry.data;
 const distanza = formatDriveTime(minutiAuto, 'en');
 const { Content } = await render(entry);
 const lastModified = getLastModified(entry.filePath);
@@ -60,6 +61,8 @@ const galleryItems = (await resolveGalleria(galleria, title, 0, 'photo')).map((i
   </p>
 
   <PhotoGallery items={galleryItems} lang="en" luogo={coordinate} numerata />
+
+  <PostSocial post={social} lang="en" />
 </Layout>
 
 <style>

@@ -135,6 +135,11 @@ const luoghiSchema = ({ image }: { image: () => z.ZodType<ImageMetadata> }) =>
     coordinate: z.object({ lat: z.number(), lng: z.number() }).optional(),
     // Contributori oltre a SVR Lovers, mostrati in testa alla scheda (src/lib/contributori.ts)
     contributori: z.array(z.string()).optional(),
+    // Post dei social da incorporare in fondo alla scheda (src/components/PostSocial.astro):
+    // l'indirizzo del post, oppure { url, altezza } per cambiare l'altezza dell'iframe in pixel
+    social: z
+      .array(z.union([z.string().url(), z.object({ url: z.string().url(), altezza: z.number().int().positive().optional() })]))
+      .optional(),
   });
 
 const luoghi = defineCollection({

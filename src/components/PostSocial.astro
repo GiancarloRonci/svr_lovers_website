@@ -1,0 +1,102 @@
+---
+// Sezione finale delle schede con i post dei social incorporati (campo `social` nel frontmatter).
+// Facebook e Instagram si vedono in un iframe; per gli altri indirizzi resta solo il link.
+// Sotto ogni post c'è sempre il link diretto, per chi ha i contenuti dei social bloccati.
+
+export type PostSocialVoce = string | { url: string; altezza?: number };
+
+interface Props {
+  post?: PostSocialVoce[];
+  lang?: 'it' | 'en';
+}
+
+const { post = [], lang = 'it' } = Astro.props;
+
+const t = {
+  it: { titolo: 'Dai social', apri: (s: string) => `Apri il post su ${s}`, post: (s: string) => `Post su ${s}` },
+  en: { titolo: 'From social media', apri: (s: string) => `Open the post on ${s}`, post: (s: string) => `Post on ${s}` },
+}[lang];
+
+const voci = post.map((p) => {
+  const { url, altezza } = typeof p === 'string' ? { url: p, altezza: undefined } : p;
+  const host = new URL(url).hostname.replace(/^www\.|^m\./, '');
+  if (host === 'facebook.com' || host === 'fb.com') {
+    return {
+      url,
+      social: 'Facebook',
+      src: `https://www.facebook.com/plugins/post.php?href=${encodeURIComponent(url)}&show_text=true&width=500`,
+      altezza: altezza ?? 650,
+    };
+  }
+  if (host === 'instagram.com') {
+    const percorso = new URL(url).pathname.match(/^\/(p|reel|tv)\/([^/]+)/);
+    return {
+      url,
+      social: 'Instagram',
+      src: percorso ? `https://www.instagram.com/${percorso[1]}/${percorso[2]}/embed/captioned/` : undefined,
+      altezza: altezza ?? 750,
+    };
+  }
+  return { url, social: host, src: undefined, altezza: undefined };
+});
+---
+
+{
+  voci.length > 0 && (
+    <section class="post-social" data-pagefind-ignore>
+      <h2>{t.titolo}</h2>
+      <ul>
+        {voci.map((v) => (
+          <li>
+            {v.src && (
+              <iframe
+                src={v.src}
+                title={t.post(v.social)}
+                width="500"
+                height={v.altezza}
+                loading="lazy"
+                scrolling="no"
+                allowfullscreen
+                allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
+              />
+            )}
+            <a href={v.url} target="_blank" rel="noopener">
+              {t.apri(v.social)}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .post-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .post-social li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .post-social iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+  .post-social a {
+    font-size: 0.9rem;
+  }
+</style>
