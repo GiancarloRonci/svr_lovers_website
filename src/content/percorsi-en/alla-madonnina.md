@@ -23,6 +23,10 @@ foto:
     lng: 12.982190
     immagine: ./alla-madonnina/foto4.jpg
     didascalia: "The façade of the church of Saints Sebastian and Roch in the evening, with the town hall on the right."
+  - lat: 41.882501
+    lng: 12.982317
+    immagine: ./alla-madonnina/foto8.jpg
+    didascalia: "The church of Saints Sebastian and Roch by day, with its steps and blue door; on the left the colourful houses along the street and the red tables of a café."
   - lat: 41.881230
     lng: 12.980686
     immagine: ./alla-madonnina/foto6.jpg

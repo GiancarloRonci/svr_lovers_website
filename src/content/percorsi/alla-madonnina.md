@@ -23,6 +23,10 @@ foto:
     lng: 12.982190
     immagine: ./alla-madonnina/foto4.jpg
     didascalia: "La facciata della chiesa dei Santi Sebastiano e Rocco di sera, con il palazzo comunale sulla destra."
+  - lat: 41.882501
+    lng: 12.982317
+    immagine: ./alla-madonnina/foto8.jpg
+    didascalia: "La chiesa dei Santi Sebastiano e Rocco di giorno, con la scalinata e il portone azzurro; a sinistra le case colorate della via e i tavolini rossi di un bar."
   - lat: 41.881230
     lng: 12.980686
     immagine: ./alla-madonnina/foto6.jpg

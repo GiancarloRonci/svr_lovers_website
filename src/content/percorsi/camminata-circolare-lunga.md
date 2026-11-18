@@ -68,6 +68,10 @@ foto:
     lng: 12.982190
     immagine: ./camminata-circolare-lunga/foto10.jpg
     didascalia: "La facciata della chiesa dei Santi Sebastiano e Rocco di sera, con il palazzo comunale sulla destra."
+  - lat: 41.882501
+    lng: 12.982317
+    immagine: ./camminata-circolare-lunga/foto14.jpg
+    didascalia: "La chiesa dei Santi Sebastiano e Rocco di giorno, con la scalinata e il portone azzurro; a sinistra le case colorate della via e i tavolini rossi di un bar."
 ---
 
 La versione lunga della [Camminata Circolare](/percorsi/camminata-circolare/): un giro di circa quattro chilometri per chi ha un'ora a disposizione e vuole conoscere anche le strade fuori dal centro storico.

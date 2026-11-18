@@ -68,6 +68,10 @@ foto:
     lng: 12.982190
     immagine: ./camminata-circolare-lunga/foto10.jpg
     didascalia: "The façade of the church of Saints Sebastian and Roch in the evening, with the town hall on the right."
+  - lat: 41.882501
+    lng: 12.982317
+    immagine: ./camminata-circolare-lunga/foto14.jpg
+    didascalia: "The church of Saints Sebastian and Roch by day, with its steps and blue door; on the left the colourful houses along the street and the red tables of a café."
 ---
 
 The long version of the [Circular Walk](/en/percorsi/camminata-circolare/): a loop of about four kilometres for those who have an hour to spare and want to discover the streets beyond the historic centre too.
