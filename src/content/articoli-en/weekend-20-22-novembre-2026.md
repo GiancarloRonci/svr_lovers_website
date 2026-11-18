@@ -3,6 +3,7 @@ title: "The Weekend: Mozart, Saint Cecilia bands and the first Christmas cellars
 description: "Sanvitese at home against Sporting Fondi, Mozart at Palazzo Colonna in Genazzano, the Saint Cecilia concerts in Cave, the opening of the Christmas Cellars in Colonna and a Saturday in Palestrina among art, wine and music: what to do on the weekend of 20 to 22 November 2026."
 data: 2026-11-15
 categoria: weekend
+immagine: ./weekend-20-22-novembre-2026/copertina.jpg
 ---
 
 22 November is Saint Cecilia's day, the patron saint of musicians, and you can tell: this weekend bands, choirs and orchestras are playing all around, from Cave to Genazzano. In Colonna the first Christmas cellars open, and in Palestrina the week leading up to 25 November, the International Day for the Elimination of Violence against Women, fills up with talks and events. On Saturday, though, the first appointment is right here at home, with Sanvitese.

@@ -3,6 +3,7 @@ title: "Il weekend: Mozart, le bande di Santa Cecilia e le prime cantine di Nata
 description: "La Sanvitese in casa contro lo Sporting Fondi, Mozart al Palazzo Colonna di Genazzano, i concerti di Santa Cecilia a Cave, l'apertura delle Cantine di Natale a Colonna e un sabato a Palestrina tra arte, vino e musica: cosa fare nel weekend dal 20 al 22 novembre 2026."
 data: 2026-11-15
 categoria: weekend
+immagine: ./weekend-20-22-novembre-2026/copertina.jpg
 ---
 
 Il 22 novembre è Santa Cecilia, la patrona dei musicisti, e si sente: questo fine settimana bande, cori e orchestre suonano un po' ovunque, da Cave a Genazzano. A Colonna aprono le prime cantine di Natale, e a Palestrina la settimana che porta al 25 novembre, Giornata internazionale contro la violenza sulle donne, si riempie di incontri e iniziative. Sabato, però, il primo appuntamento è a casa nostra, con la Sanvitese.
