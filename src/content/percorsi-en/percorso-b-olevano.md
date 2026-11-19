@@ -111,6 +111,11 @@ foto:
     lng: 12.985198
     immagine: ./percorso-b-olevano/foto24.jpg
     didascalia: "Via della Mola"
+  - lat: 41.883523
+    lng: 12.985509
+    immagine: ./percorso-b-olevano/foto51.jpg
+    autore: "Pierluigi Aloisi"
+    didascalia: "An old moss-covered stone arch at night: beyond it, a paved courtyard with the houses' stairs, railings and flower pots."
   - lat: 41.883324
     lng: 12.985034
     immagine: ./percorso-b-olevano/foto25.jpg
