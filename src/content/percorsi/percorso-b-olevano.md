@@ -95,6 +95,10 @@ foto:
     lng: 12.984120
     immagine: ./percorso-b-olevano/foto21.jpg
     didascalia: "Via Romana (Via della Libertà)"
+  - lat: 41.882215
+    lng: 12.984840
+    immagine: ./percorso-b-olevano/foto50.jpg
+    didascalia: "Un fantastico orto a terrazze lungo il pendio, con cavoli e verdure d'autunno; sullo sfondo la valle e i boschi colorati avvolti nella nebbia."
   - lat: 41.883292
     lng: 12.985343
     immagine: ./percorso-b-olevano/foto22.jpg
