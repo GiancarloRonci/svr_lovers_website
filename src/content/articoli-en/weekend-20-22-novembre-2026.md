@@ -8,11 +8,11 @@ immagine: ./weekend-20-22-novembre-2026/copertina.jpg
 
 22 November is Saint Cecilia's day, the patron saint of musicians, and you can tell: this weekend bands, choirs and orchestras are playing all around, from Cave to Genazzano. In Colonna the first Christmas cellars open, and in Palestrina the week leading up to 25 November, the International Day for the Elimination of Violence against Women, fills up with talks and events. On Saturday, though, the first appointment is right here at home, with Sanvitese.
 
-A practical note: on Friday 20 there is a 24-hour general strike, with Cotral buses at risk outside the guaranteed time bands, and from Friday evening to Saturday evening trains are on strike too. If you don't have a car, check timetables before going out.
+A practical note: on Friday 20 there is a 24-hour general strike, with Cotral buses at risk outside the guaranteed time bands, and from Friday evening to Saturday evening trains are on strike too. If you don't have a car, check timetables before going out. Keep an eye on the weather too: the yellow alert for strong winds issued on Thursday for the whole of Lazio should ease off on Friday, and forecasts point to Saturday as the best day, with a cloudier, cooler Sunday.
 
-## Friday: a talk in Palestrina and ceramics at Campaegli
+## Friday: two talks in Palestrina and ceramics at Campaegli
 
-In Palestrina, from 6 to 8 pm, the Albergo Ristorante Stella hosts the second session of ["Troppo Donna – Ritrova te stessa"](/en/eventi/troppo-donna-palestrina-2026): mental coach Monia Cupellini talks about the "logical levels of change". It's free, but booking is recommended.
+In Palestrina, at 4:30 pm, UNITRE presents ["Cartoline d'amore"](/en/eventi/cartoline-d-amore-unitre-palestrina-2026) (Love postcards), a talk by Angelo Pinci on our grandparents' love letters and postcards, in the ITOP conference hall. Later, from 6 to 8 pm, the Albergo Ristorante Stella hosts the second session of ["Troppo Donna – Ritrova te stessa"](/en/eventi/troppo-donna-palestrina-2026): mental coach Monia Cupellini talks about the "logical levels of change". It's free, but booking is recommended.
 
 Above Cervara di Roma the [ceramics workshop](/en/eventi/laboratorio-ceramica-campaegli-cervara-di-roma-2026) at the Campaegli mountain hut continues until 28 November: ask the organisers for days and times.
 
@@ -21,6 +21,8 @@ Above Cervara di Roma the [ceramics workshop](/en/eventi/laboratorio-ceramica-ca
 It starts in the village: [Sanvitese Calcio a 5](/en/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) play at home against Sporting Fondi, in round 11 of Serie C1, with kick-off at 4 pm at the municipal futsal pitch.
 
 Walkers can set off early for Jenne: at 9:30 am the [Aniene loop from Jenne to Trevi](/en/eventi/anello-aniene-jenne-trevi-2026) begins, about 14 km with an environmental guide to the Trevi waterfall, back around 3:30 pm. It costs 20 euros and only goes ahead with a minimum number of participants, so book early.
+
+A quarter of an hour from home, at 11 am, Capranica Prenestina opens the [new displays of the Prenestini Mountains Natural History Museum](/en/eventi/museo-naturalistico-capranica-prenestina-2026) in Palazzo Barberini, with a tasting of local products at 12:30 pm. It's a good way to get to know the Prenestini woods before Sunday's hikes at the Mentorella.
 
 Palestrina has a full Saturday. At Pierluigi's birthplace the [Dipinti&Vini d'Autore](/en/eventi/dipinti-e-vini-d-autore-palestrina-2026) exhibition opens, pairing works by fifteen artists with local wines, from 10 am to 1 pm and from 3 to 5 pm. The ["Gerbera Rossa"](/en/eventi/gerbera-rossa-palestrina-2026) day against gender violence begins at 11 am with a red bench in the Valvarino park; at 5 pm there's a flash mob in Piazza Santa Maria degli Angeli, and at 6 pm, in the Sala Borghesani, the exhibition "Nonostante tutto VIVO" opens, on view until 25 November. In the evening, at 8 pm, La Muracciola restaurant hosts a dinner show with the [Sugar Soul Band](/en/eventi/sugar-soul-band-zucchero-palestrina-2026) and the songs of Zucchero: 40 euros, booking required. At the Auditorium Pierluigi, on Saturday and Sunday, the students of Arte Madre stage ["A Midsummer Night's Dream"](/en/eventi/sogno-notte-mezza-estate-palestrina-2026); times have not been announced yet.
 

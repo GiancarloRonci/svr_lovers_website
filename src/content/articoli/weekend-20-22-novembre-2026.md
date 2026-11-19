@@ -8,11 +8,11 @@ immagine: ./weekend-20-22-novembre-2026/copertina.jpg
 
 Il 22 novembre è Santa Cecilia, la patrona dei musicisti, e si sente: questo fine settimana bande, cori e orchestre suonano un po' ovunque, da Cave a Genazzano. A Colonna aprono le prime cantine di Natale, e a Palestrina la settimana che porta al 25 novembre, Giornata internazionale contro la violenza sulle donne, si riempie di incontri e iniziative. Sabato, però, il primo appuntamento è a casa nostra, con la Sanvitese.
 
-Una nota pratica: venerdì 20 c'è lo sciopero generale di 24 ore, con le corse Cotral a rischio fuori dalle fasce garantite, e da venerdì sera a sabato sera scioperano anche i treni. Chi non ha la macchina controlli gli orari prima di uscire.
+Una nota pratica: venerdì 20 c'è lo sciopero generale di 24 ore, con le corse Cotral a rischio fuori dalle fasce garantite, e da venerdì sera a sabato sera scioperano anche i treni. Chi non ha la macchina controlli gli orari prima di uscire. Anche il tempo va tenuto d'occhio: l'allerta gialla per vento forte diramata giovedì per tutto il Lazio dovrebbe esaurirsi venerdì, e le previsioni indicano sabato come la giornata migliore, con una domenica più nuvolosa e fresca.
 
-## Venerdì: un incontro a Palestrina e la ceramica a Campaegli
+## Venerdì: due incontri a Palestrina e la ceramica a Campaegli
 
-A Palestrina, dalle 18:00 alle 20:00, c'è il secondo incontro di ["Troppo Donna – Ritrova te stessa"](/eventi/troppo-donna-palestrina-2026) all'Albergo Ristorante Stella: la mental coach Monia Cupellini parla dei "livelli logici del cambiamento". È gratuito, ma conviene prenotare.
+A Palestrina, alle 16:30, l'UNITRE propone ["Cartoline d'amore"](/eventi/cartoline-d-amore-unitre-palestrina-2026), un incontro con Angelo Pinci sulle lettere e le cartoline d'amore dei nostri nonni, nella Sala Convegni dell'ITOP. Più tardi, dalle 18:00 alle 20:00, c'è il secondo incontro di ["Troppo Donna – Ritrova te stessa"](/eventi/troppo-donna-palestrina-2026) all'Albergo Ristorante Stella: la mental coach Monia Cupellini parla dei "livelli logici del cambiamento". È gratuito, ma conviene prenotare.
 
 Sopra Cervara di Roma prosegue fino al 28 novembre il [laboratorio di ceramica](/eventi/laboratorio-ceramica-campaegli-cervara-di-roma-2026) del rifugio di Campaegli: giorni e orari si chiedono agli organizzatori.
 
@@ -21,6 +21,8 @@ Sopra Cervara di Roma prosegue fino al 28 novembre il [laboratorio di ceramica](
 Si comincia in paese: la [Sanvitese Calcio a 5](/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) gioca in casa contro lo Sporting Fondi, per l'11ª giornata della Serie C1, con calcio d'inizio alle 16:00 al campo comunale di calcio a 5.
 
 Chi ama camminare può partire presto per Jenne: alle 9:30 comincia l'[anello dell'Aniene da Jenne a Trevi](/eventi/anello-aniene-jenne-trevi-2026), circa 14 km con una guida ambientale fino alla Cascata di Trevi, rientro verso le 15:30. Costa 20 euro e si fa solo se si raggiunge il numero minimo di iscritti, quindi conviene prenotare subito.
+
+A un quarto d'ora da casa, alle 11:00, Capranica Prenestina inaugura i [nuovi allestimenti del Museo Naturalistico dei Monti Prenestini](/eventi/museo-naturalistico-capranica-prenestina-2026) a Palazzo Barberini, con una degustazione di prodotti locali alle 12:30. È un buon modo per conoscere i boschi dei Prenestini prima delle escursioni di domenica alla Mentorella.
 
 Palestrina offre un sabato pieno. Alla Casa natale del Pierluigi apre la mostra [Dipinti&Vini d'Autore](/eventi/dipinti-e-vini-d-autore-palestrina-2026), con le opere di quindici artisti accostate ai vini del territorio, dalle 10:00 alle 13:00 e dalle 15:00 alle 17:00. La giornata di ["Gerbera Rossa"](/eventi/gerbera-rossa-palestrina-2026) contro la violenza di genere comincia alle 11:00 con una panchina rossa al parco Valvarino; alle 17:00 c'è il flash mob in Piazza Santa Maria degli Angeli e alle 18:00, in Sala Borghesani, apre la mostra "Nonostante tutto VIVO", visitabile fino al 25 novembre. La sera, alle 20:00, il ristorante La Muracciola propone la cena-spettacolo con la [Sugar Soul Band](/eventi/sugar-soul-band-zucchero-palestrina-2026) e le canzoni di Zucchero: 40 euro, con prenotazione. All'Auditorium Pierluigi, sabato e domenica, gli allievi di Arte Madre portano in scena ["Sogno di una notte di mezz'estate"](/eventi/sogno-notte-mezza-estate-palestrina-2026); gli orari non sono ancora usciti.
 
