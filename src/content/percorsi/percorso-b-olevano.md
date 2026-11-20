@@ -71,6 +71,11 @@ foto:
     lng: 12.984487
     immagine: ./percorso-b-olevano/foto15.jpg
     didascalia: "Via Arringo"
+  - lat: 41.882233
+    lng: 12.984377
+    immagine: ./percorso-b-olevano/foto52.jpg
+    autore: "Pierluigi Aloisi"
+    didascalia: "Un angolo del borgo di notte: le vecchie case in pietra con la scaletta coperta d'erba, il lampione acceso e, in fondo, un arco basso sopra il vicolo lastricato."
   - lat: 41.882198
     lng: 12.984353
     immagine: ./percorso-b-olevano/foto16.jpg
