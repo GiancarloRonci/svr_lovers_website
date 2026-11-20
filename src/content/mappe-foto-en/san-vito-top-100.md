@@ -8,8 +8,8 @@ foto:
     immagine: foto9.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto3.jpg
-  - percorso: al-monte-chiesa-san-vito
-    immagine: foto4.jpg
+  - percorso: percorso-b-olevano
+    immagine: foto52.jpg
   - percorso: al-monte-chiesa-san-vito
     immagine: foto10.jpg
   - percorso: al-monte-chiesa-san-vito
