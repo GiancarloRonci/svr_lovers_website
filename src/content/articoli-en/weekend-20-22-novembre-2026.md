@@ -18,7 +18,7 @@ Above Cervara di Roma the [ceramics workshop](/en/eventi/laboratorio-ceramica-ca
 
 ## Saturday: Sanvitese, Palestrina and music in the evening
 
-It starts in the village: [Sanvitese Calcio a 5](/en/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) play at home against Sporting Fondi, in round 11 of Serie C1, with kick-off at 4 pm at the municipal futsal pitch.
+It starts in the village: [Sanvitese Calcio a 5](/en/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) play at home against Sporting Fondi, in round 11 of Serie C1, with kick-off at 4 pm at the municipal futsal pitch. At almost the same time there is another event in the village: from 5 pm to 6:30 pm the Teatro Caesar hosts ["Oltre il limite, Insieme in Scena"](/en/eventi/oltre-il-limite-insieme-in-scena-san-vito-romano-2026), a show by the young people of the Centro Integrazione Sociale of Tivoli, with theatre, music and dance. Admission is free.
 
 Walkers can set off early for Jenne: at 9:30 am the [Aniene loop from Jenne to Trevi](/en/eventi/anello-aniene-jenne-trevi-2026) begins, about 14 km with an environmental guide to the Trevi waterfall, back around 3:30 pm. It costs 20 euros and only goes ahead with a minimum number of participants, so book early.
 

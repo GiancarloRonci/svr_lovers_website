@@ -18,7 +18,7 @@ Sopra Cervara di Roma prosegue fino al 28 novembre il [laboratorio di ceramica](
 
 ## Sabato: la Sanvitese, Palestrina e la musica della sera
 
-Si comincia in paese: la [Sanvitese Calcio a 5](/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) gioca in casa contro lo Sporting Fondi, per l'11ª giornata della Serie C1, con calcio d'inizio alle 16:00 al campo comunale di calcio a 5.
+Si comincia in paese: la [Sanvitese Calcio a 5](/eventi/sanvitese-calcio-a5-sporting-fondi-2026-11-21) gioca in casa contro lo Sporting Fondi, per l'11ª giornata della Serie C1, con calcio d'inizio alle 16:00 al campo comunale di calcio a 5. Alla stessa ora, o quasi, c'è un altro appuntamento in paese: dalle 17:00 alle 18:30 il Teatro Caesar ospita ["Oltre il limite, Insieme in Scena"](/eventi/oltre-il-limite-insieme-in-scena-san-vito-romano-2026), lo spettacolo dei ragazzi del Centro Integrazione Sociale di Tivoli tra teatro, musica e danza. L'ingresso è gratuito.
 
 Chi ama camminare può partire presto per Jenne: alle 9:30 comincia l'[anello dell'Aniene da Jenne a Trevi](/eventi/anello-aniene-jenne-trevi-2026), circa 14 km con una guida ambientale fino alla Cascata di Trevi, rientro verso le 15:30. Costa 20 euro e si fa solo se si raggiunge il numero minimo di iscritti, quindi conviene prenotare subito.
 
