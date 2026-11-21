@@ -217,6 +217,10 @@ foto:
     lng: 12.983672
     immagine: ./percorso-b-olevano/foto48.jpg
     didascalia: "3 Fontane!!!!"
+  - lat: 41.882786
+    lng: 12.983119
+    immagine: ./percorso-b-olevano/foto53.jpg
+    didascalia: "A flight of steps with a railing leads down from the village: beyond the vine and the street lamp, the valley and the mountains in autumn colours in the afternoon light."
   - lat: 41.882626
     lng: 12.983065
     immagine: ./percorso-b-olevano/foto49.jpg

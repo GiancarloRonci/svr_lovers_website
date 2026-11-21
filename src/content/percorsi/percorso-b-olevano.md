@@ -217,6 +217,10 @@ foto:
     lng: 12.983672
     immagine: ./percorso-b-olevano/foto48.jpg
     didascalia: "Tre Fontane!!!!"
+  - lat: 41.882786
+    lng: 12.983119
+    immagine: ./percorso-b-olevano/foto53.jpg
+    didascalia: "Una scalinata con la ringhiera scende dal borgo: oltre la vite e il lampione, la valle e i monti colorati d'autunno nella luce del pomeriggio."
   - lat: 41.882626
     lng: 12.983065
     immagine: ./percorso-b-olevano/foto49.jpg
