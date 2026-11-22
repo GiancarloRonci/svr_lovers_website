@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import OrariAutobus from '../../components/OrariAutobus.astro';
+---
+
+<Layout
+  cercabile={false}
+  title="Autobus Cotral"
+  description="Orari degli autobus Cotral da e per San Vito Romano: Roma, Tivoli, Valmontone, Genazzano, Bellegra e i paesi vicini."
+>
+  <h1>Autobus Cotral</h1>
+  <p class="meta">
+    Gli orari degli autobus Cotral che partono da San Vito Romano o arrivano in paese: verso Roma (Anagnina e Ponte
+    Mammolo), Tivoli, Valmontone, Genazzano, Bellegra e gli altri paesi vicini.
+  </p>
+  <OrariAutobus lang="it" />
+</Layout>

@@ -1,0 +1,4067 @@
+{
+  "generato": "2026-11-22",
+  "settimana": {
+    "dal": "2026-11-23",
+    "al": "2026-11-29"
+  },
+  "fonte": "https://cotralspa.it/open-data/",
+  "partenze": [
+    {
+      "linea": "EXTR03",
+      "ora": "04:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Termini FS (Piazza Cinquecento)",
+      "oraArrivo": "05:54",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "04:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "05:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ474A",
+      "ora": "04:34",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "05:36",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "04:35",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "05:50",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ53A",
+      "ora": "04:48",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:08",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ924A",
+      "ora": "04:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:10",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ724A",
+      "ora": "04:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:20",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Gallicano nel Lazio",
+        "Zagarolo",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ29A",
+      "ora": "04:50",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:00",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "05:05",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "06:25",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "05:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "06:20",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:15",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "05:40",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "05:40",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "05:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "06:50",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ474A",
+      "ora": "05:25",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:23",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "05:28",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "06:15",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:35",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "06:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:38",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "06:00",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ576A",
+      "ora": "05:39",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:34",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ576A",
+      "ora": "05:40",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "06:40",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "05:40",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "06:17",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "05:40",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "06:09",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "05:55",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "07:18",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "06:00",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "07:15",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "06:05",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "07:25",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:10",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "06:35",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "06:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "07:43",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "06:10",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "06:47",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "06:13",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "07:27",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "06:20",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "06:49",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "06:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "07:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:28",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "06:50",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "06:55",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "06:35",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "08:00",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ92A",
+      "ora": "06:40",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Rocca Santo Stefano",
+      "capolinea": "Via Casale",
+      "oraArrivo": "07:04",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "06:40",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "07:19",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "06:40",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "07:10",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ92A",
+      "ora": "06:43",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Rocca Santo Stefano",
+      "capolinea": "Via Casale",
+      "oraArrivo": "07:10",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ903A",
+      "ora": "07:00",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "07:56",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ903A",
+      "ora": "07:00",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "07:55",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ003A",
+      "ora": "07:03",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "07:50",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "07:04",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "08:20",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ184D",
+      "ora": "07:06",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Olevano Romano",
+      "capolinea": "Via Koch (Capolinea)",
+      "oraArrivo": "07:52",
+      "via": [
+        "Bellegra",
+        "Rocca Santo Stefano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ280A",
+      "ora": "07:07",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Zagarolo",
+      "capolinea": "Stazione FS",
+      "oraArrivo": "08:09",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "07:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "07:30",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ982D",
+      "ora": "07:20",
+      "fermata": "Viale Piave",
+      "comune": "Olevano Romano",
+      "capolinea": "Via Koch (Capolinea)",
+      "oraArrivo": "07:55",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "07:45",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "08:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "08:00",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "08:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "08:00",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "08:30",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "08:10",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "08:29",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "08:25",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "09:14",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "08:31",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "08:50",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "08:35",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "10:05",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "08:38",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "09:30",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ105A",
+      "ora": "09:00",
+      "fermata": "Viale Piave",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraArrivo": "09:47",
+      "via": [
+        "Bellegra",
+        "Olevano Romano",
+        "Paliano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ82D",
+      "ora": "09:45",
+      "fermata": "Viale Piave",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "09:59",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846A",
+      "ora": "09:45",
+      "fermata": "Viale Piave",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraArrivo": "10:24",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "10:01",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "10:15",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "10:11",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "10:30",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "10:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "11:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "10:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "11:21",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "10:34",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "10:55",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "10:39",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "11:30",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "10:45",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "12:26",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "10:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "11:03",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "10:58",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "11:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "11:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "11:37",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "11:49",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "12:50",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "11:50",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "12:37",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "12:28",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "12:45",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "12:34",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "13:35",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "12:45",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "13:32",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "13:20",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "14:59",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ175A",
+      "ora": "14:05",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "15:30",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:14",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "14:30",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:15",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "14:30",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ60A",
+      "ora": "14:15",
+      "fermata": "Viale Piave",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "14:57",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ60A",
+      "ora": "14:15",
+      "fermata": "Viale Piave",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "15:00",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "14:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "15:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:35",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "14:52",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "14:45",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "16:11",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "14:58",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "15:23",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "15:09",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "16:35",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "15:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "16:53",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "15:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "16:45",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "15:15",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "16:38",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "15:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "16:05",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "15:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "15:37",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "15:50",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "16:07",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ175A",
+      "ora": "15:59",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "17:10",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ82D",
+      "ora": "16:05",
+      "fermata": "Viale Piave",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "16:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ931A",
+      "ora": "16:05",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "17:39",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "16:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "16:30",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ952A",
+      "ora": "16:10",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "17:31",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "16:19",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "16:36",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "16:22",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "16:40",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "16:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "17:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "16:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "17:03",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "17:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "17:30",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "17:10",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "18:35",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "17:29",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "17:57",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ952A",
+      "ora": "17:30",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "18:45",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "17:54",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "18:11",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ474D",
+      "ora": "18:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "18:37",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "18:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "19:55",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "18:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraArrivo": "19:55",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama",
+        "Tivoli"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "19:01",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "19:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ474D",
+      "ora": "19:10",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "19:27",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "19:23",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "20:10",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ47D",
+      "ora": "19:28",
+      "fermata": "Viale Piave",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "19:55",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "19:33",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "19:50",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "19:45",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "21:15",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15A",
+      "ora": "19:45",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraArrivo": "21:10",
+      "via": [
+        "Genazzano",
+        "Cave",
+        "Palestrina",
+        "Zagarolo",
+        "San Cesareo",
+        "Colonna",
+        "Monte Compatri"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "19:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "20:05",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ47D",
+      "ora": "19:52",
+      "fermata": "Viale Piave",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraArrivo": "20:11",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "20:12",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "20:28",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "20:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "21:10",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ60A",
+      "ora": "21:00",
+      "fermata": "Viale Piave",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraArrivo": "21:45",
+      "via": [
+        "Pisoniano",
+        "Ciciliano",
+        "Castel Madama"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "21:44",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "22:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "22:16",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Genazzano",
+      "capolinea": "stazione",
+      "oraArrivo": "22:35",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    }
+  ],
+  "arrivi": [
+    {
+      "linea": "GZ474A",
+      "ora": "04:34",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "04:25",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ53A",
+      "ora": "04:48",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "04:40",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ924A",
+      "ora": "04:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Olevano Romano",
+      "capolinea": "Piazza Moro (Ist. Cartesio)",
+      "oraPartenza": "04:30",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ724A",
+      "ora": "04:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Olevano Romano",
+      "capolinea": "Piazza Moro (Ist. Cartesio)",
+      "oraPartenza": "04:25",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:15",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:05",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:10",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ474A",
+      "ora": "05:25",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:15",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "05:28",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:15",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:35",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:25",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "05:38",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:30",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ576A",
+      "ora": "05:39",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Olevano Romano",
+      "capolinea": "Piazza Moro (Ist. Cartesio)",
+      "oraPartenza": "05:15",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ576A",
+      "ora": "05:40",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Olevano Romano",
+      "capolinea": "Piazza Moro (Ist. Cartesio)",
+      "oraPartenza": "05:15",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "06:05",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "05:55",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:10",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "06:13",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:05",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:28",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ98A",
+      "ora": "06:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:20",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ92A",
+      "ora": "06:40",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:20",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ92A",
+      "ora": "06:43",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:35",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ903A",
+      "ora": "07:00",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:50",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ003A",
+      "ora": "07:03",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:55",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "07:04",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "06:55",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ184D",
+      "ora": "07:06",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "piazza della Pace",
+      "oraPartenza": "07:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ280A",
+      "ora": "07:07",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Pisoniano",
+      "capolinea": "Via Maestra",
+      "oraPartenza": "07:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "07:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "06:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "08:00",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "06:55",
+      "via": [
+        "Guidonia",
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "08:05",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "06:45",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "08:10",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "06:45",
+      "via": [
+        "Guidonia",
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ915D",
+      "ora": "08:19",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "06:40",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "08:25",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "08:15",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "08:31",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "08:00",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "08:38",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "08:30",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ45D",
+      "ora": "09:20",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "08:00",
+      "via": [
+        "San Cesareo",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "09:23",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "08:05",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "10:01",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "09:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "10:11",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "09:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "10:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "08:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "10:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "10:20",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "10:34",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraPartenza": "10:20",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "10:39",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "10:30",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "10:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraPartenza": "10:30",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "10:58",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "10:00",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "11:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "10:40",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "11:49",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "11:40",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "11:50",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "11:40",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "12:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "10:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "12:20",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "10:45",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "12:24",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "10:45",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "12:28",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "11:50",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "12:34",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "12:25",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "12:45",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "12:35",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ31D",
+      "ora": "13:25",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "12:00",
+      "via": [
+        "Monte Compatri",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ31D",
+      "ora": "13:27",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "12:00",
+      "via": [
+        "Monte Compatri",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "13:49",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "13:25",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "13:54",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "13:30",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ175A",
+      "ora": "14:05",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "13:55",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "14:14",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "12:50",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:14",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "13:20",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:15",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "13:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "14:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "12:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ915D",
+      "ora": "14:35",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "12:50",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ903D",
+      "ora": "14:35",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "13:50",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ810D",
+      "ora": "14:36",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Palestrina",
+      "capolinea": "Via Pedemontana",
+      "oraPartenza": "14:05",
+      "via": [
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "14:45",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "14:35",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "14:46",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "14:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ783A",
+      "ora": "14:55",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Olevano Romano",
+      "capolinea": "Via Koch (Capolinea)",
+      "oraPartenza": "14:25",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "14:58",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "14:00",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "15:03",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "13:40",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "15:09",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "15:00",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "15:15",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "15:05",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ915D",
+      "ora": "15:17",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "13:40",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "15:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "15:05",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "15:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "14:00",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "15:47",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "15:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "15:50",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Rocca Santo Stefano",
+      "capolinea": "Via Casale",
+      "oraPartenza": "15:30",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "15:58",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "14:35",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ175A",
+      "ora": "15:59",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "15:50",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "16:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "15:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "16:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "14:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "16:19",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "15:40",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "16:22",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraPartenza": "16:05",
+      "via": [],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "16:29",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "14:35",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ98D",
+      "ora": "16:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Bellegra",
+      "capolinea": "Via Roma Via S. Francesco",
+      "oraPartenza": "16:30",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "16:47",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "16:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "16:51",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "16:25",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "17:09",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "16:30",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "17:10",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "17:00",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "17:29",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "16:30",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "17:47",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "17:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "17:51",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "17:25",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "17:54",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "16:30",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "18:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "16:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ474D",
+      "ora": "18:20",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "17:25",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275A",
+      "ora": "18:30",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "18:20",
+      "via": [],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ45D",
+      "ora": "18:41",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "17:30",
+      "via": [
+        "San Cesareo",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "18:46",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "18:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "19:01",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Rocca Santo Stefano",
+      "capolinea": "Via Casale",
+      "oraPartenza": "18:35",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ474D",
+      "ora": "19:10",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "18:15",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ45D",
+      "ora": "19:14",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "17:30",
+      "via": [
+        "San Cesareo",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58A",
+      "ora": "19:23",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Genazzano",
+      "capolinea": "Deposito Cotral",
+      "oraPartenza": "19:10",
+      "via": [],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ47D",
+      "ora": "19:28",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "18:15",
+      "via": [
+        "Monte Compatri",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ92D",
+      "ora": "19:33",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Rocca Santo Stefano",
+      "capolinea": "Via Casale",
+      "oraPartenza": "19:15",
+      "via": [
+        "Bellegra"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "19:46",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "18:45",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "19:46",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "19:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "linea": "GZ47D",
+      "ora": "19:52",
+      "fermata": "Viale Piave",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "18:15",
+      "via": [
+        "Monte Compatri",
+        "Zagarolo",
+        "Gallicano nel Lazio",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "20:04",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "18:15",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ275D",
+      "ora": "20:12",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "18:45",
+      "via": [
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "20:18",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "18:55",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ45D",
+      "ora": "20:20",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "19:05",
+      "via": [
+        "San Cesareo",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ45D",
+      "ora": "20:41",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "19:30",
+      "via": [
+        "San Cesareo",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ846D",
+      "ora": "20:46",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Valmontone",
+      "capolinea": "stazione FS",
+      "oraPartenza": "20:20",
+      "via": [
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ58D",
+      "ora": "20:49",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "20:10",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        6
+      ]
+    },
+    {
+      "linea": "GZ53D",
+      "ora": "21:44",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Roma",
+      "capolinea": "Ponte Mammolo (Metro B)",
+      "oraPartenza": "20:15",
+      "via": [
+        "Guidonia",
+        "Tivoli",
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ958D",
+      "ora": "22:16",
+      "fermata": "Viale Giovanni XXIII",
+      "comune": "Tivoli",
+      "capolinea": "Largo Saragat",
+      "oraPartenza": "21:45",
+      "via": [
+        "Castel Madama",
+        "Ciciliano",
+        "Pisoniano"
+      ],
+      "giorni": [
+        5
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "22:17",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "21:05",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "linea": "GZ15D",
+      "ora": "22:24",
+      "fermata": "Via Sisto Jella Via Fagano",
+      "comune": "Roma",
+      "capolinea": "Anagnina (Metro A)",
+      "oraPartenza": "21:05",
+      "via": [
+        "Monte Compatri",
+        "San Cesareo",
+        "Colonna",
+        "Zagarolo",
+        "Palestrina",
+        "Cave",
+        "Genazzano"
+      ],
+      "giorni": [
+        5
+      ]
+    }
+  ]
+}

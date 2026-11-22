@@ -1,0 +1,393 @@
+---
+// Orari degli autobus Cotral da e per San Vito Romano, usati da /autobus e /en/autobus.
+// I dati (src/data/autobus-san-vito.json) si generano dal GTFS ufficiale Cotral con la skill aggiorna-autobus.
+import dati from '../data/autobus-san-vito.json';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+const { lang } = Astro.props;
+const locale = lang === 'it' ? 'it-IT' : 'en-GB';
+
+const t = {
+  it: {
+    settimana: (dal: string, al: string) => `Orari della settimana dal ${dal} al ${al}`,
+    avviso:
+      'Orari ricavati dai dati ufficiali Cotral. Di solito restano uguali per tutta la stagione, ma nei giorni festivi, durante le vacanze scolastiche o per scioperi e lavori le corse possono cambiare: per sicurezza controlla su',
+    numeroVerde: 'o chiama il numero verde',
+    vecchi: 'Questi orari potrebbero non essere più aggiornati.',
+    direzione: 'Direzione',
+    partenze: 'Da San Vito',
+    arrivi: 'Verso San Vito',
+    giorno: 'Giorno',
+    giorni: { feriale: 'Lun – ven', sabato: 'Sabato', domenica: 'Domenica' },
+    comune: (p: boolean) => (p ? 'Destinazione' : 'Provenienza'),
+    tutte: 'Tutte',
+    titoloPartenze: 'Partenze da San Vito Romano',
+    titoloArrivi: 'Arrivi a San Vito Romano',
+    fermata: 'fermata',
+    arrivo: 'arrivo',
+    partenza: 'partenza',
+    via: 'via',
+    nessuna: 'Nessuna corsa per la scelta fatta.',
+    nomiGiorni: ['lun', 'mar', 'mer', 'gio', 'ven', 'sab', 'dom'],
+    soloGiorni: 'solo',
+  },
+  en: {
+    settimana: (dal: string, al: string) => `Timetable for the week from ${dal} to ${al}`,
+    avviso:
+      'Times taken from official Cotral data. They usually stay the same for the whole season, but on public holidays, during school holidays or because of strikes and roadworks services may change: to be safe, check',
+    numeroVerde: 'or call the toll-free number',
+    vecchi: 'This timetable may be out of date.',
+    direzione: 'Direction',
+    partenze: 'From San Vito',
+    arrivi: 'To San Vito',
+    giorno: 'Day',
+    giorni: { feriale: 'Mon – Fri', sabato: 'Saturday', domenica: 'Sunday' },
+    comune: (p: boolean) => (p ? 'Destination' : 'Origin'),
+    tutte: 'All',
+    titoloPartenze: 'Departures from San Vito Romano',
+    titoloArrivi: 'Arrivals in San Vito Romano',
+    fermata: 'stop',
+    arrivo: 'arrives',
+    partenza: 'leaves',
+    via: 'via',
+    nessuna: 'No buses for this selection.',
+    nomiGiorni: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    soloGiorni: 'only',
+  },
+}[lang];
+
+const formatData = (s: string) =>
+  new Date(`${s}T00:00:00Z`).toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const fineSettimana = new Date(`${dati.settimana.al}T00:00:00Z`);
+// Gli orari sono di una settimana precisa: dopo due mesi la pagina avvisa che potrebbero essere cambiati
+const vecchi = Date.now() - fineSettimana.valueOf() > 60 * 86400000;
+
+// Le corse feriali che non circolano tutti i giorni da lunedì a venerdì riportano i giorni
+const notaGiorni = (g: number[]) => {
+  const feriali = g.filter((i) => i < 5);
+  return feriali.length > 0 && feriali.length < 5 ? `${t.soloGiorni} ${feriali.map((i) => t.nomiGiorni[i]).join(', ')}` : '';
+};
+
+const ordina = (a: string, b: string) => (a === 'Roma' ? -1 : b === 'Roma' ? 1 : a.localeCompare(b, 'it'));
+const destinazioni = [...new Set(dati.partenze.map((c) => c.comune))].sort(ordina);
+const provenienze = [...new Set(dati.arrivi.map((c) => c.comune))].sort(ordina);
+---
+
+<div class="bus-info">
+  <p>
+    <strong>{t.settimana(formatData(dati.settimana.dal), formatData(dati.settimana.al))}.</strong>
+    {vecchi && <strong class="bus-vecchi"> {t.vecchi}</strong>}
+  </p>
+  <p>
+    {t.avviso} <a href="https://www.cotralspa.it/" target="_blank" rel="noopener noreferrer">cotralspa.it</a>
+    {t.numeroVerde} <a href="tel:+39800174471">800 174 471</a>.
+  </p>
+</div>
+
+<div class="bus-filtri" id="bus-filtri" hidden>
+  <div class="bus-gruppo" role="group" aria-label={t.direzione}>
+    <span class="bus-etichetta">{t.direzione}</span>
+    <button type="button" data-dir="partenze" aria-pressed="true">{t.partenze}</button>
+    <button type="button" data-dir="arrivi" aria-pressed="false">{t.arrivi}</button>
+  </div>
+  <div class="bus-gruppo" role="group" aria-label={t.giorno}>
+    <span class="bus-etichetta">{t.giorno}</span>
+    <button type="button" data-giorno="feriale" aria-pressed="true">{t.giorni.feriale}</button>
+    <button type="button" data-giorno="sabato" aria-pressed="false">{t.giorni.sabato}</button>
+    <button type="button" data-giorno="domenica" aria-pressed="false">{t.giorni.domenica}</button>
+  </div>
+  <div class="bus-gruppo">
+    <label class="bus-etichetta" for="bus-comune" id="bus-comune-label">{t.comune(true)}</label>
+    <select id="bus-comune" data-label-partenze={t.comune(true)} data-label-arrivi={t.comune(false)}>
+      <option value="">{t.tutte}</option>
+      {destinazioni.map((c) => <option value={c} data-dir="partenze">{c}</option>)}
+      {provenienze.map((c) => <option value={c} data-dir="arrivi" hidden>{c}</option>)}
+    </select>
+  </div>
+</div>
+
+<section class="bus-elenco" data-elenco="partenze">
+  <h2>{t.titoloPartenze}</h2>
+  <ul>
+    {
+      dati.partenze.map((c) => (
+        <li data-g={c.giorni.join('')} data-c={c.comune} title={`Cotral ${c.linea}`}>
+          <span class="bus-ora">{c.ora}</span>
+          <span class="bus-corsa">
+            <span class="bus-meta-luogo">
+              <strong>{c.comune}</strong> · {c.capolinea}
+            </span>
+            {c.via.length > 0 && (
+              <span class="bus-via">
+                {t.via} {c.via.join(', ')}
+              </span>
+            )}
+            <span class="bus-fermata">
+              {t.fermata} {c.fermata}
+              {notaGiorni(c.giorni) && <em> · {notaGiorni(c.giorni)}</em>}
+            </span>
+          </span>
+          <span class="bus-arrivo">
+            <span class="bus-arrivo-label">{t.arrivo}</span> {c.oraArrivo}
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="bus-nessuna meta" hidden>{t.nessuna}</p>
+</section>
+
+<section class="bus-elenco" data-elenco="arrivi">
+  <h2>{t.titoloArrivi}</h2>
+  <ul>
+    {
+      dati.arrivi.map((c) => (
+        <li data-g={c.giorni.join('')} data-c={c.comune} title={`Cotral ${c.linea}`}>
+          <span class="bus-ora bus-ora-partenza">
+            <span class="bus-arrivo-label">{t.partenza}</span> {c.oraPartenza}
+          </span>
+          <span class="bus-corsa">
+            <span class="bus-meta-luogo">
+              <strong>{c.comune}</strong> · {c.capolinea}
+            </span>
+            {c.via.length > 0 && (
+              <span class="bus-via">
+                {t.via} {c.via.join(', ')}
+              </span>
+            )}
+            <span class="bus-fermata">
+              {t.fermata} {c.fermata}
+              {notaGiorni(c.giorni) && <em> · {notaGiorni(c.giorni)}</em>}
+            </span>
+          </span>
+          <span class="bus-arrivo bus-arrivo-sv">
+            <span class="bus-arrivo-label">{t.arrivo}</span> {c.ora}
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="bus-nessuna meta" hidden>{t.nessuna}</p>
+</section>
+
+<script>
+  // Filtri per direzione, giorno e comune. Senza JavaScript restano visibili tutte le corse.
+  const filtri = document.getElementById('bus-filtri');
+  const select = document.getElementById('bus-comune') as HTMLSelectElement | null;
+  const label = document.getElementById('bus-comune-label');
+  if (filtri && select && label) {
+    filtri.hidden = false;
+    const oggi = new Date().getDay();
+    const stato = {
+      dir: 'partenze',
+      giorno: oggi === 0 ? 'domenica' : oggi === 6 ? 'sabato' : 'feriale',
+      comune: '',
+    };
+    const giorniDi: Record<string, string> = { feriale: '01234', sabato: '5', domenica: '6' };
+
+    const aggiorna = () => {
+      filtri.querySelectorAll<HTMLButtonElement>('button[data-dir]').forEach((b) =>
+        b.setAttribute('aria-pressed', String(b.dataset.dir === stato.dir)),
+      );
+      filtri.querySelectorAll<HTMLButtonElement>('button[data-giorno]').forEach((b) =>
+        b.setAttribute('aria-pressed', String(b.dataset.giorno === stato.giorno)),
+      );
+      select.querySelectorAll<HTMLOptionElement>('option[data-dir]').forEach((o) => {
+        o.hidden = o.dataset.dir !== stato.dir;
+      });
+      label.textContent = select.dataset[stato.dir === 'partenze' ? 'labelPartenze' : 'labelArrivi'] ?? '';
+      document.querySelectorAll<HTMLElement>('.bus-elenco').forEach((sez) => {
+        sez.hidden = sez.dataset.elenco !== stato.dir;
+        let visibili = 0;
+        sez.querySelectorAll<HTMLLIElement>('li').forEach((li) => {
+          const ok =
+            [...giorniDi[stato.giorno]].some((g) => li.dataset.g?.includes(g)) &&
+            (!stato.comune || li.dataset.c === stato.comune);
+          li.hidden = !ok;
+          if (ok) visibili++;
+        });
+        const vuoto = sez.querySelector<HTMLElement>('.bus-nessuna');
+        if (vuoto) vuoto.hidden = visibili > 0;
+      });
+    };
+
+    filtri.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest('button');
+      if (!b) return;
+      if (b.dataset.dir && b.dataset.dir !== stato.dir) {
+        stato.dir = b.dataset.dir;
+        stato.comune = '';
+        select.value = '';
+      }
+      if (b.dataset.giorno) stato.giorno = b.dataset.giorno;
+      aggiorna();
+    });
+    select.addEventListener('change', () => {
+      stato.comune = select.value;
+      aggiorna();
+    });
+    aggiorna();
+  }
+</script>
+
+<style>
+  .bus-info {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-accent);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.92rem;
+  }
+
+  .bus-info p {
+    margin: 0.25rem 0;
+  }
+
+  .bus-vecchi {
+    color: #a3303a;
+  }
+
+  .bus-filtri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    margin: 1.5rem 0 0;
+  }
+
+  .bus-filtri[hidden] {
+    display: none;
+  }
+
+  .bus-gruppo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .bus-etichetta {
+    flex-basis: 100%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-muted);
+  }
+
+  .bus-gruppo button,
+  .bus-gruppo select {
+    font: inherit;
+    font-size: 0.92rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    background: #fff;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  .bus-gruppo button[aria-pressed='true'] {
+    background: var(--color-accent-dark);
+    border-color: var(--color-accent-dark);
+    color: #fff;
+  }
+
+  .bus-elenco[hidden] {
+    display: none;
+  }
+
+  .bus-elenco ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+
+  .bus-elenco li {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr auto;
+    gap: 0.25rem 1rem;
+    align-items: baseline;
+    padding: 0.65rem 1rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .bus-elenco li:first-child {
+    border-top: none;
+  }
+
+  .bus-elenco li[hidden] {
+    display: none;
+  }
+
+  .bus-ora {
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .bus-ora-partenza {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+
+  .bus-corsa {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .bus-via,
+  .bus-fermata {
+    font-size: 0.82rem;
+    color: var(--color-muted);
+  }
+
+  .bus-arrivo {
+    font-size: 0.92rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-muted);
+    text-align: right;
+  }
+
+  .bus-arrivo-sv {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .bus-arrivo-label,
+  .bus-ora-partenza .bus-arrivo-label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-muted);
+  }
+
+  .bus-ora-partenza .bus-arrivo-label {
+    display: block;
+  }
+
+  @media (max-width: 560px) {
+    .bus-elenco li {
+      grid-template-columns: 4rem 1fr;
+    }
+
+    .bus-arrivo {
+      grid-column: 2;
+      text-align: left;
+    }
+
+    .bus-arrivo-label {
+      display: inline;
+    }
+  }
+</style>

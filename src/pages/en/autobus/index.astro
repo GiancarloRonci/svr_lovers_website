@@ -1,0 +1,17 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import OrariAutobus from '../../../components/OrariAutobus.astro';
+---
+
+<Layout
+  cercabile={false}
+  title="Cotral buses"
+  description="Cotral bus times to and from San Vito Romano: Rome, Tivoli, Valmontone, Genazzano, Bellegra and nearby villages."
+>
+  <h1>Cotral buses</h1>
+  <p class="meta">
+    Times of the Cotral buses leaving from or arriving in San Vito Romano: to Rome (Anagnina and Ponte Mammolo metro
+    stations), Tivoli, Valmontone, Genazzano, Bellegra and the other nearby villages.
+  </p>
+  <OrariAutobus lang="en" />
+</Layout>
