@@ -1,0 +1,14 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import CinemaList from '../../../components/CinemaList.astro';
+---
+
+<Layout
+  cercabile={false}
+  title="At the cinema"
+  description="Films showing at the cinemas closest to San Vito Romano, with showtimes."
+>
+  <h1>At the cinema</h1>
+  <p class="meta">Films showing at the cinemas closest to San Vito Romano, nearest first. Most films are shown in Italian.</p>
+  <CinemaList lang="en" />
+</Layout>

@@ -1,0 +1,202 @@
+---
+// Elenco dei cinema nei dintorni con i film in programmazione (collection `cinema`),
+// usato da /cinema e /en/cinema. I dati si aggiornano con la skill aggiorna-cinema.
+import { getCollection } from 'astro:content';
+import { formatDriveTime } from '../lib/driveTime';
+
+interface Props {
+  lang: 'it' | 'en';
+}
+
+const { lang } = Astro.props;
+const locale = lang === 'it' ? 'it-IT' : 'en-GB';
+
+const t = {
+  it: {
+    aggiornato: 'Orari del',
+    avviso:
+      'Gli orari si riferiscono al giorno indicato e cambiano spesso: prima di partire controlla sempre sul sito o al telefono della sala.',
+    vecchio: 'Questa programmazione potrebbe non essere più aggiornata.',
+    sale: (n: number) => (n === 1 ? '1 sala' : `${n} sale`),
+    sito: 'Sito del cinema',
+    fonte: 'Programmazione completa su',
+    senzaOrari: 'orari sul sito della sala',
+    nessunFilm: 'Nessun film in programmazione al momento.',
+  },
+  en: {
+    aggiornato: 'Showtimes for',
+    avviso:
+      'Showtimes refer to the day shown and change often: always check the cinema’s website or call before you go.',
+    vecchio: 'This listing may be out of date.',
+    sale: (n: number) => (n === 1 ? '1 screen' : `${n} screens`),
+    sito: 'Cinema website',
+    fonte: 'Full listings on',
+    senzaOrari: 'times on the cinema’s website',
+    nessunFilm: 'No films currently showing.',
+  },
+}[lang];
+
+const cinema = (await getCollection('cinema')).sort((a, b) => a.data.minutiAuto - b.data.minutiAuto);
+
+const oggi = new Date();
+oggi.setHours(0, 0, 0, 0);
+const GIORNI_VALIDITA = 7;
+const formatData = (d: Date) =>
+  d.toLocaleDateString(locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+
+<p class="cinema-avviso">{t.avviso}</p>
+
+<div class="cinema-list">
+  {
+    cinema.map(({ id, data: c }) => {
+      const vecchio = oggi.valueOf() - c.aggiornato.valueOf() > GIORNI_VALIDITA * 86400000;
+      return (
+        <section class="cinema-card" id={id}>
+          <header>
+            <h2>{c.nome}</h2>
+            <p class="cinema-luogo">
+              <strong>{c.comune}</strong> · {c.indirizzo}
+              {c.sale && <> · {t.sale(c.sale)}</>}
+            </p>
+            <p class="meta">{formatDriveTime(c.minutiAuto, lang)}</p>
+            <p class="cinema-contatti">
+              {c.telefono && <a href={`tel:+39${c.telefono.replace(/\s/g, '')}`}>📞 {c.telefono}</a>}
+              {c.sito && (
+                <a href={c.sito} target="_blank" rel="noopener noreferrer">
+                  🌐 {t.sito}
+                </a>
+              )}
+            </p>
+          </header>
+
+          <p class="cinema-data">
+            {t.aggiornato} {formatData(c.aggiornato)}
+            {vecchio && <span class="cinema-vecchio"> — {t.vecchio}</span>}
+          </p>
+
+          {c.film.length === 0 ? (
+            <p class="meta">{t.nessunFilm}</p>
+          ) : (
+            <ul class="cinema-film">
+              {c.film.map((f) => (
+                <li>
+                  <span class="cinema-titolo">{f.titolo}</span>
+                  {f.orari.length > 0 ? (
+                    <span class="cinema-orari">
+                      {f.orari.map((o) => (
+                        <span class="cinema-orario">{o}</span>
+                      ))}
+                    </span>
+                  ) : (
+                    <span class="cinema-orari meta">{t.senzaOrari}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+
+          <p class="cinema-fonte meta">
+            {t.fonte}{' '}
+            <a href={c.fonte.url} target="_blank" rel="noopener noreferrer">
+              {c.fonte.nome}
+            </a>
+          </p>
+        </section>
+      );
+    })
+  }
+</div>
+
+<style>
+  .cinema-avviso {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-accent);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.92rem;
+  }
+
+  .cinema-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .cinema-card {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .cinema-card h2 {
+    margin: 0 0 0.3rem;
+  }
+
+  .cinema-card header p {
+    margin: 0.15rem 0;
+  }
+
+  .cinema-contatti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    font-size: 0.92rem;
+  }
+
+  .cinema-data {
+    margin: 1rem 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+
+  .cinema-data::first-letter {
+    text-transform: uppercase;
+  }
+
+  .cinema-vecchio {
+    color: #a3303a;
+  }
+
+  .cinema-film {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cinema-film li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.35rem 1rem;
+    padding: 0.55rem 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .cinema-titolo {
+    font-weight: 600;
+  }
+
+  .cinema-orari {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    font-size: 0.88rem;
+  }
+
+  .cinema-orario {
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 0.05rem 0.55rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cinema-fonte {
+    margin: 0.75rem 0 0;
+  }
+</style>

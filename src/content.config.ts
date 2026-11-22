@@ -325,7 +325,34 @@ const newsEn = defineCollection({
   schema: newsSchema,
 });
 
+// Cinema nei dintorni e film in programmazione: dati senza testo da tradurre, condivisi da
+// /cinema e /en/cinema. Si aggiornano con la skill aggiorna-cinema (.claude/skills/aggiorna-cinema)
+const cinema = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/cinema' }),
+  schema: z.object({
+    nome: z.string(),
+    comune: z.string(),
+    indirizzo: z.string(),
+    telefono: z.string().optional(),
+    sito: z.string().url().optional(),
+    minutiAuto: z.number().int().positive(),
+    sale: z.number().int().positive().optional(),
+    // Giorno a cui si riferiscono gli orari dei film
+    aggiornato: z.coerce.date(),
+    // Pagina da cui è presa la programmazione (aggregatore o sito della sala)
+    fonte: z.object({ nome: z.string(), url: z.string().url() }),
+    film: z.array(
+      z.object({
+        titolo: z.string(),
+        // Orari "HH:MM" del giorno di aggiornamento; vuoto se la fonte non li indica
+        orari: z.array(z.string().regex(/^\d{1,2}:\d{2}$/)).default([]),
+      })
+    ),
+  }),
+});
+
 export const collections = {
+  cinema,
   percorsi,
   percorsiEn,
   mappeFoto,

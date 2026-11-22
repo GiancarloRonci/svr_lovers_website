@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CinemaList from '../../components/CinemaList.astro';
+---
+
+<Layout
+  cercabile={false}
+  title="Al cinema"
+  description="I film in programmazione nei cinema più vicini a San Vito Romano, con gli orari."
+>
+  <h1>Al cinema</h1>
+  <p class="meta">I film in programmazione nei cinema più vicini a San Vito Romano, dal più vicino al più lontano.</p>
+  <CinemaList lang="it" />
+</Layout>
