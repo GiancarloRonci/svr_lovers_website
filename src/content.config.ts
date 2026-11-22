@@ -346,6 +346,8 @@ const cinema = defineCollection({
         titolo: z.string(),
         // Orari "HH:MM" del giorno di aggiornamento; vuoto se la fonte non li indica
         orari: z.array(z.string().regex(/^\d{1,2}:\d{2}$/)).default([]),
+        // Video del trailer ufficiale; senza, la pagina rimanda alla ricerca su YouTube
+        trailer: z.string().url().optional(),
       })
     ),
   }),

@@ -22,6 +22,9 @@ const t = {
     fonte: 'Programmazione completa su',
     senzaOrari: 'orari sul sito della sala',
     nessunFilm: 'Nessun film in programmazione al momento.',
+    trailer: 'Trailer',
+    trailerTitolo: (titolo: string) => `Guarda il trailer di ${titolo} (si apre in una nuova scheda)`,
+    cercaTrailer: 'trailer ita',
   },
   en: {
     aggiornato: 'Showtimes for',
@@ -33,6 +36,9 @@ const t = {
     fonte: 'Full listings on',
     senzaOrari: 'times on the cinema’s website',
     nessunFilm: 'No films currently showing.',
+    trailer: 'Trailer',
+    trailerTitolo: (titolo: string) => `Watch the trailer for ${titolo} (opens in a new tab)`,
+    cercaTrailer: 'trailer',
   },
 }[lang];
 
@@ -41,6 +47,9 @@ const cinema = (await getCollection('cinema')).sort((a, b) => a.data.minutiAuto 
 const oggi = new Date();
 oggi.setHours(0, 0, 0, 0);
 const GIORNI_VALIDITA = 7;
+// Senza un link al trailer ufficiale, la ricerca su YouTube del titolo italiano
+const trailerCercato = (titolo: string) =>
+  `https://www.youtube.com/results?search_query=${encodeURIComponent(`${titolo} ${t.cercaTrailer}`)}`;
 const formatData = (d: Date) =>
   d.toLocaleDateString(locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 ---
@@ -81,7 +90,19 @@ const formatData = (d: Date) =>
             <ul class="cinema-film">
               {c.film.map((f) => (
                 <li>
-                  <span class="cinema-titolo">{f.titolo}</span>
+                  <span class="cinema-titolo">
+                    {f.titolo}
+                    <a
+                      class="cinema-trailer"
+                      href={f.trailer ?? trailerCercato(f.titolo)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={t.trailerTitolo(f.titolo)}
+                      aria-label={t.trailerTitolo(f.titolo)}
+                    >
+                      ▶ {t.trailer}
+                    </a>
+                  </span>
                   {f.orari.length > 0 ? (
                     <span class="cinema-orari">
                       {f.orari.map((o) => (
@@ -180,6 +201,25 @@ const formatData = (d: Date) =>
 
   .cinema-titolo {
     font-weight: 600;
+  }
+
+  .cinema-trailer {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #a3303a;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    padding: 0 0.5rem;
+    vertical-align: 0.1em;
+  }
+
+  .cinema-trailer:hover {
+    background: #a3303a;
+    color: #fff;
   }
 
   .cinema-orari {

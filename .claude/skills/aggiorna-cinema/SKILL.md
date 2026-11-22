@@ -21,6 +21,7 @@ A novembre 2026 non risultavano sale con film in programmazione a Valmontone, Su
 
 1. **Leggi la programmazione di ogni sala** dalla fonte indicata nel file (`fonte.url`), con WebFetch o con l'agente `web-fetch`. Chiedi di riportare **solo gli orari letti direttamente nella pagina**, non riassunti. Le pagine "ora nelle sale" o i widget generici del sito non valgono: servono i film di quella sala.
 2. **Riscrivi il blocco `film`** con i titoli del giorno, ciascuno con i suoi `orari` nel formato `"HH:MM"` (il punto diventa due punti: `21.30` → `"21:30"`). Se un film è in programmazione ma la fonte non ne mostra gli orari, lascialo senza `orari`: la pagina mostra "orari sul sito della sala". **Non inventare né dedurre orari.**
+   **Trailer.** Accanto a ogni titolo la pagina mostra il pulsante "▶ Trailer". Senza il campo `trailer` il pulsante apre la ricerca su YouTube del titolo (con "trailer ita" in italiano, "trailer" in inglese), quindi funziona sempre. Per i film nuovi puoi aggiungere `trailer:` con l'indirizzo del trailer ufficiale italiano, ma solo se lo trovi su un canale ufficiale: il distributore italiano, la casa di produzione oppure la scheda del film su MYmovies o ComingSoon. Se non sei sicuro, lascia la ricerca. Quando riscrivi il blocco `film`, conserva i `trailer` dei film che restano in programmazione.
 3. **Aggiorna `aggiornato`** con il giorno a cui si riferiscono gli orari (di solito oggi). Se la data è più vecchia di 7 giorni rispetto alla build, la pagina mostra l'avviso "potrebbe non essere più aggiornata".
 4. Se una sala non ha film, lascia `film: []`. Se ha chiuso, chiedi all'utente prima di togliere il file.
 5. **Nuove sale.** Se l'utente lo chiede, o se trovi una sala attiva in un comune entro circa un'ora da San Vito, crea un nuovo file `<nome>-<comune>.md` con lo stesso schema. Calcola `minutiAuto` con `node .claude/skills/aggiorna-eventi/drive-time.mjs "<indirizzo>, <comune>, Italia"` (sul PC Ospite usa il Node portable). Se una fonte non mostra l'indirizzo o le due fonti non concordano, verifica con il risultato di Nominatim dello script.
@@ -44,6 +45,7 @@ fonte:
 film:
   - titolo: Se domani non torno
     orari: ["18:50", "21:00"]
+    trailer: https://www.youtube.com/watch?v=...   # facoltativo, solo trailer ufficiale
   - titolo: Dio ride            # senza orari
 ---
 ```
