@@ -149,6 +149,24 @@ const labels =
   .foto-apri:hover {
     text-decoration-thickness: 2px;
   }
+  /* Link nel testo che aprono la foto del passaggio (vedi lo script): un'etichetta piccola, non un link qualsiasi */
+  :global(article a.foto-link) {
+    display: inline-block;
+    margin-left: 0.3rem;
+    padding: 0 0.5rem;
+    border: 1px solid var(--color-accent);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: zoom-in;
+  }
+  :global(article a.foto-link:hover) {
+    background: var(--color-accent);
+    color: #fff;
+  }
 
   /* Con i numeri d'ordine il punto dell'elenco non serve */
   .foto-elenco ul.numerata {
@@ -330,6 +348,17 @@ const labels =
     container.querySelectorAll<HTMLButtonElement>('.foto-apri').forEach((link) =>
       link.addEventListener('click', () => open(Number(link.dataset.index)))
     );
+    // Nel testo dell'articolo un link "#foto-N" apre l'ingrandimento della foto N della galleria,
+    // es. [📷 Foto 3](#foto-3) accanto al passaggio a cui si riferisce
+    document.querySelectorAll<HTMLAnchorElement>('article a[href^="#foto-"]').forEach((link) => {
+      const n = Number(link.getAttribute('href')?.slice('#foto-'.length));
+      if (!Number.isInteger(n) || n < 1 || n > items.length) return;
+      link.classList.add('foto-link');
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        open(n - 1);
+      });
+    });
     lightbox.querySelector('.lightbox-close')?.addEventListener('click', close);
     lightbox.querySelector('.lightbox-prev')?.addEventListener('click', () => move(-1));
     lightbox.querySelector('.lightbox-next')?.addEventListener('click', () => move(1));
