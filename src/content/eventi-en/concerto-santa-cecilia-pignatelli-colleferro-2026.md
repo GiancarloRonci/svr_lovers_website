@@ -1,15 +1,15 @@
 ---
-title: "Saint Cecilia Concert in memory of Maestro G. Pignatelli in Colleferro"
-description: On Saturday 28 November the Ensemble Butterfly's Saint Cecilia concert in the church of Santa Barbara in Colleferro.
-dataInizio: 2026-11-28
-luogo: "Chiesa di Santa Barbara, Piazza Leopoldo Parodi Delfino, Colleferro (Rome)"
+title: "First Memorial for Maestro Giuseppe Pignatelli in Colleferro"
+description: On Sunday 29 November the Ensemble Butterfly remembers Maestro Giuseppe Pignatelli with a concert and a mass in the church of Maria Santissima Immacolata in Colleferro.
+dataInizio: 2026-11-29
+luogo: "Chiesa di Maria Santissima Immacolata, Via Consolare Latina 51, Colleferro (Rome)"
 comune: "Colleferro"
 minutiAuto: 35
 tipologiaEvento: Concert
 ---
 
-On Saturday 28 November 2026 the church of Santa Barbara, in Piazza Leopoldo Parodi Delfino, hosts the traditional concert for Saint Cecilia, patron saint of musicians, dedicated to the memory of Maestro G. Pignatelli. The event is presented by the Ensemble Butterfly and listed by the Pro Loco Città di Colleferro.
+On Sunday 29 November 2026, at 6:30 pm, the church of Maria Santissima Immacolata, at Via Consolare Latina 51, hosts the First Memorial for Maestro Giuseppe Pignatelli, ten years after his death. The Ensemble Butterfly "Giuseppe Pignatelli", conducted by Maestro Luigi Ginesti, performs a concert in his memory, together with the celebration of a mass.
 
-The start time has not been announced yet. On Monday 30 November the same church also hosts a mass in memory of the Maestro.
+The event is listed by the Pro Loco Città di Colleferro, which gives the time as 6:30 to 8:30 pm and lists no tickets. Compared with the first announcement, the date has moved from Saturday 28 to Sunday 29 November and the venue from the church of Santa Barbara to the church of the Immacolata.
 
-*Source: [Pro Loco Città di Colleferro](https://www.prolococolleferro.it/event-details/concerto-s-cecilia-memorial-g-pignatelli)*
+*Source: [Pro Loco Città di Colleferro – First Memorial for Maestro Giuseppe Pignatelli](https://www.prolococolleferro.it/event-details/primo-memorial-maestro-giuseppe-pignatelli-2026-11-29-18-30)*
