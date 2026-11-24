@@ -6,7 +6,7 @@ telefono: "389 881 5970"
 sito: http://www.multisale-ariston.it
 minutiAuto: 35
 sale: 6
-aggiornato: 2026-11-23
+aggiornato: 2026-11-24
 fonte:
   nome: MYmovies
   url: https://www.mymovies.it/cinema/roma/colleferro/5273/
