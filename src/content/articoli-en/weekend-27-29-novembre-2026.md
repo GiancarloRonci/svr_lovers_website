@@ -3,6 +3,7 @@ title: "The Weekend: Trilussa at the Teatro Caesar, Saint Andrew and the Christm
 description: "The Teatro Caesar's free season opens with \"Trilussa e il vino\", Gallicano celebrates Saint Andrew, Colonna reopens its Christmas Cellars, polenta and chestnuts arrive in Colleferro and Pierluigi's music is sung in Palestrina Cathedral: what to do on the weekend of 27 to 29 November 2026."
 data: 2026-11-23
 categoria: weekend
+immagine: ./weekend-27-29-novembre-2026/copertina.jpg
 ---
 
 It's the last weekend of November and the calendar is starting to talk about Christmas: in Colonna the cellars reopen for a second weekend, in Gallicano the first Christmas markets appear, and Sunday is the first Sunday of Advent. Meanwhile the theatres around us are starting their new seasons, and on Sunday afternoon the first appointment is right here in San Vito, at the Teatro Caesar.

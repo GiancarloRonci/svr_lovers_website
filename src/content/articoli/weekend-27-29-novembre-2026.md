@@ -3,6 +3,7 @@ title: "Il weekend: Trilussa al Teatro Caesar, Sant'Andrea e le cantine di Natal
 description: "La rassegna gratuita del Teatro Caesar si apre con \"Trilussa e il vino\", Gallicano festeggia Sant'Andrea, Colonna riapre le Cantine di Natale, a Colleferro arrivano polenta e castagne e a Palestrina si canta Pierluigi in Cattedrale: cosa fare nel weekend dal 27 al 29 novembre 2026."
 data: 2026-11-23
 categoria: weekend
+immagine: ./weekend-27-29-novembre-2026/copertina.jpg
 ---
 
 È l'ultimo fine settimana di novembre e il calendario comincia a parlare di Natale: a Colonna le cantine riaprono per il secondo weekend, a Gallicano spuntano i primi mercatini e domenica è la prima di Avvento. Nei teatri dei dintorni, intanto, partono le nuove stagioni, e domenica pomeriggio il primo appuntamento è proprio a San Vito, al Teatro Caesar.
