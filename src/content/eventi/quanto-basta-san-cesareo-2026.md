@@ -10,6 +10,6 @@ tipologiaEvento: Evento Culturale
 
 Venerdì 27 novembre 2026, alle 17:00, l'Auditorium comunale di San Cesareo ospita "Quanto Basta", il concorso cinematografico aperto a giovani e adulti organizzato dal Comune con l'associazione culturale Artefix. Nel pomeriggio si proiettano le opere in gara; seguono un dibattito aperto al pubblico e la premiazione finale.
 
-L'appuntamento chiude "Respect: mettiamo a fuoco il rispetto", il cartellone del Comune per la Giornata internazionale contro la violenza sulle donne, che mercoledì 25 novembre porta in strada la [marcia degli studenti "Dal Silenzio alla Voce"](/eventi/dal-silenzio-alla-voce-san-cesareo-2026).
+L'appuntamento chiude "Respect: mettiamo a fuoco il rispetto", il cartellone del Comune per la Giornata internazionale contro la violenza sulle donne, che mercoledì 25 novembre ha portato in strada la marcia degli studenti "Dal Silenzio alla Voce".
 
 *Fonte: [NumeroZero – Violenza di genere, a San Cesareo al via "Respect": tre appuntamenti per educare i giovani al rispetto](https://www.numerozero.org/violenza-di-genere-a-san-cesareo-al-via-respect-tre-appuntamenti-per-educare-i-giovani-al-rispetto/)*

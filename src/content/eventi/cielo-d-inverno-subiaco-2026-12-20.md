@@ -1,15 +1,15 @@
 ---
-title: "\"Storie e scienza del cielo d'inverno\" a Subiaco"
-description: "Domenica 20 dicembre una conferenza sulla cometa di Natale e osservazioni del Sole e del cielo notturno con ASTRIS."
+title: "\"Storie e scienza del cielo d'inverno\" a Subiaco (20 dicembre)"
+description: "Domenica 20 dicembre torna nella sala del Monastero di Santa Scolastica la conferenza sulla cometa di Natale, con osservazioni del Sole e del cielo notturno."
 dataInizio: 2026-12-20
-luogo: "Subiaco (Roma)"
+luogo: "Sala del Monastero di Santa Scolastica, Subiaco (Roma)"
 comune: "Subiaco"
 minutiAuto: 35
 tipologiaEvento: Evento Scientifico
 ---
 
-Domenica 20 dicembre 2026 l'associazione ASTRIS Astronomia porta a Subiaco "Storie e scienza del cielo d'inverno nei Monti Simbruini": la conferenza di Luca Spuntoni "C/2026 A2 (Bok), la cometa di Natale" e, meteo permettendo, osservazioni del Sole di giorno e del cielo notturno. L'appuntamento si ripete martedì 29 dicembre.
+Domenica 20 dicembre 2026 ASTRIS Astronomia replica a Subiaco "Storie e scienza del cielo d'inverno nei Monti Simbruini", dopo il primo appuntamento del [29 novembre](/eventi/cielo-d-inverno-subiaco-2026-11-29). Nella sala del Monastero di Santa Scolastica Luca Spuntoni parla di "C/2026 A2 (Bok), la cometa di Natale"; se il tempo lo permette, ci sono anche le osservazioni del Sole di giorno e del cielo di notte.
 
-L'iniziativa fa parte del calendario del Parco Naturale Regionale dei Monti Simbruini, che però non indica ancora orario, punto di ritrovo e costo: per informazioni e prenotazioni bisogna rivolgersi all'organizzatore. Prenotazioni: 347 480 9153, astris@astrisroma.org.
+Il calendario del Parco Naturale Regionale dei Monti Simbruini non indica orario e costo: conviene chiamare prima. Informazioni e prenotazioni: 347 480 9153, astris@astrisroma.org.
 
 *Fonte: [Parco Naturale Regionale Monti Simbruini](https://www.parcomontisimbruini.it/iniziativa.php?id=144187)*

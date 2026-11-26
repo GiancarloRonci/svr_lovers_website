@@ -32,6 +32,8 @@ The afternoon, instead, is for the theatre, and there's plenty of choice. In San
 
 Also in Colleferro on Sunday, [Sapori d'Autunno](/en/eventi/sapori-d-autunno-colleferro-2026) is open from 11 am to 9 pm, and at 6:30 pm, in the church of the Immacolata, the Ensemble Butterfly remembers the Maestro with the [First Memorial for Maestro Giuseppe Pignatelli](/en/eventi/concerto-santa-cecilia-pignatelli-colleferro-2026). The date and venue have changed since the first announcement. In Palestrina, at 5 pm, the Auditorium Pierluigi hosts the [closing evening of Gerbera Rossa](/en/eventi/gerbera-rossa-serata-auditorium-palestrina-2026), with music and testimonies against violence against women, free admission. In Gallicano, for Saint Andrew, there's the solemn Mass at 11 am with the bishop and the Christmas market from 10 am to 1 pm.
 
+If you're heading towards Subiaco, in the hall of the Monastery of Santa Scolastica ASTRIS Astronomia presents ["Storie e scienza del cielo d'inverno"](/en/eventi/cielo-d-inverno-subiaco-2026-11-29) ("Stories and science of the winter sky"): a talk on the Christmas comet and, if the sky is clear, the Sun and the stars through the telescope. The time hasn't been published yet, so it's best to phone ahead.
+
 **This week's tip:** on Sunday at 5 pm stay in the village for "Trilussa e il vino" at the Teatro Caesar: it's free, it's on our doorstep, and it opens a season that in December also brings "Il malato immaginario" and a comedy gala to San Vito.
 
 **If you only have half a day:** on Sunday morning, a stroll through Colonna's Christmas Cellars, then back to San Vito for the 5 pm show.

@@ -32,6 +32,8 @@ Il pomeriggio, invece, è da passare a teatro, e la scelta è ampia. A San Vito,
 
 Sempre a Colleferro, domenica, [Sapori d'Autunno](/eventi/sapori-d-autunno-colleferro-2026) è aperto dalle 11:00 alle 21:00, e alle 18:30, nella chiesa dell'Immacolata, l'Ensemble Butterfly ricorda il Maestro con il [Primo Memorial Maestro Giuseppe Pignatelli](/eventi/concerto-santa-cecilia-pignatelli-colleferro-2026). La data e il luogo sono cambiati rispetto al primo annuncio. A Palestrina, alle 17:00, l'Auditorium Pierluigi ospita la [serata conclusiva di Gerbera Rossa](/eventi/gerbera-rossa-serata-auditorium-palestrina-2026), con musica e testimonianze contro la violenza sulle donne, a ingresso libero. A Gallicano, per Sant'Andrea, c'è la messa solenne delle 11:00 con il vescovo e il mercatino natalizio dalle 10:00 alle 13:00.
 
+Per chi va verso Subiaco, nella sala del Monastero di Santa Scolastica ASTRIS Astronomia presenta ["Storie e scienza del cielo d'inverno"](/eventi/cielo-d-inverno-subiaco-2026-11-29): una conferenza sulla cometa di Natale e, se il cielo è sereno, il Sole e le stelle al telescopio. L'orario non è ancora uscito, quindi conviene telefonare prima.
+
 **Il consiglio della settimana:** domenica alle 17:00 restate in paese per "Trilussa e il vino" al Teatro Caesar: è gratis, è sotto casa, e apre una rassegna che a dicembre porta a San Vito anche "Il malato immaginario" e un galà della comicità.
 
 **Se avete solo mezza giornata:** domenica mattina un giro tra le Cantine di Natale di Colonna, poi di corsa a San Vito per il teatro delle 17:00.
