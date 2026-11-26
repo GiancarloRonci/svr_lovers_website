@@ -6,11 +6,15 @@ telefono: "0774 335087"
 sito: http://www.teatrogiuseppetti.it
 minutiAuto: 30
 sale: 2
-aggiornato: 2026-11-24
+aggiornato: 2026-11-26
 fonte:
   nome: MYmovies
   url: https://www.mymovies.it/cinema/roma/tivoli/5293/
 film:
-  - titolo: Le ultime lune
-    orari: ["21:00"]
+  - titolo: È andata così
+    orari: ["16:30", "18:45", "21:00"]
+  - titolo: Scrooge e gli Spiriti del Natale
+    orari: ["16:30"]
+  - titolo: Dio ride
+    orari: ["18:45", "21:00"]
 ---
