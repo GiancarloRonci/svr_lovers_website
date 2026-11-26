@@ -61,6 +61,16 @@ I concerti pop/rock/dance in questi comuni sono rari e perlopiù legati a sagre 
 
 7. **Aggiorna l'articolo "Il weekend".** Se hai aggiunto concerti che cadono nel prossimo fine settimana, aggiorna (o crea) l'articolo del weekend seguendo la modalità D della skill `aggiorna-eventi` (`.claude/skills/aggiorna-eventi/SKILL.md`), in italiano e in inglese.
 
+## Come scrivere i testi
+
+Vale per le schede dei concerti e per le versioni inglesi. Il testo non deve sembrare scritto da un'AI: deve sembrare scritto da uno del posto che informa gli altri.
+
+- Niente frasi fatte: "immergiti", "una serata indimenticabile", "un vero e proprio evento", "perfetto per tutta la famiglia", "non perdere l'occasione", "nel cuore di", "un mix di sonorità". In inglese niente "nestled", "vibrant", "hidden gem", "delve", "a must".
+- Prima i fatti (chi suona, dove, quando, quanto costa, come si prendono i biglietti), poi al massimo un'impressione. Se un dettaglio non c'è nella fonte, non lo riempi con aggettivi.
+- Niente terne di aggettivi, niente chiusure a effetto o morali, niente domande retoriche.
+- Pochi trattini lunghi (—) e pochi due punti a effetto. Niente elenchi puntati dove basta una frase.
+- Frasi di lunghezza diversa, parole semplici. Rileggi e taglia quello che non dice niente.
+
 ## Regole comuni
 
 - Non fare commit/push automaticamente a meno che l'utente non lo chieda esplicitamente. Se lo chiede, usa il flusso git standard del progetto (git add solo dei file interessati, commit descrittivo, push).

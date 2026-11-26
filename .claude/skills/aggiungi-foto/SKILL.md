@@ -32,7 +32,7 @@ Nelle pagine dei percorsi le foto dell'elenco `foto:` sono numerate per primo, p
 
 4. **Proteggi la privacy** (dettagli sotto): se serve, `griglia` per stimare le aree, `ritaglia` per ingrandire i dubbi, `offusca`, poi riguarda il risultato con Read e ripeti se qualcosa resta riconoscibile.
 
-5. **Scrivi le didascalie** in italiano e inglese. Se l'utente ne dà una, usala alla lettera e traducila. Altrimenti descrivi ciò che si vede, senza inventare fatti storici, e segnala quello che hai dedotto.
+5. **Scrivi le didascalie** in italiano e inglese. Se l'utente ne dà una, usala alla lettera e traducila. Altrimenti descrivi ciò che si vede, senza inventare fatti storici, e segnala quello che hai dedotto. La didascalia non deve sembrare scritta da un'AI: dice cosa e dove, in poche parole semplici, senza aggettivi da cartolina ("suggestivo", "incantevole", "mozzafiato"; in inglese "stunning", "breathtaking", "nestled") e senza trattini lunghi (—).
 
 6. **Installa**: `stato <collection>/<slug>` dà il nome libero, poi `installa <src> <collection>/<slug>/<nome.jpg>` scrive lo stesso file in IT ed EN, raddrizzato, ridotto a 2048 px e senza metadati (quindi senza GPS). Se hai offuscato, `<src>` è il file offuscato. `--sostituisci` serve per rimpiazzare un file esistente.
 

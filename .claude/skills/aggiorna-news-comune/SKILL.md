@@ -41,6 +41,16 @@ Questa skill sincronizza le notizie pubblicate dal Comune di San Vito Romano con
 
 8. **Non fare commit/push automaticamente** a meno che l'utente non lo chieda esplicitamente. Se lo chiede, segui il flusso git standard del progetto (git add dei soli file nuovi, commit con messaggio descrittivo, push).
 
+## Come scrivere i testi
+
+Vale per le news in italiano e in inglese. Il testo non deve sembrare scritto da un'AI, e nemmeno un comunicato burocratico: deve sembrare scritto da uno del posto che spiega agli altri cosa ha deciso il Comune.
+
+- Niente frasi fatte: "si informa la cittadinanza", "un importante passo avanti", "nel cuore di", "un'occasione da non perdere", "a tutto tondo". In inglese niente "nestled", "vibrant", "delve", "a must".
+- Prima i fatti (cosa cambia, per chi, da quando, entro quando, a chi rivolgersi), poi il resto. Se un dettaglio non c'è nell'avviso del Comune, non lo inventi.
+- Niente terne di aggettivi, niente chiusure a effetto o morali, niente domande retoriche.
+- Pochi trattini lunghi (—) e pochi due punti a effetto. Niente elenchi puntati dove basta una frase.
+- Frasi di lunghezza diversa, parole semplici. Rileggi e taglia quello che non dice niente.
+
 ## Note
 
 - Questa skill prende solo le notizie del Comune di San Vito Romano. Non cercare e non proporre di propria iniziativa notizie di altri enti: quelle le indica l'utente, una per una.

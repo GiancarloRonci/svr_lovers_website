@@ -115,6 +115,16 @@ Gli articoli "Il weekend" sono articoli della collection `articoli` (e `articoli
 8. **Versione inglese** in `src/content/articoli-en/<stesso-slug>.md` con titolo `"The Weekend: ... (<dd>-<dd> <Month>)"`, stesse sezioni e stessi eventi, link con prefisso `/en/`.
 9. **Nel riepilogo finale** indica se l'articolo è stato creato o aggiornato e quali eventi hai aggiunto o tolto. Non serve una conferma separata: l'articolo va aggiornato insieme agli eventi, e l'utente lo rivede nel riepilogo prima del commit.
 
+## Come scrivere i testi
+
+Vale per le schede degli eventi, per l'articolo "Il weekend" e per le versioni inglesi. Il testo non deve sembrare scritto da un'AI: deve sembrare scritto da uno del posto che informa gli altri.
+
+- Niente frasi fatte: "immergiti", "un'esperienza indimenticabile", "un vero e proprio gioiello", "perfetto per tutta la famiglia", "non perdere l'occasione", "nel cuore di", "un mix di tradizione e innovazione". In inglese niente "nestled", "vibrant", "hidden gem", "delve", "a must".
+- Prima i fatti (cosa, dove, quando, quanto costa, chi organizza), poi al massimo un'impressione. Se un dettaglio non c'è nella fonte, non lo riempi con aggettivi.
+- Niente terne di aggettivi, niente chiusure a effetto o morali, niente domande retoriche.
+- Pochi trattini lunghi (—) e pochi due punti a effetto. Niente elenchi puntati dove basta una frase.
+- Frasi di lunghezza diversa, parole semplici. Rileggi e taglia quello che non dice niente.
+
 ## Regole comuni
 
 - Non fare commit/push automaticamente a meno che l'utente non lo chieda esplicitamente. Se lo chiede, usa il flusso git standard del progetto (git add/rm solo dei file interessati, commit descrittivo, push).
