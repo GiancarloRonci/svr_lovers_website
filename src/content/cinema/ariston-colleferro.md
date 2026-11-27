@@ -6,7 +6,7 @@ telefono: "389 881 5970"
 sito: http://www.multisale-ariston.it
 minutiAuto: 35
 sale: 6
-aggiornato: 2026-11-27
+aggiornato: 2026-11-28
 fonte:
   nome: ComingSoon
   url: https://www.comingsoon.it/cinema/roma/ariston-colleferro/424/
